@@ -1,0 +1,1508 @@
+{
+ "_doc": "Coleta de 26/10/2026 pela camada de agente. Atualizada ao longo do dia: a reeleicao derrubou o mercado e a pauta de economia mudou inteira. Titulos e URLs transcritos dos resultados; publicado_em so onde o texto da fonte ancora um horario.",
+ "itens": [
+  {
+   "titulo": "Congresso é conservador e é com ele que vou trabalhar, diz Lula",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes/congresso-e-conservador-e-e-com-ele-que-vou-trabalhar-diz-lula/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "O presidente Luiz Inácio Lula da Silva (PT) afirmou neste domingo (25.out.2026) que trabalhará com o Congresso eleito. Avaliações apontam que a composição mais conservadora da Casa dificultará o governo.",
+   "publicado_em": "2026-10-25T20:00:00-03:00"
+  },
+  {
+   "titulo": "Lula: Não escolhi Congresso, o povo escolheu e é com ele que vou trabalhar",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/lula-nao-escolhi-congresso-o-povo-escolheu-e-e-com-ele-que-vou-trabalhar/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Em discurso em São Paulo após a vitória no segundo turno, Lula disse que vai trabalhar com o Congresso eleito.",
+   "publicado_em": "2026-10-25T21:00:00-03:00"
+  },
+  {
+   "titulo": "Davi Alcolumbre pede humildade a Lula e diz que é preciso \"unir o país\"",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/davi-alcolumbre-pede-humildade-a-lula-e-diz-que-e-preciso-unir-o-pais/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "O presidente do Senado pediu humildade ao presidente reeleito e defendeu a união do país.",
+   "publicado_em": "2026-10-25T21:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, divulgado na noite de 25/10 — a matéria não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Bolsonaristas ganham força no Congresso, impulsionada por Flávio",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/bolsonaristas-ganham-forca-no-congresso-impulsionada-por-flavio/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Com base em dados do TSE, o PL deve assegurar a maior bancada da Câmara, com 121 cadeiras, enquanto a federação PT-PCdoB-PV ficaria com cerca de 78. O PP-União deve cair para cerca de 69 deputados."
+  },
+  {
+   "titulo": "Hugo e Alcolumbre pavimentam reeleição no Congresso com vitória de Lula",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/politica/hugo-e-alcolumbre-pavimentam-reeleicao-no-congresso-com-vitoria-de-lula/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Hugo Motta (Republicanos-PB) e Davi Alcolumbre (União-AP) buscam se manter nos cargos. No Senado, Alcolumbre precisa reunir 41 votos para se reeleger. O PL quer a cúpula do Congresso.",
+   "publicado_em": "2026-10-25T21:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, divulgado na noite de 25/10 — a matéria não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Líderes da direita apoiam Flávio após resultado das eleições no Brasil",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/internacional/flavio-lideres-direita-repercussao-1-turno/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Lideranças da direita internacional se manifestaram sobre o resultado da eleição brasileira."
+  },
+  {
+   "titulo": "Milei compartilha post comparando Lula a Maduro após prorrogação da votação",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/internacional/milei-compartilha-post-comparando-lula-a-maduro-apos-prorrogacao-da-votacao/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "O presidente argentino Javier Milei compartilhou uma publicação que compara Lula a Maduro, em meio a debate sobre a apuração no Brasil. A matéria registra que o conteúdo divulga informação falsa sobre a apuração em Salvador.",
+   "publicado_em": "2026-10-25T22:30:00-03:00"
+  },
+  {
+   "titulo": "Líderes no exterior se dividem sobre EUA na Venezuela; leia notas oficiais",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-internacional/lideres-no-exterior-se-dividem-sobre-eua-na-venezuela-leia-notas-oficiais/",
+   "pais": "BR",
+   "editoria": "mundo",
+   "resumo": "Chefes de Estado divulgaram notas com posições divergentes sobre a ação dos Estados Unidos na Venezuela."
+  },
+  {
+   "titulo": "Ibovespa fecha última sessão antes da eleição com alta; dólar cai abaixo de R$ 5,00",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23102026/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Na última sessão antes do segundo turno, o Ibovespa fechou em alta de 0,47%, aos 205.082,56 pontos, e o dólar ficou abaixo de R$ 5,00.",
+   "publicado_em": "2026-10-23T18:30:00-03:00"
+  },
+  {
+   "titulo": "Alívio no IPCA-15 veio de preços voláteis e inflação em 12 meses passou teto da meta",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/economia/ipca-15-outubro-previa-inflacao-fura-meta/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "O IPCA-15 de outubro desacelerou no mês, mas a inflação em 12 meses subiu de 4,47% para 4,62% e ultrapassou o teto de tolerância da meta, de 4,50%. A meta central é de 3,0%."
+  },
+  {
+   "titulo": "Expectativas de Mercado — Relatório Focus de 9 de outubro de 2026",
+   "fonte": "Banco Central",
+   "url": "https://www.bcb.gov.br/content/focus/focus/R20261009.pdf",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "O Focus de 9 de outubro projeta a Selic em 13,50% para 2026. A taxa atual, segundo o Banco Central, está em 13,75%, após a reunião do Copom de 16 de setembro.",
+   "publicado_em": "2026-10-09T09:00:00-03:00"
+  },
+  {
+   "titulo": "INSS começa folha de outubro nesta segunda, 26; veja quem recebe",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/minhas-financas/inss-comeca-folha-de-outubro-nesta-segunda-26-veja-quem-recebe/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "O INSS inicia nesta segunda-feira, 26, o pagamento da folha de outubro. Quem recebe até um salário mínimo é pago conforme o último dígito do cartão, até 9 de novembro. Quem recebe acima do mínimo tem depósitos entre 3 e 9 de novembro. O salário mínimo usado como corte é de R$ 1.621."
+  },
+  {
+   "titulo": "INSS paga 13º salário a novos aposentados em novembro; veja calendário",
+   "fonte": "Exame",
+   "url": "https://exame.com/brasil/inss-paga-13o-salario-a-novos-aposentados-em-novembro-veja-calendario/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Os depósitos do 13º para quem passou a receber benefício após o período de antecipação ocorrem entre 24 de novembro e 7 de dezembro, conforme o número final do cartão."
+  },
+  {
+   "titulo": "13º salário do INSS: quem ainda recebe e quem não terá novo pagamento em 2026",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/minhas-financas/13o-salario-do-inss-quem-ainda-recebe-e-quem-nao-tera-novo-pagamento-em-2026/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Quem já recebeu as duas parcelas antecipadas entre abril e maio não receberá nova parcela em novembro ou dezembro."
+  },
+  {
+   "titulo": "OpenAI cancela GPT-6.1 Astra após IA mentir sobre o que fez e quebrar regras",
+   "fonte": "Canaltech",
+   "url": "https://canaltech.com.br/inteligencia-artificial/openai-cancela-gpt-61-astra-apos-ia-mentir-sobre-o-que-fez-e-quebrar-regras/",
+   "pais": "BR",
+   "editoria": "tecnologia",
+   "resumo": "A OpenAI cancelou o lançamento do GPT-6.1 Astra, que estava previsto para outubro no ChatGPT e no Codex. O modelo não tem nova data. O GPT-6 Astra, versão anterior, foi lançado em setembro."
+  },
+  {
+   "titulo": "Google promete Gemini 4 antes do previsto; veja o que ainda falta no modelo",
+   "fonte": "Canaltech",
+   "url": "https://canaltech.com.br/inteligencia-artificial/google-promete-gemini-4-antes-do-previsto-veja-o-que-ainda-falta-no-modelo/",
+   "pais": "BR",
+   "editoria": "tecnologia",
+   "resumo": "Em setembro, o Google disse que pretendia lançar uma primeira versão do Gemini 4 o mais rápido possível, sem data definida."
+  },
+  {
+   "titulo": "Google avisa assinantes do Gemini sobre transição para novo modelo inteligente",
+   "fonte": "Canaltech",
+   "url": "https://canaltech.com.br/inteligencia-artificial/google-avisa-assinantes-do-gemini-sobre-transicao-para-novo-modelo-inteligente/",
+   "pais": "BR",
+   "editoria": "tecnologia",
+   "resumo": "Assinantes do AI Ultra estão recebendo aviso de que o Gemini 4 Argon deve substituir em breve o Deep Think. A empresa não informou data para a mudança."
+  },
+  {
+   "titulo": "Recursive launches Flint, a laptop coding model it says was largely built by AI",
+   "fonte": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+   "pais": "MUNDO",
+   "editoria": "tecnologia",
+   "resumo": "O modelo de programação roda em notebook e está disponível para download gratuito no Hugging Face, sob licença Apache 2.0.",
+   "publicado_em": "2026-10-21T15:00:00+00:00"
+  },
+  {
+   "titulo": "Novo modelo de voz da Block soa assustadoramente humano",
+   "fonte": "TechCrunch",
+   "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+   "pais": "MUNDO",
+   "editoria": "tecnologia",
+   "resumo": "O modelo de voz da Block não tem acesso público no momento.",
+   "publicado_em": "2026-10-24T16:00:00+00:00",
+   "titulo_original": "Block's new voice model sounds eerily human",
+   "traduzido_de": "inglês"
+  },
+  {
+   "titulo": "NVIDIA lança RTX Spark com GPU Blackwell e até 128 GB de RAM",
+   "fonte": "Canaltech",
+   "url": "https://canaltech.com.br/hardware/nvidia-lanca-rtx-spark-com-gpu-blackwell-e-ate-128-gb-de-ram/",
+   "pais": "BR",
+   "editoria": "tecnologia",
+   "resumo": ""
+  },
+  {
+   "titulo": "Canva lança gerador de imagens próprio que cria artes editáveis em camadas",
+   "fonte": "Canaltech",
+   "url": "https://canaltech.com.br/inteligencia-artificial/canva-lanca-gerador-de-imagens-proprio-que-cria-artes-editaveis-em-camadas/",
+   "pais": "BR",
+   "editoria": "tecnologia",
+   "resumo": "O Craft é o primeiro modelo de geração de imagens da Canva e já está disponível globalmente na plataforma Dream Lab.",
+   "publicado_em": "2026-10-23T12:00:00-03:00"
+  },
+  {
+   "titulo": "Como a guerra de EUA e Israel contra o Irã está causando caos na Europa?",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/25/how-is-the-us-israeli-war-on-iran-causing-havoc-in-europe",
+   "pais": "MUNDO",
+   "editoria": "mundo",
+   "resumo": "Von der Leyen disse que a conta europeia com combustíveis fósseis importados subiu 106 bilhões de euros, e protestos contra o custo de energia se espalharam por capitais europeias. O Brent segue acima de US$ 109 o barril.",
+   "publicado_em": "2026-10-25T12:00:00+00:00",
+   "titulo_original": "How is the US-Israeli war on Iran causing havoc in Europe?",
+   "traduzido_de": "inglês"
+  },
+  {
+   "titulo": "Lavrov backs Tehran, but does Russia also gain from the US-Iran crisis?",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/20/lavrov-backs-tehran-but-does-russia-also-gain-from-the-us-iran-crisis",
+   "pais": "MUNDO",
+   "editoria": "mundo",
+   "resumo": "",
+   "publicado_em": "2026-10-20T10:00:00+00:00"
+  },
+  {
+   "titulo": "Russia's war on Ukraine 'must be brought to an end', Zelenskyy says",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/18/russias-war-on-ukraine-must-be-brought-to-an-end-zelenskyy-says",
+   "pais": "MUNDO",
+   "editoria": "mundo",
+   "resumo": "",
+   "publicado_em": "2026-10-18T11:00:00+00:00"
+  },
+  {
+   "titulo": "India to Turkiye, can new proposals to broker Russia-Ukraine truce succeed?",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/8/india-to-turkiye-can-new-proposals-to-broker-russia-ukraine-truce-succeed",
+   "pais": "MUNDO",
+   "editoria": "mundo",
+   "resumo": "",
+   "publicado_em": "2026-10-08T09:00:00+00:00"
+  },
+  {
+   "titulo": "Europe needs a war economy",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/opinions/2026/10/23/europe-needs-a-war-economy",
+   "pais": "MUNDO",
+   "editoria": "mundo",
+   "resumo": "",
+   "publicado_em": "2026-10-23T08:00:00+00:00"
+  },
+  {
+   "titulo": "Russia returns to G20 table in Bangkok on U.S. invitation that angers Europe",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/16/g20-russia-ukraine-trump-diesel-europe-.html",
+   "pais": "MUNDO",
+   "editoria": "mundo",
+   "resumo": "A reunião de finanças do G20 em Bangcoc terminou sem comunicado conjunto, travada por divergências sobre a guerra no Oriente Médio, desequilíbrios comerciais e a Ucrânia. Os líderes devem se reunir na próxima cúpula do G20, em Miami, em dezembro.",
+   "publicado_em": "2026-10-16T14:00:00+00:00"
+  },
+  {
+   "titulo": "IMF lifts 2026 global growth forecast but resilience is nearing limits",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/12/imf-world-bank-annual-meetings-october-bangkok-asia-.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "O FMI elevou a projeção de crescimento global de 2026, mas o economista-chefe alertou que a resiliência está chegando ao limite. O Fundo espera que o fluxo de petróleo pelo Estreito de Ormuz se recupere no próximo ano.",
+   "publicado_em": "2026-10-12T10:00:00+00:00"
+  },
+  {
+   "titulo": "War and high debt to dominate IMF-World Bank meetings in Bangkok",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/11/war-and-high-debt-to-dominate-imf-world-bank-meetings-in-bangkok",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "",
+   "publicado_em": "2026-10-11T09:00:00+00:00"
+  },
+  {
+   "titulo": "COP17 puts Armenia's environmental record in the spotlight",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/opinions/2026/10/24/cop17-puts-armenias-environmental-record-in-the-spotlight",
+   "pais": "MUNDO",
+   "editoria": "meio-ambiente",
+   "resumo": "",
+   "publicado_em": "2026-10-24T08:00:00+00:00"
+  },
+  {
+   "titulo": "Trump economic approval hits new low before 2026 midterm election",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
+   "pais": "MUNDO",
+   "editoria": "politica",
+   "resumo": "Pesquisa da CNBC divulgada em 22 de outubro mostra a aprovação econômica do presidente em 34%, ante 38% três meses antes, com desaprovação de 65%. Os eleitores preferem o controle democrata do Congresso por 52% a 45%. As eleições de meio de mandato são em 3 de novembro.",
+   "publicado_em": "2026-10-22T11:00:00+00:00"
+  },
+  {
+   "titulo": "Trump anuncia que Audi vai construir fábrica de US$ 4 bilhões na Geórgia, nos EUA",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/24/trump-audi-factory-georgia.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "A Audi planeja construir uma fábrica de montagem de US$ 4 bilhões na Geórgia, que segundo a empresa criará cerca de 4.500 empregos. Críticos apontam que as tarifas elevaram o preço dos veículos.",
+   "publicado_em": "2026-10-24T18:00:00+00:00",
+   "titulo_original": "Trump announces Audi will build $4 billion U.S. factory in Georgia",
+   "traduzido_de": "inglês"
+  },
+  {
+   "titulo": "Trump launches probe into Federal Reserve Governor Lisa Cook",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/9/trump-launches-probe-into-federal-reserve-governor-lisa-cook",
+   "pais": "MUNDO",
+   "editoria": "politica",
+   "resumo": "",
+   "publicado_em": "2026-10-09T14:00:00+00:00"
+  },
+  {
+   "titulo": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/09/trump-lisa-cook-fed-firing-committee-explained.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "Trump criou um comitê de três membros para avaliar a demissão da diretora do Fed Lisa Cook, que nega as acusações. Cook deve participar de audiência na Casa Branca em 5 de novembro e da votação de juros do Fed marcada para 28 de outubro.",
+   "publicado_em": "2026-10-09T16:00:00+00:00"
+  },
+  {
+   "titulo": "Inflation on many everyday items was entirely due to tariffs, NY Fed says",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/08/inflation-tariffs-trump-fed-consumer-goods.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "Estudo do Fed de Nova York aponta alta de 2,9 pontos percentuais na inflação de uma amostra de 67 tipos de bens, até fevereiro, por causa das tarifas impostas em 2025 e no início de 2026.",
+   "publicado_em": "2026-10-08T13:00:00+00:00"
+  },
+  {
+   "titulo": "Trump announces Russian diesel deal amid soaring US fuel prices",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/9/trump-announces-russian-diesel-deal-amid-soaring-us-fuel-prices",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "O preço do diesel subiu 70% desde o início da guerra dos Estados Unidos e de Israel contra o Irã, neste ano.",
+   "publicado_em": "2026-10-09T17:00:00+00:00"
+  },
+  {
+   "titulo": "Premiê britânico Burnham diz querer discutir volta à livre circulação da União Europeia",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/25/uk-pm-burnham-says-he-wants-to-discuss-a-return-to-eu-freedom-of-movement",
+   "pais": "MUNDO",
+   "editoria": "politica",
+   "resumo": "O primeiro-ministro britânico Andy Burnham disse querer discutir o retorno do Reino Unido à livre circulação de trabalhadores da União Europeia. Nigel Farage chamou as declarações de traição ao Brexit. Burnham deve se encontrar com autoridades da UE em cúpula de 20 de novembro. A ONS informou que a migração líquida de longo prazo caiu quase pela metade em 2025, para 171 mil.",
+   "publicado_em": "2026-10-25T15:00:00+00:00",
+   "titulo_original": "UK PM Burnham says he wants to discuss a return to EU freedom of movement",
+   "traduzido_de": "inglês"
+  },
+  {
+   "titulo": "'Every day could cost lives': UK government blocks Gaza families' reunion",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/20/every-day-could-cost-lives-uk-government-blocks-gaza-families-reunion",
+   "pais": "MUNDO",
+   "editoria": "mundo",
+   "resumo": "Um tribunal decidiu em 30 de setembro que famílias separadas de Gaza deveriam ser reunidas no Reino Unido. O Home Office recorre e mantém a exigência de biometria, embora não haja posto de registro em Gaza.",
+   "publicado_em": "2026-10-20T09:00:00+00:00"
+  },
+  {
+   "titulo": "'Unwelcome and unsafe': Why Japanese companies are retreating from China at a historic rate",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/amp/2026/10/05/japanese-companies-leaving-china-takaichi-comment-taiwan.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "A Teikoku Databank contou 10.118 empresas japonesas operando na China em junho, o menor número desde o início do levantamento, em 2010. A relação piorou depois que a primeira-ministra Sanae Takaichi disse ao parlamento que o Japão poderia se envolver militarmente em uma invasão chinesa de Taiwan.",
+   "publicado_em": "2026-10-05T10:00:00+00:00"
+  },
+  {
+   "titulo": "China's exports surge amid AI-driven demand",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/10/14/chinas-exports-sugrge",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "As exportações chinesas subiram 36,3% na comparação anual em setembro, a maior alta mensal desde 2021. As exportações de semicondutores avançaram mais de 108%.",
+   "publicado_em": "2026-10-14T11:00:00+00:00"
+  },
+  {
+   "titulo": "Queda do consumo na China exige estímulo no estilo japonês, diz Alpine Macro",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/video/2026/10/26/chinas-consumer-slump-demands-a-japan-style-stimulus-response.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "A Alpine Macro argumenta que as vendas no varejo quase estagnadas e a deflação persistente na China lembram a estagnação japonesa pós-bolha, e defende estímulo mais forte de Pequim.",
+   "publicado_em": "2026-10-26T06:00:00+00:00",
+   "titulo_original": "China's consumer slump demands a Japan-style stimulus response: Alpine Macro",
+   "traduzido_de": "inglês"
+  },
+  {
+   "titulo": "CNBC Daily Open: China shuts down record 670 banks, new worries over oil and AI",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/06/cnbc-daily-open-china-shuts-down-record-670-banks-new-worries-over-oil-and-ai-.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "Pequim fechou um número recorde de 670 bancos pequenos para reforçar o sistema financeiro.",
+   "publicado_em": "2026-10-06T07:00:00+00:00"
+  },
+  {
+   "titulo": "Vitória de Lula pode ser um ponto de virada para a América Latina",
+   "fonte": "Al Jazeera",
+   "url": "https://www.aljazeera.com/opinions/2026/10/26/lulas-victory-may-be-a-turning-point-for-latin-america",
+   "pais": "MUNDO",
+   "editoria": "politica",
+   "resumo": "Lula venceu Flávio Bolsonaro com 51,8% dos votos contra 48,2%. A análise vê a vitória como possível ponto de virada na guinada à direita na região, e aponta que Milei vem perdendo apoio nas pesquisas antes da eleição presidencial argentina do ano que vem.",
+   "publicado_em": "2026-10-26T07:00:00+00:00",
+   "titulo_original": "Lula's victory may be a turning point for Latin America",
+   "traduzido_de": "inglês"
+  },
+  {
+   "titulo": "Milei deve se encontrar com Eduardo Bolsonaro nos EUA nesta semana",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/luciana-taddeo/internacional/milei-deve-se-encontrar-com-eduardo-bolsonaro-nos-eua-nesta-semana/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": ""
+  },
+  {
+   "titulo": "Inpe: desmatamento na Amazônia atinge menor nível de série histórica",
+   "fonte": "Agência Brasil (EBC)",
+   "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/meio-ambiente/audio/2026-10/inpe-desmatamento-na-amazonia-atinge-menor-nivel-de-serie-historica",
+   "pais": "BR",
+   "editoria": "meio-ambiente",
+   "resumo": "Entre agosto de 2025 e julho de 2026, a Amazônia perdeu 3.335 km² de floresta, a menor área da série iniciada em 1988. No mesmo período, o desmatamento caiu 41,8% na Amazônia e 23,8% no Cerrado."
+  },
+  {
+   "titulo": "Queda de desmatamento no Brasil gera R$ 1,16 trilhão à economia global",
+   "fonte": "Agência Brasil (EBC)",
+   "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/queda-de-desmatamento-no-brasil-gera-r-116-trilhao-economia-global",
+   "pais": "BR",
+   "editoria": "meio-ambiente",
+   "resumo": "Estudo da FGV estima que a redução do desmatamento na Amazônia e no Cerrado desde 2023 pode ter gerado cerca de R$ 1,16 trilhão para a economia mundial, com até R$ 192 bilhões em danos climáticos evitados para a economia brasileira."
+  },
+  {
+   "titulo": "Desmatamento em áreas protegidas da Amazônia e do Cerrado tem queda",
+   "fonte": "Agência Brasil (EBC)",
+   "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-10/desmatamento-em-areas-protegidas-da-amazonia-e-do-cerrado-tem-queda",
+   "pais": "BR",
+   "editoria": "meio-ambiente",
+   "resumo": "Dados do ICMBio apontam 111 km² de desmatamento em unidades de conservação da Amazônia em 2026, 17% a menos que em 2025, quando foram 134 km²."
+  },
+  {
+   "titulo": "Estreias de outubro: o que chega aos cinemas e streamings este mês",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/pop/streaming/estreias-de-outubro-o-que-chega-aos-cinemas-e-streamings-este-mes/",
+   "pais": "BR",
+   "editoria": "cultura",
+   "resumo": "Entre as estreias do mês estão Marília Mendonça: Sentimento Louco (Prime Video, 16/10), Michael (Prime Video, 23/10), Mother Mary (HBO Max, 23/10) e a 4ª temporada de The Witcher (Netflix, 30/10)."
+  },
+  {
+   "titulo": "\"Cara-de-Barro\", \"Michael\" e \"Ninguém Quer\": veja as estreias da semana",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/pop/cinema/cara-de-barro-michael-e-ninguem-quer-veja-as-estreias-da-semana/",
+   "pais": "BR",
+   "editoria": "cultura",
+   "resumo": "Cara-de-Barro estreia só nos cinemas em 22 de outubro. A 3ª temporada de Ninguém Quer chegou à Netflix em 22 de outubro, e Lupin parte 4 em 23 de outubro."
+  },
+  {
+   "titulo": "Lançamentos da Netflix em outubro de 2026: veja os filmes e as séries",
+   "fonte": "Exame",
+   "url": "https://exame.com/casual/lancamentos-da-netflix-em-outubro-de-2026-veja-os-filmes-e-as-series/",
+   "pais": "BR",
+   "editoria": "cultura",
+   "resumo": "A lista inclui A Diplomata (4ª temporada, 15/10), Um Lugar Silencioso e Um Lugar Silencioso: Parte II (15/10) e Anora (23/10)."
+  },
+  {
+   "titulo": "'Sobrevivência' e 'Profundezas' lideram o Top 10 semanal de filmes e séries da Netflix Brasil",
+   "fonte": "Exame",
+   "url": "https://exame.com/pop/sobrevivencia-e-profundezas-lideram-o-top-10-semanal-de-filmes-e-series-da-netflix-brasil/",
+   "pais": "BR",
+   "editoria": "cultura",
+   "resumo": ""
+  },
+  {
+   "titulo": "Cruzeiro leva sustos, mas bate o Remo e se consolida no G4 do Brasileirão",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/esportes/brasileirao/cruzeiro-leva-sustos-mas-bate-o-remo-e-se-consolida-no-g4-do-brasileirao/",
+   "pais": "BR",
+   "editoria": "esporte",
+   "resumo": "Na sexta-feira (23), no Mineirão, na abertura da 32ª rodada, o Cruzeiro derrotou o Remo por 1 a 0. O clássico Cruzeiro x Atlético-MG está marcado para 29 de outubro, às 19h30, na Arena MRV.",
+   "publicado_em": "2026-10-23T23:00:00-03:00"
+  },
+  {
+   "titulo": "Libertadores Feminina 2026: tudo que você precisa saber da competição",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/esportes/libertadores-feminina-2026-tudo-que-voce-precisa-saber-da-competicao/",
+   "pais": "BR",
+   "editoria": "esporte",
+   "resumo": "As quartas de final da Libertadores Feminina foram marcadas para 24 e 25 de outubro, com clubes brasileiros na disputa."
+  },
+  {
+   "titulo": "Veja classificados e confrontos das quartas de final da Libertadores",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/libertadores-da-america/veja-classificados-e-confrontos-das-quartas-de-final-da-libertadores/",
+   "pais": "BR",
+   "editoria": "esporte",
+   "resumo": ""
+  },
+  {
+   "titulo": "PM mobiliza todo efetivo policial durante 2º turno em São Paulo",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/pm-mobiliza-todo-efetivo-policial-durante-2o-turno-em-sao-paulo/",
+   "pais": "BR",
+   "editoria": "cotidiano",
+   "resumo": "A Polícia Militar paulista colocou todo o efetivo na rua, cobrindo os 645 municípios e mais de 11 mil locais de votação.",
+   "publicado_em": "2026-10-25T12:00:00-03:00"
+  },
+  {
+   "titulo": "Brasil registra 32 ocorrências e 3 prisões em flagrante no 2º turno",
+   "fonte": "CNN Brasil",
+   "url": "https://cnnbrasil.com.br/eleicoes/eleicoes-ocorrencias-brasil-hoje-25-outubro-2026",
+   "pais": "BR",
+   "editoria": "cotidiano",
+   "resumo": "O balanço das 9h do Ministério da Justiça contabilizou 32 ocorrências no país, com três autos de prisão em flagrante, incluindo registros no Espírito Santo, em Mato Grosso, na Paraíba e em Sergipe.",
+   "publicado_em": "2026-10-25T10:00:00-03:00"
+  },
+  {
+   "titulo": "Polícia Militar detém cinco pessoas durante o 2º turno em São Paulo",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/policia-militar-detem-cinco-pessoas-durante-o-2o-turno-em-sao-paulo/",
+   "pais": "BR",
+   "editoria": "cotidiano",
+   "resumo": "Até as 12h, cinco pessoas haviam sido detidas. A SSP também registrou casos de uso de celular na cabine de votação e desacato.",
+   "publicado_em": "2026-10-25T13:00:00-03:00"
+  },
+  {
+   "titulo": "Operação no RJ mira esquema de cooperação de PMs com Comando Vermelho",
+   "fonte": "Agência Brasil (EBC)",
+   "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/seguranca/audio/2026-10/operacao-no-rj-mira-esquema-de-cooperacao-de-pms-com-comando-vermelho",
+   "pais": "BR",
+   "editoria": "cotidiano",
+   "resumo": "A Polícia Civil prendeu pelo menos três pessoas em operação contra um esquema que abastecia o Comando Vermelho com drogas e armas. Um policial militar é apontado como integrante de comércio clandestino de armas e munições."
+  },
+  {
+   "titulo": "Polícia Federal e MPSP fazem operação contra tráfico de drogas",
+   "fonte": "Agência Brasil (EBC)",
+   "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-10/policia-federal-e-mpsp-fazem-operacao-contra-trafico-de-drogas",
+   "pais": "BR",
+   "editoria": "cotidiano",
+   "resumo": "A Operação YellowCode, do Gaeco e da PF, cumpre 14 mandados de prisão temporária e 15 de busca e apreensão em cidades de São Paulo e do Paraná, contra tráfico de drogas escondido em eletrodomésticos."
+  },
+  {
+   "titulo": "Dólar hoje dispara 8,2%, aos R$ 5,40, com reação à reeleição de Lula",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26102026-2/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Fechamento: o dólar à vista subiu 8,21%, a R$ 5,403 na venda, depois de bater R$ 5,60 pela manhã. Na sexta, a PTAX fechou em R$ 5,04.",
+   "publicado_em": "2026-10-26T17:30:00-03:00",
+   "data_inferida": "fechamento do pregão de 26/10"
+  },
+  {
+   "titulo": "Dólar sobe 8% e Bolsa tem maior queda desde a pandemia após vitória de Lula",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-outubro-2026/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Ibovespa fecha em -13,88% (176.608 pontos) e dólar a R$ 5,406 (+8,36%); investidores reagem à frustração com o cenário fiscal.",
+   "publicado_em": "2026-10-26T18:15:00-03:00",
+   "data_inferida": "fechamento do pregão de 26/10"
+  },
+  {
+   "titulo": "Dólar opera em alta de mais de 9% após reeleição de Lula e fica acima de R$ 5,46",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/dolar-abre-em-alta-de-mais-de-8-apos-reeleicao-de-lula-e-vai-a-quase-r-6/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "O dólar comercial subia 9,38%, a R$ 5,460. Os juros futuros avançavam em toda a curva.",
+   "publicado_em": "2026-10-26T09:00:00-03:00"
+  },
+  {
+   "titulo": "Ibovespa fecha em baixa de 13,9%, maior queda diária em 6 anos; dólar dispara 8,2%",
+   "fonte": "Exame",
+   "url": "https://exame.com/live-blog/invest/bolsa-dolar-mercado-26-outubro-apos-eleicoes",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Fechamento a 176.608 pontos. UBS diz que o governo precisa mostrar compromisso fiscal antes de o mercado rever a visão; Gavekal vê oportunidade de compra.",
+   "publicado_em": "2026-10-26T18:20:00-03:00",
+   "data_inferida": "fechamento do pregão de 26/10"
+  },
+  {
+   "titulo": "Ibovespa desaba 13% após eleição, em dia de circuit breaker; dólar dispara 8%",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Fechamento: Ibovespa caiu 13,88%, a 176.608 pontos, maior perda desde março de 2020. Na mínima foi a 169.516 (-17%). Dólar subiu cerca de 8%, a R$ 5,40.",
+   "publicado_em": "2026-10-26T18:10:00-03:00",
+   "data_inferida": "fechamento do pregão de 26/10"
+  },
+  {
+   "titulo": "Vitória de Lula pode tirar 17% do Ibovespa e encarecer dólar em até 15%, diz BTG",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/vitoria-de-lula-pode-tirar-17-do-ibovespa-e-encarecer-dolar-em-ate-15-diz-btg/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "O BTG estima queda de até 17% do Ibovespa e alta do dólar de até 15% no cenário de reeleição."
+  },
+  {
+   "titulo": "Dólar pode chegar a R$ 6 com Lula reeleito? Veja até onde a moeda pode ir",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/dolar-pode-chegar-a-r-6-com-lula-reeleito-veja-ate-onde-a-moeda-pode-ir/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "",
+   "publicado_em": "2026-10-25T21:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, divulgado na noite de 25/10 — a matéria não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Como os mercados vão abrir nesta segunda após a reeleição de Lula?",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/como-os-mercados-vao-abrir-nesta-segunda-apos-a-reeleicao-de-lula/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "",
+   "publicado_em": "2026-10-25T21:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, divulgado na noite de 25/10 — a matéria não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Juros dos títulos do Tesouro americano ficam estáveis à espera da decisão do Fed",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/amp/2026/10/26/us-treasury-yields-investors-feds-interest-rate-decision-.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "Os traders precificam mais de 90% de chance de o Fed manter a taxa na faixa de 3,75% a 4% na decisão de 28 de outubro, segundo a ferramenta FedWatch da CME. Para dezembro, a chance de alta está perto de 80%.",
+   "publicado_em": "2026-10-26T12:00:00+00:00",
+   "titulo_original": "U.S. Treasury yields are little changed as investors look ahead to the Fed's rate decision",
+   "traduzido_de": "inglês"
+  },
+  {
+   "titulo": "Ouro sobe enquanto queda do petróleo alivia parte das preocupações com inflação",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/26/gold-gains-on-softer-oil-prices-fed-decision-in-focus.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "A queda do petróleo aliviou parte das preocupações com inflação às vésperas da reunião do Fed.",
+   "publicado_em": "2026-10-26T11:00:00+00:00",
+   "titulo_original": "Gold gains as oil slide cools some inflation concerns",
+   "traduzido_de": "inglês"
+  },
+  {
+   "titulo": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "As falas do presidente do Fed, Kevin Warsh, após a decisão são o foco do mercado.",
+   "publicado_em": "2026-10-16T13:00:00+00:00"
+  },
+  {
+   "titulo": "Traders now see little chance of a Fed rate hike in October after weak jobs report",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "O relatório de empregos de setembro veio fraco, com apenas 29 mil vagas criadas, o que derrubou as apostas de alta de juros em outubro.",
+   "publicado_em": "2026-10-02T14:00:00+00:00"
+  },
+  {
+   "titulo": "Fed officials see another hike coming, but no sign as to when, minutes show",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/07/fed-officials-see-another-hike-coming-but-no-sign-as-to-when-minutes-show.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "A alta de setembro foi a primeira em três anos e veio semanas antes das eleições de meio de mandato, apesar das cobranças do presidente Donald Trump por juros menores.",
+   "publicado_em": "2026-10-07T18:00:00+00:00"
+  },
+  {
+   "titulo": "Nasdaq slides 2% Friday to post worst week since June, pressured by AI sell-off and oil prices",
+   "fonte": "CNBC",
+   "url": "https://www.cnbc.com/2026/10/15/stock-market-today-live-updates.html",
+   "pais": "MUNDO",
+   "editoria": "economia",
+   "resumo": "",
+   "publicado_em": "2026-10-15T21:00:00+00:00"
+  },
+  {
+   "titulo": "Day Trade hoje (26): Ibovespa sob risco de forte queda após reeleição de Lulaa",
+   "fonte": "InfoMoney",
+   "pais": "BR",
+   "editoria": "economia",
+   "url": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-26102026/",
+   "resumo": ""
+  },
+  {
+   "titulo": "XP recomenda evitar decisões no pânico em meio a forte queda do mercado pós-eleição",
+   "fonte": "InfoMoney",
+   "pais": "BR",
+   "editoria": "economia",
+   "url": "https://www.infomoney.com.br/mercados/xp-recomenda-evitar-decisoes-no-panico-em-meio-a-forte-queda-do-mercado-pos-eleicao/",
+   "publicado_em": "2026-10-26T10:00:00-03:00",
+   "data_inferida": "trata da queda que começou na abertura do pregão de 26/10 — a matéria não pode ser anterior a isso",
+   "resumo": ""
+  },
+  {
+   "titulo": "Vale (VALE3) acompanha dólar e dispara após resultado das eleições",
+   "fonte": "InfoMoney",
+   "pais": "BR",
+   "editoria": "economia",
+   "url": "https://www.infomoney.com.br/mercados/vale-vale3-desempenho-eleicoes-segundo-turno-262102026/",
+   "publicado_em": "2026-10-26T10:00:00-03:00",
+   "data_inferida": "trata da queda que começou na abertura do pregão de 26/10 — a matéria não pode ser anterior a isso",
+   "resumo": ""
+  },
+  {
+   "titulo": "Apple apresenta novo iPad mini com tela OLED e chip A20 Pro mais rápido",
+   "fonte": "TechCrunch",
+   "pais": "MUNDO",
+   "idioma": "en",
+   "editoria": "tecnologia",
+   "url": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/",
+   "resumo": "O novo iPad mini tem tela OLED de 8,5 polegadas e chip A20 Pro; segundo a Apple, o desempenho de IA é até 4,5 vezes superior ao da geração anterior. Custa a partir de US$ 699 (Wi-Fi). Pré-venda em 28 de outubro, vendas em 6 de novembro.",
+   "titulo_original": "Apple unveils new iPad mini with OLED display and faster A20 Pro chip",
+   "traduzido_de": "inglês"
+  },
+  {
+   "titulo": "Apple lança iPad Mini com tela OLED e chip A20 Pro; veja preços no Brasil",
+   "fonte": "Tecnoblog",
+   "pais": "BR",
+   "editoria": "tecnologia",
+   "url": "https://tecnoblog.net/noticias/apple-lanca-ipad-mini-com-tela-oled-e-chip-a20-pro-veja-precos-no-brasil",
+   "publicado_em": "2026-10-26T12:00:00-03:00",
+   "data_inferida": "cobre o anúncio da Apple de 26/10 — não pode ser anterior a ele",
+   "resumo": ""
+  },
+  {
+   "titulo": "Anthropic prepara IPO de até US$ 1,75 trilhão e testa apetite de Wall Street por IA",
+   "fonte": "Exame",
+   "pais": "BR",
+   "editoria": "tecnologia",
+   "url": "https://exame.com/insight/anthropic-prepara-ipo-de-ate-us-175-trilhao-e-testa-apetite-de-wall-street-por-ia/p",
+   "publicado_em": "2026-10-26T12:00:00-03:00",
+   "data_inferida": "o texto diz que o prospecto foi divulgado nesta segunda (26/10)",
+   "resumo": "A empresa de IA divulgou o prospecto do IPO, que pode avaliá-la entre US$ 1,5 trilhão e US$ 1,75 trilhão."
+  },
+  {
+   "titulo": "Anthropic entra oficialmente com pedido para abrir capital",
+   "fonte": "TechCrunch",
+   "pais": "MUNDO",
+   "idioma": "en",
+   "editoria": "tecnologia",
+   "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+   "resumo": "A Anthropic entrou com o pedido de IPO, com o ticker ANT. Pelo registro na SEC, a receita foi de US$ 16,3 bilhões no primeiro semestre de 2026. A estreia deve ocorrer em novembro; a empresa ainda não divulgou quanto pretende captar nem o preço das ações.",
+   "titulo_original": "Anthropic officially files for its public debut",
+   "traduzido_de": "inglês"
+  },
+  {
+   "titulo": "Leia e assista à íntegra do pronunciamento da vitória de Lula",
+   "fonte": "Poder360",
+   "pais": "BR",
+   "editoria": "politica",
+   "url": "https://poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-pronunciamento-da-vitoria-de-lula-2",
+   "publicado_em": "2026-10-25T21:00:00-03:00",
+   "data_inferida": "é o discurso da vitória, feito na noite de 25/10 — não pode ser anterior",
+   "resumo": "Lula prometeu mudar a forma de governar, com mais participação popular nas decisões e mais espaço para a comunicação digital. A posse é em 5 de janeiro. Flávio Bolsonaro não reconheceu a derrota e disse que pedirá a anulação do resultado."
+  },
+  {
+   "titulo": "Lula reeleito: Líderes mundiais reagem à 4ª vitória eleitoral do presidente",
+   "fonte": "CNN Brasil",
+   "pais": "BR",
+   "editoria": "mundo",
+   "url": "https://www.cnnbrasil.com.br/internacional/lula-reeleito-lideres-mundiais-reagem-a-4a-vitoria-eleitoral-do-presidente/",
+   "publicado_em": "2026-10-26T09:00:00-03:00",
+   "data_inferida": "o texto registra a situação 'até a manhã de 26 de outubro'",
+   "resumo": "Presidentes de direita do Chile, do Peru e da Colômbia reconheceram o resultado. O Kremlin disse ter recebido bem a vitória, e o premiê canadense Mark Carney e o chanceler alemão Friedrich Merz parabenizaram Lula. Donald Trump e Javier Milei não haviam se manifestado até a manhã de 26."
+  },
+  {
+   "titulo": "Imprensa internacional repercute reeleição de Lula no Brasil",
+   "fonte": "CNN Brasil",
+   "pais": "BR",
+   "editoria": "mundo",
+   "url": "https://www.cnnbrasil.com.br/noticias/imprensa-internacional-repercute-reeleicao-de-lula-no-brasil/",
+   "publicado_em": "2026-10-25T21:00:00-03:00",
+   "data_inferida": "repercute o resultado do 2º turno, divulgado na noite de 25/10 — não pode ser anterior",
+   "resumo": "O New York Times destacou a vitória na manchete online; o Washington Post a viu como um freio à guinada à direita na América Latina. O Guardian ressaltou a virada inédita de quem perdeu o primeiro turno e conquistou o quarto mandato."
+  },
+  {
+   "titulo": "Imprensa internacional destaca vitória histórica de Lula",
+   "fonte": "Agência Brasil (EBC)",
+   "pais": "BR",
+   "editoria": "mundo",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/imprensa-internacional-destaca-vitoria-historica-de-lula",
+   "publicado_em": "2026-10-25T21:00:00-03:00",
+   "data_inferida": "repercute o resultado do 2º turno, divulgado na noite de 25/10 — não pode ser anterior",
+   "resumo": "O El País enfatizou a diferença de cerca de 4 milhões de votos e a posição de Lula como resistência a Trump. O Le Monde mencionou a prorrogação do horário de votação determinada pelo STF."
+  },
+  {
+   "titulo": "Saiba o que os jornais internacionais dizem sobre a vitória de Lula",
+   "fonte": "Poder360",
+   "pais": "BR",
+   "editoria": "mundo",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-o-que-os-jornais-internacionais-dizem-sobre-a-vitoria-de-lula/",
+   "publicado_em": "2026-10-25T21:00:00-03:00",
+   "data_inferida": "repercute o resultado do 2º turno, divulgado na noite de 25/10 — não pode ser anterior",
+   "resumo": "O Clarín, da Argentina, destacou que Lula reverteu a situação e permanece no poder por mais quatro anos."
+  },
+  {
+   "titulo": "Flávio não reconhece vitória de Lula e diz que pedirá anulação das eleições",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-pedira-anulacao-das-eleicoes/",
+   "publicado_em": "2026-10-25T22:00:00-03:00",
+   "data_inferida": "declaração feita na noite de domingo, 25/10, após o resultado — a matéria não pode ser anterior",
+   "editoria": "politica",
+   "pais": "BR",
+   "resumo": "Flávio Bolsonaro (PL) disse no domingo à noite que não aceita o resultado e que a equipe jurídica vai pedir a anulação. Ele critica a decisão do ministro do STF Cristiano Zanin de estender a votação até as 19h. Lula teve 51,79% dos votos válidos, contra 48,21%."
+  },
+  {
+   "titulo": "Flávio não aceita derrota e diz que pedirá a anulação do resultado",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-nao-aceita-derrota-e-diz-que-pedira-a-anulacao-do-resultado/",
+   "publicado_em": "2026-10-25T22:00:00-03:00",
+   "data_inferida": "declaração feita na noite de domingo, 25/10, após o resultado — a matéria não pode ser anterior",
+   "editoria": "politica",
+   "pais": "BR",
+   "resumo": "Segundo o TSE, a prorrogação do horário valeu só para as seções que ainda estavam abertas às 17h; a medida foi tomada por relatos de dificuldade no transporte de eleitores, sobretudo na Bahia e em São Paulo."
+  },
+  {
+   "titulo": "Flávio não reconhece vitória de Lula e tentará anulação do pleito",
+   "fonte": "Agência Brasil (EBC)",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-nao-reconhece-vitoria-de-lula-e-tentara-anulacao-do-pleito",
+   "publicado_em": "2026-10-25T22:00:00-03:00",
+   "data_inferida": "declaração feita na noite de domingo, 25/10, após o resultado — a matéria não pode ser anterior",
+   "editoria": "politica",
+   "pais": "BR",
+   "resumo": ""
+  },
+  {
+   "titulo": "TSE afirma ter imagens de fiscais do PL durante apuração",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-afirma-ter-imagens-de-fiscais-do-pl-durante-apuracao/",
+   "publicado_em": "2026-10-25T22:00:00-03:00",
+   "data_inferida": "trata da apuração do 2º turno, concluída na noite de 25/10 — não pode ser anterior",
+   "editoria": "politica",
+   "pais": "BR",
+   "resumo": "O PL diz que seus fiscais foram retirados da sala-cofre após a decisão de Zanin; o TSE afirma ter imagens deles durante a apuração."
+  },
+  {
+   "titulo": "Após eleição de Lula, até onde podem cair as ações de PETR4, ITUB4, BBAS3 e VALE3?",
+   "fonte": "InfoMoney",
+   "url": "https://infomoney.com.br/mercados/apos-eleicao-de-lula-ate-onde-podem-cair-as-acoes-petr4-itub4-bbas3-e-vale3",
+   "publicado_em": "2026-10-25T22:00:00-03:00",
+   "data_inferida": "fala da reeleição, confirmada na noite de 25/10 — não pode ser anterior",
+   "editoria": "economia",
+   "pais": "BR",
+   "resumo": ""
+  },
+  {
+   "titulo": "Reeleição de Lula, Focus e dívida pública: o que move os mercados",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/reeleicao-de-lula-focus-e-divida-publica-o-que-move-os-mercados/",
+   "publicado_em": "2026-10-25T22:00:00-03:00",
+   "data_inferida": "fala da reeleição, confirmada na noite de 25/10 — não pode ser anterior",
+   "editoria": "economia",
+   "pais": "BR",
+   "resumo": ""
+  },
+  {
+   "titulo": "TSE desmente Flávio e diz que não retirou fiscais do PL de sala-cofre",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tse-desmente-flavio-e-diz-que-nao-retirou-fiscais-do-pl-de-sala-cofre/",
+   "publicado_em": "2026-10-25T22:00:00-03:00",
+   "data_inferida": "responde à declaração de Flávio na noite de 25/10 — não pode ser anterior",
+   "editoria": "politica",
+   "pais": "BR",
+   "resumo": "A Justiça Eleitoral classificou como falsa a afirmação de que fiscais do PL foram retirados da sala-cofre. A campanha de Flávio também havia pedido prorrogação da votação em 19 cidades de SP, PR e SC."
+  },
+  {
+   "titulo": "Joice Hasselmann ironiza Flávio por querer anular eleição",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/joice-hasselmann-ironiza-flavio-por-querer-anular-eleicao/",
+   "publicado_em": "2026-10-25T22:00:00-03:00",
+   "data_inferida": "responde à declaração de Flávio na noite de 25/10 — não pode ser anterior",
+   "editoria": "politica",
+   "pais": "BR",
+   "resumo": "O anúncio não altera o resultado das urnas; caberá à Justiça analisar um eventual pedido."
+  },
+  {
+   "titulo": "Flávio Bolsonaro diz que vai pedir anulação das eleições",
+   "fonte": "Agência Brasil (EBC)",
+   "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-10/flavio-bolsonaro-diz-que-vai-pedir-anulacao-das-eleicoes",
+   "publicado_em": "2026-10-25T22:00:00-03:00",
+   "data_inferida": "responde à declaração de Flávio na noite de 25/10 — não pode ser anterior",
+   "editoria": "politica",
+   "pais": "BR",
+   "resumo": ""
+  },
+  {
+   "titulo": "Ibovespa Futuro desaba quase 20% após vitória de Lula frustrar expectativa do mercado",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-hoje-abertura-26102026/",
+   "editoria": "economia",
+   "pais": "BR",
+   "resumo": "JPMorgan espera o dólar perto de R$ 5,50 nos próximos dias; Morgan Stanley vê entre R$ 5,50 e R$ 5,70. Para o Goldman, orçamento de 2027, o nome do ministro da Fazenda e a relação com o Congresso serão centrais."
+  },
+  {
+   "titulo": "O que aconteceu hoje é inaceitável, diz Flávio sobre Zanin",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/o-que-aconteceu-hoje-e-inaceitavel-diz-flavio-sobre-zanin/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Flávio contesta a decisão de Cristiano Zanin que prorrogou a votação até 19h e alega quebra de isonomia entre eleitores de estados diferentes.",
+   "publicado_em": "2026-10-25T20:30:00-03:00",
+   "data_inferida": "reação à apuração do 2º turno, na noite de 25/10 — a matéria não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Kassio diz que prorrogação não comprometeu eleição: \"Absoluta confiança\"",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/kassio-diz-que-prorrogacao-nao-comprometeu-eleicao-absoluta-confianca/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Presidente do TSE, Kassio Nunes Marques afirma que manter as seções abertas até 19h não afetou a lisura do pleito.",
+   "publicado_em": "2026-10-25T21:30:00-03:00",
+   "data_inferida": "reação à apuração do 2º turno, na noite de 25/10 — a matéria não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Ibovespa cai mais 17% após 'circuit breaker' e dólar sobe 10%; ações caem até 60%",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/ibovespa-cai-mais-17-apos-circuit-breaker-e-dolar-sobe-10-acoes-caem-ate-60/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Depois do primeiro circuit breaker desde 2020, a bolsa voltou a cair forte; é a maior queda desde o Plano Collor. Vamos e C&A recuam mais de 40%.",
+   "publicado_em": "2026-10-26T12:30:00-03:00",
+   "data_inferida": "pregão de 26/10, após o circuit breaker da manhã"
+  },
+  {
+   "titulo": "Votos registrados após 17h foram 0,027% do total computado no 2° turno",
+   "fonte": "CNN Brasil",
+   "url": "https://cnnbrasil.com.br/eleicoes/votos-registrados-apos-17h-foram-0027-do-total-computado-no-2-turno",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Os votos dados na prorrogação até 19h representaram fração mínima do total, número que pesa contra o pedido de anulação de Flávio.",
+   "publicado_em": "2026-10-25T23:00:00-03:00",
+   "data_inferida": "depende da apuração do 2º turno, concluída na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Lula é reeleito presidente da República no 2º turno",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/lula-e-reeleito-presidente-da-republica-no-2o-turno/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Com 100% das urnas apuradas, Lula teve 51,79% dos votos válidos (64,2 milhões), contra 48,21% de Flávio Bolsonaro (59,8 milhões).",
+   "publicado_em": "2026-10-25T20:00:00-03:00",
+   "data_inferida": "depende da apuração do 2º turno, concluída na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Votação prorrogada: veja cronologia que levou a impasse entre STF e TSE",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/votacao-prorrogada-veja-cronologia-que-levou-a-impasse-entre-stf-e-tse/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "A decisão de Zanin de estender a votação até 19h, seguida pelo TSE de Kassio Nunes Marques, passo a passo.",
+   "publicado_em": "2026-10-25T22:00:00-03:00",
+   "data_inferida": "cronologia do dia da votação, 25/10 — publicada no próprio dia ou depois"
+  },
+  {
+   "titulo": "Imprensa internacional repercute reeleição de Lula no Brasil",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/internacional/imprensa-internacional-repercute-reeleicao-de-lula-no-brasil/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Jornais estrangeiros destacam a virada; o La Nación cita a controvérsia sobre a prorrogação do horário de votação.",
+   "publicado_em": "2026-10-25T23:30:00-03:00",
+   "data_inferida": "depende da apuração do 2º turno, concluída na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Minidólar (WDOX26): reeleição de Lula eleva risco de disparada do dólar nesta segunda",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-26102026/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Juros futuros saltaram mais de 300 pontos-base no início do pregão e o mercado passou a precificar alta da Selic em novembro."
+  },
+  {
+   "titulo": "Análise: Lula acena ao centro e promete mudar governo",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/taina-falcao/eleicoes/analise-lula-acena-ao-centro-e-promete-mudar-governo/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Centrão quer manter cargos; Camilo Santana é cotado para a Casa Civil e Rafael Fonteles para a Fazenda. Partidos de centro cobram medidas de controle das contas públicas.",
+   "publicado_em": "2026-10-25T23:00:00-03:00",
+   "data_inferida": "analisa o discurso da vitória, na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Juros futuros sobem mais de 260 pontos-base após vitória de Lula",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-sobem-mais-de-260-pontos-base-apos-vitoria-de-lula/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "A curva de DIs passou a precificar alta da Selic em novembro; para a MA7 Capital, ela já indica o fim dos cortes de juros.",
+   "publicado_em": "2026-10-26T12:00:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "Lula reeleito deixa ações do Banco do Brasil mais expostas que as da Petrobras",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/petrobras-banco-do-brasil-acoes-lula-reeleito/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Petrobras aparece mais protegida por petróleo e dividendos (BTG estima yield de 11%); BB depende da inadimplência no agro e perde a tese de privatização.",
+   "publicado_em": "2026-10-26T11:00:00-03:00",
+   "data_inferida": "trata do resultado do 2º turno (noite de 25/10) — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "170 mil é o piso? O que esperar para o Ibovespa após forte queda com vitória de Lula",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-170-mil-pontos-e-o-piso-o-que-esperar-para-indice-apos-forte-queda-com-vitoria-de-lula/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Analistas discutem se 170 mil pontos segura o índice; para a Wiser, o que define o rumo são as próximas decisões fiscais.",
+   "publicado_em": "2026-10-26T14:00:00-03:00",
+   "data_inferida": "comenta a queda do pregão de 26/10"
+  },
+  {
+   "titulo": "Empresas brasileiras despencam mais de 20% no exterior após vitória de Lula",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/adrs-de-empresas-brasileiras-despencam-mais-de-20-apos-vitoria-de-lula/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "ADRs de companhias brasileiras negociados em Nova York recuam mais de 20% após o resultado da eleição.",
+   "publicado_em": "2026-10-26T11:30:00-03:00",
+   "data_inferida": "trata do resultado do 2º turno (noite de 25/10) — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Alcolumbre e Motta reconhecem vitória de Lula, mas fazem cobranças",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-e-motta-reconhecem-vitoria-de-lula-mas-fazem-cobrancas/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Em pronunciamento conjunto, os presidentes do Senado e da Câmara falam em pacificação; Alcolumbre avisa que o Legislativo seguirá agenda própria e pode ter embates com o governo.",
+   "publicado_em": "2026-10-25T22:30:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Motta e Alcolumbre, líderes do Congresso Nacional, parabenizam Lula",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/motta-e-alcolumbre-lideres-do-congresso-nacional-parabenizam-lula",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Motta diz que o país passou quatro anos radicalizado e que a vitória dá a Lula chance de reconciliar o Brasil.",
+   "publicado_em": "2026-10-25T22:30:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Alcolumbre diz que Flávio é \"amigo do Senado\" e cita sua votação de 60 mi",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/alcolumbre-diz-que-flavio-e-amigo-do-senado-e-cita-sua-votacao-de-60-mi/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "O presidente do Senado acena ao derrotado e lembra os quase 60 milhões de votos de Flávio.",
+   "publicado_em": "2026-10-25T23:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Após vitória de Lula, Tesouro cancela leilões de prefixados e IPCA+ da semana",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/onde-investir/apos-vitoria-de-lula-tesouro-cancela-leiloes-de-prefixados-e-ipca-da-semana/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Saem os leilões de NTN-B (27) e de LTN e NTN-F (29); LFT mantidas. O Tesouro Direto segue normal.",
+   "publicado_em": "2026-10-26T12:00:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "Tesouro suspende leilões de títulos prefixados e atrelados à inflação após vitória de Lula",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/tesouro-suspende-leiloes-de-titulos-prefixados-e-atrelados-a-inflacao-apos-vitoria-de-lula/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "A medida busca não pressionar ainda mais as taxas dos títulos e dos DIs, cujos limites de alta foram ampliados pela B3.",
+   "publicado_em": "2026-10-26T12:00:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "Ibovespa desaba 17% e vai a 170 mil pontos após vitória de Lula nas eleições",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/ibovespa-desaba-17-e-vai-a-170-mil-pontos-apos-vitoria-de-lula-nas-eleicoes/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Na abertura o índice caía 16,88%, a 170.431 pontos, e a B3 acionou o circuit breaker pela primeira vez desde 2020.",
+   "publicado_em": "2026-10-26T10:30:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "Entenda como Flávio contestou resultado das urnas após vitória de Lula",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/entenda-como-flavio-contestou-resultado-das-urnas-apos-vitoria-de-lula/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Os relatos de falta de ônibus e filas em São Paulo e Salvador que levaram à prorrogação, e como Flávio os usa para contestar o resultado.",
+   "publicado_em": "2026-10-26T10:00:00-03:00",
+   "data_inferida": "trata do resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Lula avançou frente à Flávio em 97% das cidades brasileiras e virou em 213",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/lula-avancou-frente-a-flavio-em-97-das-cidades-brasileiras-e-virou-em-213/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Na comparação com o 1º turno, Lula cresceu em quase todos os municípios e venceu por mais de 4,4 milhões de votos.",
+   "publicado_em": "2026-10-26T09:00:00-03:00",
+   "data_inferida": "trata do resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Leia e assista à íntegra do discurso de Flávio Bolsonaro",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-e-assista-a-integra-do-discurso-de-flavio-bolsonaro/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "O discurso em que o candidato do PL diz não reconhecer o resultado e anuncia pedido de anulação.",
+   "publicado_em": "2026-10-25T21:30:00-03:00",
+   "data_inferida": "trata do resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Mercados argentinos despencam após reeleição de Lula no Brasil",
+   "fonte": "CNN Brasil",
+   "url": "https://cnnbrasil.com.br/economia/money/mercado/mercados-argentinos-despencam-apos-reeleicao-de-lula-no-brasil",
+   "pais": "AR",
+   "editoria": "economia",
+   "resumo": "O contágio chega a Buenos Aires: ações e títulos argentinos caem com a reação ao resultado no Brasil.",
+   "publicado_em": "2026-10-26T12:00:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "B3 aciona circuit breaker pela primeira vez desde 2020 após reeleição de Lula",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/b3-aciona-circuit-breaker-pela-primeira-vez-desde-2020-apos-reeleicao-de-lula/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "As negociações foram suspensas por 30 minutos logo na abertura.",
+   "publicado_em": "2026-10-26T10:15:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "Vice de Tarcísio sai na frente e reconhece derrota de Flávio",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/vice-de-tarcisio-sai-na-frente-e-reconhece-derrota-de-flavio/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Felício Ramuth (MDB) diz respeitar o resultado e lembra que o próprio PL pediu a prorrogação do horário de votação.",
+   "publicado_em": "2026-10-26T10:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Tarcísio fez projeção errada do resultado da eleição; veja vídeo",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-fez-projecao-errada-do-resultado-da-eleicao-veja-video/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "O governador de SP previa vitória de Flávio por 6 milhões de votos; até agora não comentou o resultado.",
+   "publicado_em": "2026-10-26T09:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "PL, PP e Republicanos vão governar 64% dos brasileiros nos estados",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/pl-pp-e-republicanos-vao-governar-64-dos-brasileiros-nos-estados/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Mesmo com a derrota nacional, aliados de Flávio comandarão estados que somam quase dois terços da população.",
+   "publicado_em": "2026-10-25T23:30:00-03:00",
+   "data_inferida": "depende dos resultados estaduais do 2º turno, na noite de 25/10"
+  },
+  {
+   "titulo": "Ibovespa futuro desaba 15% e juros disparam após reeleição de Lula",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/ibovespa-futuro-desaba-15-e-juros-disparam-apos-reeleicao-de-lula/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Antes da abertura do à vista, o contrato futuro já despencava e a curva de DIs disparava.",
+   "publicado_em": "2026-10-26T09:15:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "“Vamos mudar o jeito de governar este país”, diz Lula",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/vamos-mudar-o-jeito-de-governar-este-pais-diz-lula",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "No discurso da vitória, Lula promete mais participação popular, economia digital como eixo do governo e data centers com energia renovável.",
+   "publicado_em": "2026-10-25T22:30:00-03:00",
+   "data_inferida": "discurso da vitória, na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Lula diz que melhorará comunicação e conversará com povo brasileiro",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/lula-diz-que-melhorara-comunicacao-e-conversara-com-povo-brasileiro/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Lula diz ter dois meses para planejar o novo mandato e vai se reunir com empresários, educadores, cientistas e movimentos de mulheres.",
+   "publicado_em": "2026-10-25T22:45:00-03:00",
+   "data_inferida": "discurso da vitória, na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Nunca ganhei eleição no 1º, mas nunca perdi no 2º turno, diz Lula",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/nunca-ganhei-eleicao-no-1o-mas-nunca-perdi-no-2o-turno-diz-lula/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Na comemoração, o presidente reeleito lembra o histórico de vitórias em segundo turno.",
+   "publicado_em": "2026-10-25T22:30:00-03:00",
+   "data_inferida": "discurso da vitória, na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Corinthians parece o Bolsonaro, só perde, diz Lula",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/corinthians-parece-o-bolsonaro-so-perde-diz-lula/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Na fala após a vitória, Lula provoca o adversário com uma piada sobre o próprio time.",
+   "publicado_em": "2026-10-25T23:00:00-03:00",
+   "data_inferida": "discurso da vitória, na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Mini-índice (WINZ26): vitória de Lula eleva risco de forte queda e correção",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-26102026/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Análise técnica do contrato futuro antes da abertura: risco de forte queda na primeira sessão após a eleição.",
+   "publicado_em": "2026-10-26T08:30:00-03:00",
+   "data_inferida": "prévia do pregão de 26/10"
+  },
+  {
+   "titulo": "Bolsa tomba 15% após vitória de Lula e registra uma das maiores quedas da história",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/bolsa-tomba-15-apos-vitoria-de-lula-e-registra-uma-das-maiores-quedas-da-historia/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Sessão entra para a lista das piores da B3, com circuit breaker logo na abertura.",
+   "publicado_em": "2026-10-26T15:00:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "Bolsa caminha para uma das maiores quedas desde o Plano Real",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/bolsa-caminha-para-uma-das-maiores-quedas-desde-o-plano-real/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Comparação histórica da queda do Ibovespa no primeiro pregão após a reeleição.",
+   "publicado_em": "2026-10-26T14:00:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "Bolsa em circuit breaker: qual a última vez que o mecanismo foi acionado?",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/bolsa-em-circuit-breaker-qual-a-ultima-vez-que-o-mecanismo-foi-acionado/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Explica o mecanismo e lembra os acionamentos de março de 2020, na pandemia.",
+   "publicado_em": "2026-10-26T10:30:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "JPMorgan: Ibovespa deve cair 20% e dólar ir a R$ 5,50 nos próximos dias após eleição",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/jpmorgan-ibovespa-deve-cair-20-e-dolar-ir-a-r-550-nos-proximos-dias-apos-eleicao-lula/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "O banco projeta queda de cerca de 20% do índice e dólar a R$ 5,50 nos dias seguintes à reeleição.",
+   "publicado_em": "2026-10-26T08:00:00-03:00",
+   "data_inferida": "projeção feita após o resultado do 2º turno (noite de 25/10)"
+  },
+  {
+   "titulo": "Tesouro intervém no mercado e recompra até 15 milhões de títulos prefixados",
+   "fonte": "InfoMoney",
+   "url": "https://infomoney.com.br/onde-investir/tesouro-intervem-no-mercado-e-recompra-ate-15-milhoes-de-titulos-prefixados",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Operação extraordinária só com dealers, para conter a disparada das taxas; liquidação na terça (27).",
+   "publicado_em": "2026-10-26T15:30:00-03:00",
+   "data_inferida": "recompras anunciadas em 26/10, após a reeleição, com liquidação em 27/10"
+  },
+  {
+   "titulo": "Tesouro amplia intervenção e anuncia recompra de títulos atrelados à inflação",
+   "fonte": "InfoMoney",
+   "url": "https://infomoney.com.br/onde-investir/tesouro-amplia-intervencao-e-anuncia-recompra-de-titulos-atrelados-a-inflacao",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Segunda recompra do dia, agora de NTN-B, depois de cancelar os leilões da semana.",
+   "publicado_em": "2026-10-26T16:30:00-03:00",
+   "data_inferida": "recompras anunciadas em 26/10, após a reeleição, com liquidação em 27/10"
+  },
+  {
+   "titulo": "Quarteto de aliados sugeriu a Flávio reconhecer derrota e ligar para Lula",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/daniel-rittner/eleicoes/quarteto-de-aliados-sugeriu-a-flavio-reconhecer-derrota-e-ligar-para-lula/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Quatro pessoas próximas aconselharam Flávio a reconhecer o resultado; a sugestão foi vencida internamente.",
+   "publicado_em": "2026-10-26T10:00:00-03:00",
+   "data_inferida": "trata do resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Lula é reeleito presidente do Brasil em virada histórica",
+   "fonte": "Agência Brasil",
+   "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/lula-e-reeleito-presidente-do-brasil-em-virada-historica",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Lula conquista o quarto mandato com 51,79% dos votos válidos, depois de chegar atrás nas pesquisas.",
+   "publicado_em": "2026-10-25T20:30:00-03:00",
+   "data_inferida": "trata do resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Lula é eleito pela 4ª vez e supera recorde de longevidade na democracia",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-eleito-pela-4a-vez-e-supera-recorde-de-longevidade-na-democracia/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Com o novo mandato, Lula passa a ser o presidente com mais tempo no cargo em regime democrático.",
+   "publicado_em": "2026-10-25T20:30:00-03:00",
+   "data_inferida": "trata do resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Após vitória de Lula e circuit breaker, Gavekal vê oportunidade no tombo dos ativos brasileiros",
+   "fonte": "Exame",
+   "url": "https://exame.com/insight/apos-vitoria-de-lula-e-circuit-breaker-gavekal-ve-oportunidade-na-ressaca-dos-ativos-brasileiros/p",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "A gestora vê chance de compra para estrangeiros, mas diz que o fiscal seguirá decisivo; o Congresso pode conter gastos.",
+   "publicado_em": "2026-10-26T17:00:00-03:00",
+   "data_inferida": "comenta o circuit breaker de 26/10"
+  },
+  {
+   "titulo": "O que Lula já disse sobre ajuste fiscal e o que falta esclarecer para o 4º mandato",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/politica/o-que-lula-ja-disse-sobre-ajuste-fiscal-e-o-que-falta-esclarecer-para-o-4o-mandato/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Durigan promete preservar o arcabouço e melhorar o primário aos poucos; o desequilíbrio não se resolve no primeiro ano.",
+   "publicado_em": "2026-10-26T16:00:00-03:00",
+   "data_inferida": "trata do resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Lula avalia aceno em defesa da redução de gastos públicos",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/lula-avalia-aceno-em-defesa-da-reducao-de-gastos-publicos/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Diante do tombo do mercado, o presidente reeleito estuda sinalizar compromisso com corte de despesas.",
+   "publicado_em": "2026-10-26T17:30:00-03:00",
+   "data_inferida": "reação ao tombo do mercado em 26/10"
+  },
+  {
+   "titulo": "Centrão acena a Lula e tentará manter cargos em novo governo",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/blogs/taina-falcao/eleicoes/centrao-acena-a-lula-e-tentara-manter-cargos-em-novo-governo/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Mesmo tendo apoiado Flávio no 2º turno, o MDB quer seguir com Transportes, Cidades e Planejamento; Lula ainda negocia as presidências da Câmara e do Senado.",
+   "publicado_em": "2026-10-26T12:00:00-03:00",
+   "data_inferida": "trata do novo governo após o resultado do 2º turno (noite de 25/10)"
+  },
+  {
+   "titulo": "Tarcísio vota no 2º turno e diz que \"missão é ajudar Flávio\"",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tarcisio-de-freitas-governador-reeleito-de-sp-vota-no-2o-turno/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Antes da apuração, o governador de SP disse que seu papel seria ajudar Flávio a governar; depois da derrota, segue sem se manifestar.",
+   "publicado_em": "2026-10-25T10:30:00-03:00",
+   "data_inferida": "fala no dia da votação do 2º turno, 25/10"
+  },
+  {
+   "titulo": "Tarcísio vota e diz que Flávio será “presidente da pacificação”",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-vota-e-diz-que-flavio-sera-presidente-da-pacificacao/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Ao votar, Tarcísio se disse confiante na vitória de Flávio e criticou a decisão de Zanin de prorrogar a votação.",
+   "publicado_em": "2026-10-25T10:30:00-03:00",
+   "data_inferida": "fala no dia da votação do 2º turno, 25/10"
+  },
+  {
+   "titulo": "Tarcísio fala em pacificação e diz que Flávio terá “equipe do coração dele”",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/tarcisio-fala-em-pacificacao-e-diz-que-flavio-tera-equipe-do-coracao-dele/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Fala do governador no dia da votação, quando ainda contava com a vitória do aliado.",
+   "publicado_em": "2026-10-25T11:00:00-03:00",
+   "data_inferida": "fala no dia da votação do 2º turno, 25/10"
+  },
+  {
+   "titulo": "Calendário econômico: resultado das eleições e decisão do Fed são destaques da semana",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/calendario-economico-resultado-das-eleicoes-e-decisao-do-fed-sao-destaques-da-semana/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Fed decide na quarta (28), às 15h, com 90% de chance de manter os juros entre 3,75% e 4%; para dezembro, o mercado vê 70% de chance de alta.",
+   "publicado_em": "2026-10-25T18:00:00-03:00",
+   "data_inferida": "agenda da semana de 26/10, com o resultado do 2º turno e o Fed de 27–28/10"
+  },
+  {
+   "titulo": "Partidos aliados de Flávio reconhecem vitória de Lula na eleição",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/partidos-aliados-de-flavio-reconhecem-vitoria-de-lula-na-eleicao/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Republicanos, Podemos e União Brasil, que apoiaram Flávio, parabenizaram o presidente reeleito; Marcos Pereira pede que Lula governe para todos.",
+   "publicado_em": "2026-10-26T09:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "PSD cumprimenta Lula e diz que manterá relação \"republicana\" com governo",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/psd-cumprimenta-lula-e-diz-que-mantera-relacao-republicana-com-governo/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Kassab promete apoiar propostas de redução de desigualdades, equilíbrio fiscal e geração de empregos.",
+   "publicado_em": "2026-10-26T10:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "União Brasil reconhece vitória de Lula e deseja pleno êxito ao novo mandato",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/uniao-brasil-reconhece-vitoria-de-lula-e-deseja-pleno-exito-ao-novo-mandato/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Partido que apoiou Flávio diz que a soberania popular se manifestou de forma livre nas urnas.",
+   "publicado_em": "2026-10-26T10:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "PSDB parabeniza Lula por vitória e diz que \"seguirá na oposição\" ao governo",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/psdb-parabeniza-lula-por-vitoria-e-diz-que-seguira-na-oposicao-ao-governo/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Os tucanos reconhecem o resultado, mas avisam que continuarão na oposição.",
+   "publicado_em": "2026-10-25T23:30:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "Partidos reconhecem vitória de Lula",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/partidos-reconhecem-vitoria-de-lula/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Onze partidos, entre eles MDB, PDT, PSDB, Psol e Republicanos, reconheceram o resultado ainda na madrugada de 26/10.",
+   "publicado_em": "2026-10-26T01:50:00-03:00",
+   "data_inferida": "lista atualizada à 1h50 de 26/10"
+  },
+  {
+   "titulo": "Kassab dá parabéns a Lula e Alckmin pela vitória nas eleições",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/kassab-da-parabens-lula-e-alckmin-pela-vitoria-nas-eleicoes/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "O presidente do PSD felicita a chapa reeleita e deseja um bom governo.",
+   "publicado_em": "2026-10-26T10:00:00-03:00",
+   "data_inferida": "reação ao resultado do 2º turno, confirmado na noite de 25/10 — não pode ser anterior a isso"
+  },
+  {
+   "titulo": "B3 acionou circuit breaker na pré-abertura com Ibovespa indicando queda acima de 20%",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/b3-acionou-circuit-breaker-na-pre-abertura-com-ibovespa-indicando-queda-acima-de-20/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Ainda na pré-abertura, o índice sinalizava tombo superior a 20%; um novo circuit breaker viria se caísse outros 20%.",
+   "publicado_em": "2026-10-26T10:10:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "B3 amplia limite de queda do Ibovespa futuro de 10% para 15% após vitória de Lula",
+   "fonte": "InfoMoney",
+   "url": "https://www.infomoney.com.br/mercados/b3-altera-limite-inferior-de-negociacao-de-contratos-futuros-de-ibovespa-para-15/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Medida exclusiva para o pregão de 26/10, em todos os vencimentos dos contratos futuros.",
+   "publicado_em": "2026-10-26T08:30:00-03:00",
+   "data_inferida": "pregão de 26/10, primeiro após o 2º turno"
+  },
+  {
+   "titulo": "Flávio desiste de questionar vitória de Lula nas urnas",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-desiste-de-questionar-vitoria-de-lula-nas-urnas/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Campanha diz, sob reserva, que não haverá pedido de anulação; a estratégia passa a ser contestar supostos abusos de poder da campanha petista, depois que MDB, Republicanos, União Brasil e PSD reconheceram o resultado.",
+   "publicado_em": "2026-10-26T20:00:00-03:00",
+   "data_inferida": "recuo posterior às notas dos partidos na manhã de 26/10"
+  },
+  {
+   "titulo": "Flávio prepara AIJE contra chapa de Lula após derrota no 2° turno",
+   "fonte": "Poder360",
+   "url": "https://www.poder360.com.br/brasil/flavio-prepara-aije-contra-chapa-de-lula-apos-derrota-no-2-turno/",
+   "pais": "BR",
+   "editoria": "politica",
+   "resumo": "Em vez da anulação, o senador vai acusar a campanha petista de abuso de poder político e econômico; o pedido de anulação não terá continuidade por enquanto.",
+   "publicado_em": "2026-10-26T19:00:00-03:00",
+   "data_inferida": "mudança de estratégia posterior à derrota de 25/10"
+  },
+  {
+   "titulo": "EWZ desaba 20% e contratos de real derretem com Lula reeleito presidente",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/ewz-desaba-20-e-contratos-de-real-derretem-com-lula-a-frente-na-reta-final-da-apuracao/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "Por volta de 1h20, o ETF do Brasil em NY caía 19,6%, a US$ 34,24; o contrato de real em Chicago apontava dólar a R$ 5,51.",
+   "publicado_em": "2026-10-26T01:30:00-03:00",
+   "data_inferida": "negociação noturna em NY na noite da apuração, 25/10"
+  },
+  {
+   "titulo": "Ações brasileiras em Nova York desabam até 19% na noite da reeleição de Lula",
+   "fonte": "Exame",
+   "url": "https://exame.com/invest/mercados/acoes-brasileiras-em-nova-york-desabam-ate-19-na-noite-da-reeleicao-de-lula/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "ADRs de bancos lideraram as perdas no after-hours; Itaú caiu 17,8%.",
+   "publicado_em": "2026-10-26T00:30:00-03:00",
+   "data_inferida": "negociação noturna em NY na noite da apuração, 25/10"
+  },
+  {
+   "titulo": "EWZ: Principal ETF do Brasil em NY cai mais de 19% após reeleição de Lula",
+   "fonte": "CNN Brasil",
+   "url": "https://www.cnnbrasil.com.br/economia/money/mercado/ewz-principal-etf-do-brasil-em-ny-cai-mais-de-19-apos-reeleicao-de-lula/",
+   "pais": "BR",
+   "editoria": "economia",
+   "resumo": "O fundo que replica a bolsa brasileira antecipou o tombo da segunda-feira.",
+   "publicado_em": "2026-10-26T00:30:00-03:00",
+   "data_inferida": "negociação noturna em NY na noite da apuração, 25/10"
+  }
+ ]
+}

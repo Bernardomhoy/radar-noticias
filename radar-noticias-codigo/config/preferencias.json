@@ -1,0 +1,7 @@
+{
+  "_doc": "Interesses do leitor. O painel grava isso no banco do artifact; a rodada das 6h lê de lá e escreve aqui. Vazio = radar padrão. O piso de pautas do Brasil (selecao.min_br) vale sempre, independente daqui.",
+  "temas": [],
+  "regioes": [],
+  "peso": 0.35,
+  "atualizado_em": null
+}

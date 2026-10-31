@@ -1,0 +1,62 @@
+{
+  "perfil": {
+    "nome_canal": "Radar",
+    "apresentador": "voce",
+    "tom": "direto, informal-profissional, sem jargão, zero sensacionalismo",
+    "duracao_alvo_s": 45,
+    "duracao_min_s": 30,
+    "duracao_max_s": 75,
+    "palavras_por_segundo": 2.6,
+    "assinatura_cta": "Segue o perfil: amanhã às 6 da manhã tem radar novo.",
+    "evitar": [
+      "linguagem de pânico",
+      "adjetivo sem dado",
+      "palpite com cara de fato",
+      "número sem fonte"
+    ]
+  },
+  "selecao": {
+    "pautas_por_dia": 6,
+    "roteiros_por_dia": 3,
+    "min_br": 4,
+    "max_mundo": 3,
+    "max_por_editoria": 2,
+    "janela_horas": 48,
+    "dias_anti_repeticao": 5,
+    "min_mundo": 1,
+    "exigir_data": true,
+    "_doc_janela": "So entra materia publicada nas ultimas janela_horas. Com exigir_data, item sem data (nem informada, nem deduzivel pela URL) fica de fora: sem data nao da para garantir que e atual.",
+    "somente_portugues": true,
+    "aceitar_traducao": true,
+    "_doc_idioma": "somente_portugues: matéria com título em outro idioma sai. aceitar_traducao: a que o agente traduziu (titulo_original preenchido) fica, marcada como traduzida."
+  },
+  "editorias": [
+    "politica",
+    "economia",
+    "mundo",
+    "tecnologia",
+    "ciencia",
+    "saude",
+    "esporte",
+    "cultura",
+    "cotidiano",
+    "meio-ambiente"
+  ],
+  "limiar_cluster": 0.4,
+  "pesos_noticia": {
+    "corroboracao": 0.34,
+    "peso_fonte": 0.2,
+    "recencia": 0.26,
+    "calor": 0.2
+  },
+  "pesos_reels": {
+    "potencial_reels": 0.62,
+    "recencia": 0.18,
+    "corroboracao": 0.2
+  },
+  "_doc_scores": "score_noticia mede importancia jornalistica (quem publicou, quantos, quao fresco, quao quente). score_reels mede o que rende video curto. O briefing e ordenado pelo primeiro; a fila de gravacao, pelo segundo.",
+  "roteiros": {
+    "ativo": false,
+    "_doc": "Roteiro de reels desligado a pedido. O agente roteirista continua no repositorio: mude para true e volta tudo (fila de gravacao, secao no briefing, score de reels no painel)."
+  }
+}

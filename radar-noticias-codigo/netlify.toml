@@ -1,0 +1,12 @@
+# O site é só o painel já gerado pelo GitHub Actions: não há build no Netlify.
+[build]
+  publish = "site"
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # Notícia velha em cache não serve: o navegador sempre confere se há versão nova.
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

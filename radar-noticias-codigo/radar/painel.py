@@ -1,0 +1,2292 @@
+# -*- coding: utf-8 -*-
+"""Agente Publicador (parte 2): gera o painel HTML do radar.
+
+Um unico template serve a dois destinos:
+  modo="standalone" -> arquivo que abre direto no navegador (saida/painel.html)
+  modo="artifact"   -> fragmento para publicar como Artifact (sem doctype/head)
+
+Duas telas: o radar do dia e a pagina de um tema. A pagina de tema mostra so as
+pautas daquele assunto, com um ambiente proprio (emojis animados de fundo).
+
+O motion blur nao e enfeite solto: o borrao e direcional e proporcional a
+velocidade real de rolagem (filtro SVG com stdDeviation em y), mais o giro do
+globo na abertura, a varredura do radar no topo, o rastro no numero da pauta e a
+entrada da previa. Tudo desliga em prefers-reduced-motion.
+"""
+from __future__ import annotations
+
+import json
+import os
+
+from .util import RAIZ, log
+
+DIR_SAIDA = os.path.join(RAIZ, "saida")
+
+CABECA = r"""<title>Radar de Notícias</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..800&family=Newsreader:opsz,wght@6..72,400..600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: faixas de largura total com miolo de 1100px. Duas vistas irmas -
+   o radar do dia e a pagina de um tema - trocadas pelo atributo hidden. */
+:root{
+  --fundo:#eceef2; --superficie:#ffffff; --superficie-2:#f6f7f9;
+  --tinta:#121722; --tinta-2:#4b5566; --tinta-3:#78818f;
+  --borda:#d7dbe3; --borda-forte:#b9c0cc;
+  --sinal:#c2560a; --sinal-forte:#8e3b04; --sinal-fraco:#f0dcc2;
+  --cuidado:#6b3fa0; --cuidado-fraco:#efe8f8;
+  --noite:#101622;
+  --display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --corpo:"Newsreader",Georgia,"Times New Roman",serif;
+  --dados:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --raio:4px; --t:220ms;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --fundo:#0d1117; --superficie:#161b23; --superficie-2:#1c222c;
+  --tinta:#e9edf4; --tinta-2:#a4aebd; --tinta-3:#79828f;
+  --borda:#262d38; --borda-forte:#3a4452;
+  --sinal:#ce7e2b; --sinal-forte:#e0a05a; --sinal-fraco:#33281c;
+  --cuidado:#8e6bd4; --cuidado-fraco:#241f33;
+  --noite:#070a0f;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --fundo:#0d1117; --superficie:#161b23; --superficie-2:#1c222c;
+  --tinta:#e9edf4; --tinta-2:#a4aebd; --tinta-3:#79828f;
+  --borda:#262d38; --borda-forte:#3a4452;
+  --sinal:#ce7e2b; --sinal-forte:#e0a05a; --sinal-fraco:#33281c;
+  --cuidado:#8e6bd4; --cuidado-fraco:#241f33;
+  --noite:#070a0f;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--fundo);color:var(--tinta);margin:0;
+  font-family:var(--corpo);font-size:16px;line-height:1.5;
+  -webkit-font-smoothing:antialiased}
+.faixa{width:100%;max-width:1100px;margin-inline:auto;
+  padding-left:max(16px,env(safe-area-inset-left,0px));
+  padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3,h4{font-family:var(--display);text-wrap:balance;margin:0;
+  font-variation-settings:"wdth" 112}
+.mono{font-family:var(--dados);font-variant-numeric:tabular-nums}
+a{color:var(--sinal);text-decoration-thickness:1px;text-underline-offset:2px}
+a:hover{color:var(--sinal-forte)}
+:focus-visible{outline:2px solid var(--sinal);outline-offset:2px}
+[hidden]{display:none!important}
+
+/* ---------- abertura: mãos segurando o globo ---------- */
+.abertura{position:fixed;inset:0;z-index:90;display:flex;align-items:center;
+  justify-content:center;padding:24px;overflow:hidden;
+  background:radial-gradient(ellipse 75% 65% at 38% 46%,#12283f 0%,#0a1626 44%,#04070c 100%);
+  transition:opacity 620ms ease,filter 620ms ease}
+.abertura.saindo{opacity:0;filter:blur(18px);pointer-events:none}
+.abertura.saindo .globo-svg{transform:scale(1.08);transition:transform 620ms ease}
+.estrelas{position:absolute;inset:0;pointer-events:none}
+.estrelas i{position:absolute;border-radius:50%;background:#dfe9ff;opacity:.1;
+  animation:cintilar var(--d,4s) ease-in-out var(--a,0s) infinite}
+@keyframes cintilar{0%,100%{opacity:.08}50%{opacity:.75}}
+.abertura-miolo{position:relative;display:flex;align-items:center;gap:56px;
+  max-width:960px}
+.abertura-texto{display:grid;gap:0;min-width:0}
+.abertura-olho{font-family:var(--display);font-size:11px;font-weight:700;
+  letter-spacing:.22em;text-transform:uppercase;color:#e0a05a;display:flex;gap:9px;
+  align-items:center;animation:chegarBorrado 700ms 120ms cubic-bezier(.18,.78,.28,1) both}
+.abertura-olho::before{content:"";width:22px;height:1px;background:#e0a05a}
+.abertura .abertura-marca{font-size:clamp(30px,5.4vw,50px);margin-top:10px;
+  line-height:1;animation:chegarBorrado 760ms 200ms cubic-bezier(.18,.78,.28,1) both}
+.etapas{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:10px}
+.etapas li{display:grid;grid-template-columns:20px minmax(0,1fr);gap:11px;align-items:center;
+  font-family:var(--display);font-size:14px;color:#7d8899;opacity:0;filter:blur(6px);
+  transform:translateY(7px);
+  transition:opacity 400ms ease,filter 400ms ease,transform 400ms ease,color 300ms ease}
+.etapas li.viva{opacity:1;filter:blur(0);transform:none;color:#b9c3d0}
+.etapas li.feita{color:#eef2f7}
+.etapas li b{color:#fff;font-weight:700;font-variant-numeric:tabular-nums}
+.etapas .ok{width:20px;height:20px;border-radius:50%;border:1.5px solid #3a4658;
+  display:grid;place-items:center;color:#15100a;
+  transition:background 260ms ease,border-color 260ms ease,box-shadow 260ms ease}
+.etapas .ok svg{opacity:0;transform:scale(.3);
+  transition:opacity 220ms ease,transform 300ms cubic-bezier(.3,1.7,.5,1)}
+.etapas li.feita .ok{background:#e0a05a;border-color:#e0a05a;
+  box-shadow:0 0 12px rgba(224,160,90,.55)}
+.etapas li.feita .ok svg{opacity:1;transform:scale(1)}
+.barra-abertura{width:100%;max-width:360px;height:3px;border-radius:2px;
+  background:rgba(255,255,255,.1);overflow:hidden;margin-top:22px}
+.barra-abertura i{display:block;height:100%;width:0;border-radius:2px;
+  background:linear-gradient(90deg,#9c5a1a,#f0b878);
+  box-shadow:0 0 12px rgba(240,184,120,.7);
+  transition:width 460ms cubic-bezier(.3,.7,.3,1)}
+@media (max-width:760px){
+  .abertura-miolo{flex-direction:column;gap:18px;text-align:center}
+  .abertura-olho{justify-content:center}
+  .etapas{justify-items:center}
+  .etapas li{text-align:left}
+  .barra-abertura{margin-inline:auto}
+}
+.globo-svg{width:min(340px,56vw);height:auto;flex:none;
+  animation:chegarBorrado 820ms cubic-bezier(.18,.78,.28,1) both}
+@keyframes chegarBorrado{
+  from{opacity:0;filter:blur(18px);transform:translateY(22px) scale(.95)}
+  55%{opacity:1}
+  to{opacity:1;filter:blur(0);transform:none}}
+.mundo-flutua{animation:flutuar 6s ease-in-out infinite}
+@keyframes flutuar{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+/* O globo gira devagar: o borrão horizontal no grupo dos continentes é o que
+   dá a sensação de massa girando, não a velocidade. */
+.continentes{animation:girar 22s linear infinite}
+@keyframes girar{from{transform:translateX(0)}to{transform:translateX(-340px)}}
+/* Lustro que atravessa a esfera de tempos em tempos, como vidro sob a luz. */
+.brilho{animation:lustrar 7s cubic-bezier(.45,0,.55,1) infinite}
+@keyframes lustrar{0%,62%{transform:skewX(-18deg) translateX(0)}
+  100%{transform:skewX(-18deg) translateX(560px)}}
+.halo{transform-box:fill-box;transform-origin:50% 50%;
+  animation:pulsarHalo 6s ease-in-out infinite}
+@keyframes pulsarHalo{0%,100%{opacity:.55;transform:scale(1)}
+  50%{opacity:.95;transform:scale(1.05)}}
+
+.abertura-marca{font-family:var(--display);font-size:clamp(22px,4.8vw,32px);
+  font-weight:800;letter-spacing:-.015em;color:#f2f4f8;
+  font-variation-settings:"wdth" 118}
+.abertura-linha{font-family:var(--display);font-size:13.5px;color:#9aa5b4;
+  min-height:19px}
+.trilho-carga{width:min(280px,64vw);height:3px;border-radius:2px;
+  background:rgba(255,255,255,.14);overflow:hidden}
+.trilho-carga i{display:block;height:100%;width:38%;border-radius:2px;
+  background:var(--sinal);animation:correr 1150ms cubic-bezier(.4,0,.2,1) infinite}
+@keyframes correr{from{transform:translateX(-110%)}to{transform:translateX(330%)}}
+.pular{position:absolute;right:calc(20px + env(safe-area-inset-right,0px));
+  top:calc(20px + env(safe-area-inset-top,0px));background:none;border:0;
+  color:#6f7a89;font-family:var(--display);font-size:12px;cursor:pointer;
+  text-decoration:underline;text-underline-offset:3px}
+.pular:hover{color:#c9d2de}
+
+/* ---------- topo ---------- */
+.topo{position:relative;overflow:hidden;color:#f2f4f8;border-bottom:1px solid var(--borda);
+  background:radial-gradient(ellipse 80% 140% at 85% 30%,#173253 0%,#0d1b2e 46%,#070b13 100%)}
+.topo-miolo{position:relative;z-index:2;padding-block:40px 34px;display:flex;
+  align-items:flex-end;justify-content:space-between;gap:28px 40px;flex-wrap:wrap}
+.topo-texto{min-width:0;flex:1 1 440px}
+.varredura{position:absolute;inset:-60% -10% auto -10%;height:260%;
+  pointer-events:none;z-index:1;opacity:.45}
+.varredura i{position:absolute;top:0;bottom:0;left:50%;width:170px;margin-left:-85px;
+  background:linear-gradient(90deg,transparent,rgba(224,140,40,.42) 48%,
+    rgba(240,170,80,.75) 50%,rgba(224,140,40,.42) 52%,transparent);
+  filter:blur(22px);animation:varrer 9s linear infinite}
+@keyframes varrer{from{transform:translateX(-62vw) skewX(-14deg)}
+  to{transform:translateX(62vw) skewX(-14deg)}}
+.grade-topo{position:absolute;inset:0;z-index:0;opacity:.45;
+  background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);
+  background-size:100% 26px,26px 100%;
+  -webkit-mask-image:linear-gradient(90deg,#000,transparent 75%);
+  mask-image:linear-gradient(90deg,#000,transparent 75%)}
+.globo-linhas{position:absolute;z-index:1;right:-90px;top:50%;width:440px;height:440px;
+  transform:translateY(-50%);fill:none;stroke:#9fd6ff;stroke-opacity:.13;stroke-width:1;
+  pointer-events:none}
+.globo-linhas circle{stroke-opacity:.22}
+.globo-linhas .meridiano{transform-box:fill-box;transform-origin:center;
+  animation:meridiano 12s linear infinite}
+@keyframes meridiano{from{transform:scaleX(1)}to{transform:scaleX(-1)}}
+.topo-olho{display:flex;gap:8px 12px;align-items:center;flex-wrap:wrap;font-family:var(--display);
+  font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#aab3c2}
+.ao-vivo{display:inline-flex;align-items:center;gap:7px;color:#f0b878}
+.ao-vivo::before{content:"";width:8px;height:8px;border-radius:50%;background:#f0a04a;
+  box-shadow:0 0 0 0 rgba(240,160,74,.6);animation:pulsar 2.2s ease-out infinite}
+@keyframes pulsar{0%{box-shadow:0 0 0 0 rgba(240,160,74,.55)}
+  100%{box-shadow:0 0 0 12px rgba(240,160,74,0)}}
+.topo h1{font-size:clamp(36px,6.4vw,64px);font-weight:800;letter-spacing:-.025em;
+  line-height:.95;margin-top:12px;font-variation-settings:"wdth" 122;
+  background:linear-gradient(180deg,#ffffff 30%,#c9d6e6);-webkit-background-clip:text;
+  background-clip:text;color:transparent}
+.manchete{display:flex;gap:11px;align-items:baseline;margin-top:18px;max-width:680px;
+  color:#dfe6ef;text-decoration:none;font-family:var(--display);font-size:15.5px;
+  font-weight:600;line-height:1.35}
+.manchete:hover .texto{text-decoration:underline;text-decoration-color:#f0a04a}
+.manchete .agora{flex:none;font-size:10px;font-weight:800;letter-spacing:.14em;
+  text-transform:uppercase;color:#1a1007;background:#f0a04a;border-radius:3px;padding:3px 7px}
+.topo-numeros{display:grid;grid-template-columns:repeat(4,auto);gap:4px 26px;
+  font-family:var(--display)}
+.topo-numeros .num{display:grid;gap:2px}
+.topo-numeros b{font-size:28px;font-weight:800;line-height:1;color:#fff;
+  font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.topo-numeros span{font-size:11px;color:#8d99aa;font-weight:600;white-space:nowrap}
+@media (max-width:620px){
+  .topo-numeros{grid-template-columns:repeat(2,auto);gap:14px 28px}
+  .globo-linhas{right:-160px;width:360px;height:360px;opacity:.7}
+}
+@media (prefers-reduced-motion:reduce){
+  .globo-linhas .meridiano,.ao-vivo::before{animation:none}
+}
+
+/* ---------- indicadores ---------- */
+.indicadores{display:grid;gap:1px;background:var(--borda);
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  margin-top:26px;border:1px solid var(--borda);border-radius:var(--raio);
+  overflow:hidden}
+.ind{background:var(--superficie);padding:14px 16px;min-width:0}
+.ind .rot{font-family:var(--display);font-size:10.5px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--tinta-3);font-weight:600}
+.ind .val{font-family:var(--display);font-size:30px;font-weight:700;
+  font-variant-numeric:tabular-nums;line-height:1.1;margin-top:4px}
+.ind .nota{font-size:12.5px;color:var(--tinta-2);font-family:var(--display)}
+
+/* ---------- ferramentas e botões ---------- */
+.ferramentas{display:flex;gap:8px;align-items:center;flex-wrap:wrap;
+  margin:30px 0 14px}
+.ferramentas h2{font-size:21px;font-weight:700;margin-right:auto;
+  font-variation-settings:"wdth" 115}
+.btn{font-family:var(--display);font-size:12.5px;font-weight:600;
+  letter-spacing:.02em;padding:6px 12px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--borda-forte);background:var(--superficie);
+  color:var(--tinta-2);transition:background var(--t),color var(--t),
+  border-color var(--t)}
+.btn:hover{border-color:var(--sinal);color:var(--sinal)}
+.btn[aria-pressed="true"]{background:var(--sinal);border-color:var(--sinal);
+  color:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .btn[aria-pressed="true"]{color:#15100a}}
+:root[data-theme="dark"] .btn[aria-pressed="true"]{color:#15100a}
+
+/* ---------- pautas ---------- */
+.pautas{display:flex;flex-direction:column;gap:12px;will-change:filter}
+.nota-pauta{font-family:var(--display);font-size:12.5px;color:var(--tinta-3);
+  margin:-4px 0 12px}
+.nota-pauta b{color:var(--sinal);font-weight:600;font-variant-numeric:tabular-nums}
+.nota-pauta i{color:var(--cuidado);font-style:normal}
+.grupo-pauta{font-family:var(--display);font-size:10.5px;font-weight:700;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--tinta-3);
+  margin:14px 0 2px;display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+.grupo-pauta:first-child{margin-top:0}
+.grupo-pauta span{color:var(--sinal);letter-spacing:.04em;text-transform:none;
+  font-size:12px;font-weight:600}
+.pauta{background:var(--superficie);border:1px solid var(--borda);
+  border-radius:var(--raio);padding:16px 18px;display:grid;gap:14px;
+  grid-template-columns:52px 1fr 178px;align-items:start;
+  transition:border-color var(--t),transform var(--t)}
+.pauta.sem-placar{grid-template-columns:52px 1fr}
+.pauta:hover{border-color:var(--borda-forte);transform:translateY(-1px)}
+.pauta.alvo{border-left:3px solid var(--sinal);padding-left:15px}
+.posicao{font-family:var(--display);font-size:34px;font-weight:800;
+  color:var(--borda-forte);line-height:.9;font-variant-numeric:tabular-nums;
+  position:relative}
+.posicao::before{content:attr(data-n);position:absolute;inset:0;
+  color:var(--sinal);filter:blur(7px);opacity:0;transform:translateY(9px);
+  transition:opacity var(--t),transform var(--t)}
+.pauta:hover .posicao::before{opacity:.55;transform:translateY(0)}
+.corpo-pauta{min-width:0}
+.titulo-pauta{font-family:var(--display);font-size:18.5px;font-weight:600;
+  line-height:1.26;letter-spacing:-.005em}
+.titulo-pauta a{color:inherit;text-decoration:none}
+.titulo-pauta a:hover{text-decoration:underline;text-decoration-color:var(--sinal)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.chip{font-family:var(--display);font-size:11px;font-weight:600;
+  letter-spacing:.05em;text-transform:uppercase;padding:3px 8px;
+  border-radius:3px;background:var(--superficie-2);color:var(--tinta-2);
+  border:1px solid var(--borda)}
+button.chip{cursor:pointer}
+button.chip:hover{border-color:var(--sinal);color:var(--sinal)}
+.chip.destaque{background:var(--sinal-fraco);color:var(--sinal-forte);
+  border-color:transparent}
+.chip.cuidado{background:var(--cuidado-fraco);color:var(--cuidado);
+  border-color:transparent}
+.resumo{font-size:15px;color:var(--tinta-2);margin-top:9px;max-width:62ch}
+.porque{font-family:var(--display);font-size:12.5px;color:var(--tinta-3);
+  margin-top:9px;display:flex;gap:6px;align-items:flex-start}
+.porque svg{flex:none;margin-top:2px}
+.aviso{display:flex;gap:7px;margin-top:9px;padding:8px 10px;border-radius:3px;
+  background:var(--cuidado-fraco);color:var(--cuidado);font-size:13.5px;
+  font-family:var(--display);line-height:1.35;align-items:flex-start}
+.aviso svg{flex:none;margin-top:2px}
+.cobertura{margin-top:10px;font-size:13px;color:var(--tinta-3);
+  font-family:var(--display)}
+.cobertura a{margin-right:4px}
+.lupa{display:inline-flex;align-items:center;gap:4px;font-family:var(--display);
+  font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+  color:var(--tinta-3);background:none;border:1px dashed var(--borda-forte);
+  border-radius:3px;padding:2px 7px;cursor:pointer;margin-top:9px}
+.lupa:hover,.lupa:focus-visible{color:var(--sinal);border-color:var(--sinal);
+  border-style:solid}
+.placar{text-align:right}
+.placar .n{font-family:var(--display);font-size:29px;font-weight:800;
+  font-variant-numeric:tabular-nums;line-height:1;letter-spacing:-.02em}
+.placar .de{font-family:var(--display);font-size:10px;color:var(--tinta-3);
+  font-weight:700;letter-spacing:.09em}
+.placar .n2{font-family:var(--display);font-size:15px;font-weight:700;
+  color:var(--sinal);font-variant-numeric:tabular-nums;margin-top:5px;
+  padding-top:5px;border-top:1px solid var(--borda)}
+.placar .n2 span{font-size:10px;font-weight:600;letter-spacing:.08em;
+  color:var(--tinta-3);text-transform:uppercase}
+.medidores{margin-top:11px;display:grid;gap:5px}
+.medidor{display:grid;grid-template-columns:52px 1fr 26px;gap:8px;
+  align-items:center}
+.medidor .rot{font-family:var(--display);font-size:9.5px;font-weight:600;
+  letter-spacing:.04em;text-transform:uppercase;color:var(--tinta-3);
+  text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.trilho{height:5px;border-radius:3px;background:var(--sinal-fraco);
+  overflow:hidden}
+.trilho i{display:block;height:100%;border-radius:3px;background:var(--sinal);
+  transform-origin:left;animation:preencher 620ms cubic-bezier(.2,.8,.25,1) both}
+@keyframes preencher{from{transform:scaleX(0);filter:blur(3px)}
+  to{transform:scaleX(1);filter:blur(0)}}
+.medidor .v{font-family:var(--dados);font-size:10.5px;color:var(--tinta-3);
+  font-variant-numeric:tabular-nums}
+.vazio{font-size:15px;color:var(--tinta-2);padding:18px;background:var(--superficie);
+  border:1px dashed var(--borda-forte);border-radius:var(--raio)}
+@keyframes entrar{from{opacity:.55;filter:blur(6px);transform:translateY(7px)}
+  to{opacity:1;filter:blur(0);transform:none}}
+</style>
+"""
+
+ESTILO_VISTAS = r"""<style>
+/* ---------- página de um tema ---------- */
+.capa-tema{position:relative;overflow:hidden;background:var(--noite);
+  color:#f2f4f8;border-bottom:1px solid var(--borda)}
+.capa-tema .faixa{padding-block:46px 40px;position:relative;z-index:3}
+/* Véu entre os emojis e o texto: o ambiente fica, a leitura não sofre. */
+.capa-tema::after{content:"";position:absolute;inset:0;z-index:2;pointer-events:none;
+  background:radial-gradient(ellipse 72% 120% at 18% 52%,
+    var(--noite) 0%, rgba(16,22,34,.82) 46%, rgba(16,22,34,0) 78%)}
+.capa-tema .volta{background:none;border:0;color:#9aa5b4;cursor:pointer;
+  font-family:var(--display);font-size:12.5px;font-weight:600;padding:0;
+  display:inline-flex;align-items:center;gap:6px;margin-bottom:14px}
+.capa-tema .volta:hover{color:var(--sinal)}
+.capa-tema h2{font-size:clamp(26px,5.4vw,42px);font-weight:800;
+  letter-spacing:-.02em;font-variation-settings:"wdth" 118;line-height:1}
+.capa-tema .linha{margin-top:10px;font-family:var(--display);font-size:13.5px;
+  color:#aab3c2;display:flex;gap:8px 16px;flex-wrap:wrap;align-items:center}
+.capa-tema .linha b{color:#f2f4f8;font-weight:600;
+  font-variant-numeric:tabular-nums}
+.emojis{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.emojis span{position:absolute;font-size:38px;line-height:1;opacity:.42;
+  filter:blur(.2px);will-change:transform;
+  animation:bolhar var(--dur,7s) ease-in-out var(--atraso,0s) infinite}
+.emojis span:nth-child(2n){font-size:28px;opacity:.32}
+.emojis span:nth-child(3n){font-size:52px;opacity:.24;filter:blur(1.6px)}
+@keyframes bolhar{
+  0%,100%{transform:translate3d(0,0,0) rotate(var(--giro,0deg))}
+  50%{transform:translate3d(var(--dx,8px),var(--dy,-18px),0)
+      rotate(calc(var(--giro,0deg) * -1))}}
+.vista-tema .pautas{margin-top:20px}
+.conta-tema{font-family:var(--display);font-size:12.5px;color:var(--tinta-3);
+  margin:22px 0 10px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.atalhos{display:flex;gap:7px;flex-wrap:wrap;margin:8px 0 8px}
+.atalho{font-family:var(--display);font-size:12.5px;font-weight:600;
+  padding:7px 13px;border-radius:999px;cursor:pointer;background:var(--superficie);
+  border:1px solid var(--borda);color:var(--tinta-2);display:inline-flex;
+  gap:7px;align-items:center;transition:border-color var(--t),color var(--t),
+  transform var(--t)}
+.atalho:hover{border-color:var(--sinal);color:var(--sinal);transform:translateY(-1px)}
+.atalho em{font-style:normal;font-size:15px}
+.atalho b{font-weight:600;color:var(--tinta-3);font-variant-numeric:tabular-nums}
+
+/* ---------- entrada: quem é você (antes do globo) ---------- */
+.entrada{position:fixed;inset:0;z-index:95;display:flex;align-items:center;
+  justify-content:center;padding:24px;overflow-y:auto;color:#e9edf4;
+  background:radial-gradient(ellipse 75% 65% at 50% 38%,#12283f 0%,#0a1626 44%,#04070c 100%);
+  transition:opacity 480ms ease,filter 480ms ease}
+.entrada.saindo{opacity:0;filter:blur(14px);pointer-events:none}
+.cartao-entrada{position:relative;width:min(500px,100%);margin:auto;
+  background:rgba(14,22,36,.74);border:1px solid rgba(255,255,255,.1);border-radius:18px;
+  padding:28px 26px 22px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  box-shadow:0 40px 90px rgba(0,0,0,.45);
+  animation:chegarBorrado 700ms cubic-bezier(.18,.78,.28,1) both}
+.cartao-entrada.troca{animation:trocaPasso 380ms cubic-bezier(.2,.75,.3,1) both}
+@keyframes trocaPasso{from{opacity:.4;filter:blur(8px);transform:translateX(14px)}
+  to{opacity:1;filter:blur(0);transform:none}}
+.entrada-olho{font-family:var(--display);font-size:10.5px;font-weight:700;
+  letter-spacing:.2em;text-transform:uppercase;color:#e0a05a;display:flex;gap:9px;
+  align-items:center}
+.entrada-olho::before{content:"";width:20px;height:1px;background:#e0a05a}
+.quem{display:flex;gap:14px;align-items:center;margin-top:18px}
+.quem img{width:56px;height:56px;border-radius:50%;flex:none;object-fit:cover;
+  border:2px solid rgba(240,184,120,.65);box-shadow:0 0 0 5px rgba(240,184,120,.1)}
+.quem h2{font-family:var(--display);font-size:27px;font-weight:800;line-height:1.08;
+  letter-spacing:-.015em;font-variation-settings:"wdth" 114}
+.quem p{font-family:var(--display);font-size:13.5px;color:#9aa6b6;margin-top:4px}
+.reconhecendo{margin-top:24px;display:grid;gap:9px}
+.reconhecendo i{display:block;height:11px;border-radius:6px;
+  background:linear-gradient(90deg,rgba(255,255,255,.05),rgba(255,255,255,.15),rgba(255,255,255,.05));
+  background-size:200% 100%;animation:brilhar 1.3s linear infinite}
+.reconhecendo i:nth-child(2){width:72%}
+@keyframes brilhar{from{background-position:200% 0}to{background-position:-200% 0}}
+.passos-pontos{display:flex;gap:6px;margin-top:22px}
+.passos-pontos i{height:4px;flex:1;border-radius:2px;background:rgba(255,255,255,.12);
+  transition:background 300ms ease}
+.passos-pontos i.feito{background:#e0a05a}
+.passo h3{font-family:var(--display);font-size:18px;font-weight:700;margin-top:18px}
+.passo .dica{font-family:var(--display);font-size:13px;color:#9aa6b6;margin-top:4px}
+.campo{width:100%;margin-top:14px;padding:13px 14px;border-radius:11px;
+  border:1px solid rgba(255,255,255,.16);background:rgba(255,255,255,.05);color:#fff;
+  font-family:var(--display);font-size:16px;font-weight:600}
+.campo::placeholder{color:#6f7a89}
+.campo:focus{outline:none;border-color:#e0a05a;box-shadow:0 0 0 3px rgba(224,160,90,.22)}
+.entrada .escolhas{margin-top:14px}
+.entrada .escolha{background:rgba(255,255,255,.04);border-color:rgba(255,255,255,.12);
+  color:#e9edf4}
+.entrada .escolha:hover{border-color:rgba(255,255,255,.28);box-shadow:none}
+.entrada .escolha .selo{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.12)}
+.entrada .escolha .qtd{color:#8d99aa}
+.entrada .escolha .qtd.quente{color:#f0b878}
+.entrada .escolha[aria-pressed="true"]{background:rgba(224,160,90,.16);border-color:#e0a05a;
+  box-shadow:0 0 0 1px #e0a05a inset}
+.entrada .escolha .marca-sel{box-shadow:none}
+.rotulo-mini{font-family:var(--display);font-size:10px;font-weight:700;letter-spacing:.13em;
+  text-transform:uppercase;color:#7d8899;margin-top:18px}
+.ritmos{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+.ritmo{text-align:left;padding:12px 13px;border-radius:11px;cursor:pointer;
+  border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.04);color:#e9edf4;
+  font-family:var(--display);transition:border-color var(--t),background var(--t)}
+.ritmo b{display:block;font-size:14px;font-weight:700}
+.ritmo span{display:block;font-size:12px;color:#9aa6b6;margin-top:3px;line-height:1.35}
+.ritmo[aria-pressed="true"]{border-color:#e0a05a;background:rgba(224,160,90,.16)}
+.entrada-acoes{display:flex;gap:10px;margin-top:24px;align-items:center}
+.btn-principal{flex:1;padding:14px 16px;border-radius:12px;border:0;cursor:pointer;
+  background:linear-gradient(180deg,#f3be82,#d9883a);color:#1a1007;
+  font-family:var(--display);font-size:15px;font-weight:800;
+  box-shadow:0 12px 28px rgba(224,140,40,.32);transition:transform var(--t),opacity var(--t)}
+.btn-principal:hover{transform:translateY(-1px)}
+.btn-principal:disabled{opacity:.4;cursor:not-allowed;transform:none;box-shadow:none}
+.btn-fantasma{background:none;border:1px solid rgba(255,255,255,.18);color:#d5dbe4;
+  padding:13px 15px;border-radius:12px;font-family:var(--display);font-size:13.5px;
+  font-weight:600;cursor:pointer;transition:border-color var(--t)}
+.btn-fantasma:hover{border-color:rgba(255,255,255,.4)}
+.resumo-perfil{margin-top:20px;display:grid;gap:12px}
+.linha-perfil{display:grid;grid-template-columns:96px minmax(0,1fr);gap:10px;
+  align-items:baseline;font-family:var(--display);font-size:13.5px;color:#c9d2de}
+.linha-perfil .k{font-size:10px;font-weight:700;letter-spacing:.12em;
+  text-transform:uppercase;color:#7d8899}
+.linha-perfil b{color:#fff;font-variant-numeric:tabular-nums}
+.chips-perfil{display:flex;gap:6px;flex-wrap:wrap}
+.chip-perfil{font-family:var(--display);font-size:12.5px;font-weight:600;padding:4px 10px;
+  border-radius:999px;background:rgba(224,160,90,.14);color:#f3c992;
+  border:1px solid rgba(224,160,90,.35)}
+.sugestao{display:flex;gap:10px;align-items:center;justify-content:space-between;
+  padding:11px 13px;border-radius:11px;background:rgba(255,255,255,.05);
+  border:1px dashed rgba(255,255,255,.2);font-family:var(--display);font-size:13px;
+  color:#d5dbe4}
+.sugestao button{flex:none;background:rgba(224,160,90,.18);border:1px solid #e0a05a;
+  color:#f3c992;border-radius:8px;padding:6px 10px;font-family:var(--display);
+  font-size:12.5px;font-weight:700;cursor:pointer}
+.rodape-entrada{margin-top:18px;font-family:var(--display);font-size:11.5px;color:#6f7a89;
+  display:flex;gap:7px;align-items:center;line-height:1.4}
+.rodape-entrada svg{flex:none}
+.eu{margin-left:auto;display:inline-flex;gap:8px;align-items:center;padding:4px 12px 4px 4px;
+  border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);
+  color:#e9edf4;font-family:var(--display);font-size:12px;font-weight:600;letter-spacing:0;
+  text-transform:none;cursor:pointer;transition:background var(--t)}
+.eu:hover{background:rgba(255,255,255,.15)}
+.eu img{width:24px;height:24px;border-radius:50%;object-fit:cover}
+.ritmo-rapido .pauta .resumo,.ritmo-rapido .pauta .cobertura,
+.ritmo-rapido .pauta .medidores{display:none}
+.ritmo-rapido .pauta{padding-block:12px}
+.chip.traduzido{background:transparent;border-style:dashed;color:var(--tinta-3)}
+@media (max-width:520px){
+  .cartao-entrada{padding:24px 18px 18px}
+  .quem h2{font-size:23px}
+  .ritmos{grid-template-columns:1fr}
+  .linha-perfil{grid-template-columns:1fr;gap:4px}
+}
+@media (prefers-reduced-motion:reduce){
+  .cartao-entrada,.cartao-entrada.troca,.reconhecendo i{animation:none}
+}
+
+/* ---------- interação com cada pauta ---------- */
+.acoes-pauta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:11px}
+.acao{display:inline-flex;align-items:center;gap:5px;font-family:var(--display);
+  font-size:11.5px;font-weight:600;padding:4px 10px;border-radius:999px;cursor:pointer;
+  border:1px solid var(--borda);background:var(--superficie);color:var(--tinta-2);
+  transition:border-color var(--t),color var(--t),background var(--t),transform var(--t)}
+.acao:hover{border-color:var(--sinal);color:var(--sinal)}
+.acao:active{transform:scale(.95)}
+.acao svg{width:13px;height:13px;flex:none}
+.acao[aria-pressed="true"]{background:var(--sinal-fraco);border-color:var(--sinal);
+  color:var(--sinal-forte)}
+.acao.pulsou{animation:pulsoAcao 420ms cubic-bezier(.3,1.6,.5,1)}
+@keyframes pulsoAcao{40%{transform:scale(1.14)}}
+.acoes-pauta .lupa{margin-top:0}
+.chip.novo{background:var(--sinal);color:#fff;border-color:transparent}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .chip.novo{color:#15100a}}
+:root[data-theme="dark"] .chip.novo{color:#15100a}
+.pauta.saindo{animation:sumirPauta 340ms ease forwards;pointer-events:none}
+@keyframes sumirPauta{to{opacity:0;filter:blur(8px);transform:translateX(26px)}}
+.so-novas .pautas .pauta:not([data-novo="1"]){display:none}
+.boas-vindas{display:flex;gap:10px 16px;align-items:center;justify-content:space-between;
+  flex-wrap:wrap;margin-top:22px;padding:13px 16px;border-radius:12px;
+  background:var(--superficie);border:1px solid var(--borda);
+  font-family:var(--display);font-size:14px;color:var(--tinta-2);
+  animation:subirBorrado 420ms cubic-bezier(.2,.75,.3,1) both}
+.boas-vindas b{color:var(--tinta);font-weight:700;font-variant-numeric:tabular-nums}
+.boas-vindas .bv-texto{min-width:0;flex:1 1 320px;line-height:1.45}
+.boas-vindas .bv-acoes{display:flex;gap:8px;align-items:center}
+.bv-fechar{background:none;border:0;color:var(--tinta-3);cursor:pointer;font-size:18px;
+  line-height:1;padding:2px 4px}
+.toast{position:fixed;z-index:70;left:calc(18px + env(safe-area-inset-left,0px));
+  bottom:calc(18px + env(safe-area-inset-bottom,0px));max-width:min(420px,calc(100vw - 36px));
+  display:flex;gap:14px;align-items:center;padding:12px 16px;border-radius:12px;
+  background:var(--noite);color:#eef2f7;border:1px solid rgba(255,255,255,.14);
+  box-shadow:0 16px 40px rgba(6,10,18,.35);font-family:var(--display);font-size:13.5px}
+.toast.entrando{animation:subirBorrado 300ms cubic-bezier(.2,.75,.3,1) both}
+.toast button{background:none;border:0;color:#f0b878;font-family:var(--display);
+  font-size:13px;font-weight:700;cursor:pointer;padding:0;white-space:nowrap}
+.salva-fora{opacity:.85}
+@media (max-width:620px){
+  .toast{bottom:calc(72px + env(safe-area-inset-bottom,0px))}
+}
+@media (prefers-reduced-motion:reduce){
+  .boas-vindas,.toast.entrando,.acao.pulsou,.pauta.saindo{animation:none}
+}
+
+/* ---------- prévia da matéria ---------- */
+.previa{position:fixed;z-index:60;width:min(360px,calc(100vw - 32px));
+  pointer-events:auto;background:var(--superficie);
+  border:1px solid var(--borda-forte);border-radius:6px;padding:15px 16px;
+  box-shadow:0 18px 44px rgba(8,12,20,.22),0 2px 6px rgba(8,12,20,.1)}
+/* No hover a prévia só informa: não pode roubar o mouse do link embaixo dela. */
+.previa.flutuante{pointer-events:none}
+.previa.folha{left:max(12px,env(safe-area-inset-left,0px));
+  right:max(12px,env(safe-area-inset-right,0px));
+  bottom:calc(72px + env(safe-area-inset-bottom,0px));top:auto;width:auto;
+  max-height:58vh;overflow-y:auto}
+.previa.entrando{animation:subirBorrado 260ms cubic-bezier(.2,.75,.3,1) both}
+@keyframes subirBorrado{
+  from{opacity:0;filter:blur(11px);transform:translateY(16px) scale(.985)}
+  60%{opacity:1}
+  to{opacity:1;filter:blur(0);transform:none}}
+.previa .eyebrow{font-family:var(--display);font-size:9.5px;font-weight:700;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--sinal)}
+.previa h4{font-family:var(--display);font-size:15px;font-weight:700;
+  line-height:1.3;margin-top:5px}
+.previa p{font-size:14px;color:var(--tinta-2);margin-top:8px;line-height:1.5}
+.previa .rodape-previa{margin-top:11px;padding-top:9px;
+  border-top:1px solid var(--borda);font-family:var(--display);font-size:11.5px;
+  color:var(--tinta-3);display:grid;gap:4px}
+.previa .rodape-previa b{color:var(--tinta-2);font-weight:600}
+
+/* ---------- caixa de interesses ---------- */
+.lanca{position:fixed;z-index:50;
+  right:calc(18px + env(safe-area-inset-right,0px));
+  bottom:calc(18px + env(safe-area-inset-bottom,0px));
+  display:flex;align-items:center;gap:9px;padding:11px 16px;border-radius:999px;
+  background:var(--noite);color:#f2f4f8;border:1px solid rgba(255,255,255,.14);
+  font-family:var(--display);font-size:13px;font-weight:600;cursor:pointer;
+  box-shadow:0 10px 30px rgba(8,12,20,.3);transition:transform var(--t)}
+.lanca:hover{transform:translateY(-2px)}
+.lanca .brasa{width:8px;height:8px;border-radius:50%;background:var(--sinal);
+  box-shadow:0 0 10px 2px rgba(224,140,40,.55)}
+.lanca .n-sel{background:var(--sinal);color:#15100a;border-radius:999px;
+  padding:0 7px;font-size:11px;line-height:17px;font-weight:700}
+.caixa{position:fixed;z-index:51;
+  right:calc(18px + env(safe-area-inset-right,0px));
+  bottom:calc(76px + env(safe-area-inset-bottom,0px));
+  width:min(440px,calc(100vw - 36px));max-height:min(80vh,720px);
+  display:flex;flex-direction:column;overflow:hidden;
+  background:var(--superficie);border:1px solid var(--borda-forte);border-radius:14px;
+  box-shadow:0 30px 80px rgba(6,10,18,.38),0 4px 14px rgba(6,10,18,.16)}
+.caixa.entrando{animation:subirBorrado 340ms cubic-bezier(.2,.75,.3,1) both}
+.caixa-topo{position:relative;overflow:hidden;background:var(--noite);color:#f2f4f8;
+  padding:20px 54px 18px 20px;flex:none}
+.caixa-topo::before{content:"";position:absolute;inset:0;opacity:.6;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);
+  background-size:100% 22px,22px 100%}
+.caixa-topo::after{content:"";position:absolute;width:240px;height:240px;right:-80px;
+  top:-120px;pointer-events:none;filter:blur(8px);
+  background:radial-gradient(circle,rgba(224,140,40,.5),rgba(224,140,40,0) 66%)}
+.caixa-topo > *{position:relative;z-index:1}
+.caixa-olho{font-family:var(--display);font-size:10px;font-weight:700;letter-spacing:.17em;
+  text-transform:uppercase;color:#e0a05a;display:flex;gap:8px;align-items:center}
+.caixa-olho::before{content:"";width:6px;height:6px;border-radius:50%;background:#e0a05a;
+  box-shadow:0 0 9px 2px rgba(224,140,40,.65)}
+.caixa h3{font-family:var(--display);font-size:22px;font-weight:800;line-height:1.12;
+  letter-spacing:-.012em;margin-top:9px;font-variation-settings:"wdth" 116}
+.caixa .sub{font-size:13.5px;color:#aab3c2;margin-top:7px;line-height:1.45}
+.caixa .fechar{position:absolute;top:14px;right:14px;z-index:2;width:30px;height:30px;
+  border-radius:50%;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);
+  color:#d5dbe4;cursor:pointer;display:grid;place-items:center;
+  transition:background var(--t),transform var(--t)}
+.caixa .fechar:hover{background:rgba(255,255,255,.15);transform:rotate(90deg)}
+.caixa-corpo{overflow-y:auto;padding:2px 20px 8px;flex:1;min-height:0}
+.grupo{margin-top:18px}
+.grupo .rot{font-family:var(--display);font-size:10px;font-weight:700;letter-spacing:.12em;
+  text-transform:uppercase;color:var(--tinta-3);margin-bottom:10px;display:flex;
+  justify-content:space-between;align-items:baseline;gap:10px}
+.grupo .rot span{letter-spacing:.02em;text-transform:none;font-weight:600;font-size:11px}
+.escolhas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.escolha{position:relative;display:grid;grid-template-columns:38px minmax(0,1fr);
+  column-gap:10px;align-items:center;text-align:left;padding:9px 28px 9px 10px;
+  border-radius:11px;
+  cursor:pointer;background:var(--superficie-2);border:1px solid var(--borda);
+  color:var(--tinta);font-family:var(--display);
+  transition:border-color var(--t),background var(--t),transform var(--t),box-shadow var(--t)}
+.escolha:hover{border-color:var(--borda-forte);transform:translateY(-1px);
+  box-shadow:0 6px 16px rgba(8,12,20,.08)}
+.escolha .selo{grid-row:span 2;width:38px;height:38px;border-radius:10px;display:grid;
+  place-items:center;font-size:20px;background:var(--superficie);border:1px solid var(--borda);
+  transition:transform 260ms cubic-bezier(.3,1.5,.5,1)}
+.escolha:hover .selo{transform:rotate(-6deg) scale(1.06)}
+.escolha .nome{font-size:13.5px;font-weight:700;line-height:1.15;overflow:hidden;
+  text-overflow:ellipsis;white-space:nowrap}
+.escolha .qtd{font-size:11px;color:var(--tinta-3);font-weight:600;
+  font-variant-numeric:tabular-nums;white-space:nowrap}
+.escolha .qtd.quente{color:var(--sinal)}
+.escolha .qtd.parado{opacity:.75}
+.escolha .marca-sel{position:absolute;top:7px;right:7px;width:19px;height:19px;
+  border-radius:50%;background:var(--sinal);color:#fff;display:grid;place-items:center;
+  opacity:0;transform:scale(.3);filter:blur(5px);
+  transition:opacity 180ms,transform 260ms cubic-bezier(.3,1.7,.5,1),filter 200ms}
+.escolha[aria-pressed="true"]{border-color:var(--sinal);background:var(--sinal-fraco);
+  box-shadow:0 0 0 1px var(--sinal) inset}
+.escolha[aria-pressed="true"] .selo{border-color:var(--sinal)}
+.escolha[aria-pressed="true"] .marca-sel{opacity:1;transform:scale(1);filter:blur(0)}
+.caixa-pe{border-top:1px solid var(--borda);padding:14px 20px 16px;
+  background:var(--superficie);flex:none}
+.caixa .fixo{display:flex;gap:9px;align-items:center;font-family:var(--display);
+  font-size:12px;color:var(--tinta-2);line-height:1.4}
+.caixa .fixo svg{flex:none;border-radius:2px}
+.acoes{display:flex;gap:12px;margin-top:12px;align-items:center}
+.acoes .confirmar{flex:1;display:flex;justify-content:center;align-items:center;gap:9px;
+  background:var(--noite);color:#f2f4f8;border:0;padding:12px 16px;border-radius:10px;
+  font-family:var(--display);font-size:14px;font-weight:700;cursor:pointer;
+  transition:transform var(--t),box-shadow var(--t)}
+.acoes .confirmar:hover{transform:translateY(-1px);box-shadow:0 10px 24px rgba(6,10,18,.3)}
+.acoes .confirmar b{background:var(--sinal);color:#15100a;border-radius:999px;
+  padding:0 8px;font-size:11.5px;line-height:19px;font-variant-numeric:tabular-nums}
+.acoes .limpar,.limpar{background:none;border:0;color:var(--tinta-3);
+  cursor:pointer;font-family:var(--display);font-size:12.5px;
+  text-decoration:underline;text-underline-offset:3px}
+.caixa .nota{font-family:var(--display);font-size:11.5px;color:var(--tinta-3);
+  margin-top:10px;line-height:1.5}
+.caixa .nota:empty{display:none}
+
+/* ---------- carregamento do filtro: olhos ---------- */
+.carga{position:fixed;inset:0;z-index:80;background:#06080c;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:22px;padding:24px;animation:aparecer 180ms ease both}
+@keyframes aparecer{from{opacity:0}to{opacity:1}}
+.carga .olhos{width:min(600px,90vw);height:auto;
+  animation:subirBorrado 520ms cubic-bezier(.2,.75,.3,1) both}
+.carga .dizeres{font-family:var(--display);font-size:14.5px;font-weight:600;
+  color:#e9edf4;text-align:center;min-height:21px}
+.carga .alvo-tema{font-family:var(--display);font-size:12px;color:#7d8795;
+  letter-spacing:.08em;text-transform:uppercase}
+.olhos .chama{transform-box:fill-box;transform-origin:50% 100%;
+  animation:labareda 760ms ease-in-out infinite}
+.olhos .chama.b{animation-duration:1080ms;animation-delay:-260ms}
+.olhos .chama.c{animation-duration:920ms;animation-delay:-520ms}
+@keyframes labareda{0%,100%{transform:translateY(0) scaleY(1) scaleX(1)}
+  38%{transform:translateY(-8px) scaleY(1.22) scaleX(.89)}
+  70%{transform:translateY(-2px) scaleY(1.05) scaleX(1.06)}}
+.olhos .pupila{transform-box:fill-box;transform-origin:50% 50%;
+  animation:varredura 2.2s cubic-bezier(.6,0,.4,1) infinite}
+@keyframes varredura{0%,100%{transform:translateX(-9px)}
+  45%,55%{transform:translateX(9px)}}
+.olhos .espelho .pupila{animation-name:varreduraEspelho}
+@keyframes varreduraEspelho{0%,100%{transform:translateX(9px)}
+  45%,55%{transform:translateX(-9px)}}
+.olhos .globo-olho{transform-box:fill-box;transform-origin:50% 60%;
+  animation:piscada 4.4s ease-in-out infinite}
+@keyframes piscada{0%,91%,100%{transform:scaleY(1)}94%{transform:scaleY(.05)}}
+.olhos .sobrancelha{transform-box:fill-box;transform-origin:50% 50%;
+  animation:franzir 1.7s ease-in-out infinite}
+@keyframes franzir{0%,100%{transform:translateY(0) rotate(0)}
+  50%{transform:translateY(3px) rotate(-1.6deg)}}
+
+@media (prefers-reduced-motion:reduce){
+  .abertura{display:none!important}
+  .estrelas i{animation:none}
+  .varredura i,.marca .ponto,.trilho i,.emojis span{animation:none}
+  .mundo-flutua,.continentes,.halo,.brilho{animation:none}
+  .brilho{opacity:0}
+  .olhos .chama,.olhos .pupila,.olhos .globo-olho,.olhos .sobrancelha{animation:none}
+  .previa.entrando,.caixa.entrando,.pauta{animation:none!important}
+  .posicao::before{display:none}
+  .carga .trilho-carga i{animation:none;width:100%}
+  *{transition-duration:1ms!important}
+}
+@media (max-width:860px){
+  .pauta{grid-template-columns:52px 1fr;gap:12px}
+  .placar{grid-column:1 / -1}
+}
+@media (max-width:620px){
+  .pauta{grid-template-columns:38px 1fr;gap:10px}
+  .placar{grid-column:1 / -1;text-align:left;border-top:1px solid var(--borda);
+    padding-top:10px}
+  .placar .n,.placar .de,.placar .n2{display:inline-block;vertical-align:baseline;
+    margin-right:7px;border-top:0;padding-top:0}
+  .posicao{font-size:26px}
+  .emojis span{font-size:26px}
+  .emojis span:nth-child(3n){font-size:32px}
+  .lanca{right:calc(12px + env(safe-area-inset-right,0px));
+    bottom:calc(12px + env(safe-area-inset-bottom,0px));padding:10px 14px}
+  .caixa{right:calc(12px + env(safe-area-inset-right,0px));
+    left:calc(12px + env(safe-area-inset-left,0px));width:auto;
+    bottom:calc(68px + env(safe-area-inset-bottom,0px))}
+}
+</style>
+"""
+
+# Metade do rosto bravo. O lado direito e a mesma arte espelhada; so as pupilas
+# levam quadros invertidos, senao andariam em sentidos opostos na tela.
+_OLHO = r"""      <path class="globo-olho" d="M 28,150 C 58,118 144,110 198,148 C 172,194 84,200 28,150 Z"
+            fill="#fdfdfb" stroke="#141414" stroke-width="7" stroke-linejoin="round"/>
+      <g class="pupila">
+        <circle cx="132" cy="158" r="30" fill="#c62330" stroke="#141414" stroke-width="6"/>
+        <circle cx="132" cy="158" r="12" fill="#2a0b10"/>
+        <circle cx="120" cy="146" r="6.5" fill="#ffffff" opacity=".9"/>
+      </g>
+      <path class="chama c" d="M 148,132 C 140,114 150,104 146,82 C 159,96 164,114 159,132 Z"
+            fill="#f6a81e"/>
+      <path class="chama" d="M 162,132 C 145,98 174,86 163,32 C 196,59 221,99 202,132 Z"
+            fill="#f0870f"/>
+      <path class="chama b" d="M 174,132 C 167,108 185,98 179,66 C 195,85 202,109 197,132 Z"
+            fill="#fbc02d"/>
+      <path class="sobrancelha" d="M 10,96 L 116,40 L 222,142 L 112,116 L 10,138 Z"
+            fill="#e02028" stroke="#141414" stroke-width="7" stroke-linejoin="round"/>"""
+
+MARCACAO = r"""
+<svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">
+  <filter id="borrao-mov" x="-10%" y="-20%" width="120%" height="140%">
+    <feGaussianBlur id="borrao-mov-g" in="SourceGraphic" stdDeviation="0 0"/>
+  </filter>
+</svg>
+
+
+<div class="entrada" id="t-entrada" aria-live="polite">
+  <div class="estrelas" id="t-estrelas-entrada" aria-hidden="true"></div>
+  <div class="cartao-entrada" id="t-cartao-entrada">
+    <div class="entrada-olho">Radar de Notícias</div>
+    <div class="quem"><div>
+      <h2>Bem-vindo</h2><p>Reconhecendo sua conta…</p></div></div>
+    <div class="reconhecendo" aria-hidden="true"><i></i><i></i></div>
+  </div>
+</div>
+<div class="abertura" id="t-abertura" role="status" aria-live="polite" hidden>
+  <div class="estrelas" id="t-estrelas" aria-hidden="true"></div>
+  <div class="abertura-miolo">
+  <svg class="globo-svg" viewBox="0 0 340 424" role="img"
+       aria-label="Globo de bancada girando">
+    <defs>
+      <clipPath id="recorte-mundo"><circle cx="165" cy="170" r="128"/></clipPath>
+      <filter id="borrao-giro" x="-14%" y="-14%" width="128%" height="128%">
+        <feGaussianBlur stdDeviation="1.9 0"/>
+      </filter>
+      <filter id="suave" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="9"/>
+      </filter>
+      <filter id="sombra-chao" x="-40%" y="-120%" width="180%" height="340%">
+        <feGaussianBlur stdDeviation="7"/>
+      </filter>
+      <radialGradient id="oceano" cx="33%" cy="27%" r="78%">
+        <stop offset="0%" stop-color="#7fd3e8"/>
+        <stop offset="34%" stop-color="#36a0c8"/>
+        <stop offset="68%" stop-color="#136b9c"/>
+        <stop offset="100%" stop-color="#06304e"/>
+      </radialGradient>
+      <radialGradient id="sombra-esfera" cx="36%" cy="30%" r="76%">
+        <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+        <stop offset="100%" stop-color="#01121f" stop-opacity=".62"/>
+      </radialGradient>
+      <linearGradient id="latao" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#f6e6bb"/>
+        <stop offset="28%" stop-color="#d9b981"/>
+        <stop offset="55%" stop-color="#9c7746"/>
+        <stop offset="78%" stop-color="#d4b57c"/>
+        <stop offset="100%" stop-color="#7d5c33"/>
+      </linearGradient>
+      <linearGradient id="latao-base" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#e9d2a0"/>
+        <stop offset="48%" stop-color="#b8945c"/>
+        <stop offset="100%" stop-color="#6f5230"/>
+      </linearGradient>
+      <linearGradient id="brilho-passa" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+        <stop offset="45%" stop-color="#ffffff" stop-opacity=".30"/>
+        <stop offset="55%" stop-color="#ffffff" stop-opacity=".30"/>
+        <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      </linearGradient>
+      <radialGradient id="halo-mundo" cx="50%" cy="50%" r="50%">
+        <stop offset="52%" stop-color="#2fa6d6" stop-opacity=".26"/>
+        <stop offset="78%" stop-color="#14618c" stop-opacity=".10"/>
+        <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+
+    <ellipse cx="165" cy="406" rx="84" ry="11" fill="#000000" opacity=".55"
+             filter="url(#sombra-chao)"/>
+    <circle class="halo" cx="165" cy="170" r="188" fill="url(#halo-mundo)"/>
+
+    <g class="pe-globo" fill="url(#latao-base)" stroke="#5c421f" stroke-width="2.2">
+      <rect x="160" y="316" width="10" height="44" rx="4"/>
+      <path d="M 151,358 L 179,358 L 186,384 L 144,384 Z"/>
+      <ellipse cx="165" cy="386" rx="50" ry="11"/>
+      <ellipse cx="165" cy="394" rx="64" ry="14"/>
+      <circle cx="165" cy="386" r="7" fill="#8a6534"/>
+    </g>
+
+    <g class="mundo-flutua">
+      <circle cx="165" cy="170" r="128" fill="url(#oceano)"/>
+      <g clip-path="url(#recorte-mundo)">
+        <g class="continentes" fill="#dcc79c" stroke="#95713f" stroke-width="1.6"
+           filter="url(#borrao-giro)">
+          <g>
+        <path d="M 109.0,86.0 Q 109.0,86.0 108.2,89.4 Q 107.3,92.8 106.5,96.3 Q 105.7,99.7 107.3,104.5 Q 108.8,109.3 105.7,112.7 Q 102.6,116.1 97.0,117.4 Q 91.4,118.8 88.6,123.0 Q 85.8,127.3 80.6,129.3 Q 75.4,131.2 69.1,127.9 Q 62.8,124.6 58.2,123.0 Q 53.6,121.4 48.6,122.3 Q 43.7,123.3 37.4,124.7 Q 31.1,126.1 24.9,125.3 Q 18.8,124.5 16.9,119.7 Q 15.1,115.0 17.6,109.2 Q 20.0,103.4 19.6,100.3 Q 19.2,97.1 13.6,95.0 Q 8.1,92.9 4.2,89.5 Q 0.3,86.0 2.1,82.3 Q 4.0,78.5 9.4,76.1 Q 14.8,73.6 17.6,71.2 Q 20.3,68.7 21.3,65.3 Q 22.3,61.9 24.4,58.5 Q 26.5,55.1 29.3,51.3 Q 32.1,47.4 37.1,46.2 Q 42.2,44.9 47.5,44.3 Q 52.7,43.7 58.2,42.2 Q 63.7,40.6 69.2,41.5 Q 74.7,42.4 79.6,44.6 Q 84.4,46.8 87.8,50.1 Q 91.3,53.3 93.7,56.8 Q 96.2,60.2 100.1,62.5 Q 104.1,64.8 106.9,68.0 Q 109.6,71.2 109.1,75.1 Z"/>
+        <path d="M 130.4,196.0 Q 130.4,196.0 128.9,202.0 Q 127.4,208.1 125.3,212.9 Q 123.2,217.8 121.6,222.4 Q 120.0,227.0 118.5,231.8 Q 117.0,236.6 114.8,240.4 Q 112.7,244.2 110.3,248.0 Q 108.0,251.8 105.1,254.4 Q 102.3,257.1 99.1,254.1 Q 96.0,251.2 93.3,249.6 Q 90.7,248.0 87.3,250.3 Q 83.9,252.7 80.6,251.4 Q 77.3,250.1 74.8,246.0 Q 72.2,242.0 70.1,237.1 Q 68.0,232.1 66.6,226.4 Q 65.3,220.6 63.4,214.9 Q 61.5,209.3 61.8,202.6 Q 62.0,196.0 64.6,190.5 Q 67.3,185.0 69.3,180.6 Q 71.4,176.3 73.4,172.8 Q 75.3,169.3 75.9,163.8 Q 76.5,158.3 76.7,149.5 Q 76.9,140.6 79.7,136.7 Q 82.5,132.9 86.2,134.8 Q 89.9,136.8 93.0,136.6 Q 96.0,136.4 99.0,136.6 Q 102.1,136.7 104.6,140.3 Q 107.2,143.9 110.1,145.4 Q 112.9,147.0 115.5,150.2 Q 118.0,153.5 118.2,160.3 Q 118.4,167.0 119.6,171.6 Q 120.7,176.2 124.0,180.1 Z"/>
+        <path d="M 89.7,268.0 Q 89.7,268.0 91.4,270.8 Q 93.2,273.6 92.5,276.5 Q 91.8,279.4 89.8,281.8 Q 87.9,284.3 84.9,285.5 Q 81.9,286.7 78.6,286.2 Q 75.3,285.8 72.6,285.2 Q 70.0,284.5 67.6,284.4 Q 65.2,284.2 62.1,284.8 Q 59.0,285.3 55.9,284.5 Q 52.7,283.7 50.6,281.5 Q 48.5,279.3 47.1,276.6 Q 45.7,273.9 46.8,271.0 Q 47.8,268.0 49.4,265.7 Q 50.9,263.4 51.4,260.9 Q 51.9,258.5 52.9,256.0 Q 53.9,253.4 55.9,251.1 Q 57.9,248.9 60.7,247.6 Q 63.6,246.3 66.8,246.0 Q 70.0,245.7 73.1,246.4 Q 76.1,247.2 78.7,248.8 Q 81.2,250.4 82.9,252.5 Q 84.7,254.7 86.0,256.8 Q 87.3,258.9 87.6,261.3 Z"/>
+        <path d="M 223.5,78.0 Q 223.5,78.0 223.1,80.7 Q 222.6,83.4 221.8,86.2 Q 221.1,89.0 219.2,91.6 Q 217.4,94.3 214.2,96.3 Q 210.9,98.3 206.0,98.3 Q 201.0,98.2 197.0,98.2 Q 193.1,98.2 189.5,100.3 Q 186.0,102.4 181.3,103.6 Q 176.6,104.7 172.7,102.9 Q 168.8,101.2 166.7,98.3 Q 164.5,95.5 162.5,93.4 Q 160.4,91.3 157.3,89.6 Q 154.1,88.0 150.8,85.8 Q 147.5,83.7 144.8,80.9 Q 142.2,78.0 141.2,74.6 Q 140.2,71.2 141.7,67.9 Q 143.1,64.6 147.4,62.4 Q 151.8,60.2 156.1,58.7 Q 160.5,57.2 164.4,55.6 Q 168.2,54.0 172.8,53.7 Q 177.4,53.5 181.7,54.1 Q 186.0,54.8 189.5,56.3 Q 193.1,57.8 196.6,58.3 Q 200.2,58.9 204.4,59.2 Q 208.6,59.6 211.9,61.2 Q 215.2,62.9 219.3,64.6 Q 223.5,66.3 225.2,69.1 Z"/>
+        <path d="M 250.6,172.0 Q 250.6,172.0 249.8,178.4 Q 248.9,184.9 245.3,189.8 Q 241.7,194.8 238.5,198.8 Q 235.3,202.8 235.4,210.2 Q 235.5,217.6 232.4,222.2 Q 229.3,226.8 223.9,225.5 Q 218.5,224.3 215.0,226.6 Q 211.5,228.9 207.8,231.9 Q 204.1,235.0 200.1,232.8 Q 196.1,230.7 192.4,229.3 Q 188.7,227.8 184.0,229.2 Q 179.3,230.5 175.6,227.5 Q 171.9,224.5 169.8,219.0 Q 167.6,213.6 163.8,210.2 Q 160.0,206.9 157.4,201.8 Q 154.8,196.7 156.3,189.9 Q 157.9,183.1 159.3,177.5 Q 160.7,172.0 159.4,166.5 Q 158.0,160.9 159.2,155.6 Q 160.3,150.4 164.6,147.6 Q 168.9,144.9 171.5,141.8 Q 174.1,138.7 175.7,134.2 Q 177.3,129.7 179.6,125.1 Q 181.8,120.6 185.3,118.5 Q 188.8,116.4 192.5,115.8 Q 196.3,115.2 200.1,114.4 Q 203.8,113.6 207.7,114.1 Q 211.6,114.6 215.1,117.0 Q 218.6,119.3 220.4,124.9 Q 222.2,130.5 223.4,135.5 Q 224.5,140.5 227.6,142.8 Q 230.8,145.2 236.2,147.2 Q 241.6,149.3 245.8,154.1 Z"/>
+        <path d="M 350.8,92.0 Q 350.8,92.0 349.1,96.2 Q 347.4,100.4 344.7,104.0 Q 342.0,107.7 339.2,111.1 Q 336.3,114.4 333.0,117.5 Q 329.7,120.6 324.3,121.6 Q 319.0,122.6 313.9,122.8 Q 308.9,123.0 305.1,125.3 Q 301.3,127.6 296.7,130.3 Q 292.0,133.0 286.7,132.8 Q 281.3,132.6 276.5,130.9 Q 271.7,129.2 266.7,127.8 Q 261.7,126.4 258.6,123.1 Q 255.5,119.7 252.7,116.5 Q 249.9,113.3 246.3,110.4 Q 242.7,107.5 241.8,103.6 Q 241.0,99.7 238.1,95.8 Q 235.2,92.0 230.9,87.1 Q 226.7,82.1 226.6,76.8 Q 226.5,71.4 229.7,66.7 Q 232.9,62.1 238.2,58.6 Q 243.4,55.1 250.7,54.3 Q 258.1,53.5 264.4,53.3 Q 270.8,53.2 275.6,50.3 Q 280.3,47.3 286.1,46.4 Q 292.0,45.5 297.7,47.1 Q 303.4,48.6 309.8,48.2 Q 316.2,47.7 323.3,48.0 Q 330.5,48.3 335.3,51.9 Q 340.1,55.5 343.3,59.9 Q 346.5,64.4 348.3,69.1 Q 350.0,73.8 350.3,78.5 Z"/>
+        <path d="M 327.2,222.0 Q 327.2,222.0 327.6,224.8 Q 328.0,227.5 328.9,231.0 Q 329.8,234.5 327.0,236.8 Q 324.2,239.1 320.1,239.8 Q 316.0,240.5 313.1,242.0 Q 310.2,243.5 306.8,244.0 Q 303.4,244.6 300.1,243.7 Q 296.8,242.8 293.6,242.5 Q 290.4,242.3 287.0,241.6 Q 283.7,240.9 280.5,239.5 Q 277.3,238.1 273.9,236.2 Q 270.5,234.4 268.9,231.4 Q 267.3,228.4 269.8,225.2 Q 272.4,222.0 275.3,219.9 Q 278.3,217.7 277.9,215.1 Q 277.4,212.5 277.1,209.0 Q 276.8,205.5 279.4,203.3 Q 282.0,201.1 285.2,199.3 Q 288.4,197.5 292.0,195.5 Q 295.7,193.5 299.9,194.2 Q 304.1,195.0 307.5,197.0 Q 310.8,199.1 314.2,200.4 Q 317.6,201.6 320.0,203.9 Q 322.5,206.1 324.8,208.4 Q 327.1,210.6 328.4,213.4 Z"/>
+        <path d="M 270.2,282.0 Q 270.2,282.0 272.4,284.7 Q 274.6,287.3 273.0,289.7 Q 271.4,292.1 267.3,293.0 Q 263.2,293.9 260.2,294.6 Q 257.1,295.3 254.5,296.3 Q 251.9,297.3 249.0,297.6 Q 246.0,298.0 242.8,298.3 Q 239.6,298.6 235.5,299.1 Q 231.3,299.6 227.9,298.3 Q 224.5,296.9 223.2,294.3 Q 222.0,291.6 220.1,289.4 Q 218.1,287.2 217.0,284.6 Q 215.8,282.0 218.3,279.7 Q 220.7,277.3 223.4,275.7 Q 226.1,274.0 226.8,271.6 Q 227.5,269.2 229.3,266.7 Q 231.1,264.1 235.0,264.0 Q 239.0,263.9 242.5,265.4 Q 246.0,266.9 248.7,267.4 Q 251.5,267.8 254.7,267.7 Q 258.0,267.7 260.8,268.8 Q 263.6,269.8 264.8,271.9 Q 266.1,274.0 266.4,276.1 Z"/>
+        <path d="M 155.5,300.0 Q 155.5,300.0 155.2,301.8 Q 154.9,303.6 154.8,305.8 Q 154.6,308.0 152.7,309.5 Q 150.7,311.1 147.7,310.9 Q 144.7,310.7 142.3,310.1 Q 140.0,309.5 138.0,309.4 Q 135.9,309.4 133.0,309.8 Q 130.1,310.2 127.3,309.3 Q 124.5,308.5 124.2,306.2 Q 124.0,303.9 124.4,301.9 Q 124.8,300.0 124.0,297.9 Q 123.1,295.9 123.8,293.7 Q 124.4,291.5 127.0,290.4 Q 129.6,289.3 132.2,288.7 Q 134.8,288.1 137.4,287.0 Q 140.0,285.9 143.2,285.7 Q 146.3,285.5 148.8,286.9 Q 151.4,288.3 152.8,290.3 Q 154.1,292.3 154.8,294.3 Z"/>
+        <path d="M 166.8,140.0 Q 166.8,140.0 166.3,141.9 Q 165.9,143.9 165.0,145.9 Q 164.1,147.8 161.7,148.8 Q 159.3,149.8 156.7,149.3 Q 154.0,148.8 152.1,148.3 Q 150.2,147.8 148.5,147.3 Q 146.9,146.8 145.0,146.3 Q 143.0,145.8 140.8,144.8 Q 138.7,143.7 138.5,141.9 Q 138.3,140.0 139.5,138.4 Q 140.6,136.8 141.5,135.3 Q 142.4,133.8 144.0,132.6 Q 145.6,131.5 147.7,131.0 Q 149.8,130.6 151.9,131.1 Q 153.9,131.7 155.9,131.9 Q 157.9,132.1 160.5,132.5 Q 163.1,132.9 164.7,134.4 Z"/>
+        <path d="M 274.2,150.0 Q 274.2,150.0 274.2,152.0 Q 274.3,154.1 272.6,155.6 Q 271.0,157.2 268.7,157.8 Q 266.4,158.4 264.2,158.7 Q 262.0,158.9 259.8,158.7 Q 257.6,158.5 256.2,157.2 Q 254.7,155.8 253.9,154.4 Q 253.1,153.0 252.2,151.5 Q 251.3,150.0 251.7,148.3 Q 252.0,146.7 253.3,145.4 Q 254.6,144.1 256.0,142.7 Q 257.5,141.3 259.8,140.5 Q 262.0,139.7 264.3,140.3 Q 266.7,141.0 268.0,142.6 Q 269.2,144.2 270.3,145.6 Z"/>
+        <path d="M 128.1,44.0 Q 128.1,44.0 126.9,45.2 Q 125.7,46.4 125.1,47.6 Q 124.4,48.8 123.3,50.2 Q 122.2,51.6 120.1,52.6 Q 118.0,53.6 115.3,53.6 Q 112.6,53.7 111.1,52.0 Q 109.5,50.4 109.3,48.6 Q 109.1,46.8 107.9,45.4 Q 106.6,44.0 106.3,42.1 Q 106.0,40.3 107.6,38.8 Q 109.2,37.4 111.3,36.5 Q 113.3,35.6 115.7,35.1 Q 118.0,34.6 120.4,34.9 Q 122.9,35.2 124.7,36.4 Q 126.6,37.6 127.7,39.1 Z"/>
+          </g>
+          <g transform="translate(340,0)">
+        <path d="M 109.0,86.0 Q 109.0,86.0 108.2,89.4 Q 107.3,92.8 106.5,96.3 Q 105.7,99.7 107.3,104.5 Q 108.8,109.3 105.7,112.7 Q 102.6,116.1 97.0,117.4 Q 91.4,118.8 88.6,123.0 Q 85.8,127.3 80.6,129.3 Q 75.4,131.2 69.1,127.9 Q 62.8,124.6 58.2,123.0 Q 53.6,121.4 48.6,122.3 Q 43.7,123.3 37.4,124.7 Q 31.1,126.1 24.9,125.3 Q 18.8,124.5 16.9,119.7 Q 15.1,115.0 17.6,109.2 Q 20.0,103.4 19.6,100.3 Q 19.2,97.1 13.6,95.0 Q 8.1,92.9 4.2,89.5 Q 0.3,86.0 2.1,82.3 Q 4.0,78.5 9.4,76.1 Q 14.8,73.6 17.6,71.2 Q 20.3,68.7 21.3,65.3 Q 22.3,61.9 24.4,58.5 Q 26.5,55.1 29.3,51.3 Q 32.1,47.4 37.1,46.2 Q 42.2,44.9 47.5,44.3 Q 52.7,43.7 58.2,42.2 Q 63.7,40.6 69.2,41.5 Q 74.7,42.4 79.6,44.6 Q 84.4,46.8 87.8,50.1 Q 91.3,53.3 93.7,56.8 Q 96.2,60.2 100.1,62.5 Q 104.1,64.8 106.9,68.0 Q 109.6,71.2 109.1,75.1 Z"/>
+        <path d="M 130.4,196.0 Q 130.4,196.0 128.9,202.0 Q 127.4,208.1 125.3,212.9 Q 123.2,217.8 121.6,222.4 Q 120.0,227.0 118.5,231.8 Q 117.0,236.6 114.8,240.4 Q 112.7,244.2 110.3,248.0 Q 108.0,251.8 105.1,254.4 Q 102.3,257.1 99.1,254.1 Q 96.0,251.2 93.3,249.6 Q 90.7,248.0 87.3,250.3 Q 83.9,252.7 80.6,251.4 Q 77.3,250.1 74.8,246.0 Q 72.2,242.0 70.1,237.1 Q 68.0,232.1 66.6,226.4 Q 65.3,220.6 63.4,214.9 Q 61.5,209.3 61.8,202.6 Q 62.0,196.0 64.6,190.5 Q 67.3,185.0 69.3,180.6 Q 71.4,176.3 73.4,172.8 Q 75.3,169.3 75.9,163.8 Q 76.5,158.3 76.7,149.5 Q 76.9,140.6 79.7,136.7 Q 82.5,132.9 86.2,134.8 Q 89.9,136.8 93.0,136.6 Q 96.0,136.4 99.0,136.6 Q 102.1,136.7 104.6,140.3 Q 107.2,143.9 110.1,145.4 Q 112.9,147.0 115.5,150.2 Q 118.0,153.5 118.2,160.3 Q 118.4,167.0 119.6,171.6 Q 120.7,176.2 124.0,180.1 Z"/>
+        <path d="M 89.7,268.0 Q 89.7,268.0 91.4,270.8 Q 93.2,273.6 92.5,276.5 Q 91.8,279.4 89.8,281.8 Q 87.9,284.3 84.9,285.5 Q 81.9,286.7 78.6,286.2 Q 75.3,285.8 72.6,285.2 Q 70.0,284.5 67.6,284.4 Q 65.2,284.2 62.1,284.8 Q 59.0,285.3 55.9,284.5 Q 52.7,283.7 50.6,281.5 Q 48.5,279.3 47.1,276.6 Q 45.7,273.9 46.8,271.0 Q 47.8,268.0 49.4,265.7 Q 50.9,263.4 51.4,260.9 Q 51.9,258.5 52.9,256.0 Q 53.9,253.4 55.9,251.1 Q 57.9,248.9 60.7,247.6 Q 63.6,246.3 66.8,246.0 Q 70.0,245.7 73.1,246.4 Q 76.1,247.2 78.7,248.8 Q 81.2,250.4 82.9,252.5 Q 84.7,254.7 86.0,256.8 Q 87.3,258.9 87.6,261.3 Z"/>
+        <path d="M 223.5,78.0 Q 223.5,78.0 223.1,80.7 Q 222.6,83.4 221.8,86.2 Q 221.1,89.0 219.2,91.6 Q 217.4,94.3 214.2,96.3 Q 210.9,98.3 206.0,98.3 Q 201.0,98.2 197.0,98.2 Q 193.1,98.2 189.5,100.3 Q 186.0,102.4 181.3,103.6 Q 176.6,104.7 172.7,102.9 Q 168.8,101.2 166.7,98.3 Q 164.5,95.5 162.5,93.4 Q 160.4,91.3 157.3,89.6 Q 154.1,88.0 150.8,85.8 Q 147.5,83.7 144.8,80.9 Q 142.2,78.0 141.2,74.6 Q 140.2,71.2 141.7,67.9 Q 143.1,64.6 147.4,62.4 Q 151.8,60.2 156.1,58.7 Q 160.5,57.2 164.4,55.6 Q 168.2,54.0 172.8,53.7 Q 177.4,53.5 181.7,54.1 Q 186.0,54.8 189.5,56.3 Q 193.1,57.8 196.6,58.3 Q 200.2,58.9 204.4,59.2 Q 208.6,59.6 211.9,61.2 Q 215.2,62.9 219.3,64.6 Q 223.5,66.3 225.2,69.1 Z"/>
+        <path d="M 250.6,172.0 Q 250.6,172.0 249.8,178.4 Q 248.9,184.9 245.3,189.8 Q 241.7,194.8 238.5,198.8 Q 235.3,202.8 235.4,210.2 Q 235.5,217.6 232.4,222.2 Q 229.3,226.8 223.9,225.5 Q 218.5,224.3 215.0,226.6 Q 211.5,228.9 207.8,231.9 Q 204.1,235.0 200.1,232.8 Q 196.1,230.7 192.4,229.3 Q 188.7,227.8 184.0,229.2 Q 179.3,230.5 175.6,227.5 Q 171.9,224.5 169.8,219.0 Q 167.6,213.6 163.8,210.2 Q 160.0,206.9 157.4,201.8 Q 154.8,196.7 156.3,189.9 Q 157.9,183.1 159.3,177.5 Q 160.7,172.0 159.4,166.5 Q 158.0,160.9 159.2,155.6 Q 160.3,150.4 164.6,147.6 Q 168.9,144.9 171.5,141.8 Q 174.1,138.7 175.7,134.2 Q 177.3,129.7 179.6,125.1 Q 181.8,120.6 185.3,118.5 Q 188.8,116.4 192.5,115.8 Q 196.3,115.2 200.1,114.4 Q 203.8,113.6 207.7,114.1 Q 211.6,114.6 215.1,117.0 Q 218.6,119.3 220.4,124.9 Q 222.2,130.5 223.4,135.5 Q 224.5,140.5 227.6,142.8 Q 230.8,145.2 236.2,147.2 Q 241.6,149.3 245.8,154.1 Z"/>
+        <path d="M 350.8,92.0 Q 350.8,92.0 349.1,96.2 Q 347.4,100.4 344.7,104.0 Q 342.0,107.7 339.2,111.1 Q 336.3,114.4 333.0,117.5 Q 329.7,120.6 324.3,121.6 Q 319.0,122.6 313.9,122.8 Q 308.9,123.0 305.1,125.3 Q 301.3,127.6 296.7,130.3 Q 292.0,133.0 286.7,132.8 Q 281.3,132.6 276.5,130.9 Q 271.7,129.2 266.7,127.8 Q 261.7,126.4 258.6,123.1 Q 255.5,119.7 252.7,116.5 Q 249.9,113.3 246.3,110.4 Q 242.7,107.5 241.8,103.6 Q 241.0,99.7 238.1,95.8 Q 235.2,92.0 230.9,87.1 Q 226.7,82.1 226.6,76.8 Q 226.5,71.4 229.7,66.7 Q 232.9,62.1 238.2,58.6 Q 243.4,55.1 250.7,54.3 Q 258.1,53.5 264.4,53.3 Q 270.8,53.2 275.6,50.3 Q 280.3,47.3 286.1,46.4 Q 292.0,45.5 297.7,47.1 Q 303.4,48.6 309.8,48.2 Q 316.2,47.7 323.3,48.0 Q 330.5,48.3 335.3,51.9 Q 340.1,55.5 343.3,59.9 Q 346.5,64.4 348.3,69.1 Q 350.0,73.8 350.3,78.5 Z"/>
+        <path d="M 327.2,222.0 Q 327.2,222.0 327.6,224.8 Q 328.0,227.5 328.9,231.0 Q 329.8,234.5 327.0,236.8 Q 324.2,239.1 320.1,239.8 Q 316.0,240.5 313.1,242.0 Q 310.2,243.5 306.8,244.0 Q 303.4,244.6 300.1,243.7 Q 296.8,242.8 293.6,242.5 Q 290.4,242.3 287.0,241.6 Q 283.7,240.9 280.5,239.5 Q 277.3,238.1 273.9,236.2 Q 270.5,234.4 268.9,231.4 Q 267.3,228.4 269.8,225.2 Q 272.4,222.0 275.3,219.9 Q 278.3,217.7 277.9,215.1 Q 277.4,212.5 277.1,209.0 Q 276.8,205.5 279.4,203.3 Q 282.0,201.1 285.2,199.3 Q 288.4,197.5 292.0,195.5 Q 295.7,193.5 299.9,194.2 Q 304.1,195.0 307.5,197.0 Q 310.8,199.1 314.2,200.4 Q 317.6,201.6 320.0,203.9 Q 322.5,206.1 324.8,208.4 Q 327.1,210.6 328.4,213.4 Z"/>
+        <path d="M 270.2,282.0 Q 270.2,282.0 272.4,284.7 Q 274.6,287.3 273.0,289.7 Q 271.4,292.1 267.3,293.0 Q 263.2,293.9 260.2,294.6 Q 257.1,295.3 254.5,296.3 Q 251.9,297.3 249.0,297.6 Q 246.0,298.0 242.8,298.3 Q 239.6,298.6 235.5,299.1 Q 231.3,299.6 227.9,298.3 Q 224.5,296.9 223.2,294.3 Q 222.0,291.6 220.1,289.4 Q 218.1,287.2 217.0,284.6 Q 215.8,282.0 218.3,279.7 Q 220.7,277.3 223.4,275.7 Q 226.1,274.0 226.8,271.6 Q 227.5,269.2 229.3,266.7 Q 231.1,264.1 235.0,264.0 Q 239.0,263.9 242.5,265.4 Q 246.0,266.9 248.7,267.4 Q 251.5,267.8 254.7,267.7 Q 258.0,267.7 260.8,268.8 Q 263.6,269.8 264.8,271.9 Q 266.1,274.0 266.4,276.1 Z"/>
+        <path d="M 155.5,300.0 Q 155.5,300.0 155.2,301.8 Q 154.9,303.6 154.8,305.8 Q 154.6,308.0 152.7,309.5 Q 150.7,311.1 147.7,310.9 Q 144.7,310.7 142.3,310.1 Q 140.0,309.5 138.0,309.4 Q 135.9,309.4 133.0,309.8 Q 130.1,310.2 127.3,309.3 Q 124.5,308.5 124.2,306.2 Q 124.0,303.9 124.4,301.9 Q 124.8,300.0 124.0,297.9 Q 123.1,295.9 123.8,293.7 Q 124.4,291.5 127.0,290.4 Q 129.6,289.3 132.2,288.7 Q 134.8,288.1 137.4,287.0 Q 140.0,285.9 143.2,285.7 Q 146.3,285.5 148.8,286.9 Q 151.4,288.3 152.8,290.3 Q 154.1,292.3 154.8,294.3 Z"/>
+        <path d="M 166.8,140.0 Q 166.8,140.0 166.3,141.9 Q 165.9,143.9 165.0,145.9 Q 164.1,147.8 161.7,148.8 Q 159.3,149.8 156.7,149.3 Q 154.0,148.8 152.1,148.3 Q 150.2,147.8 148.5,147.3 Q 146.9,146.8 145.0,146.3 Q 143.0,145.8 140.8,144.8 Q 138.7,143.7 138.5,141.9 Q 138.3,140.0 139.5,138.4 Q 140.6,136.8 141.5,135.3 Q 142.4,133.8 144.0,132.6 Q 145.6,131.5 147.7,131.0 Q 149.8,130.6 151.9,131.1 Q 153.9,131.7 155.9,131.9 Q 157.9,132.1 160.5,132.5 Q 163.1,132.9 164.7,134.4 Z"/>
+        <path d="M 274.2,150.0 Q 274.2,150.0 274.2,152.0 Q 274.3,154.1 272.6,155.6 Q 271.0,157.2 268.7,157.8 Q 266.4,158.4 264.2,158.7 Q 262.0,158.9 259.8,158.7 Q 257.6,158.5 256.2,157.2 Q 254.7,155.8 253.9,154.4 Q 253.1,153.0 252.2,151.5 Q 251.3,150.0 251.7,148.3 Q 252.0,146.7 253.3,145.4 Q 254.6,144.1 256.0,142.7 Q 257.5,141.3 259.8,140.5 Q 262.0,139.7 264.3,140.3 Q 266.7,141.0 268.0,142.6 Q 269.2,144.2 270.3,145.6 Z"/>
+        <path d="M 128.1,44.0 Q 128.1,44.0 126.9,45.2 Q 125.7,46.4 125.1,47.6 Q 124.4,48.8 123.3,50.2 Q 122.2,51.6 120.1,52.6 Q 118.0,53.6 115.3,53.6 Q 112.6,53.7 111.1,52.0 Q 109.5,50.4 109.3,48.6 Q 109.1,46.8 107.9,45.4 Q 106.6,44.0 106.3,42.1 Q 106.0,40.3 107.6,38.8 Q 109.2,37.4 111.3,36.5 Q 113.3,35.6 115.7,35.1 Q 118.0,34.6 120.4,34.9 Q 122.9,35.2 124.7,36.4 Q 126.6,37.6 127.7,39.1 Z"/>
+          </g>
+        </g>
+        <ellipse cx="165" cy="48" rx="104" ry="30" fill="#f3fafd" opacity=".52"
+                 filter="url(#suave)"/>
+        <ellipse cx="165" cy="296" rx="96" ry="24" fill="#eaf6fb" opacity=".34"
+                 filter="url(#suave)"/>
+        <ellipse cx="108" cy="100" rx="48" ry="32" fill="#ffffff" opacity=".16"
+                 filter="url(#suave)"/>
+        <g class="paralelos">
+        <ellipse cx="165" cy="86" rx="96.6" ry="8.8" fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1" stroke-dasharray="3 5"/>
+        <ellipse cx="165" cy="126" rx="120.2" ry="10.0" fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1" stroke-dasharray="3 5"/>
+        <ellipse cx="165" cy="170" rx="128.0" ry="10.4" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.3"/>
+        <ellipse cx="165" cy="214" rx="120.2" ry="10.0" fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1" stroke-dasharray="3 5"/>
+        <ellipse cx="165" cy="254" rx="96.6" ry="8.8" fill="none" stroke="#ffffff" stroke-opacity="0.13" stroke-width="1" stroke-dasharray="3 5"/>
+        </g>
+        <rect class="brilho" x="-200" y="22" width="150"
+              height="296" fill="url(#brilho-passa)"
+              transform="skewX(-18)"/>
+        <circle cx="165" cy="170" r="128" fill="url(#sombra-esfera)"/>
+      </g>
+
+      <circle cx="165" cy="170" r="127.2" fill="none" stroke="#a8e2ff"
+              stroke-opacity=".38" stroke-width="1.6"/>
+      <g class="aro" fill="none" stroke="url(#latao)" stroke-linecap="round">
+        <path d="M 138.6,20.3 A 152,152 0 1 1 165.0,322.0"
+              stroke-width="15"/>
+        <path d="M 138.6,20.3 A 152,152 0 1 1 165.0,322.0"
+              stroke="#fff3d4" stroke-width="2" opacity=".45"
+              transform="translate(0,-3)"/>
+        <g stroke="#6b4f29" opacity=".75">
+        <line x1="139.7" y1="26.7" x2="138.9" y2="21.8" stroke-width="1.3"/>
+        <line x1="165.0" y1="28.5" x2="165.0" y2="19.5" stroke-width="2.1"/>
+        <line x1="190.3" y1="26.7" x2="191.1" y2="21.8" stroke-width="1.3"/>
+        <line x1="214.8" y1="33.3" x2="216.5" y2="28.6" stroke-width="1.3"/>
+        <line x1="235.8" y1="47.5" x2="240.2" y2="39.7" stroke-width="2.1"/>
+        <line x1="258.5" y1="58.5" x2="261.7" y2="54.7" stroke-width="1.3"/>
+        <line x1="276.5" y1="76.5" x2="280.3" y2="73.3" stroke-width="1.3"/>
+        <line x1="287.5" y1="99.3" x2="295.3" y2="94.8" stroke-width="2.1"/>
+        <line x1="301.7" y1="120.2" x2="306.4" y2="118.5" stroke-width="1.3"/>
+        <line x1="308.3" y1="144.7" x2="313.2" y2="143.9" stroke-width="1.3"/>
+        <line x1="306.5" y1="170.0" x2="315.5" y2="170.0" stroke-width="2.1"/>
+        <line x1="308.3" y1="195.3" x2="313.2" y2="196.1" stroke-width="1.3"/>
+        <line x1="301.7" y1="219.8" x2="306.4" y2="221.5" stroke-width="1.3"/>
+        <line x1="287.5" y1="240.8" x2="295.3" y2="245.2" stroke-width="2.1"/>
+        <line x1="276.5" y1="263.5" x2="280.3" y2="266.7" stroke-width="1.3"/>
+        <line x1="258.5" y1="281.5" x2="261.7" y2="285.3" stroke-width="1.3"/>
+        <line x1="235.8" y1="292.5" x2="240.2" y2="300.3" stroke-width="2.1"/>
+        <line x1="214.8" y1="306.7" x2="216.5" y2="311.4" stroke-width="1.3"/>
+        <line x1="190.3" y1="313.3" x2="191.1" y2="318.2" stroke-width="1.3"/>
+        <line x1="165.0" y1="311.5" x2="165.0" y2="320.5" stroke-width="2.1"/>
+        </g>
+      </g>
+      <circle cx="138.6" cy="20.3" r="9" fill="url(#latao-base)"
+              stroke="#5c421f" stroke-width="2.2"/>
+    </g>
+  </svg>
+
+  <div class="abertura-texto">
+    <div class="abertura-olho" id="t-abertura-olho">Brasil · Mundo</div>
+    <div class="abertura-marca">Radar de Notícias</div>
+    <ol class="etapas" id="t-etapas"></ol>
+    <div class="barra-abertura" aria-hidden="true"><i id="t-barra-abertura"></i></div>
+  </div>
+  </div>
+  <button class="pular" id="t-pular" type="button">pular</button>
+</div>
+
+<div class="vista vista-radar" id="t-vista-radar">
+  <header class="topo">
+    <div class="grade-topo" aria-hidden="true"></div>
+    <div class="varredura" aria-hidden="true"><i></i></div>
+    <svg class="globo-linhas" viewBox="0 0 400 400" aria-hidden="true">
+      <circle cx="200" cy="200" r="180"/><ellipse cx="200" cy="80" rx="134.2" ry="8.4"/><ellipse cx="200" cy="140" rx="169.7" ry="7.2"/><ellipse cx="200" cy="200" rx="180.0" ry="6.0"/><ellipse cx="200" cy="260" rx="169.7" ry="7.2"/><ellipse cx="200" cy="320" rx="134.2" ry="8.4"/><ellipse class="meridiano" cx="200" cy="200" rx="180" ry="180" style="animation-delay:0.0s"/><ellipse class="meridiano" cx="200" cy="200" rx="180" ry="180" style="animation-delay:-1.5s"/><ellipse class="meridiano" cx="200" cy="200" rx="180" ry="180" style="animation-delay:-3.0s"/><ellipse class="meridiano" cx="200" cy="200" rx="180" ry="180" style="animation-delay:-4.5s"/><ellipse class="meridiano" cx="200" cy="200" rx="180" ry="180" style="animation-delay:-6.0s"/><ellipse class="meridiano" cx="200" cy="200" rx="180" ry="180" style="animation-delay:-7.5s"/><ellipse class="meridiano" cx="200" cy="200" rx="180" ry="180" style="animation-delay:-9.0s"/><ellipse class="meridiano" cx="200" cy="200" rx="180" ry="180" style="animation-delay:-10.5s"/>
+    </svg>
+    <div class="faixa topo-miolo">
+      <div class="topo-texto">
+        <div class="topo-olho"><span class="ao-vivo">ao vivo</span><span id="t-dia-extenso"></span>
+          <button class="eu" id="t-eu" type="button" hidden></button></div>
+        <h1>Radar de Notícias</h1>
+        <a class="manchete" id="t-manchete" target="_blank" rel="noopener"></a>
+      </div>
+      <div class="topo-numeros" id="t-numeros"></div>
+    </div>
+  </header>
+
+  <main>
+    <div class="faixa">
+      <div class="boas-vindas" id="t-boas-vindas" hidden></div>
+      <div class="conta-tema" id="t-rot-atalhos">Ler só sobre um assunto:</div>
+      <div class="atalhos" id="t-atalhos"></div>
+      <div class="ferramentas">
+        <h2 id="t-titulo-pauta">Pauta do dia</h2>
+        <button class="btn" data-filtro="todas" aria-pressed="true">Todas</button>
+        <button class="btn" data-filtro="BR" aria-pressed="false">Brasil</button>
+        <button class="btn" data-filtro="MUNDO" aria-pressed="false">Mundo</button>
+      </div>
+      <p class="nota-pauta" id="t-nota-pauta" hidden></p>
+      <div class="pautas" id="t-pautas"></div>
+      <div id="t-reserva"></div>
+    </div>
+  </main>
+
+  <footer class="rodape">
+    <div class="faixa">
+      <div class="conta-tema" style="margin-top:0">Fontes nesta rodada</div>
+      <div class="diag" id="t-diag"></div>
+      <div class="creditos" id="t-creditos"></div>
+    </div>
+  </footer>
+</div>
+
+<div class="vista vista-tema" id="t-vista-tema" hidden>
+  <section class="capa-tema">
+    <div class="emojis" id="t-emojis" aria-hidden="true"></div>
+    <div class="faixa">
+      <button class="volta" id="t-volta" type="button">&larr; voltar ao radar</button>
+      <h2 id="t-tema-titulo"></h2>
+      <div class="linha" id="t-tema-linha"></div>
+    </div>
+  </section>
+  <div class="faixa">
+    <div class="pautas" id="t-pautas-tema"></div>
+    <p class="conta-tema" id="t-tema-rodape"></p>
+  </div>
+</div>
+
+<button class="lanca" id="t-lanca" aria-expanded="false" aria-controls="t-caixa">
+  <span class="brasa" aria-hidden="true"></span>
+  <span>Sobre o que você quer ler</span>
+  <span class="n-sel" id="t-n-sel" hidden>0</span>
+</button>
+
+<aside class="caixa" id="t-caixa" hidden aria-labelledby="t-caixa-titulo">
+  <header class="caixa-topo">
+    <div class="caixa-olho">Seu radar</div>
+    <h3 id="t-caixa-titulo">Sobre o que você quer ler?</h3>
+    <p class="sub">Um assunto abre a página dele. Vários montam um radar só seu,
+      e a rodada das 6h de amanhã já começa por aí.</p>
+    <button class="fechar" id="t-fechar-caixa" type="button" aria-label="Fechar">
+      <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+    </button>
+  </header>
+  <div class="caixa-corpo">
+    <div class="grupo">
+      <div class="rot">Temas <span id="t-rot-temas"></span></div>
+      <div class="escolhas" id="t-temas"></div>
+    </div>
+    <div class="grupo">
+      <div class="rot">Regiões, além do Brasil <span id="t-rot-regioes"></span></div>
+      <div class="escolhas" id="t-regioes"></div>
+    </div>
+  </div>
+  <footer class="caixa-pe">
+    <div class="fixo"><svg width="20" height="14" viewBox="0 0 20 14" aria-hidden="true"><rect width="20" height="14" fill="#1f9d55"/><path d="M10 1.6 18.2 7 10 12.4 1.8 7Z" fill="#f7cf2b"/><circle cx="10" cy="7" r="3.3" fill="#1e3f8f"/></svg><span>As principais do Brasil ficam sempre no topo do radar.</span></div>
+    <div class="acoes">
+      <button class="limpar" id="t-limpar" type="button">limpar</button>
+      <button class="confirmar" id="t-confirmar" type="button">Ver o radar completo</button>
+    </div>
+    <p class="nota" id="t-nota-prefs"></p>
+  </footer>
+</aside>
+
+<div class="carga" id="t-carga" hidden role="status" aria-live="polite">
+  <svg class="olhos" viewBox="0 0 440 230" role="img"
+       aria-label="Radar varrendo o noticiário">
+    <defs>
+      <radialGradient id="brasa-fundo" cx="50%" cy="52%" r="52%">
+        <stop offset="0%" stop-color="#e8431e" stop-opacity=".28"/>
+        <stop offset="60%" stop-color="#b3240f" stop-opacity=".10"/>
+        <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <ellipse cx="220" cy="140" rx="218" ry="104" fill="url(#brasa-fundo)"/>
+    <g>__LADO__</g>
+    <g class="espelho" transform="translate(440,0) scale(-1,1)">__LADO__</g>
+  </svg>
+  <div class="dizeres" id="t-dizeres">lendo seus interesses</div>
+  <div class="alvo-tema" id="t-alvo-tema"></div>
+  <div class="trilho-carga" aria-hidden="true"><i></i></div>
+</div>
+
+<div class="previa" id="t-previa" hidden></div>
+<div class="toast" id="t-toast" role="status" aria-live="polite" hidden></div>
+"""
+MARCACAO = MARCACAO.replace("__LADO__", "\n" + _OLHO + "\n    ")
+
+SCRIPT = r"""
+<script>
+const D = window.__RADAR__;
+const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g,
+  c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const num = n => new Intl.NumberFormat("pt-BR").format(n);
+const cortar = (t, n) => {
+  t = String(t || "").trim();
+  return t.length <= n ? t : t.slice(0, n).replace(/\s+\S*$/, "") + "…";
+};
+function semAcento(t){
+  // Tira a marca de acento (faixa combining) para comparar com o léxico.
+  return t.normalize("NFD").replace(/[̀-ͯ]/g, "");
+}
+const slug = t => semAcento(String(t)).toLowerCase().replace(/[^a-z0-9]+/g, "-")
+  .replace(/^-|-$/g, "");
+
+const COM_REELS = (D.roteiros || []).length > 0;
+const ICONE_PQ = '<svg width="11" height="11" viewBox="0 0 11 11" aria-hidden="true"><circle cx="5.5" cy="5.5" r="4.6" fill="none" stroke="currentColor" stroke-width="1"/><circle cx="5.5" cy="5.5" r="1.6" fill="currentColor"/></svg>';
+const ICONE_CAM = '<svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true"><rect x="1" y="4" width="9.5" height="8" rx="1.4" fill="none" stroke="currentColor" stroke-width="1.2"/><path d="M11 7.4 15 5.4v5.2l-4-2Z" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>';
+const ICONE_AV = '<svg width="13" height="13" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.6 15 14H1L8 1.6Z" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M8 6v4M8 11.6v.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>';
+
+/* ===================== assuntos e seus ambientes ===================== */
+const TEMAS = {
+  politica:        {rot:"Política",      emojis:["🏛️","🗳️","⚖️","📜","🎙️","🤝"]},
+  economia:        {rot:"Economia",      emojis:["💸","📈","📉","🏦","🪙","🧾"]},
+  tecnologia:      {rot:"Tecnologia",    emojis:["🤖","💻","📱","🧠","⚡","🛰️"]},
+  mundo:           {rot:"Mundo",         emojis:["🌍","✈️","🗺️","🧭","📰","🕊️"]},
+  ciencia:         {rot:"Ciência",       emojis:["🔬","🧪","🚀","🧬","🔭","🪐"]},
+  saude:           {rot:"Saúde",         emojis:["🩺","💊","🏥","🫀","🧫","🩹"]},
+  esporte:         {rot:"Esporte",       emojis:["⚽","🏆","🏃","🥇","🏟️","🎽"]},
+  cultura:         {rot:"Cultura",       emojis:["🎬","🎵","🎭","🍿","🎤","📺"]},
+  "meio-ambiente": {rot:"Meio ambiente", emojis:["🌳","🌧️","♻️","🌱","🐆","🏞️"]},
+  cotidiano:       {rot:"Cotidiano",     emojis:["🚨","🚌","🏙️","🛣️","🏘️","🚒"]},
+};
+const REGIOES_ROT = {
+  "estados unidos": {rot:"Estados Unidos", emojis:["🗽","💵","🦅","🏈","🌉","🎸"]},
+  "reino unido":    {rot:"Reino Unido",    emojis:["💂","☂️","👑","🚇","☕","🎩"]},
+  europa:           {rot:"Europa",         emojis:["🏰","🗼","🚄","⛪","🧀","🎻"]},
+  "america latina": {rot:"América Latina", emojis:["🌎","💃","🥘","🎺","🌵","⚽"]},
+  asia:             {rot:"Ásia",           emojis:["🏯","🏮","🍜","🚅","🐉","🀄"]},
+  "oriente medio":  {rot:"Oriente Médio",  emojis:["🕌","🛢️","🏜️","🧭","🕊️","🗝️"]},
+  africa:           {rot:"África",         emojis:["🌍","🦁","🥁","🌾","🐘","🏜️"]},
+};
+const REGIOES = D.regioes || {};
+function infoAssunto(chave){
+  if (chave === "__salvas") return SALVAS_INFO;
+  return TEMAS[chave] || REGIOES_ROT[chave] || {rot: chave, emojis:["📰","🌍","⚡"]};
+}
+
+/* ===================== dados ===================== */
+const PORID = new Map();
+[...(D.pautas || []), ...(D.reservas || [])].forEach(p => PORID.set(p.id, p));
+const TODAS = [...PORID.values()];
+let PERFIL = null;       // perfil do leitor, carregado no arranque
+let VISTO_ANTES = null;   // última visita antes desta: marca o que é novo
+const SALVAS_INFO = {rot: "Salvas", emojis: ["🔖", "📌", "⭐", "📚", "🗂️", "📰"]};
+const oculta = p => !!(PERFIL && PERFIL.ocultas && PERFIL.ocultas[p.id]);
+const ehNova = p => !!(VISTO_ANTES && p.ultima_publicacao &&
+  new Date(p.ultima_publicacao) > new Date(VISTO_ANTES));
+
+function daRegiao(p, regiao){
+  const termos = REGIOES[regiao] || [];
+  const texto = " " + semAcento(`${p.titulo} ${p.resumo || ""}`).toLowerCase()
+    .replace(/[^0-9a-z ]/g, " ").replace(/\s+/g, " ") + " ";
+  return termos.some(t => texto.includes(" " + t + " "));
+}
+function pautasDoAssunto(chave){
+  if (chave === "__salvas")
+    return ((PERFIL && PERFIL.salvas) || []).map(s => PORID.get(s.id)).filter(Boolean);
+  const lista = (TEMAS[chave]
+    ? TODAS.filter(p => p.editoria === chave)
+    : TODAS.filter(p => daRegiao(p, chave))).filter(p => !oculta(p));
+  return lista.sort((a, b) => b.score_noticia - a.score_noticia);
+}
+
+/* ===================== cartão ===================== */
+const ROT_SINAL = {corroboracao:"fontes", peso_fonte:"peso", recencia:"recente",
+                   calor:"calor", potencial_reels:"reels"};
+const AJUDA_SINAL = {corroboracao:"quantos veículos distintos cobriram",
+  peso_fonte:"credibilidade dos veículos que publicaram",
+  recencia:"quão fresca é a matéria mais nova",
+  calor:"volume e ritmo de publicação",
+  potencial_reels:"afinidade com vídeo curto"};
+
+function medidores(c){
+  const chaves = Object.keys(ROT_SINAL).filter(k => COM_REELS || k !== "potencial_reels");
+  return `<div class="medidores">` + chaves.map(k => {
+    const v = c[k] == null ? 0 : c[k];
+    return `<div class="medidor" title="${ROT_SINAL[k]}: ${AJUDA_SINAL[k]}">
+      <span class="rot">${ROT_SINAL[k]}</span>
+      <span class="trilho"><i style="transform:scaleX(${v.toFixed(3)})"></i></span>
+      <span class="v">${(v * 100).toFixed(0)}</span></div>`;
+  }).join("") + `</div>`;
+}
+
+const IC_MAIS = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 7.2 7.6 2.4c.9 0 1.6.7 1.6 1.6v2.2h3.2c.8 0 1.4.8 1.2 1.6l-1 4.6c-.1.6-.7 1-1.3 1H5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><rect x="1.8" y="7" width="3.2" height="6.6" rx=".8" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>';
+const IC_MENOS = '<svg viewBox="0 0 16 16" aria-hidden="true"><g transform="rotate(180 8 8)"><path d="M5 7.2 7.6 2.4c.9 0 1.6.7 1.6 1.6v2.2h3.2c.8 0 1.4.8 1.2 1.6l-1 4.6c-.1.6-.7 1-1.3 1H5" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><rect x="1.8" y="7" width="3.2" height="6.6" rx=".8" fill="none" stroke="currentColor" stroke-width="1.3"/></g></svg>';
+const IC_SALVAR = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 2.2h8v11.6L8 10.9l-4 2.9Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/></svg>';
+function estaSalva(p){
+  return !!(PERFIL && (PERFIL.salvas || []).some(s => s.id === p.id || (s.url && s.url === p.url)));
+}
+function cartaoPauta(p, i){
+  const ed = TEMAS[p.editoria] ? p.editoria : null;
+  const chips = [ed
+      ? `<button class="chip" type="button" data-ir-tema="${esc(ed)}">${esc(TEMAS[ed].rot)}</button>`
+      : `<span class="chip">${esc(p.editoria)}</span>`,
+    `<span class="chip">${p.pais === "BR" ? "Brasil" : "Mundo"}</span>`,
+    `<span class="chip">${p.n_fontes} veículo${p.n_fontes > 1 ? "s" : ""}</span>`];
+  if (ehNova(p)) chips.unshift(`<span class="chip novo">novo</span>`);
+  if (p.traduzido_de) chips.push(`<span class="chip traduzido" title="Traduzido do ${esc(p.traduzido_de)}">traduzido</span>`);
+  if (COM_REELS && p.virou_roteiro) chips.push(`<span class="chip destaque">vira reels</span>`);
+  (p.riscos || []).forEach(r =>
+    chips.push(`<span class="chip cuidado">${esc(r.tipo.replace(/_/g, " "))}</span>`));
+
+  const porFonte = new Map();
+  (p.materias || []).forEach(x => {
+    if (!porFonte.has(x.fonte)) porFonte.set(x.fonte, {n: 0, url: x.url});
+    porFonte.get(x.fonte).n++;
+  });
+  const cob = [...porFonte.entries()].slice(0, 6).map(([fonte, d]) => {
+    const rotulo = esc(fonte) + (d.n > 1 ? ` (${d.n})` : "");
+    return d.url ? `<a href="${esc(d.url)}" target="_blank" rel="noopener">${rotulo}</a>`
+                 : rotulo;
+  }).join(" · ");
+  const avisos = (p.riscos || []).map(r =>
+    `<div class="aviso">${ICONE_AV}<span>${esc(r.aviso)}</span></div>`).join("");
+  const tit = p.url
+    ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.titulo)}</a>`
+    : esc(p.titulo);
+
+  return `<article class="pauta${COM_REELS && p.virou_roteiro ? " alvo" : ""}"
+      data-pais="${esc(p.pais)}" data-id="${esc(p.id)}" data-novo="${ehNova(p) ? 1 : 0}"
+      style="animation:entrar 320ms ${(i * 45)}ms both">
+    <div class="posicao mono" data-n="${i + 1}" aria-hidden="true">${i + 1}</div>
+    <div class="corpo-pauta">
+      <div class="titulo-pauta">${tit}</div>
+      <div class="chips">${chips.join("")}</div>
+      ${p.resumo ? `<p class="resumo">${esc(cortar(p.resumo, 280))}</p>` : ""}
+      ${COM_REELS ? `<div class="porque">${ICONE_CAM}<span>${esc(p.explicacao_reels)}</span></div>` : ""}
+      ${avisos}
+      ${cob ? `<div class="cobertura">cobertura: ${cob}</div>` : ""}
+      <div class="acoes-pauta">
+        <button class="acao" type="button" data-acao="mais" title="Quero ver mais disso" aria-pressed="${!!(PERFIL && PERFIL.curtidas && PERFIL.curtidas[p.id])}">${IC_MAIS}Mais disso</button>
+        <button class="acao" type="button" data-acao="menos" title="Esconder e mostrar menos disso">${IC_MENOS}Menos disso</button>
+        <button class="acao" type="button" data-acao="salvar" aria-pressed="${estaSalva(p)}">${IC_SALVAR}${estaSalva(p) ? "Salva" : "Salvar"}</button>
+        <button class="lupa" type="button">prévia</button>
+      </div>
+    </div>
+    <div class="placar">
+      <div class="n">${p.score_noticia.toFixed(0)}</div><div class="de">NOTÍCIA</div>
+      ${COM_REELS ? `<div class="n2">${p.score_reels.toFixed(0)}<span> reels</span></div>` : ""}
+      ${medidores(p.componentes)}
+    </div>
+  </article>`;
+}
+"""
+
+SCRIPT += r"""
+/* ===================== topo e indicadores ===================== */
+const m = D.metricas;
+const dia = new Date(D.gerado_em);
+const temasNoPool = [...new Set(TODAS.map(p => p.editoria))].filter(t => TEMAS[t]);
+document.getElementById("t-dia-extenso").textContent =
+  dia.toLocaleDateString("pt-BR", {weekday: "long", day: "2-digit", month: "long"});
+{
+  const lider = (D.pautas || [])[0];
+  const el = document.getElementById("t-manchete");
+  if (lider){
+    el.innerHTML = `<span class="agora">agora</span><span class="texto">${esc(lider.titulo)}</span>`;
+    if (lider.url) el.href = lider.url; else el.removeAttribute("href");
+  } else el.hidden = true;
+}
+document.getElementById("t-numeros").innerHTML = [
+  [num(m.itens_coletados), `matérias · últimas ${m.janela_horas || 48}h`],
+  [num(m.pautas_identificadas), "pautas"],
+  [num(m.fontes_ativas), "veículos"],
+  [esc(D.gerado_em.slice(11, 16)), "atualizado"],
+].map(([v, r]) => `<div class="num"><b>${v}</b><span>${r}</span></div>`).join("");
+
+/* ===================== atalhos por assunto ===================== */
+const elAtalhos = document.getElementById("t-atalhos");
+elAtalhos.innerHTML = Object.keys(TEMAS)
+  .map(k => ({k, n: pautasDoAssunto(k).length}))
+  .filter(x => x.n > 0)
+  .sort((a, b) => b.n - a.n)
+  .map(x => `<button class="atalho" type="button" data-ir-tema="${esc(x.k)}">
+      <em>${TEMAS[x.k].emojis[0]}</em>${esc(TEMAS[x.k].rot)} <b>${x.n}</b></button>`)
+  .join("");
+
+/* ===================== vistas ===================== */
+const vistaRadar = document.getElementById("t-vista-radar");
+const vistaTema = document.getElementById("t-vista-tema");
+const elPautas = document.getElementById("t-pautas");
+const elPautasTema = document.getElementById("t-pautas-tema");
+const elEmojis = document.getElementById("t-emojis");
+let assuntoAberto = null;
+
+/* Campo de emojis do assunto: posições derivadas do índice, não sorteadas de
+   novo a cada render — senão o fundo pula quando a lista é redesenhada. */
+function pintarEmojis(chave){
+  const info = infoAssunto(chave);
+  const n = 13;
+  let html = "";
+  for (let i = 0; i < n; i++){
+    const e = info.emojis[i % info.emojis.length];
+    const seed = (i * 97 + chave.length * 31) % 100;
+    const esq = 3 + ((seed * 7) % 94);
+    const topo = 4 + ((seed * 13) % 88);
+    const dur = 5.5 + ((seed % 9) * 0.45);
+    const atraso = -((seed % 11) * 0.6);
+    const dx = ((seed % 5) - 2) * 7;
+    const dy = -12 - (seed % 14);
+    const giro = ((seed % 7) - 3) * 5;
+    html += `<span style="left:${esq}%;top:${topo}%;--dur:${dur}s;--atraso:${atraso}s;
+      --dx:${dx}px;--dy:${dy}px;--giro:${giro}deg">${e}</span>`;
+  }
+  elEmojis.innerHTML = html;
+}
+
+function abrirAssunto(chave){
+  if (typeof registrarLeitura === "function" && chave !== "__salvas") registrarLeitura(chave, 2);
+  const info = infoAssunto(chave);
+  const lista = pautasDoAssunto(chave);
+  assuntoAberto = chave;
+  pintarEmojis(chave);
+  document.getElementById("t-tema-titulo").innerHTML =
+    `${info.emojis[0]} ${esc(info.rot)}`;
+  document.getElementById("t-tema-linha").innerHTML = lista.length
+    ? `<span><b>${lista.length}</b> pauta${lista.length > 1 ? "s" : ""} na coleta de hoje</span>
+       <span>${esc(dia.toLocaleDateString("pt-BR", {day:"2-digit", month:"long"}))}</span>
+       <span>fechado às <b>${esc(D.gerado_em.slice(11, 16))}</b></span>`
+    : `<span>nada sobre isso na coleta de hoje</span>`;
+  // Salvas de dias anteriores já não estão na coleta: viram uma lista de links.
+  const antigas = chave === "__salvas"
+    ? ((PERFIL && PERFIL.salvas) || []).filter(s => !PORID.has(s.id)) : [];
+  if (chave === "__salvas") document.getElementById("t-tema-linha").innerHTML =
+    `<span><b>${lista.length + antigas.length}</b> guardada${lista.length + antigas.length === 1 ? "" : "s"}</span>
+     <span>ficam no seu perfil, só você vê</span>`;
+  elPautasTema.innerHTML = (lista.length || antigas.length)
+    ? lista.map(cartaoPauta).join("") + (antigas.length
+      ? `<h3 class="grupo-pauta">De dias anteriores</h3>` + antigas.map(s =>
+        `<article class="pauta salva-fora"><h3 class="titulo-pauta"><a href="${esc(s.url)}"
+          target="_blank" rel="noopener">${esc(s.titulo)}</a></h3>
+          <div class="fontes-linha">${esc(s.fonte || "")} · salva em
+          ${esc(new Date(s.salva_em).toLocaleDateString("pt-BR"))}</div></article>`).join("") : "")
+    : chave === "__salvas"
+    ? `<p class="vazio">Nada guardado ainda. Toque em <b>Salvar</b> numa pauta para ler depois.</p>`
+    : `<p class="vazio">A rodada de hoje não trouxe nenhuma pauta de
+       ${esc(info.rot)}. O radar mostra o que foi publicado e coletado — ele não
+       inventa matéria. Amanhã às 6h tem varredura nova.</p>`;
+  document.getElementById("t-tema-rodape").innerHTML =
+    `As principais notícias do Brasil continuam no radar. ` +
+    `<button class="limpar" id="t-volta-2" type="button">voltar ao radar</button>`;
+  document.getElementById("t-volta-2").addEventListener("click", abrirRadar);
+
+  vistaRadar.hidden = true;
+  vistaTema.hidden = false;
+  ligarPrevia(elPautasTema);
+  try { location.hash = slug(chave); } catch (e) {}
+  scrollTo({top: 0, behavior: "instant"});
+}
+
+function abrirRadar(){
+  assuntoAberto = null;
+  vistaTema.hidden = true;
+  vistaRadar.hidden = false;
+  elEmojis.innerHTML = "";
+  try { location.hash = ""; } catch (e) {}
+  scrollTo({top: 0, behavior: "instant"});
+}
+document.getElementById("t-volta").addEventListener("click", abrirRadar);
+
+function chavePorSlug(s){
+  return ["__salvas", ...Object.keys(TEMAS), ...Object.keys(REGIOES_ROT)]
+    .find(k => slug(k) === s) || null;
+}
+addEventListener("hashchange", () => {
+  const k = chavePorSlug((location.hash || "").replace("#", ""));
+  if (k) { if (k !== assuntoAberto) abrirAssunto(k); }
+  else if (assuntoAberto) abrirRadar();
+});
+
+/* Clique no chip da editoria ou no atalho leva para a página do assunto,
+   passando pela tela de carregamento. */
+addEventListener("click", e => {
+  const alvo = e.target.closest("[data-ir-tema]");
+  if (!alvo) return;
+  e.preventDefault();
+  irParaAssunto(alvo.dataset.irTema);
+});
+"""
+
+SCRIPT += r"""
+/* ===================== prévia da matéria ===================== */
+const elPrevia = document.getElementById("t-previa");
+let previaAberta = null, previaAlvo = null, previaFixa = false;
+
+function textoPrevia(p){
+  const fontes = [...new Set((p.materias || []).map(x => x.fonte))];
+  const quando = p.ultima_publicacao
+    ? new Date(p.ultima_publicacao).toLocaleString("pt-BR",
+        {day:"2-digit", month:"short", hour:"2-digit", minute:"2-digit"})
+    : "sem data informada pela fonte";
+  return `<div class="eyebrow">${esc(infoAssunto(p.editoria).rot)} · ${p.pais === "BR" ? "Brasil" : "Mundo"}</div>
+    <h4>${esc(p.titulo)}</h4>
+    <p>${esc(p.resumo || "Esta matéria chegou sem resumo. Abra a fonte antes de usar.")}</p>
+    <div class="rodape-previa">
+      <span>publicada: <b>${esc(quando)}</b></span>
+      ${p.titulo_original ? `<span>título original (${esc(p.traduzido_de || "outro idioma")}): <b>${esc(p.titulo_original)}</b></span>` : ""}
+      <span>cobertura: <b>${esc(fontes.join(", "))}</b></span>
+      <span>por que entrou: <b>${esc(p.explicacao)}</b></span>
+    </div>`;
+}
+function posicionar(alvo){
+  if (!alvo) return;
+  if (innerWidth < 660){
+    elPrevia.classList.add("folha");
+    elPrevia.style.left = elPrevia.style.top = "";
+    return;
+  }
+  elPrevia.classList.remove("folha");
+  const r = alvo.getBoundingClientRect();
+  const c = elPrevia.getBoundingClientRect();
+  const folga = 12;
+  let esquerda = r.right + folga;
+  if (esquerda + c.width > innerWidth - folga) esquerda = r.left - c.width - folga;
+  if (esquerda < folga) esquerda = Math.max(folga, (innerWidth - c.width) / 2);
+  let topo = r.top + 8;
+  if (topo + c.height > innerHeight - folga) topo = Math.max(folga, innerHeight - c.height - folga);
+  elPrevia.style.left = esquerda + "px";
+  elPrevia.style.top = topo + "px";
+}
+let mouseX = 0, mouseY = 0, relogioHover = null;
+addEventListener("mousemove", e => {
+  mouseX = e.clientX; mouseY = e.clientY;
+  if (previaAberta && !previaFixa) posicionarNoCursor();
+}, {passive: true});
+/* A prévia do hover fica abaixo e à direita do cursor, nunca debaixo dele:
+   o que está sob o ponteiro (o título, o link) continua clicável. */
+function posicionarNoCursor(){
+  const c = elPrevia.getBoundingClientRect();
+  const f = 14;
+  let x = mouseX + 20, y = mouseY + 24;
+  if (x + c.width > innerWidth - f) x = mouseX - c.width - 20;
+  if (y + c.height > innerHeight - f) y = mouseY - c.height - 20;
+  elPrevia.style.left = Math.max(f, x) + "px";
+  elPrevia.style.top = Math.max(f, y) + "px";
+}
+function abrirPrevia(alvo, id, fixa){
+  const p = PORID.get(id);
+  if (!p) return;
+  previaAberta = id; previaAlvo = alvo; previaFixa = !!fixa;
+  elPrevia.innerHTML = textoPrevia(p);
+  elPrevia.classList.toggle("flutuante", !fixa);
+  elPrevia.classList.remove("folha");
+  elPrevia.hidden = false;
+  elPrevia.classList.remove("entrando");
+  void elPrevia.offsetWidth;
+  elPrevia.classList.add("entrando");
+  fixa ? posicionar(alvo) : posicionarNoCursor();
+}
+function fecharPrevia(){
+  elPrevia.hidden = true; previaAberta = null; previaAlvo = null; previaFixa = false;
+}
+const TEM_HOVER = matchMedia("(hover: hover) and (pointer: fine)").matches;
+function ligarPrevia(container){
+  (container || elPautas).querySelectorAll(".pauta").forEach(card => {
+    const id = card.dataset.id;
+    if (TEM_HOVER){
+      // Meio segundo parado sobre o cartão: passar o mouse de raspão não abre nada.
+      card.addEventListener("mouseenter", () => {
+        clearTimeout(relogioHover);
+        relogioHover = setTimeout(() => { if (!previaFixa) abrirPrevia(card, id, false); }, 480);
+      });
+      card.addEventListener("mouseleave", () => {
+        clearTimeout(relogioHover);
+        if (!previaFixa) fecharPrevia();
+      });
+    }
+    const botao = card.querySelector(".lupa");
+    if (botao) botao.addEventListener("click", e => {
+      e.stopPropagation();
+      (previaFixa && previaAberta === id) ? fecharPrevia() : abrirPrevia(card, id, true);
+    });
+  });
+}
+addEventListener("scroll", () => {
+  if (!previaAberta) return;
+  if (previaFixa) posicionar(previaAlvo); else fecharPrevia();
+}, {passive: true});
+addEventListener("click", e => {
+  if (previaFixa && !elPrevia.contains(e.target) && !e.target.closest(".lupa")) fecharPrevia();
+});
+addEventListener("keydown", e => {
+  if (e.key !== "Escape") return;
+  fecharPrevia(); fecharCaixa();
+  if (assuntoAberto) abrirRadar();
+});
+
+/* ===================== interesses ===================== */
+const CHAVE_LOCAL = "radar:preferencias";
+let PREFS = {temas: [], regioes: []};
+let bancoPrefs = null;
+
+function lerLocal(){
+  try {
+    const bruto = localStorage.getItem(CHAVE_LOCAL);
+    if (bruto) return JSON.parse(bruto);
+  } catch (e) {}
+  return null;
+}
+function gravarLocal(){
+  try { localStorage.setItem(CHAVE_LOCAL, JSON.stringify(PREFS)); } catch (e) {}
+}
+const ICONE_OK = '<svg width="11" height="11" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 6.4 5 8.8 9.6 3.4" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+/* Os dois assuntos com mais pautas hoje levam o selo "em alta" — é a resposta
+   direta para "o que está rendendo agora". */
+function emAlta(chaves){
+  return new Set(chaves.map(k => ({k, n: pautasDoAssunto(k).length}))
+    .filter(x => x.n >= 3).sort((a, b) => b.n - a.n).slice(0, 2).map(x => x.k));
+}
+function azulejo(chave, tipo, info, quentes){
+  const n = pautasDoAssunto(chave).length;
+  const ativo = (tipo === "tema" ? PREFS.temas : PREFS.regioes).includes(chave);
+  const qtd = n === 0 ? `<span class="qtd parado">nada hoje</span>`
+    : quentes.has(chave) ? `<span class="qtd quente">${n} hoje · em alta</span>`
+    : `<span class="qtd">${n} hoje</span>`;
+  return `<button type="button" class="escolha" data-${tipo}="${esc(chave)}"
+      aria-pressed="${ativo}">
+    <span class="selo" aria-hidden="true">${info.emojis[0]}</span>
+    <span class="nome">${esc(info.rot)}</span>${qtd}
+    <span class="marca-sel" aria-hidden="true">${ICONE_OK}</span></button>`;
+}
+function pintarChips(){
+  const temas = Object.keys(TEMAS);
+  const regioes = Object.keys(REGIOES);
+  const quentes = emAlta([...temas, ...regioes]);
+  document.getElementById("t-temas").innerHTML =
+    temas.map(t => azulejo(t, "tema", TEMAS[t], quentes)).join("");
+  document.getElementById("t-regioes").innerHTML = regioes
+    .map(r => azulejo(r, "regiao", REGIOES_ROT[r] || {rot: r, emojis: ["🌍"]}, quentes)).join("");
+  const comMateria = lista => lista.filter(k => pautasDoAssunto(k).length > 0).length;
+  document.getElementById("t-rot-temas").textContent =
+    `${comMateria(temas)} de ${temas.length} com matéria hoje`;
+  document.getElementById("t-rot-regioes").textContent =
+    `${comMateria(regioes)} de ${regioes.length} com matéria hoje`;
+  document.querySelectorAll(".escolha").forEach(b =>
+    b.addEventListener("click", () => {
+      const ehTema = !!b.dataset.tema;
+      const chave = ehTema ? "temas" : "regioes";
+      const valor = ehTema ? b.dataset.tema : b.dataset.regiao;
+      const i = PREFS[chave].indexOf(valor);
+      i >= 0 ? PREFS[chave].splice(i, 1) : PREFS[chave].push(valor);
+      b.setAttribute("aria-pressed", String(i < 0));
+      pintarContador();
+    }));
+  pintarContador();
+}
+function pintarContador(){
+  const n = PREFS.temas.length + PREFS.regioes.length;
+  const alvo = document.getElementById("t-n-sel");
+  alvo.hidden = !n;
+  alvo.textContent = n;
+  const botao = document.getElementById("t-confirmar");
+  const unico = n === 1 ? infoAssunto(PREFS.temas[0] || PREFS.regioes[0]).rot : null;
+  botao.innerHTML = n === 0 ? "Ver o radar completo"
+    : unico ? `Abrir ${esc(unico)}`
+    : `Montar meu radar <b>${n}</b>`;
+}
+const caixa = document.getElementById("t-caixa");
+const lanca = document.getElementById("t-lanca");
+function abrirCaixa(){
+  caixa.hidden = false; caixa.classList.add("entrando");
+  lanca.setAttribute("aria-expanded", "true"); fecharPrevia();
+}
+function fecharCaixa(){
+  caixa.hidden = true; caixa.classList.remove("entrando");
+  lanca.setAttribute("aria-expanded", "false");
+}
+lanca.addEventListener("click", () => caixa.hidden ? abrirCaixa() : fecharCaixa());
+document.getElementById("t-fechar-caixa").addEventListener("click", fecharCaixa);
+
+function afinidade(p){
+  if (!PREFS.temas.length && !PREFS.regioes.length) return {nota: 0, motivos: []};
+  let nota = 0; const motivos = [];
+  if (PREFS.temas.includes(p.editoria)){
+    nota += 0.6; motivos.push("tema " + infoAssunto(p.editoria).rot);
+  }
+  for (const r of PREFS.regioes){
+    if (daRegiao(p, r)){
+      nota += 0.4; motivos.push("região " + infoAssunto(r).rot); break;
+    }
+  }
+  return {nota: Math.min(nota, 1), motivos};
+}
+function escolherComCotas(ordenadas, quantas, sel){
+  const minBR = sel.min_br || 0, minMundo = sel.min_mundo || 0;
+  const maxMundo = sel.max_mundo || quantas;
+  const escolhidas = [], dentro = new Set();
+  const pegar = (filtro, limite) => {
+    for (const p of ordenadas){
+      if (escolhidas.length >= quantas || limite <= 0) break;
+      if (dentro.has(p.id) || !filtro(p)) continue;
+      escolhidas.push(p); dentro.add(p.id); limite--;
+    }
+  };
+  pegar(p => p.pais === "BR", minBR);
+  pegar(p => p.pais === "MUNDO", minMundo);
+  const cabeMundo = () => escolhidas.filter(p => p.pais === "MUNDO").length < maxMundo;
+  pegar(p => p.pais === "BR" || cabeMundo(), quantas);
+  return escolhidas.sort((a, b) => b.prioridade - a.prioridade);
+}
+function reordenar(){
+  const peso = 0.35;
+  TODAS.forEach(p => {
+    const a = afinidade(p);
+    p.afinidade = a.nota; p.afinidade_motivos = a.motivos;
+    // O que você marca e lê pesa um pouco: até ±15% na ordem, sem mexer no score.
+    const lt = (PERFIL && PERFIL.leituras) || {};
+    const gosto = Math.max(-0.6, Math.min(0.6, (lt[p.editoria] || 0) / 20));
+    p.prioridade = p.score_noticia * (1 + peso * a.nota + 0.25 * gosto);
+  });
+  const ordenadas = TODAS.filter(p => !oculta(p)).sort((a, b) => b.prioridade - a.prioridade);
+  const sel = D.config.selecao || {};
+  const temInteresse = PREFS.temas.length || PREFS.regioes.length;
+
+  if (!temInteresse){
+    elPautas.innerHTML = escolherComCotas(ordenadas, (D.pautas || []).length || 6, sel)
+      .map(cartaoPauta).join("");
+  } else {
+    const principais = ordenadas.filter(p => p.pais === "BR")
+      .sort((a, b) => b.score_noticia - a.score_noticia).slice(0, 3);
+    const fixos = new Set(principais.map(p => p.id));
+    const doInteresse = ordenadas.filter(p => p.afinidade > 0 && !fixos.has(p.id)).slice(0, 14);
+    const rotulo = [...PREFS.temas.map(x => infoAssunto(x).rot),
+                    ...PREFS.regioes.map(x => infoAssunto(x).rot)].join(", ");
+    let html = `<h3 class="grupo-pauta">Principais do Brasil</h3>` +
+               principais.map((p, i) => cartaoPauta(p, i)).join("");
+    html += `<h3 class="grupo-pauta">Do seu interesse <span>${esc(rotulo)}</span></h3>`;
+    html += doInteresse.length ? doInteresse.map((p, i) => cartaoPauta(p, i)).join("")
+      : `<p class="vazio">Nenhuma pauta da coleta de hoje casa com o que você pediu.</p>`;
+    elPautas.innerHTML = html;
+  }
+  ligarPrevia(elPautas);
+  resetarFiltro();
+  pintarNotaPauta();
+}
+function resetarFiltro(){
+  document.querySelectorAll("[data-filtro]").forEach(b =>
+    b.setAttribute("aria-pressed", String(b.dataset.filtro === "todas")));
+  elPautas.querySelectorAll(".pauta").forEach(c => { c.hidden = false; });
+  const titulo = document.getElementById("t-titulo-pauta");
+  if (titulo) titulo.textContent =
+    (PREFS.temas.length || PREFS.regioes.length) ? "Suas pautas" : "Pauta do dia";
+}
+function pintarNotaPauta(){
+  const alvo = document.getElementById("t-nota-pauta");
+  const n = PREFS.temas.length + PREFS.regioes.length;
+  if (!n){ alvo.hidden = true; return; }
+  const contas = [...PREFS.temas, ...PREFS.regioes].map(k =>
+    ({rot: infoAssunto(k).rot, n: pautasDoAssunto(k).length}));
+  const cheios = contas.filter(c => c.n > 0)
+    .map(c => `${esc(c.rot)} <b>${c.n}</b>`).join(" · ");
+  const vazios = contas.filter(c => c.n === 0).map(c => esc(c.rot));
+  alvo.hidden = false;
+  alvo.innerHTML = (cheios ? `na coleta de hoje: ${cheios}` : "") +
+    (vazios.length ? `${cheios ? " · " : ""}<i>sem nada hoje de ${vazios.join(", ")}</i>` : "") +
+    ` · <button class="limpar" id="t-reset-pauta">voltar ao radar padrão</button>`;
+  document.getElementById("t-reset-pauta").addEventListener("click", () => {
+    PREFS = {temas: [], regioes: []};
+    gravarLocal(); salvarBanco(); pintarChips(); reordenar();
+  });
+}
+document.querySelectorAll("[data-filtro]").forEach(b => b.addEventListener("click", () => {
+  const f = b.dataset.filtro;
+  document.querySelectorAll("[data-filtro]").forEach(o =>
+    o.setAttribute("aria-pressed", String(o === b)));
+  elPautas.querySelectorAll(".pauta").forEach(c => {
+    c.hidden = !(f === "todas" || c.dataset.pais === f);
+  });
+}));
+"""
+
+SCRIPT += r"""
+/* ===================== carregamento com os olhos ===================== */
+const carga = document.getElementById("t-carga");
+const dizeres = document.getElementById("t-dizeres");
+const alvoTema = document.getElementById("t-alvo-tema");
+const DIZERES = ["varrendo a pauta do dia", "separando o que é do seu assunto",
+                 "reordenando o que importa para você", "guardando para a rodada das 6h"];
+let giroDizeres = null;
+function mostrarCarga(rotulo){
+  let i = 0;
+  dizeres.textContent = DIZERES[0];
+  alvoTema.textContent = rotulo || "";
+  carga.hidden = false;
+  giroDizeres = setInterval(() => {
+    i = (i + 1) % DIZERES.length;
+    dizeres.textContent = DIZERES[i];
+  }, 520);
+}
+function esconderCarga(){ clearInterval(giroDizeres); carga.hidden = true; }
+
+function irParaAssunto(chave){
+  const info = infoAssunto(chave);
+  fecharPrevia(); fecharCaixa();
+  mostrarCarga(info.rot);
+  const inicio = Date.now();
+  abrirAssunto(chave);
+  setTimeout(esconderCarga, Math.max(0, 1150 - (Date.now() - inicio)));
+}
+
+async function salvarBanco(){
+  if (!bancoPrefs) return false;
+  try {
+    await bancoPrefs.doc("preferencias/atual").set({
+      temas: PREFS.temas, regioes: PREFS.regioes, peso: 0.35,
+      atualizado_em: new Date().toISOString(),
+    });
+    return true;
+  } catch (e) { return false; }
+}
+
+document.getElementById("t-confirmar").addEventListener("click", async () => {
+  fecharCaixa();
+  const unico = (PREFS.temas.length + PREFS.regioes.length) === 1
+    ? (PREFS.temas[0] || PREFS.regioes[0]) : null;
+  mostrarCarga(unico ? infoAssunto(unico).rot : "");
+  const inicio = Date.now();
+  gravarLocal();
+  if (PERFIL){ PERFIL.temas = [...PREFS.temas]; PERFIL.regioes = [...PREFS.regioes]; salvarPerfil(); }
+  const noBanco = await salvarBanco();
+  // Um assunto só vai direto para a página dele; vários montam o radar misto.
+  if (unico) abrirAssunto(unico); else { abrirRadar(); reordenar(); }
+  const algo = PREFS.temas.length || PREFS.regioes.length;
+  document.getElementById("t-nota-prefs").textContent = !algo ? ""
+    : noBanco ? "Guardado. A rodada das 6h de amanhã já começa por aqui."
+    : "Guardado neste navegador. Para valer na rodada das 6h, salve com a sessão aberta.";
+  setTimeout(esconderCarga, Math.max(0, 1500 - (Date.now() - inicio)));
+});
+document.getElementById("t-limpar").addEventListener("click", () => {
+  PREFS = {temas: [], regioes: []};
+  gravarLocal(); pintarChips();
+  if (assuntoAberto) abrirRadar();
+  reordenar(); salvarBanco();
+});
+
+/* ===================== rodapé ===================== */
+const diag = D.diagnostico || [];
+document.getElementById("t-diag").innerHTML = diag.length
+  ? diag.slice().sort((a, b) => (b.itens || 0) - (a.itens || 0)).map(d =>
+      `<span class="${d.erro ? "falha" : ""}">${esc(d.fonte)}
+       <b>${d.erro ? esc(d.erro) : d.itens}</b></span>`).join("")
+  : `<span>Rodada alimentada pelo agente (sem leitura de RSS nesta execução).</span>`;
+const orig = Object.entries(D.metricas.origem_itens || {})
+  .map(([k, v]) => `${v} via ${k}`).join(" · ");
+document.getElementById("t-creditos").innerHTML =
+  `Radar de Notícias v${esc(D.versao)} — agentes: caçador, curador, editor-chefe, publicador.<br>` +
+  `${esc(orig)}. Limiar de agrupamento ${D.config.limiar_cluster}; ` +
+  `anti-repetição de ${D.config.selecao.dias_anti_repeticao} dias; ` +
+  `piso de ${D.config.selecao.min_br} pautas do Brasil.<br>` +
+  `Nenhum número neste painel foi inventado: todos vêm das matérias coletadas.`;
+
+/* ===================== abertura ===================== */
+const abertura = document.getElementById("t-abertura");
+let INICIO_ABERTURA = Date.now();
+const MIN_ABERTURA = 2600;
+let aberturaFechada = false;
+const temporizadores = [];
+
+/* Céu: posições derivadas do índice, então a abertura é sempre a mesma. */
+(function(){
+  let html = "";
+  for (let i = 0; i < 46; i++){
+    const x = (i * 37 + 11) % 100, y = (i * 61 + 7) % 100;
+    const tam = 1 + (i % 3) * 0.6;
+    html += `<i style="left:${x}%;top:${y}%;width:${tam}px;height:${tam}px;
+      --d:${3 + (i % 5) * 0.8}s;--a:${-(i % 7) * 0.6}s"></i>`;
+  }
+  document.getElementById("t-estrelas").innerHTML = html;
+  document.getElementById("t-estrelas-entrada").innerHTML = html;
+})();
+
+/* As etapas são o que a página realmente fez com os dados desta rodada:
+   cada número vem do JSON, nenhum é enfeite. */
+function rodarAbertura(){
+  document.getElementById("t-abertura-olho").textContent =
+    `Brasil · Mundo · ${dia.toLocaleDateString("pt-BR", {day: "2-digit", month: "long"})}`;
+  const interesses = [...PREFS.temas, ...PREFS.regioes].map(k => infoAssunto(k).rot);
+  const etapas = [
+    `Lendo <b>${num(m.itens_lidos || m.itens_coletados)}</b> matérias de <b>${num(m.fontes_lidas || m.fontes_ativas)}</b> veículos`,
+    `Só as últimas <b>${m.janela_horas || 48}h</b>: ficaram <b>${num(m.itens_coletados)}</b>`,
+    `Agrupando em <b>${num(m.pautas_identificadas)}</b> pautas`,
+    interesses.length ? `Aplicando seus interesses: <b>${esc(interesses.join(", "))}</b>`
+                      : `Fechando a pauta das <b>${esc(D.gerado_em.slice(11, 16))}</b>`,
+  ];
+  const ol = document.getElementById("t-etapas");
+  const barra = document.getElementById("t-barra-abertura");
+  ol.innerHTML = etapas.map(t =>
+    `<li><span class="ok">${ICONE_OK}</span><span>${t}</span></li>`).join("");
+  const itens = [...ol.children];
+  itens.forEach((li, i) => {
+    temporizadores.push(setTimeout(() => li.classList.add("viva"), 380 + i * 470));
+    temporizadores.push(setTimeout(() => {
+      li.classList.add("feita");
+      barra.style.width = `${((i + 1) / itens.length) * 100}%`;
+    }, 680 + i * 470));
+  });
+}
+function fecharAbertura(){
+  if (aberturaFechada) return;
+  aberturaFechada = true;
+  temporizadores.forEach(clearTimeout);
+  abertura.classList.add("saindo");
+  setTimeout(() => { abertura.hidden = true; }, 640);
+}
+document.getElementById("t-pular").addEventListener("click", fecharAbertura);
+
+/* ===================== entrada: quem está lendo ===================== */
+/* Não há senha: a página não teria como conferir uma. Quem você é vem da sua
+   conta do claude.ai (capability user), e o perfil fica em data/users/<id>/,
+   que só você lê. Fora do claude.ai (arquivo local), vira "visitante" e o
+   perfil fica neste navegador. */
+const entrada = document.getElementById("t-entrada");
+const cartaoEntrada = document.getElementById("t-cartao-entrada");
+const CHAVE_PERFIL = "radar:perfil";
+let euId = null, euNome = "", euAvatar = "";
+let gravandoPerfil = Promise.resolve();
+
+const primeiroNome = n => String(n || "").trim().split(/\s+/)[0] || "";
+const apelidoAtual = () => (PERFIL && PERFIL.apelido) || primeiroNome(euNome) || "";
+function saudacao(){
+  const h = new Date().getHours();
+  return h < 5 ? "Boa noite" : h < 12 ? "Bom dia" : h < 18 ? "Boa tarde" : "Boa noite";
+}
+function perfilVazio(){
+  return {apelido: null, temas: [], regioes: [], ritmo: "contexto", leituras: {},
+          onboarding_ok: false, criado_em: new Date().toISOString(), visto_em: null};
+}
+function lerPerfilLocal(){
+  try { const b = localStorage.getItem(CHAVE_PERFIL); if (b) return JSON.parse(b); } catch (e) {}
+  return null;
+}
+function salvarPerfil(){
+  if (!PERFIL) return Promise.resolve(false);
+  const corpo = JSON.parse(JSON.stringify(PERFIL));
+  try { localStorage.setItem(CHAVE_PERFIL, JSON.stringify(corpo)); } catch (e) {}
+  if (!bancoPrefs || !euId) return Promise.resolve(false);
+  // uma escrita por vez no mesmo documento
+  gravandoPerfil = gravandoPerfil.then(() =>
+    bancoPrefs.doc(`data/users/${euId}/perfil`).set(corpo).then(() => true, () => false));
+  return gravandoPerfil;
+}
+function aplicarPerfil(){
+  PREFS = {temas: [...(PERFIL.temas || [])], regioes: [...(PERFIL.regioes || [])]};
+  gravarLocal();
+  document.body.classList.toggle("ritmo-rapido", PERFIL.ritmo === "rapido");
+  pintarChips();
+  reordenar();
+  const eu = document.getElementById("t-eu");
+  eu.hidden = false;
+  eu.innerHTML = `<img alt="" src="${esc(euAvatar || "")}"><span></span>`;
+  eu.querySelector("span").textContent = apelidoAtual() || "Visitante";
+  if (!euAvatar) eu.querySelector("img").remove();
+  pintarBoasVindas();
+}
+
+/* ---------- gostos aprendidos: o que você abre conta ponto ---------- */
+let leiturasSujas = false, relogioLeituras = null;
+function registrarLeitura(chave, peso){
+  if (!PERFIL || !chave) return;
+  PERFIL.leituras = PERFIL.leituras || {};
+  PERFIL.leituras[chave] = (PERFIL.leituras[chave] || 0) + peso;
+  leiturasSujas = true;
+  clearTimeout(relogioLeituras);
+  relogioLeituras = setTimeout(descarregarLeituras, 5000);   // uma escrita por pausa
+}
+function descarregarLeituras(){
+  if (!leiturasSujas) return;
+  leiturasSujas = false;
+  salvarPerfil();
+}
+addEventListener("visibilitychange", () => { if (document.hidden) descarregarLeituras(); });
+addEventListener("click", e => {
+  const link = e.target.closest(".titulo-pauta a, .cobertura a");
+  const lupa = e.target.closest(".lupa");
+  const card = (link || lupa) && (link || lupa).closest(".pauta");
+  if (!card) return;
+  const p = PORID.get(card.dataset.id);
+  if (p) registrarLeitura(p.editoria, link ? 3 : 1);
+});
+function maisLidos(){
+  return Object.entries((PERFIL && PERFIL.leituras) || {})
+    .filter(([k, n]) => n > 0 && infoAssunto(k)).sort((a, b) => b[1] - a[1]);
+}
+
+/* ---------- telas da entrada ---------- */
+const OK_SVG = '<svg width="13" height="13" viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="7" width="10" height="7" rx="1.6" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M5.5 7V5.2a2.5 2.5 0 0 1 5 0V7" fill="none" stroke="currentColor" stroke-width="1.3"/></svg>';
+function rodapeEntrada(){
+  return `<div class="rodape-entrada">${OK_SVG}<span>${euId
+    ? "Entrando com sua conta do claude.ai. Sem senha: o perfil fica numa área que só você vê."
+    : "Fora do claude.ai: seu perfil fica guardado só neste navegador."}</span></div>`;
+}
+function cabecalhoEntrada(titulo, sub){
+  const foto = euAvatar ? `<img alt="" src="${esc(euAvatar)}">` : "";
+  return `<div class="entrada-olho">Radar de Notícias</div>
+    <div class="quem">${foto}<div><h2>${esc(titulo)}</h2><p>${esc(sub)}</p></div></div>`;
+}
+function trocarCartao(html){
+  cartaoEntrada.classList.remove("troca");
+  cartaoEntrada.innerHTML = html;
+  void cartaoEntrada.offsetWidth;
+  cartaoEntrada.classList.add("troca");
+}
+function pontos(n){
+  return `<div class="passos-pontos" aria-hidden="true">${[1, 2, 3].map(i =>
+    `<i class="${i <= n ? "feito" : ""}"></i>`).join("")}</div>`;
+}
+
+let rascunho = null;
+function passo1(){
+  trocarCartao(cabecalhoEntrada(
+      euNome ? `Prazer, ${primeiroNome(euNome)}.` : "Prazer.",
+      "Três perguntas rápidas e o radar fica com a sua cara.") +
+    pontos(1) +
+    `<div class="passo"><h3>Como você quer ser chamado?</h3>
+      <p class="dica">Aparece na saudação e no topo do radar.</p>
+      <input class="campo" id="t-apelido" maxlength="28" autocomplete="nickname"
+        placeholder="Seu nome ou apelido"></div>
+    <div class="entrada-acoes"><button class="btn-principal" id="t-p1">Continuar</button></div>` +
+    rodapeEntrada());
+  const campo = document.getElementById("t-apelido");
+  campo.value = (rascunho && rascunho.apelido) || apelidoAtual();
+  campo.focus();
+  const seguir = () => { rascunho.apelido = campo.value.trim(); passo2(); };
+  document.getElementById("t-p1").addEventListener("click", seguir);
+  campo.addEventListener("keydown", e => { if (e.key === "Enter") seguir(); });
+}
+function azulejosEntrada(lista, tipo, escolhidos){
+  const quentes = emAlta([...Object.keys(TEMAS), ...Object.keys(REGIOES)]);
+  return `<div class="escolhas">${lista.map(k => azulejo(k, tipo,
+    tipo === "tema" ? TEMAS[k] : (REGIOES_ROT[k] || {rot: k, emojis: ["🌍"]}), quentes)
+    .replace(/aria-pressed="(true|false)"/, `aria-pressed="${escolhidos.includes(k)}"`)).join("")}</div>`;
+}
+function ligarAzulejos(onde, lista){
+  onde.querySelectorAll(".escolha").forEach(b => b.addEventListener("click", () => {
+    const v = b.dataset.tema || b.dataset.regiao;
+    const i = lista.indexOf(v);
+    i >= 0 ? lista.splice(i, 1) : lista.push(v);
+    b.setAttribute("aria-pressed", String(i < 0));
+    const botao = cartaoEntrada.querySelector("#t-p2");
+    if (botao) botao.disabled = rascunho.temas.length === 0;
+  }));
+}
+function passo2(){
+  const nome = rascunho.apelido || primeiroNome(euNome);
+  trocarCartao(cabecalhoEntrada(nome ? `Do que você gosta, ${nome}?` : "Do que você gosta?",
+      "Escolha pelo menos um assunto. Dá para mudar depois.") +
+    pontos(2) +
+    `<div class="passo">${azulejosEntrada(Object.keys(TEMAS), "tema", rascunho.temas)}</div>
+    <div class="entrada-acoes">
+      <button class="btn-fantasma" id="t-v2" type="button">Voltar</button>
+      <button class="btn-principal" id="t-p2" type="button">Continuar</button></div>` +
+    rodapeEntrada());
+  ligarAzulejos(cartaoEntrada, rascunho.temas);
+  document.getElementById("t-p2").disabled = rascunho.temas.length === 0;
+  document.getElementById("t-p2").addEventListener("click", passo3);
+  document.getElementById("t-v2").addEventListener("click", passo1);
+}
+function passo3(){
+  trocarCartao(cabecalhoEntrada("Quase lá.", "O mundo que te interessa e o seu jeito de ler.") +
+    pontos(3) +
+    `<div class="passo">
+      <div class="rotulo-mini">Regiões, além do Brasil</div>
+      ${azulejosEntrada(Object.keys(REGIOES), "regiao", rascunho.regioes)}
+      <div class="rotulo-mini">Como você lê</div>
+      <div class="ritmos">
+        <button type="button" class="ritmo" data-ritmo="contexto"
+          aria-pressed="${rascunho.ritmo !== "rapido"}"><b>Com contexto</b>
+          <span>Manchete, resumo, quem cobriu e os sinais de cada pauta.</span></button>
+        <button type="button" class="ritmo" data-ritmo="rapido"
+          aria-pressed="${rascunho.ritmo === "rapido"}"><b>Manchetes rápidas</b>
+          <span>Só o essencial, para passar o olho em segundos.</span></button>
+      </div></div>
+    <div class="entrada-acoes">
+      <button class="btn-fantasma" id="t-v3" type="button">Voltar</button>
+      <button class="btn-principal" id="t-p3" type="button">Montar meu radar</button></div>` +
+    rodapeEntrada());
+  ligarAzulejos(cartaoEntrada, rascunho.regioes);
+  cartaoEntrada.querySelectorAll(".ritmo").forEach(b => b.addEventListener("click", () => {
+    rascunho.ritmo = b.dataset.ritmo;
+    cartaoEntrada.querySelectorAll(".ritmo").forEach(o =>
+      o.setAttribute("aria-pressed", String(o === b)));
+  }));
+  document.getElementById("t-v3").addEventListener("click", passo2);
+  document.getElementById("t-p3").addEventListener("click", concluirPerfil);
+}
+async function concluirPerfil(){
+  const nomeConta = primeiroNome(euNome);
+  // Só guardamos o apelido se for escolha sua: o nome da conta é lido ao vivo.
+  PERFIL.apelido = rascunho.apelido && rascunho.apelido !== nomeConta ? rascunho.apelido : null;
+  PERFIL.temas = [...rascunho.temas];
+  PERFIL.regioes = [...rascunho.regioes];
+  PERFIL.ritmo = rascunho.ritmo || "contexto";
+  PERFIL.onboarding_ok = true;
+  PERFIL.visto_em = new Date().toISOString();
+  aplicarPerfil();
+  salvarPerfil();
+  salvarBanco();          // espelho em preferencias/atual: é o que a rodada das 6h lê
+  entrarNoRadar();
+}
+function telaRetorno(){
+  const nome = apelidoAtual();
+  const meus = [...PERFIL.temas, ...PERFIL.regioes];
+  const deHoje = new Set();
+  meus.forEach(k => pautasDoAssunto(k).forEach(p => deHoje.add(p.id)));
+  const lidos = maisLidos();
+  const top = lidos[0];
+  const sugerir = top && top[1] >= 4 && !PERFIL.temas.includes(top[0]) && TEMAS[top[0]];
+  trocarCartao(cabecalhoEntrada(nome ? `${saudacao()}, ${nome}.` : `${saudacao()}.`,
+      `Radar fechado às ${D.gerado_em.slice(11, 16)}, com ${num(m.itens_coletados)} matérias das últimas ${m.janela_horas || 48}h.`) +
+    `<div class="resumo-perfil">
+      <div class="linha-perfil"><span class="k">Seus assuntos</span>
+        <span class="chips-perfil">${meus.length ? meus.map(k =>
+          `<span class="chip-perfil">${infoAssunto(k).emojis[0]} ${esc(infoAssunto(k).rot)}</span>`).join("")
+          : "nenhum ainda"}</span></div>
+      <div class="linha-perfil"><span class="k">Hoje</span>
+        <span>${deHoje.size ? `<b>${deHoje.size}</b> pauta${deHoje.size > 1 ? "s" : ""} dos seus assuntos`
+          : "nada dos seus assuntos nas últimas 48h — o radar geral segue completo"}</span></div>
+      ${lidos.length ? `<div class="linha-perfil"><span class="k">Você mais lê</span>
+        <span>${lidos.slice(0, 3).map(([k]) => esc(infoAssunto(k).rot)).join(" · ")}</span></div>` : ""}
+      ${sugerir ? `<div class="sugestao"><span>Você tem lido bastante <b>${esc(TEMAS[top[0]].rot)}</b>.
+        Pôr nos seus assuntos?</span><button type="button" id="t-sugerir">Adicionar</button></div>` : ""}
+    </div>
+    <div class="entrada-acoes">
+      <button class="btn-fantasma" id="t-editar" type="button">Editar perfil</button>
+      <button class="btn-principal" id="t-entrar" type="button">Entrar no radar</button></div>` +
+    rodapeEntrada());
+  document.getElementById("t-entrar").addEventListener("click", () => {
+    PERFIL.visto_em = new Date().toISOString(); salvarPerfil(); entrarNoRadar();
+  });
+  document.getElementById("t-editar").addEventListener("click", comecarOnboarding);
+  const sug = document.getElementById("t-sugerir");
+  if (sug) sug.addEventListener("click", () => {
+    PERFIL.temas.push(top[0]); aplicarPerfil(); salvarPerfil(); salvarBanco(); telaRetorno();
+  });
+  document.getElementById("t-entrar").focus();
+}
+function comecarOnboarding(){
+  rascunho = {apelido: apelidoAtual(), temas: [...PERFIL.temas], regioes: [...PERFIL.regioes],
+              ritmo: PERFIL.ritmo || "contexto"};
+  passo1();
+}
+
+let jaEntrou = false;
+function entrarNoRadar(){
+  entrada.classList.add("saindo");
+  setTimeout(() => { entrada.hidden = true; entrada.classList.remove("saindo"); }, 500);
+  if (jaEntrou) return;              // reabrir o perfil depois não repete o globo
+  jaEntrou = true;
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  abertura.hidden = false;
+  INICIO_ABERTURA = Date.now();
+  rodarAbertura();
+  setTimeout(fecharAbertura, MIN_ABERTURA);
+}
+document.getElementById("t-eu").addEventListener("click", () => {
+  entrada.hidden = false;
+  telaRetorno();
+});
+
+
+/* ===================== você conversa com o radar ===================== */
+const elToast = document.getElementById("t-toast");
+let relogioToast = null;
+function avisar(texto, rotulo, acao){
+  clearTimeout(relogioToast);
+  elToast.innerHTML = `<span></span>${rotulo ? `<button type="button">${esc(rotulo)}</button>` : ""}`;
+  elToast.querySelector("span").textContent = texto;
+  if (rotulo) elToast.querySelector("button").addEventListener("click", () => {
+    elToast.hidden = true; acao();
+  });
+  elToast.hidden = false;
+  elToast.classList.remove("entrando"); void elToast.offsetWidth; elToast.classList.add("entrando");
+  relogioToast = setTimeout(() => { elToast.hidden = true; }, 5200);
+}
+function redesenharLista(){
+  if (assuntoAberto){
+    const y = scrollY;
+    const k = assuntoAberto;
+    abrirAssunto(k);
+    scrollTo({top: y, behavior: "instant"});
+  } else { reordenar(); pintarBoasVindas(); }
+}
+function pulsar(b){ b.classList.remove("pulsou"); void b.offsetWidth; b.classList.add("pulsou"); }
+
+addEventListener("click", e => {
+  const b = e.target.closest("[data-acao]");
+  if (!b || !PERFIL) return;
+  const card = b.closest(".pauta");
+  const p = card && PORID.get(card.dataset.id);
+  if (!p) return;
+  e.preventDefault(); e.stopPropagation();
+  fecharPrevia();
+  const rot = (infoAssunto(p.editoria) || {rot: p.editoria}).rot;
+  const acao = b.dataset.acao;
+
+  if (acao === "mais"){
+    PERFIL.curtidas = PERFIL.curtidas || {};
+    const ligou = !PERFIL.curtidas[p.id];
+    if (ligou) PERFIL.curtidas[p.id] = true; else delete PERFIL.curtidas[p.id];
+    b.setAttribute("aria-pressed", String(ligou));
+    pulsar(b);
+    registrarLeitura(p.editoria, ligou ? 4 : -4);
+    if (ligou) avisar(`Anotado: mais ${rot} no seu radar.`);
+  }
+
+  if (acao === "menos"){
+    PERFIL.ocultas = PERFIL.ocultas || {};
+    PERFIL.ocultas[p.id] = new Date().toISOString().slice(0, 10);
+    registrarLeitura(p.editoria, -3);
+    card.classList.add("saindo");
+    setTimeout(redesenharLista, 330);
+    avisar(`Escondida. Vou pesar menos ${rot}.`, "Desfazer", () => {
+      delete PERFIL.ocultas[p.id];
+      registrarLeitura(p.editoria, 3);
+      redesenharLista();
+    });
+  }
+
+  if (acao === "salvar"){
+    PERFIL.salvas = PERFIL.salvas || [];
+    const ja = estaSalva(p);
+    if (ja) PERFIL.salvas = PERFIL.salvas.filter(s => s.id !== p.id && s.url !== p.url);
+    else PERFIL.salvas.unshift({id: p.id, url: p.url, titulo: p.titulo, fonte: p.fonte_principal || "",
+                                editoria: p.editoria, salva_em: new Date().toISOString()});
+    PERFIL.salvas = PERFIL.salvas.slice(0, 60);
+    b.setAttribute("aria-pressed", String(!ja));
+    b.lastChild.textContent = ja ? "Salvar" : "Salva";
+    pulsar(b);
+    salvarPerfil();
+    pintarBoasVindas();
+    if (ja && assuntoAberto === "__salvas") redesenharLista();
+    if (!ja) avisar("Guardada para ler depois.", "Ver salvas", () => abrirAssunto("__salvas"));
+  }
+});
+
+/* Faixa de boas-vindas: o que mudou desde a última vez que você passou aqui. */
+function tempoDesde(iso){
+  const min = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (min < 60) return `${Math.max(1, min)} min`;
+  const h = Math.round(min / 60);
+  return h < 48 ? `${h} h` : `${Math.round(h / 24)} dias`;
+}
+let boasVindasFechada = false;
+function pintarBoasVindas(){
+  const el = document.getElementById("t-boas-vindas");
+  if (!el || !PERFIL || !PERFIL.onboarding_ok || boasVindasFechada){ if (el) el.hidden = true; return; }
+  const novas = TODAS.filter(p => ehNova(p) && !oculta(p));
+  const meus = new Set([...PERFIL.temas, ...PERFIL.regioes]);
+  const minhas = novas.filter(p => meus.has(p.editoria) || PERFIL.regioes.some(r => daRegiao(p, r)));
+  const nSalvas = (PERFIL.salvas || []).length;
+  const nome = apelidoAtual();
+  let texto;
+  if (VISTO_ANTES){
+    texto = novas.length
+      ? `${nome ? esc(nome) + ", d" : "D"}esde sua última visita (há ${tempoDesde(VISTO_ANTES)}) entraram
+         <b>${novas.length}</b> pauta${novas.length > 1 ? "s" : ""} nova${novas.length > 1 ? "s" : ""}` +
+        (minhas.length ? ` — <b>${minhas.length}</b> dos seus assuntos.` : ".")
+      : `${nome ? esc(nome) + ", n" : "N"}ada novo desde sua última visita (há ${tempoDesde(VISTO_ANTES)}). A próxima rodada traz mais.`;
+  } else {
+    texto = `Use <b>Mais disso</b> e <b>Menos disso</b> nas pautas: o radar reorganiza a ordem com o seu gosto.`;
+  }
+  el.innerHTML = `<span class="bv-texto">${texto}</span><span class="bv-acoes">
+    ${novas.length && VISTO_ANTES ? `<button class="acao" type="button" id="t-so-novas"
+      aria-pressed="${document.body.classList.contains("so-novas")}">Só as novas</button>` : ""}
+    <button class="acao" type="button" id="t-ver-salvas">${IC_SALVAR}Salvas${nSalvas ? ` (${nSalvas})` : ""}</button>
+    <button class="bv-fechar" type="button" id="t-bv-fechar" aria-label="Fechar">×</button></span>`;
+  el.hidden = false;
+  const so = document.getElementById("t-so-novas");
+  if (so) so.addEventListener("click", () => {
+    const liga = !document.body.classList.contains("so-novas");
+    document.body.classList.toggle("so-novas", liga);
+    so.setAttribute("aria-pressed", String(liga));
+  });
+  document.getElementById("t-ver-salvas").addEventListener("click", () => abrirAssunto("__salvas"));
+  document.getElementById("t-bv-fechar").addEventListener("click", () => {
+    boasVindasFechada = true; el.hidden = true; document.body.classList.remove("so-novas");
+  });
+}
+
+/* ===================== arranque ===================== */
+{
+  const local = lerLocal();
+  if (local && (local.temas || local.regioes)){
+    PREFS = {temas: local.temas || [], regioes: local.regioes || []};
+  }
+}
+pintarChips();
+reordenar();
+{
+  const k = chavePorSlug((location.hash || "").replace("#", ""));
+  if (k) abrirAssunto(k);
+}
+
+(async () => {
+  let user = null;
+  try {
+    if (window.claude && window.claude.use){
+      [bancoPrefs, user] = await Promise.all([
+        window.claude.use("db").catch(() => null),
+        window.claude.use("user").catch(() => null)]);
+    }
+  } catch (e) {}
+  if (user){
+    const me = await user.me();
+    euId = me.id; euNome = me.name || ""; euAvatar = me.avatarUrl || "";
+  }
+  if (bancoPrefs && euId){
+    try {
+      const snap = await bancoPrefs.doc(`data/users/${euId}/perfil`).get();
+      if (snap.exists) PERFIL = snap.data();
+    } catch (e) {}
+  }
+  if (!PERFIL) PERFIL = lerPerfilLocal();
+  if (!PERFIL){
+    PERFIL = perfilVazio();
+    // Quem já tinha escolhido assuntos na caixa não começa do zero.
+    if (bancoPrefs){
+      try {
+        const snap = await bancoPrefs.doc("preferencias/atual").get();
+        const d = snap.exists ? snap.data() : null;
+        if (d){ PERFIL.temas = d.temas || []; PERFIL.regioes = d.regioes || []; }
+      } catch (e) {}
+    }
+  }
+  PERFIL = Object.assign(perfilVazio(), PERFIL);
+  VISTO_ANTES = PERFIL.visto_em || null;
+  // Esconder vale por dois dias: depois disso a pauta já saiu da janela mesmo.
+  const limite = new Date(Date.now() - 2 * 864e5).toISOString().slice(0, 10);
+  Object.keys(PERFIL.ocultas || {}).forEach(k => { if (PERFIL.ocultas[k] < limite) delete PERFIL.ocultas[k]; });
+  if (PERFIL.onboarding_ok){ aplicarPerfil(); telaRetorno(); }
+  else comecarOnboarding();
+})();
+
+/* ===================== motion blur de rolagem ===================== */
+(function(){
+  const g = document.getElementById("borrao-mov-g");
+  if (!g) return;
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  let y = scrollY, v = 0, rodando = false, ativo = null;
+  function alvoAtual(){ return assuntoAberto ? elPautasTema : elPautas; }
+  function quadro(){
+    v *= 0.82;
+    const b = Math.min(5.2, Math.abs(v) * 0.055);
+    const alvo = alvoAtual();
+    if (b > 0.2){
+      if (ativo !== alvo){
+        if (ativo) ativo.style.filter = "none";
+        alvo.style.filter = "url(#borrao-mov)";
+        ativo = alvo;
+      }
+      g.setAttribute("stdDeviation", "0 " + b.toFixed(2));
+      requestAnimationFrame(quadro);
+    } else {
+      g.setAttribute("stdDeviation", "0 0");
+      if (ativo){ ativo.style.filter = "none"; ativo = null; }
+      rodando = false;
+    }
+  }
+  addEventListener("scroll", () => {
+    const novo = scrollY; v = novo - y; y = novo;
+    if (!rodando){ rodando = true; requestAnimationFrame(quadro); }
+  }, {passive: true});
+})();
+</script>
+"""
+
+RESET_LOCAL = """<style>
+/* Reproduz o esqueleto que o Artifact injeta, para o arquivo local ficar igual. */
+:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+"""
+
+ESTILO_RODAPE = """<style>
+.rodape{border-top:1px solid var(--borda);background:var(--superficie);
+  margin-top:40px}
+.rodape .faixa{padding-block:26px 34px}
+.diag{display:grid;gap:4px 18px;
+  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+  font-family:var(--display);font-size:12.5px;color:var(--tinta-3);margin-top:10px}
+.diag span{display:flex;gap:7px;align-items:baseline;min-width:0}
+.diag b{font-weight:600;color:var(--tinta-2);font-variant-numeric:tabular-nums}
+.diag .falha{color:var(--cuidado)}
+.creditos{font-family:var(--display);font-size:12.5px;color:var(--tinta-3);
+  margin-top:20px;line-height:1.6}
+</style>
+"""
+
+
+# Só no modo standalone (site do Netlify): vira app instalável no celular e no PC.
+APP_INSTALAVEL = """<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0e1218">
+<link rel="icon" type="image/png" sizes="192x192" href="icone-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Radar">
+<script>
+if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+  addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+}
+</script>
+"""
+
+
+def _html(radar: dict, modo: str) -> str:
+    dados = json.dumps(radar, ensure_ascii=False, separators=(",", ":"))
+    corpo = (CABECA + ESTILO_VISTAS + ESTILO_RODAPE
+             + f"<script>window.__RADAR__ = {dados};</script>\n"
+             + MARCACAO + SCRIPT)
+    if modo == "artifact":
+        # O Artifact embrulha o arquivo no esqueleto (doctype/head/body).
+        return corpo
+    return ('<!doctype html>\n<html lang="pt-BR">\n<head>\n'
+            '<meta charset="utf-8">\n'
+            '<meta name="viewport" '
+            'content="width=device-width,initial-scale=1,viewport-fit=cover">\n'
+            + RESET_LOCAL + APP_INSTALAVEL
+            + '</head>\n<body>\n' + corpo + '\n</body>\n</html>\n')
+
+
+def gerar_painel(radar: dict, modo: str = "standalone", destino: str | None = None) -> str:
+    """Escreve o painel e devolve o caminho."""
+    html = _html(radar, modo)
+    if destino is None:
+        nome = "painel.html" if modo == "standalone" else "painel_artifact.html"
+        destino = os.path.join(DIR_SAIDA, nome)
+    os.makedirs(os.path.dirname(destino), exist_ok=True)
+    with open(destino, "w", encoding="utf-8") as fh:
+        fh.write(html)
+    log(f"publicador: painel {modo} em {destino} ({len(html)//1024} KB)", "ok")
+    return destino

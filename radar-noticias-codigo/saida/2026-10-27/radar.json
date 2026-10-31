@@ -1,0 +1,4789 @@
+{
+  "versao": "1.0.0",
+  "dia": "2026-10-27",
+  "gerado_em": "2026-10-27T22:51:49-03:00",
+  "config": {
+    "perfil": {
+      "nome_canal": "Radar",
+      "apresentador": "voce",
+      "tom": "direto, informal-profissional, sem jargão, zero sensacionalismo",
+      "duracao_alvo_s": 45,
+      "duracao_min_s": 30,
+      "duracao_max_s": 75,
+      "palavras_por_segundo": 2.6,
+      "assinatura_cta": "Segue o perfil: amanhã às 6 da manhã tem radar novo.",
+      "evitar": [
+        "linguagem de pânico",
+        "adjetivo sem dado",
+        "palpite com cara de fato",
+        "número sem fonte"
+      ]
+    },
+    "selecao": {
+      "pautas_por_dia": 6,
+      "roteiros_por_dia": 3,
+      "min_br": 4,
+      "max_mundo": 3,
+      "max_por_editoria": 2,
+      "janela_horas": 48,
+      "dias_anti_repeticao": 5,
+      "min_mundo": 1,
+      "exigir_data": true,
+      "_doc_janela": "So entra materia publicada nas ultimas janela_horas. Com exigir_data, item sem data (nem informada, nem deduzivel pela URL) fica de fora: sem data nao da para garantir que e atual.",
+      "somente_portugues": true,
+      "aceitar_traducao": true,
+      "_doc_idioma": "somente_portugues: matéria com título em outro idioma sai. aceitar_traducao: a que o agente traduziu (titulo_original preenchido) fica, marcada como traduzida."
+    },
+    "editorias": [
+      "politica",
+      "economia",
+      "mundo",
+      "tecnologia",
+      "ciencia",
+      "saude",
+      "esporte",
+      "cultura",
+      "cotidiano",
+      "meio-ambiente"
+    ],
+    "limiar_cluster": 0.4,
+    "pesos_noticia": {
+      "corroboracao": 0.34,
+      "peso_fonte": 0.2,
+      "recencia": 0.26,
+      "calor": 0.2
+    },
+    "pesos_reels": {
+      "potencial_reels": 0.62,
+      "recencia": 0.18,
+      "corroboracao": 0.2
+    },
+    "_doc_scores": "score_noticia mede importancia jornalistica (quem publicou, quantos, quao fresco, quao quente). score_reels mede o que rende video curto. O briefing e ordenado pelo primeiro; a fila de gravacao, pelo segundo.",
+    "roteiros": {
+      "ativo": false,
+      "_doc": "Roteiro de reels desligado a pedido. O agente roteirista continua no repositorio: mude para true e volta tudo (fila de gravacao, secao no briefing, score de reels no painel)."
+    }
+  },
+  "pautas": [
+    {
+      "slug": "departamento-de-estado-dos-eua-diz-a-cnn-que-emitira-vistos",
+      "id": "26b435a8a1660568",
+      "titulo": "Departamento de Estado dos EUA diz à CNN que emitirá vistos para Flávio",
+      "resumo": "Alto funcionário americano diz que Flávio e a família terão visto e entrada nos EUA; a Argentina não registra passagem dele, e o senador segue incomunicável.",
+      "url": "https://www.cnnbrasil.com.br/internacional/departamento-de-estado-dos-eua-diz-a-cnn-que-emitira-vistos-para-flavio/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "Agência Brasil",
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 3,
+      "n_itens": 14,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T20:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T22:30:00-03:00",
+      "janela_horas": 26.5,
+      "velocidade": 0.53,
+      "datas_conhecidas": 14,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Departamento de Estado dos EUA diz à CNN que emitirá vistos para Flávio",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/departamento-de-estado-dos-eua-diz-a-cnn-que-emitira-vistos-para-flavio/",
+          "publicado_em": "2026-10-27T22:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Fuga de Flávio pode motivar prisão preventiva, dizem especialistas",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/fuga-de-flavio-pode-motivar-prisao-preventiva-dizem-especialistas/",
+          "publicado_em": "2026-10-27T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Deputados do PT pedem a prisão de Flávio e alerta vermelho da Interpol",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/deputados-do-pt-pedem-a-prisao-de-flavio-e-alerta-vermelho-da-interpol/",
+          "publicado_em": "2026-10-27T21:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "O que se sabe sobre a fuga de Flávio Bolsonaro do Brasil",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/o-que-se-sabe-sobre-a-saida-de-flavio-bolsonaro-do-brasil/",
+          "publicado_em": "2026-10-27T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio Bolsonaro desafia proibição e viaja rumo aos EUA, dizem fontes à CNN",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/flavio-bolsonaro-desafia-proibicao-e-viaja-rumo-aos-eua-dizem-fontes-a-cnn/",
+          "publicado_em": "2026-10-27T20:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Aliados dizem que Flávio Bolsonaro está fora do Brasil",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/aliados-dizem-que-flavio-bolsonaro-esta-fora-do-brasil/",
+          "publicado_em": "2026-10-27T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "À CNN, Efraim diz que apreensão de passaporte de Flávio é \"antidemocrática\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/a-cnn-efraim-diz-que-apreensao-de-passaporte-de-flavio-e-antidemocratica/",
+          "publicado_em": "2026-10-27T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Leia a cronologia dos fatos que levaram Flávio Bolsonaro deixar o Brasil",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/leia-a-cronologia-dos-fatos-que-levaram-flavio-bolsonaro-deixar-o-brasil/",
+          "publicado_em": "2026-10-27T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "PT pede prisão de Flávio Bolsonaro e alerta vermelho da Interpol",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-congresso/pt-pede-prisao-de-flavio-bolsonaro-e-alerta-vermelho-da-interpol/",
+          "publicado_em": "2026-10-27T21:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Paradeiro de Flávio é problema da direita, avalia governo Lula",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/paradeiro-de-flavio-e-problema-da-direita-avalia-governo-lula/",
+          "publicado_em": "2026-10-27T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "PL desconhece paradeiro de Flávio; Marinho diz compreender possível saída",
+          "fonte": "Poder360",
+          "url": "https://poder360.com.br/poder-eleicoes-2026/pl-desconhece-paradeiro-de-flavio-marinho-diz-compreender-possivel-saida",
+          "publicado_em": "2026-10-27T19:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio Bolsonaro fugiu para os EUA, diz agência Reuters",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-fugiu-para-os-eua-diz-agencia-reuters",
+          "publicado_em": "2026-10-27T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Polícia Federal cancela passaportes de Flávio Bolsonaro",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/policia-federal-cancela-passaportes-de-flavio-bolsonaro",
+          "publicado_em": "2026-10-27T17:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Moraes manda Flávio entregar passaporte e o proíbe de deixar o país",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/moraes-manda-flavio-entregar-passaporte-e-o-proibe-de-deixar-o-pais",
+          "publicado_em": "2026-10-26T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 82.1,
+      "score_reels": 73.2,
+      "score": 82.1,
+      "componentes": {
+        "corroboracao": 0.774,
+        "peso_fonte": 0.807,
+        "recencia": 0.97,
+        "calor": 0.72,
+        "potencial_reels": 0.65
+      },
+      "reels_detalhe": {
+        "familias": {
+          "humano": [
+            "familia"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "3 veículos cobrindo; publicada nas últimas horas; fonte CNN Brasil",
+      "explicacao_reels": "gancho de humano; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 82.1,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "eleicoes-em-israel-pesquisas-de-boca-de-urna-nao-mostram-ven",
+      "id": "bb6dcd97a81299b6",
+      "titulo": "Eleições em Israel: pesquisas de boca de urna não mostram vencedor claro",
+      "resumo": "Canais 11 e 13 dão empate de 51 cadeiras para cada bloco, com 18 dos partidos árabes; o Canal 12 põe a coalizão de Netanyahu três cadeiras à frente. Ninguém chega a 61; resultado oficial no fim de quarta.",
+      "url": "https://www.cnnbrasil.com.br/internacional/eleicoes-de-israel-pesquisa-de-boca-de-urna-nao-mostra-vencedor-claro/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "Agência Brasil",
+        "CNN Brasil"
+      ],
+      "n_fontes": 2,
+      "n_itens": 7,
+      "editoria": "mundo",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T01:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T21:00:00-03:00",
+      "janela_horas": 20.0,
+      "velocidade": 0.35,
+      "datas_conhecidas": 7,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Eleições em Israel: pesquisas de boca de urna não mostram vencedor claro",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/eleicoes-de-israel-pesquisa-de-boca-de-urna-nao-mostra-vencedor-claro/",
+          "publicado_em": "2026-10-27T21:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Principal rival de Netanyahu diz que Israel votou pela mudança",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/principal-rival-de-netanyahu-diz-que-israel-votou-pela-mudanca/",
+          "publicado_em": "2026-10-27T18:30:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Urnas fecham em Israel em disputa que vai definir futuro de Netanyahu",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/urnas-fecham-em-israel-em-disputa-que-vai-definir-futuro-de-netanyahu/",
+          "publicado_em": "2026-10-27T17:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Israel vai às urnas na 1ª eleição desde o 7/10 com era Netanyahu à prova",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/israel-vai-as-urnas-na-1a-eleicao-desde-o-7-10-com-era-netanyahu-a-prova/",
+          "publicado_em": "2026-10-27T06:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Quais são os principais candidatos que disputam a eleição de Israel?",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/quais-sao-os-principais-candidatos-que-disputam-a-eleicao-de-israel/",
+          "publicado_em": "2026-10-27T02:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Urnas são abertas em Israel, e Netanyahu enfrenta disputa decisiva",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/urnas-sao-abertas-em-israel-e-sobrevivencia-politica-de-netanyahu-esta-em-jogo/",
+          "publicado_em": "2026-10-27T01:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Israelenses vão às urnas em eleição que pode tirar Netanyahu do poder",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/israelenses-vao-as-urnas-em-eleicao-que-pode-tirar-netanyahu-do-poder",
+          "publicado_em": "2026-10-27T07:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 73.2,
+      "score_reels": 27.7,
+      "score": 73.2,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.813,
+        "recencia": 0.856,
+        "calor": 0.691,
+        "potencial_reels": 0.0
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {},
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "publicada nas últimas horas; 2 veículos cobrindo; fonte CNN Brasil",
+      "explicacao_reels": "sem gancho claro de vídeo curto",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 73.2,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "dolar-hoje-cai-mais-de-1-a-r-5-34-apos-forte-alta-registrada",
+      "id": "d83b3ffdf6f44fa5",
+      "titulo": "Dólar hoje cai mais de 1%, a R$ 5,34, após forte alta registrada com vitória de Lula",
+      "resumo": "Fechamento: R$ 5,3488 (−1,07%). Durigan diz ter pedido a Lula uma sinalização ao mercado.",
+      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "CNN Brasil",
+        "Exame",
+        "InfoMoney"
+      ],
+      "n_fontes": 3,
+      "n_itens": 4,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T09:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T17:30:00-03:00",
+      "janela_horas": 32.5,
+      "velocidade": 0.12,
+      "datas_conhecidas": 4,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Dólar hoje cai mais de 1%, a R$ 5,34, após forte alta registrada com vitória de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27102026/",
+          "publicado_em": "2026-10-27T17:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Dólar hoje dispara 8,2%, aos R$ 5,40, com reação à reeleição de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26102026-2/",
+          "publicado_em": "2026-10-26T17:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Dólar dispara a R$ 5,40 e tem maior alta diária em 23 anos",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/dolar-dispara-a-r-540-e-tem-maior-alta-diaria-em-23-anos/",
+          "publicado_em": "2026-10-26T17:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Dólar opera em alta de mais de 9% após reeleição de Lula e fica acima de R$ 5,46",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/dolar-abre-em-alta-de-mais-de-8-apos-reeleicao-de-lula-e-vai-a-quase-r-6/",
+          "publicado_em": "2026-10-26T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 72.5,
+      "score_reels": 89.0,
+      "score": 72.5,
+      "componentes": {
+        "corroboracao": 0.774,
+        "peso_fonte": 0.832,
+        "recencia": 0.64,
+        "calor": 0.647,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "3 veículos cobrindo; ainda fresca; fonte InfoMoney",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 72.5,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "tarcisio-reconhecer-eleicao-nao-significa-calar-sobre-excess",
+      "id": "63a76a98a62af175",
+      "titulo": "Tarcísio: \"Reconhecer eleição não significa calar sobre excessos\"",
+      "resumo": "Tarcísio cita uso da máquina, programas lançados fora do prazo e interferência do Judiciário, e pede que a oposição una forças.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/tarcisio-reconhecer-eleicao-nao-significa-calar-sobre-excessos/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 3,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T09:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T19:00:00-03:00",
+      "janela_horas": 34.0,
+      "velocidade": 0.09,
+      "datas_conhecidas": 3,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Tarcísio: \"Reconhecer eleição não significa calar sobre excessos\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/tarcisio-reconhecer-eleicao-nao-significa-calar-sobre-excessos/",
+          "publicado_em": "2026-10-27T19:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Tarcísio reconhece resultado da eleição e pede \"oposição vigilante\"",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-reconhece-resultado-da-eleicao-e-pede-oposicao-vigilante/",
+          "publicado_em": "2026-10-27T19:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Tarcísio fez projeção errada do resultado da eleição; veja vídeo",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-fez-projecao-errada-do-resultado-da-eleicao-veja-video/",
+          "publicado_em": "2026-10-26T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 67.1,
+      "score_reels": 75.5,
+      "score": 67.1,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.815,
+        "recencia": 0.725,
+        "calor": 0.554,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "prazo"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "2 veículos cobrindo; ainda fresca; fonte CNN Brasil",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 67.1,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "prefixados-do-tesouro-caem-ate-49-pontos-base-apos-recorde-m",
+      "id": "df9cc22e77a2545f",
+      "titulo": "Prefixados do Tesouro caem até 49 pontos-base após recorde, mas IPCA+ longos sobem",
+      "resumo": "Taxas dos títulos prefixados recuam depois do pico de segunda; papéis atrelados à inflação de prazo longo seguem em alta.",
+      "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "Exame",
+        "InfoMoney"
+      ],
+      "n_fontes": 2,
+      "n_itens": 5,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T17:00:00-03:00",
+      "janela_horas": 29.0,
+      "velocidade": 0.17,
+      "datas_conhecidas": 5,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Prefixados do Tesouro caem até 49 pontos-base após recorde, mas IPCA+ longos sobem",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-27102026/",
+          "publicado_em": "2026-10-27T17:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Tesouro amplia intervenção e anuncia recompra de títulos atrelados à inflação",
+          "fonte": "InfoMoney",
+          "url": "https://infomoney.com.br/onde-investir/tesouro-amplia-intervencao-e-anuncia-recompra-de-titulos-atrelados-a-inflacao",
+          "publicado_em": "2026-10-26T16:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Tesouro intervém no mercado e recompra até 15 milhões de títulos prefixados",
+          "fonte": "InfoMoney",
+          "url": "https://infomoney.com.br/onde-investir/tesouro-intervem-no-mercado-e-recompra-ate-15-milhoes-de-titulos-prefixados",
+          "publicado_em": "2026-10-26T15:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Após vitória de Lula, Tesouro cancela leilões de prefixados e IPCA+ da semana",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/apos-vitoria-de-lula-tesouro-cancela-leiloes-de-prefixados-e-ipca-da-semana/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Tesouro suspende leilões de títulos prefixados e atrelados à inflação após vitória de Lula",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/tesouro-suspende-leiloes-de-titulos-prefixados-e-atrelados-a-inflacao-apos-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 66.6,
+      "score_reels": 85.3,
+      "score": 66.6,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.835,
+        "recencia": 0.613,
+        "calor": 0.657,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "inflacao"
+          ],
+          "utilidade": [
+            "prazo"
+          ],
+          "espanto": [
+            "recorde"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; fonte InfoMoney; ainda fresca",
+      "explicacao_reels": "gancho de bolso, utilidade, espanto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 66.6,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "analise-netanyahu-perdeu-maioria-mas-caminho-de-rival-e-comp",
+      "id": "d5b9225abbfa8bbb",
+      "titulo": "Análise: Netanyahu perdeu maioria, mas caminho de rival é complicado",
+      "resumo": "Bloco do premiê cai de 68 para 50 cadeiras na boca de urna; Eisenkot depende dos partidos árabes para formar governo. Cerca de 5,7 milhões votaram.",
+      "url": "https://www.cnnbrasil.com.br/internacional/analise-netanyahu-perdeu-maioria-mas-caminho-de-rival-e-complicado/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "mundo",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T18:30:00-03:00",
+      "ultima_publicacao": "2026-10-27T18:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Análise: Netanyahu perdeu maioria, mas caminho de rival é complicado",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/analise-netanyahu-perdeu-maioria-mas-caminho-de-rival-e-complicado/",
+          "publicado_em": "2026-10-27T18:30:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 56.0,
+      "score_reels": 23.5,
+      "score": 56.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.695,
+        "calor": 0.419,
+        "potencial_reels": 0.053
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "valor_em_dinheiro": true
+        },
+        "freio": {
+          "fator": 0.75,
+          "termos": [
+            "analise"
+          ]
+        }
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "ainda fresca; fonte CNN Brasil; só CNN Brasil publicou",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem valor em dinheiro; freio de 0.75 (termo \"analise\")",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 56.0,
+      "virou_roteiro": false
+    }
+  ],
+  "roteiros": [],
+  "reservas": [
+    {
+      "slug": "durigan-defende-sinal-ao-mercado-e-diz-que-governo-tem-medid",
+      "id": "27865cb741e0be19",
+      "titulo": "Durigan defende sinal ao mercado e diz que governo tem medidas fiscais prontas",
+      "resumo": "O ministro diz ter reafirmado a Lula a necessidade de sinalizar ao mercado e que há medidas prontas para buscar o centro da meta fiscal; chamou de \"excelente\" o nome de Rafael Fonteles para a Fazenda.",
+      "url": "https://www.infomoney.com.br/politica/durigan-defende-sinal-ao-mercado-e-diz-que-governo-tem-medidas-fiscais-prontas/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 3,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T17:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T18:00:00-03:00",
+      "janela_horas": 25.0,
+      "velocidade": 0.12,
+      "datas_conhecidas": 3,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Durigan defende sinal ao mercado e diz que governo tem medidas fiscais prontas",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/durigan-defende-sinal-ao-mercado-e-diz-que-governo-tem-medidas-fiscais-prontas/",
+          "publicado_em": "2026-10-27T18:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Lula reúne Durigan e Moretti depois de turbulência nos mercados",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-governo/lula-reune-durigan-e-moretti-depois-de-turbulencia-nos-mercados/",
+          "publicado_em": "2026-10-26T19:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Após reação negativa do mercado, Durigan diz que vai ampliar superavit",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-economia/apos-reacao-negativa-do-mercado-durigan-diz-que-vai-ampliar-superavit/",
+          "publicado_em": "2026-10-26T17:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 66.0,
+      "score_reels": 78.2,
+      "score": 66.0,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.829,
+        "recencia": 0.667,
+        "calor": 0.561,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; ainda fresca; fonte InfoMoney",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 66.0,
+      "motivo_descarte": "cota de economia cheia"
+    },
+    {
+      "slug": "apos-trump-alegar-fraude-boulos-diz-que-brasil-nao-sera-colo",
+      "id": "29651b9925f0f572",
+      "titulo": "Após Trump alegar \"fraude\", Boulos diz que Brasil \"não será colônia\"",
+      "resumo": "O ministro respondeu no X à declaração de Trump de que a eleição \"pareceu fraudada\".",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/apos-trump-alegar-fraude-boulos-diz-que-brasil-nao-sera-colonia/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T08:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T08:00:00-03:00",
+      "janela_horas": 0.5,
+      "velocidade": 4.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Após Trump alegar \"fraude\", Boulos diz que Brasil \"não será colônia\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/apos-trump-alegar-fraude-boulos-diz-que-brasil-nao-sera-colonia/",
+          "publicado_em": "2026-10-27T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Brasil “não será colônia de ninguém”, diz Boulos sobre fala de Trump",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/brasil-nao-sera-colonia-de-ninguem-diz-boulos-sobre-fala-de-trump/",
+          "publicado_em": "2026-10-27T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 60.8,
+      "score_reels": 20.6,
+      "score": 60.8,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.816,
+        "recencia": 0.29,
+        "calor": 0.803,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "2 veículos cobrindo; fonte CNN Brasil; 2 matérias em 0.5h",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 60.8,
+      "motivo_descarte": "cota de politica cheia"
+    },
+    {
+      "slug": "possivel-correcao-dos-mercados-galipolo-leiloes-do-bc-e-mais",
+      "id": "21664ef443038178",
+      "titulo": "Possível correção dos mercados, Galípolo, leilões do BC e mais destaques desta terça",
+      "resumo": "Agenda de terça: mercado pode corrigir parte do tombo; fala de Galípolo e leilões do Banco Central no radar.",
+      "url": "https://www.infomoney.com.br/mercados/correcao-mercados-galipolo-leiloes-bc-agenda-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "Exame",
+        "InfoMoney"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T07:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T08:00:00-03:00",
+      "janela_horas": 1.0,
+      "velocidade": 2.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Possível correção dos mercados, Galípolo, leilões do BC e mais destaques desta terça",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/correcao-mercados-galipolo-leiloes-bc-agenda-27102026/",
+          "publicado_em": "2026-10-27T07:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Dados dos EUA, relatório do BC e Galípolo: o que move o mercado após tombo da bolsa",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/dados-dos-eua-relatorio-do-bc-e-galipolo-o-que-move-o-mercado-apos-tombo-da-bolsa/",
+          "publicado_em": "2026-10-27T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 58.6,
+      "score_reels": 71.4,
+      "score": 58.6,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.828,
+        "recencia": 0.29,
+        "calor": 0.683,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; fonte InfoMoney; 2 matérias em 1.0h",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 58.6,
+      "motivo_descarte": "cota de economia cheia"
+    },
+    {
+      "slug": "quarteto-de-aliados-sugeriu-a-flavio-reconhecer-derrota-e-li",
+      "id": "3d1a5b3b020aa781",
+      "titulo": "Quarteto de aliados sugeriu a Flávio reconhecer derrota e ligar para Lula",
+      "resumo": "Quatro pessoas próximas aconselharam Flávio a reconhecer o resultado; a sugestão foi vencida internamente.",
+      "url": "https://www.cnnbrasil.com.br/blogs/daniel-rittner/eleicoes/quarteto-de-aliados-sugeriu-a-flavio-reconhecer-derrota-e-ligar-para-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "Agência Brasil",
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 3,
+      "n_itens": 4,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T01:50:00-03:00",
+      "ultima_publicacao": "2026-10-26T16:30:00-03:00",
+      "janela_horas": 14.67,
+      "velocidade": 0.27,
+      "datas_conhecidas": 4,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Quarteto de aliados sugeriu a Flávio reconhecer derrota e ligar para Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/daniel-rittner/eleicoes/quarteto-de-aliados-sugeriu-a-flavio-reconhecer-derrota-e-ligar-para-lula/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Partidos aliados de Flávio reconhecem vitória de Lula na eleição",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/partidos-aliados-de-flavio-reconhecem-vitoria-de-lula-na-eleicao/",
+          "publicado_em": "2026-10-26T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Partidos reconhecem vitória de Lula",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/partidos-reconhecem-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T01:50:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Partido de Flávio, PL reconhece resultado da eleição presidencial",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-10/partido-de-flavio-pl-reconhece-resultado-da-eleicao-presidencial",
+          "publicado_em": "2026-10-26T16:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 58.0,
+      "score_reels": 62.2,
+      "score": 58.0,
+      "componentes": {
+        "corroboracao": 0.774,
+        "peso_fonte": 0.806,
+        "recencia": 0.08,
+        "calor": 0.676,
+        "potencial_reels": 0.73
+      },
+      "reels_detalhe": {
+        "familias": {
+          "conflito": [
+            "derrota"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "3 veículos cobrindo; fonte CNN Brasil; 4 matérias em 14.67h",
+      "explicacao_reels": "gancho de conflito; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 58.0,
+      "motivo_descarte": "cota de politica cheia"
+    },
+    {
+      "slug": "trump-diz-que-eleicao-do-brasil-pareceu-fraudada-mas-que-gos",
+      "id": "7cba5f49252b02c5",
+      "titulo": "Trump diz que eleição do Brasil pareceu fraudada, mas que gosta de Lula",
+      "resumo": "Sem apresentar provas, Trump chamou a votação de terrível; os EUA ainda não reconheceram oficialmente o resultado.",
+      "url": "https://www.cnnbrasil.com.br/internacional/trump-diz-que-eleicao-do-brasil-pareceu-fraudada-mas-que-gosta-de-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T20:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T20:00:00-03:00",
+      "janela_horas": 0.5,
+      "velocidade": 4.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Trump diz que eleição do Brasil pareceu fraudada, mas que gosta de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/trump-diz-que-eleicao-do-brasil-pareceu-fraudada-mas-que-gosta-de-lula/",
+          "publicado_em": "2026-10-26T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Trump afirma que eleições brasileiras “parecem fraudadas”",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/trump-afirma-que-eleicoes-brasileiras-parecem-fraudadas/",
+          "publicado_em": "2026-10-26T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 56.0,
+      "score_reels": 17.3,
+      "score": 56.0,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.816,
+        "recencia": 0.107,
+        "calor": 0.803,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "2 veículos cobrindo; fonte CNN Brasil; 2 matérias em 0.5h",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 56.0,
+      "motivo_descarte": "cota de politica cheia"
+    },
+    {
+      "slug": "ibovespa-tem-nova-baixa-apos-tombo-da-vespera-dolar-perde-1",
+      "id": "cc3fc0002678d432",
+      "titulo": "Ibovespa tem nova baixa após tombo da véspera; dólar perde 1%, a R$ 5,35",
+      "resumo": "Fechamento: Ibovespa −0,51%, a 175.710 pontos (−14,32% na semana); dólar à vista −1,07%, a R$ 5,3488. Mercado espera sinal fiscal do governo.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T18:10:00-03:00",
+      "ultima_publicacao": "2026-10-27T18:10:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa tem nova baixa após tombo da véspera; dólar perde 1%, a R$ 5,35",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/",
+          "publicado_em": "2026-10-27T18:10:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 55.9,
+      "score_reels": 81.9,
+      "score": 55.9,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.676,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "ainda fresca; fonte InfoMoney; só InfoMoney publicou",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 55.9
+    },
+    {
+      "slug": "dolar-e-juros-futuros-devolvem-partes-dos-ganhos-da-vespera",
+      "id": "4ec20cd2b8c888f0",
+      "titulo": "Dólar e juros futuros devolvem partes dos ganhos da véspera; Ibovespa recua",
+      "resumo": "Fechamento: Ibovespa cai 0,51%, a 175.710 pontos; dólar e juros futuros recuam depois da maior alta da moeda em 23 anos.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T18:15:00-03:00",
+      "ultima_publicacao": "2026-10-27T18:15:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Dólar e juros futuros devolvem partes dos ganhos da véspera; Ibovespa recua",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
+          "publicado_em": "2026-10-27T18:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 55.6,
+      "score_reels": 82.0,
+      "score": 55.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.681,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "juros"
+          ],
+          "espanto": [
+            "maior"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "ainda fresca; fonte CNN Brasil; só CNN Brasil publicou",
+      "explicacao_reels": "gancho de bolso, espanto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 55.6
+    },
+    {
+      "slug": "circuit-breaker-e-maior-baixa-desde-2020-ibovespa-cai-quase",
+      "id": "99b9aa4a34f051cf",
+      "titulo": "Circuit breaker e maior baixa desde 2020: Ibovespa cai quase 14% após vitória de Lula",
+      "resumo": "Fechamento a 176.608 pontos (-13,88%); a B3 ampliou duas vezes o limite de queda do futuro, de 10% para 15% e depois 20%.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-desaba-17-e-vai-a-170-mil-pontos-apos-vitoria-de-lula-nas-eleicoes/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "Exame",
+        "InfoMoney"
+      ],
+      "n_fontes": 2,
+      "n_itens": 4,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:15:00-03:00",
+      "ultima_publicacao": "2026-10-26T18:30:00-03:00",
+      "janela_horas": 8.25,
+      "velocidade": 0.48,
+      "datas_conhecidas": 4,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Circuit breaker e maior baixa desde 2020: Ibovespa cai quase 14% após vitória de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-desaba-17-e-vai-a-170-mil-pontos-apos-vitoria-de-lula-nas-eleicoes/",
+          "publicado_em": "2026-10-26T18:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Bolsa em circuit breaker: qual a última vez que o mecanismo foi acionado?",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/bolsa-em-circuit-breaker-qual-a-ultima-vez-que-o-mecanismo-foi-acionado/",
+          "publicado_em": "2026-10-26T10:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Circuit Breaker: por que Bolsa suspendeu negociações por queda após eleição de Lula?",
+          "fonte": "InfoMoney",
+          "url": "https://infomoney.com.br/mercados/circuit-breaker-por-que-bolsa-suspendeu-negociacoes-veja-quando-ela-volta",
+          "publicado_em": "2026-10-26T10:20:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "B3 aciona circuit breaker pela primeira vez desde 2020 após reeleição de Lula",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/b3-aciona-circuit-breaker-pela-primeira-vez-desde-2020-apos-reeleicao-de-lula/",
+          "publicado_em": "2026-10-26T10:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 54.2,
+      "score_reels": 66.7,
+      "score": 54.2,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.834,
+        "recencia": 0.094,
+        "calor": 0.713,
+        "potencial_reels": 0.85
+      },
+      "reels_detalhe": {
+        "familias": {
+          "espanto": [
+            "maior"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; fonte InfoMoney; 4 matérias em 8.25h",
+      "explicacao_reels": "gancho de espanto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 54.2
+    },
+    {
+      "slug": "etf-do-brasil-no-exterior-ewz-ensaia-recuperacao-apos-tombo",
+      "id": "e89e6bef909d8f7b",
+      "titulo": "ETF do Brasil no exterior EWZ ensaia recuperação após tombo histórico",
+      "resumo": "No pré-mercado de NY, o EWZ subia cerca de 0,5% depois de cair 19,8% na segunda.",
+      "url": "https://www.infomoney.com.br/mercados/etf-brasil-exterior-ewz-recuperacao-tombo-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "CNN Brasil",
+        "InfoMoney"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T00:30:00-03:00",
+      "ultima_publicacao": "2026-10-27T07:00:00-03:00",
+      "janela_horas": 30.5,
+      "velocidade": 0.07,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "ETF do Brasil no exterior EWZ ensaia recuperação após tombo histórico",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/etf-brasil-exterior-ewz-recuperacao-tombo-27102026/",
+          "publicado_em": "2026-10-27T07:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "EWZ: Principal ETF do Brasil em NY cai mais de 19% após reeleição de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/ewz-principal-etf-do-brasil-em-ny-cai-mais-de-19-apos-reeleicao-de-lula/",
+          "publicado_em": "2026-10-26T00:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 53.3,
+      "score_reels": 79.1,
+      "score": 53.3,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.836,
+        "recencia": 0.267,
+        "calor": 0.439,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ],
+          "espanto": [
+            "historico"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; fonte InfoMoney; 2 matérias em 30.5h",
+      "explicacao_reels": "gancho de bolso, espanto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 53.3
+    },
+    {
+      "slug": "apple-lanca-ipad-mini-com-tela-oled-e-chip-a20-pro-veja-prec",
+      "id": "d301b2eae9e2647f",
+      "titulo": "Apple lança iPad Mini com tela OLED e chip A20 Pro; veja preços no Brasil",
+      "resumo": "",
+      "url": "https://tecnoblog.net/noticias/apple-lanca-ipad-mini-com-tela-oled-e-chip-a20-pro-veja-precos-no-brasil",
+      "fonte_principal": "Tecnoblog",
+      "fontes": [
+        "TechCrunch",
+        "Tecnoblog"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "tecnologia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": 0.5,
+      "velocidade": 4.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Apple lança iPad Mini com tela OLED e chip A20 Pro; veja preços no Brasil",
+          "fonte": "Tecnoblog",
+          "url": "https://tecnoblog.net/noticias/apple-lanca-ipad-mini-com-tela-oled-e-chip-a20-pro-veja-precos-no-brasil",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Apple apresenta novo iPad mini com tela OLED e chip A20 Pro mais rápido",
+          "fonte": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "MUNDO",
+          "traduzido_de": "inglês"
+        }
+      ],
+      "score_noticia": 53.0,
+      "score_reels": 74.4,
+      "score": 53.0,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.732,
+        "recencia": 0.055,
+        "calor": 0.803,
+        "potencial_reels": 0.986
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "precos"
+          ],
+          "tecnologia": [
+            "apple",
+            "chip"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; 2 matérias em 0.5h; fonte Tecnoblog",
+      "explicacao_reels": "gancho de bolso, tecnologia; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 53.0
+    },
+    {
+      "slug": "fachin-pede-respeito-as-urnas-e-paz-apos-reeleicao-de-lula",
+      "id": "910fd3921c08d516",
+      "titulo": "Fachin pede respeito às urnas e paz após reeleição de Lula",
+      "resumo": "O presidente do STF diz que a República se fortalece quando respeita a soberania popular e pede serenidade.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/fachin-pede-respeito-as-urnas-e-paz-apos-reeleicao-de-lula/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Agência Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T23:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T23:00:00-03:00",
+      "janela_horas": 0.5,
+      "velocidade": 4.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Fachin pede respeito às urnas e paz após reeleição de Lula",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/fachin-pede-respeito-as-urnas-e-paz-apos-reeleicao-de-lula/",
+          "publicado_em": "2026-10-25T23:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Fachin diz que vontade dos eleitores deve ser respeitada",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/fachin-diz-que-vontade-dos-eleitores-deve-ser-respeitada",
+          "publicado_em": "2026-10-25T23:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 53.0,
+      "score_reels": 15.7,
+      "score": 53.0,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.78,
+        "recencia": 0.019,
+        "calor": 0.803,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; 2 matérias em 0.5h; fonte Poder360",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 53.0
+    },
+    {
+      "slug": "essas-quatro-acoes-zeraram-os-ganhos-no-ano-apos-reeleicao-d",
+      "id": "17685466435f0018",
+      "titulo": "Essas quatro ações zeraram os ganhos no ano após reeleição de Lula",
+      "resumo": "Papéis que acumulavam alta em 2026 devolveram tudo em dois pregões.",
+      "url": "https://exame.com/invest/mercados/essas-quatro-acoes-zeraram-os-ganhos-no-ano-apos-reeleicao-de-lula/",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T16:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T16:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Essas quatro ações zeraram os ganhos no ano após reeleição de Lula",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/essas-quatro-acoes-zeraram-os-ganhos-no-ano-apos-reeleicao-de-lula/",
+          "publicado_em": "2026-10-27T16:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 51.8,
+      "score_reels": 21.0,
+      "score": 51.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.564,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "mercado",
+          "aviso": "Financeiro: não é recomendação de investimento — diga isso na tela."
+        }
+      ],
+      "explicacao": "fonte Exame; ainda fresca; só Exame publicou",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 51.8
+    },
+    {
+      "slug": "flavio-desiste-de-questionar-vitoria-de-lula-nas-urnas",
+      "id": "623d92c8da4de4ea",
+      "titulo": "Flávio desiste de questionar vitória de Lula nas urnas",
+      "resumo": "Campanha diz, sob reserva, que não haverá pedido de anulação; a estratégia passa a ser contestar supostos abusos de poder da campanha petista, depois que MDB, Republicanos, União Brasil e PSD reconheceram o resultado.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-desiste-de-questionar-vitoria-de-lula-nas-urnas/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T18:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T20:00:00-03:00",
+      "janela_horas": 2.0,
+      "velocidade": 1.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Flávio desiste de questionar vitória de Lula nas urnas",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-desiste-de-questionar-vitoria-de-lula-nas-urnas/",
+          "publicado_em": "2026-10-26T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio desiste de pedir anulação da vitória de Lula nas urnas",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-desiste-de-pedir-anulacao-da-vitoria-de-lula-nas-urnas/",
+          "publicado_em": "2026-10-26T18:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 51.7,
+      "score_reels": 64.4,
+      "score": 51.7,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.816,
+        "recencia": 0.107,
+        "calor": 0.587,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "passa a"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "2 veículos cobrindo; fonte CNN Brasil; 2 matérias em 2.0h",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 51.7
+    },
+    {
+      "slug": "ibovespa-segue-fragilizado-e-com-atencao-a-fiscal-apos-tombo",
+      "id": "8df7fda42e779d7f",
+      "titulo": "Ibovespa segue fragilizado e com atenção a fiscal após tombo com reeleição de Lula",
+      "resumo": "Por volta das 13h, o índice subia 0,14% (176.848), entre 175.157 e 178.526 no dia; juros futuros recuam em toda a curva.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-segue-fragilizado-e-com-atencao-a-fiscal-apos-tombo-com-reeleicao-de-lula/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T13:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T13:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa segue fragilizado e com atenção a fiscal após tombo com reeleição de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-segue-fragilizado-e-com-atencao-a-fiscal-apos-tombo-com-reeleicao-de-lula/",
+          "publicado_em": "2026-10-27T13:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 49.8,
+      "score_reels": 74.6,
+      "score": 49.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.44,
+        "calor": 0.419,
+        "potencial_reels": 0.95
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "juros"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 49.8
+    },
+    {
+      "slug": "galipolo-nega-que-esteja-sendo-cotado-para-assumir-fazenda",
+      "id": "e6dfb47daccd8156",
+      "titulo": "Galípolo nega que esteja sendo cotado para assumir Fazenda",
+      "resumo": "Na coletiva do Relatório de Estabilidade Financeira, o presidente do BC diz que fica até o fim do mandato, em 2028.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/galipolo-nega-que-esteja-sendo-cotado-para-assumir-fazenda/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T12:30:00-03:00",
+      "ultima_publicacao": "2026-10-27T12:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Galípolo nega que esteja sendo cotado para assumir Fazenda",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/galipolo-nega-que-esteja-sendo-cotado-para-assumir-fazenda/",
+          "publicado_em": "2026-10-27T12:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 48.9,
+      "score_reels": 18.4,
+      "score": 48.9,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.422,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 48.9
+    },
+    {
+      "slug": "israel-registra-maior-participacao-eleitoral-inicial-em-45-a",
+      "id": "6f8a4f6dfc658fad",
+      "titulo": "Israel registra maior participação eleitoral inicial em 45 anos",
+      "resumo": "Comparecimento alto desde as primeiras horas da votação de terça.",
+      "url": "https://www.cnnbrasil.com.br/internacional/israel-registra-maior-participacao-eleitoral-inicial-em-45-anos/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "mundo",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Israel registra maior participação eleitoral inicial em 45 anos",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/israel-registra-maior-participacao-eleitoral-inicial-em-45-anos/",
+          "publicado_em": "2026-10-27T12:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 48.4,
+      "score_reels": 62.8,
+      "score": 48.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.404,
+        "calor": 0.419,
+        "potencial_reels": 0.77
+      },
+      "reels_detalhe": {
+        "familias": {
+          "espanto": [
+            "maior"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "gancho de espanto; tem número no título",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 48.4
+    },
+    {
+      "slug": "choque-eleitoral-deve-se-acomodar-mas-mercado-cobra-compromi",
+      "id": "f1c90f5b508c7c4c",
+      "titulo": "Choque eleitoral deve se acomodar, mas mercado cobra compromisso fiscal",
+      "resumo": "Analistas veem acomodação depois do tombo, condicionada a sinais fiscais do governo; Ibovespa ainda sobe 10% no ano.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/choque-eleitoral-deve-se-acomodar-mas-mercado-cobra-compromisso-fiscal/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Choque eleitoral deve se acomodar, mas mercado cobra compromisso fiscal",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/choque-eleitoral-deve-se-acomodar-mas-mercado-cobra-compromisso-fiscal/",
+          "publicado_em": "2026-10-27T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 48.4,
+      "score_reels": 73.9,
+      "score": 48.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.404,
+        "calor": 0.419,
+        "potencial_reels": 0.95
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 48.4
+    },
+    {
+      "slug": "ibovespa-opera-na-estabilidade-apos-tombo-com-eleicao-dolar",
+      "id": "4c8d2bf6f8873c2c",
+      "titulo": "Ibovespa opera na estabilidade após tombo com eleição; dólar cai mais de 1%",
+      "resumo": "Índice oscila perto de 176,5 mil pontos; dólar comercial recua a R$ 5,33 e juros futuros caem.",
+      "url": "https://exame.com/invest/mercados/ibovespa-opera-na-estabilidade-apos-tombo-com-eleicao-dolar-cai-mais-de-1/",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa opera na estabilidade após tombo com eleição; dólar cai mais de 1%",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/ibovespa-opera-na-estabilidade-apos-tombo-com-eleicao-dolar-cai-mais-de-1/",
+          "publicado_em": "2026-10-27T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.6,
+      "score_reels": 77.0,
+      "score": 47.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.404,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "juros"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte Exame; só Exame publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.6
+    },
+    {
+      "slug": "amorim-rebate-suspeita-de-trump-so-se-ele-esta-se-referindo",
+      "id": "f5943fe826c5d61c",
+      "titulo": "Amorim rebate suspeita de Trump: \"Só se ele está se referindo à Meta\"",
+      "resumo": "O assessor de Lula ironiza a acusação e lembra as suspeitas, levadas ao TSE, de interferência de big techs contra a campanha petista.",
+      "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/eleicoes/amorim-rebate-suspeita-de-trump-so-se-ele-esta-se-referindo-a-meta/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T11:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T11:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Amorim rebate suspeita de Trump: \"Só se ele está se referindo à Meta\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/eleicoes/amorim-rebate-suspeita-de-trump-so-se-ele-esta-se-referindo-a-meta/",
+          "publicado_em": "2026-10-27T11:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.6,
+      "score_reels": 17.5,
+      "score": 47.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.372,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.6
+    },
+    {
+      "slug": "desligue-o-telefone-correr-para-tirar-dinheiro-do-brasil-e-e",
+      "id": "bc182e1a1f559482",
+      "titulo": "“Desligue o telefone”: correr para tirar dinheiro do Brasil é erro, diz CIO da Gama",
+      "resumo": "Gestor desaconselha vender no pânico; para analistas, o alívio de terça é correção de excessos, não volta da confiança.",
+      "url": "https://www.infomoney.com.br/onde-investir/desligue-o-telefone-correr-para-tirar-dinheiro-do-brasil-e-erro-diz-cio-da-gama/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "“Desligue o telefone”: correr para tirar dinheiro do Brasil é erro, diz CIO da Gama",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/desligue-o-telefone-correr-para-tirar-dinheiro-do-brasil-e-erro-diz-cio-da-gama/",
+          "publicado_em": "2026-10-27T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.2,
+      "score_reels": 17.0,
+      "score": 47.2,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.342,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.2
+    },
+    {
+      "slug": "trump-assume-posicao-ambigua-sobre-reeleicao-de-lula",
+      "id": "c422cf7c68e765f1",
+      "titulo": "Trump assume posição ambígua sobre reeleição de Lula",
+      "resumo": "EUA ainda não reconheceram o resultado, enquanto China, França, Espanha, Portugal e Alemanha já parabenizaram Lula; para o Planalto, o reconhecimento estrangeiro não altera a validade da eleição.",
+      "url": "https://www.cnnbrasil.com.br/blogs/lourival-santanna/internacional/trump-assume-posicao-ambigua-sobre-reeleicao-de-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Trump assume posição ambígua sobre reeleição de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/lourival-santanna/internacional/trump-assume-posicao-ambigua-sobre-reeleicao-de-lula/",
+          "publicado_em": "2026-10-27T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.8,
+      "score_reels": 17.0,
+      "score": 46.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.342,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.8
+    },
+    {
+      "slug": "governo-planeja-manter-exercito-do-lula-por-forca-diante-do",
+      "id": "44c50b7263e52256",
+      "titulo": "Governo planeja manter \"Exército do Lula\" por força diante do Congresso",
+      "resumo": "A ideia é usar o canal de WhatsApp da campanha para mobilizar apoiadores e pressionar parlamentares.",
+      "url": "https://cnnbrasil.com.br/eleicoes/governo-planeja-manter-exercito-do-lula-por-forca-diante-do-congresso",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Governo planeja manter \"Exército do Lula\" por força diante do Congresso",
+          "fonte": "CNN Brasil",
+          "url": "https://cnnbrasil.com.br/eleicoes/governo-planeja-manter-exercito-do-lula-por-forca-diante-do-congresso",
+          "publicado_em": "2026-10-27T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.8,
+      "score_reels": 57.9,
+      "score": 46.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.342,
+        "calor": 0.419,
+        "potencial_reels": 0.71
+      },
+      "reels_detalhe": {
+        "familias": {
+          "tecnologia": [
+            "whatsapp"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "gancho de tecnologia; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.8
+    },
+    {
+      "slug": "minidolar-wdox26-testa-folego-comprador-apos-reeleicao-de-lu",
+      "id": "6aa88919621fc868",
+      "titulo": "Minidólar (WDOX26) testa fôlego comprador após reeleição de Lula",
+      "resumo": "Análise técnica do contrato futuro de dólar no segundo pregão após a eleição.",
+      "url": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T08:30:00-03:00",
+      "janela_horas": 20.5,
+      "velocidade": 0.1,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Minidólar (WDOX26) testa fôlego comprador após reeleição de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-27102026/",
+          "publicado_em": "2026-10-27T08:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Minidólar (WDOX26): reeleição de Lula eleva risco de disparada do dólar nesta segunda",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-26102026/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.7,
+      "score_reels": 56.0,
+      "score": 46.7,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.302,
+        "calor": 0.446,
+        "potencial_reels": 0.69
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": {
+          "fator": 0.75,
+          "termos": [
+            "analise"
+          ]
+        }
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; 2 matérias em 20.5h",
+      "explicacao_reels": "gancho de bolso; tem número no título; pauta nacional; freio de 0.75 (termo \"analise\")",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.7
+    },
+    {
+      "slug": "ibovespa-futuro-tenta-recuperacao-apos-onda-de-vendas-de-ati",
+      "id": "2c12b00d8e339b31",
+      "titulo": "Ibovespa Futuro tenta recuperação após onda de vendas de ativos com reeleição de Lula",
+      "resumo": "O contrato futuro operava em leve alta, perto de 178.675 pontos, na manhã de terça.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-tenta-recuperacao-apos-onda-de-vendas-de-ativos-com-reeleicao-de-lula/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T09:15:00-03:00",
+      "ultima_publicacao": "2026-10-27T09:15:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa Futuro tenta recuperação após onda de vendas de ativos com reeleição de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-tenta-recuperacao-apos-onda-de-vendas-de-ativos-com-reeleicao-de-lula/",
+          "publicado_em": "2026-10-27T09:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.7,
+      "score_reels": 16.6,
+      "score": 46.7,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.322,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.7
+    },
+    {
+      "slug": "mini-indice-winz26-tenta-reagir-apos-tombo-historico-veja-os",
+      "id": "6950614cdf356b65",
+      "titulo": "Mini-índice (WINZ26) tenta reagir após tombo histórico; veja os níveis",
+      "resumo": "Contrato fechou segunda a 178.360 pontos (-14,39%); suporte em 176.635 e resistência em 181.470.",
+      "url": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T08:30:00-03:00",
+      "ultima_publicacao": "2026-10-27T08:00:00-03:00",
+      "janela_horas": 23.5,
+      "velocidade": 0.09,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Mini-índice (WINZ26) tenta reagir após tombo histórico; veja os níveis",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-27102026/",
+          "publicado_em": "2026-10-27T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Mini-índice (WINZ26): vitória de Lula eleva risco de forte queda e correção",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-26102026/",
+          "publicado_em": "2026-10-26T08:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.4,
+      "score_reels": 65.7,
+      "score": 46.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.29,
+        "calor": 0.444,
+        "potencial_reels": 0.85
+      },
+      "reels_detalhe": {
+        "familias": {
+          "espanto": [
+            "historico"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; 2 matérias em 23.5h",
+      "explicacao_reels": "gancho de espanto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.4
+    },
+    {
+      "slug": "day-trade-hoje-27-ibovespa-despenca-apos-eleicao-ate-onde-po",
+      "id": "37d5337f40bfc11d",
+      "titulo": "Day Trade hoje (27): Ibovespa despenca após eleição; até onde pode cair?",
+      "resumo": "Para o mini-índice, recuperação só acima de 177.755/181.565 pontos; mini-dólar com suporte em 5.377 e resistência em 5.426.",
+      "url": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T07:30:00-03:00",
+      "janela_horas": 19.5,
+      "velocidade": 0.1,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Day Trade hoje (27): Ibovespa despenca após eleição; até onde pode cair?",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-27102026/",
+          "publicado_em": "2026-10-27T07:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Day Trade hoje (26): Ibovespa sob risco de forte queda após reeleição de Lulaa",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-26102026/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.1,
+      "score_reels": 69.8,
+      "score": 46.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.278,
+        "calor": 0.446,
+        "potencial_reels": 0.92
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; 2 matérias em 19.5h",
+      "explicacao_reels": "gancho de bolso; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.1
+    },
+    {
+      "slug": "lula-comeca-a-desenhar-equipe-para-o-proximo-governo",
+      "id": "5280dffc4f331d62",
+      "titulo": "Lula começa a desenhar equipe para o próximo governo",
+      "resumo": "Fonteles aparece como favorito para a Fazenda; Silvio Costa Filho e Aguinaldo Ribeiro cotados para a Esplanada.",
+      "url": "https://www.cnnbrasil.com.br/politica/lula-comeca-a-desenhar-equipe-para-o-proximo-governo/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T09:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T09:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula começa a desenhar equipe para o próximo governo",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/lula-comeca-a-desenhar-equipe-para-o-proximo-governo/",
+          "publicado_em": "2026-10-27T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.1,
+      "score_reels": 63.6,
+      "score": 46.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.315,
+        "calor": 0.419,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "comeca",
+            "como"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.1
+    },
+    {
+      "slug": "trump-questiona-eleicao-no-brasil-mas-ja-negocia-com-a-reali",
+      "id": "4be273f4d91544c0",
+      "titulo": "Trump questiona eleição no Brasil, mas já negocia com a realidade",
+      "resumo": "Análise: a crítica não deve ter consequência prática; Trump questiona sem assumir o custo de tentar reverter.",
+      "url": "https://www.cnnbrasil.com.br/blogs/fernanda-magnotta/internacional/trump-questiona-eleicao-no-brasil-mas-ja-negocia-com-a-realidade/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T09:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T09:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Trump questiona eleição no Brasil, mas já negocia com a realidade",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/fernanda-magnotta/internacional/trump-questiona-eleicao-no-brasil-mas-ja-negocia-com-a-realidade/",
+          "publicado_em": "2026-10-27T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.1,
+      "score_reels": 53.8,
+      "score": 46.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.315,
+        "calor": 0.419,
+        "potencial_reels": 0.652
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "custo"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": {
+          "fator": 0.75,
+          "termos": [
+            "analise"
+          ]
+        }
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; pauta nacional; freio de 0.75 (termo \"analise\")",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.1
+    },
+    {
+      "slug": "cotado-para-fazenda-fonteles-sinaliza-disposicao-de-ir-a-esp",
+      "id": "3dc18fcab9a6fcff",
+      "titulo": "Cotado para Fazenda, Fonteles sinaliza disposição de ir à Esplanada",
+      "resumo": "Governador reeleito do Piauí é visto como nome técnico, com aceitação entre investidores; uma ala do governo prefere Alckmin.",
+      "url": "https://www.cnnbrasil.com.br/politica/cotado-para-fazenda-fonteles-sinaliza-disposicao-de-ir-a-esplanada/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T08:00:00-03:00",
+      "janela_horas": 20.0,
+      "velocidade": 0.1,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Cotado para Fazenda, Fonteles sinaliza disposição de ir à Esplanada",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/cotado-para-fazenda-fonteles-sinaliza-disposicao-de-ir-a-esplanada/",
+          "publicado_em": "2026-10-27T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Cotado para Fazenda, Rafael Fonteles terá ato no Piauí após virada de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/jussara-soares/eleicoes/cotado-para-fazenda-rafael-fonteles-tera-ato-no-piaui-apos-virada-de-lula/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.0,
+      "score_reels": 71.6,
+      "score": 46.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.29,
+        "calor": 0.446,
+        "potencial_reels": 0.946
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "impostorenda"
+          ],
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; 2 matérias em 20.0h",
+      "explicacao_reels": "gancho de bolso, utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.0
+    },
+    {
+      "slug": "bc-diz-que-estabilidade-financeira-nao-esta-em-risco",
+      "id": "2b282db60abcd054",
+      "titulo": "BC diz que estabilidade financeira não está em risco",
+      "resumo": "No Relatório de Estabilidade Financeira, o BC vê capital e liquidez confortáveis apesar da piora do crédito das famílias; 73% dos bancos confiam na resiliência do sistema e citam o risco fiscal como principal temor.",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
+      "fonte_principal": "Agência Brasil",
+      "fontes": [
+        "Agência Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "BC diz que estabilidade financeira não está em risco",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
+          "publicado_em": "2026-10-27T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.0,
+      "score_reels": 77.0,
+      "score": 46.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.7,
+        "recencia": 0.404,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "credito"
+          ],
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Agência Brasil; só Agência Brasil publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso, utilidade; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.0
+    },
+    {
+      "slug": "ressaca-do-circuit-breaker-ibovespa-futuro-ensaia-alta-dolar",
+      "id": "2d1e3a480c251c10",
+      "titulo": "Ressaca do ‘circuit breaker’: Ibovespa futuro ensaia alta, dólar e juros futuros caem",
+      "resumo": "Na abertura de terça, o mercado corrige parte do pânico de segunda.",
+      "url": "https://exame.com/invest/mercados/ressaca-do-circuit-breaker-ibovespa-futuro-ensaia-alta-dolar-e-juros-futuros-caem/",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T09:30:00-03:00",
+      "ultima_publicacao": "2026-10-27T09:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ressaca do ‘circuit breaker’: Ibovespa futuro ensaia alta, dólar e juros futuros caem",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/ressaca-do-circuit-breaker-ibovespa-futuro-ensaia-alta-dolar-e-juros-futuros-caem/",
+          "publicado_em": "2026-10-27T09:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 45.7,
+      "score_reels": 67.6,
+      "score": 45.7,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.328,
+        "calor": 0.419,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "juros",
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Exame; só Exame publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 45.7
+    },
+    {
+      "slug": "dois-dias-apos-reeleicao-lula-completa-81-anos-nesta-terca-f",
+      "id": "c2c9f7c34e823477",
+      "titulo": "Dois dias após reeleição, Lula completa 81 anos nesta terça-feira (27)",
+      "resumo": "Sem comemoração marcada, o presidente despacha no Planalto; posse do 4º mandato será em 5 de janeiro de 2027.",
+      "url": "https://www.cnnbrasil.com.br/politica/dois-dias-apos-reeleicao-lula-completa-81-anos-nesta-terca-feira-27/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T07:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T07:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Dois dias após reeleição, Lula completa 81 anos nesta terça-feira (27)",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/dois-dias-apos-reeleicao-lula-completa-81-anos-nesta-terca-feira-27/",
+          "publicado_em": "2026-10-27T07:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 44.9,
+      "score_reels": 18.7,
+      "score": 44.9,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.267,
+        "calor": 0.419,
+        "potencial_reels": 0.1
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 44.9
+    },
+    {
+      "slug": "lula-faz-81-anos-e-mira-legado-apos-nova-reinvencao-na-polit",
+      "id": "06d16eae02ce91d9",
+      "titulo": "Lula faz 81 anos e mira legado após nova reinvenção na política",
+      "resumo": "No aniversário, Lula despacha no Planalto; será o presidente mais velho a tomar posse e o primeiro eleito 4 vezes pelo voto direto.",
+      "url": "https://www.poder360.com.br/poder-governo/lula-faz-81-anos-e-mira-legado-apos-nova-reinvencao-na-politica/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T07:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T07:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula faz 81 anos e mira legado após nova reinvenção na política",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-governo/lula-faz-81-anos-e-mira-legado-apos-nova-reinvencao-na-politica/",
+          "publicado_em": "2026-10-27T07:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 44.5,
+      "score_reels": 18.7,
+      "score": 44.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.267,
+        "calor": 0.419,
+        "potencial_reels": 0.1
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Poder360; só Poder360 publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 44.5
+    },
+    {
+      "slug": "flavio-diz-que-vai-pedir-cassacao-da-chapa-de-lula-por-abuso",
+      "id": "f523f2e2ca0b96ea",
+      "titulo": "Flávio diz que vai pedir cassação da chapa de Lula por abuso de poder",
+      "resumo": "Em vez da anulação, Flávio anuncia que vai acionar a Justiça Eleitoral contra a chapa reeleita por abuso de poder político e econômico; o protocolo ainda não foi confirmado.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-vai-pedir-cassacao-da-chapa-de-lula-por-abuso-de-poder/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T21:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T21:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Flávio diz que vai pedir cassação da chapa de Lula por abuso de poder",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-vai-pedir-cassacao-da-chapa-de-lula-por-abuso-de-poder/",
+          "publicado_em": "2026-10-26T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.0,
+      "score_reels": 12.9,
+      "score": 41.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.116,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.0
+    },
+    {
+      "slug": "ibovespa-desaba-13-apos-eleicao-em-dia-de-circuit-breaker-do",
+      "id": "90625ce6a9ac4e57",
+      "titulo": "Ibovespa desaba 13% após eleição, em dia de circuit breaker; dólar dispara 8%",
+      "resumo": "Fechamento: Ibovespa caiu 13,88%, a 176.608 pontos, maior perda desde março de 2020. Na mínima foi a 169.516 (-17%). Dólar subiu cerca de 8%, a R$ 5,40.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T18:10:00-03:00",
+      "ultima_publicacao": "2026-10-26T18:10:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa desaba 13% após eleição, em dia de circuit breaker; dólar dispara 8%",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/",
+          "publicado_em": "2026-10-26T18:10:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.7,
+      "score_reels": 71.4,
+      "score": 40.7,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.091,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ],
+          "espanto": [
+            "maior"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso, espanto; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.7
+    },
+    {
+      "slug": "dolar-sobe-8-e-bolsa-tem-maior-queda-desde-a-pandemia-apos-v",
+      "id": "f30e40818620c1da",
+      "titulo": "Dólar sobe 8% e Bolsa tem maior queda desde a pandemia após vitória de Lula",
+      "resumo": "Ibovespa fecha em -13,88% (176.608 pontos) e dólar a R$ 5,406 (+8,36%); investidores reagem à frustração com o cenário fiscal.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-outubro-2026/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T18:15:00-03:00",
+      "ultima_publicacao": "2026-10-26T18:15:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Dólar sobe 8% e Bolsa tem maior queda desde a pandemia após vitória de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-outubro-2026/",
+          "publicado_em": "2026-10-26T18:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.3,
+      "score_reels": 71.4,
+      "score": 40.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.092,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ],
+          "espanto": [
+            "maior"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso, espanto; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.3
+    },
+    {
+      "slug": "o-que-lula-ja-disse-sobre-ajuste-fiscal-e-o-que-falta-esclar",
+      "id": "b0bb2b9a991f7aee",
+      "titulo": "O que Lula já disse sobre ajuste fiscal e o que falta esclarecer para o 4º mandato",
+      "resumo": "Durigan promete preservar o arcabouço e melhorar o primário aos poucos; o desequilíbrio não se resolve no primeiro ano.",
+      "url": "https://www.infomoney.com.br/politica/o-que-lula-ja-disse-sobre-ajuste-fiscal-e-o-que-falta-esclarecer-para-o-4o-mandato/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T16:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T16:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "O que Lula já disse sobre ajuste fiscal e o que falta esclarecer para o 4º mandato",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/o-que-lula-ja-disse-sobre-ajuste-fiscal-e-o-que-falta-esclarecer-para-o-4o-mandato/",
+          "publicado_em": "2026-10-26T16:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.3,
+      "score_reels": 15.3,
+      "score": 40.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.076,
+        "calor": 0.419,
+        "potencial_reels": 0.1
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.3
+    },
+    {
+      "slug": "lula-4-tem-camilo-janones-silvio-costa-filho-e-joao-campos-c",
+      "id": "d00fd4ed48e2389c",
+      "titulo": "Lula 4 tem Camilo, Janones, Silvio Costa Filho e João Campos como cotados",
+      "resumo": "Camilo Santana é favorito para a Casa Civil; Silvio Costa Filho aparece como negociador com trânsito no Congresso. Nenhum nome confirmado.",
+      "url": "https://www.cnnbrasil.com.br/blogs/daniel-rittner/eleicoes/lula-4-tem-camilo-janones-silvio-costa-filho-e-joao-campos-como-cotados/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T18:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T18:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula 4 tem Camilo, Janones, Silvio Costa Filho e João Campos como cotados",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/daniel-rittner/eleicoes/lula-4-tem-camilo-janones-silvio-costa-filho-e-joao-campos-como-cotados/",
+          "publicado_em": "2026-10-26T18:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.3,
+      "score_reels": 62.7,
+      "score": 40.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.09,
+        "calor": 0.419,
+        "potencial_reels": 0.86
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de utilidade; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.3
+    },
+    {
+      "slug": "dados-do-tse-frustram-campanha-de-flavio-e-esvaziam-contesta",
+      "id": "e77911580fac9ff3",
+      "titulo": "Dados do TSE frustram campanha de Flávio e esvaziam contestação da eleição",
+      "resumo": "Os números da apuração e da votação após as 17h tiraram força da tese de anulação levantada pelo PL.",
+      "url": "https://www.cnnbrasil.com.br/blogs/teo-cury/eleicoes/dados-do-tse-frustram-campanha-de-flavio-e-esvaziam-contestacao-da-eleicao/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T18:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T18:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Dados do TSE frustram campanha de Flávio e esvaziam contestação da eleição",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/teo-cury/eleicoes/dados-do-tse-frustram-campanha-de-flavio-e-esvaziam-contestacao-da-eleicao/",
+          "publicado_em": "2026-10-26T18:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.3,
+      "score_reels": 12.5,
+      "score": 40.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.09,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.3
+    },
+    {
+      "slug": "bolsa-tomba-15-apos-vitoria-de-lula-e-registra-uma-das-maior",
+      "id": "3cc807c4639d9d4b",
+      "titulo": "Bolsa tomba 15% após vitória de Lula e registra uma das maiores quedas da história",
+      "resumo": "Sessão entra para a lista das piores da B3, com circuit breaker logo na abertura.",
+      "url": "https://www.infomoney.com.br/mercados/bolsa-tomba-15-apos-vitoria-de-lula-e-registra-uma-das-maiores-quedas-da-historia/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T15:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T15:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Bolsa tomba 15% após vitória de Lula e registra uma das maiores quedas da história",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/bolsa-tomba-15-apos-vitoria-de-lula-e-registra-uma-das-maiores-quedas-da-historia/",
+          "publicado_em": "2026-10-26T15:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.2,
+      "score_reels": 17.1,
+      "score": 40.2,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.07,
+        "calor": 0.419,
+        "potencial_reels": 0.13
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.2
+    },
+    {
+      "slug": "lula-avalia-aceno-em-defesa-da-reducao-de-gastos-publicos",
+      "id": "a324badd797869ab",
+      "titulo": "Lula avalia aceno em defesa da redução de gastos públicos",
+      "resumo": "Diante do tombo do mercado, o presidente reeleito estuda sinalizar compromisso com corte de despesas.",
+      "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/lula-avalia-aceno-em-defesa-da-reducao-de-gastos-publicos/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T17:30:00-03:00",
+      "ultima_publicacao": "2026-10-26T17:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula avalia aceno em defesa da redução de gastos públicos",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/lula-avalia-aceno-em-defesa-da-reducao-de-gastos-publicos/",
+          "publicado_em": "2026-10-26T17:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.2,
+      "score_reels": 63.2,
+      "score": 40.2,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.087,
+        "calor": 0.419,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.2
+    },
+    {
+      "slug": "flavio-prepara-aije-contra-chapa-de-lula-apos-derrota-no-2-t",
+      "id": "089cdd5f10828e66",
+      "titulo": "Flávio prepara AIJE contra chapa de Lula após derrota no 2° turno",
+      "resumo": "Em vez da anulação, o senador vai acusar a campanha petista de abuso de poder político e econômico; o pedido de anulação não terá continuidade por enquanto.",
+      "url": "https://www.poder360.com.br/brasil/flavio-prepara-aije-contra-chapa-de-lula-apos-derrota-no-2-turno/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T19:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T19:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Flávio prepara AIJE contra chapa de Lula após derrota no 2° turno",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/brasil/flavio-prepara-aije-contra-chapa-de-lula-apos-derrota-no-2-turno/",
+          "publicado_em": "2026-10-26T19:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.1,
+      "score_reels": 57.9,
+      "score": 40.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.098,
+        "calor": 0.419,
+        "potencial_reels": 0.78
+      },
+      "reels_detalhe": {
+        "familias": {
+          "conflito": [
+            "derrota"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte Poder360; só Poder360 publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de conflito; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.1
+    },
+    {
+      "slug": "lula-se-reune-com-mauro-vieira-e-recebe-ligacoes-de-lideres",
+      "id": "c733ceef105d1114",
+      "titulo": "Lula se reúne com Mauro Vieira e recebe ligações de líderes estrangeiros",
+      "resumo": "Sem agenda pública na segunda, Lula ficou no Alvorada, recebeu ministros e telefonemas de chefes de Estado.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/lula-se-reune-com-mauro-vieira-e-recebe-ligacoes-de-lideres-estrangeiros/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T17:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T17:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula se reúne com Mauro Vieira e recebe ligações de líderes estrangeiros",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-se-reune-com-mauro-vieira-e-recebe-ligacoes-de-lideres-estrangeiros/",
+          "publicado_em": "2026-10-26T17:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.1,
+      "score_reels": 12.3,
+      "score": 40.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.083,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.1
+    },
+    {
+      "slug": "170-mil-e-o-piso-o-que-esperar-para-o-ibovespa-apos-forte-qu",
+      "id": "d342a464398542e3",
+      "titulo": "170 mil é o piso? O que esperar para o Ibovespa após forte queda com vitória de Lula",
+      "resumo": "Analistas discutem se 170 mil pontos segura o índice; para a Wiser, o que define o rumo são as próximas decisões fiscais.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-170-mil-pontos-e-o-piso-o-que-esperar-para-indice-apos-forte-queda-com-vitoria-de-lula/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T14:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T14:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "170 mil é o piso? O que esperar para o Ibovespa após forte queda com vitória de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-170-mil-pontos-e-o-piso-o-que-esperar-para-indice-apos-forte-queda-com-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T14:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.0,
+      "score_reels": 19.4,
+      "score": 40.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.065,
+        "calor": 0.419,
+        "potencial_reels": 0.17
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.0
+    },
+    {
+      "slug": "pl-reconhece-vitoria-de-lula-e-diz-que-questionamentos-preci",
+      "id": "3a21cac570fbc2cc",
+      "titulo": "PL reconhece vitória de Lula e diz que questionamentos precisam ser feitos",
+      "resumo": "Em nota, Valdemar Costa Neto aceita o resultado, mas cita a ampliação de gastos sociais às vésperas da votação como ponto a ser debatido.",
+      "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/eleicoes/pl-reconhece-vitoria-de-lula-e-diz-que-questionamentos-precisam-ser-feitos/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T16:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T16:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "PL reconhece vitória de Lula e diz que questionamentos precisam ser feitos",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/eleicoes/pl-reconhece-vitoria-de-lula-e-diz-que-questionamentos-precisam-ser-feitos/",
+          "publicado_em": "2026-10-26T16:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.9,
+      "score_reels": 59.3,
+      "score": 39.9,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.076,
+        "calor": 0.419,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.9
+    },
+    {
+      "slug": "ibovespa-futuro-desaba-quase-20-apos-vitoria-de-lula-frustra",
+      "id": "1c60ff13fb2191a3",
+      "titulo": "Ibovespa Futuro desaba quase 20% após vitória de Lula frustrar expectativa do mercado",
+      "resumo": "JPMorgan espera o dólar perto de R$ 5,50 nos próximos dias; Morgan Stanley vê entre R$ 5,50 e R$ 5,70. Para o Goldman, orçamento de 2027, o nome do ministro da Fazenda e a relação com o Congresso serão centrais.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-hoje-abertura-26102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa Futuro desaba quase 20% após vitória de Lula frustrar expectativa do mercado",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-hoje-abertura-26102026/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.8,
+      "score_reels": 70.7,
+      "score": 39.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.055,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.8
+    },
+    {
+      "slug": "lula-4-tera-congresso-mais-a-direita-e-desafio-na-articulaca",
+      "id": "a45fd4bc70d17660",
+      "titulo": "Lula 4 terá Congresso mais à direita e desafio na articulação política",
+      "resumo": "Analistas dizem que o governo dependerá do centrão para aprovar projetos no novo mandato.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/lula-4-tera-congresso-mais-a-direita-e-desafio-na-articulacao-politica/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T15:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T15:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula 4 terá Congresso mais à direita e desafio na articulação política",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-4-tera-congresso-mais-a-direita-e-desafio-na-articulacao-politica/",
+          "publicado_em": "2026-10-26T15:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.8,
+      "score_reels": 15.2,
+      "score": 39.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.07,
+        "calor": 0.419,
+        "potencial_reels": 0.1
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.8
+    },
+    {
+      "slug": "ibovespa-fecha-em-baixa-de-13-9-maior-queda-diaria-em-6-anos",
+      "id": "f5ab0c2dd7f518d9",
+      "titulo": "Ibovespa fecha em baixa de 13,9%, maior queda diária em 6 anos; dólar dispara 8,2%",
+      "resumo": "Fechamento a 176.608 pontos. UBS diz que o governo precisa mostrar compromisso fiscal antes de o mercado rever a visão; Gavekal vê oportunidade de compra.",
+      "url": "https://exame.com/live-blog/invest/bolsa-dolar-mercado-26-outubro-apos-eleicoes",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T18:20:00-03:00",
+      "ultima_publicacao": "2026-10-26T18:20:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa fecha em baixa de 13,9%, maior queda diária em 6 anos; dólar dispara 8,2%",
+          "fonte": "Exame",
+          "url": "https://exame.com/live-blog/invest/bolsa-dolar-mercado-26-outubro-apos-eleicoes",
+          "publicado_em": "2026-10-26T18:20:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.6,
+      "score_reels": 71.4,
+      "score": 39.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.093,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "mercado"
+          ],
+          "espanto": [
+            "maior"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Exame; só Exame publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso, espanto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.6
+    },
+    {
+      "slug": "bolsa-caminha-para-uma-das-maiores-quedas-desde-o-plano-real",
+      "id": "5b05007147760dc5",
+      "titulo": "Bolsa caminha para uma das maiores quedas desde o Plano Real",
+      "resumo": "Comparação histórica da queda do Ibovespa no primeiro pregão após a reeleição.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/bolsa-caminha-para-uma-das-maiores-quedas-desde-o-plano-real/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T14:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T14:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Bolsa caminha para uma das maiores quedas desde o Plano Real",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/bolsa-caminha-para-uma-das-maiores-quedas-desde-o-plano-real/",
+          "publicado_em": "2026-10-26T14:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.6,
+      "score_reels": 12.0,
+      "score": 39.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.065,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.6
+    },
+    {
+      "slug": "autoridades-americanas-repercutem-resultado-das-eleicoes-bra",
+      "id": "b42fe96651a6cf4c",
+      "titulo": "Autoridades americanas repercutem resultado das eleições brasileiras",
+      "resumo": "Trump segue em silêncio, enquanto Bernie Sanders, democratas e o prefeito de Nova York, Zohran Mamdani, celebram a vitória de Lula.",
+      "url": "https://www.cnnbrasil.com.br/internacional/autoridades-americanas-repercutem-resultado-das-eleicoes-brasileiras/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "mundo",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T14:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T14:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Autoridades americanas repercutem resultado das eleições brasileiras",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/autoridades-americanas-repercutem-resultado-das-eleicoes-brasileiras/",
+          "publicado_em": "2026-10-26T14:00:00-03:00",
+          "pais": "US",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.6,
+      "score_reels": 8.9,
+      "score": 39.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.065,
+        "calor": 0.419,
+        "potencial_reels": 0.0
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {},
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.6
+    },
+    {
+      "slug": "xp-recomenda-evitar-decisoes-no-panico-em-meio-a-forte-queda",
+      "id": "3fa1157df9e00db1",
+      "titulo": "XP recomenda evitar decisões no pânico em meio a forte queda do mercado pós-eleição",
+      "resumo": "",
+      "url": "https://www.infomoney.com.br/mercados/xp-recomenda-evitar-decisoes-no-panico-em-meio-a-forte-queda-do-mercado-pos-eleicao/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "XP recomenda evitar decisões no pânico em meio a forte queda do mercado pós-eleição",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/xp-recomenda-evitar-decisoes-no-panico-em-meio-a-forte-queda-do-mercado-pos-eleicao/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.5,
+      "score_reels": 62.5,
+      "score": 39.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.046,
+        "calor": 0.419,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.5
+    },
+    {
+      "slug": "vale-vale3-acompanha-dolar-e-dispara-apos-resultado-das-elei",
+      "id": "7bb55560bad99123",
+      "titulo": "Vale (VALE3) acompanha dólar e dispara após resultado das eleições",
+      "resumo": "",
+      "url": "https://www.infomoney.com.br/mercados/vale-vale3-desempenho-eleicoes-segundo-turno-262102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Vale (VALE3) acompanha dólar e dispara após resultado das eleições",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/vale-vale3-desempenho-eleicoes-segundo-turno-262102026/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.5,
+      "score_reels": 65.6,
+      "score": 39.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.046,
+        "calor": 0.419,
+        "potencial_reels": 0.92
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.5
+    },
+    {
+      "slug": "juros-futuros-sobem-mais-de-260-pontos-base-apos-vitoria-de",
+      "id": "97c2a7f68f494068",
+      "titulo": "Juros futuros sobem mais de 260 pontos-base após vitória de Lula",
+      "resumo": "A curva de DIs passou a precificar alta da Selic em novembro; para a MA7 Capital, ela já indica o fim dos cortes de juros.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-sobem-mais-de-260-pontos-base-apos-vitoria-de-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Juros futuros sobem mais de 260 pontos-base após vitória de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-sobem-mais-de-260-pontos-base-apos-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.4,
+      "score_reels": 65.8,
+      "score": 39.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.055,
+        "calor": 0.419,
+        "potencial_reels": 0.92
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "juros"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.4
+    },
+    {
+      "slug": "mercados-argentinos-despencam-apos-reeleicao-de-lula-no-bras",
+      "id": "0f0534daf37da121",
+      "titulo": "Mercados argentinos despencam após reeleição de Lula no Brasil",
+      "resumo": "O contágio chega a Buenos Aires: ações e títulos argentinos caem com a reação ao resultado no Brasil.",
+      "url": "https://cnnbrasil.com.br/economia/money/mercado/mercados-argentinos-despencam-apos-reeleicao-de-lula-no-brasil",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Mercados argentinos despencam após reeleição de Lula no Brasil",
+          "fonte": "CNN Brasil",
+          "url": "https://cnnbrasil.com.br/economia/money/mercado/mercados-argentinos-despencam-apos-reeleicao-de-lula-no-brasil",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "AR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.4,
+      "score_reels": 8.7,
+      "score": 39.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.055,
+        "calor": 0.419,
+        "potencial_reels": 0.0
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {},
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "mercado",
+          "aviso": "Financeiro: não é recomendação de investimento — diga isso na tela."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.4
+    },
+    {
+      "slug": "jpmorgan-ibovespa-deve-cair-20-e-dolar-ir-a-r-5-50-nos-proxi",
+      "id": "4b7c03c985ac0102",
+      "titulo": "JPMorgan: Ibovespa deve cair 20% e dólar ir a R$ 5,50 nos próximos dias após eleição",
+      "resumo": "O banco projeta queda de cerca de 20% do índice e dólar a R$ 5,50 nos dias seguintes à reeleição.",
+      "url": "https://www.infomoney.com.br/mercados/jpmorgan-ibovespa-deve-cair-20-e-dolar-ir-a-r-550-nos-proximos-dias-apos-eleicao-lula/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T08:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T08:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "JPMorgan: Ibovespa deve cair 20% e dólar ir a R$ 5,50 nos próximos dias após eleição",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/jpmorgan-ibovespa-deve-cair-20-e-dolar-ir-a-r-550-nos-proximos-dias-apos-eleicao-lula/",
+          "publicado_em": "2026-10-26T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.4,
+      "score_reels": 70.4,
+      "score": 39.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.039,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "impostorenda"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.4
+    },
+    {
+      "slug": "centrao-acena-a-lula-e-tentara-manter-cargos-em-novo-governo",
+      "id": "50f219e1a6f56230",
+      "titulo": "Centrão acena a Lula e tentará manter cargos em novo governo",
+      "resumo": "Mesmo tendo apoiado Flávio no 2º turno, o MDB quer seguir com Transportes, Cidades e Planejamento; Lula ainda negocia as presidências da Câmara e do Senado.",
+      "url": "https://www.cnnbrasil.com.br/blogs/taina-falcao/eleicoes/centrao-acena-a-lula-e-tentara-manter-cargos-em-novo-governo/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Centrão acena a Lula e tentará manter cargos em novo governo",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/taina-falcao/eleicoes/centrao-acena-a-lula-e-tentara-manter-cargos-em-novo-governo/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.4,
+      "score_reels": 11.8,
+      "score": 39.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.055,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.4
+    },
+    {
+      "slug": "b3-amplia-limite-de-queda-do-ibovespa-futuro-de-10-para-15-a",
+      "id": "e7eb09a56837e749",
+      "titulo": "B3 amplia limite de queda do Ibovespa futuro de 10% para 15% após vitória de Lula",
+      "resumo": "Medida exclusiva para o pregão de 26/10, em todos os vencimentos dos contratos futuros.",
+      "url": "https://www.infomoney.com.br/mercados/b3-altera-limite-inferior-de-negociacao-de-contratos-futuros-de-ibovespa-para-15/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T08:30:00-03:00",
+      "ultima_publicacao": "2026-10-26T08:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "B3 amplia limite de queda do Ibovespa futuro de 10% para 15% após vitória de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/b3-altera-limite-inferior-de-negociacao-de-contratos-futuros-de-ibovespa-para-15/",
+          "publicado_em": "2026-10-26T08:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.4,
+      "score_reels": 16.5,
+      "score": 39.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.041,
+        "calor": 0.419,
+        "potencial_reels": 0.13
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.4
+    },
+    {
+      "slug": "reeleito-lula-despacha-no-alvorada-e-prepara-reforma-ministe",
+      "id": "a8fc270a25966165",
+      "titulo": "Reeleito, Lula despacha no Alvorada e prepara reforma ministerial",
+      "resumo": "Lula deve reunir ministros nesta semana; para a Fazenda, Rafael Fonteles e Geraldo Alckmin estão entre os cotados.",
+      "url": "https://www.poder360.com.br/poder-governo/reeleito-lula-despacha-no-alvorada-e-prepara-reforma-ministerial/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T15:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T15:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Reeleito, Lula despacha no Alvorada e prepara reforma ministerial",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-governo/reeleito-lula-despacha-no-alvorada-e-prepara-reforma-ministerial/",
+          "publicado_em": "2026-10-26T15:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.4,
+      "score_reels": 12.1,
+      "score": 39.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.07,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Poder360; só Poder360 publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.4
+    },
+    {
+      "slug": "vitoria-de-lula-surpreendeu-ministros-e-caciques-do-pt",
+      "id": "822037fbeef409d6",
+      "titulo": "Vitória de Lula surpreendeu ministros e caciques do PT",
+      "resumo": "Nem o entorno do presidente esperava a virada; o PT já discute ministérios com o centrão, que apoiou Flávio no 2º turno.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/vitoria-de-lula-surpreendeu-ministros-e-caciques-do-pt/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Vitória de Lula surpreendeu ministros e caciques do PT",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/vitoria-de-lula-surpreendeu-ministros-e-caciques-do-pt/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.4,
+      "score_reels": 11.8,
+      "score": 39.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.055,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.4
+    },
+    {
+      "slug": "empresas-brasileiras-despencam-mais-de-20-no-exterior-apos-v",
+      "id": "2a5a32e27405ad84",
+      "titulo": "Empresas brasileiras despencam mais de 20% no exterior após vitória de Lula",
+      "resumo": "ADRs de companhias brasileiras negociados em Nova York recuam mais de 20% após o resultado da eleição.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/adrs-de-empresas-brasileiras-despencam-mais-de-20-apos-vitoria-de-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T11:30:00-03:00",
+      "ultima_publicacao": "2026-10-26T11:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Empresas brasileiras despencam mais de 20% no exterior após vitória de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/adrs-de-empresas-brasileiras-despencam-mais-de-20-apos-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T11:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.3,
+      "score_reels": 16.7,
+      "score": 39.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.052,
+        "calor": 0.419,
+        "potencial_reels": 0.13
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.3
+    }
+  ],
+  "descartadas": [],
+  "preferencias": {
+    "temas": [],
+    "regioes": [],
+    "peso": 0.35
+  },
+  "regioes": {
+    "estados unidos": [
+      "eua",
+      "usa",
+      "united states",
+      "washington",
+      "trump",
+      "white house",
+      "casa branca",
+      "fed",
+      "federal reserve",
+      "american",
+      "americans",
+      "americano",
+      "americana",
+      "americanos",
+      "wall street",
+      "nasdaq",
+      "pentagon",
+      "pentagono",
+      "california",
+      "texas",
+      "new york",
+      "novayork",
+      "nova york",
+      "biden",
+      "republicano",
+      "democrata"
+    ],
+    "reino unido": [
+      "reino unido",
+      "united kingdom",
+      "britain",
+      "british",
+      "britanico",
+      "britanica",
+      "britanicos",
+      "london",
+      "londres",
+      "england",
+      "inglaterra",
+      "scotland",
+      "escocia",
+      "wales",
+      "gales",
+      "downing street",
+      "westminster",
+      "libra esterlina",
+      "king charles",
+      "rei charles",
+      "starmer"
+    ],
+    "europa": [
+      "europa",
+      "europe",
+      "european",
+      "europeu",
+      "europeia",
+      "europeus",
+      "ue",
+      "brussels",
+      "bruxelas",
+      "germany",
+      "alemanha",
+      "german",
+      "alemao",
+      "alema",
+      "france",
+      "franca",
+      "french",
+      "frances",
+      "francesa",
+      "italy",
+      "italia",
+      "spain",
+      "espanha",
+      "portugal",
+      "paris",
+      "berlim",
+      "berlin",
+      "madri",
+      "madrid",
+      "lisboa",
+      "lisbon",
+      "roma",
+      "rome",
+      "otan",
+      "nato",
+      "von der leyen",
+      "bce",
+      "ecb",
+      "zona do euro",
+      "eurozone"
+    ],
+    "america latina": [
+      "argentina",
+      "argentino",
+      "argentina",
+      "chile",
+      "chileno",
+      "colombia",
+      "colombiano",
+      "venezuela",
+      "venezuelano",
+      "mexico",
+      "mexicano",
+      "peru",
+      "peruano",
+      "bolivia",
+      "boliviano",
+      "uruguai",
+      "uruguay",
+      "paraguai",
+      "paraguay",
+      "equador",
+      "ecuador",
+      "cuba",
+      "buenos aires",
+      "mercosul",
+      "mercosur",
+      "latin america",
+      "america latina",
+      "latino",
+      "latina",
+      "milei",
+      "maduro"
+    ],
+    "asia": [
+      "china",
+      "chinese",
+      "chines",
+      "chinesa",
+      "japan",
+      "japao",
+      "japones",
+      "japonesa",
+      "india",
+      "indian",
+      "indiano",
+      "korea",
+      "coreia",
+      "coreano",
+      "taiwan",
+      "beijing",
+      "pequim",
+      "tokyo",
+      "toquio",
+      "seoul",
+      "seul",
+      "xi jinping",
+      "asia",
+      "asian",
+      "asiatico",
+      "asiatica",
+      "hong kong",
+      "singapore",
+      "singapura",
+      "vietnam",
+      "vietna",
+      "indonesia",
+      "filipinas"
+    ],
+    "oriente medio": [
+      "israel",
+      "israeli",
+      "israelis",
+      "israelense",
+      "israelenses",
+      "gaza",
+      "iran",
+      "iranian",
+      "iranians",
+      "iraniano",
+      "iraniana",
+      "iranianos",
+      "tehran",
+      "teera",
+      "palestine",
+      "palestina",
+      "palestinian",
+      "palestino",
+      "palestinos",
+      "lebanon",
+      "libano",
+      "syria",
+      "siria",
+      "saudi",
+      "arabia saudita",
+      "emirados",
+      "emirates",
+      "qatar",
+      "turkey",
+      "turquia",
+      "hamas",
+      "hezbollah",
+      "middle east",
+      "oriente medio",
+      "houthi",
+      "yemen",
+      "iemen",
+      "netanyahu",
+      "estreito de ormuz",
+      "strait of hormuz"
+    ],
+    "africa": [
+      "africa",
+      "african",
+      "africano",
+      "africana",
+      "africanos",
+      "nigeria",
+      "nigerian",
+      "egypt",
+      "egito",
+      "egipcio",
+      "ethiopia",
+      "etiopia",
+      "kenya",
+      "quenia",
+      "sudan",
+      "sudao",
+      "congo",
+      "mozambique",
+      "mocambique",
+      "angola",
+      "south africa",
+      "africa do sul",
+      "sul-africano"
+    ]
+  },
+  "diagnostico": [],
+  "metricas": {
+    "itens_coletados": 144,
+    "itens_lidos": 224,
+    "fontes_lidas": 12,
+    "janela_horas": 48,
+    "descartados_antigos": 56,
+    "descartados_sem_data": 24,
+    "itens_ineditos": 144,
+    "pautas_identificadas": 97,
+    "pautas_selecionadas": 6,
+    "roteiros_gerados": 0,
+    "fontes_ativas": 9,
+    "feeds_ok": 0,
+    "feeds_total": 0,
+    "distribuicao_editoria": {
+      "politica": 2,
+      "mundo": 2,
+      "economia": 2
+    },
+    "origem_itens": {
+      "agente": 144
+    }
+  }
+}

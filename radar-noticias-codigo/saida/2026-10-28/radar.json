@@ -1,0 +1,2929 @@
+{
+  "versao": "1.0.0",
+  "dia": "2026-10-28",
+  "gerado_em": "2026-10-28T22:09:43-03:00",
+  "config": {
+    "perfil": {
+      "nome_canal": "Radar",
+      "apresentador": "voce",
+      "tom": "direto, informal-profissional, sem jargão, zero sensacionalismo",
+      "duracao_alvo_s": 45,
+      "duracao_min_s": 30,
+      "duracao_max_s": 75,
+      "palavras_por_segundo": 2.6,
+      "assinatura_cta": "Segue o perfil: amanhã às 6 da manhã tem radar novo.",
+      "evitar": [
+        "linguagem de pânico",
+        "adjetivo sem dado",
+        "palpite com cara de fato",
+        "número sem fonte"
+      ]
+    },
+    "selecao": {
+      "pautas_por_dia": 6,
+      "roteiros_por_dia": 3,
+      "min_br": 4,
+      "max_mundo": 3,
+      "max_por_editoria": 2,
+      "janela_horas": 48,
+      "dias_anti_repeticao": 5,
+      "min_mundo": 1,
+      "exigir_data": true,
+      "_doc_janela": "So entra materia publicada nas ultimas janela_horas. Com exigir_data, item sem data (nem informada, nem deduzivel pela URL) fica de fora: sem data nao da para garantir que e atual.",
+      "somente_portugues": true,
+      "aceitar_traducao": true,
+      "_doc_idioma": "somente_portugues: matéria com título em outro idioma sai. aceitar_traducao: a que o agente traduziu (titulo_original preenchido) fica, marcada como traduzida."
+    },
+    "editorias": [
+      "politica",
+      "economia",
+      "mundo",
+      "tecnologia",
+      "ciencia",
+      "saude",
+      "esporte",
+      "cultura",
+      "cotidiano",
+      "meio-ambiente"
+    ],
+    "limiar_cluster": 0.4,
+    "pesos_noticia": {
+      "corroboracao": 0.34,
+      "peso_fonte": 0.2,
+      "recencia": 0.26,
+      "calor": 0.2
+    },
+    "pesos_reels": {
+      "potencial_reels": 0.62,
+      "recencia": 0.18,
+      "corroboracao": 0.2
+    },
+    "_doc_scores": "score_noticia mede importancia jornalistica (quem publicou, quantos, quao fresco, quao quente). score_reels mede o que rende video curto. O briefing e ordenado pelo primeiro; a fila de gravacao, pelo segundo.",
+    "roteiros": {
+      "ativo": false,
+      "_doc": "Roteiro de reels desligado a pedido. O agente roteirista continua no repositorio: mude para true e volta tudo (fila de gravacao, secao no briefing, score de reels no painel)."
+    }
+  },
+  "pautas": [
+    {
+      "slug": "apos-carta-de-flavio-marinho-nega-que-haja-provas-de-fraude",
+      "id": "779a16375592083d",
+      "titulo": "Após carta de Flávio, Marinho nega que haja provas de fraude nas eleições",
+      "resumo": "Líder da oposição no Senado, citado na carta como candidato à presidência da Casa, diz que não foi consultado sobre o texto; coligação de Lula afirma que a contestação “não se sustenta”.",
+      "url": "https://www.cnnbrasil.com.br/politica/apos-carta-de-flavio-marinho-nega-que-haja-provas-de-fraude-nas-eleicoes/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "Agência Brasil",
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 3,
+      "n_itens": 54,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-28T21:30:00-03:00",
+      "janela_horas": 35.5,
+      "velocidade": 1.52,
+      "datas_conhecidas": 54,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Após carta de Flávio, Marinho nega que haja provas de fraude nas eleições",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/apos-carta-de-flavio-marinho-nega-que-haja-provas-de-fraude-nas-eleicoes/",
+          "publicado_em": "2026-10-28T21:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio recua em carta com teor golpista e se diz “líder do Brasil”",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/flavio-recua-em-carta-com-teor-golpista-e-se-diz-lider-do-brasil/",
+          "publicado_em": "2026-10-28T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Trump diz que EUA permitiram entrada de Flávio, mas que não vai se envolver",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/trump-diz-que-eua-permitiram-entrada-de-flavio-mas-que-nao-vai-se-envolver/",
+          "publicado_em": "2026-10-28T19:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio não deve perder passaporte italiano após fuga, diz especialista",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/jairo-nascimento/politica/flavio-nao-deve-perder-passaporte-italiano-apos-fuga-diz-especialista/",
+          "publicado_em": "2026-10-28T18:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Como Flávio entrou na Argentina e nos EUA? Veja quais passaportes ele usou",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/como-flavio-entrou-na-argentina-e-nos-eua-veja-quais-passaportes-ele-usou/",
+          "publicado_em": "2026-10-28T18:10:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Deputados pedem para PF apurar rede de apoio para fuga de Flávio",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/edilene-lopes/politica/deputados-pedem-para-pf-apurar-rede-de-apoio-para-fuga-de-flavio/",
+          "publicado_em": "2026-10-28T17:50:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio Bolsonaro entrou nos EUA com passaporte diplomático que PF cancelou",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/flavio-bolsonaro-entrou-nos-eua-com-passaporte-diplomatico-que-pf-cancelou/",
+          "publicado_em": "2026-10-28T17:40:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Investigações em torno da fuga de Flávio serão longas, avalia professor",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/investigacoes-em-torno-da-fuga-de-flavio-serao-longas-avalia-professor/",
+          "publicado_em": "2026-10-28T15:45:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Saiba como é o Gulfstream G400, jatinho de luxo em que Flávio fugiu aos EUA",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/saiba-como-e-o-gulfstream-g400-jatinho-de-luxo-em-que-flavio-fugiu-aos-eua/",
+          "publicado_em": "2026-10-28T15:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Do passaporte ao asilo de Trump, a cronologia da fuga de Flávio aos EUA",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/do-passaporte-ao-asilo-de-trump-a-cronologia-da-fuga-de-flavio-aos-eua/",
+          "publicado_em": "2026-10-28T15:20:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio se encontra com Eduardo Bolsonaro nos EUA e planeja coletiva",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/flavio-se-encontra-com-eduardo-bolsonaro-nos-eua-e-planeja-coletiva/",
+          "publicado_em": "2026-10-28T12:40:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Governo teme que apoio de Trump amplie discurso de perseguição de Flávio",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/jussara-soares/politica/governo-teme-que-apoio-de-trump-amplie-discurso-de-perseguicao-de-flavio/",
+          "publicado_em": "2026-10-28T10:50:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio Bolsonaro chega com família em Miami após fuga do Brasil",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/aviao-em-que-estaria-flavio-bolsonaro-pousa-em-miami/",
+          "publicado_em": "2026-10-28T10:35:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio está descansando e dará coletiva na quinta em Miami, diz aliado",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/caio-junqueira/politica/flavio-esta-descansando-e-dara-coletiva-na-quinta-em-miami-diz-aliado/",
+          "publicado_em": "2026-10-28T10:05:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Voo em que estaria Flávio é o mais monitorado do mundo em plataforma",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/jairo-nascimento/politica/voo-em-que-estaria-flavio-e-o-mais-monitorado-do-mundo-em-plataforma/",
+          "publicado_em": "2026-10-28T09:50:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "PF cancela passaportes de Flávio Bolsonaro após decisão de Moraes",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/elijonasmaia/politica/pf-cancela-passaportes-de-flavio-bolsonaro-apos-decisao-de-moraes/",
+          "publicado_em": "2026-10-27T12:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Avião em que estaria Flávio Bolsonaro está a caminho de Miami, mostra site",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/aviao-em-que-estaria-flavio-bolsonaro-esta-a-caminho-de-miami-mostra-site/",
+          "publicado_em": "2026-10-28T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Defesa de Flávio Bolsonaro está há mais de 30h sem contato com o senador",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/defesa-de-flavio-bolsonaro-esta-ha-mais-de-30h-sem-contato-com-o-senador/",
+          "publicado_em": "2026-10-28T07:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Argentina diz que Flávio entrou no país na noite de terça e voou ao Equador",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/argentina-diz-que-flavio-entrou-no-pais-na-noite-de-terca-e-voou-ao-equador/",
+          "publicado_em": "2026-10-28T07:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Fuga de Flávio contou com estratégia de desinformação de aliados",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/fuga-de-flavio-contou-com-estrategia-de-desinformacao-de-aliados/",
+          "publicado_em": "2026-10-27T23:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "PL convoca reunião de emergência após Flávio Bolsonaro deixar o Brasil",
+          "fonte": "CNN Brasil",
+          "url": "https://cnnbrasil.com.br/politica/pl-convoca-reuniao-de-emergencia-apos-flavio-bolsonaro-deixar-o-brasil",
+          "publicado_em": "2026-10-27T23:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Departamento de Estado dos EUA diz à CNN que emitirá vistos para Flávio",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/departamento-de-estado-dos-eua-diz-a-cnn-que-emitira-vistos-para-flavio/",
+          "publicado_em": "2026-10-27T22:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Fuga de Flávio pode motivar prisão preventiva, dizem especialistas",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/fuga-de-flavio-pode-motivar-prisao-preventiva-dizem-especialistas/",
+          "publicado_em": "2026-10-27T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Deputados do PT pedem a prisão de Flávio e alerta vermelho da Interpol",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/deputados-do-pt-pedem-a-prisao-de-flavio-e-alerta-vermelho-da-interpol/",
+          "publicado_em": "2026-10-27T21:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "O que se sabe sobre a fuga de Flávio Bolsonaro do Brasil",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/o-que-se-sabe-sobre-a-saida-de-flavio-bolsonaro-do-brasil/",
+          "publicado_em": "2026-10-27T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio Bolsonaro desafia proibição e viaja rumo aos EUA, dizem fontes à CNN",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/flavio-bolsonaro-desafia-proibicao-e-viaja-rumo-aos-eua-dizem-fontes-a-cnn/",
+          "publicado_em": "2026-10-27T20:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Aliados dizem que Flávio Bolsonaro está fora do Brasil",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/aliados-dizem-que-flavio-bolsonaro-esta-fora-do-brasil/",
+          "publicado_em": "2026-10-27T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Autoridade dos EUA diz à Reuters que Flávio está a caminho do país",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/autoridade-dos-eua-diz-a-reuters-que-flavio-esta-a-caminho-do-pais/",
+          "publicado_em": "2026-10-27T19:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "À CNN, Efraim diz que apreensão de passaporte de Flávio é \"antidemocrática\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/a-cnn-efraim-diz-que-apreensao-de-passaporte-de-flavio-e-antidemocratica/",
+          "publicado_em": "2026-10-27T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Marinho é único aliado de campanha citado por Flávio em carta nos EUA",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/marinho-e-unico-aliado-de-campanha-citado-por-flavio-em-carta-nos-eua/",
+          "publicado_em": "2026-10-28T20:45:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Leia as 3 versões da nota divulgada por Flávio ao chegar aos EUA",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-integras/leia-a-integra-da-carta-de-flavio-bolsonaro/",
+          "publicado_em": "2026-10-28T20:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio se corrige, muda título de presidente eleito para líder do Brasil",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-se-corrige-muda-titulo-de-presidente-eleito-para-lider-do-brasil/",
+          "publicado_em": "2026-10-28T20:20:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Trump evita apoiar fala de Flávio sobre “verdadeiro presidente”",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-internacional/trump-evita-apoiar-fala-de-flavio-sobre-verdadeiro-presidente/",
+          "publicado_em": "2026-10-28T20:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Paulo Figueiredo diz que Flávio está “bem” e falará a jornalistas na 5ª",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-internacional/paulo-figueiredo-diz-que-flavio-esta-bem-e-falara-a-jornalistas-na-5a/",
+          "publicado_em": "2026-10-28T13:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Veja fotos da chegada de Flávio aos Estados Unidos",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-internacional/veja-fotos-da-chegada-de-flavio-aos-estados-unidos/",
+          "publicado_em": "2026-10-28T11:20:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Avião com Flávio Bolsonaro chega aos EUA",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-internacional/aviao-com-flavio-bolsonaro-chega-aos-eua/",
+          "publicado_em": "2026-10-28T10:45:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Voo de Flávio deve chegar aos EUA às 10h18; acompanhe ao vivo",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/voo-de-flavio-deve-chegar-aos-eua-as-11h-acompanhe-ao-vivo/",
+          "publicado_em": "2026-10-28T09:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio cruzou a fronteira e pegou avião para o Equador, diz Migração argentina",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-internacional/flavio-cruzou-a-fronteira-e-pegou-aviao-para-o-equador-diz-migracao-argentina/",
+          "publicado_em": "2026-10-28T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Leia a cronologia dos fatos que levaram Flávio Bolsonaro deixar o Brasil",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-justica/leia-a-cronologia-dos-fatos-que-levaram-flavio-bolsonaro-deixar-o-brasil/",
+          "publicado_em": "2026-10-27T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "PT pede prisão de Flávio Bolsonaro e alerta vermelho da Interpol",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-congresso/pt-pede-prisao-de-flavio-bolsonaro-e-alerta-vermelho-da-interpol/",
+          "publicado_em": "2026-10-27T21:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Paradeiro de Flávio é problema da direita, avalia governo Lula",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/paradeiro-de-flavio-e-problema-da-direita-avalia-governo-lula/",
+          "publicado_em": "2026-10-27T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "“Onde está Flávio?” e \"Flávio fugiu\" têm pico nas buscas no Google",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/onde-esta-flavio-e-flavio-fugiu-tem-pico-nas-buscas-no-google/",
+          "publicado_em": "2026-10-27T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "PL desconhece paradeiro de Flávio; Marinho diz compreender possível saída",
+          "fonte": "Poder360",
+          "url": "https://poder360.com.br/poder-eleicoes-2026/pl-desconhece-paradeiro-de-flavio-marinho-diz-compreender-possivel-saida",
+          "publicado_em": "2026-10-27T19:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Paradeiro de Flávio é desconhecido após site relatar fuga do país",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/paradeiro-de-flavio-e-desconhecido-apos-site-relatar-fuga-do-pais/",
+          "publicado_em": "2026-10-27T16:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Assista ao vídeo em que Eduardo defendeu que Flávio deixasse o Brasil",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/assista-ao-video-em-que-eduardo-defendeu-que-flavio-deixasse-o-pais/",
+          "publicado_em": "2026-10-27T15:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Em carta golpista, Flávio agradece Milei e Trump por apoio para fuga",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/em-carta-golpista-flavio-agradece-milei-e-trump-por-apoio-para-fuga",
+          "publicado_em": "2026-10-28T20:40:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio Bolsonaro chega aos Estados Unidos depois de fugir do Brasil",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-chega-aos-estados-unidos-depois-de-fugir-do-brasil",
+          "publicado_em": "2026-10-28T16:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "“Ato vergonhoso”, diz Lula sobre fuga de Flávio Bolsonaro",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/ato-vergonhoso-diz-lula-sobre-fuga-de-flavio-bolsonaro",
+          "publicado_em": "2026-10-28T10:55:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Aeronave com Flávio Bolsonaro e família pousa nos Estados Unidos",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aeronave-com-flavio-bolsonaro-e-familia-pousa-nos-estados-unidos",
+          "publicado_em": "2026-10-28T10:40:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Após derrota eleitoral, Flávio Bolsonaro embarca em voo para os EUA",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/geral/audio/2026-10/apos-derrota-eleitoral-flavio-bolsonaro-embarca-em-voo-para-aos-eua",
+          "publicado_em": "2026-10-28T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Avião com Flávio Bolsonaro e família segue para Miami",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/aviao-com-flavio-bolsonaro-e-familia-segue-para-miami",
+          "publicado_em": "2026-10-28T08:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio Bolsonaro fugiu para os EUA, diz agência Reuters",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-fugiu-para-os-eua-diz-agencia-reuters",
+          "publicado_em": "2026-10-27T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio Bolsonaro fugiu para os EUA, diz aliado do senador à Reuters",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-bolsonaro-fugiu-para-os-eua-dizem-aliado-do-senador-reuters",
+          "publicado_em": "2026-10-27T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Polícia Federal cancela passaportes de Flávio Bolsonaro",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/policia-federal-cancela-passaportes-de-flavio-bolsonaro",
+          "publicado_em": "2026-10-27T17:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 83.9,
+      "score_reels": 82.7,
+      "score": 83.9,
+      "componentes": {
+        "corroboracao": 0.774,
+        "peso_fonte": 0.81,
+        "recencia": 0.946,
+        "calor": 0.838,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "3 veículos cobrindo; publicada nas últimas horas; 54 matérias em 35.5h",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 83.9,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "ibovespa-tem-baixa-forte-com-fiscal-no-radar-e-decisao-do-fe",
+      "id": "f407502c24dda689",
+      "titulo": "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34",
+      "resumo": "Índice fecha em queda de 2,68%, aos 171.006 pontos; na semana, o tombo acumulado chega a 16,62%. Dólar recua 0,19%, a R$ 5,340.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "CNN Brasil",
+        "Exame",
+        "InfoMoney"
+      ],
+      "n_fontes": 3,
+      "n_itens": 11,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T09:30:00-03:00",
+      "ultima_publicacao": "2026-10-28T17:20:00-03:00",
+      "janela_horas": 31.83,
+      "velocidade": 0.35,
+      "datas_conhecidas": 11,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-28102026/",
+          "publicado_em": "2026-10-28T17:20:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Fed mantém juros entre 3,75% e 4%",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/economia/juros-fed-eua-outubro-2026/",
+          "publicado_em": "2026-10-28T15:00:00-03:00",
+          "pais": "US",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Dólar hoje ronda estabilidade com cenário político e decisão de juros do Fed no radar",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-28102026/",
+          "publicado_em": "2026-10-28T09:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa Futuro cai com balanços no radar e decisão do Fed",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-cai-com-balancos-no-radar-e-decisao-do-fed/",
+          "publicado_em": "2026-10-28T09:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa tem nova baixa após tombo da véspera; dólar perde 1%, a R$ 5,35",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-27102026/",
+          "publicado_em": "2026-10-27T18:10:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa tem queda modesta em dia de acomodação após tombo; incertezas persistem",
+          "fonte": "InfoMoney",
+          "url": "https://infomoney.com.br/mercados/ibovespa-tem-queda-modesta-em-dia-de-acomodacao-apos-tombo-incertezas-persistem",
+          "publicado_em": "2026-10-27T18:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa cai 2,35% perto do fim do pregão, aos 171,5 mil pontos; dólar sobe a R$ 5,35",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-28-outubro-2026/",
+          "publicado_em": "2026-10-28T17:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Dólar e juros futuros devolvem partes dos ganhos da véspera; Ibovespa recua",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-27-outubro-2026/",
+          "publicado_em": "2026-10-27T18:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa cai mais 2% com incertezas fiscais e Fed no radar",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/ibovespa-cai-mais-2-com-incertezas-fiscais-e-fed-no-radar-dolar-tambem-recua/",
+          "publicado_em": "2026-10-28T14:59:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa opera na estabilidade após tombo com eleição; dólar cai mais de 1%",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/ibovespa-opera-na-estabilidade-apos-tombo-com-eleicao-dolar-cai-mais-de-1/",
+          "publicado_em": "2026-10-27T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ressaca do ‘circuit breaker’: Ibovespa futuro ensaia alta, dólar e juros futuros caem",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/ressaca-do-circuit-breaker-ibovespa-futuro-ensaia-alta-dolar-e-juros-futuros-caem/",
+          "publicado_em": "2026-10-27T09:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 74.2,
+      "score_reels": 89.5,
+      "score": 74.2,
+      "componentes": {
+        "corroboracao": 0.774,
+        "peso_fonte": 0.832,
+        "recencia": 0.669,
+        "calor": 0.691,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "3 veículos cobrindo; ainda fresca; fonte InfoMoney",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 74.2,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "eleicoes-em-israel-siga-a-reta-final-da-apuracao-em-tempo-re",
+      "id": "24be664392c36789",
+      "titulo": "Eleições em Israel: Siga a reta final da apuração em tempo real",
+      "resumo": "Com 92,6% das urnas, Likud tem 20,74% e o Yashar de Eisenkot, 16,19%; nenhum bloco chega às 61 cadeiras e Netanyahu segue interino. Participação de 77%, a maior desde 1999.",
+      "url": "https://www.cnnbrasil.com.br/internacional/acompanhe-votacao-israel/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "Agência Brasil",
+        "CNN Brasil"
+      ],
+      "n_fontes": 2,
+      "n_itens": 8,
+      "editoria": "mundo",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T01:00:00-03:00",
+      "ultima_publicacao": "2026-10-28T12:30:00-03:00",
+      "janela_horas": 35.5,
+      "velocidade": 0.23,
+      "datas_conhecidas": 8,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Eleições em Israel: Siga a reta final da apuração em tempo real",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/acompanhe-votacao-israel/",
+          "publicado_em": "2026-10-28T12:30:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Eleições em Israel: pesquisas de boca de urna não mostram vencedor claro",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/eleicoes-de-israel-pesquisa-de-boca-de-urna-nao-mostra-vencedor-claro/",
+          "publicado_em": "2026-10-27T21:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Principal rival de Netanyahu diz que Israel votou pela mudança",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/principal-rival-de-netanyahu-diz-que-israel-votou-pela-mudanca/",
+          "publicado_em": "2026-10-27T18:30:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Urnas fecham em Israel em disputa que vai definir futuro de Netanyahu",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/urnas-fecham-em-israel-em-disputa-que-vai-definir-futuro-de-netanyahu/",
+          "publicado_em": "2026-10-27T17:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Israel vai às urnas na 1ª eleição desde o 7/10 com era Netanyahu à prova",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/israel-vai-as-urnas-na-1a-eleicao-desde-o-7-10-com-era-netanyahu-a-prova/",
+          "publicado_em": "2026-10-27T06:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Urnas são abertas em Israel, e Netanyahu enfrenta disputa decisiva",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/urnas-sao-abertas-em-israel-e-sobrevivencia-politica-de-netanyahu-esta-em-jogo/",
+          "publicado_em": "2026-10-27T01:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Eleições em Israel: bloco de Netanyahu fica com 53 cadeiras e partidos árabes têm número inédito",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/internacional/audio/2026-10/eleicoes-em-israel-bloco-de-netanyahu-conquista-maioria-do-parlamento",
+          "publicado_em": "2026-10-28T08:30:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Israelenses vão às urnas em eleição que pode tirar Netanyahu do poder",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/israelenses-vao-as-urnas-em-eleicao-que-pode-tirar-netanyahu-do-poder",
+          "publicado_em": "2026-10-27T07:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 62.0,
+      "score_reels": 73.4,
+      "score": 62.0,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.808,
+        "recencia": 0.447,
+        "calor": 0.669,
+        "potencial_reels": 0.856
+      },
+      "reels_detalhe": {
+        "familias": {
+          "espanto": [
+            "maior"
+          ],
+          "cultura_pop": [
+            "final"
+          ]
+        },
+        "bonus": {
+          "percentual": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; fonte CNN Brasil; 8 matérias em 35.5h",
+      "explicacao_reels": "gancho de espanto, cultura_pop; tem percentual para o primeiro frame",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 62.0,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "estresse-segue-por-que-ibovespa-caiu-2-7-hoje-apos-terca-mai",
+      "id": "8bbd98b1b8a5eb62",
+      "titulo": "Estresse segue? Por que Ibovespa caiu 2,7% hoje após terça mais tranquila no mercado",
+      "resumo": "Analistas apontam dúvidas fiscais e a montagem da equipe econômica do governo reeleito como peso maior que o Fed.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-estresse-continua-por-que-indice-cai-forte-apos-terca-mais-tranquila-no-mercado-28102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-28T17:30:00-03:00",
+      "ultima_publicacao": "2026-10-28T17:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Estresse segue? Por que Ibovespa caiu 2,7% hoje após terça mais tranquila no mercado",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-estresse-continua-por-que-indice-cai-forte-apos-terca-mais-tranquila-no-mercado-28102026/",
+          "publicado_em": "2026-10-28T17:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 56.0,
+      "score_reels": 81.9,
+      "score": 56.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.678,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ],
+          "utilidade": [
+            "como"
+          ],
+          "espanto": [
+            "maior"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "ainda fresca; fonte InfoMoney; só InfoMoney publicou",
+      "explicacao_reels": "gancho de bolso, utilidade, espanto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 56.0,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "trump-questiona-eleicao-no-brasil-mas-ja-negocia-com-a-reali",
+      "id": "edf0074ec73081d5",
+      "titulo": "Trump questiona eleição no Brasil, mas já negocia com a realidade",
+      "resumo": "Análise: a crítica não deve ter consequência prática; Trump questiona sem assumir o custo de tentar reverter.",
+      "url": "https://www.cnnbrasil.com.br/blogs/fernanda-magnotta/internacional/trump-questiona-eleicao-no-brasil-mas-ja-negocia-com-a-realidade/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 3,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T08:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T09:00:00-03:00",
+      "janela_horas": 1.0,
+      "velocidade": 3.0,
+      "datas_conhecidas": 3,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Trump questiona eleição no Brasil, mas já negocia com a realidade",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/fernanda-magnotta/internacional/trump-questiona-eleicao-no-brasil-mas-ja-negocia-com-a-realidade/",
+          "publicado_em": "2026-10-27T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Após Trump alegar \"fraude\", Boulos diz que Brasil \"não será colônia\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/apos-trump-alegar-fraude-boulos-diz-que-brasil-nao-sera-colonia/",
+          "publicado_em": "2026-10-27T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Brasil “não será colônia de ninguém”, diz Boulos sobre fala de Trump",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/brasil-nao-sera-colonia-de-ninguem-diz-boulos-sobre-fala-de-trump/",
+          "publicado_em": "2026-10-27T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 55.6,
+      "score_reels": 53.5,
+      "score": 55.6,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.817,
+        "recencia": 0.045,
+        "calor": 0.861,
+        "potencial_reels": 0.652
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "custo"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": {
+          "fator": 0.75,
+          "termos": [
+            "analise"
+          ]
+        }
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "2 veículos cobrindo; 3 matérias em 1.0h; fonte CNN Brasil",
+      "explicacao_reels": "gancho de bolso; pauta nacional; freio de 0.75 (termo \"analise\")",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 55.6,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "partidos-arabes-devem-bater-recorde-de-cadeiras-em-israel-di",
+      "id": "1a9fd2a70af148bd",
+      "titulo": "Partidos árabes devem bater recorde de cadeiras em Israel, diz boca de urna",
+      "resumo": "Projeção de 18 cadeiras; outros líderes de oposição descartam governo com apoio árabe, o que complica a saída de Netanyahu.",
+      "url": "https://www.cnnbrasil.com.br/internacional/partidos-arabes-devem-bater-recorde-de-cadeiras-em-israel/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "mundo",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T18:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T18:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Partidos árabes devem bater recorde de cadeiras em Israel, diz boca de urna",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/partidos-arabes-devem-bater-recorde-de-cadeiras-em-israel/",
+          "publicado_em": "2026-10-27T18:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.4,
+      "score_reels": 54.1,
+      "score": 40.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.096,
+        "calor": 0.419,
+        "potencial_reels": 0.72
+      },
+      "reels_detalhe": {
+        "familias": {
+          "espanto": [
+            "recorde"
+          ]
+        },
+        "bonus": {},
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de espanto",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.4,
+      "virou_roteiro": false
+    }
+  ],
+  "roteiros": [],
+  "reservas": [
+    {
+      "slug": "dois-dias-apos-reeleicao-lula-completa-81-anos-nesta-terca-f",
+      "id": "fec284f4f8398692",
+      "titulo": "Dois dias após reeleição, Lula completa 81 anos nesta terça-feira (27)",
+      "resumo": "Sem comemoração marcada, o presidente despacha no Planalto; posse do 4º mandato será em 5 de janeiro de 2027.",
+      "url": "https://www.cnnbrasil.com.br/politica/dois-dias-apos-reeleicao-lula-completa-81-anos-nesta-terca-feira-27/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T07:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T07:00:00-03:00",
+      "janela_horas": 0.5,
+      "velocidade": 4.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Dois dias após reeleição, Lula completa 81 anos nesta terça-feira (27)",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/dois-dias-apos-reeleicao-lula-completa-81-anos-nesta-terca-feira-27/",
+          "publicado_em": "2026-10-27T07:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Lula faz 81 anos e mira legado após nova reinvenção na política",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-governo/lula-faz-81-anos-e-mira-legado-apos-nova-reinvencao-na-politica/",
+          "publicado_em": "2026-10-27T07:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 54.2,
+      "score_reels": 19.1,
+      "score": 54.2,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.816,
+        "recencia": 0.038,
+        "calor": 0.803,
+        "potencial_reels": 0.1
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; fonte CNN Brasil; 2 matérias em 0.5h",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 54.2,
+      "motivo_descarte": "cota de politica cheia"
+    },
+    {
+      "slug": "possivel-correcao-dos-mercados-galipolo-leiloes-do-bc-e-mais",
+      "id": "21664ef443038178",
+      "titulo": "Possível correção dos mercados, Galípolo, leilões do BC e mais destaques desta terça",
+      "resumo": "Agenda de terça: mercado pode corrigir parte do tombo; fala de Galípolo e leilões do Banco Central no radar.",
+      "url": "https://www.infomoney.com.br/mercados/correcao-mercados-galipolo-leiloes-bc-agenda-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "Exame",
+        "InfoMoney"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T07:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T08:00:00-03:00",
+      "janela_horas": 1.0,
+      "velocidade": 2.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Possível correção dos mercados, Galípolo, leilões do BC e mais destaques desta terça",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/correcao-mercados-galipolo-leiloes-bc-agenda-27102026/",
+          "publicado_em": "2026-10-27T07:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Dados dos EUA, relatório do BC e Galípolo: o que move o mercado após tombo da bolsa",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/dados-dos-eua-relatorio-do-bc-e-galipolo-o-que-move-o-mercado-apos-tombo-da-bolsa/",
+          "publicado_em": "2026-10-27T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 52.2,
+      "score_reels": 67.0,
+      "score": 52.2,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.828,
+        "recencia": 0.042,
+        "calor": 0.683,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; fonte InfoMoney; 2 matérias em 1.0h",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 52.2,
+      "motivo_descarte": "cota de economia cheia"
+    },
+    {
+      "slug": "tesouro-direto-taxas-de-curto-prazo-sobem-forte-em-dia-de-de",
+      "id": "a78c0059b2b88fd1",
+      "titulo": "Tesouro Direto: taxas de curto prazo sobem forte em dia de decisão do Fed",
+      "resumo": "Títulos prefixados curtos abrem em alta firme; vencimentos longos ficam praticamente estáveis.",
+      "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-28102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-28T09:40:00-03:00",
+      "ultima_publicacao": "2026-10-28T09:40:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Tesouro Direto: taxas de curto prazo sobem forte em dia de decisão do Fed",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-28102026/",
+          "publicado_em": "2026-10-28T09:40:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.5,
+      "score_reels": 64.3,
+      "score": 47.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.353,
+        "calor": 0.419,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "prazo"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; já esfriando",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.5,
+      "motivo_descarte": "cota de economia cheia"
+    },
+    {
+      "slug": "mini-indice-winz26-busca-estabilizacao-apos-o-choque-eleitor",
+      "id": "f974b14d8d3a2564",
+      "titulo": "Mini-índice (WINZ26) busca estabilização após o choque eleitoral",
+      "resumo": "Níveis técnicos do contrato futuro para o pregão de quarta, dia de decisão do Fed.",
+      "url": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-28102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T08:00:00-03:00",
+      "ultima_publicacao": "2026-10-28T08:00:00-03:00",
+      "janela_horas": 24.0,
+      "velocidade": 0.08,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Mini-índice (WINZ26) busca estabilização após o choque eleitoral",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-28102026/",
+          "publicado_em": "2026-10-28T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Mini-índice (WINZ26) tenta reagir após tombo histórico; veja os níveis",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-27102026/",
+          "publicado_em": "2026-10-27T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.8,
+      "score_reels": 19.5,
+      "score": 46.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.307,
+        "calor": 0.441,
+        "potencial_reels": 0.1
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; 2 matérias em 24.0h",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.8,
+      "motivo_descarte": "cota de economia cheia"
+    },
+    {
+      "slug": "day-trade-hoje-28-ibovespa-cai-apos-tombo-historico-e-agora",
+      "id": "4924d2ff1ee95c54",
+      "titulo": "Day Trade hoje (28): Ibovespa cai após tombo histórico; e agora?",
+      "resumo": "IFR em sobrevenda aumenta a chance de recuperação técnica, mas ainda não indica reversão da tendência de baixa.",
+      "url": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-28102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T07:30:00-03:00",
+      "ultima_publicacao": "2026-10-28T07:30:00-03:00",
+      "janela_horas": 24.0,
+      "velocidade": 0.08,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Day Trade hoje (28): Ibovespa cai após tombo histórico; e agora?",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-28102026/",
+          "publicado_em": "2026-10-28T07:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Day Trade hoje (27): Ibovespa despenca após eleição; até onde pode cair?",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-27102026/",
+          "publicado_em": "2026-10-27T07:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.4,
+      "score_reels": 63.9,
+      "score": 46.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.295,
+        "calor": 0.441,
+        "potencial_reels": 0.82
+      },
+      "reels_detalhe": {
+        "familias": {
+          "espanto": [
+            "historico"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; 2 matérias em 24.0h",
+      "explicacao_reels": "gancho de espanto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.4,
+      "motivo_descarte": "cota de economia cheia"
+    },
+    {
+      "slug": "governo-planeja-manter-exercito-do-lula-por-forca-diante-do",
+      "id": "71d6f9aeb8c8fdbf",
+      "titulo": "Governo planeja manter \"Exército do Lula\" por força diante do Congresso",
+      "resumo": "A ideia é usar o canal de WhatsApp da campanha para mobilizar apoiadores e pressionar parlamentares.",
+      "url": "https://cnnbrasil.com.br/eleicoes/governo-planeja-manter-exercito-do-lula-por-forca-diante-do-congresso",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T09:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T10:00:00-03:00",
+      "janela_horas": 1.0,
+      "velocidade": 2.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Governo planeja manter \"Exército do Lula\" por força diante do Congresso",
+          "fonte": "CNN Brasil",
+          "url": "https://cnnbrasil.com.br/eleicoes/governo-planeja-manter-exercito-do-lula-por-forca-diante-do-congresso",
+          "publicado_em": "2026-10-27T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Lula começa a desenhar equipe para o próximo governo",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/lula-comeca-a-desenhar-equipe-para-o-proximo-governo/",
+          "publicado_em": "2026-10-27T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 44.5,
+      "score_reels": 52.6,
+      "score": 44.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.049,
+        "calor": 0.683,
+        "potencial_reels": 0.71
+      },
+      "reels_detalhe": {
+        "familias": {
+          "tecnologia": [
+            "whatsapp"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; 2 matérias em 1.0h; só CNN Brasil publicou",
+      "explicacao_reels": "gancho de tecnologia; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 44.5,
+      "motivo_descarte": "cota de politica cheia"
+    },
+    {
+      "slug": "ibovespa-segue-fragilizado-e-com-atencao-a-fiscal-apos-tombo",
+      "id": "193927f51b0c1b77",
+      "titulo": "Ibovespa segue fragilizado e com atenção a fiscal após tombo com reeleição de Lula",
+      "resumo": "Por volta das 13h, o índice subia 0,14% (176.848), entre 175.157 e 178.526 no dia; juros futuros recuam em toda a curva.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-segue-fragilizado-e-com-atencao-a-fiscal-apos-tombo-com-reeleicao-de-lula/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T09:15:00-03:00",
+      "ultima_publicacao": "2026-10-27T13:00:00-03:00",
+      "janela_horas": 3.75,
+      "velocidade": 0.53,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa segue fragilizado e com atenção a fiscal após tombo com reeleição de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-segue-fragilizado-e-com-atencao-a-fiscal-apos-tombo-com-reeleicao-de-lula/",
+          "publicado_em": "2026-10-27T13:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa Futuro tenta recuperação após onda de vendas de ativos com reeleição de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-tenta-recuperacao-apos-onda-de-vendas-de-ativos-com-reeleicao-de-lula/",
+          "publicado_em": "2026-10-27T09:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 42.1,
+      "score_reels": 67.8,
+      "score": 42.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.063,
+        "calor": 0.524,
+        "potencial_reels": 0.95
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "juros"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; 2 matérias em 3.75h",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 42.1,
+      "motivo_descarte": "cota de economia cheia"
+    },
+    {
+      "slug": "durigan-defende-sinal-ao-mercado-e-diz-que-governo-tem-medid",
+      "id": "f1332e27211fb50c",
+      "titulo": "Durigan defende sinal ao mercado e diz que governo tem medidas fiscais prontas",
+      "resumo": "O ministro diz ter reafirmado a Lula a necessidade de sinalizar ao mercado e que há medidas prontas para buscar o centro da meta fiscal; chamou de \"excelente\" o nome de Rafael Fonteles para a Fazenda.",
+      "url": "https://www.infomoney.com.br/politica/durigan-defende-sinal-ao-mercado-e-diz-que-governo-tem-medidas-fiscais-prontas/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T18:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T18:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Durigan defende sinal ao mercado e diz que governo tem medidas fiscais prontas",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/durigan-defende-sinal-ao-mercado-e-diz-que-governo-tem-medidas-fiscais-prontas/",
+          "publicado_em": "2026-10-27T18:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.8,
+      "score_reels": 63.4,
+      "score": 40.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.096,
+        "calor": 0.419,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.8,
+      "motivo_descarte": "cota de economia cheia"
+    },
+    {
+      "slug": "desligue-o-telefone-correr-para-tirar-dinheiro-do-brasil-e-e",
+      "id": "bc182e1a1f559482",
+      "titulo": "“Desligue o telefone”: correr para tirar dinheiro do Brasil é erro, diz CIO da Gama",
+      "resumo": "Gestor desaconselha vender no pânico; para analistas, o alívio de terça é correção de excessos, não volta da confiança.",
+      "url": "https://www.infomoney.com.br/onde-investir/desligue-o-telefone-correr-para-tirar-dinheiro-do-brasil-e-erro-diz-cio-da-gama/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "“Desligue o telefone”: correr para tirar dinheiro do Brasil é erro, diz CIO da Gama",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/desligue-o-telefone-correr-para-tirar-dinheiro-do-brasil-e-erro-diz-cio-da-gama/",
+          "publicado_em": "2026-10-27T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.6,
+      "score_reels": 11.7,
+      "score": 39.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.049,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.6
+    },
+    {
+      "slug": "galipolo-nega-que-esteja-sendo-cotado-para-assumir-fazenda",
+      "id": "e6dfb47daccd8156",
+      "titulo": "Galípolo nega que esteja sendo cotado para assumir Fazenda",
+      "resumo": "Na coletiva do Relatório de Estabilidade Financeira, o presidente do BC diz que fica até o fim do mandato, em 2028.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/galipolo-nega-que-esteja-sendo-cotado-para-assumir-fazenda/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T12:30:00-03:00",
+      "ultima_publicacao": "2026-10-27T12:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Galípolo nega que esteja sendo cotado para assumir Fazenda",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/galipolo-nega-que-esteja-sendo-cotado-para-assumir-fazenda/",
+          "publicado_em": "2026-10-27T12:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.5,
+      "score_reels": 11.9,
+      "score": 39.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.06,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.5
+    },
+    {
+      "slug": "minidolar-wdox26-testa-folego-comprador-apos-reeleicao-de-lu",
+      "id": "16a255af9963622a",
+      "titulo": "Minidólar (WDOX26) testa fôlego comprador após reeleição de Lula",
+      "resumo": "Análise técnica do contrato futuro de dólar no segundo pregão após a eleição.",
+      "url": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T08:30:00-03:00",
+      "ultima_publicacao": "2026-10-27T08:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Minidólar (WDOX26) testa fôlego comprador após reeleição de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-27102026/",
+          "publicado_em": "2026-10-27T08:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.5,
+      "score_reels": 51.3,
+      "score": 39.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.043,
+        "calor": 0.419,
+        "potencial_reels": 0.69
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": {
+          "fator": 0.75,
+          "termos": [
+            "analise"
+          ]
+        }
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; tem número no título; pauta nacional; freio de 0.75 (termo \"analise\")",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.5
+    },
+    {
+      "slug": "israel-registra-maior-participacao-eleitoral-inicial-em-45-a",
+      "id": "6f8a4f6dfc658fad",
+      "titulo": "Israel registra maior participação eleitoral inicial em 45 anos",
+      "resumo": "Comparecimento alto desde as primeiras horas da votação de terça.",
+      "url": "https://www.cnnbrasil.com.br/internacional/israel-registra-maior-participacao-eleitoral-inicial-em-45-anos/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "mundo",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Israel registra maior participação eleitoral inicial em 45 anos",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/israel-registra-maior-participacao-eleitoral-inicial-em-45-anos/",
+          "publicado_em": "2026-10-27T12:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.4,
+      "score_reels": 56.5,
+      "score": 39.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.058,
+        "calor": 0.419,
+        "potencial_reels": 0.77
+      },
+      "reels_detalhe": {
+        "familias": {
+          "espanto": [
+            "maior"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de espanto; tem número no título",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.4
+    },
+    {
+      "slug": "choque-eleitoral-deve-se-acomodar-mas-mercado-cobra-compromi",
+      "id": "f1c90f5b508c7c4c",
+      "titulo": "Choque eleitoral deve se acomodar, mas mercado cobra compromisso fiscal",
+      "resumo": "Analistas veem acomodação depois do tombo, condicionada a sinais fiscais do governo; Ibovespa ainda sobe 10% no ano.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/choque-eleitoral-deve-se-acomodar-mas-mercado-cobra-compromisso-fiscal/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Choque eleitoral deve se acomodar, mas mercado cobra compromisso fiscal",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/choque-eleitoral-deve-se-acomodar-mas-mercado-cobra-compromisso-fiscal/",
+          "publicado_em": "2026-10-27T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.4,
+      "score_reels": 67.7,
+      "score": 39.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.058,
+        "calor": 0.419,
+        "potencial_reels": 0.95
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.4
+    },
+    {
+      "slug": "etf-do-brasil-no-exterior-ewz-ensaia-recuperacao-apos-tombo",
+      "id": "e078bbf65ecbd421",
+      "titulo": "ETF do Brasil no exterior EWZ ensaia recuperação após tombo histórico",
+      "resumo": "No pré-mercado de NY, o EWZ subia cerca de 0,5% depois de cair 19,8% na segunda.",
+      "url": "https://www.infomoney.com.br/mercados/etf-brasil-exterior-ewz-recuperacao-tombo-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T07:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T07:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "ETF do Brasil no exterior EWZ ensaia recuperação após tombo histórico",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/etf-brasil-exterior-ewz-recuperacao-tombo-27102026/",
+          "publicado_em": "2026-10-27T07:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.3,
+      "score_reels": 70.4,
+      "score": 39.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.038,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ],
+          "espanto": [
+            "historico"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso, espanto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.3
+    },
+    {
+      "slug": "amorim-rebate-suspeita-de-trump-so-se-ele-esta-se-referindo",
+      "id": "f5943fe826c5d61c",
+      "titulo": "Amorim rebate suspeita de Trump: \"Só se ele está se referindo à Meta\"",
+      "resumo": "O assessor de Lula ironiza a acusação e lembra as suspeitas, levadas ao TSE, de interferência de big techs contra a campanha petista.",
+      "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/eleicoes/amorim-rebate-suspeita-de-trump-so-se-ele-esta-se-referindo-a-meta/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T11:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T11:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Amorim rebate suspeita de Trump: \"Só se ele está se referindo à Meta\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/eleicoes/amorim-rebate-suspeita-de-trump-so-se-ele-esta-se-referindo-a-meta/",
+          "publicado_em": "2026-10-27T11:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.3,
+      "score_reels": 11.8,
+      "score": 39.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.053,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.3
+    },
+    {
+      "slug": "trump-assume-posicao-ambigua-sobre-reeleicao-de-lula",
+      "id": "c422cf7c68e765f1",
+      "titulo": "Trump assume posição ambígua sobre reeleição de Lula",
+      "resumo": "EUA ainda não reconheceram o resultado, enquanto China, França, Espanha, Portugal e Alemanha já parabenizaram Lula; para o Planalto, o reconhecimento estrangeiro não altera a validade da eleição.",
+      "url": "https://www.cnnbrasil.com.br/blogs/lourival-santanna/internacional/trump-assume-posicao-ambigua-sobre-reeleicao-de-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Trump assume posição ambígua sobre reeleição de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/lourival-santanna/internacional/trump-assume-posicao-ambigua-sobre-reeleicao-de-lula/",
+          "publicado_em": "2026-10-27T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.2,
+      "score_reels": 11.7,
+      "score": 39.2,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.049,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.2
+    },
+    {
+      "slug": "essas-quatro-acoes-zeraram-os-ganhos-no-ano-apos-reeleicao-d",
+      "id": "17685466435f0018",
+      "titulo": "Essas quatro ações zeraram os ganhos no ano após reeleição de Lula",
+      "resumo": "Papéis que acumulavam alta em 2026 devolveram tudo em dois pregões.",
+      "url": "https://exame.com/invest/mercados/essas-quatro-acoes-zeraram-os-ganhos-no-ano-apos-reeleicao-de-lula/",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T16:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T16:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Essas quatro ações zeraram os ganhos no ano após reeleição de Lula",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/essas-quatro-acoes-zeraram-os-ganhos-no-ano-apos-reeleicao-de-lula/",
+          "publicado_em": "2026-10-27T16:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.2,
+      "score_reels": 12.3,
+      "score": 39.2,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.081,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "mercado",
+          "aviso": "Financeiro: não é recomendação de investimento — diga isso na tela."
+        }
+      ],
+      "explicacao": "fonte Exame; só Exame publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.2
+    },
+    {
+      "slug": "cotado-para-fazenda-fonteles-sinaliza-disposicao-de-ir-a-esp",
+      "id": "3015e46537e5f483",
+      "titulo": "Cotado para Fazenda, Fonteles sinaliza disposição de ir à Esplanada",
+      "resumo": "Governador reeleito do Piauí é visto como nome técnico, com aceitação entre investidores; uma ala do governo prefere Alckmin.",
+      "url": "https://www.cnnbrasil.com.br/politica/cotado-para-fazenda-fonteles-sinaliza-disposicao-de-ir-a-esplanada/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T08:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T08:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Cotado para Fazenda, Fonteles sinaliza disposição de ir à Esplanada",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/politica/cotado-para-fazenda-fonteles-sinaliza-disposicao-de-ir-a-esplanada/",
+          "publicado_em": "2026-10-27T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 39.0,
+      "score_reels": 67.1,
+      "score": 39.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.042,
+        "calor": 0.419,
+        "potencial_reels": 0.946
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "impostorenda"
+          ],
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso, utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 39.0
+    },
+    {
+      "slug": "quais-sao-os-principais-candidatos-que-disputam-a-eleicao-de",
+      "id": "71ea3d3eee2bc431",
+      "titulo": "Quais são os principais candidatos que disputam a eleição de Israel?",
+      "resumo": "Likud e aliados de direita contra a aliança de Gadi Eisenkot, que pode depender dos partidos árabes para chegar às 61 cadeiras.",
+      "url": "https://www.cnnbrasil.com.br/internacional/quais-sao-os-principais-candidatos-que-disputam-a-eleicao-de-israel/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "mundo",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T02:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T02:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Quais são os principais candidatos que disputam a eleição de Israel?",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/quais-sao-os-principais-candidatos-que-disputam-a-eleicao-de-israel/",
+          "publicado_em": "2026-10-27T02:00:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 38.6,
+      "score_reels": 8.2,
+      "score": 38.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.025,
+        "calor": 0.419,
+        "potencial_reels": 0.0
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {},
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 38.6
+    },
+    {
+      "slug": "apple-anuncia-macbook-pro-e-imac-de-24-polegadas-com-chip-m6",
+      "id": "1c5b9f645d0ed7ec",
+      "titulo": "Apple anuncia MacBook Pro e iMac de 24 polegadas com chip M6; veja preços",
+      "resumo": "Pré-venda começa em 28/10 e vendas nos EUA em 6/11; o iPad mini OLED já tinha sido anunciado a partir de R$ 8.499.",
+      "url": "https://tecnoblog.net/noticias/apple-anuncia-macbook-pro-e-imac-de-24-polegadas-com-chip-m6-veja-precos/",
+      "fonte_principal": "Tecnoblog",
+      "fontes": [
+        "Tecnoblog"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "tecnologia",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T14:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T14:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Apple anuncia MacBook Pro e iMac de 24 polegadas com chip M6; veja preços",
+          "fonte": "Tecnoblog",
+          "url": "https://tecnoblog.net/noticias/apple-anuncia-macbook-pro-e-imac-de-24-polegadas-com-chip-m6-veja-precos/",
+          "publicado_em": "2026-10-27T14:00:00-03:00",
+          "pais": "US",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 38.1,
+      "score_reels": 71.0,
+      "score": 38.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.74,
+        "recencia": 0.069,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "precos"
+          ],
+          "utilidade": [
+            "comeca"
+          ],
+          "tecnologia": [
+            "apple",
+            "chip"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "valor_em_dinheiro": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Tecnoblog; só Tecnoblog publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso, utilidade, tecnologia; tem número no título; tem valor em dinheiro",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 38.1
+    },
+    {
+      "slug": "bc-diz-que-estabilidade-financeira-nao-esta-em-risco",
+      "id": "2b282db60abcd054",
+      "titulo": "BC diz que estabilidade financeira não está em risco",
+      "resumo": "No Relatório de Estabilidade Financeira, o BC vê capital e liquidez confortáveis apesar da piora do crédito das famílias; 73% dos bancos confiam na resiliência do sistema e citam o risco fiscal como principal temor.",
+      "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
+      "fonte_principal": "Agência Brasil",
+      "fontes": [
+        "Agência Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "BC diz que estabilidade financeira não está em risco",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/banco-central-diz-que-estabilidade-financeira-nao-esta-em-risco",
+          "publicado_em": "2026-10-27T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 37.0,
+      "score_reels": 70.8,
+      "score": 37.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.7,
+        "recencia": 0.058,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "credito"
+          ],
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Agência Brasil; só Agência Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso, utilidade; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 37.0
+    }
+  ],
+  "descartadas": [
+    {
+      "slug": "tarcisio-reconhecer-eleicao-nao-significa-calar-sobre-excess",
+      "id": "3533bf9fb161f6c1",
+      "titulo": "Tarcísio: \"Reconhecer eleição não significa calar sobre excessos\"",
+      "resumo": "Tarcísio cita uso da máquina, programas lançados fora do prazo e interferência do Judiciário, e pede que a oposição una forças.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/tarcisio-reconhecer-eleicao-nao-significa-calar-sobre-excessos/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T19:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T19:00:00-03:00",
+      "janela_horas": 0.5,
+      "velocidade": 4.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Tarcísio: \"Reconhecer eleição não significa calar sobre excessos\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/tarcisio-reconhecer-eleicao-nao-significa-calar-sobre-excessos/",
+          "publicado_em": "2026-10-27T19:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Tarcísio reconhece resultado da eleição e pede \"oposição vigilante\"",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-reconhece-resultado-da-eleicao-e-pede-oposicao-vigilante/",
+          "publicado_em": "2026-10-27T19:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 55.9,
+      "score_reels": 64.4,
+      "score": 55.9,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.816,
+        "recencia": 0.104,
+        "calor": 0.803,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "prazo"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "2 veículos cobrindo; fonte CNN Brasil; 2 matérias em 0.5h",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 55.9,
+      "motivo_descarte": "ja foi pauta em 2026-10-27"
+    },
+    {
+      "slug": "dolar-hoje-cai-mais-de-1-a-r-5-34-apos-forte-alta-registrada",
+      "id": "fcf3c42c01abdbc9",
+      "titulo": "Dólar hoje cai mais de 1%, a R$ 5,34, após forte alta registrada com vitória de Lula",
+      "resumo": "Fechamento: R$ 5,3488 (−1,07%). Durigan diz ter pedido a Lula uma sinalização ao mercado.",
+      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T17:30:00-03:00",
+      "ultima_publicacao": "2026-10-27T17:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Dólar hoje cai mais de 1%, a R$ 5,34, após forte alta registrada com vitória de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-27102026/",
+          "publicado_em": "2026-10-27T17:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.7,
+      "score_reels": 71.4,
+      "score": 40.7,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.092,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.7,
+      "motivo_descarte": "ja foi pauta em 2026-10-27"
+    },
+    {
+      "slug": "prefixados-do-tesouro-caem-ate-49-pontos-base-apos-recorde-m",
+      "id": "4d277de492f5949e",
+      "titulo": "Prefixados do Tesouro caem até 49 pontos-base após recorde, mas IPCA+ longos sobem",
+      "resumo": "Taxas dos títulos prefixados recuam depois do pico de segunda; papéis atrelados à inflação de prazo longo seguem em alta.",
+      "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-27102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T17:00:00-03:00",
+      "ultima_publicacao": "2026-10-27T17:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Prefixados do Tesouro caem até 49 pontos-base após recorde, mas IPCA+ longos sobem",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/tesouro-direto-abertura-fechamento-27102026/",
+          "publicado_em": "2026-10-27T17:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.6,
+      "score_reels": 71.3,
+      "score": 40.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.088,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "inflacao"
+          ],
+          "utilidade": [
+            "prazo"
+          ],
+          "espanto": [
+            "recorde"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso, utilidade, espanto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.6,
+      "motivo_descarte": "ja foi pauta em 2026-10-27"
+    },
+    {
+      "slug": "analise-netanyahu-perdeu-maioria-mas-caminho-de-rival-e-comp",
+      "id": "d5b9225abbfa8bbb",
+      "titulo": "Análise: Netanyahu perdeu maioria, mas caminho de rival é complicado",
+      "resumo": "Bloco do premiê cai de 68 para 50 cadeiras na boca de urna; Eisenkot depende dos partidos árabes para formar governo. Cerca de 5,7 milhões votaram.",
+      "url": "https://www.cnnbrasil.com.br/internacional/analise-netanyahu-perdeu-maioria-mas-caminho-de-rival-e-complicado/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "mundo",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-27T18:30:00-03:00",
+      "ultima_publicacao": "2026-10-27T18:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Análise: Netanyahu perdeu maioria, mas caminho de rival é complicado",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/analise-netanyahu-perdeu-maioria-mas-caminho-de-rival-e-complicado/",
+          "publicado_em": "2026-10-27T18:30:00-03:00",
+          "pais": "IL",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.5,
+      "score_reels": 12.8,
+      "score": 40.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.1,
+        "calor": 0.419,
+        "potencial_reels": 0.053
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "valor_em_dinheiro": true
+        },
+        "freio": {
+          "fator": 0.75,
+          "termos": [
+            "analise"
+          ]
+        }
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem valor em dinheiro; freio de 0.75 (termo \"analise\")",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.5,
+      "motivo_descarte": "ja foi pauta em 2026-10-27"
+    }
+  ],
+  "preferencias": {
+    "temas": [],
+    "regioes": [],
+    "peso": 0.35
+  },
+  "regioes": {
+    "estados unidos": [
+      "eua",
+      "usa",
+      "united states",
+      "washington",
+      "trump",
+      "white house",
+      "casa branca",
+      "fed",
+      "federal reserve",
+      "american",
+      "americans",
+      "americano",
+      "americana",
+      "americanos",
+      "wall street",
+      "nasdaq",
+      "pentagon",
+      "pentagono",
+      "california",
+      "texas",
+      "new york",
+      "novayork",
+      "nova york",
+      "biden",
+      "republicano",
+      "democrata"
+    ],
+    "reino unido": [
+      "reino unido",
+      "united kingdom",
+      "britain",
+      "british",
+      "britanico",
+      "britanica",
+      "britanicos",
+      "london",
+      "londres",
+      "england",
+      "inglaterra",
+      "scotland",
+      "escocia",
+      "wales",
+      "gales",
+      "downing street",
+      "westminster",
+      "libra esterlina",
+      "king charles",
+      "rei charles",
+      "starmer"
+    ],
+    "europa": [
+      "europa",
+      "europe",
+      "european",
+      "europeu",
+      "europeia",
+      "europeus",
+      "ue",
+      "brussels",
+      "bruxelas",
+      "germany",
+      "alemanha",
+      "german",
+      "alemao",
+      "alema",
+      "france",
+      "franca",
+      "french",
+      "frances",
+      "francesa",
+      "italy",
+      "italia",
+      "spain",
+      "espanha",
+      "portugal",
+      "paris",
+      "berlim",
+      "berlin",
+      "madri",
+      "madrid",
+      "lisboa",
+      "lisbon",
+      "roma",
+      "rome",
+      "otan",
+      "nato",
+      "von der leyen",
+      "bce",
+      "ecb",
+      "zona do euro",
+      "eurozone"
+    ],
+    "america latina": [
+      "argentina",
+      "argentino",
+      "argentina",
+      "chile",
+      "chileno",
+      "colombia",
+      "colombiano",
+      "venezuela",
+      "venezuelano",
+      "mexico",
+      "mexicano",
+      "peru",
+      "peruano",
+      "bolivia",
+      "boliviano",
+      "uruguai",
+      "uruguay",
+      "paraguai",
+      "paraguay",
+      "equador",
+      "ecuador",
+      "cuba",
+      "buenos aires",
+      "mercosul",
+      "mercosur",
+      "latin america",
+      "america latina",
+      "latino",
+      "latina",
+      "milei",
+      "maduro"
+    ],
+    "asia": [
+      "china",
+      "chinese",
+      "chines",
+      "chinesa",
+      "japan",
+      "japao",
+      "japones",
+      "japonesa",
+      "india",
+      "indian",
+      "indiano",
+      "korea",
+      "coreia",
+      "coreano",
+      "taiwan",
+      "beijing",
+      "pequim",
+      "tokyo",
+      "toquio",
+      "seoul",
+      "seul",
+      "xi jinping",
+      "asia",
+      "asian",
+      "asiatico",
+      "asiatica",
+      "hong kong",
+      "singapore",
+      "singapura",
+      "vietnam",
+      "vietna",
+      "indonesia",
+      "filipinas"
+    ],
+    "oriente medio": [
+      "israel",
+      "israeli",
+      "israelis",
+      "israelense",
+      "israelenses",
+      "gaza",
+      "iran",
+      "iranian",
+      "iranians",
+      "iraniano",
+      "iraniana",
+      "iranianos",
+      "tehran",
+      "teera",
+      "palestine",
+      "palestina",
+      "palestinian",
+      "palestino",
+      "palestinos",
+      "lebanon",
+      "libano",
+      "syria",
+      "siria",
+      "saudi",
+      "arabia saudita",
+      "emirados",
+      "emirates",
+      "qatar",
+      "turkey",
+      "turquia",
+      "hamas",
+      "hezbollah",
+      "middle east",
+      "oriente medio",
+      "houthi",
+      "yemen",
+      "iemen",
+      "netanyahu",
+      "estreito de ormuz",
+      "strait of hormuz"
+    ],
+    "africa": [
+      "africa",
+      "african",
+      "africano",
+      "africana",
+      "africanos",
+      "nigeria",
+      "nigerian",
+      "egypt",
+      "egito",
+      "egipcio",
+      "ethiopia",
+      "etiopia",
+      "kenya",
+      "quenia",
+      "sudan",
+      "sudao",
+      "congo",
+      "mozambique",
+      "mocambique",
+      "angola",
+      "south africa",
+      "africa do sul",
+      "sul-africano"
+    ]
+  },
+  "diagnostico": [],
+  "metricas": {
+    "itens_coletados": 110,
+    "itens_lidos": 280,
+    "fontes_lidas": 12,
+    "janela_horas": 48,
+    "descartados_antigos": 146,
+    "descartados_sem_data": 24,
+    "itens_ineditos": 110,
+    "pautas_identificadas": 31,
+    "pautas_selecionadas": 6,
+    "roteiros_gerados": 0,
+    "fontes_ativas": 6,
+    "feeds_ok": 0,
+    "feeds_total": 0,
+    "distribuicao_editoria": {
+      "politica": 2,
+      "economia": 2,
+      "mundo": 2
+    },
+    "origem_itens": {
+      "agente": 110
+    }
+  }
+}

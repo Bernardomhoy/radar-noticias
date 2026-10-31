@@ -1,0 +1,411 @@
+{
+  "_doc": "Registro de fontes. peso = credibilidade/alcance editorial (0-1). pais: BR ou MUNDO. idioma: pt/en/es. Fontes com ativo=false ficam fora da coleta (as de língua inglesa, desde que o radar passou a ser só em português). Os feeds novos ainda não foram testados a partir de uma rede liberada: o diagnóstico de cada rodada aponta os que falharem.",
+  "fontes": [
+    {
+      "id": "g1",
+      "nome": "g1",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.95,
+      "editoria": "geral",
+      "rss": [
+        "https://g1.globo.com/rss/g1/",
+        "https://g1.globo.com/rss/g1/politica/",
+        "https://g1.globo.com/rss/g1/economia/",
+        "https://g1.globo.com/rss/g1/mundo/",
+        "https://g1.globo.com/rss/g1/tecnologia/"
+      ]
+    },
+    {
+      "id": "folha",
+      "nome": "Folha de S.Paulo",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.95,
+      "editoria": "geral",
+      "rss": [
+        "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml",
+        "https://feeds.folha.uol.com.br/poder/rss091.xml",
+        "https://feeds.folha.uol.com.br/mercado/rss091.xml",
+        "https://feeds.folha.uol.com.br/mundo/rss091.xml"
+      ]
+    },
+    {
+      "id": "estadao",
+      "nome": "Estadão",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.92,
+      "editoria": "geral",
+      "rss": [
+        "https://www.estadao.com.br/arc/outboundfeeds/feeds/sitemap/rss/?outputType=xml"
+      ]
+    },
+    {
+      "id": "uol",
+      "nome": "UOL",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.85,
+      "editoria": "geral",
+      "rss": [
+        "https://rss.uol.com.br/feed/noticias.xml"
+      ]
+    },
+    {
+      "id": "agenciabrasil",
+      "nome": "Agência Brasil (EBC)",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.9,
+      "editoria": "oficial",
+      "rss": [
+        "https://agenciabrasil.ebc.com.br/rss/geral/feed.xml",
+        "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",
+        "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml"
+      ]
+    },
+    {
+      "id": "cnnbrasil",
+      "nome": "CNN Brasil",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.82,
+      "editoria": "geral",
+      "rss": [
+        "https://www.cnnbrasil.com.br/feed/"
+      ]
+    },
+    {
+      "id": "poder360",
+      "nome": "Poder360",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.8,
+      "editoria": "politica",
+      "rss": [
+        "https://www.poder360.com.br/feed/"
+      ]
+    },
+    {
+      "id": "infomoney",
+      "nome": "InfoMoney",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.84,
+      "editoria": "economia",
+      "rss": [
+        "https://www.infomoney.com.br/feed/"
+      ]
+    },
+    {
+      "id": "valor",
+      "nome": "Valor Econômico",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.9,
+      "editoria": "economia",
+      "rss": [
+        "https://pox.globo.com/rss/valor/"
+      ]
+    },
+    {
+      "id": "exame",
+      "nome": "Exame",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.78,
+      "editoria": "economia",
+      "rss": [
+        "https://exame.com/feed/"
+      ]
+    },
+    {
+      "id": "nexo",
+      "nome": "Nexo Jornal",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.8,
+      "editoria": "contexto",
+      "rss": [
+        "https://www.nexojornal.com.br/rss"
+      ]
+    },
+    {
+      "id": "intercept",
+      "nome": "Intercept Brasil",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.72,
+      "editoria": "investigacao",
+      "rss": [
+        "https://www.intercept.com.br/feed/"
+      ]
+    },
+    {
+      "id": "tecnoblog",
+      "nome": "Tecnoblog",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.74,
+      "editoria": "tecnologia",
+      "rss": [
+        "https://tecnoblog.net/feed/"
+      ]
+    },
+    {
+      "id": "canaltech",
+      "nome": "Canaltech",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.7,
+      "editoria": "tecnologia",
+      "rss": [
+        "https://canaltech.com.br/rss/"
+      ]
+    },
+    {
+      "id": "ge",
+      "nome": "ge (Globo Esporte)",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.8,
+      "editoria": "esporte",
+      "rss": [
+        "https://ge.globo.com/rss/ge/"
+      ]
+    },
+    {
+      "id": "bbcbrasil",
+      "nome": "BBC News Brasil",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.9,
+      "editoria": "geral",
+      "rss": [
+        "https://feeds.bbci.co.uk/portuguese/rss.xml"
+      ]
+    },
+    {
+      "id": "dw_br",
+      "nome": "DW Brasil",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.82,
+      "editoria": "mundo",
+      "rss": [
+        "https://rss.dw.com/rdf/rss-br-all"
+      ]
+    },
+    {
+      "id": "reuters_world",
+      "nome": "Reuters",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.96,
+      "editoria": "mundo",
+      "rss": [
+        "https://news.google.com/rss/search?q=when:1d+site:reuters.com&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "apnews",
+      "nome": "AP News",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.95,
+      "editoria": "mundo",
+      "rss": [
+        "https://news.google.com/rss/search?q=when:1d+site:apnews.com&hl=en-US&gl=US&ceid=US:en"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "bbcworld",
+      "nome": "BBC World",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.93,
+      "editoria": "mundo",
+      "rss": [
+        "https://feeds.bbci.co.uk/news/world/rss.xml"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "guardian",
+      "nome": "The Guardian",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.88,
+      "editoria": "mundo",
+      "rss": [
+        "https://www.theguardian.com/world/rss"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "aljazeera",
+      "nome": "Al Jazeera",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.85,
+      "editoria": "mundo",
+      "rss": [
+        "https://www.aljazeera.com/xml/rss/all.xml"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "elpais",
+      "nome": "El País",
+      "pais": "MUNDO",
+      "idioma": "es",
+      "peso": 0.88,
+      "editoria": "mundo",
+      "rss": [
+        "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "nyt_world",
+      "nome": "The New York Times",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.92,
+      "editoria": "mundo",
+      "rss": [
+        "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "techcrunch",
+      "nome": "TechCrunch",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.78,
+      "editoria": "tecnologia",
+      "rss": [
+        "https://techcrunch.com/feed/"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "theverge",
+      "nome": "The Verge",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.78,
+      "editoria": "tecnologia",
+      "rss": [
+        "https://www.theverge.com/rss/index.xml"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "arstechnica",
+      "nome": "Ars Technica",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.8,
+      "editoria": "tecnologia",
+      "rss": [
+        "https://feeds.arstechnica.com/arstechnica/index"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "nature",
+      "nome": "Nature News",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.9,
+      "editoria": "ciencia",
+      "rss": [
+        "https://www.nature.com/nature.rss"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "cnbc",
+      "nome": "CNBC",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "peso": 0.8,
+      "editoria": "economia",
+      "rss": [
+        "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"
+      ],
+      "ativo": false
+    },
+    {
+      "id": "rfi_br",
+      "nome": "RFI Brasil",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "peso": 0.84,
+      "editoria": "mundo",
+      "rss": [
+        "https://www.rfi.fr/br/rss"
+      ]
+    },
+    {
+      "id": "euronews_pt",
+      "nome": "Euronews (português)",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "peso": 0.8,
+      "editoria": "mundo",
+      "rss": [
+        "https://pt.euronews.com/rss"
+      ]
+    },
+    {
+      "id": "cnnbrasil_int",
+      "nome": "CNN Brasil Internacional",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "peso": 0.82,
+      "editoria": "mundo",
+      "rss": [
+        "https://www.cnnbrasil.com.br/internacional/feed/"
+      ]
+    },
+    {
+      "id": "agbr_int",
+      "nome": "Agência Brasil Internacional",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "peso": 0.88,
+      "editoria": "mundo",
+      "rss": [
+        "https://agenciabrasil.ebc.com.br/rss/internacional/feed.xml"
+      ]
+    },
+    {
+      "id": "olhardigital",
+      "nome": "Olhar Digital",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.7,
+      "editoria": "tecnologia",
+      "rss": [
+        "https://olhardigital.com.br/feed/"
+      ]
+    },
+    {
+      "id": "tecmundo",
+      "nome": "TecMundo",
+      "pais": "BR",
+      "idioma": "pt",
+      "peso": 0.72,
+      "editoria": "tecnologia",
+      "rss": [
+        "https://rss.tecmundo.com.br/feed"
+      ]
+    }
+  ]
+}

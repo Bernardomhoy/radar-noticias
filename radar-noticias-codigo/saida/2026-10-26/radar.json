@@ -1,0 +1,4612 @@
+{
+  "versao": "1.0.0",
+  "dia": "2026-10-26",
+  "gerado_em": "2026-10-26T22:32:01-03:00",
+  "config": {
+    "perfil": {
+      "nome_canal": "Radar",
+      "apresentador": "voce",
+      "tom": "direto, informal-profissional, sem jargão, zero sensacionalismo",
+      "duracao_alvo_s": 45,
+      "duracao_min_s": 30,
+      "duracao_max_s": 75,
+      "palavras_por_segundo": 2.6,
+      "assinatura_cta": "Segue o perfil: amanhã às 6 da manhã tem radar novo.",
+      "evitar": [
+        "linguagem de pânico",
+        "adjetivo sem dado",
+        "palpite com cara de fato",
+        "número sem fonte"
+      ]
+    },
+    "selecao": {
+      "pautas_por_dia": 6,
+      "roteiros_por_dia": 3,
+      "min_br": 4,
+      "max_mundo": 3,
+      "max_por_editoria": 2,
+      "janela_horas": 48,
+      "dias_anti_repeticao": 5,
+      "min_mundo": 1,
+      "exigir_data": true,
+      "_doc_janela": "So entra materia publicada nas ultimas janela_horas. Com exigir_data, item sem data (nem informada, nem deduzivel pela URL) fica de fora: sem data nao da para garantir que e atual.",
+      "somente_portugues": true,
+      "aceitar_traducao": true,
+      "_doc_idioma": "somente_portugues: matéria com título em outro idioma sai. aceitar_traducao: a que o agente traduziu (titulo_original preenchido) fica, marcada como traduzida."
+    },
+    "editorias": [
+      "politica",
+      "economia",
+      "mundo",
+      "tecnologia",
+      "ciencia",
+      "saude",
+      "esporte",
+      "cultura",
+      "cotidiano",
+      "meio-ambiente"
+    ],
+    "limiar_cluster": 0.4,
+    "pesos_noticia": {
+      "corroboracao": 0.34,
+      "peso_fonte": 0.2,
+      "recencia": 0.26,
+      "calor": 0.2
+    },
+    "pesos_reels": {
+      "potencial_reels": 0.62,
+      "recencia": 0.18,
+      "corroboracao": 0.2
+    },
+    "_doc_scores": "score_noticia mede importancia jornalistica (quem publicou, quantos, quao fresco, quao quente). score_reels mede o que rende video curto. O briefing e ordenado pelo primeiro; a fila de gravacao, pelo segundo.",
+    "roteiros": {
+      "ativo": false,
+      "_doc": "Roteiro de reels desligado a pedido. O agente roteirista continua no repositorio: mude para true e volta tudo (fila de gravacao, secao no briefing, score de reels no painel)."
+    }
+  },
+  "pautas": [
+    {
+      "slug": "ibovespa-desaba-13-apos-eleicao-em-dia-de-circuit-breaker-do",
+      "id": "533815318ce6c9e1",
+      "titulo": "Ibovespa desaba 13% após eleição, em dia de circuit breaker; dólar dispara 8%",
+      "resumo": "Fechamento: Ibovespa caiu 13,88%, a 176.608 pontos, maior perda desde março de 2020. Na mínima foi a 169.516 (-17%). Dólar subiu cerca de 8%, a R$ 5,40.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "CNN Brasil",
+        "Exame",
+        "InfoMoney"
+      ],
+      "n_fontes": 3,
+      "n_itens": 13,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T08:30:00-03:00",
+      "ultima_publicacao": "2026-10-26T18:20:00-03:00",
+      "janela_horas": 9.83,
+      "velocidade": 1.32,
+      "datas_conhecidas": 13,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa desaba 13% após eleição, em dia de circuit breaker; dólar dispara 8%",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-26102026/",
+          "publicado_em": "2026-10-26T18:10:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Bolsa tomba 15% após vitória de Lula e registra uma das maiores quedas da história",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/bolsa-tomba-15-apos-vitoria-de-lula-e-registra-uma-das-maiores-quedas-da-historia/",
+          "publicado_em": "2026-10-26T15:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "170 mil é o piso? O que esperar para o Ibovespa após forte queda com vitória de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-170-mil-pontos-e-o-piso-o-que-esperar-para-indice-apos-forte-queda-com-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T14:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Day Trade hoje (26): Ibovespa sob risco de forte queda após reeleição de Lulaa",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/mercados-day-trade-hoje-analistas-26102026/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa desaba 17% e vai a 170 mil pontos após vitória de Lula nas eleições",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-desaba-17-e-vai-a-170-mil-pontos-apos-vitoria-de-lula-nas-eleicoes/",
+          "publicado_em": "2026-10-26T10:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Bolsa em circuit breaker: qual a última vez que o mecanismo foi acionado?",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/bolsa-em-circuit-breaker-qual-a-ultima-vez-que-o-mecanismo-foi-acionado/",
+          "publicado_em": "2026-10-26T10:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "B3 amplia limite de queda do Ibovespa futuro de 10% para 15% após vitória de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/b3-altera-limite-inferior-de-negociacao-de-contratos-futuros-de-ibovespa-para-15/",
+          "publicado_em": "2026-10-26T08:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Dólar sobe 8% e Bolsa tem maior queda desde a pandemia após vitória de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-26-outubro-2026/",
+          "publicado_em": "2026-10-26T18:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Bolsa caminha para uma das maiores quedas desde o Plano Real",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/bolsa-caminha-para-uma-das-maiores-quedas-desde-o-plano-real/",
+          "publicado_em": "2026-10-26T14:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa fecha em baixa de 13,9%, maior queda diária em 6 anos; dólar dispara 8,2%",
+          "fonte": "Exame",
+          "url": "https://exame.com/live-blog/invest/bolsa-dolar-mercado-26-outubro-apos-eleicoes",
+          "publicado_em": "2026-10-26T18:20:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa cai mais 17% após 'circuit breaker' e dólar sobe 10%; ações caem até 60%",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/ibovespa-cai-mais-17-apos-circuit-breaker-e-dolar-sobe-10-acoes-caem-ate-60/",
+          "publicado_em": "2026-10-26T12:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "B3 acionou circuit breaker na pré-abertura com Ibovespa indicando queda acima de 20%",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/b3-acionou-circuit-breaker-na-pre-abertura-com-ibovespa-indicando-queda-acima-de-20/",
+          "publicado_em": "2026-10-26T10:10:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Ibovespa futuro desaba 15% e juros disparam após reeleição de Lula",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/ibovespa-futuro-desaba-15-e-juros-disparam-apos-reeleicao-de-lula/",
+          "publicado_em": "2026-10-26T09:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 77.6,
+      "score_reels": 90.2,
+      "score": 77.6,
+      "componentes": {
+        "corroboracao": 0.774,
+        "peso_fonte": 0.831,
+        "recencia": 0.705,
+        "calor": 0.819,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ],
+          "espanto": [
+            "maior"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "3 veículos cobrindo; ainda fresca; fonte InfoMoney",
+      "explicacao_reels": "gancho de bolso, espanto; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 77.6,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "tesouro-amplia-intervencao-e-anuncia-recompra-de-titulos-atr",
+      "id": "5191850a2c3c5a42",
+      "titulo": "Tesouro amplia intervenção e anuncia recompra de títulos atrelados à inflação",
+      "resumo": "Segunda recompra do dia, agora de NTN-B, depois de cancelar os leilões da semana.",
+      "url": "https://infomoney.com.br/onde-investir/tesouro-amplia-intervencao-e-anuncia-recompra-de-titulos-atrelados-a-inflacao",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "Exame",
+        "InfoMoney"
+      ],
+      "n_fontes": 2,
+      "n_itens": 4,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T16:30:00-03:00",
+      "janela_horas": 4.5,
+      "velocidade": 0.89,
+      "datas_conhecidas": 4,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Tesouro amplia intervenção e anuncia recompra de títulos atrelados à inflação",
+          "fonte": "InfoMoney",
+          "url": "https://infomoney.com.br/onde-investir/tesouro-amplia-intervencao-e-anuncia-recompra-de-titulos-atrelados-a-inflacao",
+          "publicado_em": "2026-10-26T16:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Tesouro intervém no mercado e recompra até 15 milhões de títulos prefixados",
+          "fonte": "InfoMoney",
+          "url": "https://infomoney.com.br/onde-investir/tesouro-intervem-no-mercado-e-recompra-ate-15-milhoes-de-titulos-prefixados",
+          "publicado_em": "2026-10-26T15:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Após vitória de Lula, Tesouro cancela leilões de prefixados e IPCA+ da semana",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/onde-investir/apos-vitoria-de-lula-tesouro-cancela-leiloes-de-prefixados-e-ipca-da-semana/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Tesouro suspende leilões de títulos prefixados e atrelados à inflação após vitória de Lula",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/tesouro-suspende-leiloes-de-titulos-prefixados-e-atrelados-a-inflacao-apos-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 68.7,
+      "score_reels": 77.1,
+      "score": 68.7,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.834,
+        "recencia": 0.605,
+        "calor": 0.77,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "inflacao"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; fonte InfoMoney; ainda fresca",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 68.7,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "flavio-nao-reconhece-vitoria-de-lula-e-tentara-anulacao-do-p",
+      "id": "cce02f8f3b3ca8c1",
+      "titulo": "Flávio não reconhece vitória de Lula e tentará anulação do pleito",
+      "resumo": "",
+      "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-nao-reconhece-vitoria-de-lula-e-tentara-anulacao-do-pleito",
+      "fonte_principal": "Agência Brasil (EBC)",
+      "fontes": [
+        "Agência Brasil (EBC)",
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 3,
+      "n_itens": 5,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T23:00:00-03:00",
+      "janela_horas": 1.0,
+      "velocidade": 5.0,
+      "datas_conhecidas": 5,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Flávio não reconhece vitória de Lula e tentará anulação do pleito",
+          "fonte": "Agência Brasil (EBC)",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/flavio-nao-reconhece-vitoria-de-lula-e-tentara-anulacao-do-pleito",
+          "publicado_em": "2026-10-25T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio Bolsonaro diz que vai pedir anulação das eleições",
+          "fonte": "Agência Brasil (EBC)",
+          "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/politica/audio/2026-10/flavio-bolsonaro-diz-que-vai-pedir-anulacao-das-eleicoes",
+          "publicado_em": "2026-10-25T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Corinthians parece o Bolsonaro, só perde, diz Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/corinthians-parece-o-bolsonaro-so-perde-diz-lula/",
+          "publicado_em": "2026-10-25T23:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio não reconhece vitória de Lula e diz que pedirá anulação das eleições",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-diz-que-pedira-anulacao-das-eleicoes/",
+          "publicado_em": "2026-10-25T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Flávio não aceita derrota e diz que pedirá a anulação do resultado",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-nao-aceita-derrota-e-diz-que-pedira-a-anulacao-do-resultado/",
+          "publicado_em": "2026-10-25T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 67.6,
+      "score_reels": 21.1,
+      "score": 67.6,
+      "componentes": {
+        "corroboracao": 0.774,
+        "peso_fonte": 0.879,
+        "recencia": 0.141,
+        "calor": 1.0,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "3 veículos cobrindo; 5 matérias em 1.0h; peso de fonte alto (Agência Brasil (EBC))",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 67.6,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "apple-lanca-ipad-mini-com-tela-oled-e-chip-a20-pro-veja-prec",
+      "id": "d301b2eae9e2647f",
+      "titulo": "Apple lança iPad Mini com tela OLED e chip A20 Pro; veja preços no Brasil",
+      "resumo": "",
+      "url": "https://tecnoblog.net/noticias/apple-lanca-ipad-mini-com-tela-oled-e-chip-a20-pro-veja-precos-no-brasil",
+      "fonte_principal": "Tecnoblog",
+      "fontes": [
+        "TechCrunch",
+        "Tecnoblog"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "tecnologia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": 0.5,
+      "velocidade": 4.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Apple lança iPad Mini com tela OLED e chip A20 Pro; veja preços no Brasil",
+          "fonte": "Tecnoblog",
+          "url": "https://tecnoblog.net/noticias/apple-lanca-ipad-mini-com-tela-oled-e-chip-a20-pro-veja-precos-no-brasil",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Apple apresenta novo iPad mini com tela OLED e chip A20 Pro mais rápido",
+          "fonte": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/26/apple-unveils-new-ipad-mini-with-oled-display-and-faster-a20-pro-chip/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "MUNDO",
+          "traduzido_de": "inglês"
+        }
+      ],
+      "score_noticia": 62.4,
+      "score_reels": 80.9,
+      "score": 62.4,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.732,
+        "recencia": 0.416,
+        "calor": 0.803,
+        "potencial_reels": 0.986
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "precos"
+          ],
+          "tecnologia": [
+            "apple",
+            "chip"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; 2 matérias em 0.5h; fonte Tecnoblog",
+      "explicacao_reels": "gancho de bolso, tecnologia; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 62.4,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "flavio-desiste-de-questionar-vitoria-de-lula-nas-urnas",
+      "id": "03ab62b9b367bdc3",
+      "titulo": "Flávio desiste de questionar vitória de Lula nas urnas",
+      "resumo": "Campanha diz, sob reserva, que não haverá pedido de anulação; a estratégia passa a ser contestar supostos abusos de poder da campanha petista, depois que MDB, Republicanos, União Brasil e PSD reconheceram o resultado.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-desiste-de-questionar-vitoria-de-lula-nas-urnas/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T20:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T20:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Flávio desiste de questionar vitória de Lula nas urnas",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-desiste-de-questionar-vitoria-de-lula-nas-urnas/",
+          "publicado_em": "2026-10-26T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 59.0,
+      "score_reels": 72.5,
+      "score": 59.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.81,
+        "calor": 0.419,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "passa a"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "publicada nas últimas horas; fonte CNN Brasil; só CNN Brasil publicou",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 59.0,
+      "virou_roteiro": false
+    },
+    {
+      "slug": "mercados-argentinos-despencam-apos-reeleicao-de-lula-no-bras",
+      "id": "0f0534daf37da121",
+      "titulo": "Mercados argentinos despencam após reeleição de Lula no Brasil",
+      "resumo": "O contágio chega a Buenos Aires: ações e títulos argentinos caem com a reação ao resultado no Brasil.",
+      "url": "https://cnnbrasil.com.br/economia/money/mercado/mercados-argentinos-despencam-apos-reeleicao-de-lula-no-brasil",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Mercados argentinos despencam após reeleição de Lula no Brasil",
+          "fonte": "CNN Brasil",
+          "url": "https://cnnbrasil.com.br/economia/money/mercado/mercados-argentinos-despencam-apos-reeleicao-de-lula-no-brasil",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "AR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 48.8,
+      "score_reels": 15.2,
+      "score": 48.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.416,
+        "calor": 0.419,
+        "potencial_reels": 0.0
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {},
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "mercado",
+          "aviso": "Financeiro: não é recomendação de investimento — diga isso na tela."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 48.8,
+      "virou_roteiro": false
+    }
+  ],
+  "roteiros": [],
+  "reservas": [
+    {
+      "slug": "dolar-hoje-dispara-8-2-aos-r-5-40-com-reacao-a-reeleicao-de",
+      "id": "6f3883729efb22e6",
+      "titulo": "Dólar hoje dispara 8,2%, aos R$ 5,40, com reação à reeleição de Lula",
+      "resumo": "Fechamento: o dólar à vista subiu 8,21%, a R$ 5,403 na venda, depois de bater R$ 5,60 pela manhã. Na sexta, a PTAX fechou em R$ 5,04.",
+      "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26102026-2/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "Exame",
+        "InfoMoney"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T09:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T17:30:00-03:00",
+      "janela_horas": 8.5,
+      "velocidade": 0.24,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Dólar hoje dispara 8,2%, aos R$ 5,40, com reação à reeleição de Lula",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-26102026-2/",
+          "publicado_em": "2026-10-26T17:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Dólar opera em alta de mais de 9% após reeleição de Lula e fica acima de R$ 5,46",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/dolar-abre-em-alta-de-mais-de-8-apos-reeleicao-de-lula-e-vai-a-quase-r-6/",
+          "publicado_em": "2026-10-26T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 64.0,
+      "score_reels": 86.1,
+      "score": 64.0,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.828,
+        "recencia": 0.657,
+        "calor": 0.474,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; ainda fresca; fonte InfoMoney",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 64.0,
+      "motivo_descarte": "cota de economia cheia"
+    },
+    {
+      "slug": "quarteto-de-aliados-sugeriu-a-flavio-reconhecer-derrota-e-li",
+      "id": "26112db4a4c0a0fb",
+      "titulo": "Quarteto de aliados sugeriu a Flávio reconhecer derrota e ligar para Lula",
+      "resumo": "Quatro pessoas próximas aconselharam Flávio a reconhecer o resultado; a sugestão foi vencida internamente.",
+      "url": "https://www.cnnbrasil.com.br/blogs/daniel-rittner/eleicoes/quarteto-de-aliados-sugeriu-a-flavio-reconhecer-derrota-e-ligar-para-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 3,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T01:50:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:00:00-03:00",
+      "janela_horas": 8.17,
+      "velocidade": 0.37,
+      "datas_conhecidas": 3,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Quarteto de aliados sugeriu a Flávio reconhecer derrota e ligar para Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/daniel-rittner/eleicoes/quarteto-de-aliados-sugeriu-a-flavio-reconhecer-derrota-e-ligar-para-lula/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Partidos aliados de Flávio reconhecem vitória de Lula na eleição",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/partidos-aliados-de-flavio-reconhecem-vitoria-de-lula-na-eleicao/",
+          "publicado_em": "2026-10-26T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Partidos reconhecem vitória de Lula",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/partidos-reconhecem-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T01:50:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 58.5,
+      "score_reels": 63.9,
+      "score": 58.5,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.817,
+        "recencia": 0.352,
+        "calor": 0.608,
+        "potencial_reels": 0.73
+      },
+      "reels_detalhe": {
+        "familias": {
+          "conflito": [
+            "derrota"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; fonte CNN Brasil; 3 matérias em 8.17h",
+      "explicacao_reels": "gancho de conflito; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 58.5,
+      "motivo_descarte": "cota de politica cheia"
+    },
+    {
+      "slug": "flavio-prepara-aije-contra-chapa-de-lula-apos-derrota-no-2-t",
+      "id": "089cdd5f10828e66",
+      "titulo": "Flávio prepara AIJE contra chapa de Lula após derrota no 2° turno",
+      "resumo": "Em vez da anulação, o senador vai acusar a campanha petista de abuso de poder político e econômico; o pedido de anulação não terá continuidade por enquanto.",
+      "url": "https://www.poder360.com.br/brasil/flavio-prepara-aije-contra-chapa-de-lula-apos-derrota-no-2-turno/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T19:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T19:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Flávio prepara AIJE contra chapa de Lula após derrota no 2° turno",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/brasil/flavio-prepara-aije-contra-chapa-de-lula-apos-derrota-no-2-turno/",
+          "publicado_em": "2026-10-26T19:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 56.9,
+      "score_reels": 69.5,
+      "score": 56.9,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.745,
+        "calor": 0.419,
+        "potencial_reels": 0.78
+      },
+      "reels_detalhe": {
+        "familias": {
+          "conflito": [
+            "derrota"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "ainda fresca; fonte Poder360; só Poder360 publicou",
+      "explicacao_reels": "gancho de conflito; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 56.9,
+      "motivo_descarte": "cota de politica cheia"
+    },
+    {
+      "slug": "tarcisio-fala-em-pacificacao-e-diz-que-flavio-tera-equipe-do",
+      "id": "0c2e710c93816d42",
+      "titulo": "Tarcísio fala em pacificação e diz que Flávio terá “equipe do coração dele”",
+      "resumo": "Fala do governador no dia da votação, quando ainda contava com a vitória do aliado.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/tarcisio-fala-em-pacificacao-e-diz-que-flavio-tera-equipe-do-coracao-dele/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 3,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T10:30:00-03:00",
+      "ultima_publicacao": "2026-10-25T11:00:00-03:00",
+      "janela_horas": 0.5,
+      "velocidade": 6.0,
+      "datas_conhecidas": 3,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Tarcísio fala em pacificação e diz que Flávio terá “equipe do coração dele”",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/tarcisio-fala-em-pacificacao-e-diz-que-flavio-tera-equipe-do-coracao-dele/",
+          "publicado_em": "2026-10-25T11:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Tarcísio vota no 2º turno e diz que \"missão é ajudar Flávio\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/tarcisio-de-freitas-governador-reeleito-de-sp-vota-no-2o-turno/",
+          "publicado_em": "2026-10-25T10:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Tarcísio vota e diz que Flávio será “presidente da pacificação”",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-vota-e-diz-que-flavio-sera-presidente-da-pacificacao/",
+          "publicado_em": "2026-10-25T10:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 56.8,
+      "score_reels": 16.3,
+      "score": 56.8,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.817,
+        "recencia": 0.052,
+        "calor": 0.914,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; 3 matérias em 0.5h; fonte CNN Brasil",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 56.8,
+      "motivo_descarte": "cota de politica cheia"
+    },
+    {
+      "slug": "alcolumbre-e-motta-reconhecem-vitoria-de-lula-mas-fazem-cobr",
+      "id": "b7d85d3653607228",
+      "titulo": "Alcolumbre e Motta reconhecem vitória de Lula, mas fazem cobranças",
+      "resumo": "Em pronunciamento conjunto, os presidentes do Senado e da Câmara falam em pacificação; Alcolumbre avisa que o Legislativo seguirá agenda própria e pode ter embates com o governo.",
+      "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-e-motta-reconhecem-vitoria-de-lula-mas-fazem-cobrancas/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Agência Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:30:00-03:00",
+      "ultima_publicacao": "2026-10-25T22:30:00-03:00",
+      "janela_horas": 0.5,
+      "velocidade": 4.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Alcolumbre e Motta reconhecem vitória de Lula, mas fazem cobranças",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-congresso/alcolumbre-e-motta-reconhecem-vitoria-de-lula-mas-fazem-cobrancas/",
+          "publicado_em": "2026-10-25T22:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Motta e Alcolumbre, líderes do Congresso Nacional, parabenizam Lula",
+          "fonte": "Agência Brasil",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/motta-e-alcolumbre-lideres-do-congresso-nacional-parabenizam-lula",
+          "publicado_em": "2026-10-25T22:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 56.0,
+      "score_reels": 17.8,
+      "score": 56.0,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.78,
+        "recencia": 0.135,
+        "calor": 0.803,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; 2 matérias em 0.5h; fonte Poder360",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 56.0
+    },
+    {
+      "slug": "lula-avalia-aceno-em-defesa-da-reducao-de-gastos-publicos",
+      "id": "a324badd797869ab",
+      "titulo": "Lula avalia aceno em defesa da redução de gastos públicos",
+      "resumo": "Diante do tombo do mercado, o presidente reeleito estuda sinalizar compromisso com corte de despesas.",
+      "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/lula-avalia-aceno-em-defesa-da-reducao-de-gastos-publicos/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T17:30:00-03:00",
+      "ultima_publicacao": "2026-10-26T17:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula avalia aceno em defesa da redução de gastos públicos",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/gustavo-uribe/eleicoes/lula-avalia-aceno-em-defesa-da-reducao-de-gastos-publicos/",
+          "publicado_em": "2026-10-26T17:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 55.0,
+      "score_reels": 73.5,
+      "score": 55.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.657,
+        "calor": 0.419,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "ainda fresca; fonte CNN Brasil; só CNN Brasil publicou",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 55.0
+    },
+    {
+      "slug": "lula-nao-escolhi-congresso-o-povo-escolheu-e-e-com-ele-que-v",
+      "id": "7c33ba3e7f8dc7ce",
+      "titulo": "Lula: Não escolhi Congresso, o povo escolheu e é com ele que vou trabalhar",
+      "resumo": "Em discurso em São Paulo após a vitória no segundo turno, Lula disse que vai trabalhar com o Congresso eleito.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/lula-nao-escolhi-congresso-o-povo-escolheu-e-e-com-ele-que-vou-trabalhar/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T20:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T21:00:00-03:00",
+      "janela_horas": 1.0,
+      "velocidade": 2.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula: Não escolhi Congresso, o povo escolheu e é com ele que vou trabalhar",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-nao-escolhi-congresso-o-povo-escolheu-e-e-com-ele-que-vou-trabalhar/",
+          "publicado_em": "2026-10-25T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Congresso é conservador e é com ele que vou trabalhar, diz Lula",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes/congresso-e-conservador-e-e-com-ele-que-vou-trabalhar-diz-lula/",
+          "publicado_em": "2026-10-25T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 53.9,
+      "score_reels": 17.5,
+      "score": 53.9,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.816,
+        "recencia": 0.119,
+        "calor": 0.683,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "2 veículos cobrindo; fonte CNN Brasil; 2 matérias em 1.0h",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 53.9
+    },
+    {
+      "slug": "apos-vitoria-de-lula-e-circuit-breaker-gavekal-ve-oportunida",
+      "id": "134cea6c6364a39b",
+      "titulo": "Após vitória de Lula e circuit breaker, Gavekal vê oportunidade no tombo dos ativos brasileiros",
+      "resumo": "A gestora vê chance de compra para estrangeiros, mas diz que o fiscal seguirá decisivo; o Congresso pode conter gastos.",
+      "url": "https://exame.com/insight/apos-vitoria-de-lula-e-circuit-breaker-gavekal-ve-oportunidade-na-ressaca-dos-ativos-brasileiros/p",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T17:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T17:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Após vitória de Lula e circuit breaker, Gavekal vê oportunidade no tombo dos ativos brasileiros",
+          "fonte": "Exame",
+          "url": "https://exame.com/insight/apos-vitoria-de-lula-e-circuit-breaker-gavekal-ve-oportunidade-na-ressaca-dos-ativos-brasileiros/p",
+          "publicado_em": "2026-10-26T17:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 53.5,
+      "score_reels": 22.2,
+      "score": 53.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.631,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "ainda fresca; fonte Exame; só Exame publicou",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 53.5
+    },
+    {
+      "slug": "o-que-lula-ja-disse-sobre-ajuste-fiscal-e-o-que-falta-esclar",
+      "id": "b0bb2b9a991f7aee",
+      "titulo": "O que Lula já disse sobre ajuste fiscal e o que falta esclarecer para o 4º mandato",
+      "resumo": "Durigan promete preservar o arcabouço e melhorar o primário aos poucos; o desequilíbrio não se resolve no primeiro ano.",
+      "url": "https://www.infomoney.com.br/politica/o-que-lula-ja-disse-sobre-ajuste-fiscal-e-o-que-falta-esclarecer-para-o-4o-mandato/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T16:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T16:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "O que Lula já disse sobre ajuste fiscal e o que falta esclarecer para o 4º mandato",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/politica/o-que-lula-ja-disse-sobre-ajuste-fiscal-e-o-que-falta-esclarecer-para-o-4o-mandato/",
+          "publicado_em": "2026-10-26T16:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 53.4,
+      "score_reels": 24.4,
+      "score": 53.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.58,
+        "calor": 0.419,
+        "potencial_reels": 0.1
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; ainda fresca; só InfoMoney publicou",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 53.4
+    },
+    {
+      "slug": "hugo-e-alcolumbre-pavimentam-reeleicao-no-congresso-com-vito",
+      "id": "353d17a0a1297891",
+      "titulo": "Hugo e Alcolumbre pavimentam reeleição no Congresso com vitória de Lula",
+      "resumo": "Hugo Motta (Republicanos-PB) e Davi Alcolumbre (União-AP) buscam se manter nos cargos. No Senado, Alcolumbre precisa reunir 41 votos para se reeleger. O PL quer a cúpula do Congresso.",
+      "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/politica/hugo-e-alcolumbre-pavimentam-reeleicao-no-congresso-com-vitoria-de-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil",
+        "Poder360"
+      ],
+      "n_fontes": 2,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T21:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T23:00:00-03:00",
+      "janela_horas": 2.0,
+      "velocidade": 1.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Hugo e Alcolumbre pavimentam reeleição no Congresso com vitória de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/politica/hugo-e-alcolumbre-pavimentam-reeleicao-no-congresso-com-vitoria-de-lula/",
+          "publicado_em": "2026-10-25T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Alcolumbre diz que Flávio é \"amigo do Senado\" e cita sua votação de 60 mi",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/alcolumbre-diz-que-flavio-e-amigo-do-senado-e-cita-sua-votacao-de-60-mi/",
+          "publicado_em": "2026-10-25T23:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 52.6,
+      "score_reels": 17.9,
+      "score": 52.6,
+      "componentes": {
+        "corroboracao": 0.613,
+        "peso_fonte": 0.816,
+        "recencia": 0.141,
+        "calor": 0.587,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "2 veículos cobrindo; fonte CNN Brasil; 2 matérias em 2.0h",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 52.6
+    },
+    {
+      "slug": "ibovespa-futuro-desaba-quase-20-apos-vitoria-de-lula-frustra",
+      "id": "1c60ff13fb2191a3",
+      "titulo": "Ibovespa Futuro desaba quase 20% após vitória de Lula frustrar expectativa do mercado",
+      "resumo": "JPMorgan espera o dólar perto de R$ 5,50 nos próximos dias; Morgan Stanley vê entre R$ 5,50 e R$ 5,70. Para o Goldman, orçamento de 2027, o nome do ministro da Fazenda e a relação com o Congresso serão centrais.",
+      "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-hoje-abertura-26102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ibovespa Futuro desaba quase 20% após vitória de Lula frustrar expectativa do mercado",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/ibovespa-futuro-hoje-abertura-26102026/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 49.2,
+      "score_reels": 77.2,
+      "score": 49.2,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.416,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 49.2
+    },
+    {
+      "slug": "minidolar-wdox26-reeleicao-de-lula-eleva-risco-de-disparada",
+      "id": "2d6c38b5e76b2adf",
+      "titulo": "Minidólar (WDOX26): reeleição de Lula eleva risco de disparada do dólar nesta segunda",
+      "resumo": "Juros futuros saltaram mais de 300 pontos-base no início do pregão e o mercado passou a precificar alta da Selic em novembro.",
+      "url": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-26102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Minidólar (WDOX26): reeleição de Lula eleva risco de disparada do dólar nesta segunda",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/minidolar-hoje-futuro-do-dolar-wdox26-26102026/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 49.2,
+      "score_reels": 72.3,
+      "score": 49.2,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.416,
+        "calor": 0.419,
+        "potencial_reels": 0.92
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "juros",
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 49.2
+    },
+    {
+      "slug": "juros-futuros-sobem-mais-de-260-pontos-base-apos-vitoria-de",
+      "id": "97c2a7f68f494068",
+      "titulo": "Juros futuros sobem mais de 260 pontos-base após vitória de Lula",
+      "resumo": "A curva de DIs passou a precificar alta da Selic em novembro; para a MA7 Capital, ela já indica o fim dos cortes de juros.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-sobem-mais-de-260-pontos-base-apos-vitoria-de-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Juros futuros sobem mais de 260 pontos-base após vitória de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/juros-futuros-sobem-mais-de-260-pontos-base-apos-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 48.8,
+      "score_reels": 72.3,
+      "score": 48.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.416,
+        "calor": 0.419,
+        "potencial_reels": 0.92
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "juros"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 48.8
+    },
+    {
+      "slug": "centrao-acena-a-lula-e-tentara-manter-cargos-em-novo-governo",
+      "id": "50f219e1a6f56230",
+      "titulo": "Centrão acena a Lula e tentará manter cargos em novo governo",
+      "resumo": "Mesmo tendo apoiado Flávio no 2º turno, o MDB quer seguir com Transportes, Cidades e Planejamento; Lula ainda negocia as presidências da Câmara e do Senado.",
+      "url": "https://www.cnnbrasil.com.br/blogs/taina-falcao/eleicoes/centrao-acena-a-lula-e-tentara-manter-cargos-em-novo-governo/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Centrão acena a Lula e tentará manter cargos em novo governo",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/taina-falcao/eleicoes/centrao-acena-a-lula-e-tentara-manter-cargos-em-novo-governo/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 48.8,
+      "score_reels": 18.3,
+      "score": 48.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.416,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 48.8
+    },
+    {
+      "slug": "leia-e-assista-a-integra-do-discurso-de-flavio-bolsonaro",
+      "id": "e0a4f8bf1bf13f32",
+      "titulo": "Leia e assista à íntegra do discurso de Flávio Bolsonaro",
+      "resumo": "O discurso em que o candidato do PL diz não reconhecer o resultado e anuncia pedido de anulação.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-e-assista-a-integra-do-discurso-de-flavio-bolsonaro/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T21:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T21:30:00-03:00",
+      "janela_horas": 0.5,
+      "velocidade": 4.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Leia e assista à íntegra do discurso de Flávio Bolsonaro",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/leia-e-assista-a-integra-do-discurso-de-flavio-bolsonaro/",
+          "publicado_em": "2026-10-25T21:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Leia e assista à íntegra do pronunciamento da vitória de Lula",
+          "fonte": "Poder360",
+          "url": "https://poder360.com.br/poder-eleicoes-2026/leia-a-integra-do-pronunciamento-da-vitoria-de-lula-2",
+          "publicado_em": "2026-10-25T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 48.4,
+      "score_reels": 13.1,
+      "score": 48.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.124,
+        "calor": 0.803,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "2 matérias em 0.5h; fonte Poder360; só Poder360 publicou",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 48.4
+    },
+    {
+      "slug": "empresas-brasileiras-despencam-mais-de-20-no-exterior-apos-v",
+      "id": "2a5a32e27405ad84",
+      "titulo": "Empresas brasileiras despencam mais de 20% no exterior após vitória de Lula",
+      "resumo": "ADRs de companhias brasileiras negociados em Nova York recuam mais de 20% após o resultado da eleição.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/adrs-de-empresas-brasileiras-despencam-mais-de-20-apos-vitoria-de-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T11:30:00-03:00",
+      "ultima_publicacao": "2026-10-26T11:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Empresas brasileiras despencam mais de 20% no exterior após vitória de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/adrs-de-empresas-brasileiras-despencam-mais-de-20-apos-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T11:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 48.3,
+      "score_reels": 23.0,
+      "score": 48.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.399,
+        "calor": 0.419,
+        "potencial_reels": 0.13
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 48.3
+    },
+    {
+      "slug": "anthropic-prepara-ipo-de-ate-us-1-75-trilhao-e-testa-apetite",
+      "id": "bc4cf4da7e1ac5fc",
+      "titulo": "Anthropic prepara IPO de até US$ 1,75 trilhão e testa apetite de Wall Street por IA",
+      "resumo": "A empresa de IA divulgou o prospecto do IPO, que pode avaliá-la entre US$ 1,5 trilhão e US$ 1,75 trilhão.",
+      "url": "https://exame.com/insight/anthropic-prepara-ipo-de-ate-us-175-trilhao-e-testa-apetite-de-wall-street-por-ia/p",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "tecnologia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Anthropic prepara IPO de até US$ 1,75 trilhão e testa apetite de Wall Street por IA",
+          "fonte": "Exame",
+          "url": "https://exame.com/insight/anthropic-prepara-ipo-de-ate-us-175-trilhao-e-testa-apetite-de-wall-street-por-ia/p",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 48.0,
+      "score_reels": 66.7,
+      "score": 48.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.416,
+        "calor": 0.419,
+        "potencial_reels": 0.83
+      },
+      "reels_detalhe": {
+        "familias": {
+          "tecnologia": [
+            "ia"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Exame; só Exame publicou; já esfriando",
+      "explicacao_reels": "gancho de tecnologia; tem número no título; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 48.0
+    },
+    {
+      "slug": "xp-recomenda-evitar-decisoes-no-panico-em-meio-a-forte-queda",
+      "id": "3fa1157df9e00db1",
+      "titulo": "XP recomenda evitar decisões no pânico em meio a forte queda do mercado pós-eleição",
+      "resumo": "",
+      "url": "https://www.infomoney.com.br/mercados/xp-recomenda-evitar-decisoes-no-panico-em-meio-a-forte-queda-do-mercado-pos-eleicao/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "XP recomenda evitar decisões no pânico em meio a forte queda do mercado pós-eleição",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/xp-recomenda-evitar-decisoes-no-panico-em-meio-a-forte-queda-do-mercado-pos-eleicao/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.5,
+      "score_reels": 68.0,
+      "score": 47.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.352,
+        "calor": 0.419,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "mercado"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.5
+    },
+    {
+      "slug": "vale-vale3-acompanha-dolar-e-dispara-apos-resultado-das-elei",
+      "id": "7bb55560bad99123",
+      "titulo": "Vale (VALE3) acompanha dólar e dispara após resultado das eleições",
+      "resumo": "",
+      "url": "https://www.infomoney.com.br/mercados/vale-vale3-desempenho-eleicoes-segundo-turno-262102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Vale (VALE3) acompanha dólar e dispara após resultado das eleições",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/vale-vale3-desempenho-eleicoes-segundo-turno-262102026/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.5,
+      "score_reels": 71.1,
+      "score": 47.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.352,
+        "calor": 0.419,
+        "potencial_reels": 0.92
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.5
+    },
+    {
+      "slug": "lula-reeleito-deixa-acoes-do-banco-do-brasil-mais-expostas-q",
+      "id": "1977beccc84a51ce",
+      "titulo": "Lula reeleito deixa ações do Banco do Brasil mais expostas que as da Petrobras",
+      "resumo": "Petrobras aparece mais protegida por petróleo e dividendos (BTG estima yield de 11%); BB depende da inadimplência no agro e perde a tese de privatização.",
+      "url": "https://exame.com/invest/mercados/petrobras-banco-do-brasil-acoes-lula-reeleito/",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T11:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T11:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula reeleito deixa ações do Banco do Brasil mais expostas que as da Petrobras",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/petrobras-banco-do-brasil-acoes-lula-reeleito/",
+          "publicado_em": "2026-10-26T11:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.1,
+      "score_reels": 22.7,
+      "score": 47.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.382,
+        "calor": 0.419,
+        "potencial_reels": 0.13
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "mercado",
+          "aviso": "Financeiro: não é recomendação de investimento — diga isso na tela."
+        }
+      ],
+      "explicacao": "fonte Exame; só Exame publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.1
+    },
+    {
+      "slug": "entenda-como-flavio-contestou-resultado-das-urnas-apos-vitor",
+      "id": "30efdf14ce4e312f",
+      "titulo": "Entenda como Flávio contestou resultado das urnas após vitória de Lula",
+      "resumo": "Os relatos de falta de ônibus e filas em São Paulo e Salvador que levaram à prorrogação, e como Flávio os usa para contestar o resultado.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/entenda-como-flavio-contestou-resultado-das-urnas-apos-vitoria-de-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Entenda como Flávio contestou resultado das urnas após vitória de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/entenda-como-flavio-contestou-resultado-das-urnas-apos-vitoria-de-lula/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.1,
+      "score_reels": 64.3,
+      "score": 47.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.352,
+        "calor": 0.419,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.1
+    },
+    {
+      "slug": "vice-de-tarcisio-sai-na-frente-e-reconhece-derrota-de-flavio",
+      "id": "e017b2617a32e8f7",
+      "titulo": "Vice de Tarcísio sai na frente e reconhece derrota de Flávio",
+      "resumo": "Felício Ramuth (MDB) diz respeitar o resultado e lembra que o próprio PL pediu a prorrogação do horário de votação.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/vice-de-tarcisio-sai-na-frente-e-reconhece-derrota-de-flavio/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Vice de Tarcísio sai na frente e reconhece derrota de Flávio",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/vice-de-tarcisio-sai-na-frente-e-reconhece-derrota-de-flavio/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.1,
+      "score_reels": 59.3,
+      "score": 47.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.352,
+        "calor": 0.419,
+        "potencial_reels": 0.73
+      },
+      "reels_detalhe": {
+        "familias": {
+          "conflito": [
+            "derrota"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "gancho de conflito; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.1
+    },
+    {
+      "slug": "psd-cumprimenta-lula-e-diz-que-mantera-relacao-republicana-c",
+      "id": "ee4e552ee89c91cd",
+      "titulo": "PSD cumprimenta Lula e diz que manterá relação \"republicana\" com governo",
+      "resumo": "Kassab promete apoiar propostas de redução de desigualdades, equilíbrio fiscal e geração de empregos.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/psd-cumprimenta-lula-e-diz-que-mantera-relacao-republicana-com-governo/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "PSD cumprimenta Lula e diz que manterá relação \"republicana\" com governo",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/psd-cumprimenta-lula-e-diz-que-mantera-relacao-republicana-com-governo/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.1,
+      "score_reels": 17.2,
+      "score": 47.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.352,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.1
+    },
+    {
+      "slug": "uniao-brasil-reconhece-vitoria-de-lula-e-deseja-pleno-exito",
+      "id": "0e40b51f0ee277e4",
+      "titulo": "União Brasil reconhece vitória de Lula e deseja pleno êxito ao novo mandato",
+      "resumo": "Partido que apoiou Flávio diz que a soberania popular se manifestou de forma livre nas urnas.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/uniao-brasil-reconhece-vitoria-de-lula-e-deseja-pleno-exito-ao-novo-mandato/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "União Brasil reconhece vitória de Lula e deseja pleno êxito ao novo mandato",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/uniao-brasil-reconhece-vitoria-de-lula-e-deseja-pleno-exito-ao-novo-mandato/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 47.1,
+      "score_reels": 17.2,
+      "score": 47.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.352,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 47.1
+    },
+    {
+      "slug": "kassab-da-parabens-a-lula-e-alckmin-pela-vitoria-nas-eleicoe",
+      "id": "7fb177ce7143aae0",
+      "titulo": "Kassab dá parabéns a Lula e Alckmin pela vitória nas eleições",
+      "resumo": "O presidente do PSD felicita a chapa reeleita e deseja um bom governo.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/kassab-da-parabens-lula-e-alckmin-pela-vitoria-nas-eleicoes/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Kassab dá parabéns a Lula e Alckmin pela vitória nas eleições",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/kassab-da-parabens-lula-e-alckmin-pela-vitoria-nas-eleicoes/",
+          "publicado_em": "2026-10-26T10:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.7,
+      "score_reels": 17.2,
+      "score": 46.7,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.352,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Poder360; só Poder360 publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.7
+    },
+    {
+      "slug": "b3-aciona-circuit-breaker-pela-primeira-vez-desde-2020-apos",
+      "id": "82cf22d6aadf499c",
+      "titulo": "B3 aciona circuit breaker pela primeira vez desde 2020 após reeleição de Lula",
+      "resumo": "As negociações foram suspensas por 30 minutos logo na abertura.",
+      "url": "https://exame.com/invest/mercados/b3-aciona-circuit-breaker-pela-primeira-vez-desde-2020-apos-reeleicao-de-lula/",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T10:15:00-03:00",
+      "ultima_publicacao": "2026-10-26T10:15:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "B3 aciona circuit breaker pela primeira vez desde 2020 após reeleição de Lula",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/b3-aciona-circuit-breaker-pela-primeira-vez-desde-2020-apos-reeleicao-de-lula/",
+          "publicado_em": "2026-10-26T10:15:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.5,
+      "score_reels": 65.0,
+      "score": 46.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.359,
+        "calor": 0.419,
+        "potencial_reels": 0.82
+      },
+      "reels_detalhe": {
+        "familias": {
+          "espanto": [
+            "primeira vez",
+            "pela primeira"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Exame; só Exame publicou; já esfriando",
+      "explicacao_reels": "gancho de espanto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.5
+    },
+    {
+      "slug": "anthropic-entra-oficialmente-com-pedido-para-abrir-capital",
+      "id": "53bb1743f5e6ac3a",
+      "titulo": "Anthropic entra oficialmente com pedido para abrir capital",
+      "resumo": "A Anthropic entrou com o pedido de IPO, com o ticker ANT. Pelo registro na SEC, a receita foi de US$ 16,3 bilhões no primeiro semestre de 2026. A estreia deve ocorrer em novembro; a empresa ainda não divulgou quanto pretende captar nem o preço das ações.",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "fonte_principal": "TechCrunch",
+      "fontes": [
+        "TechCrunch"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "tecnologia",
+      "pais": "MUNDO",
+      "idioma": "en",
+      "primeira_publicacao": "2026-10-26T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T12:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": "inglês",
+      "titulo_original": "Anthropic officially files for its public debut",
+      "materias": [
+        {
+          "titulo": "Anthropic entra oficialmente com pedido para abrir capital",
+          "fonte": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+          "publicado_em": "2026-10-26T12:00:00-03:00",
+          "pais": "MUNDO",
+          "traduzido_de": "inglês"
+        }
+      ],
+      "score_noticia": 46.4,
+      "score_reels": 70.4,
+      "score": 46.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.7,
+        "recencia": 0.416,
+        "calor": 0.419,
+        "potencial_reels": 0.89
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "preco"
+          ]
+        },
+        "bonus": {
+          "valor_em_dinheiro": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "mercado",
+          "aviso": "Financeiro: não é recomendação de investimento — diga isso na tela."
+        }
+      ],
+      "explicacao": "fonte TechCrunch; só TechCrunch publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; tem valor em dinheiro",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.4
+    },
+    {
+      "slug": "lula-reeleito-lideres-mundiais-reagem-a-4a-vitoria-eleitoral",
+      "id": "bad64596a77a52ee",
+      "titulo": "Lula reeleito: Líderes mundiais reagem à 4ª vitória eleitoral do presidente",
+      "resumo": "Presidentes de direita do Chile, do Peru e da Colômbia reconheceram o resultado. O Kremlin disse ter recebido bem a vitória, e o premiê canadense Mark Carney e o chanceler alemão Friedrich Merz parabenizaram Lula. Donald Trump e Javier Milei não haviam se manifestado até a manhã de 26.",
+      "url": "https://www.cnnbrasil.com.br/internacional/lula-reeleito-lideres-mundiais-reagem-a-4a-vitoria-eleitoral-do-presidente/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "mundo",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T09:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T09:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula reeleito: Líderes mundiais reagem à 4ª vitória eleitoral do presidente",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/lula-reeleito-lideres-mundiais-reagem-a-4a-vitoria-eleitoral-do-presidente/",
+          "publicado_em": "2026-10-26T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.4,
+      "score_reels": 19.8,
+      "score": 46.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.324,
+        "calor": 0.419,
+        "potencial_reels": 0.1
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.4
+    },
+    {
+      "slug": "lula-avancou-frente-a-flavio-em-97-das-cidades-brasileiras-e",
+      "id": "bbd65e40ba7305df",
+      "titulo": "Lula avançou frente à Flávio em 97% das cidades brasileiras e virou em 213",
+      "resumo": "Na comparação com o 1º turno, Lula cresceu em quase todos os municípios e venceu por mais de 4,4 milhões de votos.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/lula-avancou-frente-a-flavio-em-97-das-cidades-brasileiras-e-virou-em-213/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T09:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T09:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula avançou frente à Flávio em 97% das cidades brasileiras e virou em 213",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-avancou-frente-a-flavio-em-97-das-cidades-brasileiras-e-virou-em-213/",
+          "publicado_em": "2026-10-26T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.4,
+      "score_reels": 26.0,
+      "score": 46.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.324,
+        "calor": 0.419,
+        "potencial_reels": 0.2
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.4
+    },
+    {
+      "slug": "mini-indice-winz26-vitoria-de-lula-eleva-risco-de-forte-qued",
+      "id": "ced803f65ada539d",
+      "titulo": "Mini-índice (WINZ26): vitória de Lula eleva risco de forte queda e correção",
+      "resumo": "Análise técnica do contrato futuro antes da abertura: risco de forte queda na primeira sessão após a eleição.",
+      "url": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-26102026/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T08:30:00-03:00",
+      "ultima_publicacao": "2026-10-26T08:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Mini-índice (WINZ26): vitória de Lula eleva risco de forte queda e correção",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/mini-indice-hoje-futuro-ibovespa-winz26-26102026/",
+          "publicado_em": "2026-10-26T08:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.4,
+      "score_reels": 18.0,
+      "score": 46.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.311,
+        "calor": 0.419,
+        "potencial_reels": 0.075
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": {
+          "fator": 0.75,
+          "termos": [
+            "analise"
+          ]
+        }
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; pauta nacional; freio de 0.75 (termo \"analise\")",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.4
+    },
+    {
+      "slug": "jpmorgan-ibovespa-deve-cair-20-e-dolar-ir-a-r-5-50-nos-proxi",
+      "id": "4b7c03c985ac0102",
+      "titulo": "JPMorgan: Ibovespa deve cair 20% e dólar ir a R$ 5,50 nos próximos dias após eleição",
+      "resumo": "O banco projeta queda de cerca de 20% do índice e dólar a R$ 5,50 nos dias seguintes à reeleição.",
+      "url": "https://www.infomoney.com.br/mercados/jpmorgan-ibovespa-deve-cair-20-e-dolar-ir-a-r-550-nos-proximos-dias-apos-eleicao-lula/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T08:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T08:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "JPMorgan: Ibovespa deve cair 20% e dólar ir a R$ 5,50 nos próximos dias após eleição",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/jpmorgan-ibovespa-deve-cair-20-e-dolar-ir-a-r-550-nos-proximos-dias-apos-eleicao-lula/",
+          "publicado_em": "2026-10-26T08:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.1,
+      "score_reels": 75.1,
+      "score": 46.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.298,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar",
+            "impostorenda"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.1
+    },
+    {
+      "slug": "tarcisio-fez-projecao-errada-do-resultado-da-eleicao-veja-vi",
+      "id": "5f974804c5c5ff85",
+      "titulo": "Tarcísio fez projeção errada do resultado da eleição; veja vídeo",
+      "resumo": "O governador de SP previa vitória de Flávio por 6 milhões de votos; até agora não comentou o resultado.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-fez-projecao-errada-do-resultado-da-eleicao-veja-video/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T09:00:00-03:00",
+      "ultima_publicacao": "2026-10-26T09:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Tarcísio fez projeção errada do resultado da eleição; veja vídeo",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-fez-projecao-errada-do-resultado-da-eleicao-veja-video/",
+          "publicado_em": "2026-10-26T09:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 46.0,
+      "score_reels": 21.0,
+      "score": 46.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.324,
+        "calor": 0.419,
+        "potencial_reels": 0.12
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte Poder360; só Poder360 publicou; já esfriando",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 46.0
+    },
+    {
+      "slug": "policia-militar-detem-cinco-pessoas-durante-o-2o-turno-em-sa",
+      "id": "0bfa014e55137b04",
+      "titulo": "Polícia Militar detém cinco pessoas durante o 2º turno em São Paulo",
+      "resumo": "Até as 12h, cinco pessoas haviam sido detidas. A SSP também registrou casos de uso de celular na cabine de votação e desacato.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/policia-militar-detem-cinco-pessoas-durante-o-2o-turno-em-sao-paulo/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "cotidiano",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T12:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T13:00:00-03:00",
+      "janela_horas": 1.0,
+      "velocidade": 2.0,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Polícia Militar detém cinco pessoas durante o 2º turno em São Paulo",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/policia-militar-detem-cinco-pessoas-durante-o-2o-turno-em-sao-paulo/",
+          "publicado_em": "2026-10-25T13:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "PM mobiliza todo efetivo policial durante 2º turno em São Paulo",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/pm-mobiliza-todo-efetivo-policial-durante-2o-turno-em-sao-paulo/",
+          "publicado_em": "2026-10-25T12:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 44.8,
+      "score_reels": 56.0,
+      "score": 44.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.061,
+        "calor": 0.683,
+        "potencial_reels": 0.76
+      },
+      "reels_detalhe": {
+        "familias": {
+          "tecnologia": [
+            "celular"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; 2 matérias em 1.0h; só CNN Brasil publicou",
+      "explicacao_reels": "gancho de tecnologia; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 44.8
+    },
+    {
+      "slug": "juros-dos-titulos-do-tesouro-americano-ficam-estaveis-a-espe",
+      "id": "55f3a035f86e2b43",
+      "titulo": "Juros dos títulos do Tesouro americano ficam estáveis à espera da decisão do Fed",
+      "resumo": "Os traders precificam mais de 90% de chance de o Fed manter a taxa na faixa de 3,75% a 4% na decisão de 28 de outubro, segundo a ferramenta FedWatch da CME. Para dezembro, a chance de alta está perto de 80%.",
+      "url": "https://www.cnbc.com/amp/2026/10/26/us-treasury-yields-investors-feds-interest-rate-decision-.html",
+      "fonte_principal": "CNBC",
+      "fontes": [
+        "CNBC"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T12:00:00+00:00",
+      "ultima_publicacao": "2026-10-26T12:00:00+00:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": "inglês",
+      "titulo_original": "U.S. Treasury yields are little changed as investors look ahead to the Fed's rate decision",
+      "materias": [
+        {
+          "titulo": "Juros dos títulos do Tesouro americano ficam estáveis à espera da decisão do Fed",
+          "fonte": "CNBC",
+          "url": "https://www.cnbc.com/amp/2026/10/26/us-treasury-yields-investors-feds-interest-rate-decision-.html",
+          "publicado_em": "2026-10-26T12:00:00+00:00",
+          "pais": "MUNDO",
+          "traduzido_de": "inglês"
+        }
+      ],
+      "score_noticia": 44.0,
+      "score_reels": 69.4,
+      "score": 44.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.7,
+        "recencia": 0.324,
+        "calor": 0.419,
+        "potencial_reels": 0.9
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "juros",
+            "taxa"
+          ]
+        },
+        "bonus": {
+          "percentual": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNBC; só CNBC publicou; já esfriando",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 44.0
+    },
+    {
+      "slug": "pl-pp-e-republicanos-vao-governar-64-dos-brasileiros-nos-est",
+      "id": "a51d3429dc2e0ae0",
+      "titulo": "PL, PP e Republicanos vão governar 64% dos brasileiros nos estados",
+      "resumo": "Mesmo com a derrota nacional, aliados de Flávio comandarão estados que somam quase dois terços da população.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/pl-pp-e-republicanos-vao-governar-64-dos-brasileiros-nos-estados/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 2,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T20:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T23:30:00-03:00",
+      "janela_horas": 3.5,
+      "velocidade": 0.57,
+      "datas_conhecidas": 2,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "PL, PP e Republicanos vão governar 64% dos brasileiros nos estados",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/pl-pp-e-republicanos-vao-governar-64-dos-brasileiros-nos-estados/",
+          "publicado_em": "2026-10-25T23:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        },
+        {
+          "titulo": "Lula é reeleito presidente da República no 2º turno",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-e-reeleito-presidente-da-republica-no-2o-turno/",
+          "publicado_em": "2026-10-25T20:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 44.0,
+      "score_reels": 60.6,
+      "score": 44.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.147,
+        "calor": 0.53,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "conflito": [
+            "derrota"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; 2 matérias em 3.5h",
+      "explicacao_reels": "gancho de conflito; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 44.0
+    },
+    {
+      "slug": "ouro-sobe-enquanto-queda-do-petroleo-alivia-parte-das-preocu",
+      "id": "70119168be8aa46c",
+      "titulo": "Ouro sobe enquanto queda do petróleo alivia parte das preocupações com inflação",
+      "resumo": "A queda do petróleo aliviou parte das preocupações com inflação às vésperas da reunião do Fed.",
+      "url": "https://www.cnbc.com/2026/10/26/gold-gains-on-softer-oil-prices-fed-decision-in-focus.html",
+      "fonte_principal": "CNBC",
+      "fontes": [
+        "CNBC"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T11:00:00+00:00",
+      "ultima_publicacao": "2026-10-26T11:00:00+00:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": "inglês",
+      "titulo_original": "Gold gains as oil slide cools some inflation concerns",
+      "materias": [
+        {
+          "titulo": "Ouro sobe enquanto queda do petróleo alivia parte das preocupações com inflação",
+          "fonte": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/gold-gains-on-softer-oil-prices-fed-decision-in-focus.html",
+          "publicado_em": "2026-10-26T11:00:00+00:00",
+          "pais": "MUNDO",
+          "traduzido_de": "inglês"
+        }
+      ],
+      "score_noticia": 43.3,
+      "score_reels": 63.9,
+      "score": 43.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.7,
+        "recencia": 0.298,
+        "calor": 0.419,
+        "potencial_reels": 0.82
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "inflacao"
+          ]
+        },
+        "bonus": {},
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNBC; só CNBC publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 43.3
+    },
+    {
+      "slug": "ewz-principal-etf-do-brasil-em-ny-cai-mais-de-19-apos-reelei",
+      "id": "0d0af05b2c81f956",
+      "titulo": "EWZ: Principal ETF do Brasil em NY cai mais de 19% após reeleição de Lula",
+      "resumo": "O fundo que replica a bolsa brasileira antecipou o tombo da segunda-feira.",
+      "url": "https://www.cnnbrasil.com.br/economia/money/mercado/ewz-principal-etf-do-brasil-em-ny-cai-mais-de-19-apos-reeleicao-de-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T00:30:00-03:00",
+      "ultima_publicacao": "2026-10-26T00:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "EWZ: Principal ETF do Brasil em NY cai mais de 19% após reeleição de Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/economia/money/mercado/ewz-principal-etf-do-brasil-em-ny-cai-mais-de-19-apos-reeleicao-de-lula/",
+          "publicado_em": "2026-10-26T00:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 42.1,
+      "score_reels": 18.7,
+      "score": 42.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.159,
+        "calor": 0.419,
+        "potencial_reels": 0.13
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 42.1
+    },
+    {
+      "slug": "psdb-parabeniza-lula-por-vitoria-e-diz-que-seguira-na-oposic",
+      "id": "bdad7f811f27394c",
+      "titulo": "PSDB parabeniza Lula por vitória e diz que \"seguirá na oposição\" ao governo",
+      "resumo": "Os tucanos reconhecem o resultado, mas avisam que continuarão na oposição.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/psdb-parabeniza-lula-por-vitoria-e-diz-que-seguira-na-oposicao-ao-governo/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T23:30:00-03:00",
+      "ultima_publicacao": "2026-10-25T23:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "PSDB parabeniza Lula por vitória e diz que \"seguirá na oposição\" ao governo",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/psdb-parabeniza-lula-por-vitoria-e-diz-que-seguira-na-oposicao-ao-governo/",
+          "publicado_em": "2026-10-25T23:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.8,
+      "score_reels": 13.5,
+      "score": 41.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.147,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.8
+    },
+    {
+      "slug": "apos-eleicao-de-lula-ate-onde-podem-cair-as-acoes-de-petr4-i",
+      "id": "9de59205b01847b9",
+      "titulo": "Após eleição de Lula, até onde podem cair as ações de PETR4, ITUB4, BBAS3 e VALE3?",
+      "resumo": "",
+      "url": "https://infomoney.com.br/mercados/apos-eleicao-de-lula-ate-onde-podem-cair-as-acoes-petr4-itub4-bbas3-e-vale3",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T22:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Após eleição de Lula, até onde podem cair as ações de PETR4, ITUB4, BBAS3 e VALE3?",
+          "fonte": "InfoMoney",
+          "url": "https://infomoney.com.br/mercados/apos-eleicao-de-lula-ate-onde-podem-cair-as-acoes-petr4-itub4-bbas3-e-vale3",
+          "publicado_em": "2026-10-25T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.7,
+      "score_reels": 16.3,
+      "score": 41.7,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.129,
+        "calor": 0.419,
+        "potencial_reels": 0.1
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        },
+        {
+          "tipo": "mercado",
+          "aviso": "Financeiro: não é recomendação de investimento — diga isso na tela."
+        }
+      ],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.7
+    },
+    {
+      "slug": "votos-registrados-apos-17h-foram-0-027-do-total-computado-no",
+      "id": "73e8af06453a75b3",
+      "titulo": "Votos registrados após 17h foram 0,027% do total computado no 2° turno",
+      "resumo": "Os votos dados na prorrogação até 19h representaram fração mínima do total, número que pesa contra o pedido de anulação de Flávio.",
+      "url": "https://cnnbrasil.com.br/eleicoes/votos-registrados-apos-17h-foram-0027-do-total-computado-no-2-turno",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T23:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T23:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Votos registrados após 17h foram 0,027% do total computado no 2° turno",
+          "fonte": "CNN Brasil",
+          "url": "https://cnnbrasil.com.br/eleicoes/votos-registrados-apos-17h-foram-0027-do-total-computado-no-2-turno",
+          "publicado_em": "2026-10-25T23:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.6,
+      "score_reels": 18.3,
+      "score": 41.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.141,
+        "calor": 0.419,
+        "potencial_reels": 0.13
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.6
+    },
+    {
+      "slug": "analise-lula-acena-ao-centro-e-promete-mudar-governo",
+      "id": "c9b3db8ce5e5a79e",
+      "titulo": "Análise: Lula acena ao centro e promete mudar governo",
+      "resumo": "Centrão quer manter cargos; Camilo Santana é cotado para a Casa Civil e Rafael Fonteles para a Fazenda. Partidos de centro cobram medidas de controle das contas públicas.",
+      "url": "https://www.cnnbrasil.com.br/blogs/taina-falcao/eleicoes/analise-lula-acena-ao-centro-e-promete-mudar-governo/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T23:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T23:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Análise: Lula acena ao centro e promete mudar governo",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/blogs/taina-falcao/eleicoes/analise-lula-acena-ao-centro-e-promete-mudar-governo/",
+          "publicado_em": "2026-10-25T23:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.6,
+      "score_reels": 12.6,
+      "score": 41.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.141,
+        "calor": 0.419,
+        "potencial_reels": 0.038
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": {
+          "fator": 0.75,
+          "termos": [
+            "analise"
+          ]
+        }
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional; freio de 0.75 (termo \"analise\")",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.6
+    },
+    {
+      "slug": "ewz-desaba-20-e-contratos-de-real-derretem-com-lula-reeleito",
+      "id": "8e1e1d3bbcb206ed",
+      "titulo": "EWZ desaba 20% e contratos de real derretem com Lula reeleito presidente",
+      "resumo": "Por volta de 1h20, o ETF do Brasil em NY caía 19,6%, a US$ 34,24; o contrato de real em Chicago apontava dólar a R$ 5,51.",
+      "url": "https://exame.com/invest/mercados/ewz-desaba-20-e-contratos-de-real-derretem-com-lula-a-frente-na-reta-final-da-apuracao/",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T01:30:00-03:00",
+      "ultima_publicacao": "2026-10-26T01:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "EWZ desaba 20% e contratos de real derretem com Lula reeleito presidente",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/ewz-desaba-20-e-contratos-de-real-derretem-com-lula-a-frente-na-reta-final-da-apuracao/",
+          "publicado_em": "2026-10-26T01:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.6,
+      "score_reels": 72.9,
+      "score": 41.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.173,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "dolar"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "valor_em_dinheiro": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Exame; só Exame publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; tem percentual para o primeiro frame; tem valor em dinheiro; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.6
+    },
+    {
+      "slug": "lula-diz-que-melhorara-comunicacao-e-conversara-com-povo-bra",
+      "id": "9953c9c2a47e943c",
+      "titulo": "Lula diz que melhorará comunicação e conversará com povo brasileiro",
+      "resumo": "Lula diz ter dois meses para planejar o novo mandato e vai se reunir com empresários, educadores, cientistas e movimentos de mulheres.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/lula-diz-que-melhorara-comunicacao-e-conversara-com-povo-brasileiro/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:45:00-03:00",
+      "ultima_publicacao": "2026-10-25T22:45:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula diz que melhorará comunicação e conversará com povo brasileiro",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/lula-diz-que-melhorara-comunicacao-e-conversara-com-povo-brasileiro/",
+          "publicado_em": "2026-10-25T22:45:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.5,
+      "score_reels": 13.3,
+      "score": 41.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.138,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.5
+    },
+    {
+      "slug": "milei-compartilha-post-comparando-lula-a-maduro-apos-prorrog",
+      "id": "07465ca9b560046a",
+      "titulo": "Milei compartilha post comparando Lula a Maduro após prorrogação da votação",
+      "resumo": "O presidente argentino Javier Milei compartilhou uma publicação que compara Lula a Maduro, em meio a debate sobre a apuração no Brasil. A matéria registra que o conteúdo divulga informação falsa sobre a apuração em Salvador.",
+      "url": "https://www.cnnbrasil.com.br/internacional/milei-compartilha-post-comparando-lula-a-maduro-apos-prorrogacao-da-votacao/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:30:00-03:00",
+      "ultima_publicacao": "2026-10-25T22:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Milei compartilha post comparando Lula a Maduro após prorrogação da votação",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/internacional/milei-compartilha-post-comparando-lula-a-maduro-apos-prorrogacao-da-votacao/",
+          "publicado_em": "2026-10-25T22:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.4,
+      "score_reels": 13.3,
+      "score": 41.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.135,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.4
+    },
+    {
+      "slug": "como-os-mercados-vao-abrir-nesta-segunda-apos-a-reeleicao-de",
+      "id": "b6ce9538de27c5ef",
+      "titulo": "Como os mercados vão abrir nesta segunda após a reeleição de Lula?",
+      "resumo": "",
+      "url": "https://www.infomoney.com.br/mercados/como-os-mercados-vao-abrir-nesta-segunda-apos-a-reeleicao-de-lula/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T21:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T21:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Como os mercados vão abrir nesta segunda após a reeleição de Lula?",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/como-os-mercados-vao-abrir-nesta-segunda-apos-a-reeleicao-de-lula/",
+          "publicado_em": "2026-10-25T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.4,
+      "score_reels": 60.1,
+      "score": 41.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.119,
+        "calor": 0.419,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.4
+    },
+    {
+      "slug": "nunca-ganhei-eleicao-no-1o-mas-nunca-perdi-no-2o-turno-diz-l",
+      "id": "77df5cbe54500a9b",
+      "titulo": "Nunca ganhei eleição no 1º, mas nunca perdi no 2º turno, diz Lula",
+      "resumo": "Na comemoração, o presidente reeleito lembra o histórico de vitórias em segundo turno.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/nunca-ganhei-eleicao-no-1o-mas-nunca-perdi-no-2o-turno-diz-lula/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:30:00-03:00",
+      "ultima_publicacao": "2026-10-25T22:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Nunca ganhei eleição no 1º, mas nunca perdi no 2º turno, diz Lula",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/nunca-ganhei-eleicao-no-1o-mas-nunca-perdi-no-2o-turno-diz-lula/",
+          "publicado_em": "2026-10-25T22:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.4,
+      "score_reels": 61.0,
+      "score": 41.4,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.135,
+        "calor": 0.419,
+        "potencial_reels": 0.82
+      },
+      "reels_detalhe": {
+        "familias": {
+          "espanto": [
+            "historico",
+            "nunca"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de espanto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.4
+    },
+    {
+      "slug": "tse-desmente-flavio-e-diz-que-nao-retirou-fiscais-do-pl-de-s",
+      "id": "9f8238d01cf52979",
+      "titulo": "TSE desmente Flávio e diz que não retirou fiscais do PL de sala-cofre",
+      "resumo": "A Justiça Eleitoral classificou como falsa a afirmação de que fiscais do PL foram retirados da sala-cofre. A campanha de Flávio também havia pedido prorrogação da votação em 19 cidades de SP, PR e SC.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/tse-desmente-flavio-e-diz-que-nao-retirou-fiscais-do-pl-de-sala-cofre/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T22:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "TSE desmente Flávio e diz que não retirou fiscais do PL de sala-cofre",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/tse-desmente-flavio-e-diz-que-nao-retirou-fiscais-do-pl-de-sala-cofre/",
+          "publicado_em": "2026-10-25T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.3,
+      "score_reels": 60.3,
+      "score": 41.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.129,
+        "calor": 0.419,
+        "potencial_reels": 0.81
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de utilidade; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.3
+    },
+    {
+      "slug": "votacao-prorrogada-veja-cronologia-que-levou-a-impasse-entre",
+      "id": "6cb586ab89b10a13",
+      "titulo": "Votação prorrogada: veja cronologia que levou a impasse entre STF e TSE",
+      "resumo": "A decisão de Zanin de estender a votação até 19h, seguida pelo TSE de Kassio Nunes Marques, passo a passo.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/votacao-prorrogada-veja-cronologia-que-levou-a-impasse-entre-stf-e-tse/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T22:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Votação prorrogada: veja cronologia que levou a impasse entre STF e TSE",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/votacao-prorrogada-veja-cronologia-que-levou-a-impasse-entre-stf-e-tse/",
+          "publicado_em": "2026-10-25T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.3,
+      "score_reels": 13.2,
+      "score": 41.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.129,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.3
+    },
+    {
+      "slug": "acoes-brasileiras-em-nova-york-desabam-ate-19-na-noite-da-re",
+      "id": "002da1b989a2ce22",
+      "titulo": "Ações brasileiras em Nova York desabam até 19% na noite da reeleição de Lula",
+      "resumo": "ADRs de bancos lideraram as perdas no after-hours; Itaú caiu 17,8%.",
+      "url": "https://exame.com/invest/mercados/acoes-brasileiras-em-nova-york-desabam-ate-19-na-noite-da-reeleicao-de-lula/",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T00:30:00-03:00",
+      "ultima_publicacao": "2026-10-26T00:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Ações brasileiras em Nova York desabam até 19% na noite da reeleição de Lula",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/acoes-brasileiras-em-nova-york-desabam-ate-19-na-noite-da-reeleicao-de-lula/",
+          "publicado_em": "2026-10-26T00:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.3,
+      "score_reels": 18.7,
+      "score": 41.3,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.159,
+        "calor": 0.419,
+        "potencial_reels": 0.13
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "mercado",
+          "aviso": "Financeiro: não é recomendação de investimento — diga isso na tela."
+        }
+      ],
+      "explicacao": "fonte Exame; só Exame publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.3
+    },
+    {
+      "slug": "kassio-diz-que-prorrogacao-nao-comprometeu-eleicao-absoluta",
+      "id": "a2ebe9a555e1ca50",
+      "titulo": "Kassio diz que prorrogação não comprometeu eleição: \"Absoluta confiança\"",
+      "resumo": "Presidente do TSE, Kassio Nunes Marques afirma que manter as seções abertas até 19h não afetou a lisura do pleito.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/kassio-diz-que-prorrogacao-nao-comprometeu-eleicao-absoluta-confianca/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T21:30:00-03:00",
+      "ultima_publicacao": "2026-10-25T21:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Kassio diz que prorrogação não comprometeu eleição: \"Absoluta confiança\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/kassio-diz-que-prorrogacao-nao-comprometeu-eleicao-absoluta-confianca/",
+          "publicado_em": "2026-10-25T21:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.2,
+      "score_reels": 13.1,
+      "score": 41.2,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.124,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.2
+    },
+    {
+      "slug": "vitoria-de-lula-pode-ser-um-ponto-de-virada-para-a-america-l",
+      "id": "400bb537defb31b2",
+      "titulo": "Vitória de Lula pode ser um ponto de virada para a América Latina",
+      "resumo": "Lula venceu Flávio Bolsonaro com 51,8% dos votos contra 48,2%. A análise vê a vitória como possível ponto de virada na guinada à direita na região, e aponta que Milei vem perdendo apoio nas pesquisas antes da eleição presidencial argentina do ano que vem.",
+      "url": "https://www.aljazeera.com/opinions/2026/10/26/lulas-victory-may-be-a-turning-point-for-latin-america",
+      "fonte_principal": "Al Jazeera",
+      "fontes": [
+        "Al Jazeera"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T07:00:00+00:00",
+      "ultima_publicacao": "2026-10-26T07:00:00+00:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": "inglês",
+      "titulo_original": "Lula's victory may be a turning point for Latin America",
+      "materias": [
+        {
+          "titulo": "Vitória de Lula pode ser um ponto de virada para a América Latina",
+          "fonte": "Al Jazeera",
+          "url": "https://www.aljazeera.com/opinions/2026/10/26/lulas-victory-may-be-a-turning-point-for-latin-america",
+          "publicado_em": "2026-10-26T07:00:00+00:00",
+          "pais": "MUNDO",
+          "traduzido_de": "inglês"
+        }
+      ],
+      "score_noticia": 41.1,
+      "score_reels": 50.6,
+      "score": 41.1,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.7,
+        "recencia": 0.213,
+        "calor": 0.419,
+        "potencial_reels": 0.63
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "como"
+          ]
+        },
+        "bonus": {
+          "percentual": true
+        },
+        "freio": {
+          "fator": 0.75,
+          "termos": [
+            "analise"
+          ]
+        }
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte Al Jazeera; só Al Jazeera publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de utilidade; tem percentual para o primeiro frame; freio de 0.75 (termo \"analise\")",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.1
+    },
+    {
+      "slug": "davi-alcolumbre-pede-humildade-a-lula-e-diz-que-e-preciso-un",
+      "id": "a45ccd4756d85491",
+      "titulo": "Davi Alcolumbre pede humildade a Lula e diz que é preciso \"unir o país\"",
+      "resumo": "O presidente do Senado pediu humildade ao presidente reeleito e defendeu a união do país.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/davi-alcolumbre-pede-humildade-a-lula-e-diz-que-e-preciso-unir-o-pais/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T21:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T21:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Davi Alcolumbre pede humildade a Lula e diz que é preciso \"unir o país\"",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/davi-alcolumbre-pede-humildade-a-lula-e-diz-que-e-preciso-unir-o-pais/",
+          "publicado_em": "2026-10-25T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 41.0,
+      "score_reels": 13.0,
+      "score": 41.0,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.119,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 41.0
+    },
+    {
+      "slug": "tse-afirma-ter-imagens-de-fiscais-do-pl-durante-apuracao",
+      "id": "027e0ac5d1b94ed9",
+      "titulo": "TSE afirma ter imagens de fiscais do PL durante apuração",
+      "resumo": "O PL diz que seus fiscais foram retirados da sala-cofre após a decisão de Zanin; o TSE afirma ter imagens deles durante a apuração.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-afirma-ter-imagens-de-fiscais-do-pl-durante-apuracao/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T22:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "TSE afirma ter imagens de fiscais do PL durante apuração",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/tse-afirma-ter-imagens-de-fiscais-do-pl-durante-apuracao/",
+          "publicado_em": "2026-10-25T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.9,
+      "score_reels": 13.2,
+      "score": 40.9,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.129,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Poder360; só Poder360 publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.9
+    },
+    {
+      "slug": "joice-hasselmann-ironiza-flavio-por-querer-anular-eleicao",
+      "id": "6454d6f4f1f30e80",
+      "titulo": "Joice Hasselmann ironiza Flávio por querer anular eleição",
+      "resumo": "O anúncio não altera o resultado das urnas; caberá à Justiça analisar um eventual pedido.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/joice-hasselmann-ironiza-flavio-por-querer-anular-eleicao/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T22:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Joice Hasselmann ironiza Flávio por querer anular eleição",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/joice-hasselmann-ironiza-flavio-por-querer-anular-eleicao/",
+          "publicado_em": "2026-10-25T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.9,
+      "score_reels": 13.2,
+      "score": 40.9,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.129,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [
+        {
+          "tipo": "eleitoral",
+          "aviso": "Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda."
+        }
+      ],
+      "explicacao": "fonte Poder360; só Poder360 publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.9
+    },
+    {
+      "slug": "o-que-aconteceu-hoje-e-inaceitavel-diz-flavio-sobre-zanin",
+      "id": "fc533c3a5f907bdc",
+      "titulo": "O que aconteceu hoje é inaceitável, diz Flávio sobre Zanin",
+      "resumo": "Flávio contesta a decisão de Cristiano Zanin que prorrogou a votação até 19h e alega quebra de isonomia entre eleitores de estados diferentes.",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/o-que-aconteceu-hoje-e-inaceitavel-diz-flavio-sobre-zanin/",
+      "fonte_principal": "CNN Brasil",
+      "fontes": [
+        "CNN Brasil"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T20:30:00-03:00",
+      "ultima_publicacao": "2026-10-25T20:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "O que aconteceu hoje é inaceitável, diz Flávio sobre Zanin",
+          "fonte": "CNN Brasil",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/o-que-aconteceu-hoje-e-inaceitavel-diz-flavio-sobre-zanin/",
+          "publicado_em": "2026-10-25T20:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.9,
+      "score_reels": 12.9,
+      "score": 40.9,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.82,
+        "recencia": 0.114,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNN Brasil; só CNN Brasil publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.9
+    },
+    {
+      "slug": "calendario-economico-resultado-das-eleicoes-e-decisao-do-fed",
+      "id": "342f51a618b8d117",
+      "titulo": "Calendário econômico: resultado das eleições e decisão do Fed são destaques da semana",
+      "resumo": "Fed decide na quarta (28), às 15h, com 90% de chance de manter os juros entre 3,75% e 4%; para dezembro, o mercado vê 70% de chance de alta.",
+      "url": "https://www.infomoney.com.br/mercados/calendario-economico-resultado-das-eleicoes-e-decisao-do-fed-sao-destaques-da-semana/",
+      "fonte_principal": "InfoMoney",
+      "fontes": [
+        "InfoMoney"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T18:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T18:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Calendário econômico: resultado das eleições e decisão do Fed são destaques da semana",
+          "fonte": "InfoMoney",
+          "url": "https://www.infomoney.com.br/mercados/calendario-economico-resultado-das-eleicoes-e-decisao-do-fed-sao-destaques-da-semana/",
+          "publicado_em": "2026-10-25T18:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.8,
+      "score_reels": 71.4,
+      "score": 40.8,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.84,
+        "recencia": 0.093,
+        "calor": 0.419,
+        "potencial_reels": 1.0
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "juros",
+            "mercado"
+          ],
+          "utilidade": [
+            "calendario"
+          ]
+        },
+        "bonus": {
+          "percentual": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte InfoMoney; só InfoMoney publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso, utilidade; tem percentual para o primeiro frame; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.8
+    },
+    {
+      "slug": "queda-do-consumo-na-china-exige-estimulo-no-estilo-japones-d",
+      "id": "4b03c8465631f326",
+      "titulo": "Queda do consumo na China exige estímulo no estilo japonês, diz Alpine Macro",
+      "resumo": "A Alpine Macro argumenta que as vendas no varejo quase estagnadas e a deflação persistente na China lembram a estagnação japonesa pós-bolha, e defende estímulo mais forte de Pequim.",
+      "url": "https://www.cnbc.com/video/2026/10/26/chinas-consumer-slump-demands-a-japan-style-stimulus-response.html",
+      "fonte_principal": "CNBC",
+      "fontes": [
+        "CNBC"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "MUNDO",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-26T06:00:00+00:00",
+      "ultima_publicacao": "2026-10-26T06:00:00+00:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": "inglês",
+      "titulo_original": "China's consumer slump demands a Japan-style stimulus response: Alpine Macro",
+      "materias": [
+        {
+          "titulo": "Queda do consumo na China exige estímulo no estilo japonês, diz Alpine Macro",
+          "fonte": "CNBC",
+          "url": "https://www.cnbc.com/video/2026/10/26/chinas-consumer-slump-demands-a-japan-style-stimulus-response.html",
+          "publicado_em": "2026-10-26T06:00:00+00:00",
+          "pais": "MUNDO",
+          "traduzido_de": "inglês"
+        }
+      ],
+      "score_noticia": 40.6,
+      "score_reels": 11.3,
+      "score": 40.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.7,
+        "recencia": 0.196,
+        "calor": 0.419,
+        "potencial_reels": 0.0
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {},
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte CNBC; só CNBC publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.6
+    },
+    {
+      "slug": "saiba-o-que-os-jornais-internacionais-dizem-sobre-a-vitoria",
+      "id": "2325782615fbea8c",
+      "titulo": "Saiba o que os jornais internacionais dizem sobre a vitória de Lula",
+      "resumo": "O Clarín, da Argentina, destacou que Lula reverteu a situação e permanece no poder por mais quatro anos.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-o-que-os-jornais-internacionais-dizem-sobre-a-vitoria-de-lula/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "mundo",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T21:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T21:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Saiba o que os jornais internacionais dizem sobre a vitória de Lula",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/saiba-o-que-os-jornais-internacionais-dizem-sobre-a-vitoria-de-lula/",
+          "publicado_em": "2026-10-25T21:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.6,
+      "score_reels": 13.0,
+      "score": 40.6,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.119,
+        "calor": 0.419,
+        "potencial_reels": 0.05
+      },
+      "reels_detalhe": {
+        "familias": {},
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Poder360; só Poder360 publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "sem gancho claro de vídeo curto; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.6
+    },
+    {
+      "slug": "reeleicao-de-lula-focus-e-divida-publica-o-que-move-os-merca",
+      "id": "3fcc8ae33840c850",
+      "titulo": "Reeleição de Lula, Focus e dívida pública: o que move os mercados",
+      "resumo": "",
+      "url": "https://exame.com/invest/mercados/reeleicao-de-lula-focus-e-divida-publica-o-que-move-os-mercados/",
+      "fonte_principal": "Exame",
+      "fontes": [
+        "Exame"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "economia",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T22:00:00-03:00",
+      "ultima_publicacao": "2026-10-25T22:00:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Reeleição de Lula, Focus e dívida pública: o que move os mercados",
+          "fonte": "Exame",
+          "url": "https://exame.com/invest/mercados/reeleicao-de-lula-focus-e-divida-publica-o-que-move-os-mercados/",
+          "publicado_em": "2026-10-25T22:00:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.5,
+      "score_reels": 64.0,
+      "score": 40.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.78,
+        "recencia": 0.129,
+        "calor": 0.419,
+        "potencial_reels": 0.87
+      },
+      "reels_detalhe": {
+        "familias": {
+          "bolso": [
+            "divida"
+          ]
+        },
+        "bonus": {
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Exame; só Exame publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de bolso; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.5
+    },
+    {
+      "slug": "lula-e-eleito-pela-4a-vez-e-supera-recorde-de-longevidade-na",
+      "id": "49633be129ba72e3",
+      "titulo": "Lula é eleito pela 4ª vez e supera recorde de longevidade na democracia",
+      "resumo": "Com o novo mandato, Lula passa a ser o presidente com mais tempo no cargo em regime democrático.",
+      "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-eleito-pela-4a-vez-e-supera-recorde-de-longevidade-na-democracia/",
+      "fonte_principal": "Poder360",
+      "fontes": [
+        "Poder360"
+      ],
+      "n_fontes": 1,
+      "n_itens": 1,
+      "editoria": "politica",
+      "pais": "BR",
+      "idioma": "pt",
+      "primeira_publicacao": "2026-10-25T20:30:00-03:00",
+      "ultima_publicacao": "2026-10-25T20:30:00-03:00",
+      "janela_horas": null,
+      "velocidade": null,
+      "datas_conhecidas": 1,
+      "traduzido_de": null,
+      "titulo_original": null,
+      "materias": [
+        {
+          "titulo": "Lula é eleito pela 4ª vez e supera recorde de longevidade na democracia",
+          "fonte": "Poder360",
+          "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-eleito-pela-4a-vez-e-supera-recorde-de-longevidade-na-democracia/",
+          "publicado_em": "2026-10-25T20:30:00-03:00",
+          "pais": "BR",
+          "traduzido_de": null
+        }
+      ],
+      "score_noticia": 40.5,
+      "score_reels": 67.6,
+      "score": 40.5,
+      "componentes": {
+        "corroboracao": 0.387,
+        "peso_fonte": 0.8,
+        "recencia": 0.114,
+        "calor": 0.419,
+        "potencial_reels": 0.932
+      },
+      "reels_detalhe": {
+        "familias": {
+          "utilidade": [
+            "passa a"
+          ],
+          "espanto": [
+            "recorde"
+          ]
+        },
+        "bonus": {
+          "numero_no_titulo": true,
+          "pauta_nacional": true
+        },
+        "freio": null
+      },
+      "riscos": [],
+      "explicacao": "fonte Poder360; só Poder360 publicou; matéria isolada, sem repercussão ainda",
+      "explicacao_reels": "gancho de utilidade, espanto; tem número no título; pauta nacional",
+      "afinidade": 0.0,
+      "afinidade_motivos": [],
+      "prioridade": 40.5
+    }
+  ],
+  "descartadas": [],
+  "preferencias": {
+    "temas": [],
+    "regioes": [],
+    "peso": 0.35
+  },
+  "regioes": {
+    "estados unidos": [
+      "eua",
+      "usa",
+      "united states",
+      "washington",
+      "trump",
+      "white house",
+      "casa branca",
+      "fed",
+      "federal reserve",
+      "american",
+      "americans",
+      "americano",
+      "americana",
+      "americanos",
+      "wall street",
+      "nasdaq",
+      "pentagon",
+      "pentagono",
+      "california",
+      "texas",
+      "new york",
+      "novayork",
+      "nova york",
+      "biden",
+      "republicano",
+      "democrata"
+    ],
+    "reino unido": [
+      "reino unido",
+      "united kingdom",
+      "britain",
+      "british",
+      "britanico",
+      "britanica",
+      "britanicos",
+      "london",
+      "londres",
+      "england",
+      "inglaterra",
+      "scotland",
+      "escocia",
+      "wales",
+      "gales",
+      "downing street",
+      "westminster",
+      "libra esterlina",
+      "king charles",
+      "rei charles",
+      "starmer"
+    ],
+    "europa": [
+      "europa",
+      "europe",
+      "european",
+      "europeu",
+      "europeia",
+      "europeus",
+      "ue",
+      "brussels",
+      "bruxelas",
+      "germany",
+      "alemanha",
+      "german",
+      "alemao",
+      "alema",
+      "france",
+      "franca",
+      "french",
+      "frances",
+      "francesa",
+      "italy",
+      "italia",
+      "spain",
+      "espanha",
+      "portugal",
+      "paris",
+      "berlim",
+      "berlin",
+      "madri",
+      "madrid",
+      "lisboa",
+      "lisbon",
+      "roma",
+      "rome",
+      "otan",
+      "nato",
+      "von der leyen",
+      "bce",
+      "ecb",
+      "zona do euro",
+      "eurozone"
+    ],
+    "america latina": [
+      "argentina",
+      "argentino",
+      "argentina",
+      "chile",
+      "chileno",
+      "colombia",
+      "colombiano",
+      "venezuela",
+      "venezuelano",
+      "mexico",
+      "mexicano",
+      "peru",
+      "peruano",
+      "bolivia",
+      "boliviano",
+      "uruguai",
+      "uruguay",
+      "paraguai",
+      "paraguay",
+      "equador",
+      "ecuador",
+      "cuba",
+      "buenos aires",
+      "mercosul",
+      "mercosur",
+      "latin america",
+      "america latina",
+      "latino",
+      "latina",
+      "milei",
+      "maduro"
+    ],
+    "asia": [
+      "china",
+      "chinese",
+      "chines",
+      "chinesa",
+      "japan",
+      "japao",
+      "japones",
+      "japonesa",
+      "india",
+      "indian",
+      "indiano",
+      "korea",
+      "coreia",
+      "coreano",
+      "taiwan",
+      "beijing",
+      "pequim",
+      "tokyo",
+      "toquio",
+      "seoul",
+      "seul",
+      "xi jinping",
+      "asia",
+      "asian",
+      "asiatico",
+      "asiatica",
+      "hong kong",
+      "singapore",
+      "singapura",
+      "vietnam",
+      "vietna",
+      "indonesia",
+      "filipinas"
+    ],
+    "oriente medio": [
+      "israel",
+      "israeli",
+      "israelis",
+      "israelense",
+      "israelenses",
+      "gaza",
+      "iran",
+      "iranian",
+      "iranians",
+      "iraniano",
+      "iraniana",
+      "iranianos",
+      "tehran",
+      "teera",
+      "palestine",
+      "palestina",
+      "palestinian",
+      "palestino",
+      "palestinos",
+      "lebanon",
+      "libano",
+      "syria",
+      "siria",
+      "saudi",
+      "arabia saudita",
+      "emirados",
+      "emirates",
+      "qatar",
+      "turkey",
+      "turquia",
+      "hamas",
+      "hezbollah",
+      "middle east",
+      "oriente medio",
+      "houthi",
+      "yemen",
+      "iemen",
+      "netanyahu",
+      "estreito de ormuz",
+      "strait of hormuz"
+    ],
+    "africa": [
+      "africa",
+      "african",
+      "africano",
+      "africana",
+      "africanos",
+      "nigeria",
+      "nigerian",
+      "egypt",
+      "egito",
+      "egipcio",
+      "ethiopia",
+      "etiopia",
+      "kenya",
+      "quenia",
+      "sudan",
+      "sudao",
+      "congo",
+      "mozambique",
+      "mocambique",
+      "angola",
+      "south africa",
+      "africa do sul",
+      "sul-africano"
+    ]
+  },
+  "diagnostico": [],
+  "metricas": {
+    "itens_coletados": 106,
+    "itens_lidos": 140,
+    "fontes_lidas": 12,
+    "janela_horas": 48,
+    "descartados_antigos": 10,
+    "descartados_sem_data": 24,
+    "itens_ineditos": 105,
+    "pautas_identificadas": 73,
+    "pautas_selecionadas": 6,
+    "roteiros_gerados": 0,
+    "fontes_ativas": 10,
+    "feeds_ok": 0,
+    "feeds_total": 0,
+    "distribuicao_editoria": {
+      "economia": 2,
+      "politica": 2,
+      "tecnologia": 1,
+      "mundo": 1
+    },
+    "origem_itens": {
+      "agente": 106
+    }
+  }
+}
