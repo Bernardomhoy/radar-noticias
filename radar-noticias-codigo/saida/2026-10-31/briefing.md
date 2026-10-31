@@ -1,76 +1,76 @@
 # Radar de Notícias — 2026-10-31
-*Fechado às 04:27 (horário de Brasília) · 1193 matérias lidas · 666 pautas identificadas · 18 fontes ativas*
+*Fechado às 10:50 (horário de Brasília) · 1158 matérias lidas · 708 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Após queda brusca da Bolsa, analistas recomendam cautela aos investidores**  
-notícia `91` · economia · Brasil · 5 veículos · Folha de S.Paulo  
-A reação dos investidores em ações à queda brusca da Bolsa brasileira não pode ser impulsiva. Esse é o consenso entre especialistas do mercado financeiro consultados pela Folha . Leia mais (10/30/2026 - 23h00)  
+**1. Filho de empresário e sucessor: saiba quem era o jovem que morreu após acidente em carreata pró-Flávio Bolsonaro**  
+notícia `92` · politica · Brasil · 7 veículos · g1  
+Filho de empresário que morreu durante carreata em Goiás recebe homenagens Matheus Henrique Oliveira Silva, que morreu após um acidente durante uma carreata pró-Flávio Bolsonaro (PL) em Goianésia, região central de Goiás, era filho de um empresário da cidade e  
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
+> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
+[Ler na fonte](https://g1.globo.com/go/goias/noticia/2026/10/31/filho-de-empresario-e-sucessor-saiba-quem-era-o-jovem-que-morreu-apos-acidente-em-carreata-pro-flavio-bolsonaro.ghtml)  
+Cobertura: [g1 (23)](https://g1.globo.com/go/goias/noticia/2026/10/31/filho-de-empresario-e-sucessor-saiba-quem-era-o-jovem-que-morreu-apos-acidente-em-carreata-pro-flavio-bolsonaro.ghtml) · [Folha de S.Paulo (34)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/elos-de-milei-em-fuga-de-flavio-bolsonaro-incluem-suspeitas-sobre-jato-e-assessor-entenda-o-que-se-sabe.shtml) · [Valor Econômico (7)](https://valor.globo.com/mundo/noticia/2026/10/31/trump-passa-do-discurso-a-acao-em-ataques-do-sistema-eleitoral-dos-eua.ghtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/ck3r52z8zwlqo?at_medium=RSS&at_campaign=rss) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/fuga-e-carta-golpista-ampliam-isolamento-de-flavio-bolsonaro) · [RFI Brasil (3)](https://www.rfi.fr/br/podcasts/rfi-convida/20261030-os-bolsonaro-viram-moeda-de-troca-de-trump-ap%C3%B3s-derrota-no-brasil-avalia-cientista-pol%C3%ADtico)  
+
+**2. Por que as eleições nos EUA e em Israel têm consequências globais**  
+notícia `90` · politica · Brasil · 5 veículos · Folha de S.Paulo  
+Duas eleições realizadas em continentes diferentes, com apenas alguns dias de intervalo, poderão ter consequências profundas para o mundo. Leia mais (10/29/2026 - 18h02)  
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/apos-queda-brusca-da-bolsa-analistas-recomendam-cautela-aos-investidores.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/apos-queda-brusca-da-bolsa-analistas-recomendam-cautela-aos-investidores.shtml) · [Valor Econômico](https://valor.globo.com/financas/noticia/2026/10/30/bolsas-da-europa-fecham-majoritariamente-em-queda-com-sell-off-de-tecnologia.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/mercado-reavalia-riscos-fiscais-apos-queda-de-18-do-ibovespa/) · [Poder360](https://www.poder360.com.br/poder-economia/bolsas-dos-eua-fecham-em-forte-queda-com-tombo-da-tecnologia/) · [Exame](https://exame.com/invest/mercados/so-12-acoes-do-ibovespa-subiram-em-outubro-veja-quais-escaparam-do-tombo/)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/por-que-as-eleicoes-nos-eua-e-em-israel-tem-consequencias-globais.shtml)  
+Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/por-que-as-eleicoes-nos-eua-e-em-israel-tem-consequencias-globais.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/10/29/por-que-as-eleicoes-nos-eua-e-em-israel-tem-consequencias-globais.ghtml) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/10/30/eua-determinam-que-funcionrios-no-essenciais-deixem-arbia-saudita-por-segurana.ghtml) · [InfoMoney (2)](https://www.infomoney.com.br/mundo/ira-alvos-eua-israel-resposta-sem-limites-geograficos/) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/egito-teme-que-escalada-na-guerra-do-ira-seja-mais-destrutiva-diz-ministro/)  
 
-**2. O que pode acontecer com Flávio Bolsonaro nos EUA se democratas derrotarem Trump no Congresso?**  
-notícia `89` · politica · Brasil · 10 veículos · g1  
-Flávio Bolsonaro desembarca nos EUA Eva Marie Uzcategui/Reuters O senador Flávio Bolsonaro (PL-RJ) chegou aos Estados Unidos a uma semana das eleições de meio de mandato (midterms), que vão renovar toda a Câmara dos Deputados e cerca de um terço do Senado no p  
-*Por que entrou:* 10 veículos cobrindo; peso de fonte alto (g1); ainda fresca  
-*Sinais:* corroboração ██████████ · recência ███████··· · calor █████████·  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/10/31/o-que-pode-acontecer-com-flavio-bolsonaro-nos-eua-se-democratas-derrotarem-trump-no-congresso.ghtml)  
-Cobertura: [g1 (28)](https://g1.globo.com/mundo/noticia/2026/10/31/o-que-pode-acontecer-com-flavio-bolsonaro-nos-eua-se-democratas-derrotarem-trump-no-congresso.ghtml) · [Folha de S.Paulo (44)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/apos-fuga-para-eua-flavio-pode-ter-desconto-no-salario-e-processo-de-cassacao-no-senado.shtml) · [Valor Econômico (9)](https://valor.globo.com/politica/noticia/2026/10/30/flavio-reforca-discurso-golpista-ao-dizer-que-sera-candidato-a-presidencia-antes-de-2030-e-apoia-marinho-para-o-senado.ghtml) · [BBC News Brasil (3)](https://www.bbc.com/portuguese/articles/ck3r52z8zwlqo?at_medium=RSS&at_campaign=rss) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/fuga-e-carta-golpista-ampliam-isolamento-de-flavio-bolsonaro) · [RFI Brasil (2)](https://www.rfi.fr/br/podcasts/rfi-convida/20261030-os-bolsonaro-viram-moeda-de-troca-de-trump-ap%C3%B3s-derrota-no-brasil-avalia-cientista-pol%C3%ADtico)  
-
-**3. Reeleição de Lula frusta planos de Trump, que deve acelerar pressão sobre a América Latina**  
-notícia `88` · politica · Brasil · 4 veículos · g1  
-Trump mira na América Larina com Doutrina 'Donroe' A reeleição do presidente Luiz Inácio Lula da Silva não só freou a guinada à direita na América Latina, mas se tornou também um ponto de inflexão para os Estados Unidos em sua doutrina na região. A vitória de   
+**3. Ataque armado em loja de Halloween deixa um morto e seis feridos na Califórnia**  
+notícia `88` · mundo · Brasil · 4 veículos · g1  
+Um ataque a tiros em uma loja de artigos de Halloween no norte da Califórnia, nos Estados Unidos, deixou um morto e seis feridos na sexta-feira (30), informou a polícia, que ainda não identificou os responsáveis. O incidente ocorreu pouco antes das 20h30 (0h30  
 *Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/10/31/reeleicao-de-lula-frusta-planos-de-trump-que-deve-acelerar-pressao-sobre-a-america-latina.ghtml)  
-Cobertura: [g1 (5)](https://g1.globo.com/mundo/noticia/2026/10/31/reeleicao-de-lula-frusta-planos-de-trump-que-deve-acelerar-pressao-sobre-a-america-latina.ghtml) · [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/opiniao/2026/10/maria-corina-abala-estrategia-dos-eua-para-a-venezuela.shtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/lula-avalia-convidar-opositores-de-milei-para-posse/) · [Poder360](https://www.poder360.com.br/poder-eleicoes-2026/pt-destaca-importancia-de-mobilizacao-popular-para-vitoria-de-lula/)  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/10/31/ataque-armado-california.ghtml)  
+Cobertura: [g1 (2)](https://g1.globo.com/mundo/noticia/2026/10/31/ataque-armado-california.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/ataque-a-tiros-em-loja-de-halloween-nos-eua-deixa-morto-e-feridos/) · [Poder360](https://www.poder360.com.br/poder-internacional/ataque-a-tiros-deixa-1-morto-e-6-feridos-na-california/) · [Exame](https://exame.com/agro/o-negocio-de-us-286-milhoes-que-movimenta-o-agro-dos-eua-no-halloween/)  
 
-**4. Corinthians, após 82 dias e dez rodadas sem vitória no Brasileiro, vence o Mirassol**  
-notícia `87` · esporte · Brasil · 3 veículos · Folha de S.Paulo  
-O Corinthians venceu. Há 82 dias, a torcida alvinegra não sabia o que era essa sensação no Campeonato Brasileiro . Nesta sexta-feira (30), o time do Parque São Jorge superou o Mirassol por 2 a 0, em Itaquera, e deu seu primeiro sinal de reação na luta contra o  
-*Por que entrou:* 3 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ████████·· · recência ██████████ · calor █████████·  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/10/corinthians-apos-82-dias-e-dez-rodadas-sem-vitoria-vence-o-mirassol.shtml)  
-Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/10/corinthians-apos-82-dias-e-dez-rodadas-sem-vitoria-vence-o-mirassol.shtml) · [CNN Brasil (4)](https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-2-x-0-mirassol-veja-os-melhores-momentos-pelo-brasileirao/) · [ge (Globo Esporte) (9)](https://ge.globo.com/sp/tem-esporte/futebol/times/mirassol/noticia/2026/10/31/analise-com-erro-crasso-e-sem-atitude-mirassol-ressuscita-corinthians-e-volta-a-beirar-o-z-4.ghtml)  
+**4. Trump diz que EUA investigam se ataque contra a Binance foi feito por hackers da Coreia do Norte**  
+notícia `88` · mundo · Brasil · 9 veículos · g1  
+Hackers roubam US$ 6,3 bilhões da Binance, maior corretora de criptomoedas do mundo O presidente americano Donald Trump afirmou nesta sexta-feira (30) que os Estados Unidos estão investigando se hackers da Coreia do Norte estão por trás do ataque hacker contra  
+*Por que entrou:* 9 veículos cobrindo; ainda fresca; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ████████·· · calor ████████··  
+[Ler na fonte](https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/30/trump-diz-que-eua-investigam-se-ataque-contra-a-binance-foi-feita-por-hackers-da-coreia-do-norte.ghtml)  
+Cobertura: [g1 (16)](https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/30/trump-diz-que-eua-investigam-se-ataque-contra-a-binance-foi-feita-por-hackers-da-coreia-do-norte.ghtml) · [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/10/o-que-ja-se-sabe-sobre-o-ataque-que-roubou-us-63-bilhoes-da-binance.shtml) · [Valor Econômico (3)](https://valor.globo.com/mundo/noticia/2026/10/31/de-hollywood-a-binance-como-a-coreia-do-norte-se-tornou-uma-superpotencia-em-ataques-hackers.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c820v2x0zvqko?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/economia/20261030-plataforma-binance-sofre-ataque-cibern%C3%A9tico-bilion%C3%A1rio-com-preju%C3%ADzo-potencial-de-us-6-3-bilh%C3%B5es) · [Exame](https://exame.com/negocios/startup-de-us-5-bilhoes-quer-virar-braco-direito-de-gigantes-do-brasil-e-encurtar-meses-de-trabalho/)  
 
-**5. Oncoclínicas diz que obteve adesão necessária de credores para recuperação extrajudicial**  
-notícia `83` · economia · Brasil · 4 veículos · Folha de S.Paulo  
-A Oncoclínicas anunciou nesta sexta-feira (30) que obteve adesão suficiente dos credores para dar continuidade ao pedido de homologação de plano de recuperação extrajudicial , segundo fato relevante. Leia mais (10/30/2026 - 22h10)  
-*Por que entrou:* 4 veículos cobrindo; peso de fonte alto (Folha de S.Paulo); 5 matérias em 1.87h  
-*Sinais:* corroboração █████████· · recência ██████···· · calor █████████·  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/10/oncoclinicas-diz-que-obteve-adesao-necessaria-de-credores-para-recuperacao-extrajudicial.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/10/oncoclinicas-diz-que-obteve-adesao-necessaria-de-credores-para-recuperacao-extrajudicial.shtml) · [g1](https://g1.globo.com/economia/noticia/2026/10/30/oncoclinicas-obtem-apoio-de-credores-para-renegociar-divida-de-r-57-bilhoes.ghtml) · [Valor Econômico](https://valor.globo.com/empresas/noticia/2026/10/30/oncoclnicas-obtm-apoio-de-616-pontos-percentuais-dos-credores-e-avana-com-recuperao-extrajudicial.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/oncoclinicas-diz-que-obteve/)  
+**5. Abre e fecha: veja o que funciona em Petrolina no feriado do Dia de Finados**  
+notícia `87` · tecnologia · Brasil · 4 veículos · g1  
+Comércio Petrolina Emerson Rocha / g1 Petrolina Nesta segunda-feira (02), Dia de Finados, o horário de funcionamento do comércio, prefeitura, estabelecimentos da cidade será alterado em Petrolina, no Sertão de Pernambuco. Saiba o que abre e fecha na cidade dur  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração █████████· · recência █████████· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/pe/petrolina-regiao/noticia/2026/10/31/o-que-abre-e-fecha-finados-petrolina.ghtml)  
+Cobertura: [g1 (4)](https://g1.globo.com/pe/petrolina-regiao/noticia/2026/10/31/o-que-abre-e-fecha-finados-petrolina.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/10/veja-regras-para-trabalho-no-feriado-de-finados-nesta-segunda-2.shtml) · [InfoMoney](https://www.infomoney.com.br/brasil/previsao-tempo-finados-chuva-calor-brasil/) · [Olhar Digital](https://olhardigital.com.br/2026/10/31/ciencia-e-espaco/vai-chover-no-feriadao-de-finados-confira-a-previsao-do-tempo/)  
 
-**6. Notícias do dia | 31 de outubro 2026 - Manhã**  
-notícia `64` · mundo · Mundo · 1 veículo · Euronews (português)  
-Fique a par das notícias mais importantes de toda a Europa e não só, a 31 de outubro de 2026 - últimas notícias, notícias de última hora, mundo, negócios, entretenimento, política, cultura, viagens.  
+**6. Finlândia explora esoterismo e vida após a morte em mostra de mulheres do norte na Galeria Nacional**  
+notícia `62` · cotidiano · Mundo · 1 veículo · Euronews (português)  
+A relação entre espírito e matéria, as questões ligadas à vida após a morte e à existência do mundo espiritual são temas centrais da exposição “Arcana Borealis – Northern Women and Esotericism” no Museu de Arte Ateneum, Galeria Nacional da Finlândia.  
 *Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência █████████· · calor ██████····  
-[Ler na fonte](https://pt.euronews.com/video/2026/10/31/noticias-do-dia-31-de-outubro-2026-manha)  
-Cobertura: [Euronews (português) (3)](https://pt.euronews.com/video/2026/10/31/noticias-do-dia-31-de-outubro-2026-manha)  
+*Sinais:* corroboração ████······ · recência █████████· · calor ████······  
+> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
+[Ler na fonte](https://pt.euronews.com/2026/10/31/finlandia-explora-esoterismo-e-vida-apos-a-morte-em-mostra-de-mulheres-do-norte-na-galeria)  
 
 ## Reserva (não entrou hoje)
 
-- `82` Fachin decide devolver investigação do INSS a Mendonça; presidente do STF mantém sob sua respon — *ficou fora do corte*
-- `80` Leão XIV se torna o primeiro papa em exercício a votar em uma eleição nacional — *ficou fora do corte*
-- `80` Trump diz que EUA investigam se ataque contra a Binance foi feito por hackers da Coreia do Nort — *ficou fora do corte*
-- `80` Quando é a Black Friday em 2026? Veja data e dicas para não cair em ciladas — *ficou fora do corte*
-- `80` Aneel mantém bandeira verde na conta de luz em novembro — *ficou fora do corte*
-- `80` Alcolumbre pauta votação da PEC da Segurança Pública para a próxima terça-feira — *ficou fora do corte*
-- `80` Aposta de MT acerta a quadra da Quina 7156 e ganha R$ 16,8 mil; prêmio principal acumula — *ficou fora do corte*
-- `80` Crime, saúde e imigração são temas mais buscados antes das midterms nos EUA — *ficou fora do corte*
+- `88` Chineses acusados de espionagem são condenados à prisão nos Estados Unidos — *cota de mundo cheia*
+- `88` Alcolumbre pauta votação da PEC da Segurança Pública para a próxima terça-feira — *cota de politica cheia*
+- `87` Líder supremo iraniano adverte Estados Unidos contra novos ataques — *cota de mundo cheia*
+- `84` Presidente da Polônia convoca reuniões após crise no Tribunal Constitucional e acusação de golp — *cota de politica cheia*
+- `82` Para maratonar no Dia das Bruxas: veja produções amapaenses de suspense e terror gratuitas — *ficou fora do corte*
+- `82` Botafogo-SP x Sport: horário e onde assistir ao jogo da Série B — *ficou fora do corte*
+- `81` Esquenta Micareta de Feira 2026 muda de data por causa do Enem; saiba quando será — *ficou fora do corte*
+- `81` A história de como uma sobrevivente de violência sexual do século 15 buscou justiça — *ficou fora do corte*
 
 ## Fontes que não responderam
 
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Estadão: `HTTP 404`
-- CNN Brasil Internacional: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
+- CNN Brasil Internacional: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
