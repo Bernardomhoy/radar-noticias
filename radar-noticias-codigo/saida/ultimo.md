@@ -1,79 +1,72 @@
 # Radar de Notícias — 2026-11-01
-*Fechado às 04:25 (horário de Brasília) · 1063 matérias lidas · 634 pautas identificadas · 18 fontes ativas*
+*Fechado às 11:28 (horário de Brasília) · 1010 matérias lidas · 602 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Segundo turno em MG teve virada de Lula, queda na abstenção e denúncias de assédio eleitoral; veja balanço**  
-notícia `92` · politica · Brasil · 5 veículos · g1  
-Segundo turno das eleições em Minas Gerais: veja imagens do domingo de votação em BH Fernanda Torquato/TV Globo O segundo turno das eleições de 2026, realizado no último domingo (25), foi marcado pela virada do presidente Luiz Inácio Lula da Silva (PT) sobre F  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**1. Binance retoma saques após ataque hacker roubar US$ 6,3 bilhões**  
+notícia `92` · mundo · Brasil · 11 veículos · Folha de S.Paulo  
+A Binance começou a liberar saques para clientes neste domingo (1º), ao retomar gradualmente os serviços após um ataque que resultou no roubo recorde de US$ 6,3 bilhões (R$ 34,2 bilhões) em criptomoedas. Leia mais (11/01/2026 - 07h45)  
+*Por que entrou:* 11 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/binance-retoma-saques-apos-ataque-hacker-roubar-us-63-bilhoes.shtml)  
+Cobertura: [Folha de S.Paulo (8)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/binance-retoma-saques-apos-ataque-hacker-roubar-us-63-bilhoes.shtml) · [g1 (16)](https://g1.globo.com/tecnologia/noticia/2026/11/01/binance-retoma-saques-apos-roubo-de-us-63-bilhoes.ghtml) · [Valor Econômico (6)](https://valor.globo.com/financas/noticia/2026/11/01/binance-retomara-saques-de-clientes-apos-ataque-hacker.ghtml) · [InfoMoney (2)](https://www.infomoney.com.br/onde-investir/binance-retoma-saques-enquanto-persistem-duvidas-sobre-maior-hack-ja-registrado/) · [RFI Brasil](https://www.rfi.fr/br/economia/20261101-fbi-acusa-coreia-do-norte-de-roubo-de-us-6-3-bilh%C3%B5es-em-criptomoedas-da-plataforma-binance) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/macroeconomia/fbi-atribui-a-coreia-do-norte-roubo-de-us-63-bi-em-cripto-da-binance/)  
+
+**2. O que são as eleições de meio de mandato dos EUA e por que elas podem selar futuro de Trump?**  
+notícia `92` · politica · Brasil · 6 veículos · g1  
+Americanos vão às urnas para renovar o Congresso nas eleições de meio de mandato Faltam poucos dias para as eleições de meio de mandato nos Estados Unidos, as midterms, quando os eleitores participarão de uma votação que poderá ter um grande impacto no restant  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
-[Ler na fonte](https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/11/01/segundo-turno-em-mg-teve-virada-de-lula-queda-na-abstencao-e-denuncias-de-assedio-eleitoral-veja-balanco.ghtml)  
-Cobertura: [g1 (5)](https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/11/01/segundo-turno-em-mg-teve-virada-de-lula-queda-na-abstencao-e-denuncias-de-assedio-eleitoral-veja-balanco.ghtml) · [Folha de S.Paulo (14)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/blogs/sobre-trilhos/2026/10/propostas-de-lula-para-as-ferrovias-focam-trens-urbanos-e-metros.shtml) · [Valor Econômico (3)](https://valor.globo.com/politica/noticia/2026/10/31/ministros-de-lula-vao-ao-ms-apos-onda-de-violencia-pos-eleicao-189-casos-foram-identificados.ghtml) · [BBC News Brasil (3)](https://www.bbc.com/portuguese/articles/cwzd679v845vo?at_medium=RSS&at_campaign=rss) · [Poder360](https://www.poder360.com.br/poder-brasil/idoso-ganha-certificado-do-exercito-do-lula-e-reacao-viraliza/)  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/01/o-que-sao-as-eleicoes-de-meio-de-mandato-dos-eua-e-por-que-elas-podem-selar-futuro-de-trump.ghtml)  
+Cobertura: [g1 (5)](https://g1.globo.com/mundo/noticia/2026/11/01/o-que-sao-as-eleicoes-de-meio-de-mandato-dos-eua-e-por-que-elas-podem-selar-futuro-de-trump.ghtml) · [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/a-crise-de-identidade-que-ameaca-ambicao-dos-democratas-em-eleicao-crucial-para-trump.shtml) · [BBC News Brasil (3)](https://www.bbc.com/portuguese/articles/ck87zqyqqdjlo?at_medium=RSS&at_campaign=rss) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/01/inflacao-emprego-e-pib-os-numeros-da-economia-de-trump-antes-das-eleicoes-de-meio-de-mandato-nos-eua.ghtml) · [RFI Brasil](https://www.rfi.fr/br/am%C3%A9ricas/20261030-eua-latinos-voltam-ao-centro-da-disputa-eleitoral-em-pleito-decisivo-para-futuro-do-governo-trump) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/midterms-2026-veja-principais-datas-da-eleicao-crucial-para-trump-nos-eua/)  
 
-**2. Por que o Honda CR-V é um sucesso nos EUA, mas quase não vende no Brasil? O g1 testou o SUV 'invisível'**  
-notícia `88` · economia · Brasil · 4 veículos · g1  
-Honda CR-V Divulgação / Honda O Honda CR-V é um sucesso de vendas no mercado norte-americano. O modelo vendeu mais de 226 mil unidades no primeiro semestre deste ano, sendo 51% de versão com motor híbrido. No Brasil, a história é totalmente diferente. Em 2026,  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/carros/noticia/2026/11/01/teste-honda-cr-v.ghtml)  
-Cobertura: [g1 (3)](https://g1.globo.com/carros/noticia/2026/11/01/teste-honda-cr-v.ghtml) · [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/10/chineses-acusados-de-espionagem-sao-condenados-a-prisao-nos-estados-unidos.shtml) · [Valor Econômico](https://valor.globo.com/financas/noticia/2026/10/30/ouro-fica-abaixo-de-us-4-mil-no-menor-nivel-em-um-ano-diante-de-expectativa-de-juros-mais-altos.ghtml) · [RFI Brasil](https://www.rfi.fr/br/podcasts/linha-direta/20261030-bras%C3%ADlia-aposta-em-pragmatismo-com-washington-mas-espera-teste-pol%C3%ADtico-nas-urnas-dos-eua)  
+**3. 'Nova guerra pode ser mais longa', alerta Irã após novas ameaças de Trump**  
+notícia `90` · mundo · Brasil · 3 veículos · g1  
+Presidente dos EUA, Donald Trump, e presidente do Irã, Masoud Pezeshkian Evelyn Hockstein/Reuters e Angelina Katsanis/AP Photo O Irã respondeu neste domingo (1º) às ameaças feitas pelo presidente dos Estados Unidos, Donald Trump. Em declarações feitas neste sá  
+*Por que entrou:* 3 veículos cobrindo; publicada nas últimas horas; 4 matérias em 0.54h  
+*Sinais:* corroboração ████████·· · recência ██████████ · calor ██████████  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/01/nova-guerra-pode-ser-mais-longa-alerta-ira-apos-novas-ameacas-de-trump.ghtml)  
+Cobertura: [g1 (2)](https://g1.globo.com/mundo/noticia/2026/11/01/nova-guerra-pode-ser-mais-longa-alerta-ira-apos-novas-ameacas-de-trump.ghtml) · [RFI Brasil](https://www.rfi.fr/br/mundo/20261101-nova-guerra-pode-ser-mais-longa-alerta-ir%C3%A3-ap%C3%B3s-novas-amea%C3%A7as-de-trump) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/trump-diz-que-nao-tem-pressa-em-fechar-acordo-de-paz-com-o-ira/)  
 
-**3. Trump diz não ter plano de encontrar Flávio Bolsonaro, mas que senador pode ficar quanto quiser nos EUA**  
-notícia `83` · politica · Brasil · 6 veículos · Folha de S.Paulo  
-O presidente dos Estados Unidos , Donald Trump , afirmou neste sábado (31) não ter planos de se encontrar com Flávio Bolsonaro (PL-RJ), mas que o senador brasileiro pode permanecer no país "o tempo que quiser". Leia mais (10/31/2026 - 22h48)  
-*Por que entrou:* 6 veículos cobrindo; peso de fonte alto (Folha de S.Paulo); ainda fresca  
-*Sinais:* corroboração ██████████ · recência ██████···· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/trump-diz-nao-ter-planos-de-encontrar-flavio-bolsonaro-mas-que-ele-pode-ficar-quanto-quiser-nos-eua.shtml)  
-Cobertura: [Folha de S.Paulo (8)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/10/trump-diz-nao-ter-planos-de-encontrar-flavio-bolsonaro-mas-que-ele-pode-ficar-quanto-quiser-nos-eua.shtml) · [g1 (4)](https://g1.globo.com/mundo/noticia/2026/10/31/trump-diz-que-flavio-bolsonaro-pode-ficar-nos-eua-quanto-tempo-que-quiser.ghtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/10/30/com-baixo-interesse-do-governo-por-cassacao-flavio-deve-concluir-o-mandato-de-senador.ghtml) · [RFI Brasil (3)](https://www.rfi.fr/br/podcasts/rfi-convida/20261030-os-bolsonaro-viram-moeda-de-troca-de-trump-ap%C3%B3s-derrota-no-brasil-avalia-cientista-pol%C3%ADtico) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/donald-trump-diz-que-nao-tem-planos-de-se-encontrar-com-flavio-bolsonaro/) · [Poder360](https://www.poder360.com.br/poder-internacional/flavio-pode-ficar-nos-eua-o-tempo-que-quiser-diz-trump/)  
+**4. Um debate sobre nova geopolítica das commodities e oportunidades para o Brasil**  
+notícia `90` · politica · Brasil · 5 veículos · Valor Econômico  
+Ao anunciar recentemente novas projeções para o comércio internacional, a Organização Mundial do Comércio (OMC) destacou como o Brasil tem sido um dos fatores importantes para manter o abastecimento mundial de petróleo neste ano, em meio à queda de forneciment  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Valor Econômico)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://valor.globo.com/opiniao/assis-moreira/coluna/um-debate-sobre-nova-geopolitica-das-commodities-e-oportunidades-para-o-brasil.ghtml)  
+Cobertura: [Valor Econômico](https://valor.globo.com/opiniao/assis-moreira/coluna/um-debate-sobre-nova-geopolitica-das-commodities-e-oportunidades-para-o-brasil.ghtml) · [InfoMoney](https://www.infomoney.com.br/business/europa-cria-taxa-das-blusinhas-veja-como-vai-funcionar-e-o-que-difere-do-brasil/) · [RFI Brasil](https://www.rfi.fr/br/europa/20261101-crise-de-moradia-provoca-confrontos-entre-manifestantes-e-for%C3%A7as-de-seguran%C3%A7a-em-portugal) · [Euronews (português)](https://pt.euronews.com/2026/10/31/europa-onde-se-gasta-mais-de-40-do-rendimento-em-habitacao) · [Exame](https://exame.com/mundo/crise-habitacional-na-europa-pode-ser-oportunidade-para-o-brasil-diz-lider-da-camara-portuguesa/)  
 
-**4. Veja todos os campeões da Libertadores feminina**  
-notícia `82` · esporte · Brasil · 3 veículos · Folha de S.Paulo  
+**5. Veja todos os campeões da Libertadores feminina**  
+notícia `88` · esporte · Brasil · 4 veículos · Folha de S.Paulo  
 O estreante Cruzeiro se tornou, neste sábado (31), o nono clube campeão da Libertadores feminina ao superar o Corinthians em Quito , no Equador . Realizada desde 2009, a competição é amplamente dominada por clubes brasileiros, que conquistaram 15 das 18 ediçõe  
-*Por que entrou:* 3 veículos cobrindo; 8 matérias em 2.05h; ainda fresca  
-*Sinais:* corroboração ████████·· · recência ███████··· · calor ██████████  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração █████████· · recência █████████· · calor ████████··  
 [Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/10/veja-todos-os-campeoes-da-libertadores-feminina.shtml)  
-Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/10/veja-todos-os-campeoes-da-libertadores-feminina.shtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/libertadores-da-america/cruzeiro-campeao-da-libertadores-feminina-veja-o-ranking-de-titulos/) · [ge (Globo Esporte) (5)](https://ge.globo.com/futebol/times/cruzeiro/noticia/2026/10/31/gabigol-comemora-titulo-do-cruzeiro-na-libertadores-feminina-eu-sabia.ghtml)  
+Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/10/veja-todos-os-campeoes-da-libertadores-feminina.shtml) · [InfoMoney](https://www.infomoney.com.br/esportes/quanto-a-libertadores-feminina-paga-veja-premiacoes-de-cruzeiro-e-corinthians/) · [ge (Globo Esporte) (8)](https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/noticia/2026/11/01/gabi-zanotti-critica-mudanca-de-postura-do-corinthians-na-final-da-libertadores-feminina.ghtml) · [Exame](https://exame.com/esporte/cruzeiro-vence-corinthians-nos-penaltis-e-conquista-libertadores-feminina-pela-1a-vez/)  
 
-**5. Cruzeiro reage após levar três gols, vence Corinthians nos pênaltis e conquista Libertadores feminina**  
-notícia `80` · esporte · Brasil · 4 veículos · Folha de S.Paulo  
-Parecia que seria fácil. O Corinthians abriu 3 a 0 sobre o Cruzeiro na final da Libertadores feminina neste sábado (31), em Quito, no Equador, e tinha tudo para conquistar o título pelo quarto ano consecutivo e somar o sétimo troféu de sua história. Mas a equi  
-*Por que entrou:* 4 veículos cobrindo; peso de fonte alto (Folha de S.Paulo); ainda fresca  
-*Sinais:* corroboração █████████· · recência ███████··· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/10/cruzeiro-reage-apos-levar-tres-gols-vence-corinthians-nos-penaltis-e-conquista-libertadores-feminina.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/10/cruzeiro-reage-apos-levar-tres-gols-vence-corinthians-nos-penaltis-e-conquista-libertadores-feminina.shtml) · [CNN Brasil](https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/libertadores-da-america/cruzeiro-bate-corinthians-nos-penaltis-e-conquista-a-libertadores-feminina/) · [ge (Globo Esporte)](https://ge.globo.com/sp/campinas-e-regiao/futebol/futebol-feminino/libertadores-feminina/jogo/31-10-2026/corinthians-feminino-cruzeiro.ghtml) · [Exame](https://exame.com/esporte/corinthians-x-cruzeiro-gigante-e-estreante-disputam-a-final-da-libertadores-feminina/)  
-
-**6. Ellen von Unwerth redefine o olhar feminino e a sensualidade na fotografia de moda**  
-notícia `63` · mundo · Mundo · 1 veículo · Euronews (português)  
-A Euronews Culture conversou com a conceituada fotógrafa alemã Ellen von Unwerth sobre a sua contribuição para o calendário Toiletpaper 2027 de Maurizio Cattelan e Pierpaolo Ferrari, a sua abordagem única à fotografia de moda e as histórias por trás de algumas  
+**6. Alemanha: motins em Frankfurt após manifestação deixam feridos e dezenas de detidos**  
+notícia `62` · cotidiano · Mundo · 1 veículo · Euronews (português)  
+A polícia manteve-se nas ruas de Frankfurt no domingo após tumultos e pilhagens na sequência de protestos juvenis, com montras partidas, incêndios e vários feridos.  
 *Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência ██████████ · calor ████······  
-[Ler na fonte](https://pt.euronews.com/2026/11/01/ellen-von-unwerth-redefine-o-olhar-feminino-e-a-sensualidade-na-fotografia-de-moda)  
+*Sinais:* corroboração ████······ · recência █████████· · calor ████······  
+[Ler na fonte](https://pt.euronews.com/video/2026/11/01/alemanha-motins-em-frankfurt-apos-manifestacao-deixam-feridos-e-dezenas-de-detidos)  
 
 ## Reserva (não entrou hoje)
 
-- `83` Os principais temas das eleições legislativas de meio de mandato nos EUA — *cota de politica cheia*
-- `81` 'Ferem diretamente o Código de Ética do Estudante de Medicina', diz CRM do Paraná sobre alunos  — *cota de politica cheia*
-- `79` Economista Yanis Varoufakis critica STF após derrota de Flávio e diz que Judiciário ultrapassa  — *cota de politica cheia*
-- `78` Protestos na Alemanha liderados pela geração Z terminam com roubos de lojas — *cota de politica cheia*
-- `78` Polônia busca saída para crise institucional após intervenção policial no Tribunal Constitucion — *cota de politica cheia*
-- `78` Hamilton volta à pole após três anos, e Antonelli vai largar em quarto — *ficou fora do corte*
-- `77` Paris FC x Monaco: horário e onde assistir ao jogo do Campeonato Francês — *ficou fora do corte*
-- `77` Calendário BPC/Loas novembro 2026: veja datas de pagamento — *ficou fora do corte*
-
-## Já foi pauta nos últimos dias
-
-- Como foi ataque que roubou US$ 6,3 bilhões da Binance e abalou setor cripto — *ja foi pauta em 2026-10-31*
-- Marco Rubio nega envolvimento direto do governo Trump na fuga de Flávio Bolsonaro do Brasil — *ja foi pauta em 2026-10-31*
-- Confrontos e carros incendiados marcam protestos na França; veja fotos — *ja foi pauta em 2026-10-31*
+- `89` Trump corrói disposição de defender democracia multirracial nos EUA, diz professora americana — *cota de politica cheia*
+- `88` Lojas são saqueadas durante protestos da geração Z na Alemanha; veja FOTOS — *cota de politica cheia*
+- `87` Opep+ mantém inalteradas as metas de produção de petróleo para dezembro — *cota de mundo cheia*
+- `87` Polônia busca saída para crise institucional após intervenção policial no Tribunal Constitucion — *cota de politica cheia*
+- `85` Heidi Klum prova que sua melhor fantasia de Halloween é sempre a próxima; veja vídeo — *ficou fora do corte*
+- `84` Investidores reduzem apostas em crescimento dos EUA em meio a temores de exposição excessiva a  — *ficou fora do corte*
+- `84` Fuvest 2027: 6,8 mil inscritos fazem provas da 1ª fase neste domingo em Campinas; veja orientaç — *ficou fora do corte*
+- `83` Novembro começa com chuva e trovoadas em MT; veja previsão para Finados — *ficou fora do corte*
 
 ## Fontes que não responderam
 
-- UOL: `ParseError: syntax error: line 1, column 0`
 - Estadão: `HTTP 404`
+- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Nexo Jornal: `HTTP 404`
 - CNN Brasil Internacional: `HTTP 404`
 
