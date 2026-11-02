@@ -1,76 +1,72 @@
 # Radar de Notícias — 2026-11-02
-*Fechado às 06:54 (horário de Brasília) · 873 matérias lidas · 526 pautas identificadas · 17 fontes ativas*
+*Fechado às 17:16 (horário de Brasília) · 936 matérias lidas · 564 pautas identificadas · 17 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Eleições nos EUA: alvos do ICE e pressionados pela inflação, latinos se viram contra Trump e são trunfo dos democratas**  
-notícia `88` · politica · Brasil · 4 veículos · g1  
-'Separados pelo ICE', foto que mostra drama de família migrante equatoriana sendo separada por agentes do ICE nos EUA, venceu prêmio de Imagem do Ano de 2026 do World Press Photo. Carol Guzy/ZUMA Press, iWitness para Miami Herald/World Press Photo 2026 via BBC  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/02/eleicoes-nos-eua-alvos-do-ice-e-pressionados-pela-inflacao-latinos-se-viram-contra-trump-e-sao-trunfo-dos-democratas.ghtml)  
-Cobertura: [g1 (4)](https://g1.globo.com/mundo/noticia/2026/11/02/eleicoes-nos-eua-alvos-do-ice-e-pressionados-pela-inflacao-latinos-se-viram-contra-trump-e-sao-trunfo-dos-democratas.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/apoio-a-trump-entre-latinos-cai-as-vesperas-da-eleicao-para-congresso-dos-eua.shtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/01/casa-branca-de-trump-traa-um-plano-para-governar-sem-o-congresso-caso-democratas-venam.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/eua-apoio-de-democrata-do-michigan-a-republicano-agita-disputa-pelo-senado/)  
+**1. Entenda as midterms, eleições que podem mudar os rumos do governo Trump**  
+notícia `94` · politica · Brasil · 8 veículos · Folha de S.Paulo  
+Os Estados Unidos realizam nesta terça-feira (3) as eleições legislativas de meio de mandato, conhecidas como midterms, que renovarão toda a Câmara dos Representantes, parte do Senado e definirão governos estaduais e outros cargos locais. Leia mais (11/02/2026  
+*Por que entrou:* 8 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/entenda-as-midterms-eleicoes-que-podem-mudar-os-rumos-do-governo-trump.shtml)  
+Cobertura: [Folha de S.Paulo (21)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/entenda-as-midterms-eleicoes-que-podem-mudar-os-rumos-do-governo-trump.shtml) · [g1 (15)](https://g1.globo.com/mundo/blog/sandra-cohen/noticia/2026/11/02/quem-sao-os-3-democratas-que-despontam-na-disputa-pelo-senado-dos-eua.ghtml) · [BBC News Brasil (3)](https://www.bbc.com/portuguese/articles/cwg7xpyd1jrgo?at_medium=RSS&at_campaign=rss) · [Valor Econômico (9)](https://valor.globo.com/financas/noticia/2026/11/02/rendimentos-dos-treasuries-tm-sinal-misto-com-cautela-sobre-ia-e-eleies-nos-eua-no-radar.ghtml) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/eleicao-nos-estados-unidos-define-futuro-de-trump-nesta-terca-feira) · [Euronews (português)](https://pt.euronews.com/2026/11/02/desencanto-latino-ameaca-trump-nas-eleicoes-intercalares-nos-eua)  
 
-**2. Nove pessoas morrem em acidente de avião na Flórida; veja o que se sabe**  
-notícia `88` · mundo · Brasil · 4 veículos · g1  
-Um jato particular caiu em um bairro da Flórida neste domingo (1/11), matando as nove pessoas a bordo, informou o secretário de Transportes dos Estados Unidos. Imagens da área mostram grandes pedaços do asfalto arrancados e lançados para o alto no local em que  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
-> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/02/nove-pessoas-morrem-em-acidente-de-aviao-na-florida-veja-o-que-se-sabe.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/mundo/noticia/2026/11/02/nove-pessoas-morrem-em-acidente-de-aviao-na-florida-veja-o-que-se-sabe.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cm9qz2289dvyo?at_medium=RSS&at_campaign=rss) · [InfoMoney](https://www.infomoney.com.br/mundo/nove-pessoas-morrem-apos-queda-de-aviao-em-bairro-residencial-na-florida/) · [Euronews (português)](https://pt.euronews.com/2026/11/02/queda-de-jato-da-learjet-na-florida-mata-nove-perto-do-resort-de-trump)  
+**2. Minha geladeira pode ser atacada por hackers como ocorreu em supermercados da Europa?**  
+notícia `91` · tecnologia · Brasil · 7 veículos · Folha de S.Paulo  
+Quatro redes de supermercados na Suécia e na Bélgica informaram nesta segunda-feira (2) que tiveram geladeiras e freezers atacados e que sofreram superaquecimento, o que destruiu milhões de alimentos. Leia mais (11/02/2026 - 09h46)  
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/tec/2026/11/minha-geladeira-pode-ser-atacada-por-hackers-como-ocorreu-em-supermercados-da-europa.shtml)  
+Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/tec/2026/11/minha-geladeira-pode-ser-atacada-por-hackers-como-ocorreu-em-supermercados-da-europa.shtml) · [g1 (3)](https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/hackers-atacam-supermercados-europeus-e-elevam-temperatura-de-freezers-a-50c.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/02/ataque-ciberntico-a-refrigeradores-atinge-supermercados-em-toda-europa.ghtml) · [Poder360](https://www.poder360.com.br/poder-internacional/hackers-invadem-supermercados-na-europa-e-elevam-freezers-a-50c/) · [Euronews (português) (2)](https://pt.euronews.com/video/2026/11/02/europa-ciberataque-suspeito-atinge-sistemas-de-refrigeracao-de-supermercados) · [Exame](https://exame.com/tecnologia/freezers-a-50c-nova-onda-de-ataques-hacker-atinge-supermercados-de-quatro-paises/)  
 
-**3. Com Antonelli no time dos campeões, veja os maiores vencedores da F1**  
-notícia `87` · esporte · Brasil · 5 veículos · Folha de S.Paulo  
-Kimi Antonelli subiu ao pódio do GP do México neste domingo (1º) ao lado do Max Verstappen , vencedor da etapa, e de Lewis Hamilton , que cruzou a linha de chegada em segundo. O terceiro lugar garantiu ao italiano de 20 anos o título antecipado da F1 , tornand  
-*Por que entrou:* 5 veículos cobrindo; ainda fresca; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ████████·· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/com-antonelli-no-time-dos-campeoes-veja-os-maiores-vencedores-da-f1.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/com-antonelli-no-time-dos-campeoes-veja-os-maiores-vencedores-da-f1.shtml) · [CNN Brasil (5)](https://www.cnnbrasil.com.br/esportes/automobilismo/campeao-kimi-antonelli-iguala-feitos-de-hamilton-e-fangio-na-formula-1/) · [ge (Globo Esporte) (7)](https://ge.globo.com/motor/formula-1/noticia/2026/11/02/como-antonelli-conquistou-o-titulo-da-f1-veja-5-motivos-que-explicam-o-sucesso-do-jovem-campeao.ghtml) · [Euronews (português)](https://pt.euronews.com/2026/11/02/kimi-antonelli-torna-se-o-mais-jovem-campeao-de-f1-verstappen-vence-corrida) · [Exame (2)](https://exame.com/esporte/quanto-ganha-o-campeao-da-formula-1-entenda-como-funciona-a-premiacao/)  
+**3. Binance diz que usuários retiraram quase US$ 5 bilhões após empresa ser roubada**  
+notícia `91` · tecnologia · Brasil · 6 veículos · Folha de S.Paulo  
+Os usuários da Binance retiraram US$ 5 bilhões (R$ 27,23 bilhões) da maior corretora de criptoativos do mundo depois que ela retomou os serviços no domingo (1°), após um roubo recorde de US$ 6,3 bilhões (R$ 34,31 bilhões) . Leia mais (11/02/2026 - 08h41)  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/binance-diz-que-usuarios-retiraram-quase-us-5-bilhoes-apos-empresa-ser-roubada.shtml)  
+Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/binance-diz-que-usuarios-retiraram-quase-us-5-bilhoes-apos-empresa-ser-roubada.shtml) · [g1 (6)](https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/investidores-retiram-us-36-bilhoes-da-binance-apos-ataque-hacker.ghtml) · [Valor Econômico (5)](https://valor.globo.com/financas/criptomoedas/noticia/2026/11/02/binance-diz-que-clientes-sacaram-us-47-bilhes-aps-ataque-hacker.ghtml) · [InfoMoney](https://www.infomoney.com.br/mundo/coreia-do-norte-turbina-hackers-com-ia-roubo-de-us-63-bi-da-binance-e-so-o-comeco/) · [RFI Brasil](https://www.rfi.fr/br/economia/20261101-fbi-acusa-coreia-do-norte-de-roubo-de-us-6-3-bilh%C3%B5es-em-criptomoedas-da-plataforma-binance) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/coreia-do-norte-avanca-para-ter-drone-controlado-por-ia/)  
 
-**4. Lula 4 precisa moderar pautas diante de Congresso hostil**  
-notícia `86` · politica · Brasil · 4 veículos · Folha de S.Paulo  
-O presidente Luiz Inácio Lula da Silva ( PT ) entrou no segundo turno como azarão, por ter ficado atrás de Flávio Bolsonaro ( PL ) na primeira rodada, e saiu com uma vitória expressiva, dada a amplitude da vantagem que impôs sobre o seu adversário. A solidez d  
+**4. Petróleo despenca quase 8% com expectativa de retomada de negociações entre EUA e Irã**  
+notícia `90` · politica · Brasil · 7 veículos · Folha de S.Paulo  
+Os preços do petróleo despencaram quase 8% nesta segunda-feira (2), depois que o presidente do Irã, Masoud Pezeshkian, afirmou que o líder supremo do país havia concedido ao governo "certos poderes" nas negociações destinadas a garantir um acordo com os EUA. L  
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/petroleo-despenca-quase-8-com-expectativa-de-retomada-de-negociacoes-entre-eua-e-ira.shtml)  
+Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/petroleo-despenca-quase-8-com-expectativa-de-retomada-de-negociacoes-entre-eua-e-ira.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/02/ira-eua-estreito-de-ormuz.ghtml) · [Valor Econômico (3)](https://valor.globo.com/mundo/noticia/2026/11/02/ir-deixa-negociaes-no-catar-proposta-de-acordo-com-os-eua-est-em-circulao.ghtml) · [InfoMoney](https://www.infomoney.com.br/mercados/petroleo-cai-mais-de-4-com-esperanca-de-paz-goldman-projeta-us-140/) · [RFI Brasil](https://www.rfi.fr/br/mundo/20261102-ir%C3%A3-se-diz-disposto-a-reabrir-estreito-de-ormuz-em-dois-dias-se-eua-aceitar-condi%C3%A7%C3%B5es) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/petroleo-cai-mais-de-7-com-expectativa-de-acordo-entre-eua-e-ira/)  
+
+**5. Prejuízo trimestral da Anthropic diminui e receita dispara antes de IPO**  
+notícia `88` · mundo · Brasil · 4 veículos · Folha de S.Paulo  
+O prejuízo líquido da Anthropic diminuiu acentuadamente no terceiro trimestre, enquanto a receita subiu, conforme revelou, nesta segunda-feira (2), um documento revisado de IPO (oferta pública inicial, em inglês) apresentado à SEC (Comissão de Valores Mobiliár  
 *Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração █████████· · recência █████████· · calor ███████···  
-> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/opiniao/2026/11/lula-4-precisa-moderar-pautas-diante-de-congresso-hostil.shtml)  
-Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/opiniao/2026/11/lula-4-precisa-moderar-pautas-diante-de-congresso-hostil.shtml) · [g1](https://g1.globo.com/politica/noticia/2026/11/01/camara-quer-mudar-a-forma-de-eleicao-dos-deputados-entenda-o-novo-modelo-em-discussao.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/governo-lula-retoma-articulacao-com-o-congresso-apos-eleicoes/) · [Poder360](https://www.poder360.com.br/poder-congresso/governo-prioriza-tarifa-zero-seguranca-bets-e-orcamento-no-congresso/)  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/prejuizo-trimestral-da-anthropic-diminui-e-receita-dispara-antes-de-ipo.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/prejuizo-trimestral-da-anthropic-diminui-e-receita-dispara-antes-de-ipo.shtml) · [Valor Econômico (2)](https://valor.globo.com/financas/noticia/2026/11/02/prejuzo-trimestral-da-anthropic-diminui-e-receita-dispara-antes-de-ipo.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/anthropic-planeja-captar-ate-us-35-bi-no-japao-em-ipo-nos-eua/) · [Exame](https://exame.com/invest/mercados/receita-da-anthropic-salta-12-vezes-para-us-17-bilhoes-as-vesperas-do-ipo/)  
 
-**5. Dia de Finados: Veja programação das missas em Montes Claros**  
-notícia `86` · cotidiano · Brasil · 3 veículos · g1  
-Cemitérios devem receber 40 mil visitantes Solon Queiroz/Prefeitura de Montes Claros A Arquidiocese de Montes Claros divulgou a programação das missas que serão realizadas no Dia de Finados, celebrado nesta segunda-feira (2). Em Montes Claros, haverá celebraçõ  
-*Por que entrou:* 3 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ████████·· · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/mg/grande-minas/noticia/2026/11/02/dia-de-finados-veja-programacao-das-missas-em-montes-claros.ghtml)  
-Cobertura: [g1 (6)](https://g1.globo.com/mg/grande-minas/noticia/2026/11/02/dia-de-finados-veja-programacao-das-missas-em-montes-claros.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/saude/especialista-orienta-como-lidar-com-o-luto-no-dia-de-finados/) · [Exame](https://exame.com/pop/dia-de-finados-20-frases-para-homenagear-quem-partiu-no-whatsapp-ou-no-instagram/)  
-
-**6. Aquecimento global ameaça geleiras e áreas congeladas do planeta, segundo relatórios da ONU**  
-notícia `64` · ciencia · Mundo · 1 veículo · RFI Brasil  
-Ultrapassar 1,5°C de aquecimento global terá consequências “irreversíveis” para as geleiras, o gelo marinho e as áreas congeladas da Terra. O alerta está em dois relatórios da ONU divulgados nesta segunda-feira (2), que defendem ações contra o aquecimento glob  
-*Por que entrou:* publicada nas últimas horas; fonte RFI Brasil; só RFI Brasil publicou  
-*Sinais:* corroboração ████······ · recência ██████████ · calor ████······  
-> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://www.rfi.fr/br/ci%C3%AAncias/20261102-aquecimento-global-amea%C3%A7a-geleiras-e-%C3%A1reas-congeladas-do-planeta-segundo-relat%C3%B3rios-da-onu)  
+**6. França: estudantes voltam a bloquear dezenas de escolas e pressionam governo**  
+notícia `71` · politica · Mundo · 2 veículos · RFI Brasil  
+Alunos do ensino médio e universitários retomaram as atividades escolares na França nesta segunda-feira (2), após duas semanas de férias. O retorno foi marcado pela continuidade dos bloqueios em escolas e universidades em várias regiões. O governo teme uma esc  
+*Por que entrou:* publicada nas últimas horas; 2 veículos cobrindo; fonte RFI Brasil  
+*Sinais:* corroboração ██████···· · recência █████████· · calor █████·····  
+[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261102-fran%C3%A7a-estudantes-voltam-a-bloquear-dezenas-de-escolas-e-pressionam-governo)  
+Cobertura: [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261102-fran%C3%A7a-estudantes-voltam-a-bloquear-dezenas-de-escolas-e-pressionam-governo) · [Euronews (português)](https://pt.euronews.com/2026/11/02/protestos-estudantis-em-franca-regressam-a-alguns-liceus-apesar-de-respostas-do-governo)  
 
 ## Reserva (não entrou hoje)
 
-- `86` Polônia busca saída para crise institucional após intervenção policial no Tribunal Constitucion — *cota de politica cheia*
-- `83` Protestos na França entram no terceiro fim de semana e contagiam outros países da Europa — *ficou fora do corte*
-- `80` Midterms nos EUA: eleições podem mudar planos de Trump e mexer com dólar e juros no Brasil — *ficou fora do corte*
-- `79` A Ilha de Coiba, a brutal prisão a céu aberto que se tornou um paraíso natural e para onde o Pa — *ficou fora do corte*
-- `78` André Janones diz que não será ministro de Lula e que continuará na Câmara — *ficou fora do corte*
-- `77` Novo diz ter recebido mais de 2 mil filiados após não reconhecer vitória de Lula — *ficou fora do corte*
-- `77` Moradores da Ucrânia recebem alertas de risco químico e nuclear; autoridades falam em ação hack — *ficou fora do corte*
-- `76` Trump volta atrás, indica retomada de comícios em estados republicanos e sacrifica independente — *ficou fora do corte*
+- `88` Na véspera das eleições, Trump quer que Suprema Corte suspenda votos de 20 mil eleitores na Cal — *cota de politica cheia*
+- `87` Asa-delta fez curva a baixa altura antes de bater, diz vice-presidente de clube de voo livre de — *ficou fora do corte*
+- `87` VÍDEOS: Bom Dia Acre desta segunda-feira, 2 de novembro de 2026 — *ficou fora do corte*
+- `87` 'Muito dedicada no que fazia', diz tia capixaba de copilota de avião que caiu na Flórida e deix — *ficou fora do corte*
+- `86` Nove pessoas morrem em acidente de avião na Flórida; veja o que se sabe — *ficou fora do corte*
+- `86` Reino Unido exigirá que parte dos migrantes espere 10 anos por residência — *ficou fora do corte*
+- `84` Voluntários se unem e transformam cemitério em paisagem colorida no Dia de Finados: 'Mexe com a — *ficou fora do corte*
+- `84` Montadoras pedem ao Congresso dos EUA que aprove proibição permanente de veículos chineses — *ficou fora do corte*
 
 ## Já foi pauta nos últimos dias
 
-- Os principais números das eleições de meio de mandato nos EUA — *ja foi pauta em 2026-11-01*
-- Investidores retiram US$ 3,6 bilhões da Binance após ataque hacker — *ja foi pauta em 2026-11-01*
-- Grêmio vence o Atlético-MG e fica mais perto da final da Copa do Brasil — *ja foi pauta em 2026-11-01*
+- 'Nova guerra pode ser mais longa', alerta Irã após novas ameaças de Trump — *ja foi pauta em 2026-11-01*
 
 ## Fontes que não responderam
 
