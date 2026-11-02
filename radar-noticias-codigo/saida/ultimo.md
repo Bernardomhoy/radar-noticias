@@ -1,72 +1,76 @@
-# Radar de Notícias — 2026-11-01
-*Fechado às 23:23 (horário de Brasília) · 859 matérias lidas · 517 pautas identificadas · 17 fontes ativas*
+# Radar de Notícias — 2026-11-02
+*Fechado às 06:54 (horário de Brasília) · 873 matérias lidas · 526 pautas identificadas · 17 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. 'Exército do Lula': Janones fala sobre canal com 10 milhões de pessoas e descarta ministério**  
-notícia `93` · politica · Brasil · 5 veículos · g1  
-Fantástico teve acesso exclusivo à rotina de André Janones O canal de mensagens criado pelo deputado federal André Janones (Rede-MG) se transformou em um dos fenômenos da campanha do presidente Luiz Inácio Lula da Silva (PT), reeleito para um quarto mandato. O  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
-[Ler na fonte](https://g1.globo.com/fantastico/noticia/2026/11/01/janones-exercito-lula-descarta-ministerio.ghtml)  
-Cobertura: [g1](https://g1.globo.com/fantastico/noticia/2026/11/01/janones-exercito-lula-descarta-ministerio.ghtml) · [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/governadora-do-rn-e-cotada-para-ministerio-da-area-social-de-lula.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-garante-que-programas-sociais-serao-mantidos) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/01/lula-diz-que-no-encerrar-nenhum-programa-social-e-pode-criar-novos.ghtml) · [Poder360](https://www.poder360.com.br/poder-governo/nao-vou-ser-ministro-do-governo-lula-diz-janones/)  
+**1. Eleições nos EUA: alvos do ICE e pressionados pela inflação, latinos se viram contra Trump e são trunfo dos democratas**  
+notícia `88` · politica · Brasil · 4 veículos · g1  
+'Separados pelo ICE', foto que mostra drama de família migrante equatoriana sendo separada por agentes do ICE nos EUA, venceu prêmio de Imagem do Ano de 2026 do World Press Photo. Carol Guzy/ZUMA Press, iWitness para Miami Herald/World Press Photo 2026 via BBC  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/02/eleicoes-nos-eua-alvos-do-ice-e-pressionados-pela-inflacao-latinos-se-viram-contra-trump-e-sao-trunfo-dos-democratas.ghtml)  
+Cobertura: [g1 (4)](https://g1.globo.com/mundo/noticia/2026/11/02/eleicoes-nos-eua-alvos-do-ice-e-pressionados-pela-inflacao-latinos-se-viram-contra-trump-e-sao-trunfo-dos-democratas.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/apoio-a-trump-entre-latinos-cai-as-vesperas-da-eleicao-para-congresso-dos-eua.shtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/01/casa-branca-de-trump-traa-um-plano-para-governar-sem-o-congresso-caso-democratas-venam.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/eua-apoio-de-democrata-do-michigan-a-republicano-agita-disputa-pelo-senado/)  
 
-**2. Apoio a Trump entre latinos cai às vésperas da eleição para Congresso dos EUA**  
-notícia `92` · politica · Brasil · 6 veículos · Folha de S.Paulo  
-Há um conceito nos Estados Unidos muito importante em eleições , como a da próxima terça-feira (3), que renovará o Congresso : os estados-pêndulo. São aqueles que ora votam mais pelos democratas , ora mais pelos republicanos. Desta vez, essa mesma designação t  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/apoio-a-trump-entre-latinos-cai-as-vesperas-da-eleicao-para-congresso-dos-eua.shtml)  
-Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/apoio-a-trump-entre-latinos-cai-as-vesperas-da-eleicao-para-congresso-dos-eua.shtml) · [g1 (4)](https://g1.globo.com/mundo/noticia/2026/11/01/o-que-sao-as-eleicoes-de-meio-de-mandato-dos-eua-e-por-que-elas-podem-selar-futuro-de-trump.ghtml) · [Valor Econômico (5)](https://valor.globo.com/mundo/noticia/2026/11/01/discursos-de-trump-tm-se-tornado-mais-confusos-afirma-mdia-dos-eua.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cwg7xpyd1jrgo?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/eleicao-nos-estados-unidos-define-futuro-de-trump-nesta-terca-feira) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/economia/money/macroeconomia/trump-diz-que-eua-e-canada-tem-um-conceito-de-novo-acordo-comercial/)  
-
-**3. VÍDEO: Jatinho cai em área residencial e deixa nove mortos nos EUA**  
-notícia `92` · mundo · Brasil · 5 veículos · g1  
-Avião com 9 pessoas a bordo cai em avenida na Flórida Nove pessoas morreram após um avião cair em um bairro residencial de West Palm Beach, na Flórida, nos Estados Unidos, neste domingo (1º). Uma câmera instalada em um carro gravou o momento da queda. Veja aci  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
+**2. Nove pessoas morrem em acidente de avião na Flórida; veja o que se sabe**  
+notícia `88` · mundo · Brasil · 4 veículos · g1  
+Um jato particular caiu em um bairro da Flórida neste domingo (1/11), matando as nove pessoas a bordo, informou o secretário de Transportes dos Estados Unidos. Imagens da área mostram grandes pedaços do asfalto arrancados e lançados para o alto no local em que  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
 > ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/01/aviao-caiu-miami.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/mundo/noticia/2026/11/01/aviao-caiu-miami.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cm9qz2289dvyo?at_medium=RSS&at_campaign=rss) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/01/jatinho-cai-em-area-residencial-em-miami-e-deixa-nove-mortos.ghtml) · [InfoMoney](https://www.infomoney.com.br/mundo/nove-pessoas-morrem-apos-queda-de-aviao-em-bairro-residencial-na-florida/) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/autoridades-investigam-queda-de-aviao-com-9-pessoas-a-bordo-na-florida/)  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/02/nove-pessoas-morrem-em-acidente-de-aviao-na-florida-veja-o-que-se-sabe.ghtml)  
+Cobertura: [g1 (2)](https://g1.globo.com/mundo/noticia/2026/11/02/nove-pessoas-morrem-em-acidente-de-aviao-na-florida-veja-o-que-se-sabe.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cm9qz2289dvyo?at_medium=RSS&at_campaign=rss) · [InfoMoney](https://www.infomoney.com.br/mundo/nove-pessoas-morrem-apos-queda-de-aviao-em-bairro-residencial-na-florida/) · [Euronews (português)](https://pt.euronews.com/2026/11/02/queda-de-jato-da-learjet-na-florida-mata-nove-perto-do-resort-de-trump)  
 
-**4. Grêmio vence o Atlético-MG e fica mais perto da final da Copa do Brasil**  
-notícia `88` · esporte · Brasil · 4 veículos · Folha de S.Paulo  
-O Grêmio deu um largo passo rumo à decisão da Copa do Brasil ao derrotar o Atlético-MG por 2 a 0, na noite deste domingo (1), na Arena do Grêmio, em Porto Alegre. Carlos Vinicius e Noriega fizeram os gols. Leia mais (11/01/2026 - 20h39)  
+**3. Com Antonelli no time dos campeões, veja os maiores vencedores da F1**  
+notícia `87` · esporte · Brasil · 5 veículos · Folha de S.Paulo  
+Kimi Antonelli subiu ao pódio do GP do México neste domingo (1º) ao lado do Max Verstappen , vencedor da etapa, e de Lewis Hamilton , que cruzou a linha de chegada em segundo. O terceiro lugar garantiu ao italiano de 20 anos o título antecipado da F1 , tornand  
+*Por que entrou:* 5 veículos cobrindo; ainda fresca; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ████████·· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/com-antonelli-no-time-dos-campeoes-veja-os-maiores-vencedores-da-f1.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/com-antonelli-no-time-dos-campeoes-veja-os-maiores-vencedores-da-f1.shtml) · [CNN Brasil (5)](https://www.cnnbrasil.com.br/esportes/automobilismo/campeao-kimi-antonelli-iguala-feitos-de-hamilton-e-fangio-na-formula-1/) · [ge (Globo Esporte) (7)](https://ge.globo.com/motor/formula-1/noticia/2026/11/02/como-antonelli-conquistou-o-titulo-da-f1-veja-5-motivos-que-explicam-o-sucesso-do-jovem-campeao.ghtml) · [Euronews (português)](https://pt.euronews.com/2026/11/02/kimi-antonelli-torna-se-o-mais-jovem-campeao-de-f1-verstappen-vence-corrida) · [Exame (2)](https://exame.com/esporte/quanto-ganha-o-campeao-da-formula-1-entenda-como-funciona-a-premiacao/)  
+
+**4. Lula 4 precisa moderar pautas diante de Congresso hostil**  
+notícia `86` · politica · Brasil · 4 veículos · Folha de S.Paulo  
+O presidente Luiz Inácio Lula da Silva ( PT ) entrou no segundo turno como azarão, por ter ficado atrás de Flávio Bolsonaro ( PL ) na primeira rodada, e saiu com uma vitória expressiva, dada a amplitude da vantagem que impôs sobre o seu adversário. A solidez d  
 *Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração █████████· · recência █████████· · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/gremio-vence-o-atletico-mg-e-fica-mais-perto-da-final-da-copa-do-brasil.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/gremio-vence-o-atletico-mg-e-fica-mais-perto-da-final-da-copa-do-brasil.shtml) · [CNN Brasil (7)](https://www.cnnbrasil.com.br/esportes/futebol/copa-do-brasil/gremio-2-x-0-atletico-mg-veja-os-melhores-momentos-pela-copa-do-brasil/) · [ge (Globo Esporte) (13)](https://ge.globo.com/futebol/times/atletico-mg/noticia/2026/11/01/diretor-do-atletico-mg-admite-momento-dificil-mas-passa-confianca-a-comissao-tecnica-e-pede-apoio.ghtml) · [Exame (3)](https://exame.com/esporte/gremio-faz-2-a-0-no-galo-e-abre-vantagem-na-semi-da-copa-do-brasil/)  
+*Sinais:* corroboração █████████· · recência █████████· · calor ███████···  
+> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/opiniao/2026/11/lula-4-precisa-moderar-pautas-diante-de-congresso-hostil.shtml)  
+Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/opiniao/2026/11/lula-4-precisa-moderar-pautas-diante-de-congresso-hostil.shtml) · [g1](https://g1.globo.com/politica/noticia/2026/11/01/camara-quer-mudar-a-forma-de-eleicao-dos-deputados-entenda-o-novo-modelo-em-discussao.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/governo-lula-retoma-articulacao-com-o-congresso-apos-eleicoes/) · [Poder360](https://www.poder360.com.br/poder-congresso/governo-prioriza-tarifa-zero-seguranca-bets-e-orcamento-no-congresso/)  
 
-**5. Fuvest 2027 cobra interpretação, repertório e conexão entre diferentes áreas do conhecimento, avaliam professores**  
-notícia `88` · tecnologia · Brasil · 4 veículos · g1  
-Bad Bunny com a bandeira de Porto Rico Foto/AP Photo/Mark J. Terrill A primeira fase da Fuvest 2027, realizada neste domingo (1º), foi marcada pela interdisciplinaridade, pela presença de temas contemporâneos e por uma maior exigência de interpretação e articu  
-*Por que entrou:* 4 veículos cobrindo; ainda fresca; 11 matérias em 3.79h  
-*Sinais:* corroboração █████████· · recência ████████·· · calor █████████·  
-[Ler na fonte](https://g1.globo.com/sp/sao-paulo/educacao/noticia/2026/11/01/fuvest-2027-cobra-interpretacao-repertorio-e-conexao-entre-diferentes-areas-do-conhecimento-avaliam-professores.ghtml)  
-Cobertura: [g1 (5)](https://g1.globo.com/sp/sao-paulo/educacao/noticia/2026/11/01/fuvest-2027-cobra-interpretacao-repertorio-e-conexao-entre-diferentes-areas-do-conhecimento-avaliam-professores.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/educacao/2026/11/gabarito-oficial-da-fuvest-2027-e-divulgado-veja-respostas-da-1a-fase.shtml) · [InfoMoney](https://www.infomoney.com.br/brasil/fuvest-1a-fase-da-prova-traz-mencoes-a-bad-bunny-uso-de-ia-e-fim-da-escala-6x1/) · [CNN Brasil (3)](https://www.cnnbrasil.com.br/educacao/fuvest-2027-professora-aponta-erro-em-questao-de-matematica-da-versao-1/)  
+**5. Dia de Finados: Veja programação das missas em Montes Claros**  
+notícia `86` · cotidiano · Brasil · 3 veículos · g1  
+Cemitérios devem receber 40 mil visitantes Solon Queiroz/Prefeitura de Montes Claros A Arquidiocese de Montes Claros divulgou a programação das missas que serão realizadas no Dia de Finados, celebrado nesta segunda-feira (2). Em Montes Claros, haverá celebraçõ  
+*Por que entrou:* 3 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ████████·· · recência ██████████ · calor ████████··  
+[Ler na fonte](https://g1.globo.com/mg/grande-minas/noticia/2026/11/02/dia-de-finados-veja-programacao-das-missas-em-montes-claros.ghtml)  
+Cobertura: [g1 (6)](https://g1.globo.com/mg/grande-minas/noticia/2026/11/02/dia-de-finados-veja-programacao-das-missas-em-montes-claros.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/saude/especialista-orienta-como-lidar-com-o-luto-no-dia-de-finados/) · [Exame](https://exame.com/pop/dia-de-finados-20-frases-para-homenagear-quem-partiu-no-whatsapp-ou-no-instagram/)  
 
-**6. Missa homenageia vítimas de acidente ferroviário na Espanha; autoridades ainda apuram causas da tragédia**  
-notícia `57` · cotidiano · Mundo · 2 veículos · RFI Brasil  
-Moradores e autoridades locais se reuniram neste sábado (31) no vilarejo espanhol de Urda, na província de Toledo, para uma missa em homenagem às vítimas do acidente entre dois trens de alta velocidade que deixou ao menos 69 mortos. A cerimônia ocorreu perto d  
-*Por que entrou:* 2 veículos cobrindo; fonte RFI Brasil; já esfriando  
-*Sinais:* corroboração ██████···· · recência ████······ · calor ████······  
-> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
-[Ler na fonte](https://www.rfi.fr/br/europa/20261031-missa-homenageia-v%C3%ADtimas-de-acidente-ferrovi%C3%A1rio-na-espanha-autoridades-ainda-apuram-causas-da-trag%C3%A9dia)  
-Cobertura: [RFI Brasil](https://www.rfi.fr/br/europa/20261031-missa-homenageia-v%C3%ADtimas-de-acidente-ferrovi%C3%A1rio-na-espanha-autoridades-ainda-apuram-causas-da-trag%C3%A9dia) · [Euronews (português)](https://pt.euronews.com/2026/11/01/investigadora-premiada-da-universidade-de-cambridge-entre-as-vitimas-de-acidente-ferroviar)  
+**6. Aquecimento global ameaça geleiras e áreas congeladas do planeta, segundo relatórios da ONU**  
+notícia `64` · ciencia · Mundo · 1 veículo · RFI Brasil  
+Ultrapassar 1,5°C de aquecimento global terá consequências “irreversíveis” para as geleiras, o gelo marinho e as áreas congeladas da Terra. O alerta está em dois relatórios da ONU divulgados nesta segunda-feira (2), que defendem ações contra o aquecimento glob  
+*Por que entrou:* publicada nas últimas horas; fonte RFI Brasil; só RFI Brasil publicou  
+*Sinais:* corroboração ████······ · recência ██████████ · calor ████······  
+> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
+[Ler na fonte](https://www.rfi.fr/br/ci%C3%AAncias/20261102-aquecimento-global-amea%C3%A7a-geleiras-e-%C3%A1reas-congeladas-do-planeta-segundo-relat%C3%B3rios-da-onu)  
 
 ## Reserva (não entrou hoje)
 
-- `89` Lula 4 precisa moderar pautas diante de Congresso hostil — *cota de politica cheia*
-- `84` Lojas são saqueadas durante protestos da geração Z na Alemanha; veja FOTOS — *ficou fora do corte*
-- `83` Flávio Bolsonaro critica Moraes ao falar de 'juiz que acordou com vontade de fazer o mal' — *ficou fora do corte*
-- `83` Binance retoma saques após ataque hacker roubar US$ 6,3 bilhões — *ficou fora do corte*
-- `83` Richarlison, o 'pai do bebê', anuncia que será pai novamente: 'Agora somos quatro' — *ficou fora do corte*
-- `82` Mega-Sena 3080 acumula e prêmio vai a R$ 46 milhões; confira os números sorteados — *ficou fora do corte*
-- `81` Três entradas na Argentina em 40 minutos: os bastidores da fuga de Flávio Bolsonaro do Brasil — *ficou fora do corte*
-- `81` Educação e custo de vida: por que a França tem sido tomada por uma onda de protestos — *ficou fora do corte*
+- `86` Polônia busca saída para crise institucional após intervenção policial no Tribunal Constitucion — *cota de politica cheia*
+- `83` Protestos na França entram no terceiro fim de semana e contagiam outros países da Europa — *ficou fora do corte*
+- `80` Midterms nos EUA: eleições podem mudar planos de Trump e mexer com dólar e juros no Brasil — *ficou fora do corte*
+- `79` A Ilha de Coiba, a brutal prisão a céu aberto que se tornou um paraíso natural e para onde o Pa — *ficou fora do corte*
+- `78` André Janones diz que não será ministro de Lula e que continuará na Câmara — *ficou fora do corte*
+- `77` Novo diz ter recebido mais de 2 mil filiados após não reconhecer vitória de Lula — *ficou fora do corte*
+- `77` Moradores da Ucrânia recebem alertas de risco químico e nuclear; autoridades falam em ação hack — *ficou fora do corte*
+- `76` Trump volta atrás, indica retomada de comícios em estados republicanos e sacrifica independente — *ficou fora do corte*
+
+## Já foi pauta nos últimos dias
+
+- Os principais números das eleições de meio de mandato nos EUA — *ja foi pauta em 2026-11-01*
+- Investidores retiram US$ 3,6 bilhões da Binance após ataque hacker — *ja foi pauta em 2026-11-01*
+- Grêmio vence o Atlético-MG e fica mais perto da final da Copa do Brasil — *ja foi pauta em 2026-11-01*
 
 ## Fontes que não responderam
 
