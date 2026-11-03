@@ -1,76 +1,82 @@
-# Radar de Notícias — 2026-11-02
-*Fechado às 23:37 (horário de Brasília) · 946 matérias lidas · 546 pautas identificadas · 17 fontes ativas*
+# Radar de Notícias — 2026-11-03
+*Fechado às 07:43 (horário de Brasília) · 943 matérias lidas · 579 pautas identificadas · 17 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. EUA encerram campanha para midterms; eleição é a 'mais importante de nossas vidas', diz Trump**  
-notícia `93` · politica · Brasil · 7 veículos · Folha de S.Paulo  
-Os partidos Democrata e Republicano encerraram nesta segunda-feira (2) suas campanhas para as midterms, as eleições legislativas de meio de mandato dos Estados Unidos . Pesquisas apontam que o presidente Donald Trump , que marca taxas de aprovação próximas à m  
-*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+**1. SIGA: abrem as primeiras urnas das midterms nos EUA; eleição é decisiva para Trump**  
+notícia `95` · politica · Brasil · 10 veículos · g1  
+SIGA: abrem as primeiras urnas das midterms nos EUA; eleição é decisiva para Trump Votação nas midterms ocorre nesta terça-feira (3), e pleito vai renovar a Câmara e um terço do Senado. Trump tenta manter a maioria republicana no Congresso. Os americanos vão a  
+*Por que entrou:* 10 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
 > ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/eua-encerram-campanha-para-midterms-eleicao-e-a-mais-importante-de-nossas-vidas-diz-trump.shtml)  
-Cobertura: [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/eua-encerram-campanha-para-midterms-eleicao-e-a-mais-importante-de-nossas-vidas-diz-trump.shtml) · [g1 (13)](https://g1.globo.com/jornal-nacional/noticia/2026/11/02/eleicoes-de-meio-de-mandato-nos-eua-estrategia-de-democratas-e-republicanos-leva-em-conta-a-baixa-popularidade-de-donald-trump.ghtml) · [Valor Econômico (9)](https://valor.globo.com/mundo/noticia/2026/11/02/ofensiva-de-trump-contra-suposto-voto-ilegal-gera-temor-de-intimidao-nas-eleies.ghtml) · [RFI Brasil (3)](https://www.rfi.fr/br/am%C3%A9ricas/20261102-trump-diz-que-elei%C3%A7%C3%B5es-de-meio-de-mandato-nos-eua-s%C3%A3o-as-mais-importantes-de-nossas-vidas) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/internacional/trump-chama-candidatos-democratas-de-extremistas-em-discurso-em-washigton/) · [Euronews (português)](https://pt.euronews.com/2026/11/02/desencanto-latino-ameaca-trump-nas-eleicoes-intercalares-nos-eua)  
+[Ler na fonte](https://g1.globo.com/mundo/ao-vivo/eleicoes-nos-eua-2026-acompanhe-as-ultimas-noticias-sobre-as-midterms.ghtml)  
+Cobertura: [g1 (27)](https://g1.globo.com/mundo/ao-vivo/eleicoes-nos-eua-2026-acompanhe-as-ultimas-noticias-sobre-as-midterms.ghtml) · [Folha de S.Paulo (9)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/favoritismo-democrata-nos-eua-aproxima-hakeem-jeffries-do-comando-da-camara-e-de-embate-com-trump.shtml) · [BBC News Brasil (6)](https://www.bbc.com/portuguese/articles/cwnv0n61q72vo?at_medium=RSS&at_campaign=rss) · [Valor Econômico (17)](https://valor.globo.com/mundo/noticia/2026/11/03/quem-pode-votar-nas-eleicoes-nos-eua.ghtml) · [Agência Brasil Internacional (2)](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/eleitores-dos-eua-demonstram-pessimismo-em-relacao-economia) · [RFI Brasil (5)](https://www.rfi.fr/br/podcasts/linha-direta/20261103-americanos-v%C3%A3o-%C3%A0s-urnas-em-elei%C3%A7%C3%B5es-decisivas-para-o-futuro-do-mandato-de-trump)  
 
-**2. Tribunal Penal Internacional acusa governo Trump de tentar obstruir Justiça internacional**  
-notícia `92` · politica · Brasil · 8 veículos · g1  
-A juíza Tomoko Akane (à direita) e Donald Trump (à esquerda). Charlie Neibergall/Eva Plevier/ AP A juíza japonesa Tomoko Akane, que falou remotamente às Nações Unidas na segunda-feira por causa das sanções dos Estados Unidos, pediu a todos os 193 países-membro  
-*Por que entrou:* 8 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/02/tribunal-penal-internacional-acusa-governo-trump-de-tentar-obstruir-justica-internacional.ghtml)  
-Cobertura: [g1 (8)](https://g1.globo.com/mundo/noticia/2026/11/02/tribunal-penal-internacional-acusa-governo-trump-de-tentar-obstruir-justica-internacional.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/blogs/claudio-hebdo/2026/11/se-perder-trump-vai-fugir.shtml) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/02/aprovao-de-trump-segue-perto-da-mnima-histrica-antes-de-eleio-diz-pesquisa.ghtml) · [InfoMoney (2)](https://www.infomoney.com.br/mundo/trump-admite-indultos-a-aliados-e-promete-vetos-se-democratas-vencerem-eleicao/) · [RFI Brasil](https://www.rfi.fr/br/am%C3%A9ricas/20261102-latinos-podem-cobrar-nas-urnas-a-pol%C3%ADtica-migrat%C3%B3ria-de-trump) · [CNN Brasil (3)](https://www.cnnbrasil.com.br/internacional/democratas-gastaram-15-vezes-mais-que-republicanos-em-anuncios-sobre-trump/)  
-
-**3. 'Se o mercado é contra, então é bom para o povo', diz leitor sobre limitar Selic**  
-notícia `92` · economia · Brasil · 6 veículos · Folha de S.Paulo  
-Economia e Lula x Mercado Leia mais (11/02/2026 - 23h00)  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/paineldoleitor/2026/11/se-o-mercado-e-contra-entao-e-bom-para-o-povo-diz-leitor-sobre-limitar-selic.shtml)  
-Cobertura: [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/paineldoleitor/2026/11/se-o-mercado-e-contra-entao-e-bom-para-o-povo-diz-leitor-sobre-limitar-selic.shtml) · [g1](https://g1.globo.com/politica/noticia/2026/11/02/propostas-como-tabelar-os-juros-ou-queimar-reservas-cambiais-nao-estao-em-avaliacao-diz-durigan.ghtml) · [Valor Econômico (6)](https://valor.globo.com/brasil/noticia/2026/11/02/gabrielli-diz-que-situao-fiscal-menos-dramtica-e-elogia-proposta-de-lara-resende.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-garante-que-programas-sociais-serao-mantidos) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/macroeconomia/analise-quais-os-possiveis-efeitos-da-proposta-de-lara-resende/) · [Poder360](https://www.poder360.com.br/poder-economia/coordenador-do-programa-de-governo-de-lula-endossa-lara-resende/)  
-
-**4. Santos perde para o Bragantino e fica mais longe de vaga na Libertadores**  
-notícia `90` · esporte · Brasil · 4 veículos · Folha de S.Paulo  
-A cinco rodadas do fim do Campeonato Brasileiro , o Santos ainda alimentava a esperança de conquistar uma vaga direta na fase de grupos da Libertadores de 2027. Derrotado nesta segunda-feira (2) pelo Red Bull Bragantino por 2 a 1, fora de casa, o time alvinegr  
+**2. Entenda a disputa nos 7 estados que vão definir o futuro do Senado dos EUA**  
+notícia `88` · politica · Brasil · 4 veículos · Folha de S.Paulo  
+Sete estados dos Estados Unidos são classificados por analistas políticos como os mais competitivos na definição de quem ficará com a maioria das cadeiras do Senado após as midterms, as eleições de meio de mandato desta terça-feira (3) que desafiam o governo T  
 *Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração █████████· · recência █████████· · calor █████████·  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/santos-perde-para-o-bragantino-e-fica-mais-longe-de-vaga-na-libertadores.shtml)  
-Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/santos-perde-para-o-bragantino-e-fica-mais-longe-de-vaga-na-libertadores.shtml) · [InfoMoney](https://www.infomoney.com.br/esportes/brasileirao-onde-assistir-santos-rb-bragantino/) · [CNN Brasil (3)](https://www.cnnbrasil.com.br/esportes/brasileirao/red-bull-bragantino-2-x-1-santos-veja-os-melhores-momentos-do-brasileirao/) · [ge (Globo Esporte) (7)](https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/brasileirao-serie-a/jogo/02-11-2026/bragantino-santos.ghtml)  
+*Sinais:* corroboração █████████· · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/entenda-a-disputa-nos-7-estados-que-vao-definir-o-futuro-do-senado-dos-eua.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/entenda-a-disputa-nos-7-estados-que-vao-definir-o-futuro-do-senado-dos-eua.shtml) · [g1 (2)](https://g1.globo.com/mundo/blog/sandra-cohen/noticia/2026/11/02/quem-sao-os-3-democratas-que-despontam-na-disputa-pelo-senado-dos-eua.ghtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/ckg5jlz270g8o?at_medium=RSS&at_campaign=rss) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/03/eleicoes-nos-eua-as-12-disputas-que-podem-definir-o-controle-do-senado.ghtml)  
 
-**5. Binance diz que usuários retiraram quase US$ 5 bilhões após empresa ser roubada**  
-notícia `89` · mundo · Brasil · 5 veículos · Folha de S.Paulo  
-Os usuários da Binance retiraram US$ 5 bilhões (R$ 27,23 bilhões) da maior corretora de criptoativos do mundo depois que ela retomou os serviços no domingo (1°), após um roubo recorde de US$ 6,3 bilhões (R$ 34,31 bilhões) . Leia mais (11/02/2026 - 08h41)  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/binance-diz-que-usuarios-retiraram-quase-us-5-bilhoes-apos-empresa-ser-roubada.shtml)  
-Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/binance-diz-que-usuarios-retiraram-quase-us-5-bilhoes-apos-empresa-ser-roubada.shtml) · [g1 (4)](https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/investidores-retiram-us-36-bilhoes-da-binance-apos-ataque-hacker.ghtml) · [Valor Econômico (3)](https://valor.globo.com/financas/criptomoedas/noticia/2026/11/02/binance-diz-que-clientes-sacaram-us-47-bilhes-aps-ataque-hacker.ghtml) · [RFI Brasil](https://www.rfi.fr/br/economia/20261101-fbi-acusa-coreia-do-norte-de-roubo-de-us-6-3-bilh%C3%B5es-em-criptomoedas-da-plataforma-binance) · [Olhar Digital](https://olhardigital.com.br/2026/11/02/seguranca/binance-coreia-do-norte-rebate-eua-apos-fbi-atribuir-roubo-ao-pais/)  
+**3. Corretora Mercado Bitcoin bloqueia US$ 11 mi em criptomoedas após sofrer ataque hacker**  
+notícia `87` · economia · Brasil · 4 veículos · Folha de S.Paulo  
+A corretora de criptomoedas Mercado Bitcoin disse ter bloqueado cerca de US$ 11 milhões (quase R$ 60 milhões) em criptoativos depois de sofrer um ataque hacker na madrugada desta segunda-feira (2). Até o momento, o valor envolvido no incidente é de cerca de US  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração █████████· · recência █████████· · calor ███████···  
+> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/corretora-mercado-bitcoin-bloqueia-us-11-mi-em-criptomoedas-apos-sofrer-ataque-hacker.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/corretora-mercado-bitcoin-bloqueia-us-11-mi-em-criptomoedas-apos-sofrer-ataque-hacker.shtml) · [g1 (2)](https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/mercado-bitcoin-incidente-seguranca.ghtml) · [Poder360](https://www.poder360.com.br/poder-tech/mercado-bitcoin-bloqueia-us-11-milhoes-apos-ataque-hacker/) · [Tecnoblog (2)](https://tecnoblog.net/noticias/mercado-bitcoin-pode-ter-perdido-r-217-milhoes-em-ataque-hacker/)  
 
-**6. França: estudantes voltam a bloquear dezenas de escolas e pressionam governo**  
-notícia `61` · politica · Mundo · 2 veículos · RFI Brasil  
-Alunos do ensino médio e universitários retomaram as atividades escolares na França nesta segunda-feira (2), após duas semanas de férias. O retorno foi marcado pela continuidade dos bloqueios em escolas e universidades em várias regiões. O governo teme uma esc  
-*Por que entrou:* 2 veículos cobrindo; fonte RFI Brasil; ainda fresca  
-*Sinais:* corroboração ██████···· · recência ██████···· · calor █████·····  
-[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261102-fran%C3%A7a-estudantes-voltam-a-bloquear-dezenas-de-escolas-e-pressionam-governo)  
-Cobertura: [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261102-fran%C3%A7a-estudantes-voltam-a-bloquear-dezenas-de-escolas-e-pressionam-governo) · [Euronews (português)](https://pt.euronews.com/2026/11/02/protestos-estudantis-em-franca-regressam-a-alguns-liceus-apesar-de-respostas-do-governo)  
+**4. Lucro da Apple cresce 11,8% no trimestre e vendas do iPhone superam projeções**  
+notícia `87` · economia · Brasil · 4 veículos · Valor Econômico  
+Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro.  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Valor Econômico)  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
+[Ler na fonte](https://valor.globo.com/empresas/noticia/2026/11/03/lucro-da-apple-cresce-118-no-trimestre-e-vendas-do-iphone-superam-projecoes.ghtml)  
+Cobertura: [Valor Econômico (3)](https://valor.globo.com/empresas/noticia/2026/11/03/lucro-da-apple-cresce-118-no-trimestre-e-vendas-do-iphone-superam-projecoes.ghtml) · [Exame](https://exame.com/invest/mercados/apple-supera-expectativas-com-receita-de-us-1145-bilhoes-e-recorde-de-vendas-do-iphone/) · [Canaltech (2)](https://canaltech.com.br/smartphone/iphone-pode-ficar-ainda-mais-caro-em-2027-por-causa-da-crise-alerta-apple/) · [Olhar Digital](https://olhardigital.com.br/2026/11/02/reviews/iphone-duo-esgota-na-pre-venda-e-apple-nao-sabe-quando-situacao-vai-melhorar/)  
+
+**5. Chapecoense x Mirassol: horário e onde assistir ao jogo do Brasileirão**  
+notícia `82` · esporte · Brasil · 3 veículos · CNN Brasil  
+Equipes vão a campo nesta terça-feira (03), na Arena Condá, às 19h30, em partida válida pela 34ª rodada da competição nacional  
+*Por que entrou:* 3 veículos cobrindo; publicada nas últimas horas; fonte CNN Brasil  
+*Sinais:* corroboração ████████·· · recência ██████████ · calor ████████··  
+[Ler na fonte](https://www.cnnbrasil.com.br/esportes/brasileirao/chapecoense-x-mirassol-horario-e-onde-assistir-ao-jogo-do-brasileirao/)  
+Cobertura: [CNN Brasil (2)](https://www.cnnbrasil.com.br/esportes/brasileirao/chapecoense-x-mirassol-horario-e-onde-assistir-ao-jogo-do-brasileirao/) · [ge (Globo Esporte) (4)](https://ge.globo.com/sc/futebol/brasileirao-serie-a/noticia/2026/11/03/chapecoense-x-mirassol-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml) · [Olhar Digital (2)](https://olhardigital.com.br/2026/11/03/internet-e-redes-sociais/internacional-x-coritiba-onde-assistir-horario-e-escalacoes-do-jogo-do-brasileirao/)  
+
+**6. Hungria não bloqueia negociações de adesão da Ucrânia à UE, garante embaixador**  
+notícia `65` · mundo · Mundo · 1 veículo · Euronews (português)  
+Embaixador ucraniano na UE, Taras Kachka, disse à Euronews que a Hungria não tem novas objeções à abertura dos dois últimos capítulos negociais, apesar de atrasos em Budapeste.  
+*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
+*Sinais:* corroboração ████······ · recência ██████████ · calor ██████····  
+[Ler na fonte](https://pt.euronews.com/2026/11/03/hungria-nao-bloqueia-negociacoes-de-adesao-da-ucrania-a-ue-garante-embaixador)  
+Cobertura: [Euronews (português) (2)](https://pt.euronews.com/2026/11/03/hungria-nao-bloqueia-negociacoes-de-adesao-da-ucrania-a-ue-garante-embaixador)  
 
 ## Reserva (não entrou hoje)
 
-- `91` Entenda a disputa nos 7 estados que vão definir o futuro do Senado dos EUA — *cota de politica cheia*
-- `90` Suprema Corte rejeita tentativa do governo Trump de desconsiderar quase 20 mil votos da Califór — *cota de politica cheia*
-- `88` Lula rejeita fazer gesto ao mercado e antecipar nome para Fazenda — *ficou fora do corte*
-- `86` Corretora Mercado Bitcoin bloqueia US$ 11 mi em criptomoedas após sofrer ataque hacker — *ficou fora do corte*
-- `84` Apple supera projeção de venda do iPhone, mas fica devendo em serviços — *ficou fora do corte*
-- `84` Família com crianças de 2 e 4 anos estava em avião que caiu na Flórida — *ficou fora do corte*
-- `82` Janones encontra Cristina Kirchner na Argentina e discute apoio para derrotar Milei na campanha — *ficou fora do corte*
-- `82` EUA atacaram a ilha de Qeshm, no Irã, diz jornal — *ficou fora do corte*
+- `87` Midterms 2026: Trump pode perder a maioria na Câmara dos EUA? Veja projeções — *cota de politica cheia*
+- `87` Liderança — *cota de politica cheia*
+- `85` Senado deve votar nesta terça PEC da Segurança Pública — *cota de politica cheia*
+- `83` Na disputa das midterms, Trump implora por votos, manda cheques e promete recompensa para eleit — *cota de politica cheia*
+- `82` Binance diz que usuários retiraram quase US$ 5 bilhões após empresa ser roubada — *ficou fora do corte*
+- `82` Brasileira de 20 anos é identificada como copilota de jato que caiu na Flórida — *ficou fora do corte*
+- `81` Colisão de dois helicópteros em região do Everest deixa morto e ferido — *ficou fora do corte*
+- `81` Saiba como é o KC-390, maior avião produzido na América Latina e que será comprado pela Grécia — *ficou fora do corte*
+
+## Já foi pauta nos últimos dias
+
+- Minha geladeira pode ser atacada por hackers como ocorreu em supermercados da Europa? — *ja foi pauta em 2026-11-02*
+- 'Se o mercado é contra, então é bom para o povo', diz leitor sobre limitar Selic — *ja foi pauta em 2026-11-02*
 
 ## Fontes que não responderam
 
-- Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
-- Nexo Jornal: `HTTP 404`
+- Estadão: `HTTP 404`
 - CNN Brasil Internacional: `HTTP 404`
+- Nexo Jornal: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
