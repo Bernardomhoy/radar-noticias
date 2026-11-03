@@ -1,80 +1,73 @@
 # Radar de Notícias — 2026-11-03
-*Fechado às 07:43 (horário de Brasília) · 943 matérias lidas · 579 pautas identificadas · 17 fontes ativas*
+*Fechado às 15:22 (horário de Brasília) · 1054 matérias lidas · 661 pautas identificadas · 17 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. SIGA: abrem as primeiras urnas das midterms nos EUA; eleição é decisiva para Trump**  
-notícia `95` · politica · Brasil · 10 veículos · g1  
-SIGA: abrem as primeiras urnas das midterms nos EUA; eleição é decisiva para Trump Votação nas midterms ocorre nesta terça-feira (3), e pleito vai renovar a Câmara e um terço do Senado. Trump tenta manter a maioria republicana no Congresso. Os americanos vão a  
-*Por que entrou:* 10 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
-> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
-[Ler na fonte](https://g1.globo.com/mundo/ao-vivo/eleicoes-nos-eua-2026-acompanhe-as-ultimas-noticias-sobre-as-midterms.ghtml)  
-Cobertura: [g1 (27)](https://g1.globo.com/mundo/ao-vivo/eleicoes-nos-eua-2026-acompanhe-as-ultimas-noticias-sobre-as-midterms.ghtml) · [Folha de S.Paulo (9)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/favoritismo-democrata-nos-eua-aproxima-hakeem-jeffries-do-comando-da-camara-e-de-embate-com-trump.shtml) · [BBC News Brasil (6)](https://www.bbc.com/portuguese/articles/cwnv0n61q72vo?at_medium=RSS&at_campaign=rss) · [Valor Econômico (17)](https://valor.globo.com/mundo/noticia/2026/11/03/quem-pode-votar-nas-eleicoes-nos-eua.ghtml) · [Agência Brasil Internacional (2)](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/eleitores-dos-eua-demonstram-pessimismo-em-relacao-economia) · [RFI Brasil (5)](https://www.rfi.fr/br/podcasts/linha-direta/20261103-americanos-v%C3%A3o-%C3%A0s-urnas-em-elei%C3%A7%C3%B5es-decisivas-para-o-futuro-do-mandato-de-trump)  
+**1. Lula tem encontro com ministros antes de ir a SP para exames de rotina**  
+notícia `95` · politica · Brasil · 5 veículos · Folha de S.Paulo  
+O presidente Lula ( PT ) passará por exames de rotina em São Paulo nesta terça-feira (3). O petista deve viajar no fim do dia, após conversas com ministros. Leia mais (11/03/2026 - 14h27)  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor █████████·  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/lula-passara-por-exames-de-rotina-em-hospital-de-sp.shtml)  
+Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/lula-passara-por-exames-de-rotina-em-hospital-de-sp.shtml) · [g1 (4)](https://g1.globo.com/sp/sao-paulo/noticia/2026/11/03/lula-viaja-a-sao-paulo-para-fazer-exames-de-rotina.ghtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/03/lula-viaja-para-sao-paulo-nesta-terca-para-fazer-exames-de-rotina.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/lula-passa-por-exames-de-rotina-em-sao-paulo/) · [Poder360](https://www.poder360.com.br/poder-governo/lula-viaja-para-sao-paulo-nesta-3a-feira-para-exames-medicos/)  
 
-**2. Entenda a disputa nos 7 estados que vão definir o futuro do Senado dos EUA**  
-notícia `88` · politica · Brasil · 4 veículos · Folha de S.Paulo  
-Sete estados dos Estados Unidos são classificados por analistas políticos como os mais competitivos na definição de quem ficará com a maioria das cadeiras do Senado após as midterms, as eleições de meio de mandato desta terça-feira (3) que desafiam o governo T  
+**2. Eleições nos EUA: entenda a disputa nos 3 estados com mais brasileiros**  
+notícia `94` · politica · Brasil · 9 veículos · g1  
+Nesta terça-feira (3), milhões de norte-americanos vão às urnas para decidir se o presidente dos EUA, Donald Trump seguirá com o controle do Congresso do país. ✅ Siga o canal de notícias internacionais do g1 no WhatsApp Nas chamadas "midterms" ou eleições de m  
+*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/03/eleicoes-eua-estados-brasileiros.ghtml)  
+Cobertura: [g1 (17)](https://g1.globo.com/mundo/noticia/2026/11/03/eleicoes-eua-estados-brasileiros.ghtml) · [Folha de S.Paulo (9)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/eleicoes-nos-eua-como-apoio-a-israel-e-guerra-em-gaza-afetam-disputa-ao-senado.shtml) · [Valor Econômico (3)](https://valor.globo.com/mundo/ao-vivo/2026/11/03/eleicoes-eua-2026-midterms.ghtml) · [BBC News Brasil (5)](https://www.bbc.com/portuguese/watch/c6x2wd41lx21o?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/eleitores-dos-eua-demonstram-pessimismo-em-relacao-economia) · [RFI Brasil](https://www.rfi.fr/br/podcasts/reportagem/20261103-da-imigra%C3%A7%C3%A3o-%C3%A0s-urnas-brasileiros-disputam-elei%C3%A7%C3%B5es-hoje-nos-eua)  
+
+**3. Banco do Brasil fora do ar? Aplicativo tem instabilidade e clientes reclamam nas redes**  
+notícia `94` · tecnologia · Brasil · 5 veículos · g1  
+Banco do Brasil Divulgação O aplicativo do Banco do Brasil apresentou instabilidade nesta terça-feira (3). Nas redes sociais, clientes relataram problemas para acessar a conta e fazer transferências. Segundo o site DownDetector, que monitora interrupções em se  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor █████████·  
+[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/03/banco-do-brasil-fora-do-ar.ghtml)  
+Cobertura: [g1](https://g1.globo.com/tecnologia/noticia/2026/11/03/banco-do-brasil-fora-do-ar.ghtml) · [Valor Econômico](https://valor.globo.com/financas/noticia/2026/11/03/app-do-banco-do-brasil-passou-por-instabilidade-mas-j-est-normalizado.ghtml) · [Agência Brasil (EBC) (2)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/acessos-site-e-aplicativo-do-banco-do-brasil-sao-normalizados) · [Poder360](https://www.poder360.com.br/poder-economia/jp-morgan-alerta-para-alta-da-inadimplencia-no-banco-do-brasil/) · [TecMundo](https://www.estadao.com.br/tecmundo/produto-e-review/app-do-banco-do-brasil-caiu-usuarios-reclamam-de-instabilidade-no-app-nesta-terca-3/)  
+
+**4. Rússia lança ataque com centenas de drones e mísseis contra rede elétrica da Ucrânia às vésperas de negociações de paz**  
+notícia `91` · mundo · Brasil · 5 veículos · g1  
+Papa faz apelo por paz em meio a negociação entre Rússia e Ucrânia A Rússia lançou uma série de ataques contra a infraestrutura energética da Ucrânia nesta terça-feira (3), com dezenas de mísseis e centenas de drones. Segundo a Reuters, os bombardeios atingira  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/03/russia-lanca-ataque-com-centenas-de-drones-e-misseis-contra-rede-eletrica-da-ucrania-as-vesperas-de-negociacoes-de-paz.ghtml)  
+Cobertura: [g1 (5)](https://g1.globo.com/mundo/noticia/2026/11/03/russia-lanca-ataque-com-centenas-de-drones-e-misseis-contra-rede-eletrica-da-ucrania-as-vesperas-de-negociacoes-de-paz.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/russia-deixa-ucrania-no-escuro-bombas-planadoras-matam-31.shtml) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/03/ataque-da-rssia-mata-33-pessoas-em-vilarejo-da-ucrnia-diz-zelensky.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cwrky5dm77dxo?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/mundo/20261103-r%C3%BAssia-confirma-participa%C3%A7%C3%A3o-em-negocia%C3%A7%C3%B5es-com-ucr%C3%A2nia-e-eua-nos-emirados-%C3%A1rabes-unidos)  
+
+**5. Ibovespa chega a cair mais de 2% com temor fiscal e eleições nos EUA; dólar e juros futuros sobem**  
+notícia `90` · economia · Brasil · 4 veículos · Folha de S.Paulo  
+A Bolsa registra queda de mais de 1% nesta terça-feira (3), em reação à proposta do economista André Lara Resende, um dos formuladores do Plano Real, de reduzir a taxa Selic por meio de um novo arranjo entre as políticas fiscal e monetária. Leia mais (11/03/20  
 *Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração █████████· · recência █████████· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/entenda-a-disputa-nos-7-estados-que-vao-definir-o-futuro-do-senado-dos-eua.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/entenda-a-disputa-nos-7-estados-que-vao-definir-o-futuro-do-senado-dos-eua.shtml) · [g1 (2)](https://g1.globo.com/mundo/blog/sandra-cohen/noticia/2026/11/02/quem-sao-os-3-democratas-que-despontam-na-disputa-pelo-senado-dos-eua.ghtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/ckg5jlz270g8o?at_medium=RSS&at_campaign=rss) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/03/eleicoes-nos-eua-as-12-disputas-que-podem-definir-o-controle-do-senado.ghtml)  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-alta-com-politica-economica-do-governo-lula-e-eleicoes-nos-eua-no-radar.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-alta-com-politica-economica-do-governo-lula-e-eleicoes-nos-eua-no-radar.shtml) · [g1](https://g1.globo.com/economia/noticia/2026/11/03/dolar-ibovespa.ghtml) · [Valor Econômico](https://valor.globo.com/financas/noticia/2026/11/03/bolsas-caem-na-europa-com-baixa-em-tecnologia-e-apesar-de-alivio-no-petroleo.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/bolsas-da-europa-caem-com-receio-sobre-setor-tech-e-eleicoes-nos-eua/)  
 
-**3. Corretora Mercado Bitcoin bloqueia US$ 11 mi em criptomoedas após sofrer ataque hacker**  
-notícia `87` · economia · Brasil · 4 veículos · Folha de S.Paulo  
-A corretora de criptomoedas Mercado Bitcoin disse ter bloqueado cerca de US$ 11 milhões (quase R$ 60 milhões) em criptoativos depois de sofrer um ataque hacker na madrugada desta segunda-feira (2). Até o momento, o valor envolvido no incidente é de cerca de US  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração █████████· · recência █████████· · calor ███████···  
-> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/corretora-mercado-bitcoin-bloqueia-us-11-mi-em-criptomoedas-apos-sofrer-ataque-hacker.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/corretora-mercado-bitcoin-bloqueia-us-11-mi-em-criptomoedas-apos-sofrer-ataque-hacker.shtml) · [g1 (2)](https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/02/mercado-bitcoin-incidente-seguranca.ghtml) · [Poder360](https://www.poder360.com.br/poder-tech/mercado-bitcoin-bloqueia-us-11-milhoes-apos-ataque-hacker/) · [Tecnoblog (2)](https://tecnoblog.net/noticias/mercado-bitcoin-pode-ter-perdido-r-217-milhoes-em-ataque-hacker/)  
-
-**4. Lucro da Apple cresce 11,8% no trimestre e vendas do iPhone superam projeções**  
-notícia `87` · economia · Brasil · 4 veículos · Valor Econômico  
-Matéria exclusiva para assinantes. Para ter acesso completo, acesse o link da matéria e faça o seu cadastro.  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Valor Econômico)  
-*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
-[Ler na fonte](https://valor.globo.com/empresas/noticia/2026/11/03/lucro-da-apple-cresce-118-no-trimestre-e-vendas-do-iphone-superam-projecoes.ghtml)  
-Cobertura: [Valor Econômico (3)](https://valor.globo.com/empresas/noticia/2026/11/03/lucro-da-apple-cresce-118-no-trimestre-e-vendas-do-iphone-superam-projecoes.ghtml) · [Exame](https://exame.com/invest/mercados/apple-supera-expectativas-com-receita-de-us-1145-bilhoes-e-recorde-de-vendas-do-iphone/) · [Canaltech (2)](https://canaltech.com.br/smartphone/iphone-pode-ficar-ainda-mais-caro-em-2027-por-causa-da-crise-alerta-apple/) · [Olhar Digital](https://olhardigital.com.br/2026/11/02/reviews/iphone-duo-esgota-na-pre-venda-e-apple-nao-sabe-quando-situacao-vai-melhorar/)  
-
-**5. Chapecoense x Mirassol: horário e onde assistir ao jogo do Brasileirão**  
-notícia `82` · esporte · Brasil · 3 veículos · CNN Brasil  
-Equipes vão a campo nesta terça-feira (03), na Arena Condá, às 19h30, em partida válida pela 34ª rodada da competição nacional  
-*Por que entrou:* 3 veículos cobrindo; publicada nas últimas horas; fonte CNN Brasil  
-*Sinais:* corroboração ████████·· · recência ██████████ · calor ████████··  
-[Ler na fonte](https://www.cnnbrasil.com.br/esportes/brasileirao/chapecoense-x-mirassol-horario-e-onde-assistir-ao-jogo-do-brasileirao/)  
-Cobertura: [CNN Brasil (2)](https://www.cnnbrasil.com.br/esportes/brasileirao/chapecoense-x-mirassol-horario-e-onde-assistir-ao-jogo-do-brasileirao/) · [ge (Globo Esporte) (4)](https://ge.globo.com/sc/futebol/brasileirao-serie-a/noticia/2026/11/03/chapecoense-x-mirassol-onde-assistir-ao-vivo-horario-e-escalacoes.ghtml) · [Olhar Digital (2)](https://olhardigital.com.br/2026/11/03/internet-e-redes-sociais/internacional-x-coritiba-onde-assistir-horario-e-escalacoes-do-jogo-do-brasileirao/)  
-
-**6. Hungria não bloqueia negociações de adesão da Ucrânia à UE, garante embaixador**  
-notícia `65` · mundo · Mundo · 1 veículo · Euronews (português)  
-Embaixador ucraniano na UE, Taras Kachka, disse à Euronews que a Hungria não tem novas objeções à abertura dos dois últimos capítulos negociais, apesar de atrasos em Budapeste.  
-*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência ██████████ · calor ██████····  
-[Ler na fonte](https://pt.euronews.com/2026/11/03/hungria-nao-bloqueia-negociacoes-de-adesao-da-ucrania-a-ue-garante-embaixador)  
-Cobertura: [Euronews (português) (2)](https://pt.euronews.com/2026/11/03/hungria-nao-bloqueia-negociacoes-de-adesao-da-ucrania-a-ue-garante-embaixador)  
+**6. ‘Não nos impedirão de protestar’: estudantes desafiam governo e mantêm mobilização na França**  
+notícia `64` · politica · Mundo · 1 veículo · RFI Brasil  
+Desafiando a proibição de uma passeata prevista para esta terça-feira (3), milhares de estudantes do ensino médio e universitários se reuniram no centro de Paris. Em todo o país, diversas escolas e faculdades mantiveram bloqueios.  
+*Por que entrou:* publicada nas últimas horas; fonte RFI Brasil; só RFI Brasil publicou  
+*Sinais:* corroboração ████······ · recência ██████████ · calor ████······  
+[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261103-n%C3%A3o-nos-impedir%C3%A3o-de-protestar-estudantes-desafiam-governo-e-mant%C3%AAm-mobiliza%C3%A7%C3%A3o-na-fran%C3%A7a)  
+Cobertura: [RFI Brasil (2)](https://www.rfi.fr/br/fran%C3%A7a/20261103-n%C3%A3o-nos-impedir%C3%A3o-de-protestar-estudantes-desafiam-governo-e-mant%C3%AAm-mobiliza%C3%A7%C3%A3o-na-fran%C3%A7a)  
 
 ## Reserva (não entrou hoje)
 
-- `87` Midterms 2026: Trump pode perder a maioria na Câmara dos EUA? Veja projeções — *cota de politica cheia*
-- `87` Liderança — *cota de politica cheia*
-- `85` Senado deve votar nesta terça PEC da Segurança Pública — *cota de politica cheia*
-- `83` Na disputa das midterms, Trump implora por votos, manda cheques e promete recompensa para eleit — *cota de politica cheia*
-- `82` Binance diz que usuários retiraram quase US$ 5 bilhões após empresa ser roubada — *ficou fora do corte*
-- `82` Brasileira de 20 anos é identificada como copilota de jato que caiu na Flórida — *ficou fora do corte*
-- `81` Colisão de dois helicópteros em região do Everest deixa morto e ferido — *ficou fora do corte*
-- `81` Saiba como é o KC-390, maior avião produzido na América Latina e que será comprado pela Grécia — *ficou fora do corte*
-
-## Já foi pauta nos últimos dias
-
-- Minha geladeira pode ser atacada por hackers como ocorreu em supermercados da Europa? — *ja foi pauta em 2026-11-02*
-- 'Se o mercado é contra, então é bom para o povo', diz leitor sobre limitar Selic — *ja foi pauta em 2026-11-02*
+- `94` Ministério da Segurança Pública pode ficar só para 2027 — *cota de politica cheia*
+- `93` Trump diz que EUA vão cortar ajuda anual de US$ 4 bilhões a Israel — *cota de politica cheia*
+- `92` Relator no Senado diz considerar alíquota da CBS elevada e fala em tributo de até 9% — *cota de politica cheia*
+- `91` EUA atacam ilha de Qeshm, no estreito de Hormuz — *cota de politica cheia*
+- `87` VÍDEOS: Jornal Anhanguera 1ª Edição-TO de terça-feira, 03 de novembro de 2026 — *ficou fora do corte*
+- `86` Falha em provedora de nuvem do Smart Sampa permitiu acesso a 17 mil câmeras, diz UOL — *ficou fora do corte*
+- `86` Aliados querem que Lula use pronunciamento para afastar rumores sobre nova política econômica e — *ficou fora do corte*
+- `84` Economistas sobem previsão da inflação, juros e dólar até 2029 no primeiro Focus com impacto de — *ficou fora do corte*
 
 ## Fontes que não responderam
 
-- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Estadão: `HTTP 404`
+- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - CNN Brasil Internacional: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
 
