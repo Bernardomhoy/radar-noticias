@@ -1,73 +1,78 @@
 # Radar de Notícias — 2026-11-05
-*Fechado às 13:44 (horário de Brasília) · 1205 matérias lidas · 674 pautas identificadas · 18 fontes ativas*
+*Fechado às 19:38 (horário de Brasília) · 1225 matérias lidas · 692 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Relembre cinco momentos memoráveis de Cristiano Ronaldo com Portugal**  
-notícia `96` · esporte · Brasil · 6 veículos · Folha de S.Paulo  
-Melhor jogador da história de Portugal , Cristiano Ronaldo anunciou nesta quinta-feira (5) a aposentadoria da seleção de seu país . Leia mais (11/05/2026 - 10h20)  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; 14 matérias em 5.8h  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/relembre-cinco-momentos-memoraveis-de-cristiano-ronaldo-com-portugal.shtml)  
-Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/relembre-cinco-momentos-memoraveis-de-cristiano-ronaldo-com-portugal.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cq5ynjjjnxk9o?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/esportes/20261105-fim-turbulento-da-era-cr7-na-sele%C3%A7%C3%A3o-imprensa-mundial-exalta-legado-de-cristiano-ronaldo) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/cristiano-ronaldo-imprensa-repercute-adeus-pela-selecao-de-portugal/) · [ge (Globo Esporte) (6)](https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/05/ex-companheiros-de-cristiano-ronaldo-na-selecao-de-portugal-prestam-homenagem-lenda.ghtml) · [Euronews (português)](https://pt.euronews.com/2026/11/05/cristiano-ronaldo-anuncia-abandono-da-selecao-nacional)  
-
-**2. Google derruba esquema que controlava 1 milhão de aparelhos infectados; Brasil é o 2º mais afetado**  
-notícia `94` · politica · Brasil · 13 veículos · g1  
-Google derruba rede com 1,3 milhão de aparelhos infectados, incluindo TV boxes; Brasil é o 2º mais afetado Reprodução/Google Uma operação do Google com outras empresas de tecnologia desmantelou uma rede que controlava mais de 1,3 milhão de aparelhos sem o conh  
-*Por que entrou:* 13 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**1. Santiago Peña tuita em meio a processo de impeachment e votação sobre renúncia**  
+notícia `94` · politica · Brasil · 7 veículos · g1  
+"Queridos compatriotas, Sei que estamos vivendo momentos de preocupação e incerteza. Quero falar com vocês com clareza e serenidade. Diante da continuidade do processo de impeachment, vou me apresentar e exercer meu direito de defesa. Farei isso com argumentos  
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-> ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
-[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/05/google-derruba-rede-com-1-milhao-de-aparelhos-infectados-incluindo-tv-boxes-brasil-e-o-2o-mais-afetado.ghtml)  
-Cobertura: [g1 (12)](https://g1.globo.com/tecnologia/noticia/2026/11/05/google-derruba-rede-com-1-milhao-de-aparelhos-infectados-incluindo-tv-boxes-brasil-e-o-2o-mais-afetado.ghtml) · [Folha de S.Paulo (18)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/brasileiro-eleito-na-florida-critica-abrigo-a-flavio-bolsonaro-e-diz-se-espelhar-em-erika-hilton.shtml) · [Valor Econômico (6)](https://valor.globo.com/financas/noticia/2026/11/05/o-brasil-tem-3-problemas-o-fiscal-o-fiscal-e-o-fiscal-diz-economista-chefe-do-santander-brasil.ghtml) · [BBC News Brasil (4)](https://www.bbc.com/portuguese/articles/cjqlnwxwvzleo?at_medium=RSS&at_campaign=rss) · [InfoMoney](https://www.infomoney.com.br/economia/sem-reformas-fiscais-brasil-pode-ficar-na-lanterna-do-crescimento-na-america-latina/) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/economia/money/macroeconomia/pmi-de-servicos-do-brasil-cai-a-445-em-outubro-menor-leitura-desde-abril-de-2021/)  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/05/santiago-pena-tuita-em-meio-a-processo-de-impeachment-e-votacao-sobre-renuncia.ghtml)  
+Cobertura: [g1 (24)](https://g1.globo.com/mundo/noticia/2026/11/05/santiago-pena-tuita-em-meio-a-processo-de-impeachment-e-votacao-sobre-renuncia.ghtml) · [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/santiago-pena-presidente-do-paraguai-renuncia-apos-escandalo-financeiro.shtml) · [Valor Econômico (3)](https://valor.globo.com/brasil/noticia/2026/11/05/governo-lula-teme-que-renuncia-de-santiago-pena-no-paraguai-gere-instabilidade.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cmq8njl81978o?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/presidente-do-paraguai-renuncia-em-meio-crise-bancaria-vice-assume) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/ministerio-publico-do-paraguai-abre-investigacao-contra-presidente-pena/)  
 
-**3. Santiago Peña, presidente do Paraguai que renunciou ao cargo, é de direita ou esquerda? Entenda a posição política**  
-notícia `94` · politica · Brasil · 8 veículos · g1  
-Santiago Peña reconhece que a saúde continua sendo um dos principais desafios do país EPA O presidente do Paraguai, Santiago Peña, que renunciou ao cargo nesta quinta-feira (5), é do filiado ao Partido Colorado, de direita. Paraguai: entenda a crise que coloco  
-*Por que entrou:* 8 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/05/santiago-pena-presidente-do-paraguai-que-renunciou-ao-cargo-e-de-direita-ou-esquerda-entenda-a-posicao-politica.ghtml)  
-Cobertura: [g1 (24)](https://g1.globo.com/mundo/noticia/2026/11/05/santiago-pena-presidente-do-paraguai-que-renunciou-ao-cargo-e-de-direita-ou-esquerda-entenda-a-posicao-politica.ghtml) · [Folha de S.Paulo (9)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/santiago-pena-presidente-do-paraguai-renuncia-apos-escandalo-financeiro.shtml) · [Valor Econômico (3)](https://valor.globo.com/mundo/noticia/2026/11/05/presidente-do-paraguai-santiago-pea-renuncia-sob-presso-aps-colapso-de-banco.ghtml) · [InfoMoney](https://www.infomoney.com.br/mundo/em-meio-a-crise-presidente-do-paraguai-renuncia-ao-cargo/) · [CNN Brasil (4)](https://www.cnnbrasil.com.br/internacional/presidente-do-paraguai-apresenta-renuncia-em-meio-a-crise-em-banco-no-pais/) · [Poder360 (2)](https://www.poder360.com.br/poder-internacional/santiago-pena-renuncia-ao-cargo-de-presidente-do-paraguai/)  
-
-**4. FGC sofre ataque que dá acesso a dados de investidores indenizados**  
-notícia `94` · tecnologia · Brasil · 6 veículos · Folha de S.Paulo  
-O FGC (Fundo Garantidor de Créditos) informou nesta quinta-feira (5) que sofreu um incidente de segurança que dá acesso a dados pessoais de pessoas que foram indenizadas pela instituição, como nome, CPF, e-mail e data de nascimento. Leia mais (11/05/2026 - 10h  
+**2. Onda azul nos Estados Unidos pode favorecer produtor brasileiro**  
+notícia `94` · politica · Brasil · 6 veículos · Folha de S.Paulo  
+A onda azul que varreu os Estados Unidos na eleição de terça-feira (3) vai ser favorável aos produtores brasileiros. Os democratas, os grandes vencedores, de alguma forma vão ter de atender aos anseios do meio rural, que rejeitou, por meio do voto, a política   
 *Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor █████████·  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/fgc-sofre-incidente-de-seguranca-envolvendo-dados-pessoais-de-clientes-e-alerta-para-possiveis-golpes.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/fgc-sofre-incidente-de-seguranca-envolvendo-dados-pessoais-de-clientes-e-alerta-para-possiveis-golpes.shtml) · [g1 (2)](https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/05/fgc-sofre-invasao-que-da-acesso-a-nomes-cpfs.ghtml) · [Valor Econômico](https://valor.globo.com/financas/noticia/2026/11/05/fgc-informa-invaso-de-seu-sistema-e-vazamento-de-dados-pessoais.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/tecnologia/fgc-comunica-vazamento-de-dados-pessoais-de-clientes-incluindo-cpf/) · [Poder360](https://www.poder360.com.br/poder-economia/fgc-identifica-acesso-indevido-a-dados-e-informa-clientes/) · [Tecnoblog](https://tecnoblog.net/noticias/fgc-sofre-invasao-e-notifica-investidores-sobre-dados-vazados/)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/vaivem/2026/11/onda-azul-nos-estados-unidos-pode-favorecer-produtor-brasileiro.shtml)  
+Cobertura: [Folha de S.Paulo (12)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/vaivem/2026/11/onda-azul-nos-estados-unidos-pode-favorecer-produtor-brasileiro.shtml) · [g1 (21)](https://g1.globo.com/mundo/noticia/2026/11/05/aliada-de-trump-que-chefiava-a-unidade-de-direitos-civis-do-departamento-de-justica-pede-demissao.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cmd7q98x7944o?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional (2)](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/derrota-de-trump-coloca-em-xeque-relacao-historica-dos-eua-com-israel) · [RFI Brasil (2)](https://www.rfi.fr/br/am%C3%A9ricas/20261105-aliado-de-trump-anuncia-sa%C3%ADda-da-lideran%C3%A7a-republicana-na-c%C3%A2mara) · [Intercept Brasil](https://www.intercept.com.br/2026/11/04/derrota-trump-congresso-enfraquece-bolsonaro/)  
 
-**5. Banco digital que quebrou no Paraguai administrava mais de US$ 800 milhões em dinheiro público**  
-notícia `91` · economia · Brasil · 6 veículos · g1  
-Banco digital que quebrou no Paraguai movimentava mais de 800 milhões de dólares em dinheiro público A quebra do Ueno Bank, um dos principais bancos do Paraguai e o maior banco digital do país em número de clientes, provocou uma crise que afeta cerca de 3 milh  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/bom-dia-brasil/noticia/2026/11/05/banco-digital-que-quebrou-no-paraguai-administrava-mais-de-us-800-milhoes-em-dinheiro-publico.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/bom-dia-brasil/noticia/2026/11/05/banco-digital-que-quebrou-no-paraguai-administrava-mais-de-us-800-milhoes-em-dinheiro-publico.ghtml) · [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/banco-frances-sofre-ataque-hacker-de-100-milhoes-de-euros.shtml) · [Valor Econômico](https://valor.globo.com/financas/noticia/2026/11/05/hackers-invadem-banco-francs-e-desviam-us-133-milhes.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cjy56zrrnn25o?at_medium=RSS&at_campaign=rss) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/banco-frances-perde-100-milhoes-de-euros-apos-ciberataque/) · [Exame](https://exame.com/future-of-money/banco-frances-teria-sofrido-ataque-hacker-que-roubou-us-133-milhoes-em-cripto/)  
+**3. Nota Legal no DF: sorvete em shopping gerou cupom fiscal que levou R$ 1 milhão em sorteio**  
+notícia `93` · esporte · Brasil · 11 veículos · g1  
+Nota fiscal para uso no Nota Legal no DF Secretaria de Economia do DF Um morador do Paranoá é o ganhador do prêmio máximo no sorteio do Nota Legal, da Secretaria de Economia do Distrito Federal. O sorteio foi realizado na tarde desta quinta-feira (5). ✅ Clique  
+*Por que entrou:* 11 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+[Ler na fonte](https://g1.globo.com/df/distrito-federal/noticia/2026/11/05/nota-legal-no-df-sorvete-em-shopping-gerou-cupom-fiscal-que-levou-r-1-milhao-em-sorteio.ghtml)  
+Cobertura: [g1 (5)](https://g1.globo.com/df/distrito-federal/noticia/2026/11/05/nota-legal-no-df-sorvete-em-shopping-gerou-cupom-fiscal-que-levou-r-1-milhao-em-sorteio.ghtml) · [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://aovivo.folha.uol.com.br/mercado/2026/10/25/6568-dolar-empresas-e-bolsas-acompanhe-ao-vivo-o-mercado.shtml#post468030) · [Valor Econômico (4)](https://valor.globo.com/politica/noticia/2026/11/05/comisso-mista-aprova-relatrio-do-plano-brasil-soberano-3.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/producao-da-industria-recua-08-em-setembro-4a-queda-em-cinco-meses) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cjqlnwxwvzleo?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/podcasts/rfi-convida/20261105-premiado-em-paris-ex-correspondente-do-le-monde-no-brasil-critica-clich%C3%AAs-sobre-a-amaz%C3%B4nia)  
 
-**6. 'Vocês são todos duros demais comigo': em livro, jornalista revela mensagens privadas de Macron**  
-notícia `64` · politica · Mundo · 1 veículo · RFI Brasil  
-O presidente francês, Emmanuel Macron, soube apenas três dias antes da publicação que trocas de mensagens privadas com a jornalista Françoise Degois seriam divulgadas em um livro lançado nesta quinta-feira (5). Em Vous êtes tous trop durs avec moi ("Vocês são   
-*Por que entrou:* publicada nas últimas horas; fonte RFI Brasil; só RFI Brasil publicou  
-*Sinais:* corroboração ████······ · recência ██████████ · calor ████······  
-[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261105-voc%C3%AAs-s%C3%A3o-todos-duros-demais-comigo-em-livro-jornalista-revela-mensagens-privadas-de-macron)  
+**4. 'Temos que ter responsabilidade fiscal', diz Lula em meio a debate sobre ajuste nas contas públicas**  
+notícia `92` · economia · Brasil · 6 veículos · Folha de S.Paulo  
+O presidente Luiz Inácio Lula da Silva (PT) defendeu nesta quinta-feira (5) a responsabilidade fiscal como forma de atrair investimentos para o país. Leia mais (11/05/2026 - 19h12)  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/temos-que-ter-responsabilidade-fiscal-diz-lula-em-meio-a-debate-sobre-ajuste-nas-contas-publicas.shtml)  
+Cobertura: [Folha de S.Paulo (8)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/temos-que-ter-responsabilidade-fiscal-diz-lula-em-meio-a-debate-sobre-ajuste-nas-contas-publicas.shtml) · [g1 (11)](https://g1.globo.com/politica/noticia/2026/11/05/lula-diz-que-economia-precisa-estar-arrumada-para-atrair-investimentos-ninguem-vai-querer-investir-em-economia-desordenada.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-quer-economia-arrumada-para-atrair-investimentos) · [Valor Econômico (2)](https://valor.globo.com/brasil/noticia/2026/11/05/em-reuniao-do-conselho-de-minerais-criticos-lula-fala-em-ter-economia-arrumada-para-atrair-investimentos.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/macroeconomia/economia-precisa-estar-arrumada-para-atrair-investimento-diz-lula/) · [Poder360](https://www.poder360.com.br/poder-governo/lula-cobra-responsabilidade-fiscal-para-atrair-investimentos/)  
+
+**5. 'Tinha 1 milhão de guaranis', diz cliente do Ueno Bank após crise que levou à renúncia de presidente no Paraguai**  
+notícia `92` · economia · Brasil · 5 veículos · g1  
+Paraguaios relatam perdas no Ueno Bank e apreensão após renúncia de presidente do Paraguai Paraguaios que vivem em Pedro Juan Caballero, cidade na fronteira do Paraguai com o Brasil, tiveram prejuízos após a crise envolvendo o banco digital Ueno, que possui ce  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/11/05/eu-tinha-1-milhao-de-guaranis-diz-mulher-afetada-por-crise-que-provocou-renuncia-de-presidente-no-paraguai.ghtml)  
+Cobertura: [g1 (6)](https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/11/05/eu-tinha-1-milhao-de-guaranis-diz-mulher-afetada-por-crise-que-provocou-renuncia-de-presidente-no-paraguai.ghtml) · [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/dois-executivos-presos-por-escandalo-do-ueno-bank-no-paraguai-trabalharam-no-brasil.shtml) · [Valor Econômico (3)](https://valor.globo.com/financas/noticia/2026/11/05/quebra-do-ueno-bank-no-deve-gerar-crise-no-sistema-bancrio-do-paraguai-diz-moodys.ghtml) · [Poder360](https://www.poder360.com.br/poder-internacional/bc-do-paraguai-inicia-pagamentos-a-clientes-do-ueno-bank/) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/05/presidente-do-paraguai-demite-se-apos-escandalo-do-ueno-bank)  
+
+**6. França registra forte mobilização sindical com poucos incidentes em dia nacional de protestos**  
+notícia `71` · politica · Mundo · 2 veículos · RFI Brasil  
+A França viveu nesta quinta-feira (5) o maior dia de mobilização social da atual sequência de protestos sindicais, lançada no começo de outubro, com centenas de milhares de pessoas nas ruas em defesa do aumento dos salários e da melhoria dos serviços públicos.  
+*Por que entrou:* 2 veículos cobrindo; ainda fresca; fonte RFI Brasil  
+*Sinais:* corroboração ██████···· · recência ███████··· · calor ███████···  
+[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261105-fran%C3%A7a-registra-forte-mobiliza%C3%A7%C3%A3o-sindical-com-poucos-incidentes-em-dia-nacional-de-protestos)  
+Cobertura: [RFI Brasil (2)](https://www.rfi.fr/br/fran%C3%A7a/20261105-fran%C3%A7a-registra-forte-mobiliza%C3%A7%C3%A3o-sindical-com-poucos-incidentes-em-dia-nacional-de-protestos) · [Euronews (português) (2)](https://pt.euronews.com/video/2026/11/05/franca-greve-nacional-e-bloqueios-de-escolas-exigem-salarios-e-servicos-publicos-melhores)  
 
 ## Reserva (não entrou hoje)
 
-- `93` Casa Branca usa cenas com DiCaprio e Steve Carell em vídeo após derrota de Trump; assista — *cota de politica cheia*
-- `91` ‘Imposto do pecado’: o que entra? Produtos vão ficar mais caros? Veja perguntas e respostas — *cota de politica cheia*
-- `89` TSE flexibiliza regra para poupar eleitas no AP em chapa com fraude à cota de gênero, mas adia  — *ficou fora do corte*
-- `89` IBGE oferece 1.527 vagas temporárias para recenseador no Ceará — *ficou fora do corte*
-- `89` 'Imposto do pecado': o que é e como vai funcionar a tributação sobre produtos prejudiciais à sa — *ficou fora do corte*
-- `87` Bolsa sobe após seis pregões de queda e dólar recua a R$ 5,45 com vitória democrata nos EUA — *ficou fora do corte*
-- `86` Nasdaq entra em território de correção com ‘sell-off’ no setor de tecnologia — *ficou fora do corte*
-- `86` Começa agora a campanha para presidente dos Estados Unidos em 2028 — *ficou fora do corte*
+- `92` PEC da Segurança Pública: veja o que pode mudar no combate ao crime organizado no RJ — *cota de politica cheia*
+- `91` Governo Lula vê tendência de normalização das relações com EUA após vitória democrata — *cota de politica cheia*
+- `90` Flávio Bolsonaro nomeia assessores para gabinete no Senado após fuga para EUA — *cota de politica cheia*
+- `89` Congresso do Paraguai suspende sessão que julgava renúncia de presidente — *cota de politica cheia*
+- `89` Cristiano Ronaldo se aposenta da seleção de Portugal: veja os momentos mais icônicos do jogador — *cota de politica cheia*
+- `89` Lula e Celina Leão faltam a audiência de conciliação na Justiça em processo por falas sobre BRB — *cota de politica cheia*
+- `89` Durigan promete resultados fiscais melhores, mas não fala em medidas após reunião de Lula com e — *cota de politica cheia*
+- `88` Governo define lista de minerais críticos e estratégicos; veja quais são — *cota de politica cheia*
+
+## Já foi pauta nos últimos dias
+
+- Dólar fecha a R$ 5,49, maior valor do ano, com temor de regulação da IA após eleições nos EUA;  — *ja foi pauta em 2026-11-03*
 
 ## Fontes que não responderam
 
-- Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
+- Estadão: `HTTP 404`
 - CNN Brasil Internacional: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
 
