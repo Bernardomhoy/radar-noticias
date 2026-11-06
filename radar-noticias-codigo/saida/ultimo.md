@@ -1,77 +1,79 @@
 # Radar de Notícias — 2026-11-06
-*Fechado às 00:22 (horário de Brasília) · 1218 matérias lidas · 644 pautas identificadas · 18 fontes ativas*
+*Fechado às 08:25 (horário de Brasília) · 1204 matérias lidas · 677 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. De escândalo bancário ao impeachment: veja a cronologia da crise no Paraguai que ameaça derrubar o presidente**  
-notícia `94` · politica · Brasil · 7 veículos · g1  
-Entenda o escândalo financeiro que levou à renúncia do presidente do Paraguai O Paraguai vive uma crise política que pode terminar com a saída do presidente Santiago Peña. O escândalo começou após o fechamento de um banco e chegou rapidamente chegou ao Congres  
+**1. Paraguai: o escândalo financeiro que deixou o país sem comando - O Assunto #1840**  
+notícia `93` · politica · Brasil · 7 veículos · g1  
+Cerca de 3 milhões de pessoas, mais da metade da população adulta do país, ficaram sem acesso ao próprio dinheiro. Uma fraude contábil promovida pelo grupo que administra o banco digital Ueno escancarou uma crise financeira sem precedentes no Paraguai. Nos últ  
 *Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
+[Ler na fonte](https://g1.globo.com/podcast/o-assunto/noticia/2026/11/06/paraguai-o-escandalo-financeiro-que-deixou-o-pais-sem-comando-o-assunto-1840.ghtml)  
+Cobertura: [g1 (24)](https://g1.globo.com/podcast/o-assunto/noticia/2026/11/06/paraguai-o-escandalo-financeiro-que-deixou-o-pais-sem-comando-o-assunto-1840.ghtml) · [Folha de S.Paulo (10)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/pena-renunciou-para-nao-ser-preso-e-vice-e-parte-da-equipe-que-roubou-paraguai-diz-opositor.shtml) · [Valor Econômico](https://valor.globo.com/impresso/noticia/2026/11/06/em-meio-a-crise-bancaria-santiago-pena-renuncia-a-presidencia-do-paraguai.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cmq8njl81978o?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/presidente-do-paraguai-renuncia-em-meio-crise-bancaria-vice-assume) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/pena-pede-mais-72h-para-apresentar-defesa-contra-impeachment/)  
+
+**2. Justiça do DF rejeita ação contra Bolsonaro e Wal do Açaí por funcionária fantasma**  
+notícia `93` · politica · Brasil · 11 veículos · g1  
+MP entra com ação contra Bolsonaro e Wal do Açaí por improbidade administrativa A Justiça Federal do Distrito Federal rejeitou, nesta quinta-feira (5), uma ação de improbidade administrativa contra o ex-presidente Jair Bolsonaro e Walderice Santos da Conceição  
+*Por que entrou:* 11 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/06/de-escandalo-bancario-ao-impeachment-veja-a-cronologia-da-crise-no-paraguai-que-ameaca-derrubar-o-presidente.ghtml)  
-Cobertura: [g1 (36)](https://g1.globo.com/mundo/noticia/2026/11/06/de-escandalo-bancario-ao-impeachment-veja-a-cronologia-da-crise-no-paraguai-que-ameaca-derrubar-o-presidente.ghtml) · [Folha de S.Paulo (13)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/pena-renunciou-para-nao-ser-preso-e-vice-e-parte-da-equipe-que-roubou-paraguai-diz-opositor.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cmq8njl81978o?at_medium=RSS&at_campaign=rss) · [Valor Econômico (4)](https://valor.globo.com/brasil/noticia/2026/11/05/governo-lula-teme-que-renuncia-de-santiago-pena-no-paraguai-gere-instabilidade.ghtml) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/presidente-do-paraguai-renuncia-em-meio-crise-bancaria-vice-assume) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/internacional/senado-paraguai-sessao-impeachment-santiago-pena/)  
-
-**2. Produção industrial no Brasil recua mais do que o esperado em setembro**  
-notícia `94` · esporte · Brasil · 14 veículos · Folha de S.Paulo  
-A indústria brasileira marcou o segundo mês seguido de retração da produção em setembro, com queda maior do que a esperada por economistas, em meio a um processo de arrefecimento da economia e diante dos impactos da taxa de juros elevada. Leia mais (11/05/2026  
-*Por que entrou:* 14 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://aovivo.folha.uol.com.br/mercado/2026/10/25/6568-dolar-empresas-e-bolsas-acompanhe-ao-vivo-o-mercado.shtml#post468030)  
-Cobertura: [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://aovivo.folha.uol.com.br/mercado/2026/10/25/6568-dolar-empresas-e-bolsas-acompanhe-ao-vivo-o-mercado.shtml#post468030) · [g1 (11)](https://g1.globo.com/tecnologia/noticia/2026/11/05/google-derruba-rede-com-1-milhao-de-aparelhos-infectados-incluindo-tv-boxes-brasil-e-o-2o-mais-afetado.ghtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/05/comisso-mista-aprova-relatrio-do-plano-brasil-soberano-3.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/producao-da-industria-recua-08-em-setembro-4a-queda-em-cinco-meses) · [BBC News Brasil (3)](https://www.bbc.com/portuguese/articles/cjqlnwxwvzleo?at_medium=RSS&at_campaign=rss) · [InfoMoney](https://www.infomoney.com.br/politica/ministros-sinalizam-que-brasil-pode-proibir-exportacao-de-niquel-para-agregar-valor/)  
-
-**3. Lula faz reunião nesta sexta para discutir recriação do Ministério da Segurança Pública; pasta existiu no governo Temer**  
-notícia `92` · politica · Brasil · 6 veículos · g1  
-O presidente Luiz Inácio Lula da Silva (PT) faz uma reunião nesta sexta-feira (6) para discutir a recriação do Ministério da Segurança Pública. A criação de uma pasta específica para a área é uma promessa de Lula e foi reforçada pelo presidente após a aprovaçã  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/06/lula-faz-reuniao-nesta-sexta-para-discutir-recriacao-do-ministerio-da-seguranca-publica-pasta-existiu-no-governo-temer.ghtml)  
-Cobertura: [g1 (4)](https://g1.globo.com/politica/noticia/2026/11/06/lula-faz-reuniao-nesta-sexta-para-discutir-recriacao-do-ministerio-da-seguranca-publica-pasta-existiu-no-governo-temer.ghtml) · [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/opiniao/2026/11/ministerio-da-seguranca-nao-pode-ser-o-ministerio-da-bala.shtml) · [Agência Brasil (EBC) (2)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-vai-criar-ministerio-da-seguranca-publica-com-medida-provisoria) · [Valor Econômico (2)](https://valor.globo.com/politica/noticia/2026/11/05/lula-diz-que-tera-primeira-discussao-sobre-criacao-do-ministerio-da-seguranca-publica-nessa-sexta-feira.ghtml) · [InfoMoney](https://www.infomoney.com.br/politica/lula-diz-que-enviara-mp-para-criar-ministerio-da-seguranca-publica/) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/lula-diz-que-discutira-criacao-do-ministerio-da-seguranca-nesta-sexta/)  
-
-**4. Bolsa do Japão cai mais de 6% após tombo de ações de IA nos EUA**  
-notícia `89` · economia · Brasil · 5 veículos · g1  
-A tela exibe o Índice Composto de Preços das Ações da Coreia (KOSPI) em uma sala de negociação do Hana Bank em Seul, Coreia do Sul, na quinta-feira, 5 de novembro de 2026. Lee Jin-man/AP O principal índice de ações do Japão despencou mais de 6% após a abertura  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
 > ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/05/bolsa-do-japao-cai-mais-de-6percent-apos-tombo-de-acoes-de-ia-nos-eua.ghtml)  
-Cobertura: [g1 (4)](https://g1.globo.com/economia/noticia/2026/11/05/bolsa-do-japao-cai-mais-de-6percent-apos-tombo-de-acoes-de-ia-nos-eua.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-alta-apos-copom-manter-selic-em-1375.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-volta-aproximar-se-de-r-549-em-dia-de-instabilidade-global) · [Valor Econômico (3)](https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml) · [Exame](https://exame.com/invest/mercados/ibovespa-acompanha-baixa-no-exterior-e-dolar-vai-a-r-549-nasdaq-desaba-55/)  
+[Ler na fonte](https://g1.globo.com/df/distrito-federal/noticia/2026/11/06/justica-do-df-rejeita-acao-contra-bolsonaro-e-wal-do-acai-por-funcionaria-fantasma.ghtml)  
+Cobertura: [g1 (10)](https://g1.globo.com/df/distrito-federal/noticia/2026/11/06/justica-do-df-rejeita-acao-contra-bolsonaro-e-wal-do-acai-por-funcionaria-fantasma.ghtml) · [Folha de S.Paulo (6)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/gp-brasil-de-f1-deve-ser-sob-chuva-e-frio-no-autodromo-de-interlagos-em-sao-paulo.shtml) · [Valor Econômico (3)](https://valor.globo.com/conteudo-de-marca/banco-abc-brasil/noticia/2026/11/06/banco-abc-brasil-oferece-condicoes-exclusivas-para-investimentos-em-sua-plataforma.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/producao-da-industria-recua-08-em-setembro-4a-queda-em-cinco-meses) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/cjqlnwxwvzleo?at_medium=RSS&at_campaign=rss) · [RFI Brasil (2)](https://www.rfi.fr/br/am%C3%A9ricas/20261106-em-entrevista-ao-new-york-times-fl%C3%A1vio-bolsonaro-fala-em-nova-candidatura-no-brasil)  
 
-**5. 'Imposto do pecado': governo federal define as alíquotas do tributo, que começa a ser cobrado em 2027**  
-notícia `87` · economia · Brasil · 4 veículos · g1  
-Governo publica MP com alíquotas do imposto do pecado O governo federal publicou a medida provisória com as alíquotas do "imposto do pecado". O tributo é cobrado de produtos que fazem mal à saúde e ao meio ambiente. 📱Favorite o g1 no Google e acompanhe as prin  
+**3. Google obriga escolas a escolher entre permitir uso de IA ou perder acesso a seu buscador**  
+notícia `91` · tecnologia · Brasil · 6 veículos · g1  
+Gemini é usado para gerar vídeos de IA de canal Getty images Alunos que utilizam ferramentas do Google em sala de aula não poderão acessar o mecanismo de busca da empresa a menos que suas redes de ensino também aceitem utilizar inteligência artificial (IA), in  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ██████····  
+[Ler na fonte](https://g1.globo.com/educacao/noticia/2026/11/04/google-uso-de-ia-acesso-a-buscador.ghtml)  
+Cobertura: [g1](https://g1.globo.com/educacao/noticia/2026/11/04/google-uso-de-ia-acesso-a-buscador.ghtml) · [Valor Econômico](https://valor.globo.com/empresas/noticia/2026/11/06/google-vai-investir-no-republicano-wyoming.ghtml) · [Euronews (português)](https://pt.euronews.com/2026/11/06/estados-unidos-pais-processam-google-por-alegada-utilizacao-de-ia-para-planear-suicidio) · [Tecnoblog](https://tecnoblog.net/noticias/google-amplia-demissoes-voluntarias-para-investir-mais-em-ia/) · [TecMundo](https://www.estadao.com.br/tecmundo/produto-e-review/google-fotos-agora-permite-desativar-musicas-das-recordacoes/) · [Canaltech](https://canaltech.com.br/inteligencia-artificial/google-fotos-testa-ia-para-cacar-e-apagar-imagens-velhas-e-pesadas/)  
+
+**4. Ações ligadas à IA despencam na Ásia; Bolsa de Tóquio tem maior queda desde 'Dia da Libertação'**  
+notícia `88` · economia · Brasil · 4 veículos · Folha de S.Paulo  
+As ações dos gigantes do setor de tecnologia desabaram nesta sexta-feira (6) nas Bolsas da Ásia, como aconteceu na quinta-feira (5) em Nova York, diante da perspectiva de uma regulamentação mais rígida da inteligência artificial com a vitória dos democratas na  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
+> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://aovivo.folha.uol.com.br/mercado/2026/10/25/6568-dolar-empresas-e-bolsas-acompanhe-ao-vivo-o-mercado.shtml#post468040)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://aovivo.folha.uol.com.br/mercado/2026/10/25/6568-dolar-empresas-e-bolsas-acompanhe-ao-vivo-o-mercado.shtml#post468040) · [g1](https://g1.globo.com/economia/noticia/2026/11/05/bolsa-do-japao-cai-mais-de-6percent-apos-tombo-de-acoes-de-ia-nos-eua.ghtml) · [Valor Econômico (2)](https://valor.globo.com/financas/noticia/2026/11/06/bolsas-da-asia-despencam-em-meio-ao-tombo-global-do-setor-de-ia.ghtml) · [InfoMoney](https://www.infomoney.com.br/mercados/bolsas-da-asia-nikkei-entra-em-bear-market-e-mercados-despencam-com-liquidacao-tech/)  
+
+**5. Binance e agora banco francês: como hackers desviaram tanto dinheiro? Entenda as diferenças entre os casos**  
+notícia `87` · tecnologia · Brasil · 4 veículos · g1  
+FBI acusa Coreia do Norte por ataque à Binance, considerado maior roubo de criptomoedas da A Binance, maior corretora de criptomoedas do mundo, e o banco francês Crédit Mutuel Arkéa foram alvos de ataques hackers em um intervalo de quase uma semana. Os crimino  
 *Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração █████████· · recência █████████· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/jornal-nacional/noticia/2026/11/05/imposto-do-pecado-governo-federal-define-as-aliquotas-do-tributo-que-comeca-a-ser-cobrado-em-2027.ghtml)  
-Cobertura: [g1 (6)](https://g1.globo.com/jornal-nacional/noticia/2026/11/05/imposto-do-pecado-governo-federal-define-as-aliquotas-do-tributo-que-comeca-a-ser-cobrado-em-2027.ghtml) · [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/imposto-seletivo-agrada-setores-e-adia-debate-sobre-tributacao-do-pecado.shtml) · [Valor Econômico (4)](https://valor.globo.com/brasil/noticia/2026/11/05/imposto-seletivo-est-alinhado-ao-que-foi-discutido-com-o-governo-diz-presidente-da-volks.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/imposto-do-pecado-entenda-cobranca-sobre-cigarros-bebidas-e-veiculos)  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ██████····  
+[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/05/binance-e-agora-banco-frances-como-hackers-desviaram-tanto-dinheiro-entenda-as-diferencas-entre-os-casos.ghtml)  
+Cobertura: [g1 (3)](https://g1.globo.com/tecnologia/noticia/2026/11/05/binance-e-agora-banco-frances-como-hackers-desviaram-tanto-dinheiro-entenda-as-diferencas-entre-os-casos.ghtml) · [Valor Econômico](https://valor.globo.com/financas/criptomoedas/noticia/2026/11/05/ataque-a-binance-michael-saylor-alerta-que-ia-pode-tornar-hackers-mais-perigosos.ghtml) · [Tecnoblog](https://tecnoblog.net/noticias/binance-diz-que-hackers-prepararam-roubo-bilionario-por-meses/) · [TecMundo](https://www.estadao.com.br/tecmundo/ciberseguranca/roubo-bilionario-da-binance-faz-eua-inspecionarem-ciberseguranca-de-bancos/)  
 
-**6. Cisjordânia: palestinianos colhem azeitonas sob restrições militares israelitas**  
-notícia `55` · mundo · Mundo · 1 veículo · Euronews (português)  
-Agricultores palestinianos na Cisjordânia ocupada tiveram acesso limitado aos seus olivais devido a restrições militares israelitas. Muitos encontraram árvores danificadas, enquanto soldados dispararam gás lacrimogéneo perto da apanha.  
-*Por que entrou:* ainda fresca; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência ███████··· · calor ████······  
-[Ler na fonte](https://pt.euronews.com/video/2026/11/05/cisjordania-palestinianos-colhem-azeitonas-sob-restricoes-militares-israelitas)  
+**6. Imposto climático da Europa pode desencadear nova guerra comercial com a Índia na COP31**  
+notícia `64` · economia · Mundo · 1 veículo · Euronews (português)  
+A posição diplomática da UE na cimeira da COP31 é complicada pelo seu próprio recuo político em matéria de política climática e pela crescente oposição global ao seu imposto de fronteira sobre as emissões de carbono.  
+*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
+*Sinais:* corroboração ████······ · recência █████████· · calor █████·····  
+[Ler na fonte](https://pt.euronews.com/2026/11/06/imposto-climatico-da-europa-pode-desencadear-nova-guerra-comercial-com-a-india-na-cop31)  
+Cobertura: [Euronews (português) (2)](https://pt.euronews.com/2026/11/06/imposto-climatico-da-europa-pode-desencadear-nova-guerra-comercial-com-a-india-na-cop31)  
 
 ## Reserva (não entrou hoje)
 
-- `91` Cristiano Ronaldo se despede da seleção portuguesa após 23 anos — *cota de politica cheia*
-- `91` Congresso dos EUA terá recorde feminino e ao menos 24% de mulheres democratas — *cota de politica cheia*
-- `91` Após culpar guerra no Irã por 'onda azul', Trump diz que talvez tenha que destruir 'o resto do  — *cota de politica cheia*
-- `90` O que temos a aprender com as guinadas eleitorais, no Brasil e nos EUA — *cota de politica cheia*
-- `88` Brasileira precisou renegociar aluguel após ter valores bloqueados por quebra do Ueno Bank no P — *cota de politica cheia*
-- `86` Durigan promete resultados fiscais melhores, mas não fala em medidas após reunião de Lula com e — *cota de politica cheia*
-- `86` EUA batem recorde de mulheres governadoras após eleição marcada por vitórias inéditas — *cota de politica cheia*
-- `85` IBGE abre mais de 280 vagas para recenseadores no Triângulo e Alto Paranaíba; veja como se insc — *ficou fora do corte*
+- `92` Crise do Ueno Bank expõe contradições do modelo econômico paraguaio — *cota de politica cheia*
+- `90` Governo Lula prepara nova negociação por investimento da China no Fundo de Florestas — *cota de politica cheia*
+- `89` Ministro do Interior do Paraguai renuncia e volta ao Senado para julgar impeachment de Peña, di — *cota de politica cheia*
+- `87` O que temos a aprender com as guinadas eleitorais, no Brasil e nos EUA — *cota de politica cheia*
+- `87` Pequim denuncia 'sabotagem' dos EUA às relações Cuba-China — *cota de politica cheia*
+- `84` 'Não falei com Lula nem tenho nada marcado. Isso foi plantado para queimar alguém que defendeu  — *cota de politica cheia*
+- `84` Concurso do IBGE abre mais de 900 vagas em Goiás; veja cidades — *ficou fora do corte*
+- `84` Lula faz reunião nesta sexta para discutir recriação do Ministério da Segurança Pública; pasta  — *ficou fora do corte*
 
 ## Já foi pauta nos últimos dias
 
-- A inteligência artificial e a democracia — *ja foi pauta em 2026-11-05*
+- 'Temos que ter responsabilidade fiscal', diz Lula em meio a debate sobre ajuste nas contas públ — *ja foi pauta em 2026-11-05*
 
 ## Fontes que não responderam
 
-- Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
+- Estadão: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
 - CNN Brasil Internacional: `HTTP 404`
 
