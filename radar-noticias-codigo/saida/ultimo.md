@@ -1,82 +1,74 @@
 # Radar de Notícias — 2026-11-07
-*Fechado às 00:09 (horário de Brasília) · 1157 matérias lidas · 649 pautas identificadas · 18 fontes ativas*
+*Fechado às 07:38 (horário de Brasília) · 1153 matérias lidas · 675 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Lula deseja êxito a Pedro Alliana, novo presidente do Paraguai após queda de Peña**  
-notícia `95` · politica · Brasil · 10 veículos · Folha de S.Paulo  
-O presidente Luiz Inácio Lula da Silva (PT) desejou "pleno êxito" ao novo presidente do Paraguai , Pedro Alliana, empossado nesta sexta-feira (6) logo após a conclusão do processo de impeachment contra Santiago Peña , então chefe do Executivo, que está em pris  
-*Por que entrou:* 10 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/lula-deseja-exito-a-pedro-alliana-novo-presidente-do-paraguai-apos-queda-de-pena.shtml)  
-Cobertura: [Folha de S.Paulo (20)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/lula-deseja-exito-a-pedro-alliana-novo-presidente-do-paraguai-apos-queda-de-pena.shtml) · [g1 (15)](https://g1.globo.com/jornal-nacional/noticia/2026/11/06/papa-leao-xiv-comeca-viagem-de-12-dias-pela-america-do-sul-pelo-uruguai-pais-latino-com-a-menor-porcentagem-de-catolicos.ghtml) · [BBC News Brasil (4)](https://www.bbc.com/portuguese/articles/c5x2vvxw8m04o?at_medium=RSS&at_campaign=rss) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/06/santiago-pena-ex-presidente-do-paraguai-e-preso-em-assuncao.ghtml) · [InfoMoney (2)](https://www.infomoney.com.br/mundo/pena-e-preso-em-sua-casa-apos-impeachment-no-paraguai/) · [RFI Brasil](https://www.rfi.fr/br/podcasts/linha-direta/20261106-papa-le%C3%A3o-xiv-inicia-miss%C3%A3o-estrat%C3%A9gica-em-uma-am%C3%A9rica-do-sul-cada-vez-menos-cat%C3%B3lica)  
-
-**2. 'Minha alma saiu e voltou pro corpo', diz carregador que estava em prédio que desabou no Brás, em SP**  
-notícia `93` · cotidiano · Brasil · 5 veículos · g1  
-‘Alma saiu e voltou pro corpo’: vítimas de desabamento em SP falam sobre acidente Pessoas que estavam dentro do prédio de quatro andares que desabou na noite desta sexta-feira (6), no Brás, região central de São Paulo, relataram o desespero para conseguir esca  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ████████·· · calor █████████·  
-> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
-[Ler na fonte](https://g1.globo.com/sp/sao-paulo/noticia/2026/11/06/minha-alma-saiu-e-voltou-pro-corpo-diz-carregador-que-estava-em-predio-que-desabou-no-bras-em-sp.ghtml)  
-Cobertura: [g1](https://g1.globo.com/sp/sao-paulo/noticia/2026/11/06/minha-alma-saiu-e-voltou-pro-corpo-diz-carregador-que-estava-em-predio-que-desabou-no-bras-em-sp.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/predio-de-quatro-andares-desaba-no-bras-na-regiao-central-de-sao-paulo.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/teto-de-loja-de-roupas-desaba-no-bras-em-sao-paulo) · [Valor Econômico](https://valor.globo.com/brasil/noticia/2026/11/06/predio-de-quatro-andares-desaba-no-bras-na-regiao-central-de-sao-paulo.ghtml) · [CNN Brasil (3)](https://www.cnnbrasil.com.br/nacional/sudeste/sp/novas-imagens-mostram-destrocos-de-loja-apos-desabamento-no-bras/)  
-
-**3. Crise do Ueno freia procura de brasileiros por negócios no Paraguai, diz Câmara de Comércio**  
-notícia `93` · politica · Brasil · 8 veículos · Folha de S.Paulo  
-A crise do Ueno Bank freou o interesse de empresários brasileiros em abrir negócios no Paraguai após um aumento na procura por esse tipo de investimento diante da eleição de Luiz Inácio Lula da Silva ( PT ), em 25 de outubro, segundo a Câmara de Comércio Brasi  
-*Por que entrou:* 8 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
-> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
-> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/crise-do-ueno-freia-procura-de-brasileiros-por-negocios-no-paraguai-diz-camara-de-comercio.shtml)  
-Cobertura: [Folha de S.Paulo (11)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/crise-do-ueno-freia-procura-de-brasileiros-por-negocios-no-paraguai-diz-camara-de-comercio.shtml) · [g1 (27)](https://g1.globo.com/mundo/noticia/2026/11/06/de-escandalo-bancario-ao-impeachment-veja-a-cronologia-da-crise-no-paraguai-que-derrubou-o-presidente.ghtml) · [Valor Econômico (3)](https://valor.globo.com/mundo/noticia/2026/11/06/senado-do-paraguai-vota-pelo-impeachment-do-presidente-pea.ghtml) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/presidente-do-paraguai-renuncia-em-meio-crise-bancaria-vice-assume) · [InfoMoney](https://www.infomoney.com.br/mundo/senado-do-paraguai-aprova-impeachment-do-presidente-pena/) · [RFI Brasil (2)](https://www.rfi.fr/br/am%C3%A9ricas/20261106-pe%C3%B1a-sofre-nova-derrota-senado-rejeita-adiamento-e-prossegue-com-impeachment)  
-
-**4. PIX fora do ar? Usuários reclamam de instabilidade; Banco Central diz que problema foi resolvido**  
-notícia `92` · economia · Brasil · 5 veículos · g1  
-Polícia mapeou valor do prejuízo após analisar transferências via PIX do suspeito Bruno Peres/Agência Brasil/Arquivo Usuários tiveram dificuldades para fazer transferências por PIX no início da noite desta sexta-feira (6). As reclamações começaram por volta da  
-*Por que entrou:* 5 veículos cobrindo; ainda fresca; 6 matérias em 1.54h  
-*Sinais:* corroboração ██████████ · recência ████████·· · calor ██████████  
+**1. Em prisão domiciliar, Peña é transferido para instalação militar durante a madrugada, diz jornal**  
+notícia `96` · politica · Brasil · 10 veículos · g1  
+Presidente destituído do Paraguai é preso O ex-presidente do Paraguai Santiago Peña foi transferido para uma instalação militar na madrugada de sexta-feira para sábado (7), horas após sofrer impeachment e ter sua prisão domiciliar decretada. A movimentação foi  
+*Por que entrou:* 10 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
 > ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
-[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/06/pix-fora-do-ar-quase-10-mil-usuarios-relatam-dificuldades-em-bancos.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/economia/noticia/2026/11/06/pix-fora-do-ar-quase-10-mil-usuarios-relatam-dificuldades-em-bancos.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/seu-bolso/meu-dinheiro/pix-registra-instabilidade-na-noite-de-sexta-feira-6-mostra-downdetector/) · [Poder360](https://www.poder360.com.br/poder-economia/pix-apresenta-instabilidade-e-afeta-clientes-de-diversos-bancos/) · [TecMundo](https://www.estadao.com.br/tecmundo/big-techs/banco-do-brasil-caiu-pix-fora-do-ar-atinge-usuarios-nesta-sexta-feira-06/) · [Olhar Digital](https://olhardigital.com.br/2026/11/06/pro/pix-sistema-passa-por-instabilidade-na-noite-desta-sexta-feira-6/)  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/07/pena-transferido-para-instalacao-militar-prisao-domiciliar.ghtml)  
+Cobertura: [g1 (40)](https://g1.globo.com/mundo/noticia/2026/11/07/pena-transferido-para-instalacao-militar-prisao-domiciliar.ghtml) · [Folha de S.Paulo (27)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/crise-do-ueno-freia-procura-de-brasileiros-por-negocios-no-paraguai-diz-camara-de-comercio.shtml) · [BBC News Brasil (4)](https://www.bbc.com/portuguese/articles/ck87zz7rwqz5o?at_medium=RSS&at_campaign=rss) · [Valor Econômico (4)](https://valor.globo.com/mundo/noticia/2026/11/07/lula-cumprimenta-alliana-e-convida-novo-presidente-do-paraguai-a-braslia.ghtml) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/presidente-do-paraguai-renuncia-em-meio-crise-bancaria-vice-assume) · [RFI Brasil (3)](https://www.rfi.fr/br/am%C3%A9ricas/20261107-vice-assume-presid%C3%AAncia-do-paraguai-ap%C3%B3s-santiago-pe%C3%B1a-sofrer-impeachment-e-ser-detido)  
 
-**5. Onda de falsas ameaças de bomba na Europa gera suspeitas de 'campanha coordenada'; veja o que se sabe**  
-notícia `92` · geral · Brasil · 5 veículos · g1  
-Ameaças de bombas voltam a perturbar tráfego aéreo na Europa A Irlanda denunciou nesta sexta-feira (13) uma "provável campanha coordenada" de falsas ameaças de bomba contra voos comerciais e veículos de comunicação. As ameaças provocaram transtornos no transpo  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**2. Visita ao Uruguai: papa Leão XIV fará vigília no Estádio Centenário e terá encontro com fiéis neste sábado**  
+notícia `92` · esporte · Brasil · 6 veículos · g1  
+Papa Leão XIV anda em meio ao público em carro aberto após chegada a Montevidéu, no Uruguai, em 6 de novembro de 2026. REUTERS/Andres Cuenca O papa Leão XIV fará neste sábado (7) uma vigília para milhares de fiéis no Estádio Centenário, que receberá a final da  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/07/visita-uruguai-papa-leao-xiv-vigilia-estadio-centenario-encontro-fieis-neste-sabado.ghtml)  
+Cobertura: [g1 (3)](https://g1.globo.com/mundo/noticia/2026/11/07/visita-uruguai-papa-leao-xiv-vigilia-estadio-centenario-encontro-fieis-neste-sabado.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/leao-14-chega-ao-uruguai-pais-mais-secular-da-america-latina-quase-40-anos-apos-ultima-visita-papal.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cv0ldd4dj27po?at_medium=RSS&at_campaign=rss) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/06/papa-leo-xiv-chega-ao-uruguai-para-iniciar-viagem-pela-amrica-do-sul.ghtml) · [RFI Brasil (2)](https://www.rfi.fr/br/am%C3%A9ricas/20261107-papa-garante-estar-em-forma-ao-iniciar-no-uruguai-giro-pela-am%C3%A9rica-do-sul) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/papa-leao-conclui-primeiro-dia-na-america-do-sul-com-oracoes-no-uruguai/)  
+
+**3. 'Paraguai não é para CLT': o que brasileiros contam em grupos sobre a vida no país e a crise do Ueno**  
+notícia `88` · politica · Brasil · 4 veículos · g1  
+Bandeiras do Paraguai são penduradas na fiação elétrica de via da capital Assunção, no dia 5 de novembro de 2026 Cesar Olmedo/Reuters Dicas de onde morar, sugestões de negócios e até indicações de açougue. Nas redes sociais, grupos de brasileiros que vivem ou   
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração █████████· · recência █████████· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/07/paraguai-nao-e-para-clt-o-que-brasileiros-contam-em-grupos-sobre-a-vida-no-pais-e-a-crise-do-ueno.ghtml)  
+Cobertura: [g1 (4)](https://g1.globo.com/mundo/noticia/2026/11/07/paraguai-nao-e-para-clt-o-que-brasileiros-contam-em-grupos-sobre-a-vida-no-pais-e-a-crise-do-ueno.ghtml) · [Folha de S.Paulo (8)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/paraguai-tem-fundo-que-garante-depositos-de-clientes-do-ueno-bank-em-ate-75-salarios-minimos-veja-regras.shtml) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/06/novo-presidente-do-paraguai-promete-assistir-vitimas-do-ueno-bank-e-cortar-gastos-publicos.ghtml) · [Intercept Brasil](https://www.intercept.com.br/2026/11/07/crise-paraguai-desmonta-paraiso-bolsonarista/)  
+
+**4. Onda de falsas ameaças de bomba na Europa gera suspeitas de 'campanha coordenada'; veja o que se sabe**  
+notícia `86` · geral · Brasil · 5 veículos · g1  
+Ameaças de bombas voltam a perturbar tráfego aéreo na Europa A Irlanda denunciou nesta sexta-feira (13) uma "provável campanha coordenada" de falsas ameaças de bomba contra voos comerciais e veículos de comunicação. As ameaças provocaram transtornos no transpo  
+*Por que entrou:* 5 veículos cobrindo; ainda fresca; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ████████·· · calor ███████···  
 > ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
 [Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/07/onda-de-falsas-ameacas-de-bomba-na-europa-gera-suspeitas-de-campanha-coordenada-veja-o-que-se-sabe.ghtml)  
-Cobertura: [g1 (6)](https://g1.globo.com/mundo/noticia/2026/11/07/onda-de-falsas-ameacas-de-bomba-na-europa-gera-suspeitas-de-campanha-coordenada-veja-o-que-se-sabe.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/onda-de-ameacas-falsas-de-bomba-chega-a-tvs-na-europa.shtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/06/ameaas-de-bomba-a-redes-de-tv-sucedem-falsos-alertas-sobre-voos-na-europa.ghtml) · [RFI Brasil (2)](https://www.rfi.fr/br/europa/20261106-falsos-alertas-de-bomba-provocam-tens%C3%A3o-em-aeroportos-e-ve%C3%ADculos-de-comunica%C3%A7%C3%A3o-na-europa) · [Poder360](https://www.poder360.com.br/poder-midia/emissoras-na-europa-recebem-ameacas-de-bomba-nesta-6a-feira/)  
+Cobertura: [g1 (2)](https://g1.globo.com/mundo/noticia/2026/11/07/onda-de-falsas-ameacas-de-bomba-na-europa-gera-suspeitas-de-campanha-coordenada-veja-o-que-se-sabe.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/onda-de-ameacas-falsas-de-bomba-chega-a-tvs-na-europa.shtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/06/ameaas-de-bomba-a-redes-de-tv-sucedem-falsos-alertas-sobre-voos-na-europa.ghtml) · [RFI Brasil](https://www.rfi.fr/br/europa/20261106-falsos-alertas-de-bomba-provocam-tens%C3%A3o-em-aeroportos-e-ve%C3%ADculos-de-comunica%C3%A7%C3%A3o-na-europa) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/07/europa-enfrenta-ameaca-crescente-de-superbacterias-com-antibioticos-a-falhar)  
 
-**6. Lula vai às Filipinas buscando estreitar vínculo com bloco asiático**  
-notícia `60` · politica · Mundo · 1 veículo · Agência Brasil Internacional  
-O presidente Luiz Inácio Lula da Silva viajará à Manilla, capital das Filipinas, para estreitar o relacionamento do Brasil com o Sudoeste Asiático. Ele participará como convidado da Cúpula da Associação de Nações do Sudeste Asiático (Asean), no dia 15 de novem  
-*Por que entrou:* ainda fresca; peso de fonte alto (Agência Brasil Internacional); só Agência Brasil Internacional publicou  
+**5. ‘Imposto do pecado’: veículos a diesel são os mais prejudicados; veja o que pesa em cada tipo de carro**  
+notícia `83` · economia · Brasil · 4 veículos · g1  
+O que é o 'imposto do pecado' e como ele vai funcionar? O governo federal publicou na última quarta-feira (4) uma medida provisória (MP) que define as regras de cobrança do Imposto Seletivo, também conhecido como “imposto do pecado”. 🔎 O tributo, criado pela r  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração █████████· · recência ████████·· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/carros/noticia/2026/11/07/imposto-do-pecado-carro-diesel.ghtml)  
+Cobertura: [g1 (6)](https://g1.globo.com/carros/noticia/2026/11/07/imposto-do-pecado-carro-diesel.ghtml) · [Valor Econômico](https://valor.globo.com/brasil/noticia/2026/11/06/cigarro-e-cerveja-vao-aumentar-de-preco-entenda-impacto-do-imposto-do-pecado.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/imposto-do-pecado-entenda-cobranca-sobre-cigarros-bebidas-e-veiculos) · [Canaltech](https://canaltech.com.br/carros/imposto-do-pecado-qual-o-impacto-para-os-carros/)  
+
+**6. Europa: hackers testam sistemas de refrigeração antes de ciberataques**  
+notícia `59` · tecnologia · Mundo · 1 veículo · Euronews (português)  
+Os ataques revelaram falhas básicas de segurança em sistemas de refrigeração ligados em rede, e especialistas alertam que vulnerabilidades idênticas podem pôr em risco desde instalações de supermercados até infraestruturas hospitalares e de centros de dados.  
+*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
 *Sinais:* corroboração ████······ · recência ████████·· · calor ████······  
-[Ler na fonte](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/lula-vai-filipinas-buscando-estreitar-vinculo-com-bloco-asiatico)  
+[Ler na fonte](https://pt.euronews.com/2026/11/07/europa-hackers-testam-sistemas-de-refrigeracao-antes-de-ciberataques)  
 
 ## Reserva (não entrou hoje)
 
-- `92` Milhares de brasileiros que vivem no Paraguai enfrentam as consequências do fim das atividades  — *cota de politica cheia*
-- `88` Justiça derruba decisão que autorizava três bets a voltar a funcionar em SP — *cota de politica cheia*
-- `87` PGR e Judiciário querem crédito extra de R$ 533 mi para pagar penduricalhos, e AGU envia caso a — *ficou fora do corte*
-- `87` Lula volta a defender responsabilidade nas contas e diz que será 'fiscal' de entregas do govern — *ficou fora do corte*
-- `87` É #FAKE que votos de Lula nas eleições superaram total de habitantes em cidades do Brasil; víde — *ficou fora do corte*
-- `85` Lotofácil 3823: Quatro apostas de MT acertam 14 números e ganham R$ 2,9 mil cada — *ficou fora do corte*
-- `85` Enem 2026: vai chover na hora da prova? Veja a previsão para domingo — *ficou fora do corte*
-- `84` A fantasia de Flávio está rasgada — *ficou fora do corte*
-
-## Já foi pauta nos últimos dias
-
-- Nilton Travesso, um dos pioneiros da televisão brasileira, morre em São Paulo — *ja foi pauta em 2026-11-06*
-- Lotomania hoje: resultado do concurso 2996 e números sorteados — *ja foi pauta em 2026-11-04*
+- `83` Fachin valida delação de dono da Reag, que geria fundos de Daniel Vorcaro — *cota de politica cheia*
+- `81` São Paulo tem alerta de tempestade na tarde deste sábado (7) — *ficou fora do corte*
+- `80` Papa envia mensagem a Lula ao passar por espaço aéreo brasileiro — *ficou fora do corte*
+- `79` Cartões de VR e VA devem ser aceitos em mais restaurantes a partir deste sábado (7); entenda — *ficou fora do corte*
+- `79` Prédio de quatro andares desaba no Brás, na região central de São Paulo — *ficou fora do corte*
+- `79` Onda azul nos Estados Unidos pode favorecer produtor brasileiro — *ficou fora do corte*
+- `78` Na escolha para Fazenda, Lula repete roteiro de 2022 — *ficou fora do corte*
+- `78` Ataques da Rússia deixam Ucrânia sem energia e aquecimento em meio a temperaturas perto de 0ºC — *ficou fora do corte*
 
 ## Fontes que não responderam
 
-- Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
+- Estadão: `HTTP 404`
 - CNN Brasil Internacional: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
 
