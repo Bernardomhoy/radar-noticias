@@ -1,76 +1,77 @@
-# Radar de Notícias — 2026-11-09
-*Fechado às 18:01 (horário de Brasília) · 1013 matérias lidas · 659 pautas identificadas · 17 fontes ativas*
+# Radar de Notícias — 2026-11-10
+*Fechado às 00:27 (horário de Brasília) · 1061 matérias lidas · 638 pautas identificadas · 17 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. França acusa o Irã de hackear refrigeradores de supermercados**  
-notícia `96` · tecnologia · Brasil · 9 veículos · Folha de S.Paulo  
-A França acusou o Irã de estar por trás de ataques cibernéticos que afetaram geladeiras e freezers de supermercados. Leia mais (11/09/2026 - 14h44)  
-*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; 13 matérias em 3.75h  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ██████████  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/franca-acusa-o-ira-de-hackear-refrigeradores-de-supermercados.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/franca-acusa-o-ira-de-hackear-refrigeradores-de-supermercados.shtml) · [g1 (4)](https://g1.globo.com/tecnologia/2026/franca-ataque-geladeiras.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/09/frana-acusa-ir-de-estar-por-trs-de-ataques-cibernticos-contra-refrigeradores.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c893z3ldzpz3o?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/mundo/20261109-fran%C3%A7a-atribui-ao-ir%C3%A3-ataques-cibern%C3%A9ticos-contra-refrigera%C3%A7%C3%A3o-de-700-supermercados-em-outubro) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/franca-acusa-ira-de-estar-por-tras-de-ataques-ciberneticos-a-supermercados/)  
-
-**2. Prefeito de Cuiabá é alvo do Ministério Público do Trabalho após ironizar demissão de eleitores do Lula; vídeo**  
-notícia `93` · politica · Brasil · 9 veículos · g1  
-Prefeito de Cuiabá é alvo do MPT após ironizar demissão de eleitores do Lula O Ministério Público do Trabalho em Mato Grosso (MPT-MT) entrou com uma ação civil pública contra o prefeito de Cuiabá, Abilio Brunini (PL), após ele sugerir que trabalhadores que vot  
-*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**1. Suspeita de espionagem: como aproximação entre Trump e CEO da Nvidia coincidiu com decisões favoráveis à empresa**  
+notícia `94` · politica · Brasil · 11 veículos · g1  
+Traição, espionagem e a disputa entre EUA x China: entenda o escândalo da Nvidia O presidente dos Estados Unidos, Donald Trump, e o CEO da Nvidia, Jensen Huang, desenvolveram uma relação próxima desde o início do atual mandato do republicano. Um dos aliados ma  
+*Por que entrou:* 11 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://g1.globo.com/mt/mato-grosso/noticia/2026/11/09/prefeito-de-cuiaba-e-alvo-do-ministerio-publico-do-trabalho-apos-ironizar-demissao-de-eleitores-do-lula-video.ghtml)  
-Cobertura: [g1 (15)](https://g1.globo.com/mt/mato-grosso/noticia/2026/11/09/prefeito-de-cuiaba-e-alvo-do-ministerio-publico-do-trabalho-apos-ironizar-demissao-de-eleitores-do-lula-video.ghtml) · [Folha de S.Paulo (6)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/dora-kramer/2026/11/lula-viaja-sem-desenhar-a-propria-transicao.shtml) · [Valor Econômico (2)](https://valor.globo.com/politica/noticia/2026/11/09/lula-contem-influencia-de-nunes-marques-no-trf-1-e-nomeia-juiz-apoiado-por-dino-e-gilmar-mendes.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c3pwg9x8r947o?at_medium=RSS&at_campaign=rss) · [InfoMoney (2)](https://www.infomoney.com.br/politica/lula-escolhe-fausto-mendanha-gonzaga-para-o-trf-1/) · [RFI Brasil (2)](https://www.rfi.fr/br/podcasts/o-mundo-agora/20261109-m%C3%A9lenchon-se-inspira-em-lula-para-disputa-presidencial-francesa-mas-desafios-s%C3%A3o-diferentes)  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/10/suspeita-de-espionagem-como-aproximacao-entre-trump-e-ceo-da-nvidia-coincidiu-com-decisoes-favoraveis-a-empresa.ghtml)  
+Cobertura: [g1 (17)](https://g1.globo.com/mundo/noticia/2026/11/10/suspeita-de-espionagem-como-aproximacao-entre-trump-e-ceo-da-nvidia-coincidiu-com-decisoes-favoraveis-a-empresa.ghtml) · [Folha de S.Paulo (8)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/entenda-tamanho-dos-negocios-da-nvidia-que-investiga-caso-de-ceo-com-suposta-espia-chinesa.shtml) · [Valor Econômico (5)](https://valor.globo.com/empresas/noticia/2026/11/09/ft-trump-diz-que-o-fbi-esta-investigando-jensen-huang-ceo-da-nvidia.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c6g7x7r3399do?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/economia/20261109-esc%C3%A2ndalo-de-espionagem-p%C3%B5e-ceo-da-gigante-de-chips-nvidia-sob-press%C3%A3o-e-cria-tens%C3%A3o-entre-eua-e-china) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/economia/money/negocios/nvidia-perde-us-192-bi-em-um-dia-apos-escandalo-com-ceo/)  
 
-**3. Petróleo cai mais de 5% após Trump dizer que novos ataques ao Irã são improváveis**  
-notícia `92` · mundo · Brasil · 5 veículos · Folha de S.Paulo  
-Os preços do petróleo despencaram nesta segunda-feira (9), com queda de 5,6% por volta das 18h (horário de Brasília), atingindo US$ 92,78 por barril após o presidente dos Estados Unidos , Donald Trump , afirmar que novos ataques americanos contra o Irã são "al  
+**2. Governo prevê público recorde em posse de Lula e quer show de Roger Waters**  
+notícia `93` · politica · Brasil · 5 veículos · Folha de S.Paulo  
+O governo Lula prevê um público recorde na posse presidencial, em 5 de janeiro de 2027, e tenta atrair um show internacional para a Esplanada dos Ministérios. Leia mais (11/09/2026 - 23h00)  
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/petroleo-cai-mais-de-5-apos-trump-dizer-que-novos-ataques-ao-ira-sao-improvaveis.shtml)  
-Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/petroleo-cai-mais-de-5-apos-trump-dizer-que-novos-ataques-ao-ira-sao-improvaveis.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/08/trump-diz-que-novo-ataque-ao-ira-e-altamente-improvavel-se-negociacoes-avancarem.ghtml) · [Valor Econômico (3)](https://valor.globo.com/financas/noticia/2026/11/09/petroleo-tem-forte-queda-com-recuo-na-retorica-militar-de-trump.ghtml) · [InfoMoney](https://www.infomoney.com.br/mercados/petroleo-abertura-fechamento-ira-eua-09112026/) · [Euronews (português) (3)](https://pt.euronews.com/2026/11/09/ucrania-tera-forma-diferente-apos-guerra-diz-trump-antes-das-negociacoes-em-abu-dhabi)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/governo-preve-publico-recorde-em-posse-de-lula-e-quer-show-de-roger-waters.shtml)  
+Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/governo-preve-publico-recorde-em-posse-de-lula-e-quer-show-de-roger-waters.shtml) · [g1 (3)](https://g1.globo.com/economia/noticia/2026/11/09/governo-prorroga-deseneracao-da-gasolina-e-do-etanol-por-mais-30-dias.ghtml) · [Valor Econômico](https://valor.globo.com/brasil/noticia/2026/11/09/governo-vai-prorrogar-desonerao-da-gasolina-e-etanol-por-30-dias-dizem-fontes.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-prorroga-desoneracao-de-gasolina-e-etanol-por-30-dias/) · [Poder360](https://www.poder360.com.br/poder-infra/governo-prorrogara-isencao-de-impostos-sobre-combustiveis/)  
 
-**4. Deputado dos EUA apresenta pedido de impeachment contra secretário de Guerra de Trump**  
-notícia `92` · politica · Brasil · 7 veículos · g1  
-O secretário de Defesa dos Estados Unidos, Pete Hegseth, fala durante uma declaração à imprensa ao chegar para uma reunião de ministros da defesa da OTAN na sede da organização em Bruxelas, quinta-feira, 18 de junho de 2026. AP Photo/Virginia Mayo O deputado r  
-*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/09/deputado-dos-eua-apresenta-pedido-de-impeachment-contra-secretario-de-guerra-de-trump.ghtml)  
-Cobertura: [g1 (5)](https://g1.globo.com/mundo/noticia/2026/11/09/deputado-dos-eua-apresenta-pedido-de-impeachment-contra-secretario-de-guerra-de-trump.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/trump-afirma-que-resultados-das-eleicoes-de-meio-de-mandato-sao-gigantesco-retrocesso-para-eua.shtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/cq3696x6xrkjo?at_medium=RSS&at_campaign=rss) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/09/deputado-republicano-apresenta-pedido-de-impeachment-de-hegseth.ghtml) · [Poder360](https://www.poder360.com.br/poder-internacional/trump-questiona-vitoria-democrata-apos-dizer-que-aceitaria-resultado/) · [Euronews (português)](https://pt.euronews.com/2026/11/09/trump-diz-que-eua-venceram-guerra-contra-o-irao-mas-rubio-admite-que-nao-houve-progressos-)  
-
-**5. Caso extraconjugal de CEO da Nvidia contradiz declarações anteriores sobre mulher investigada**  
-notícia `92` · tecnologia · Brasil · 5 veículos · Folha de S.Paulo  
-Por mais de um ano, a Nvidia minimizou os vínculos de seu presidente-executivo, Jensen Huang , com a Megaspeed, uma empresa derivada de um grupo chinês do setor de games até então pouco conhecida, e com uma mulher chamada Huang Le, que ajudou a fundá-la. Leia   
+**3. Brasil tem 24 instituições autorizadas para atuar com criptoativos e 119 aguardam análise do BC**  
+notícia `90` · economia · Brasil · 5 veículos · Folha de S.Paulo  
+O Brasil soma 24 instituições aptas a prestar serviços de ativos virtuais e outras 119 aguardam análise do Banco Central sobre autorização de funcionamento. Apenas uma teve a solicitação negada, conforme lista divulgada pelo órgão regulador nesta segunda-feira  
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/caso-extraconjugal-de-ceo-da-nvidia-contradiz-declaracoes-anteriores-sobre-mulher-investigada.shtml)  
-Cobertura: [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/caso-extraconjugal-de-ceo-da-nvidia-contradiz-declaracoes-anteriores-sobre-mulher-investigada.shtml) · [g1 (3)](https://g1.globo.com/tecnologia/noticia/2026/11/09/traicao-envolvendo-ceo-da-nvidia-rende-memes-nas-redes-sociais.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c6g7x7r3399do?at_medium=RSS&at_campaign=rss) · [InfoMoney](https://www.infomoney.com.br/mercados/nvidia-o-que-a-empresa-produz/) · [Tecnoblog](https://tecnoblog.net/noticias/nvidia-investiga-ceo-por-relacao-com-suposta-espia-chinesa/)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/brasil-tem-24-instituicoes-autorizadas-para-atuar-com-criptoativos-e-119-aguardam-analise-do-bc.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/brasil-tem-24-instituicoes-autorizadas-para-atuar-com-criptoativos-e-119-aguardam-analise-do-bc.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/bc-passa-divulgar-lista-de-empresas-aptas-operar-com-criptoativos) · [Valor Econômico](https://valor.globo.com/financas/noticia/2026/11/09/bc-divulga-lista-de-empresas-que-pediram-autorizacao-para-atuar-com-criptoativos.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/bc-divulga-empresas-liberadas-a-operar-cripto-no-brasil-veja-lista/) · [Poder360](https://www.poder360.com.br/poder-economia/bc-libera-consulta-a-empresas-que-operam-com-criptomoedas/)  
 
-**6. Web Summit reúne 70 mil participantes em Lisboa e recebe cerca de 300 startups brasileiras**  
-notícia `72` · mundo · Mundo · 2 veículos · RFI Brasil  
-Lisboa volta a ser ponto de encontro da indústria tecnológica mundial com a abertura, nesta segunda-feira, da Web Summit. Até 12 de novembro, a conferência deve reunir cerca de 70 mil participantes, 900 palestrantes e mais de duas mil startups na Feira Interna  
-*Por que entrou:* publicada nas últimas horas; 2 veículos cobrindo; fonte RFI Brasil  
-*Sinais:* corroboração ██████···· · recência █████████· · calor ██████····  
-[Ler na fonte](https://www.rfi.fr/br/podcasts/linha-direta/20261109-web-summit-re%C3%BAne-70-mil-participantes-em-lisboa-e-recebe-cerca-de-300-startups-brasileiras)  
-Cobertura: [RFI Brasil](https://www.rfi.fr/br/podcasts/linha-direta/20261109-web-summit-re%C3%BAne-70-mil-participantes-em-lisboa-e-recebe-cerca-de-300-startups-brasileiras) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/09/china-exibe-robos-e-agentes-de-ia-na-abertura-da-web-summit-2026-em-lisboa)  
+**4. Marco Rubio diz que EUA vão manter diálogo com governo Lula**  
+notícia `90` · mundo · Brasil · 4 veículos · Folha de S.Paulo  
+O secretário de Estado americano, Marco Rubio , disse nesta segunda-feira (9), que os Estados Unidos vão continuar "trabalhando" com o governo Lula e cobrou o agrément do indicado para a embaixada em Brasília, Daniel Pérez , que ainda não foi concedido pelo la  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração █████████· · recência █████████· · calor █████████·  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/marco-rubio-diz-que-eua-vao-manter-dialogo-com-governo-lula.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/marco-rubio-diz-que-eua-vao-manter-dialogo-com-governo-lula.shtml) · [g1 (2)](https://g1.globo.com/mundo/noticia/2026/11/09/apos-vitoria-de-lula-rubio-diz-que-eua-vao-manter-dialogo-com-o-brasil-e-cobra-liberacao-de-embaixador.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/09/rubio-diz-que-eua-vo-lidar-com-brasil-sob-lula-mas-cobra-aval-para-embaixador-americano.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/rubio-diz-que-eua-vao-manter-dialogo-com-o-brasil-e-cobra-aval-a-embaixador/)  
+
+**5. Papamania altera rotina de Buenos Aires**  
+notícia `90` · mundo · Brasil · 5 veículos · Folha de S.Paulo  
+"Posso cruzar essa rua?" Leia mais (11/09/2026 - 23h00)  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/papamania-altera-rotina-de-buenos-aires.shtml)  
+Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/papamania-altera-rotina-de-buenos-aires.shtml) · [g1 (5)](https://g1.globo.com/jornal-nacional/noticia/2026/11/09/papa-leao-xiv-reune-mais-de-25-milhoes-de-fieis-em-buenos-aires.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/09/papa-leao-xiv-faz-missa-com-recorde-de-25-milhoes-de-fieis-em-buenos-aires.ghtml) · [RFI Brasil](https://www.rfi.fr/br/am%C3%A9ricas/20261109-papa-le%C3%A3o-xiv-questiona-as-pol%C3%ADticas-de-milei-e-tem-encontros-com-as-v%C3%ADtimas-sociais-do-ajuste-fiscal) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/09/argentina-papa-leon-xiv-pede-ao-governo-de-milei-que-proteja-os-mais-vulneraveis)  
+
+**6. Polônia: suspeito de ataque que deixou seis mortos em Cracóvia morre no hospital**  
+notícia `63` · cotidiano · Mundo · 2 veículos · RFI Brasil  
+O suspeito do ataque a tiros que matou seis pessoas e deixou 15 feridos em Cracóvia morreu no hospital, informou a polícia da Polônia nesta segunda-feira (9). O homem, de 24 anos, havia sido baleado após abrir fogo contra uma multidão reunida na principal praç  
+*Por que entrou:* 2 veículos cobrindo; fonte RFI Brasil; ainda fresca  
+*Sinais:* corroboração ██████···· · recência ██████···· · calor █████·····  
+> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
+> ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
+[Ler na fonte](https://www.rfi.fr/br/europa/20261109-pol%C3%B4nia-suspeito-de-ataque-que-deixou-seis-mortos-em-crac%C3%B3via-morre-no-hospital)  
+Cobertura: [RFI Brasil](https://www.rfi.fr/br/europa/20261109-pol%C3%B4nia-suspeito-de-ataque-que-deixou-seis-mortos-em-crac%C3%B3via-morre-no-hospital) · [Euronews (português)](https://pt.euronews.com/video/2026/11/09/polonia-tusk-e-nawrocki-prestam-homenagem-as-seis-vitimas-do-ataque-em-cracovia)  
 
 ## Reserva (não entrou hoje)
 
-- `92` Após impeachment, novo presidente do Paraguai monta gabinete à sombra de padrinho político — *ficou fora do corte*
-- `91` Frei brasileiro leva recado ao Papa Leão XIV de jovens ligados à comunidade católica; vídeo — *ficou fora do corte*
-- `90` Caso entre CEO da Nvidia e suposta espiã chinesa vira novela 'Paixão do Silício' em memes — *ficou fora do corte*
-- `90` Pesquisa Tecban traz intenção de consumo na Black Friday — *ficou fora do corte*
-- `88` Abacaxis de Lula 4: combate ao crime e ajuste fiscal — *ficou fora do corte*
-- `88` James Gunn e Peter Safran são substituídos por ex-Marvel no comando da DC Studios — *ficou fora do corte*
-- `86` Google lança novos chips de IA e amplia disputa com a Nvidia — *ficou fora do corte*
-- `86` Passageira morre durante voo, e avião retorna para aeroporto em Brasília — *ficou fora do corte*
+- `92` Após encerrar inquérito das fake news, STF avalia destino de mais de 100 procedimentos; relembr — *cota de politica cheia*
+- `91` Vale-refeição e alimentação: decisão da Justiça não muda regra que beneficiou trabalhadores; en — *cota de politica cheia*
+- `89` Após derrota avassaladora, Trump volta a falar em fraude nas eleições — *cota de politica cheia*
+- `88` Acre na COP31: comitiva defende preservação, recursos hídricos e outras pautas durante evento n — *ficou fora do corte*
+- `88` Itaúsa tem alta de 25% no lucro recorrente para R$ 5,1 bi no 3º tri — *ficou fora do corte*
+- `87` Um governo difícil em Israel — *ficou fora do corte*
+- `86` Ajuste fiscal: o diagnóstico de organismos internacionais e o desafio de Lula 4 — *ficou fora do corte*
+- `86` Filipinas suspendem importações de carne suína; país asiático é o principal comprador do produt — *ficou fora do corte*
 
 ## Fontes que não responderam
 
-- Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
-- Nexo Jornal: `HTTP 404`
+- Estadão: `HTTP 404`
 - CNN Brasil Internacional: `HTTP 404`
+- Nexo Jornal: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
