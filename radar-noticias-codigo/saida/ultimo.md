@@ -1,75 +1,80 @@
-# Radar de Notícias — 2026-11-10
-*Fechado às 21:35 (horário de Brasília) · 1175 matérias lidas · 708 pautas identificadas · 18 fontes ativas*
+# Radar de Notícias — 2026-11-11
+*Fechado às 04:04 (horário de Brasília) · 1181 matérias lidas · 666 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Relator atende agronegócio, e MP que renegocia dívidas rurais é aprovada na Câmara**  
-notícia `94` · politica · Brasil · 6 veículos · g1  
-Depois de uma longa negociação, a Câmara dos Deputados aprovou nesta terça-feira (10) a Medida Provisória (MP) que renegocia as dívidas rurais. O líder do Governo na Câmara, Paulo Pimenta (PT-RS), aceitou pedidos do setor do agronegócio e apresentou um texto d  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**1. Número de obras paralisadas do PAC cai após governo Lula questionar metodologia do TCU**  
+notícia `95` · politica · Brasil · 8 veículos · Folha de S.Paulo  
+O número de obras do PAC (Programa de Aceleração de Crescimento) paralisadas no governo federal despencou após a Casa Civil questionar os critérios usados pelo TCU (Tribunal de Contas da União) para classificar empreendimentos como interrompidos. Leia mais (11  
+*Por que entrou:* 8 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/10/relator-atende-agronegocio-e-mp-que-renegocia-dividas-rurais-e-aprovada-na-camara.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/politica/noticia/2026/11/10/relator-atende-agronegocio-e-mp-que-renegocia-dividas-rurais-e-aprovada-na-camara.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/agro/2026/11/relator-faz-novas-concessoes-e-renegociacao-de-dividas-rurais-avanca-no-congresso.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/relator-defende-reducao-da-maioridade-penal-com-prisoes-separadas) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/10/relator-pretende-apresentar-parecer-sobre-reducao-da-maioridade-penal-ate-o-fim-de-novembro.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/relator-espera-que-camara-aprove-pec-da-maioridade-no-inicio-de-dezembro/) · [Poder360](https://www.poder360.com.br/poder-congresso/relator-estima-entregar-parecer-da-maioridade-penal-ate-30-de-novembro/)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/numero-de-obras-paralisadas-do-pac-cai-apos-governo-lula-questionar-metodologia-do-tcu.shtml)  
+Cobertura: [Folha de S.Paulo (25)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/numero-de-obras-paralisadas-do-pac-cai-apos-governo-lula-questionar-metodologia-do-tcu.shtml) · [g1 (10)](https://g1.globo.com/politica/noticia/2026/11/11/lula-4-casa-civil-pede-a-ministerios-relatorios-com-prioridades-e-projetos-em-andamento.ghtml) · [Valor Econômico (4)](https://valor.globo.com/politica/noticia/2026/11/10/tse-decide-por-unanimidade-multar-meta-em-r-75-milhes-por-descumprir-decises-nas-eleies.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-presidente-da-turquia-se-reunem-e-falam-de-comercio-bilateral) · [RFI Brasil (2)](https://www.rfi.fr/br/am%C3%A9ricas/20261110-papa-faz-refer%C3%AAncia-ao-conflito-diplom%C3%A1tico-argentina-brasil-incitando-milei-a-superar-tens%C3%B5es-com-lula) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/tse-meta-julgamento-eleicoes/)  
 
-**2. Dia de Sorte hoje: resultado do concurso 1344 e números sorteados**  
-notícia `93` · geral · Brasil · 5 veículos · g1  
-Volantes da Dia de Sorte G1 Veja abaixo os números do sorteio do concurso 1344 da Dia de Sorte realizado nesta terça-feira (10): Dezenas: 1 - 4 - 8 - 12 - 23 - 25 - 26 Mês da Sorte: Março Veja quantas apostas foram premiadas no concurso 1344: 7 acertos: 3 apos  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/loterias/dia-de-sorte/noticia/2026/11/10/dia-de-sorte-hoje-resultado-do-concurso-1344-e-numeros-sorteados.ghtml)  
-Cobertura: [g1 (8)](https://g1.globo.com/loterias/dia-de-sorte/noticia/2026/11/10/dia-de-sorte-hoje-resultado-do-concurso-1344-e-numeros-sorteados.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/confira-a-partir-das-21h-desta-terca-10-o-resultado-do-concurso-3084-da-mega-sena.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/mega-sena-sorteia-premio-de-r-35-milhoes-nesta-terca-feira) · [InfoMoney (4)](https://www.infomoney.com.br/consumo/dia-de-sorte-confira-o-resultado-do-concurso-1344-sorteado-nesta-terca-feira-10/) · [Olhar Digital (3)](https://olhardigital.com.br/2026/11/10/internet-e-redes-sociais/resultado-da-mega-sena-de-hoje-veja-numeros-e-ganhadores-do-concurso-3084-terca-10-11/)  
-
-**3. Governo acerta com Congresso projeto de ajuste fiscal que pode chegar a R$ 80 bi em 2027**  
-notícia `93` · politica · Brasil · 4 veículos · g1  
-Governo prevê ajuste fiscal de 0,5% do PIB em 2027 O governo articula com o Senado a apresentação ainda nesta semana de um projeto de lei complementar (PLP) de ajuste fiscal de meio ponto do Produto Interno Bruto (PIB) para o ano de 2027, equivalente a uma eco  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração █████████· · recência ██████████ · calor █████████·  
-[Ler na fonte](https://g1.globo.com/economia/blog/ana-flor/post/2026/11/10/governa-acerta-com-congresso-projeto-de-ajuste-fiscal-de-05percent-do-pib-para-2027.ghtml)  
-Cobertura: [g1 (3)](https://g1.globo.com/economia/blog/ana-flor/post/2026/11/10/governa-acerta-com-congresso-projeto-de-ajuste-fiscal-de-05percent-do-pib-para-2027.ghtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/10/governo-sinaliza-ao-congresso-economia-de-r-70-bi-em-2027-e-foco-em-corte-de-incentivos.ghtml) · [InfoMoney](https://www.infomoney.com.br/politica/governo-acerta-com-congresso-projeto-de-ajuste-fiscal-de-ate-r-80-bi-em-2027-diz-fonte/) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-acorda-com-congresso-projeto-de-ajuste-fiscal-de-05-do-pib-em-27/)  
-
-**4. Lucro da Petrobras sobe 21,5% no 3º trimestre, para R$ 39,7 bilhões**  
-notícia `92` · economia · Brasil · 7 veículos · g1  
-Sede da Petrobras, no Rio de Janeiro. Fernando Frazão/Agência Brasil A Petrobras teve lucro líquido de R$ 39,75 bilhões no terceiro trimestre, alta de 21,5% na comparação com o mesmo período do ano anterior, informou a companhia nesta terça-feira (10). A empre  
-*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**2. Quem é a mulher no centro do escândalo de espionagem da Nvidia**  
+notícia `94` · mundo · Brasil · 7 veículos · Folha de S.Paulo  
+Em dezembro de 2023, uma executiva chinesa conhecida como Alice Huang se reuniu com o CEO da Nvidia , Jensen Huang, e um pequeno grupo de colegas em um restaurante italiano em Singapura. Leia mais (11/11/2026 - 04h00)  
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/10/lucro-petrobras-2o-trimestre.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/economia/noticia/2026/11/10/lucro-petrobras-2o-trimestre.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/lucro-da-petrobras-cresce-215-no-terceiro-trimestre-para-r-397-bilhoes.shtml) · [Valor Econômico (2)](https://valor.globo.com/empresas/noticia/2026/11/10/vendas-da-petrobras-no-mercado-interno-sobem-25percent-no-terceiro-trimestre.ghtml) · [InfoMoney](https://www.infomoney.com.br/mercados/petrobras-petr4-balanco-3t26/) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/infra/petrobras-tem-r-3975-bi-de-lucro-liquido-no-3o-tri-alta-de-215/) · [Poder360 (2)](https://www.poder360.com.br/poder-economia/petrobras-tem-lucro-de-r-397-bilhoes-no-3o-trimestre/)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/quem-e-a-mulher-no-centro-do-escandalo-de-espionagem-da-nvidia.shtml)  
+Cobertura: [Folha de S.Paulo (9)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/quem-e-a-mulher-no-centro-do-escandalo-de-espionagem-da-nvidia.shtml) · [g1 (17)](https://g1.globo.com/tecnologia/noticia/2026/11/11/como-o-caso-do-ceo-da-nvidia-com-suposta-espia-chinesa-impacta-o-setor-de-ia.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/crlykyp7w1kzo?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/economia/20261109-esc%C3%A2ndalo-de-espionagem-p%C3%B5e-ceo-da-gigante-de-chips-nvidia-sob-press%C3%A3o-e-cria-tens%C3%A3o-entre-eua-e-china) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/senador-dos-eua-pede-renuncia-de-ceo-da-nvidia-apos-caso-com-empresaria/) · [Tecnoblog (2)](https://tecnoblog.net/noticias/nvidia-e-ceo-sao-processados-por-omitir-riscos-em-caso-com-executiva-chinesa/)  
 
-**5. Ataque hacker ao porto de Santos acende alertas sobre proteção de estruturas estratégicas para a economia brasileira**  
-notícia `91` · tecnologia · Brasil · 5 veículos · g1  
-Ataque hacker derruba sistemas do Porto de Santos e leva PF a investigar caso O maior porto do Brasil foi alvo de um ataque cibernético. A informação veio nesta terça-feira (10) a público, quatro dias depois da invasão que derrubou os sistemas usados pela admi  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**3. Sistema internacional de relatórios sobre sustentabilidade volta ao Brasil depois de sete anos**  
+notícia `92` · meio-ambiente · Brasil · 5 veículos · Folha de S.Paulo  
+A Global Reporting Initiative (GRI), sistema internacional de normas para a elaboração de relatórios corporativos sobre sustentabilidade , volta a ter direção no Brasil depois de sete anos sem atuar de forma direta no país. Leia mais (11/11/2026 - 04h00)  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/economia-sustentavel/2026/11/sistema-internacional-de-relatorios-sobre-sustentabilidade-volta-ao-brasil-depois-de-sete-anos.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/economia-sustentavel/2026/11/sistema-internacional-de-relatorios-sobre-sustentabilidade-volta-ao-brasil-depois-de-sete-anos.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-conclui-destinacao-de-r-283-bilhoes-em-titulos-sustentaveis) · [Tecnoblog](https://tecnoblog.net/noticias/viewfinity-s7-e-o-novo-monitor-4k-de-32-da-samsung-veja-preco-no-brasil/) · [TecMundo](https://www.estadao.com.br/tecmundo/produto-e-review/viewfinity-s7-samsung-lanca-novo-monitor-para-trabalho-no-brasil/) · [Canaltech](https://canaltech.com.br/hardware/novo-monitor-samsung-viewfinity-s7-traz-divisao-de-tela-e-modo-para-2-pcs-conheca/)  
+
+**4. Autoridades do Paraguai abrem cofre secreto na casa de Peña, mas não encontram nada**  
+notícia `90` · esporte · Brasil · 5 veículos · Folha de S.Paulo  
+Promotores e policiais do Paraguai abriram nesta terça-feira (10) o cofre da residência do ex-presidente Santiago Peña, no município de San Bernardino, a 50 quilômetros de Assunção. No entanto, o cofre já estava vazio, sem objetos de valor ou dinheiro, segundo  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/jornal-nacional/noticia/2026/11/10/ataque-hacker-ao-porto-de-santos-acende-alertas-sobre-protecao-de-estruturas-estrategicas-para-a-economia-brasileira.ghtml)  
-Cobertura: [g1](https://g1.globo.com/jornal-nacional/noticia/2026/11/10/ataque-hacker-ao-porto-de-santos-acende-alertas-sobre-protecao-de-estruturas-estrategicas-para-a-economia-brasileira.ghtml) · [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/colunas/painelsa/2026/11/apos-ataque-hacker-agentes-portuarios-usaram-celulares-para-manter-o-porto-de-santos-funcionando.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/porto-de-santos-sistemas-seguem-afetados-apos-ataque-cibernetico) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/ckzd622ryd0do?at_medium=RSS&at_campaign=rss) · [TecMundo](https://www.estadao.com.br/tecmundo/ciberseguranca/porto-de-santos-ataque-cibernetico-plano-contingencia-npr/)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/autoridades-do-paraguai-abrem-cofre-secreto-na-casa-de-pena-mas-nao-encontram-nada.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/autoridades-do-paraguai-abrem-cofre-secreto-na-casa-de-pena-mas-nao-encontram-nada.shtml) · [g1 (3)](https://g1.globo.com/mundo/noticia/2026/11/10/paraguai-autoridades-conseguem-abrir-cofre-em-casa-do-ex-presidente-santiago-pena.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/10/cofre-secreto-da-casa-de-santiago-pena-no-paraguai-estava-vazio.ghtml) · [InfoMoney](https://www.infomoney.com.br/mundo/como-sala-secreta-de-mansao-de-pena-foi-aberta-no-paraguai-e-o-que-foi-encontrado/) · [ge (Globo Esporte)](https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/11/crise-no-paraguai-impacta-futebol-e-pode-provocar-prejuizo-de-r-55-milhoes-a-jogadores-da-selecao.ghtml)  
 
-**6. Espanha: 69 velas acesas na catedral de Toledo pelas vítimas do acidente ferroviário**  
-notícia `60` · cotidiano · Mundo · 1 veículo · Euronews (português)  
-Rei Filipe VI de Espanha e rainha Letizia participaram, a 10 de novembro, no funeral de Estado na catedral de Toledo pelas 69 vítimas do devastador choque de um comboio de alta velocidade perto de Urda, em 28 de outubro  
+**5. Ueno Bank, no Paraguai: o que aconteceu com o dinheiro e quanto falta recuperar?**  
+notícia `88` · economia · Brasil · 6 veículos · g1  
+Polícia do Paraguai tenta abrir porta blindada na casa de Santiago Penã O Banco Central do Paraguai (BCP) devolveu parcialmente os depósitos de mais de 1,7 milhão de clientes do Ueno Bank, cujo colapso precipitou a queda do presidente Santiago Peña, mas a maio  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ████████·· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/11/ueno-bank-no-paraguai-o-que-aconteceu-com-o-dinheiro-e-quanto-falta-recuperar.ghtml)  
+Cobertura: [g1 (6)](https://g1.globo.com/economia/noticia/2026/11/11/ueno-bank-no-paraguai-o-que-aconteceu-com-o-dinheiro-e-quanto-falta-recuperar.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/paraguai-pede-ajuda-dos-eua-luxemburgo-e-da-argentina-para-rastrear-os-recursos-desviados-do-ueno-bank.shtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/11/presidente-do-bc-do-paraguai-diz-que-seu-trabalho-retomar-a-credibilidade-da-autoridade-monetria.ghtml) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/bc-do-paraguai-ja-ressarciu-93-dos-clientes-do-banco-ueno) · [RFI Brasil](https://www.rfi.fr/br/am%C3%A9ricas/20261110-buscas-contra-pe%C3%B1a-e-rastreamento-de-ativos-do-ueno-bank-no-exterior-ampliam-crise-no-paraguai) · [Euronews (português)](https://pt.euronews.com/2026/11/10/paraguai-promete-recuperar-fundos-de-pensoes-afetados-pela-crise-do-ueno-bank)  
+
+**6. Notícias do dia | 11 de novembro 2026 - Manhã**  
+notícia `64` · mundo · Mundo · 1 veículo · Euronews (português)  
+Fique a par das notícias mais importantes de toda a Europa e não só, a 11 de novembro de 2026 - últimas notícias, notícias de última hora, mundo, negócios, entretenimento, política, cultura, viagens.  
 *Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência █████████· · calor ████······  
-> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
-[Ler na fonte](https://pt.euronews.com/video/2026/11/10/espanha-69-velas-acesas-na-catedral-de-toledo-pelas-vitimas-do-acidente-ferroviario)  
+*Sinais:* corroboração ████······ · recência █████████· · calor ██████····  
+[Ler na fonte](https://pt.euronews.com/video/2026/11/11/noticias-do-dia-11-de-novembro-2026-manha)  
+Cobertura: [Euronews (português) (3)](https://pt.euronews.com/video/2026/11/11/noticias-do-dia-11-de-novembro-2026-manha)  
 
 ## Reserva (não entrou hoje)
 
-- `93` Republicanos escolhem aliado ultraconservador de Trump para liderar o partido na Câmara dos EUA — *cota de politica cheia*
-- `93` Partido de Donald Trump barra impeachment de Pete Hegseth, secretário de Guerra que defendeu co — *cota de politica cheia*
-- `91` Relator no TSE vota para condenar Meta a multa de R$ 7,5 mi por tratamento desigual entre Lula  — *cota de politica cheia*
-- `90` Dólar sobe a R$ 5,58, maior valor desde julho de 2025, com inflação acima do esperado nos EUA;  — *ficou fora do corte*
-- `89` Associação critica afastamento de delegados que elaboraram relatórios sobre ministros do STF e  — *ficou fora do corte*
-- `89` Banco Central do Paraguai diz que já ressarciu 93% dos clientes do Ueno Bank — *ficou fora do corte*
-- `88` O clima no Brasil e na França — *ficou fora do corte*
-- `88` Autoridades do Paraguai abrem cofre secreto na casa de Peña, mas não encontram nada — *ficou fora do corte*
+- `84` Republicanos escolhem aliado ultraconservador de Trump para liderar o partido na Câmara dos EUA — *ficou fora do corte*
+- `84` Rússia e Ucrânia reabrem negociações mediadas pelos EUA, mas propostas seguem conflitantes — *ficou fora do corte*
+- `83` Lucro da Petrobras sobe 21,5% no 3º trimestre, para R$ 39,7 bilhões — *ficou fora do corte*
+- `83` A batalha do novo Parlamento de Israel que pode decidir o futuro político de Netanyahu — *ficou fora do corte*
+- `81` Fabricante dos chips da Nvidia vai investir US$ 1 bilhão na OpenAI e na Anthropic — *ficou fora do corte*
+- `80` Previsão do tempo hoje para Brasília (DF): sol com algumas nuvens; chove rápido durante o dia e — *ficou fora do corte*
+- `80` Dólar sobe a R$ 5,58, maior valor desde julho de 2025, com inflação acima do esperado nos EUA;  — *ficou fora do corte*
+- `80` Campanha de Lula recebeu R$ 1,9 milhão em doações depois do segundo turno; Flávio Bolsonaro obt — *ficou fora do corte*
+
+## Já foi pauta nos últimos dias
+
+- Câmara dos EUA barra pedido de impeachment de secretário de Guerra de Trump — *ja foi pauta em 2026-11-09*
+- Governo acerta com Congresso projeto de ajuste fiscal que pode chegar a R$ 80 bi em 2027 — *ja foi pauta em 2026-11-10*
 
 ## Fontes que não responderam
 
-- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Estadão: `HTTP 404`
-- CNN Brasil Internacional: `HTTP 404`
+- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Nexo Jornal: `HTTP 404`
+- CNN Brasil Internacional: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
