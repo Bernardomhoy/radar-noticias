@@ -1,68 +1,71 @@
 # Radar de Notícias — 2026-11-11
-*Fechado às 12:06 (horário de Brasília) · 1133 matérias lidas · 678 pautas identificadas · 18 fontes ativas*
+*Fechado às 18:53 (horário de Brasília) · 1200 matérias lidas · 736 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Lula discursa em breve na plenária da COP31; acompanhe ao vivo**  
-notícia `97` · politica · Brasil · 6 veículos · g1  
-Lula discursa em breve na plenária da COP31; acompanhe ao vivo Presidente deve discursar na sessão de alto nível da conferência, em Antália, por até três minutos. Mais cedo, cobrou que países ricos cumpram seus compromissos climáticos.  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; 13 matérias em 4.54h  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
-[Ler na fonte](https://g1.globo.com/politica/ao-vivo/lula-cop-31-na-turquia.ghtml)  
-Cobertura: [g1 (5)](https://g1.globo.com/politica/ao-vivo/lula-cop-31-na-turquia.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ambiente/2026/11/sem-voz-lula-pede-apoio-a-fundo-de-florestas-na-cop31.shtml) · [Valor Econômico (3)](https://valor.globo.com/mundo/noticia/2026/11/11/entidades-filantropicas-prometem-us-88-milhoes-ao-fundo-de-florestas.ghtml) · [RFI Brasil](https://www.rfi.fr/br/mundo/20261111-lula-cobra-pa%C3%ADses-ricos-critica-recuo-da-agenda-clim%C3%A1tica-e-associa-crise-%C3%A0-desigualdade-na-cop31) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/rouco-lula-pede-para-ministro-ler-seu-discurso-em-cupula-da-cop31/) · [Poder360](https://www.poder360.com.br/poder-governo/fundo-de-florestas-de-lula-ganha-us-88-mi-de-filantropia-na-cop31/)  
-
-**2. Centenas de escolas na Itália, Irlanda do Norte e Escócia recebem ameaças de bomba; alunos são retirados**  
-notícia `95` · geral · Brasil · 5 veículos · Folha de S.Paulo  
-Centenas de escolas em toda a Itália receberam ameaças de bombas por email na manhã desta quarta-feira (11), quando as salas de aula dos institutos estavam cheias. Diversas unidades retiraram alunos e funcionários por prevenção após o recebimento da mensagem.   
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/centenas-de-escolas-na-italia-irlanda-do-norte-e-escocia-recebem-ameacas-de-bomba-alunos-sao-retirados.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/centenas-de-escolas-na-italia-irlanda-do-norte-e-escocia-recebem-ameacas-de-bomba-alunos-sao-retirados.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/11/escolas-da-italia-e-da-irlanda-do-norte-sao-fechadas-apos-envio-de-e-mails-com-ameaca-de-bomba.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/11/ameaa-de-bomba-faz-itlia-esvaziar-ao-menos-300-escolas.ghtml) · [RFI Brasil](https://www.rfi.fr/br/europa/20261111-centenas-de-escolas-recebem-amea%C3%A7as-simult%C3%A2neas-de-bomba-em-nova-onda-de-alarmes-na-europa) · [Euronews (português)](https://pt.euronews.com/2026/11/11/italia-ameacas-de-bomba-em-300-escolas-por-email-visam-tambem-meloni)  
-
-**3. Espanha tem 1º greve geral desde 2012 com multidão nas ruas às vésperas das eleições legislativas**  
-notícia `94` · politica · Brasil · 7 veículos · Folha de S.Paulo  
-Trabalhadores da Espanha iniciaram nesta quarta-feira (11) uma greve geral contra a crise da habitação e a perda de poder aquisitivo , a semanas das eleições antecipadas marcadas para o próximo dia 29 . É a primeira paralisação do tipo desde 2012, quando os tr  
-*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+**1. As alternativas de Lula-4**  
+notícia `93` · economia · Brasil · 9 veículos · Folha de S.Paulo  
+A imensa maioria dos brasileiros torce para que o presidente Lula faça um bom governo. Somam 94% os que compartilham essa esperança -bem mais dos que o reelegeram e daqueles 48% que avaliam positivamente seu desempenho- a mesma proporção dos que se dizem antes  
+*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/espanha-tem-1o-greve-geral-desde-2012-com-multidao-nas-ruas-as-vesperas-das-eleicoes-legislativas.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/espanha-tem-1o-greve-geral-desde-2012-com-multidao-nas-ruas-as-vesperas-das-eleicoes-legislativas.shtml) · [g1 (3)](https://g1.globo.com/mundo/noticia/2026/11/11/greve-geral-espanha-manifestantes-confronto-policia-video.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/11/espanha-tem-1-greve-geral-em-14-anos-em-meio-crise-habitacional.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c58j4le1w32ro?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/trabalhadores-espanhois-fazem-primeira-greve-geral-em-14-anos) · [RFI Brasil](https://www.rfi.fr/br/podcasts/linha-direta/20261111-espanha-tem-greve-geral-de-24-horas-%C3%A0s-v%C3%A9speras-das-elei%C3%A7%C3%B5es)  
+> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/maria-herminia-tavares/2026/11/as-alternativas-de-lula-4.shtml)  
+Cobertura: [Folha de S.Paulo (14)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/maria-herminia-tavares/2026/11/as-alternativas-de-lula-4.shtml) · [g1 (12)](https://g1.globo.com/politica/noticia/2026/11/11/lula-se-reune-com-presidente-interina-da-venezuela-na-turquia.ghtml) · [Valor Econômico (5)](https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cvlyd0zjnn4wo?at_medium=RSS&at_campaign=rss) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-planeta-nao-pode-esperar-em-meio-guerras-e-conflitos) · [RFI Brasil (3)](https://www.rfi.fr/br/brasil/20261111-rouquid%C3%A3o-obriga-lula-a-cancelar-discursos-na-cop31-na-turquia-e-deixar-ministro-falar-em-seu-lugar)  
 
-**4. Dólar recua com plano de ajuste fiscal do governo Lula no radar; Bolsa sobe**  
+**2. Alta de investimentos da Petrobras preocupa mercado, e ações caem**  
 notícia `92` · economia · Brasil · 6 veículos · Folha de S.Paulo  
-O dólar recua nesta quarta-feira (11), devolvendo parte dos ganhos da véspera, quando encerrou o pregão no maior patamar desde julho de 2025 . Leia mais (11/11/2026 - 09h44)  
+O aumento da projeção de investimentos da Petrobras repercutiu mal no mercado e derruba as ações da estatal no pregão desta quarta-feira (11). A preocupação, segundo analistas, é sobre impactos nos dividendos futuros da companhia. Leia mais (11/11/2026 - 13h07  
 *Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-queda-com-plano-de-ajuste-fiscal-do-governo-lula-no-radar.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-queda-com-plano-de-ajuste-fiscal-do-governo-lula-no-radar.shtml) · [g1](https://g1.globo.com/economia/noticia/2026/11/11/dolar-ibovespa.ghtml) · [Valor Econômico (3)](https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml) · [InfoMoney](https://www.infomoney.com.br/mercados/ibovespa-sobe-com-exterior-e-noticiario-fiscal-e-corporativo-apesar-de-petrobras/) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/mercado-financeiro-ibovespa-dolar-11-novembro-2026/) · [Exame](https://exame.com/invest/mercados/ibovespa-ganha-forca-com-promessa-de-ajuste-fiscal-de-lula-apesar-da-queda-de-petrobras/)  
+> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/alta-de-investimentos-da-petrobras-preocupa-mercado-e-acoes-caem.shtml)  
+Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/alta-de-investimentos-da-petrobras-preocupa-mercado-e-acoes-caem.shtml) · [g1](https://g1.globo.com/economia/noticia/2026/11/10/lucro-petrobras-2o-trimestre.ghtml) · [Valor Econômico](https://valor.globo.com/empresas/noticia/2026/11/11/lucro-da-equatorial-cresce-53percent-no-3o-trimestre.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-tem-lucro-de-r-398-bilhoes-alta-de-215) · [InfoMoney](https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-desempenho-acoes-resultados-3t26-proventos-novas-projecoes/) · [CNN Brasil](https://www.cnnbrasil.com.br/infra/brent-pode-impactar-positivamente-o-4o-trimestre-afirma-cfo-da-petrobras/)  
 
-**5. Negociações entre Rússia e Ucrânia terminam sem acordo; Zelensky pede 'posição firme' dos EUA**  
-notícia `92` · mundo · Brasil · 6 veículos · g1  
-Rússia e Ucrânia se reúnem com autoridades dos EUA para tentar negociar paz A Ucrânia e a Rússia encerraram a nova tentativa de negociações de paz entre os dois países aparentemente sem um acordo, nesta quarta-feira (11). Segundo um membro da delegação ucrania  
+**3. Tarcísio anuncia ex-reitor do ITA para Secretaria de Ciência e Tecnologia de SP a partir de 2027**  
+notícia `92` · politica · Brasil · 4 veículos · g1  
+Anderson Ribeiro Correia. Divulgação/Governo de SP O governador de São Paulo, Tarcísio de Freitas (Republicanos), anunciou nesta quarta-feira (11) os primeiros nomes que vão integrar o secretariado estadual a partir de janeiro de 2027. Entre as mudanças está a  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração █████████· · recência ██████████ · calor █████████·  
+[Ler na fonte](https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/11/tarcisio-anuncia-ex-reitor-do-ita-para-secretaria-de-ciencia-e-tecnologia-de-sp-a-partir-de-2027.ghtml)  
+Cobertura: [g1](https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/11/tarcisio-anuncia-ex-reitor-do-ita-para-secretaria-de-ciencia-e-tecnologia-de-sp-a-partir-de-2027.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/tarcisio-oficializa-ricardo-salles-como-secretario-de-justica.shtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/11/tarcsio-oficializa-ricardo-salles-na-justia-e-confirma-outros-cinco-secretrios.ghtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/politica/tarcisio-prioriza-perfil-tecnico-nos-primeiros-anuncios-para-secretarias/)  
+
+**4. The Economist pede saída de CEO da Nvidia após caso extraconjugal com suposta espiã chinesa**  
+notícia `91` · mundo · Brasil · 5 veículos · g1  
+Jensen Huang, CEO da Nvidia, durante evento em Washington Julia Demaree Nikhinson/AP Photo A revista britânica The Economist publicou nesta quarta-feira (11) um artigo de opinião em que pede a saída de Jensen Huang do cargo de CEO da Nvidia, após o executivo a  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/11/the-economist-caso-huang-nvidia.ghtml)  
+Cobertura: [g1 (15)](https://g1.globo.com/tecnologia/noticia/2026/11/11/the-economist-caso-huang-nvidia.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/chinesa-que-teve-caso-com-ceo-da-nvidia-usou-passaporte-de-outro-pais-para-entrar-em-taiwan.shtml) · [Tecnoblog](https://tecnoblog.net/noticias/nvidia-e-ceo-sao-processados-por-omitir-riscos-em-caso-com-executiva-chinesa/) · [TecMundo (2)](https://www.estadao.com.br/tecmundo/big-techs/nvidia-contrata-escritorio-para-investigar-suspeita-de-espionagem-chinesa/) · [Olhar Digital (2)](https://olhardigital.com.br/2026/11/11/pro/congresso-dos-eua-pode-intimar-ceo-da-nvidia-por-caso-envolvendo-suposta-espia-chinesa/)  
+
+**5. Suspeita de fraude em entidade e contratos de marmitas: vice-prefeito de SP apresentou outras quatro denúncias contra a própria gestão**  
+notícia `91` · geral · Brasil · 6 veículos · g1  
+Vice-prefeito de São Paulo, Ricardo Augusto de Mello Araújo, encaminhou ao Ministério Público de São Paulo nesta terça-feira (10) uma representação pedindo a investigação de possíveis irregularidades na contratação e na execução das parcerias da Virada Esporti  
 *Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/mundo/ucrania-russia/noticia/2026/11/11/negociacoes-russia-ucrania-terminam.ghtml)  
-Cobertura: [g1 (4)](https://g1.globo.com/mundo/ucrania-russia/noticia/2026/11/11/negociacoes-russia-ucrania-terminam.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/russia-e-ucrania-retomam-negociacoes-pela-1a-vez-desde-fevereiro-eua-veem-diferencas-estreitadas.shtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/11/rssia-e-ucrnia-relatam-avano-em-negociaes-de-paz-mas-impasse-territorial-persiste.ghtml) · [RFI Brasil (2)](https://www.rfi.fr/br/europa/20261111-eua-querem-incluir-europeus-nas-negocia%C3%A7%C3%B5es-sobre-a-ucr%C3%A2nia-apesar-da-resist%C3%AAncia-da-r%C3%BAssia) · [Euronews (português) (4)](https://pt.euronews.com/2026/11/11/negociacoes-em-abu-dhabi-terminam-com-troca-de-prisioneiros-enviados-dos-eua-vao-reunir-se) · [Exame](https://exame.com/mundo/russia-e-ucrania-acertam-troca-de-prisioneiros-em-larga-escala-apos-negociacoes/)  
+[Ler na fonte](https://g1.globo.com/sp/sao-paulo/noticia/2026/11/11/fraude-em-entidade-e-contratos-de-marmitas-vice-prefeito-de-sp-apresentou-outras-quatro-denuncias-contra-a-propria-gestao.ghtml)  
+Cobertura: [g1](https://g1.globo.com/sp/sao-paulo/noticia/2026/11/11/fraude-em-entidade-e-contratos-de-marmitas-vice-prefeito-de-sp-apresentou-outras-quatro-denuncias-contra-a-propria-gestao.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/vice-prefeito-de-sao-paulo-denuncia-suposto-desvio-na-virada-esportiva-e-pede-investigacao.shtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/11/vice-prefeito-de-sp-denuncia-contratos-da-prpria-prefeitura-ao-ministrio-pblico.ghtml) · [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261110-vice-prefeita-%C3%A9-agredida-durante-novo-dia-de-protestos-estudantis-na-fran%C3%A7a) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/vice-prefeito-de-sp-denuncia-irregularidades-de-r-21-mi-ao-mp/) · [Intercept Brasil](https://www.intercept.com.br/2026/11/11/prefeitura-sao-paulo-financiou-dark-horse/)  
 
-**6. ‘As COPs não são suficientes para evitar uma catástrofe climática’, alerta Greta Thunberg na Turquia**  
-notícia `65` · meio-ambiente · Mundo · 2 veículos · RFI Brasil  
-As conferências anuais das Nações Unidas sobre o clima "se tornaram circos de greenwashing", afirmou nesta terça-feira (10) a ativista ambiental sueca Greta Thunberg, ao chegar à COP31, em Antália, na Turquia. A saída dos combustíveis fósseis, um dos pontos ma  
+**6. Personalidades do esporte promovem jogo em homenagem a jornalista francês preso na Argélia há 500 dias**  
+notícia `68` · politica · Mundo · 2 veículos · RFI Brasil  
+Nesta quarta-feira (11), quando se completam 500 dias da detenção do jornalista francês Christophe Gleizes na Argélia, o caso continua mobilizando familiares, colegas de profissão e personalidades do esporte. Condenado a sete anos de prisão por "apologia ao te  
 *Por que entrou:* 2 veículos cobrindo; ainda fresca; fonte RFI Brasil  
-*Sinais:* corroboração ██████···· · recência ███████··· · calor █████·····  
-[Ler na fonte](https://www.rfi.fr/br/mundo/20261110-as-cops-n%C3%A3o-s%C3%A3o-suficientes-para-evitar-uma-cat%C3%A1strofe-clim%C3%A1tica-alerta-greta-thunberg-na-turquia)  
-Cobertura: [RFI Brasil](https://www.rfi.fr/br/mundo/20261110-as-cops-n%C3%A3o-s%C3%A3o-suficientes-para-evitar-uma-cat%C3%A1strofe-clim%C3%A1tica-alerta-greta-thunberg-na-turquia) · [Euronews (português)](https://pt.euronews.com/2026/11/11/greta-thunberg-denuncia-cimeiras-climaticas-cop-cheias-de-lobistas)  
+*Sinais:* corroboração ██████···· · recência ███████··· · calor ██████····  
+> ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
+[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261111-personalidades-do-esporte-promovem-jogo-em-homenagem-a-jornalista-franc%C3%AAs-preso-na-arg%C3%A9lia-h%C3%A1-500-dias)  
+Cobertura: [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261111-personalidades-do-esporte-promovem-jogo-em-homenagem-a-jornalista-franc%C3%AAs-preso-na-arg%C3%A9lia-h%C3%A1-500-dias) · [Euronews (português)](https://pt.euronews.com/2026/11/11/argelia-mantem-jornalista-frances-christophe-gleizes-preso-ha-500-dias-familia-pede-perdao)  
 
 ## Reserva (não entrou hoje)
 
-- `91` Ataque hacker aos sistemas do Porto de Santos foi feito de fora do Brasil; entenda — *ficou fora do corte*
-- `90` O que aconteceu com o dinheiro do Ueno Bank e quanto falta recuperar — *ficou fora do corte*
-- `90` Receita quer dar mais 30 dias para pagamento definitivo da CBS da reforma tributária — *ficou fora do corte*
-- `90` Lula 4 tende a adotar caminho do meio, para desgosto de gregos e troianos — *ficou fora do corte*
-- `89` Senado aprova oitiva de ministro da Justiça e Andrei sobre afastamento de delegados do caso Mas — *ficou fora do corte*
-- `89` Tempestade Charles em Portugal fecha escolas e cancela voos; o que se sabe — *ficou fora do corte*
-- `89` Resort, restaurante e sede da Nvidia: suposta espiã e CEO tiveram encontros pelo mundo nos últi — *ficou fora do corte*
-- `87` Dólar sobe a R$ 5,58, maior valor desde julho de 2025, com inflação acima do esperado nos EUA;  — *ficou fora do corte*
+- `90` Rússia e Ucrânia deixam negociação em Abu Dhabi sem grandes avanços — *ficou fora do corte*
+- `90` 11.11: como evitar problemas nas compras em prévia da Black Friday — *ficou fora do corte*
+- `89` Quaest: 62% dos brasileiros não se sentem representados por partidos políticos — *ficou fora do corte*
+- `89` Portugal cancela mais de 200 voos e fecha escolas com chegada da tempestade Charles — *ficou fora do corte*
+- `89` Senado aprova MP que renegocia dívidas rurais e retira mudanças em regras propostas pela Câmara — *ficou fora do corte*
+- `88` Ajuste fiscal em negociação com o Senado vai 'racionalizar algumas despesas'; impacto pode cheg — *ficou fora do corte*
+- `88` Festival Melanina Acentuada volta a SP com peça 'Macacos' e adaptação de texto de Djamila Ribei — *ficou fora do corte*
+- `88` Galípolo cita incertezas e diz que BC decidirá sobre juros 'reunião a reunião' — *ficou fora do corte*
 
 ## Fontes que não responderam
 
