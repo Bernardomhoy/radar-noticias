@@ -1,78 +1,83 @@
 # Radar de Notícias — 2026-11-11
-*Fechado às 18:53 (horário de Brasília) · 1200 matérias lidas · 736 pautas identificadas · 18 fontes ativas*
+*Fechado às 23:52 (horário de Brasília) · 1201 matérias lidas · 683 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. As alternativas de Lula-4**  
-notícia `93` · economia · Brasil · 9 veículos · Folha de S.Paulo  
-A imensa maioria dos brasileiros torce para que o presidente Lula faça um bom governo. Somam 94% os que compartilham essa esperança -bem mais dos que o reelegeram e daqueles 48% que avaliam positivamente seu desempenho- a mesma proporção dos que se dizem antes  
-*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/maria-herminia-tavares/2026/11/as-alternativas-de-lula-4.shtml)  
-Cobertura: [Folha de S.Paulo (14)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/maria-herminia-tavares/2026/11/as-alternativas-de-lula-4.shtml) · [g1 (12)](https://g1.globo.com/politica/noticia/2026/11/11/lula-se-reune-com-presidente-interina-da-venezuela-na-turquia.ghtml) · [Valor Econômico (5)](https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cvlyd0zjnn4wo?at_medium=RSS&at_campaign=rss) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-planeta-nao-pode-esperar-em-meio-guerras-e-conflitos) · [RFI Brasil (3)](https://www.rfi.fr/br/brasil/20261111-rouquid%C3%A3o-obriga-lula-a-cancelar-discursos-na-cop31-na-turquia-e-deixar-ministro-falar-em-seu-lugar)  
-
-**2. Alta de investimentos da Petrobras preocupa mercado, e ações caem**  
-notícia `92` · economia · Brasil · 6 veículos · Folha de S.Paulo  
-O aumento da projeção de investimentos da Petrobras repercutiu mal no mercado e derruba as ações da estatal no pregão desta quarta-feira (11). A preocupação, segundo analistas, é sobre impactos nos dividendos futuros da companhia. Leia mais (11/11/2026 - 13h07  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/alta-de-investimentos-da-petrobras-preocupa-mercado-e-acoes-caem.shtml)  
-Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/alta-de-investimentos-da-petrobras-preocupa-mercado-e-acoes-caem.shtml) · [g1](https://g1.globo.com/economia/noticia/2026/11/10/lucro-petrobras-2o-trimestre.ghtml) · [Valor Econômico](https://valor.globo.com/empresas/noticia/2026/11/11/lucro-da-equatorial-cresce-53percent-no-3o-trimestre.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/petrobras-tem-lucro-de-r-398-bilhoes-alta-de-215) · [InfoMoney](https://www.infomoney.com.br/mercados/petrobras-petr3-petr4-desempenho-acoes-resultados-3t26-proventos-novas-projecoes/) · [CNN Brasil](https://www.cnnbrasil.com.br/infra/brent-pode-impactar-positivamente-o-4o-trimestre-afirma-cfo-da-petrobras/)  
-
-**3. Tarcísio anuncia ex-reitor do ITA para Secretaria de Ciência e Tecnologia de SP a partir de 2027**  
-notícia `92` · politica · Brasil · 4 veículos · g1  
-Anderson Ribeiro Correia. Divulgação/Governo de SP O governador de São Paulo, Tarcísio de Freitas (Republicanos), anunciou nesta quarta-feira (11) os primeiros nomes que vão integrar o secretariado estadual a partir de janeiro de 2027. Entre as mudanças está a  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**1. Azzas 2154 fecha 3º tri com lucro de R$ 191 mi em último balanço antes de cisão**  
+notícia `92` · geral · Brasil · 4 veículos · Folha de S.Paulo  
+O grupo de moda Azzas 2154 registrou no terceiro bimestre lucro líquido recorrente de R$ 190,6 milhões, em último balanço divulgado antes da cisão entre os principais acionistas. O desempenho apresentado nesta quinta-feira (11) representa recuo de 5,3% em rela  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração █████████· · recência ██████████ · calor █████████·  
-[Ler na fonte](https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/11/tarcisio-anuncia-ex-reitor-do-ita-para-secretaria-de-ciencia-e-tecnologia-de-sp-a-partir-de-2027.ghtml)  
-Cobertura: [g1](https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/11/tarcisio-anuncia-ex-reitor-do-ita-para-secretaria-de-ciencia-e-tecnologia-de-sp-a-partir-de-2027.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/tarcisio-oficializa-ricardo-salles-como-secretario-de-justica.shtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/11/tarcsio-oficializa-ricardo-salles-na-justia-e-confirma-outros-cinco-secretrios.ghtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/politica/tarcisio-prioriza-perfil-tecnico-nos-primeiros-anuncios-para-secretarias/)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/azzas-2154-fecha-3o-tri-com-lucro-de-r-191-mi-em-ultimo-balanco-antes-de-cisao.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/azzas-2154-fecha-3o-tri-com-lucro-de-r-191-mi-em-ultimo-balanco-antes-de-cisao.shtml) · [Valor Econômico (2)](https://valor.globo.com/empresas/noticia/2026/11/11/frasle-lucra-r-1007-milhes-no-3-trimestre-queda-de-52-pontos-percentuais.ghtml) · [InfoMoney](https://www.infomoney.com.br/mercados/azzas-2154-azza3-resultados-terceiro-trimestre-2026/) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/azzas-2154-tem-lucro-liquido-recorrente-de-r-1906-mi-no-3o-trimestre-queda-anual-de-53/)  
 
-**4. The Economist pede saída de CEO da Nvidia após caso extraconjugal com suposta espiã chinesa**  
-notícia `91` · mundo · Brasil · 5 veículos · g1  
-Jensen Huang, CEO da Nvidia, durante evento em Washington Julia Demaree Nikhinson/AP Photo A revista britânica The Economist publicou nesta quarta-feira (11) um artigo de opinião em que pede a saída de Jensen Huang do cargo de CEO da Nvidia, após o executivo a  
+**2. Polícia Civil de Minas Gerais investiga morte de um homem depois de abordagem da PM**  
+notícia `91` · politica · Brasil · 8 veículos · g1  
+Morte de homem após ação da PM em Minas é alvo de investigação A Polícia Civil e a Corregedoria da Polícia Militar investigam a morte de um homem depois de uma abordagem da PM em Minas Gerais. Imagens gravadas por testemunhas mostram um policial jogando spray   
+*Por que entrou:* 8 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
+> ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
+> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
+[Ler na fonte](https://g1.globo.com/jornal-nacional/noticia/2026/11/11/policia-civil-de-minas-gerais-investiga-morte-de-um-homem-depois-de-abordagem-da-pm.ghtml)  
+Cobertura: [g1 (10)](https://g1.globo.com/jornal-nacional/noticia/2026/11/11/policia-civil-de-minas-gerais-investiga-morte-de-um-homem-depois-de-abordagem-da-pm.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/opiniao/2026/11/policias-municipais-sob-controle.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/policia-civil-indicia-influenciador-e-marido-por-video-na-casa-de-fhc) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c6y43492vrzxo?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/europa/20261110-pol%C3%ADcia-francesa-faz-buscas-em-propriedades-de-al-fayed-por-suspeita-de-tr%C3%A1fico-de-mulheres) · [CNN Brasil](https://www.cnnbrasil.com.br/nacional/sudeste/rj/policia-prende-suspeita-de-aplicar-golpe-boa-noite-cinderela-no-rj/)  
+
+**3. Na COP31, Lula cobra que países ricos cumpram compromissos para frear o aquecimento do planeta**  
+notícia `91` · politica · Brasil · 7 veículos · g1  
+Líderes mundiais se reúnem na Turquia pra debater como frear o aquecimento do planeta Líderes mundiais se reuniram nesta quarta-feira (11), na Turquia, para debater como frear o aquecimento do planeta. O presidente Lula cobrou que países ricos cumpram seus com  
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/jornal-nacional/noticia/2026/11/11/na-cop31-lula-cobra-que-paises-ricos-cumpram-compromissos-para-frear-o-aquecimento-do-planeta.ghtml)  
+Cobertura: [g1 (8)](https://g1.globo.com/jornal-nacional/noticia/2026/11/11/na-cop31-lula-cobra-que-paises-ricos-cumpram-compromissos-para-frear-o-aquecimento-do-planeta.ghtml) · [Folha de S.Paulo (9)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/paineldoleitor/2026/11/o-brasil-voltou-ao-cenario-mundial-e-continuara-em-destaque-diz-leitor-sobre-discurso-de-lula-na-cop31.shtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/11/entenda-a-decisao-da-justica-federal-sobre-o-triplex-atribuido-a-lula-pela-lava-jato.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cvlyd0zjnn4wo?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/brasil-apresenta-marco-de-financiamento-para-area-de-saude-na-cop31) · [RFI Brasil (2)](https://www.rfi.fr/br/brasil/20261111-rouquid%C3%A3o-obriga-lula-a-cancelar-discursos-na-cop31-na-turquia-e-deixar-ministro-falar-em-seu-lugar)  
+
+**4. Americanas tem prejuízo de R$ 352 milhões no 3º trimestre**  
+notícia `90` · economia · Brasil · 5 veículos · g1  
+Clientes fizeram fila na frente das Lojas Americanas, no Salvador Shopping Divulgação A rede varejista Americanas, que saiu da recuperação judicial em outubro, registrou prejuízo líquido de R$ 352 milhões no terceiro trimestre de 2026, segundo balanço divulgad  
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/11/the-economist-caso-huang-nvidia.ghtml)  
-Cobertura: [g1 (15)](https://g1.globo.com/tecnologia/noticia/2026/11/11/the-economist-caso-huang-nvidia.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/chinesa-que-teve-caso-com-ceo-da-nvidia-usou-passaporte-de-outro-pais-para-entrar-em-taiwan.shtml) · [Tecnoblog](https://tecnoblog.net/noticias/nvidia-e-ceo-sao-processados-por-omitir-riscos-em-caso-com-executiva-chinesa/) · [TecMundo (2)](https://www.estadao.com.br/tecmundo/big-techs/nvidia-contrata-escritorio-para-investigar-suspeita-de-espionagem-chinesa/) · [Olhar Digital (2)](https://olhardigital.com.br/2026/11/11/pro/congresso-dos-eua-pode-intimar-ceo-da-nvidia-por-caso-envolvendo-suposta-espia-chinesa/)  
+[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/11/prejuizo-americanas.ghtml)  
+Cobertura: [g1 (2)](https://g1.globo.com/economia/noticia/2026/11/11/prejuizo-americanas.ghtml) · [Valor Econômico (2)](https://valor.globo.com/empresas/noticia/2026/11/11/log-in-logstica-reverte-lucro-e-tem-prejuzo-de-r-923-milhes-no-3-tri.ghtml) · [InfoMoney](https://www.infomoney.com.br/mercados/americanas-amer3-resultados-terceiro-trimestre-2026/) · [CNN Brasil](https://www.cnnbrasil.com.br/noticias/americanas-tem-prejuizo-de-r352-mi-no-3o-trimestre/) · [Exame](https://exame.com/invest/mercados/alta-nas-vendas-nao-salva-balanco-e-americanas-tem-prejuizo-de-r-352-mi-no-3o-tri/)  
 
-**5. Suspeita de fraude em entidade e contratos de marmitas: vice-prefeito de SP apresentou outras quatro denúncias contra a própria gestão**  
-notícia `91` · geral · Brasil · 6 veículos · g1  
-Vice-prefeito de São Paulo, Ricardo Augusto de Mello Araújo, encaminhou ao Ministério Público de São Paulo nesta terça-feira (10) uma representação pedindo a investigação de possíveis irregularidades na contratação e na execução das parcerias da Virada Esporti  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/sp/sao-paulo/noticia/2026/11/11/fraude-em-entidade-e-contratos-de-marmitas-vice-prefeito-de-sp-apresentou-outras-quatro-denuncias-contra-a-propria-gestao.ghtml)  
-Cobertura: [g1](https://g1.globo.com/sp/sao-paulo/noticia/2026/11/11/fraude-em-entidade-e-contratos-de-marmitas-vice-prefeito-de-sp-apresentou-outras-quatro-denuncias-contra-a-propria-gestao.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/vice-prefeito-de-sao-paulo-denuncia-suposto-desvio-na-virada-esportiva-e-pede-investigacao.shtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/11/vice-prefeito-de-sp-denuncia-contratos-da-prpria-prefeitura-ao-ministrio-pblico.ghtml) · [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261110-vice-prefeita-%C3%A9-agredida-durante-novo-dia-de-protestos-estudantis-na-fran%C3%A7a) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/vice-prefeito-de-sp-denuncia-irregularidades-de-r-21-mi-ao-mp/) · [Intercept Brasil](https://www.intercept.com.br/2026/11/11/prefeitura-sao-paulo-financiou-dark-horse/)  
+**5. Nvidia se prepara para destituir o CEO Jensen Huang, diz jornal**  
+notícia `89` · mundo · Brasil · 6 veículos · Folha de S.Paulo  
+O conselho de administração da Nvidia está se preparando para destituir o CEO Jensen Huang após o escândalo envolvendo sua relação extraconjugal com uma executiva apontada como espiã chinesa pelos Estados Unidos, informou o Wall Street Journal nesta quarta-fei  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/nvidia-se-prepara-para-destituir-o-ceo-jensen-huang-diz-jornal.shtml)  
+Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/nvidia-se-prepara-para-destituir-o-ceo-jensen-huang-diz-jornal.shtml) · [g1 (2)](https://g1.globo.com/tecnologia/noticia/2026/11/10/nvidia-acao-coletiva.ghtml) · [Valor Econômico](https://valor.globo.com/empresas/noticia/2026/11/11/nvidia-prepara-destituio-de-jensen-huang-diz-jornal.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cmg474pw776wo?at_medium=RSS&at_campaign=rss) · [Exame](https://exame.com/tecnologia/jensen-huang-nvidia-conselho-saida-ceo/) · [Olhar Digital (3)](https://olhardigital.com.br/2026/11/11/pro/nvidia-contrata-empresa-para-encontrar-substituto-de-jensen-huang-diz-agencia/)  
 
 **6. Personalidades do esporte promovem jogo em homenagem a jornalista francês preso na Argélia há 500 dias**  
-notícia `68` · politica · Mundo · 2 veículos · RFI Brasil  
+notícia `62` · politica · Mundo · 2 veículos · RFI Brasil  
 Nesta quarta-feira (11), quando se completam 500 dias da detenção do jornalista francês Christophe Gleizes na Argélia, o caso continua mobilizando familiares, colegas de profissão e personalidades do esporte. Condenado a sete anos de prisão por "apologia ao te  
-*Por que entrou:* 2 veículos cobrindo; ainda fresca; fonte RFI Brasil  
-*Sinais:* corroboração ██████···· · recência ███████··· · calor ██████····  
+*Por que entrou:* 2 veículos cobrindo; fonte RFI Brasil; 2 matérias em 1.43h  
+*Sinais:* corroboração ██████···· · recência ████······ · calor ██████····  
 > ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
 [Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261111-personalidades-do-esporte-promovem-jogo-em-homenagem-a-jornalista-franc%C3%AAs-preso-na-arg%C3%A9lia-h%C3%A1-500-dias)  
 Cobertura: [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261111-personalidades-do-esporte-promovem-jogo-em-homenagem-a-jornalista-franc%C3%AAs-preso-na-arg%C3%A9lia-h%C3%A1-500-dias) · [Euronews (português)](https://pt.euronews.com/2026/11/11/argelia-mantem-jornalista-frances-christophe-gleizes-preso-ha-500-dias-familia-pede-perdao)  
 
 ## Reserva (não entrou hoje)
 
-- `90` Rússia e Ucrânia deixam negociação em Abu Dhabi sem grandes avanços — *ficou fora do corte*
-- `90` 11.11: como evitar problemas nas compras em prévia da Black Friday — *ficou fora do corte*
-- `89` Quaest: 62% dos brasileiros não se sentem representados por partidos políticos — *ficou fora do corte*
-- `89` Portugal cancela mais de 200 voos e fecha escolas com chegada da tempestade Charles — *ficou fora do corte*
-- `89` Senado aprova MP que renegocia dívidas rurais e retira mudanças em regras propostas pela Câmara — *ficou fora do corte*
-- `88` Ajuste fiscal em negociação com o Senado vai 'racionalizar algumas despesas'; impacto pode cheg — *ficou fora do corte*
-- `88` Festival Melanina Acentuada volta a SP com peça 'Macacos' e adaptação de texto de Djamila Ribei — *ficou fora do corte*
-- `88` Galípolo cita incertezas e diz que BC decidirá sobre juros 'reunião a reunião' — *ficou fora do corte*
+- `90` Espanha tem dia de greve geral pela primeira vez em 14 anos — *cota de politica cheia*
+- `89` Câmara torna crime hediondo maus-tratos que resultem na morte de cães e gatos — *cota de politica cheia*
+- `89` Mississippi elege democrata Scott Colom, primeiro senador negro pelo estado dos EUA em 150 anos — *cota de politica cheia*
+- `87` Corte na bolsa empresário? — *ficou fora do corte*
+- `87` Dia de Sorte hoje: resultado do concurso 1345 e números sorteados — *ficou fora do corte*
+- `86` Após encontros em Abu Dhabi, negociação entre Rússia e Ucrânia para o fim da guerra não avança — *ficou fora do corte*
+- `85` Senado vai ouvir ministro da Justiça e diretor-geral da PF sobre afastamento de delegados que p — *ficou fora do corte*
+- `84` Banco do Brasil anuncia corte de dividendos para preservar capital após nova queda do lucro — *ficou fora do corte*
+
+## Já foi pauta nos últimos dias
+
+- Lucro da Petrobras sobe 21,5% no 3º trimestre, para R$ 39,7 bilhões — *ja foi pauta em 2026-11-10*
 
 ## Fontes que não responderam
 
-- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Estadão: `HTTP 404`
-- Nexo Jornal: `HTTP 404`
+- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - CNN Brasil Internacional: `HTTP 404`
+- Nexo Jornal: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
