@@ -1,67 +1,74 @@
-# Radar de Notícias — 2026-11-12
-*Fechado às 21:10 (horário de Brasília) · 1209 matérias lidas · 703 pautas identificadas · 18 fontes ativas*
+# Radar de Notícias — 2026-11-13
+*Fechado às 04:11 (horário de Brasília) · 1205 matérias lidas · 648 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Tesouro Nacional sofre ataque hacker que expõe dados de 30 mil cadastros e 4.000 chaves Pix**  
-notícia `95` · tecnologia · Brasil · 4 veículos · Folha de S.Paulo  
-A Secretaria do Tesouro Nacional informou nesta quinta-feira (12) que sofreu um incidente de segurança que expôs dados pessoais de cerca de 30 mil cadastros e 4.000 chaves Pix de beneficiários de pagamentos do governo federal. O acesso não autorizado foi ident  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; 7 matérias em 0.72h  
-*Sinais:* corroboração █████████· · recência ██████████ · calor ██████████  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/tec/2026/11/tesouro-nacional-sofre-ataque-hacker-que-expoe-dados-de-30-mil-cadastros-e-4000-chaves-pix.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/tec/2026/11/tesouro-nacional-sofre-ataque-hacker-que-expoe-dados-de-30-mil-cadastros-e-4000-chaves-pix.shtml) · [g1 (3)](https://g1.globo.com/economia/noticia/2026/11/12/tesouro-nacional-incidente-seguranca.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/tesouro-nacional-identifica-vazamento-de-dados-de-30-mil-cadastros) · [Valor Econômico](https://valor.globo.com/brasil/noticia/2026/11/12/tesouro-informa-acesso-no-autorizado-a-sua-base-de-dados-incluindo-cpfs-e-chaves-pix.ghtml)  
-
-**2. Sucessora de Jensen Huang na Nvidia terá desafio mais difícil do setor de tecnologia**  
-notícia `95` · mundo · Brasil · 11 veículos · Folha de S.Paulo  
-Duas das empresas mais valiosas do mundo trocaram de comando nos últimos meses. Mas dificilmente poderiam ter feito isso de maneiras mais diferentes. Na Apple , Tim Cook deu lugar a John Ternus em setembro, em um processo que a fabricante do iPhone chamou de "  
-*Por que entrou:* 11 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+**1. Outlook e IA da Microsoft seguem instáveis nesta sexta-feira**  
+notícia `93` · economia · Brasil · 11 veículos · g1  
+Outlook fora do ar: serviços da Microsoft apresentam instabilidade nesta quinta Desde a tarde de quinta-feira (12), usuários relataram dificuldades para acessar alguns serviços da Microsoft, como o Outlook. As reclamações começaram por volta das 14h30, segundo  
+*Por que entrou:* 11 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/jensen-huang-deixa-comando-da-nvidia-e-sucessora-tera-desafio-mais-dificil-da-tecnologia.shtml)  
-Cobertura: [Folha de S.Paulo (13)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/jensen-huang-deixa-comando-da-nvidia-e-sucessora-tera-desafio-mais-dificil-da-tecnologia.shtml) · [g1 (27)](https://g1.globo.com/tecnologia/noticia/2026/11/12/crise-na-nvidia-fortuna-de-jensen-huang-encolhe-em-novembro.ghtml) · [BBC News Brasil (3)](https://www.bbc.com/portuguese/articles/cx1l053gmq5zo?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/mundo/20261112-pequim-acusa-eua-de-tentativa-de-bloqueio-tecnol%C3%B3gico-com-caso-de-ceo-da-nvidia) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/nvidia-sobrevivera-mas-tera-uma-fase-muito-dificil-diz-especialista/) · [Euronews (português) (4)](https://pt.euronews.com/2026/11/12/saida-de-jensen-huang-da-nvidia-e-perda-significativa-para-boom-da-ia)  
+[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/13/outlook-e-ia-da-microsoft-seguem-instaveis-nesta-sexta-feira.ghtml)  
+Cobertura: [g1 (5)](https://g1.globo.com/tecnologia/noticia/2026/11/13/outlook-e-ia-da-microsoft-seguem-instaveis-nesta-sexta-feira.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/tec/2026/11/usuarios-relatam-falhas-no-outlook-nesta-quinta-feira-12.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c6wy49w32epwo?at_medium=RSS&at_campaign=rss) · [Valor Econômico](https://valor.globo.com/empresas/noticia/2026/11/12/microsoft-enfrenta-instabilidade-global-no-outlook-e-no-microsoft-365.ghtml) · [InfoMoney](https://www.infomoney.com.br/consumo/microsoft-tem-dificuldade-para-restabelecer-outlook-e-copilot-apos-horas-de-pane/) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/tecnologia/falha-na-microsoft-mantem-outlook-e-servicos-instaveis-nesta-sexta-feira/)  
 
-**3. Senado aprova texto-base do 'plano Moretti' de ajuste, com medidas para conter gastos e elevar receitas**  
-notícia `93` · politica · Brasil · 6 veículos · Folha de S.Paulo  
-O plenário do Senado Federal aprovou nesta quinta-feira (12) o texto-base do plano de ajuste do governo de Luiz Inácio Lula da Silva (PT), com medidas para ajudar a equipe econômica a buscar o centro da meta de resultado primário (diferença entre receitas e de  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/senado-aprova-texto-base-do-plano-moretti-de-ajuste-com-medidas-para-conter-gastos-e-elevar-receitas.shtml)  
-Cobertura: [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/senado-aprova-texto-base-do-plano-moretti-de-ajuste-com-medidas-para-conter-gastos-e-elevar-receitas.shtml) · [g1 (9)](https://g1.globo.com/jornal-nacional/noticia/2026/11/12/senadores-analisam-projeto-de-lei-do-governo-com-medidas-para-ajuste-nas-contas-publicas.ghtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/12/senadores-chegam-a-acordo-e-plp-do-ajuste-fiscal-sera-votado-nesta-quinta-feira.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-deve-votar-ajuste-fiscal-com-previsao-de-economia-de-r-60-bi) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/sessao-do-senado-para-debater-ajuste-fiscal-tem-bate-boca-entre-senadores/) · [Poder360](https://www.poder360.com.br/poder-congresso/senado-aprova-pacote-de-ajuste-fiscal-do-governo-lula/)  
-
-**4. Mega-Sena, concurso 3085: confira os números sorteados**  
-notícia `92` · tecnologia · Brasil · 5 veículos · g1  
-Como funciona a Mega-Sena? O sorteio do concurso 3.085 da Mega-Sena foi realizado na noite desta quinta-feira (12), em São Paulo. O prêmio para as apostas que acertarem as seis dezenas é de R$ 21.085.616.30. 📱Favorite o g1 no Google e acompanhe as principais n  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/loterias/mega-sena/noticia/2026/11/12/mega-sena-concurso-3085-confira-os-numeros-sorteados.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/loterias/mega-sena/noticia/2026/11/12/mega-sena-concurso-3085-confira-os-numeros-sorteados.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/confira-a-partir-das-21h-desta-quinta-12-o-resultado-do-concurso-3085-da-mega-sena.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/mega-sena-sorteia-premio-de-r-20-milhoes-nesta-quinta-feira) · [InfoMoney (2)](https://www.infomoney.com.br/consumo/lotofacil-hoje-concurso-3828-confira-o-resultado-sorteado-nesta-quinta-feira-12/) · [Olhar Digital (3)](https://olhardigital.com.br/2026/11/12/internet-e-redes-sociais/resultado-da-mega-sena-de-hoje-veja-numeros-e-ganhadores-do-concurso-3085-quinta-12-11/)  
-
-**5. PGR se manifesta contra revisão criminal da condenação de Bolsonaro**  
-notícia `91` · politica · Brasil · 5 veículos · Folha de S.Paulo  
-A PGR (Procuradoria-Geral da República) se manifestou na quinta-feira (12) contra a revisão criminal da condenação do ex-presidente Jair Bolsonaro , condenado a 27 anos de prisão por tentativa de golpe de Estado. Leia mais (11/12/2026 - 20h19)  
+**2. Trump tira seu vice de negociação com Irã e diz que EUA não precisam de acordo**  
+notícia `92` · mundo · Brasil · 5 veículos · Folha de S.Paulo  
+O presidente dos Estados Unidos , Donald Trump , afirmou na quinta-feira (12) que havia retirado seu vice, J. D. Vance, das possíveis negociações de paz com o Irã , dizendo que seu tempo seria mais bem gasto investigando suposta corrupção em cidades e estados   
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/pgr-se-manifesta-contra-revisao-criminal-da-pena-de-bolsonaro.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/pgr-se-manifesta-contra-revisao-criminal-da-pena-de-bolsonaro.shtml) · [g1 (2)](https://g1.globo.com/politica/noticia/2026/11/12/pgr-diz-se-contra-revisao-criminal-que-poderia-anular-a-condenacao-de-jair-bolsonaro.ghtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/12/pgr-se-manifesta-contra-reviso-criminal-de-bolsonaro.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/pgr-defende-que-stf-rejeite-pedido-de-revisao-criminal-de-jair-bolsonaro/) · [Exame](https://exame.com/brasil/pgr-se-manifesta-contra-pedido-de-revisao-da-condenacao-de-jair-bolsonaro/)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/trump-tira-seu-vice-de-negociacao-com-ira-e-diz-que-eua-nao-precisam-de-acordo.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/trump-tira-seu-vice-de-negociacao-com-ira-e-diz-que-eua-nao-precisam-de-acordo.shtml) · [g1 (2)](https://g1.globo.com/mundo/noticia/2026/11/12/trump-diz-que-acordo-com-ira-ficou-para-tras-e-que-concentrara-esforcos-em-combate-a-corrupcao-em-estados-democratas.ghtml) · [Valor Econômico](https://valor.globo.com/financas/noticia/2026/11/12/petroleo-sobe-apos-trump-descartar-a-necessidade-de-acordo-com-o-ira.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/trump-sugere-que-poderia-derrotar-ira-em-3-dias-ao-destruir-infraestrutura/) · [Euronews (português)](https://pt.euronews.com/2026/11/12/estados-unidos-trump-ameaca-duplicar-tarifas-se-mexico-nao-travar-caravanas-de-migrantes)  
 
-**6. Estados Unidos: novos membros do Congresso posam para foto tradicional no Capitólio**  
-notícia `61` · mundo · Mundo · 1 veículo · Euronews (português)  
-Os recém-eleitos legisladores norte-americanos reuniram-se no Capitólio para a foto tradicional antes da abertura do 120.º Congresso, participando em sessões de orientação após as intercalares de novembro  
+**3. Futuro ministro da Fazenda: veja quem são os cotados e o que está em jogo na escolha de Lula**  
+notícia `90` · politica · Brasil · 6 veículos · g1  
+Vice-presidente, Geraldo Alckmin; ministro da Fazenda, Dario Durigan; governador do Piauí, Rafael Fonteles; e o ministro do Planejamento, Bruno Moretti. Montagem g1 Após uma virada histórica nas urnas, o presidente Luiz Inácio Lula da Silva (PT) chegará ao seu  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
+[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/13/futuro-ministro-da-fazenda-veja-quem-sao-os-cotados-e-o-que-esta-em-jogo-na-escolha-de-lula.ghtml)  
+Cobertura: [g1 (15)](https://g1.globo.com/economia/noticia/2026/11/13/futuro-ministro-da-fazenda-veja-quem-sao-os-cotados-e-o-que-esta-em-jogo-na-escolha-de-lula.ghtml) · [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/lula-deve-ir-a-madri-para-encontro-com-sanchez-dias-antes-de-eleicao-na-espanha.shtml) · [Valor Econômico (2)](https://valor.globo.com/politica/noticia/2026/11/12/lula-deve-iniciar-conversas-sobre-montagem-do-novo-governo-com-psd-e-republicanos.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cvlyd0zjnn4wo?at_medium=RSS&at_campaign=rss) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/internacional/depois-da-turquia-lula-chega-as-filipinas-para-cupula-da-asean/) · [Intercept Brasil](https://www.intercept.com.br/2026/11/11/quem-vai-mandar-no-novo-ministerio-da-seguranca/)  
+
+**4. Como escolher um notebook para comprar na Black Friday**  
+notícia `86` · tecnologia · Brasil · 4 veículos · g1  
+Pessoa usando notebook Pexels Na hora de comprar um notebook em época de Black Friday, entender termos como SSD, memória RAM e geração do processador faz diferença. São esses componentes que ajudam a definir se a máquina será suficiente para estudar, trabalhar  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração █████████· · recência █████████· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/guia/guia-de-compras/tecnologia/como-escolher-um-notebook-para-comprar-na-black-friday.ghtml)  
+Cobertura: [g1 (2)](https://g1.globo.com/guia/guia-de-compras/tecnologia/como-escolher-um-notebook-para-comprar-na-black-friday.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/black-friday-tera-menor-crescimento-anual-desde-2022-diz-cnc.shtml) · [TecMundo (2)](https://www.estadao.com.br/tecmundo/produto-e-review/samsung-galaxy-a57-ate-quanto-vale-a-pena-pagar-na-black-friday/) · [Canaltech](https://canaltech.com.br/e-reader/kindle-colorsoft-quanto-vale-pagar-na-black-friday-2026/)  
+
+**5. Grammy Latino: pernambucanos vencem 5 categorias e se destacam em prêmio internacional; saiba quem são**  
+notícia `81` · cultura · Brasil · 3 veículos · g1  
+João Gomes, Amaro Freitas, Johnny Hooker, Mateus Alves e Tomaz Alves Souza são os pernambucanos vencedores no Grammy Latino 2026 Arte/g1 Cinco artistas pernambucanos venceram premiações no Grammy Latino 2026, realizado na noite da quinta-feira (12), em Las Veg  
+*Por que entrou:* 3 veículos cobrindo; ainda fresca; peso de fonte alto (g1)  
+*Sinais:* corroboração ████████·· · recência ████████·· · calor ████████··  
+[Ler na fonte](https://g1.globo.com/pe/pernambuco/noticia/2026/11/13/grammy-latino-pernambucanos-vencem-5-categorias-e-se-destacam-em-premio-internacional-saiba-quem-sao.ghtml)  
+Cobertura: [g1 (2)](https://g1.globo.com/pe/pernambuco/noticia/2026/11/13/grammy-latino-pernambucanos-vencem-5-categorias-e-se-destacam-em-premio-internacional-saiba-quem-sao.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ilustrada/2026/11/grammy-latino-premia-criolo-na-categoria-de-mpb-acompanhe-os-vencedores.shtml) · [CNN Brasil (4)](https://www.cnnbrasil.com.br/pop/musica/grammy-latino-anitta-perde-album-do-ano-para-rosalia/)  
+
+**6. Europa: rendimentos ficam atrás dos preços das casas em 17 países da UE**  
+notícia `63` · mundo · Mundo · 1 veículo · Euronews (português)  
+Entre 2015 e 2025, os preços das casas subiram mais do que os rendimentos em 17 países da UE. A diferença foi maior em Portugal; na Roménia os preços caíram mais face aos rendimentos.  
 *Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência █████████· · calor ████······  
-[Ler na fonte](https://pt.euronews.com/video/2026/11/13/estados-unidos-novos-membros-do-congresso-posam-para-foto-tradicional-no-capitolio)  
+*Sinais:* corroboração ████······ · recência ██████████ · calor ████······  
+[Ler na fonte](https://pt.euronews.com/2026/11/13/europa-rendimentos-ficam-atras-dos-precos-das-casas-em-17-paises-da-ue)  
 
 ## Reserva (não entrou hoje)
 
-- `92` Outlook fora do ar? Serviço de e-mail e IA da Microsoft apresentam instabilidade nesta quinta — *cota de tecnologia cheia*
-- `91` Ataque hacker expõe CPFs de 7,6 milhões de clientes de subsidiária da Caixa; veja quais dados v — *cota de tecnologia cheia*
-- `90` Grammy Latino premia Johnny Hooker e Urias pela primeira vez; acompanhe — *ficou fora do corte*
-- `89` Lula se reúne com rival de Trump na COP 31, na Turquia — *ficou fora do corte*
-- `88` Dino mantém começo da escala 5x2 para 16 de dezembro e autoriza ajustes na fase de transição — *ficou fora do corte*
-- `88` Senado aprova inclusão de vacina contra herpes-zóster no SUS; projeto segue para a Câmara — *ficou fora do corte*
-- `87` STF mantém afastamento de Marco Buzzi do STJ após acusação de assédio, mas mantém salário — *ficou fora do corte*
-- `86` Lucro da Trisul cai 16% no 3º trimestre com menos lançamentos — *ficou fora do corte*
+- `80` Meta bate recorde e recebe meio bilhão de reais nas eleições; PL gasta quase o dobro do PT com  — *ficou fora do corte*
+- `80` Ataque hacker expõe CPFs de 7,6 milhões de clientes de subsidiária da Caixa; veja quais dados v — *ficou fora do corte*
+- `80` Mariah Carey, Belo, Gustavo Mioto, festivais de cinema e teatro, tributos a Bee Gees e Ozzy Osb — *ficou fora do corte*
+- `80` Previsão do tempo hoje para Sete Lagoas (MG): sol com muitas nuvens e períodos de céu nublado;  — *ficou fora do corte*
+- `80` BTG Pactual tem lucro recorde de R$ 5,33 bilhões no 3º trimestre e anuncia recompra de ações — *ficou fora do corte*
+- `80` PGR se manifesta contra revisão criminal da condenação de Bolsonaro — *ficou fora do corte*
+- `80` Entidades empresariais dizem que medidas de Dino para flexibilizar fim da 6x1 não terão efeito  — *ficou fora do corte*
+- `79` Braskem tem prejuízo líquido de R$ 1,1 bilhão no 3º tri — *ficou fora do corte*
+
+## Já foi pauta nos últimos dias
+
+- Centrão exige mais ministérios no governo Lula 4 em troca de cobrança por mais fidelidade no Co — *ja foi pauta em 2026-11-11*
+- Tesouro Nacional sofre ataque hacker que expõe dados de 30 mil cadastros e 4.000 chaves Pix — *ja foi pauta em 2026-11-12*
+- Sucessora de Jensen Huang na Nvidia terá desafio mais difícil do setor de tecnologia — *ja foi pauta em 2026-11-12*
 
 ## Fontes que não responderam
 
