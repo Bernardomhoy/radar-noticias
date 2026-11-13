@@ -1,80 +1,74 @@
 # Radar de Notícias — 2026-11-13
-*Fechado às 12:39 (horário de Brasília) · 1146 matérias lidas · 661 pautas identificadas · 17 fontes ativas*
+*Fechado às 18:55 (horário de Brasília) · 1180 matérias lidas · 714 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Antes de deixar comando da Nvidia, Jensen Huang menosprezou sucessora, diz jornal**  
-notícia `92` · mundo · Brasil · 10 veículos · g1  
-Jensen Huang e Collete Kress REUTERS Jensen Huang, ex-CEO da Nvidia, menosprezou Colette Kress, executiva que assumiu interinamente o comando da companhia, meses antes de deixar o cargo. Durante uma reunião em agosto, convocada para discutir os riscos de acord  
-*Por que entrou:* 10 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
-[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/13/antes-de-deixar-comando-da-nvidia-jensen-huang-menosprezou-sucessora-diz-jornal.ghtml)  
-Cobertura: [g1 (32)](https://g1.globo.com/tecnologia/noticia/2026/11/13/antes-de-deixar-comando-da-nvidia-jensen-huang-menosprezou-sucessora-diz-jornal.ghtml) · [Folha de S.Paulo (9)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/sete-nomes-cotados-para-substituir-jensen-huang-na-nvidia.shtml) · [Valor Econômico (3)](https://valor.globo.com/empresas/noticia/2026/11/13/aes-chinesas-ligadas-a-ia-caem-em-meio-a-temores-de-aperto-dos-eua-aps-renncia-de-huang-na-nvidia.ghtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/ckwy8vdnwwlyo?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/mundo/20261112-pequim-acusa-eua-de-tentativa-de-bloqueio-tecnol%C3%B3gico-com-caso-de-ceo-da-nvidia) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/13/nvidia-perde-18-bilioes-de-dolares-em-valor-com-saida-de-jensen-huang)  
-
-**2. Microsoft descarta ataque hacker após falha global afetar Outlook, Teams e Copilot**  
-notícia `92` · tecnologia · Brasil · 6 veículos · g1  
-Serviços Microsoft caem em 70 países; empresa faz reparos A Microsoft descartou nesta sexta-feira (13) que um ataque hacker tenha provocado a falha global que afeta o serviço de e-mail Outlook, o aplicativo Teams e o assistente de IA Copilot. A empresa afirmou  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**1. Paralisação de voos nos EUA: agência suspende todas as decolagens no país**  
+notícia `92` · mundo · Brasil · 7 veículos · g1  
+Paralisação de voos nos EUA: agência suspende todas as decolagens no país A Administração Federal de Aviação dos Estados Unidos (FAA, na sigla em inglês) determinou nesta sexta-feira (13) a suspensão de todas as decolagens no país. O secretário de Transportes   
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/13/microsoft-descarta-ataque-hacker-apos-falha-global-afetar-outlook-teams-e-copilot.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/tecnologia/noticia/2026/11/13/microsoft-descarta-ataque-hacker-apos-falha-global-afetar-outlook-teams-e-copilot.ghtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/cw808r14nmjgo?at_medium=RSS&at_campaign=rss) · [Euronews (português) (3)](https://pt.euronews.com/2026/11/13/microsoft-falha-global-deixa-outlook-e-teams-em-baixo-ha-mais-de-um-dia) · [Exame (2)](https://exame.com/tecnologia/outlook-volta-a-funcionar-para-parte-dos-usuarios-apos-falha-global/) · [TecMundo](https://www.estadao.com.br/tecmundo/big-techs/office-365-voltou-usuarios-relatam-retorno-do-outlook-e-outros-servicos-da-microsoft/) · [Olhar Digital](https://olhardigital.com.br/2026/11/13/internet-e-redes-sociais/apagao-da-microsoft-veja-alternativas-ao-office-teams-e-outlook/)  
+[Ler na fonte](https://g1.globo.com/mundo/ao-vivo/paralisacao-de-voos-nos-eua.ghtml)  
+Cobertura: [g1 (8)](https://g1.globo.com/mundo/ao-vivo/paralisacao-de-voos-nos-eua.ghtml) · [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/eua-impoem-suspensao-nacional-de-voos-por-razoes-de-seguranca.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c54gnly4kzdpo?at_medium=RSS&at_campaign=rss) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/13/agncia-de-aviao-dos-eua-suspende-voos-em-todo-pas-por-motivos-de-segurana.ghtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/internacional/problema-de-comunicacao-levou-a-suspensao-de-voos-nos-eua-diz-autoridade/) · [Poder360](https://www.poder360.com.br/poder-internacional/eua-suspendem-voos-em-todo-o-pais-por-falha-no-controle-de-trafego/)  
 
-**3. Dólar oscila com plano fiscal no radar; Bolsa avança com temporada de balanços**  
-notícia `92` · economia · Brasil · 5 veículos · Folha de S.Paulo  
-O dólar está oscilando nesta sexta-feira (13), com investidores repercutindo a aprovação do plano de ajuste fiscal do governo de Luiz Inácio Lula da Silva (PT) pelo Senado Federal, na véspera (12). A proposta reúne medidas para ajudar a equipe econômica a busc  
+**2. UE escolhe cinco países para representar Europa em negociações de paz entre Ucrânia e Rússia**  
+notícia `91` · mundo · Brasil · 5 veículos · Folha de S.Paulo  
+Os líderes da União Europeia afirmaram nesta sexta-feira (13) que a equipe europeia para as negociações de paz da guerra da Ucrânia será composta por cinco importantes potências militares -o Reino Unido , que não integra o bloco, além de França , Alemanha , It  
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-perto-da-estabilidade-com-aprovacao-de-plano-fiscal-no-radar.shtml)  
-Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-perto-da-estabilidade-com-aprovacao-de-plano-fiscal-no-radar.shtml) · [g1](https://g1.globo.com/economia/noticia/2026/11/12/dolar-ibovespa.ghtml) · [Valor Econômico (5)](https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml) · [InfoMoney (2)](https://www.infomoney.com.br/mercados/dolar-hoje-abertura-fechamento-comercial-turismo-13112026/) · [Exame](https://exame.com/invest/mercados/ibovespa-ensaia-recuperacao-enquanto-dolar-renova-maxima/)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/ue-escolhe-cinco-paises-para-representar-europa-em-negociacoes-de-paz-entre-ucrania-e-russia.shtml)  
+Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/ue-escolhe-cinco-paises-para-representar-europa-em-negociacoes-de-paz-entre-ucrania-e-russia.shtml) · [g1 (3)](https://g1.globo.com/mundo/noticia/2026/11/13/ucrania-faz-grande-ataque-de-drones-contra-a-russia-que-segue-atacando-energia-ucraniana.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/13/ue-define-grupo-de-cinco-pases-para-representar-a-europa-nas-negociaes-de-paz-da-ucrnia.ghtml) · [RFI Brasil](https://www.rfi.fr/br/mundo/20261112-ap%C3%B3s-negocia%C3%A7%C3%B5es-com-r%C3%BAssia-paz-na-ucr%C3%A2nia-continua-imprevis%C3%ADvel-diz-chefe-da-otan) · [Euronews (português) (4)](https://pt.euronews.com/2026/11/13/da-paz-na-ucrania-ao-futuro-da-europa-como-a-russia-esta-a-alterar-o-debate)  
 
-**4. Pane na Microsoft: governo diz que serviços do gov.br funcionam normalmente; STF, TSE e STJ foram afetados por falha**  
-notícia `92` · politica · Brasil · 11 veículos · g1  
-Os sistemas à população ligados ao "gov.br", plataforma do governo federal, não foram afetado pela falha global nos serviços da Microsoft, segundo informou nesta sexta-feira (13) o Ministério da Gestão e da Inovação em Serviços Públicos (MGI). A assessoria de   
-*Por que entrou:* 11 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
-[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/13/servicos-do-govbr-funcionam-normalmente-apesar-de-pane-global-da-microsoft-diz-governo.ghtml)  
-Cobertura: [g1 (13)](https://g1.globo.com/politica/noticia/2026/11/13/servicos-do-govbr-funcionam-normalmente-apesar-de-pane-global-da-microsoft-diz-governo.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/tec/2026/11/usuarios-relatam-falhas-no-outlook-nesta-quinta-feira-12.shtml) · [Valor Econômico (2)](https://valor.globo.com/empresas/noticia/2026/11/13/aes-da-microsoft-caem-com-interrupo-dos-servios-do-office-em-timing-inoportuno.ghtml) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/outlook-teams-e-copilot-da-microsoft-ainda-estao-fora-do-ar) · [RFI Brasil](https://www.rfi.fr/br/mundo/20261113-nenhum-sinal-de-a%C3%A7%C3%A3o-mal-intencionada-ou-de-ciberataque-diz-microsoft-sobre-pane-mundial) · [Euronews (português)](https://pt.euronews.com/2026/11/13/governo-escolas-e-servicos-do-ministerio-da-saude-afetados-por-falha-global-da-microsoft)  
+**3. Câmara e Senado pedem que plenário do STF rejeite pontos da liminar de Dino sobre escala 6x1**  
+notícia `91` · politica · Brasil · 5 veículos · Folha de S.Paulo  
+A Câmara dos Deputados e o Senado Federal pediram nesta sexta-feira (13) que o plenário do STF (Supremo Tribunal Federal) rejeite as mudanças determinadas pelo ministro Flávio Dino na emenda constitucional que estabelece o fim da escala 6x1 . Leia mais (11/13/  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/camara-e-senado-pedem-que-plenario-do-stf-rejeite-pontos-da-liminar-de-dino-sobre-escala-6x1.shtml)  
+Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/camara-e-senado-pedem-que-plenario-do-stf-rejeite-pontos-da-liminar-de-dino-sobre-escala-6x1.shtml) · [g1 (3)](https://g1.globo.com/politica/noticia/2026/11/13/camara-pede-que-stf-derrube-parte-das-regras-fixadas-por-dino-para-escala-5x2.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/camara-pede-ao-stf-que-barre-ajustes-de-dino-ao-fim-da-escala-6x1/) · [Poder360](https://www.poder360.com.br/poder-justica/stf-tem-3-votos-para-manter-o-fim-da-escala-6-x-1-em-dezembro/) · [Exame](https://exame.com/brasil/escala-6x1-camara-defende-calendario-do-congresso-e-contesta-ajustes-de-dino-no-stf/)  
 
-**5. COP31: mais de 200 milhões de pessoas correm risco de deslocamento por mudanças climáticas**  
-notícia `91` · economia · Brasil · 5 veículos · g1  
-Na praia de Atafona, no estado do Rio de Janeiro, o mar engoliu mais de 500 casas. Ricardo Moraes/Reuters Mais de 200 milhões de pessoas podem ser obrigadas a abandonar o lugar onde vivem em consequência das mudanças climáticas, afirmou à AFP a diretora da Org  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/meio-ambiente/noticia/2026/11/13/cop31-mais-de-200-milhoes-de-pessoas-correm-risco-de-deslocamento-por-mudancas-climaticas.ghtml)  
-Cobertura: [g1 (4)](https://g1.globo.com/meio-ambiente/noticia/2026/11/13/cop31-mais-de-200-milhoes-de-pessoas-correm-risco-de-deslocamento-por-mudancas-climaticas.ghtml) · [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/lula-chega-as-filipinas-com-agenda-comercial-ampla-e-tenta-reverter-veto-a-carne-suina.shtml) · [Agência Brasil (EBC) (2)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-chega-filipinas-brasil-quer-ser-parceiro-de-dialogo-da-asean) · [RFI Brasil](https://www.rfi.fr/br/brasil/20261112-lula-diz-que-nenhum-pa%C3%ADs-tem-mais-autoridade-que-o-brasil-no-clima-ao-fechar-participa%C3%A7%C3%A3o-na-cop31) · [Poder360](https://www.poder360.com.br/poder-governo/lula-posta-chegada-as-filipinas-e-fala-em-ampliar-investimentos/)  
+**4. Tesouro Nacional derruba sistemas após ataque que roubou dados de beneficiários do governo**  
+notícia `91` · tecnologia · Brasil · 7 veículos · Folha de S.Paulo  
+A Secretaria do Tesouro Nacional informou nesta sexta-feira (13) que mantém parte de seus sistemas fora do ar após um ataque hacker que expôs dados pessoais de usuários e beneficiários de pagamentos do governo federal. A previsão é que os serviços sejam normal  
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/tesouro-nacional-derruba-sistemas-apos-ataque-que-roubou-dados-de-beneficiarios-do-governo.shtml)  
+Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/tesouro-nacional-derruba-sistemas-apos-ataque-que-roubou-dados-de-beneficiarios-do-governo.shtml) · [g1 (2)](https://g1.globo.com/economia/noticia/2026/11/12/tesouro-nacional-incidente-seguranca.ghtml) · [Valor Econômico](https://valor.globo.com/brasil/noticia/2026/11/13/apos-incidente-com-dados-tesouro-diz-que-previsao-e-normalizar-sistemas-na-proxima-segunda-feira.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/tesouro-nacional-identifica-vazamento-de-dados-de-30-mil-cadastros) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/macroeconomia/tesouro-nacional-preve-normalizar-sistemas-na-proxima-segunda-16/) · [Tecnoblog](https://tecnoblog.net/noticias/tesouro-nacional-alerta-para-vazamento-de-dados-pessoais-e-chaves-pix/)  
 
-**6. Reino Unido: Kew Gardens ilumina Londres com novo percurso de luzes natalício**  
-notícia `64` · mundo · Mundo · 1 veículo · Euronews (português)  
-Os Jardins de Kew, em Londres, apresentam um deslumbrante percurso de luzes de Natal com mais de um milhão de luzes e 24 instalações, com um novo espetáculo de fontes e lasers no centro  
-*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência █████████· · calor █████·····  
-[Ler na fonte](https://pt.euronews.com/video/2026/11/13/reino-unido-kew-gardens-ilumina-londres-com-novo-percurso-de-luzes-natalicio)  
-Cobertura: [Euronews (português) (2)](https://pt.euronews.com/video/2026/11/13/reino-unido-kew-gardens-ilumina-londres-com-novo-percurso-de-luzes-natalicio)  
+**5. Nvidia sonda CEO de empresa concorrente para substituir Jensen Huang**  
+notícia `90` · tecnologia · Brasil · 10 veículos · Folha de S.Paulo  
+O conselho de administração da Nvidia procurou Rene Haas, presidente-executivo da Arm, em sua busca por um sucessor para Jensen Huang, segundo pessoas familiarizadas com o assunto. A carreira do cofundador da Nvidia entrou em colapso devido a escândalos de inf  
+*Por que entrou:* 10 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ████████·· · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/nvidia-sonda-ceo-de-empresa-concorrente-para-substituir-jensen-huang.shtml)  
+Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/nvidia-sonda-ceo-de-empresa-concorrente-para-substituir-jensen-huang.shtml) · [g1 (26)](https://g1.globo.com/tecnologia/noticia/2026/11/13/nvidia-rene-haas-arm-holdings.ghtml) · [Valor Econômico (2)](https://valor.globo.com/empresas/noticia/2026/11/13/conselho-da-nvidia-aborda-presidente-da-arm-na-busca-por-sucessor-de-jensen-huang-diz-jornal.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/ckwy8vdnwwlyo?at_medium=RSS&at_campaign=rss) · [Euronews (português) (3)](https://pt.euronews.com/2026/11/13/nvidia-perde-18-bilioes-de-dolares-em-valor-com-saida-de-jensen-huang) · [Exame](https://exame.com/inteligencia-artificial/nvidia-procura-ceo-da-arm-para-suceder-jensen-huang-diz-jornal/)  
+
+**6. Paris: criada por estilista, árvore de Natal das Galeries Lafayette vira alvo de piadas e é chamada de 'woke'**  
+notícia `61` · esporte · Mundo · 1 veículo · RFI Brasil  
+Revelada na quinta-feira (12) em Paris, a árvore assinada por Jean-Charles de Castelbajac enfrenta uma enxurrada de críticas nas redes sociais. O estilista afirma que sua obra foi julgada antes mesmo de ser apresentada em sua versão final.  
+*Por que entrou:* publicada nas últimas horas; fonte RFI Brasil; só RFI Brasil publicou  
+*Sinais:* corroboração ████······ · recência █████████· · calor ████······  
+[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261113-paris-criada-por-estilista-%C3%A1rvore-de-natal-das-galeries-lafayette-vira-alvo-de-piadas-e-%C3%A9-chamada-de-woke)  
 
 ## Reserva (não entrou hoje)
 
-- `90` Rússia perde quase meio milhão de vidas na guerra contra a Ucrânia — *ficou fora do corte*
-- `89` Alckmin na Agricultura poderia melhorar a relação do governo Lula com o agro — *ficou fora do corte*
-- `88` Ataque hacker expõe CPFs de 7,6 milhões de clientes de subsidiária da Caixa; veja quais dados v — *ficou fora do corte*
-- `88` Papa chega a Chiclayo, cidade em que viveu no Peru — *ficou fora do corte*
-- `88` Claudette Soares, um dos grandes nomes da bossa nova e da MPB, morre aos 91 anos — *ficou fora do corte*
-- `88` STF invalida transferência automática de servidores em Valença — *ficou fora do corte*
-- `87` Galípolo cita incertezas e diz que BC decidirá sobre juros 'reunião a reunião' — *ficou fora do corte*
-- `84` Entidades do agro criticam declarações da direção do Banco do Brasil sobre inadimplência do set — *ficou fora do corte*
-
-## Já foi pauta nos últimos dias
-
-- Tesouro Nacional sofre ataque hacker que expõe dados de 30 mil cadastros e 4.000 chaves Pix — *ja foi pauta em 2026-11-12*
+- `91` Huang e secretário dos EUA são convocados para depor no Congresso sobre suposta espionagem — *cota de mundo cheia*
+- `90` Outlook voltou: por que demorou para Microsoft resolver o problema? — *ficou fora do corte*
+- `89` Ibovespa sobe com Petrobras, Itaú e balanços e acumula alta de 2,35% na semana — *ficou fora do corte*
+- `89` Vendas no varejo do Brasil surpreendem com alta de 0,2% em setembro — *ficou fora do corte*
+- `89` Joesley Batista participa de cúpula da Asean nas Filipinas — *ficou fora do corte*
+- `88` Dólar fecha a R$ 5,65, no maior patamar do ano; Bolsa avança com balanços e alta do petróleo — *ficou fora do corte*
+- `88` O Brasil foi ouro olímpico, mas talvez você nem saiba — *ficou fora do corte*
+- `87` Pane da Microsoft deixa empresas e profissionais com trabalho acumulado — *ficou fora do corte*
 
 ## Fontes que não responderam
 
 - Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
-- CNN Brasil: `HTTP 403`
+- CNN Brasil Internacional: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
-- CNN Brasil Internacional: `HTTP 403`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
