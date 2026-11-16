@@ -1,79 +1,77 @@
 # Radar de Notícias — 2026-11-16
-*Fechado às 04:12 (horário de Brasília) · 888 matérias lidas · 482 pautas identificadas · 18 fontes ativas*
+*Fechado às 14:23 (horário de Brasília) · 972 matérias lidas · 636 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Ana Castela completa 23 anos: do hit 'Pipoco' ao Grammy, relembre a trajetória meteórica da Boiadeira que conquistou o Brasil**  
-notícia `96` · politica · Brasil · 11 veículos · g1  
-Ana Castela. Instagram Ana Castela. A cantora sul-mato-grossense Ana Castela completa 23 anos nesta segunda-feira (16). A “Boiadeira”, como ficou conhecida no cenário musical, acumula uma sequência de hits, apresentações em grandes festivais, como a Festa do P  
-*Por que entrou:* 11 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**1. Robert Pattinson será o novo James Bond da saga '007'; veja o vídeo de anúncio**  
+notícia `97` · cultura · Brasil · 6 veículos · Folha de S.Paulo  
+Robert Pattinson será o novo James Bond , espião da saga " 007 ". A informação foi divulgada no Instagram oficial da franquia, que confirmou o ator como o novo intérprete do personagem, depois de uma disputa que envolveu nomes como Josh O'Connor , de "Rivais",  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; 7 matérias em 1.76h  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ██████████  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ilustrada/2026/11/robert-pattinson-sera-o-novo-james-bond-da-franquia-007.shtml)  
+Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ilustrada/2026/11/robert-pattinson-sera-o-novo-james-bond-da-franquia-007.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c8wy53qwzn4no?at_medium=RSS&at_campaign=rss) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/pop/cinema/robert-pattinson-e-o-novo-007-quem-eram-os-outros-atores-cotados/) · [Euronews (português)](https://pt.euronews.com/2026/11/16/robert-pattinson-e-anunciado-como-novo-james-bond-007) · [Canaltech](https://canaltech.com.br/entretenimento/acabou-o-misterio-robert-pattinson-e-oficialmente-o-novo-james-bond/) · [Olhar Digital](https://olhardigital.com.br/2026/11/16/cinema-e-streaming/robert-pattinson-e-confirmado-como-o-novo-james-bond-da-franquia-007/)  
+
+**2. Receita relata apreensão de R$ 581 milhões em mercadorias e drogas na fronteira**  
+notícia `96` · economia · Brasil · 6 veículos · Folha de S.Paulo  
+A Receita Federal relatou ter apreendido R$ 581 milhões em mercadorias contrabandeadas e drogas na última edição da Operação Fronteira, realizada entre os dias 3 e 13 de novembro. Leia mais (11/16/2026 - 11h58)  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; 8 matérias em 2.75h  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
-[Ler na fonte](https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/11/16/ana-castela-completa-23-anos-do-hit-pipoco-ao-grammy-relembre-a-trajetoria-meteorica-da-boiadeira-que-conquistou-o-brasil.ghtml)  
-Cobertura: [g1 (65)](https://g1.globo.com/ms/mato-grosso-do-sul/noticia/2026/11/16/ana-castela-completa-23-anos-do-hit-pipoco-ao-grammy-relembre-a-trajetoria-meteorica-da-boiadeira-que-conquistou-o-brasil.ghtml) · [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/opiniao/2026/11/o-mercado-tem-compromisso-com-o-brasil.shtml) · [Valor Econômico (4)](https://valor.globo.com/politica/noticia/2026/11/15/no-podemos-deixar-que-diferenas-nos-impeam-de-trabalhar-pelo-brasil-diz-motta.ghtml) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/brasil-e-filipinas-assinam-acordos-sobre-agro-e-livre-concorrencia) · [InfoMoney](https://www.infomoney.com.br/brasil/eleicao-do-brasil-passa-em-testes-que-apontaram-fraudes-eleitorais-na-russia/) · [RFI Brasil (3)](https://www.rfi.fr/br/esportes/20261115-pinheiro-braathen-vence-slalom-de-levi-e-conquista-segunda-vit%C3%B3ria-da-temporada)  
+> ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/receita-relata-apreensao-de-r-581-milhoes-em-mercadorias-e-drogas-na-fronteira.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/receita-relata-apreensao-de-r-581-milhoes-em-mercadorias-e-drogas-na-fronteira.shtml) · [g1 (2)](https://g1.globo.com/economia/noticia/2026/11/16/receita-federal-apreende-r-581-milhoes-em-operacao-de-combate-ao-trafico-de-drogas-e-ao-contrabando.ghtml) · [Valor Econômico](https://valor.globo.com/brasil/noticia/2026/11/16/operacao-da-receita-federal-apreende-r-581-mi-em-mercadorias-e-drogas.ghtml) · [InfoMoney](https://www.infomoney.com.br/brasil/operacao-fronteira-apreendeu-r-581-milhoes-em-mercadorias-e-entorpecentes-em-2026/) · [CNN Brasil](https://www.cnnbrasil.com.br/nacional/brasil/operacao-fronteira-2026-apreende-r-581-milhoes-em-contrabando-e-drogas/) · [Poder360](https://www.poder360.com.br/poder-economia/operacao-fronteira-apreende-r-581-mi-em-mercadorias-e-drogas/)  
 
-**2. 10 questões mais difíceis do 2º dia do Enem 2026 têm fusão nuclear, circuitos elétricos e cápsulas de café; você acertaria?**  
-notícia `95` · politica · Brasil · 6 veículos · g1  
-Caderno de Provas do 2° dia de aplicação do ENEM. Angelo Miguel/MEC As provas do segundo dia do Exame Nacional do Ensino Médio (Enem) 2026, aplicadas neste domingo (15), tiveram questões que exigiram dos candidatos domínio de conceitos e capacidade de realizar  
+**3. Morgan Stanley rebaixa recomendação para Bolsa brasileira e prevê queda de 7%**  
+notícia `94` · economia · Brasil · 4 veículos · Folha de S.Paulo  
+O banco Morgan Stanley rebaixou sua recomendação para a Bolsa de Valores brasileira neste ano de neutra para abaixo da média. Segundo relatório divulgado no domingo (15), o Ibovespa pode encerrar o próximo ano aos 160 mil pontos, queda de cerca de 7% em relaçã  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; 6 matérias em 1.76h  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ██████████  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/morgan-stanley-rebaixa-recomendacao-para-bolsa-brasileira-e-preve-queda-de-7.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/morgan-stanley-rebaixa-recomendacao-para-bolsa-brasileira-e-preve-queda-de-7.shtml) · [Valor Econômico (2)](https://valor.globo.com/conteudo-de-marca/jp-morgan/noticia/2026/11/16/jp-morgan-aposta-na-tesouraria-em-tempo-real-no-brasil.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/morgan-stanley-rebaixa-recomendacao-para-bolsa-brasileira/) · [Poder360](https://www.poder360.com.br/poder-economia/morgan-stanley-ve-brasil-como-pior-mercado-da-america-latina-em-2027/)  
+
+**4. Moraes nega visitas de Tereza Cristina, Rogério Marinho e Valdemar a Bolsonaro**  
+notícia `94` · politica · Brasil · 5 veículos · Folha de S.Paulo  
+O ministro Alexandre de Moraes, do STF (Supremo Tribunal Federal), negou nesta segunda-feira (16) um pedido feito pela defesa de Jair Bolsonaro ( PL ) para autorizar visitas dos senadores Rogério Marinho (PL-RN) e Tereza Cristina (PP-MS) e do presidente do PL,  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/moraes-nega-visitas-de-tereza-cristina-rogerio-marinho-e-valdemar-a-bolsonaro.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/moraes-nega-visitas-de-tereza-cristina-rogerio-marinho-e-valdemar-a-bolsonaro.shtml) · [g1](https://g1.globo.com/politica/noticia/2026/11/16/moraes-nega-pedido-de-bolsonaro-para-receber-valdemar-e-os-pre-candidatos-a-presidencia-do-senado-marinho-e-tereza.ghtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/16/moraes-rejeita-pedido-de-bolsonaro-para-receber-visitas-de-costa-neto-marinho-e-tereza-cristina.ghtml) · [InfoMoney](https://www.infomoney.com.br/politica/tereza-cristina-diz-que-seguro-rural-poderia-resolver-boa-parte-dos-problemas-do-agro/) · [Poder360](https://www.poder360.com.br/poder-congresso/tereza-cristina-diz-que-decidira-senado-com-marinho-sem-vaidades/)  
+
+**5. Resumão diário #2232: Sequência de ataques a tiros no RS deixa 8 mortos; Anvisa manda apreender marcas de percarbonato; Prazo para pagar pedágio atrasado do free flow acaba hoje; Anitta é indicada ao Grammy 2027 e mais**  
+notícia `93` · cultura · Brasil · 6 veículos · g1  
+Polícia do Rio Grande do Sul investiga onda de ataques a tiros que deixou oito mortos e cinco feridos entre a noite de ontem e a madrugada de hoje em Porto Alegre, e na cidade vizinha de Alvorada. Anvisa proíbe a fabricação, a venda e o uso de duas marcas de p  
 *Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor █████████·  
-[Ler na fonte](https://g1.globo.com/educacao/noticia/2026/11/16/10-questoes-mais-dificeis-do-2o-dia-do-enem-2026-tem-fusao-nuclear-circuitos-eletricos-e-capsulas-de-cafe-voce-acertaria.ghtml)  
-Cobertura: [g1 (3)](https://g1.globo.com/educacao/noticia/2026/11/16/10-questoes-mais-dificeis-do-2o-dia-do-enem-2026-tem-fusao-nuclear-circuitos-eletricos-e-capsulas-de-cafe-voce-acertaria.ghtml) · [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/educacao/2026/11/professores-apontam-problemas-em-duas-questoes-de-matematica-do-enem-2026.shtml) · [Valor Econômico (2)](https://valor.globo.com/brasil/noticia/2026/11/15/enem-teve-36-pontos-percentuais-de-ausncias-no-2-dia-ministro-anuncia-mudanas-para-prova-de-2028.ghtml) · [InfoMoney (2)](https://www.infomoney.com.br/brasil/quando-sai-o-gabarito-oficial-do-enem-2026-veja-a-data-prevista-pelo-inep/) · [CNN Brasil (11)](https://www.cnnbrasil.com.br/educacao/enem-2026-prazo-para-pedir-reaplicacao-comeca-nesta-segunda-feira-16/) · [Poder360](https://www.poder360.com.br/poder-educacao/enem-2026-registra-abstencao-de-36-no-2o-dia-de-provas/)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
+[Ler na fonte](https://g1.globo.com/podcast/resumao-diario/noticia/2026/11/16/resumao-diario-2232-sequencia-de-ataques-a-tiros-no-rs-deixa-8-mortos-anvisa-manda-apreender-marcas-de-percarbonato-prazo-para-pagar-pedagio-atrasado-do-free-flow-acaba-hoje-anitta-e-indicada-ao-grammy-2027-e-mais.ghtml)  
+Cobertura: [g1 (2)](https://g1.globo.com/podcast/resumao-diario/noticia/2026/11/16/resumao-diario-2232-sequencia-de-ataques-a-tiros-no-rs-deixa-8-mortos-anvisa-manda-apreender-marcas-de-percarbonato-prazo-para-pagar-pedagio-atrasado-do-free-flow-acaba-hoje-anitta-e-indicada-ao-grammy-2027-e-mais.ghtml) · [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/11/anvisa-apreende-e-proibe-tira-manchas-de-percarbonato-sodio-veja-marcas.shtml) · [InfoMoney](https://www.infomoney.com.br/consumo/apos-vitoria-no-grammy-latino-anitta-concorre-ao-grammy-2027-com-equilibrivm/) · [CNN Brasil (3)](https://www.cnnbrasil.com.br/pop/musica/grammy-2027-qual-album-indicado-e-mais-popular-nas-buscas/) · [Euronews (português)](https://pt.euronews.com/2026/11/16/grammy-2027-raye-e-rosalia-lideram-corrida-com-11-e-9-nomeacoes) · [Exame (3)](https://exame.com/pop/grammy-2027-quem-sao-os-artistas-indicados-pela-primeira-vez/)  
 
-**3. 'Nenhuma autoridade do Peru fez o que ele fez por nós': como Leão XIV ajudou a população durante enchentes e a pandemia**  
-notícia `89` · meio-ambiente · Brasil · 5 veículos · g1  
-No Peru, Leão XIV ainda é o “monsenhor Robert”, o bispo que entrou na enchente de botas de borracha Restos de paredes, casas em ruínas e uma porta que não leva a lugar nenhum. Em Íllimo, no norte do Peru, os sinais da destruição provocada pelas enchentes ainda  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/fantastico/noticia/2026/11/15/nenhuma-autoridade-do-peru-fez-o-que-ele-fez-por-nos-como-leao-xiv-ajudou-a-populacao-durante-enchentes-e-a-pandemia.ghtml)  
-Cobertura: [g1 (3)](https://g1.globo.com/fantastico/noticia/2026/11/15/nenhuma-autoridade-do-peru-fez-o-que-ele-fez-por-nos-como-leao-xiv-ajudou-a-populacao-durante-enchentes-e-a-pandemia.ghtml) · [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/sonho-com-uma-amazonia-que-lute-pelos-pobres-e-indigenas-diz-papa-leao-14-no-peru.shtml) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/16/papa-leo-xiv-condena-explorao-da-amaznia-peruana-e-cobra-justia-por-indgenas-mortos.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/papa-leao-xiv-condena-desmatamento-na-amazonia-e-morte-de-lideres-indigenas/) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/15/peru-papa-leao-xiv-centra-visita-na-defesa-dos-povos-indigenas-e-da-amazonia)  
-
-**4. Correios têm 16 trimestres de prejuízo; estatal atribui situação à maior concorrência e a atuar em todo o país**  
-notícia `87` · geral · Brasil · 5 veículos · g1  
-Correios acumula trimestres de prejuízo Jornal Nacional/ Reprodução Com o prejuízo de R$ 7,5 bilhões registrado até o terceiro trimestre de 2026, os Correios chegaram a seu 16º trimestre seguido de contas no vermelho. O valor registrado até setembro de 2026 re  
-*Por que entrou:* 5 veículos cobrindo; peso de fonte alto (g1); ainda fresca  
-*Sinais:* corroboração ██████████ · recência ███████··· · calor ████████··  
-[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/16/correios-tem-16-trimestres-de-prejuizo-estatal-atribui-situacao-a-maior-concorrencia-e-a-atuar-em-todo-o-pais.ghtml)  
-Cobertura: [g1 (3)](https://g1.globo.com/economia/noticia/2026/11/16/correios-tem-16-trimestres-de-prejuizo-estatal-atribui-situacao-a-maior-concorrencia-e-a-atuar-em-todo-o-pais.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/prejuizo-dos-correios-soma-r-75-bilhoes-de-janeiro-a-setembro-alta-de-27.shtml) · [Valor Econômico](https://valor.globo.com/brasil/noticia/2026/11/15/correios-tm-prejuzo-de-r-19-bilho-no-terceiro-trimestre.ghtml) · [InfoMoney](https://www.infomoney.com.br/mercados/correios-tem-prejuizo-de-r-19-bilhao-no-terceiro-trimestre-alta-de-19-em-um-ano/) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/correios-perdem-r-19-bi-no-3o-trimestre-rombo-no-ano-chega-a-r-75-bi/)  
-
-**5. O que encontro histórico de Trump, Putin e Xi marcado para esta semana pode significar para o mundo?**  
-notícia `85` · mundo · Brasil · 7 veículos · g1  
-Putin e Xi já se reuniram mais de 40 vezes; Trump e Putin, 7 vezes; e Trump e Xi, 3 vezes; mas os três nunca se encontraram juntos. Ira L. Black/Corbis/Mohd Rasfan/Kristina Solovyova/POOL/AFP/Getty Images via BBC Os preparativos para o primeiro encontro trilat  
-*Por que entrou:* 7 veículos cobrindo; peso de fonte alto (g1); ainda fresca  
-*Sinais:* corroboração ██████████ · recência ███████··· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/16/o-que-encontro-historico-de-trump-putin-e-xi-marcado-para-esta-semana-pode-significar-para-o-mundo.ghtml)  
-Cobertura: [g1 (4)](https://g1.globo.com/mundo/noticia/2026/11/16/o-que-encontro-historico-de-trump-putin-e-xi-marcado-para-esta-semana-pode-significar-para-o-mundo.ghtml) · [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/china-confirma-cupula-trilateral-de-xi-com-trump-e-putin-na-quinta-19.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cqx2ey1zxjymo?at_medium=RSS&at_campaign=rss) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/14/kremlin-afirma-que-putin-xi-e-trump-se-reuniro-na-china-em-19-de-novembro.ghtml) · [RFI Brasil](https://www.rfi.fr/br/mundo/20261114-c%C3%BApula-in%C3%A9dita-entre-trump-xi-e-putin-%C3%A9-confirmada-mas-ucr%C3%A2nia-deve-ficar-de-fora-das-discuss%C3%B5es) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/15/russia-nao-impoe-condicoes-ao-grupo-de-negociadores-da-ue-para-a-ucrania)  
-
-**6. Notícias do dia | 16 de novembro 2026 - Manhã**  
-notícia `66` · mundo · Mundo · 1 veículo · Euronews (português)  
-Fique a par das notícias mais importantes de toda a Europa e não só, a 16 de novembro de 2026 - últimas notícias, notícias de última hora, mundo, negócios, entretenimento, política, cultura, viagens.  
-*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência █████████· · calor ███████···  
-[Ler na fonte](https://pt.euronews.com/video/2026/11/16/noticias-do-dia-16-de-novembro-2026-manha)  
-Cobertura: [Euronews (português) (5)](https://pt.euronews.com/video/2026/11/16/noticias-do-dia-16-de-novembro-2026-manha)  
+**6. ONU pede acordo para limitar armas autônomas letais, os chamados 'robôs assassinos'**  
+notícia `76` · mundo · Mundo · 2 veículos · RFI Brasil  
+O secretário-geral da ONU, António Guterres, pediu nesta segunda-feira (16) que os países iniciem negociações para criar um acordo juridicamente vinculante sobre armas autônomas letais, conhecidas como "robôs assassinos". O apelo foi feito na abertura da sétim  
+*Por que entrou:* publicada nas últimas horas; 2 veículos cobrindo; fonte RFI Brasil  
+*Sinais:* corroboração ██████···· · recência ██████████ · calor ██████····  
+[Ler na fonte](https://www.rfi.fr/br/mundo/20261116-onu-pede-acordo-para-limitar-armas-aut%C3%B4nomas-letais-os-chamados-rob%C3%B4s-assassinos)  
+Cobertura: [RFI Brasil](https://www.rfi.fr/br/mundo/20261116-onu-pede-acordo-para-limitar-armas-aut%C3%B4nomas-letais-os-chamados-rob%C3%B4s-assassinos) · [Euronews (português)](https://pt.euronews.com/2026/11/16/paises-na-onu-avaliam-inicio-de-negociacoes-sobre-robos-assassinos)  
 
 ## Reserva (não entrou hoje)
 
-- `83` Jensen Huang discute volta ao comando da Nvidia com aliados — *ficou fora do corte*
-- `82` Ataque hacker a subsidiária dos Correios franceses expõe dados de 22 milhões de pessoas — *ficou fora do corte*
-- `82` Morre aos 94 Dino Sani, destaque no futebol brasileiro nos anos 50 e 60 — *ficou fora do corte*
-- `82` Ministro da Educação diz que site do Inep sofreu tentativas de ataques, que foram controlados — *ficou fora do corte*
-- `81` Viúva de presidente assassinado disputa 1ª eleição presidencial do Haiti em uma década — *ficou fora do corte*
-- `80` Como foi a volta de Ronaldinho Gaúcho aos gramados, aos 46 anos — *ficou fora do corte*
-- `79` Michelle diz que vai tirar 10 dias de descanso com 'incentivo e aval' de Bolsonaro — *ficou fora do corte*
-- `79` As dicas e os alimentos que podem evitar manchas e escurecimento dos dentes, segundo dentistas — *ficou fora do corte*
-
-## Já foi pauta nos últimos dias
-
-- Bandas de rock fazem show improvisado durante paralização de voos nos Estados Unidos — *ja foi pauta em 2026-11-15*
+- `92` Warren Buffett doa quase US$ 5,5 bilhões em ações para quatro fundações — *ficou fora do corte*
+- `92` Dólar atinge R$ 5,78 e Bolsa recua com 'plano Moretti' de ajuste fiscal no radar — *ficou fora do corte*
+- `92` Musk e nomes de peso da tecnologia defendem volta de Jensen Huang ao comando da Nvidia — *ficou fora do corte*
+- `91` Lula se reúne com Sánchez em Madri a dias da eleição na Espanha — *ficou fora do corte*
+- `90` EUA incluem Brasil em lista de países com restrições para comprar chips para data centers — *ficou fora do corte*
+- `90` Fachin diz que reforma não pode ser 'contra o Judiciário' e defende diálogo entre Poderes — *ficou fora do corte*
+- `89` Trump diz que poderá se reunir com Kim Jong-un durante viagem à China nesta semana — *ficou fora do corte*
+- `89` Trump diz que 'não se importaria' que Jensen Huang voltasse a dirigir a Nvidia — *ficou fora do corte*
 
 ## Fontes que não responderam
 
-- Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
-- Nexo Jornal: `HTTP 404`
+- Estadão: `HTTP 404`
 - CNN Brasil Internacional: `HTTP 404`
+- Nexo Jornal: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
