@@ -1,67 +1,68 @@
 # Radar de Notícias — 2026-11-17
-*Fechado às 06:05 (horário de Brasília) · 1053 matérias lidas · 666 pautas identificadas · 18 fontes ativas*
+*Fechado às 15:29 (horário de Brasília) · 1106 matérias lidas · 745 pautas identificadas · 17 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Bilionários do Vale do Silício se mobilizam pela volta de Jensen Huang à Nvidia**  
-notícia `90` · mundo · Brasil · 10 veículos · Folha de S.Paulo  
-Bilionários do Vale do Silício se mobilizaram pedindo a volta de Jensen Huang à presidência da Nvidia . Investidores como David Sacks, ex-czar de IA da Casa Branca, e Brad Gerstner, que administra mais de US$ 20 bilhões em capital de risco, afirmaram que não h  
-*Por que entrou:* 10 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/bilionarios-do-vale-do-silicio-se-mobilizam-pela-volta-de-jensen-huang-a-nvidia.shtml)  
-Cobertura: [Folha de S.Paulo (6)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/bilionarios-do-vale-do-silicio-se-mobilizam-pela-volta-de-jensen-huang-a-nvidia.shtml) · [g1 (6)](https://g1.globo.com/tecnologia/noticia/2026/11/16/musk-e-nomes-de-peso-da-tecnologia-defendem-volta-de-ex-ceo-da-nvidia.ghtml) · [Valor Econômico](https://valor.globo.com/empresas/noticia/2026/11/17/trump-defende-huang-mas-nvidia-nao-quer-ceo-de-volta.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/nvidia-descarta-volta-de-huang-apos-campanha-para-retorno-dizem-fontes/) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/17/nvidia-afasta-regresso-de-jensen-huang-a-lideranca-apesar-do-apoio-de-trump) · [Poder360](https://www.poder360.com.br/poder-tech/nvidia-nega-retorno-de-jensen-huang-ao-cargo-de-ceo-diz-agencia/)  
+**1. Rede de comunicação interna de agência de inteligência dos EUA está fora do ar, diz CNN**  
+notícia `97` · mundo · Brasil · 5 veículos · Folha de S.Paulo  
+A rede interna de comunicações da Agência de Segurança Nacional dos Estados Unidos ( NSA , na sigla em inglês), responsável pela inteligência e proteção de sistemas de comunicação do governo americano, está fora do ar, segundo informações divulgadas pela CNN n  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; 7 matérias em 2.62h  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/rede-de-comunicacao-interna-de-agencia-de-inteligencia-dos-eua-esta-fora-do-ar-diz-cnn.shtml)  
+Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/rede-de-comunicacao-interna-de-agencia-de-inteligencia-dos-eua-esta-fora-do-ar-diz-cnn.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/17/rede-ultrassecreta-de-comunicacoes-de-seguranca-nacional-dos-eua-esta-fora-do-ar-diz-tv.ghtml) · [InfoMoney](https://www.infomoney.com.br/mundo/rede-secreta-de-comunicacoes-de-seguranca-nacional-dos-eua-esta-fora-do-ar-diz-tv/) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/exclusivo-rede-ultrassecreta-de-seguranca-nacional-dos-eua-sai-do-ar/) · [Olhar Digital](https://olhardigital.com.br/2026/11/17/seguranca/rede-confidencial-de-comunicacoes-da-nsa-sai-do-ar-nos-eua/)  
 
-**2. Política de Trump afasta alunos estrangeiros dos EUA e causa prejuízo de US$ 2,4 bilhões, diz associação**  
-notícia `90` · mundo · Brasil · 5 veículos · Folha de S.Paulo  
-Ataques e ameaças feitos por Donald Trump contra estudantes estrangeiros afastam alunos das universidades dos Estados Unidos e custam bilhões de dólares à economia do país, segundo a Nafsa, associação de profissionais americanos dedicados à educação internacio  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/politica-de-trump-afasta-alunos-estrangeiros-dos-eua-e-causa-prejuizo-de-us-24-bilhoes-diz-associacao.shtml)  
-Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/politica-de-trump-afasta-alunos-estrangeiros-dos-eua-e-causa-prejuizo-de-us-24-bilhoes-diz-associacao.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/16/numero-de-estudantes-estrangeiros-em-universidades-dos-eua-cai-9percent-em-meio-a-politicas-migratorias-de-trump.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/16/poltica-de-trump-afasta-alunos-estrangeiros-e-causa-prejuzo-de-us-24-bi-diz-associao-educacional.ghtml) · [InfoMoney](https://www.infomoney.com.br/mercados/estrangeiros-compram-dolar-apos-eleicao-r-6/) · [Poder360](https://www.poder360.com.br/poder-internacional/trump-propoe-regras-mais-rigidas-para-contratar-estrangeiros-nos-eua/)  
+**2. Durigan diz que reforma tributária pode ter 'pequeno impacto' na inflação e quer reduzir tributo sobre a folha de pagamentos**  
+notícia `92` · politica · Brasil · 4 veículos · g1  
+O ministro da Fazenda, Dario Durigan, admitiu nesta terça-feira (17) que a reforma tributária sobre o consumo, cujos efeitos começam em janeiro com o início do imposto federal sobre o consumo, pode gerar um "pequeno impacto" na inflação. Durante audiência públ  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; 7 matérias em 2.11h  
+*Sinais:* corroboração █████████· · recência █████████· · calor ██████████  
+[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/17/durigan-diz-que-reforma-tributaria-pode-ter-pequeno-impacto-na-inflacao-e-quer-reduzir-tributo-sobre-a-folha-de-pagamentos.ghtml)  
+Cobertura: [g1 (3)](https://g1.globo.com/economia/noticia/2026/11/17/durigan-diz-que-reforma-tributaria-pode-ter-pequeno-impacto-na-inflacao-e-quer-reduzir-tributo-sobre-a-folha-de-pagamentos.ghtml) · [Valor Econômico (2)](https://valor.globo.com/brasil/noticia/2026/11/17/durigan-diz-que-reforma-tributaria-pode-ter-pequeno-impacto-na-inflacao.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/macroeconomia/durigan-diz-que-reforma-tributaria-pode-ter-pequeno-impacto-na-inflacao/) · [Poder360](https://www.poder360.com.br/poder-economia/tributaria-pode-provocar-pequeno-impacto-na-inflacao-diz-durigan/)  
 
-**3. Big techs: Câmara deve votar nesta terça projeto que regulamenta mercados digitais; entenda**  
-notícia `90` · politica · Brasil · 6 veículos · g1  
-Depois de mais de um ano, a Câmara dos Deputados deve analisar nesta terça-feira (17) o projeto do governo Lula que cria um órgão dentro do Conselho Administrativo de Defesa Econômica (Cade) que terá a atribuição de regular mercados digitais. A atual versão da  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/17/big-techs-camara-deve-votar-nesta-terca-projeto-que-regulamenta-mercados-digitais-entenda.ghtml)  
-Cobertura: [g1 (5)](https://g1.globo.com/politica/noticia/2026/11/17/big-techs-camara-deve-votar-nesta-terca-projeto-que-regulamenta-mercados-digitais-entenda.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/projeto-de-ajuste-fiscal-vai-na-direcao-correta-e-deve-chegar-a-camara-nesta-semana-diz-alckmin.shtml) · [Valor Econômico (4)](https://valor.globo.com/politica/noticia/2026/11/17/senado-vota-destaques-ao-projeto-de-ajuste-fiscal.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/senado-deve-retomar-hoje-votacao-do-ajuste-fiscal-de-ate-r-56-bilhoes/) · [ge (Globo Esporte)](https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/11/16/com-a-5a-melhor-defesa-da-serie-b-cuiaba-tem-kauan-cristtyan-joao-basso-raul-e-calebe-como-destaques.ghtml) · [Exame](https://exame.com/invest/mercados/ajuste-fiscal-no-senado-durigan-com-investidores-e-falas-do-fed-o-que-move-os-mercados/)  
+**3. Alcolumbre e Motta se reúnem com Moraes e pedem que ministro paute no STF lei que reduz penas de Bolsonaro**  
+notícia `92` · politica · Brasil · 6 veículos · Folha de S.Paulo  
+Os presidentes do Senado , Davi Alcolumbre ( União Brasil -AP), e da Câmara dos Deputados , Hugo Motta ( Republicanos -PB), pediram nesta terça-feira (17) que o ministro Alexandre de Moraes , do STF (Supremo Tribunal Federal), paute a Lei da Dosimetria, que re  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/alcolumbre-e-motta-se-reunem-com-moraes-e-pedem-que-ministro-paute-no-stf-lei-que-reduz-penas-de-bolsonaro.shtml)  
+Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/alcolumbre-e-motta-se-reunem-com-moraes-e-pedem-que-ministro-paute-no-stf-lei-que-reduz-penas-de-bolsonaro.shtml) · [g1 (2)](https://g1.globo.com/politica/noticia/2026/11/17/alcolumbre-e-motta-cobram-de-moraes-julgamento-da-lei-da-dosimetria.ghtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/17/alcolumbre-e-motta-pedem-a-alexandre-de-moraes-julgamento-da-lei-da-dosimetria.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/motta-e-alcolumbre-pedem-a-moraes-celeridade-de-julgamento-sobre-dosimetria/) · [Poder360](https://www.poder360.com.br/poder-congresso/congresso-pede-a-moraes-julgamento-sobre-lei-da-dosimetria/) · [Exame](https://exame.com/brasil/alcolumbre-e-motta-pedem-a-moraes-que-lei-da-dosimetria-seja-julgada-no-stf-ainda-neste-ano/)  
 
-**4. Podcast discute projeto de lei que pode avançar na regulação de big techs no Brasil**  
-notícia `90` · politica · Brasil · 8 veículos · Folha de S.Paulo  
-A Câmara dos Deputados pode analisar nesta semana o PL (projeto de lei) 4.675/2025 , que aumenta o poder do Cade (Conselho Administrativo de Defesa Econômica) sobre as big techs. Nesta terça-feira (17), o deputado Aliel Machado (PV-PR) se reúne com bancadas de  
-*Por que entrou:* 8 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/podcasts/2026/11/podcast-discute-projeto-de-lei-que-pode-avancar-na-regulacao-de-big-techs-no-brasil.shtml)  
-Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/podcasts/2026/11/podcast-discute-projeto-de-lei-que-pode-avancar-na-regulacao-de-big-techs-no-brasil.shtml) · [g1 (2)](https://g1.globo.com/tecnologia/noticia/2026/11/16/eua-vao-restringir-acesso-da-china-a-chips-de-ia-medida-inclui-brasil.ghtml) · [Valor Econômico](https://valor.globo.com/patrocinado/pressworks/noticia/2026/11/16/de-celular-que-vira-relogio-a-pagamentos-por-reconhecimento-da-iris-brasileiros-desenvolvem-tecnologias-nos-eua-1.ghtml) · [CNN Brasil (3)](https://www.cnnbrasil.com.br/politica/entenda-por-que-os-eua-monitoram-o-pl-que-regula-as-big-techs-no-brasil/) · [Euronews (português)](https://pt.euronews.com/2026/11/16/estados-unidos-apertam-regras-sobre-acesso-estrangeiro-a-chips-avancados-de-ia) · [Tecnoblog](https://tecnoblog.net/noticias/eua-impoem-restricoes-ao-brasil-para-compra-de-chips-de-ia/)  
+**4. China diz que restrição de chips dos EUA é exemplo de coerção e promete medidas necessárias**  
+notícia `91` · mundo · Brasil · 6 veículos · Folha de S.Paulo  
+A China afirmou nesta terça-feira (17) que adotará as "medidas necessárias" para defender os seus interesses após os EUA aumentarem as restrições sobre as exportações de chips avançados de IA para o país asiático, Leia mais (11/17/2026 - 10h21)  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/china-diz-que-restricao-de-chips-dos-eua-e-exemplo-de-coercao-e-promete-medidas-necessarias.shtml)  
+Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/china-diz-que-restricao-de-chips-dos-eua-e-exemplo-de-coercao-e-promete-medidas-necessarias.shtml) · [g1 (4)](https://g1.globo.com/tecnologia/noticia/2026/11/17/eua-confirmam-investigacao-sobre-a-megaspeed-por-suposto-desvio-de-chips-para-a-china.ghtml) · [Valor Econômico (3)](https://valor.globo.com/mundo/noticia/2026/11/17/juza-bloqueia-poltica-de-trump-que-restringia-opes-de-trabalho-para-estudantes-estrangeiros.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/bolsas-da-europa-caem-com-novas-restricoes-dos-eua-a-chips/) · [Euronews (português)](https://pt.euronews.com/2026/11/17/russia-arrasta-negociacoes-sobre-a-ucrania-enquanto-europa-e-eua-pressionam-por-dialogo-di) · [Exame](https://exame.com/exame-in/a-linha-vermelha-de-trump-para-os-negocios-do-brasil-com-a-china/)  
 
-**5. O outro fim do mundo: antes de boato de 2026, Brasil teve até abrigo contra 'profecia maia' em 2012**  
-notícia `89` · esporte · Brasil · 5 veículos · g1  
-O boato do fim do mundo em forma de apagão mundial anunciado para esta terça-feira (17) não é o primeiro a assustar a população de diferentes países, incluindo o Brasil. Em 21 de dezembro de 2012, uma interpretação do calendário da civilização maia levou muita  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ████████·· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/17/o-outro-fim-do-mundo-antes-de-boato-de-2026-brasil-teve-ate-abrigo-contra-profecia-maia-em-2012.ghtml)  
-Cobertura: [g1 (5)](https://g1.globo.com/tecnologia/noticia/2026/11/17/o-outro-fim-do-mundo-antes-de-boato-de-2026-brasil-teve-ate-abrigo-contra-profecia-maia-em-2012.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-alcanca-meta-de-turismo-internacional-de-2026) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/giro-exterior-volta-lula-agenda-interna/) · [ge (Globo Esporte) (2)](https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/18-11-2026/coritiba-santos.ghtml) · [Olhar Digital](https://olhardigital.com.br/2026/11/17/colunistas/analise-existe-um-brasil-antes-e-um-depois-do-pix-arthur-igreja/)  
+**5. Meta lança app de compra e venda de produtos usados no Brasil para concorrer com Enjoei**  
+notícia `91` · tecnologia · Brasil · 7 veículos · g1  
+Meta lança app de compra e venda de produtos usados no Brasil para concorrer com Enjoei Divulgação/Meta A Meta, dona do Instagram, do WhatsApp e do Facebook, lançou nesta terça-feira (17) um aplicativo de compra e venda de produtos usados para concorrer com o   
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/17/meta-lanca-app-de-compra-e-venda-de-produtos-usados-no-brasil-para-concorrer-com-enjoei.ghtml)  
+Cobertura: [g1 (3)](https://g1.globo.com/tecnologia/noticia/2026/11/17/meta-lanca-app-de-compra-e-venda-de-produtos-usados-no-brasil-para-concorrer-com-enjoei.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-alcanca-meta-de-turismo-internacional-de-2026) · [ge (Globo Esporte) (2)](https://ge.globo.com/ba/futebol/jogo/27-11-2026/costa-rica-brasil-mundial-sub-17.ghtml) · [Exame](https://exame.com/tecnologia/meta-lanca-achados-brasil-app-facebook-instagram/) · [Tecnoblog](https://tecnoblog.net/noticias/meta-lanca-achados-app-para-comprar-e-vender-itens-no-brasil/) · [TecMundo](https://www.estadao.com.br/tecmundo/produto-e-review/meta-lanca-novo-aplicativo-achados/)  
 
-**6. Dinamarca acolhe campeonato europeu de Tetris clássico vencido por holandesa**  
-notícia `63` · esporte · Mundo · 1 veículo · Euronews (português)  
-Mais de 40 jogadores disputam o Campeonato Europeu de Tetris na Dinamarca, onde a neerlandesa Eve Commandeur vence a britânica Sam Vaughn na final  
-*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência ██████████ · calor ████······  
-[Ler na fonte](https://pt.euronews.com/video/2026/11/17/dinamarca-acolhe-campeonato-europeu-de-tetris-classico-vencido-por-holandesa)  
+**6. Novo dia de greve nacional na França deve parar escolas, transportes e serviços públicos**  
+notícia `64` · economia · Mundo · 2 veículos · RFI Brasil  
+Após as greves nacionais de 29 de setembro e 5 de novembro, a frente sindical formada pelas principais centrais trabalhistas da França convocou uma nova jornada nacional contra o alto custo de vida. A mobilização acontece nesta terça-feira (17). A CGT, a princ  
+*Por que entrou:* 2 veículos cobrindo; ainda fresca; fonte RFI Brasil  
+*Sinais:* corroboração ██████···· · recência ███████··· · calor ████······  
+[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261116-novo-dia-de-greve-nacional-na-fran%C3%A7a-deve-parar-escolas-transportes-e-servi%C3%A7os-p%C3%BAblicos)  
+Cobertura: [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261116-novo-dia-de-greve-nacional-na-fran%C3%A7a-deve-parar-escolas-transportes-e-servi%C3%A7os-p%C3%BAblicos) · [Euronews (português)](https://pt.euronews.com/2026/11/17/franca-nova-greve-da-funcao-publica-por-aumentos-em-plena-discussao-do-orcamento)  
 
 ## Reserva (não entrou hoje)
 
-- `89` Grupo de países europeus acelera acordo para deportar imigrantes rejeitados para Ruanda — *cota de mundo cheia*
-- `88` EUA e China devem discutir restrição de exportação de chips no encontro entre Trump e Xi — *cota de mundo cheia*
-- `88` Regulação concorrencial de plataformas digitais não é censura — *cota de politica cheia*
-- `86` TV na Black Friday: entenda as diferenças tecnológicas antes de comprar um televisor novo — *ficou fora do corte*
-- `85` Rússia atinge duas pontes em Kiev, na Ucrânia; ataques causam cortes de água e energia — *ficou fora do corte*
-- `85` Caso Master completa um ano com Vorcaro preso, expectativa de denúncia e crise no STF — *ficou fora do corte*
-- `85` 'Meu nome é Pattinson, Robert Pattinson': como o astro de Crepúsculo virou o novo James Bond, o — *ficou fora do corte*
-- `84` São Paulo pode ter calor de 28°C e chuva passageira nesta terça (17) — *ficou fora do corte*
+- `91` Huang diz que se 'arrepende profundamente' de erros e que aceitaria volta à Nvidia — *cota de mundo cheia*
+- `90` Na expectativa de votar ajuste fiscal na Câmara, governo retira urgência de projeto sobre crimi — *ficou fora do corte*
+- `89` Resumão diário #2234: EUA perde status de país livre do sarampo após 26 anos; Ministério da Saú — *ficou fora do corte*
+- `89` De Batman a James Bond: as pistas sobre o que esperar do 007 de Robert Pattinson — *ficou fora do corte*
+- `89` União Europeia adia votação e mantém veto a frango e mel importados do Brasil — *ficou fora do corte*
+- `88` UE diz que Temu falhou em combater venda de produtos ilegais após investigação preliminar — *ficou fora do corte*
+- `88` Vladimir Putin chega à China para reunião trilateral com Xi Jiping e Trump — *ficou fora do corte*
+- `86` Relator vai mudar proposta que regula big techs para restringir empresas fiscalizadas pelo Cade — *ficou fora do corte*
 
 ## Fontes que não responderam
 
