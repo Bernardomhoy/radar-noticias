@@ -1,77 +1,80 @@
 # Radar de Notícias — 2026-11-16
-*Fechado às 14:23 (horário de Brasília) · 972 matérias lidas · 636 pautas identificadas · 18 fontes ativas*
+*Fechado às 22:02 (horário de Brasília) · 1051 matérias lidas · 626 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Robert Pattinson será o novo James Bond da saga '007'; veja o vídeo de anúncio**  
-notícia `97` · cultura · Brasil · 6 veículos · Folha de S.Paulo  
-Robert Pattinson será o novo James Bond , espião da saga " 007 ". A informação foi divulgada no Instagram oficial da franquia, que confirmou o ator como o novo intérprete do personagem, depois de uma disputa que envolveu nomes como Josh O'Connor , de "Rivais",  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; 7 matérias em 1.76h  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ██████████  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ilustrada/2026/11/robert-pattinson-sera-o-novo-james-bond-da-franquia-007.shtml)  
-Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ilustrada/2026/11/robert-pattinson-sera-o-novo-james-bond-da-franquia-007.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c8wy53qwzn4no?at_medium=RSS&at_campaign=rss) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/pop/cinema/robert-pattinson-e-o-novo-007-quem-eram-os-outros-atores-cotados/) · [Euronews (português)](https://pt.euronews.com/2026/11/16/robert-pattinson-e-anunciado-como-novo-james-bond-007) · [Canaltech](https://canaltech.com.br/entretenimento/acabou-o-misterio-robert-pattinson-e-oficialmente-o-novo-james-bond/) · [Olhar Digital](https://olhardigital.com.br/2026/11/16/cinema-e-streaming/robert-pattinson-e-confirmado-como-o-novo-james-bond-da-franquia-007/)  
-
-**2. Receita relata apreensão de R$ 581 milhões em mercadorias e drogas na fronteira**  
-notícia `96` · economia · Brasil · 6 veículos · Folha de S.Paulo  
-A Receita Federal relatou ter apreendido R$ 581 milhões em mercadorias contrabandeadas e drogas na última edição da Operação Fronteira, realizada entre os dias 3 e 13 de novembro. Leia mais (11/16/2026 - 11h58)  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; 8 matérias em 2.75h  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
-> ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/receita-relata-apreensao-de-r-581-milhoes-em-mercadorias-e-drogas-na-fronteira.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/receita-relata-apreensao-de-r-581-milhoes-em-mercadorias-e-drogas-na-fronteira.shtml) · [g1 (2)](https://g1.globo.com/economia/noticia/2026/11/16/receita-federal-apreende-r-581-milhoes-em-operacao-de-combate-ao-trafico-de-drogas-e-ao-contrabando.ghtml) · [Valor Econômico](https://valor.globo.com/brasil/noticia/2026/11/16/operacao-da-receita-federal-apreende-r-581-mi-em-mercadorias-e-drogas.ghtml) · [InfoMoney](https://www.infomoney.com.br/brasil/operacao-fronteira-apreendeu-r-581-milhoes-em-mercadorias-e-entorpecentes-em-2026/) · [CNN Brasil](https://www.cnnbrasil.com.br/nacional/brasil/operacao-fronteira-2026-apreende-r-581-milhoes-em-contrabando-e-drogas/) · [Poder360](https://www.poder360.com.br/poder-economia/operacao-fronteira-apreende-r-581-mi-em-mercadorias-e-drogas/)  
-
-**3. Morgan Stanley rebaixa recomendação para Bolsa brasileira e prevê queda de 7%**  
-notícia `94` · economia · Brasil · 4 veículos · Folha de S.Paulo  
-O banco Morgan Stanley rebaixou sua recomendação para a Bolsa de Valores brasileira neste ano de neutra para abaixo da média. Segundo relatório divulgado no domingo (15), o Ibovespa pode encerrar o próximo ano aos 160 mil pontos, queda de cerca de 7% em relaçã  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; 6 matérias em 1.76h  
-*Sinais:* corroboração █████████· · recência ██████████ · calor ██████████  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/morgan-stanley-rebaixa-recomendacao-para-bolsa-brasileira-e-preve-queda-de-7.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/morgan-stanley-rebaixa-recomendacao-para-bolsa-brasileira-e-preve-queda-de-7.shtml) · [Valor Econômico (2)](https://valor.globo.com/conteudo-de-marca/jp-morgan/noticia/2026/11/16/jp-morgan-aposta-na-tesouraria-em-tempo-real-no-brasil.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/morgan-stanley-rebaixa-recomendacao-para-bolsa-brasileira/) · [Poder360](https://www.poder360.com.br/poder-economia/morgan-stanley-ve-brasil-como-pior-mercado-da-america-latina-em-2027/)  
-
-**4. Moraes nega visitas de Tereza Cristina, Rogério Marinho e Valdemar a Bolsonaro**  
-notícia `94` · politica · Brasil · 5 veículos · Folha de S.Paulo  
-O ministro Alexandre de Moraes, do STF (Supremo Tribunal Federal), negou nesta segunda-feira (16) um pedido feito pela defesa de Jair Bolsonaro ( PL ) para autorizar visitas dos senadores Rogério Marinho (PL-RN) e Tereza Cristina (PP-MS) e do presidente do PL,  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+**1. Resumão diário do JN: Incertezas sobre a política fiscal aumentam tensão no mercado financeiro; EUA restringem o acesso do Brasil a chips avançados de IA**  
+notícia `95` · tecnologia · Brasil · 14 veículos · g1  
+Você pode ouvir o Resumão Diário no g1, na playlist Caminho Diário, do Spotify, no Castbox, no Google Podcasts, no Apple Podcasts, no Deezer ou no aplicativo de sua preferência. Siga o Resumão Diário no seu agregador de áudio favorito para ser avisado sempre q  
+*Por que entrou:* 14 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/moraes-nega-visitas-de-tereza-cristina-rogerio-marinho-e-valdemar-a-bolsonaro.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/moraes-nega-visitas-de-tereza-cristina-rogerio-marinho-e-valdemar-a-bolsonaro.shtml) · [g1](https://g1.globo.com/politica/noticia/2026/11/16/moraes-nega-pedido-de-bolsonaro-para-receber-valdemar-e-os-pre-candidatos-a-presidencia-do-senado-marinho-e-tereza.ghtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/16/moraes-rejeita-pedido-de-bolsonaro-para-receber-visitas-de-costa-neto-marinho-e-tereza-cristina.ghtml) · [InfoMoney](https://www.infomoney.com.br/politica/tereza-cristina-diz-que-seguro-rural-poderia-resolver-boa-parte-dos-problemas-do-agro/) · [Poder360](https://www.poder360.com.br/poder-congresso/tereza-cristina-diz-que-decidira-senado-com-marinho-sem-vaidades/)  
+[Ler na fonte](https://g1.globo.com/jornal-nacional/noticia/2026/11/16/resumao-diario-do-jn-incertezas-sobre-a-politica-fiscal-aumentam-tensao-no-mercado-financeiro-eua-restringem-o-acesso-do-brasil-a-chips-avancados-de-ia.ghtml)  
+Cobertura: [g1 (14)](https://g1.globo.com/jornal-nacional/noticia/2026/11/16/resumao-diario-do-jn-incertezas-sobre-a-politica-fiscal-aumentam-tensao-no-mercado-financeiro-eua-restringem-o-acesso-do-brasil-a-chips-avancados-de-ia.ghtml) · [Folha de S.Paulo (12)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/vera-iaconelli/2026/11/e-o-brasileiro-quem-e.shtml) · [Valor Econômico (5)](https://valor.globo.com/patrocinado/pressworks/noticia/2026/11/16/de-celular-que-vira-relogio-a-pagamentos-por-reconhecimento-da-iris-brasileiros-desenvolvem-tecnologias-nos-eua-1.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-alcanca-meta-de-turismo-internacional-de-2026) · [InfoMoney](https://www.infomoney.com.br/mercados/bbas3-governo-avalia-mudanca-no-comando-do-banco-do-brasil-apos-queda-nos-lucros/) · [RFI Brasil (4)](https://www.rfi.fr/br/podcasts/o-mundo-agora/20261116-voto-sobre-frango-brasileiro-na-ue-antecipa-pol%C3%ADtica-comercial-francesa-em-caso-de-vit%C3%B3ria-de-le-pen)  
 
-**5. Resumão diário #2232: Sequência de ataques a tiros no RS deixa 8 mortos; Anvisa manda apreender marcas de percarbonato; Prazo para pagar pedágio atrasado do free flow acaba hoje; Anitta é indicada ao Grammy 2027 e mais**  
-notícia `93` · cultura · Brasil · 6 veículos · g1  
-Polícia do Rio Grande do Sul investiga onda de ataques a tiros que deixou oito mortos e cinco feridos entre a noite de ontem e a madrugada de hoje em Porto Alegre, e na cidade vizinha de Alvorada. Anvisa proíbe a fabricação, a venda e o uso de duas marcas de p  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**2. Falha em sistema da United Airlines atrasa voos nos EUA três dias após pane no país**  
+notícia `93` · mundo · Brasil · 8 veículos · Folha de S.Paulo  
+A United Airlines informou nesta segunda-feira (16) que solucionou um problema tecnológico que afetou decolagens da empresa nos Estados Unidos . O caso surge poucos dias após uma falha no controle de tráfego aéreo em todo o país causar transtornos generalizado  
+*Por que entrou:* 8 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
-[Ler na fonte](https://g1.globo.com/podcast/resumao-diario/noticia/2026/11/16/resumao-diario-2232-sequencia-de-ataques-a-tiros-no-rs-deixa-8-mortos-anvisa-manda-apreender-marcas-de-percarbonato-prazo-para-pagar-pedagio-atrasado-do-free-flow-acaba-hoje-anitta-e-indicada-ao-grammy-2027-e-mais.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/podcast/resumao-diario/noticia/2026/11/16/resumao-diario-2232-sequencia-de-ataques-a-tiros-no-rs-deixa-8-mortos-anvisa-manda-apreender-marcas-de-percarbonato-prazo-para-pagar-pedagio-atrasado-do-free-flow-acaba-hoje-anitta-e-indicada-ao-grammy-2027-e-mais.ghtml) · [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/equilibrioesaude/2026/11/anvisa-apreende-e-proibe-tira-manchas-de-percarbonato-sodio-veja-marcas.shtml) · [InfoMoney](https://www.infomoney.com.br/consumo/apos-vitoria-no-grammy-latino-anitta-concorre-ao-grammy-2027-com-equilibrivm/) · [CNN Brasil (3)](https://www.cnnbrasil.com.br/pop/musica/grammy-2027-qual-album-indicado-e-mais-popular-nas-buscas/) · [Euronews (português)](https://pt.euronews.com/2026/11/16/grammy-2027-raye-e-rosalia-lideram-corrida-com-11-e-9-nomeacoes) · [Exame (3)](https://exame.com/pop/grammy-2027-quem-sao-os-artistas-indicados-pela-primeira-vez/)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/falha-em-sistema-da-united-airlines-atrasa-voos-nos-eua-tres-dias-apos-pane-no-pais.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/falha-em-sistema-da-united-airlines-atrasa-voos-nos-eua-tres-dias-apos-pane-no-pais.shtml) · [g1 (3)](https://g1.globo.com/mundo/noticia/2026/11/16/united-airlines-enfrenta-falha-generalizada.ghtml) · [Valor Econômico (3)](https://valor.globo.com/empresas/noticia/2026/11/16/united-airlines-enfrenta-pane-tecnolgica-dias-aps-apago-no-controle-areo-dos-eua.ghtml) · [InfoMoney (2)](https://www.infomoney.com.br/mundo/united-airlines-afirma-que-falha-tecnica-que-atrasou-partidas-foi-resolvida/) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/united-airlines-diz-que-enfrenta-falha-sistemica-generalizada/) · [Poder360](https://www.poder360.com.br/poder-internacional/united-airlines-tem-falha-em-sistema-3-dias-apos-apagao-aereo-nos-eua/)  
 
-**6. ONU pede acordo para limitar armas autônomas letais, os chamados 'robôs assassinos'**  
-notícia `76` · mundo · Mundo · 2 veículos · RFI Brasil  
-O secretário-geral da ONU, António Guterres, pediu nesta segunda-feira (16) que os países iniciem negociações para criar um acordo juridicamente vinculante sobre armas autônomas letais, conhecidas como "robôs assassinos". O apelo foi feito na abertura da sétim  
-*Por que entrou:* publicada nas últimas horas; 2 veículos cobrindo; fonte RFI Brasil  
-*Sinais:* corroboração ██████···· · recência ██████████ · calor ██████····  
-[Ler na fonte](https://www.rfi.fr/br/mundo/20261116-onu-pede-acordo-para-limitar-armas-aut%C3%B4nomas-letais-os-chamados-rob%C3%B4s-assassinos)  
-Cobertura: [RFI Brasil](https://www.rfi.fr/br/mundo/20261116-onu-pede-acordo-para-limitar-armas-aut%C3%B4nomas-letais-os-chamados-rob%C3%B4s-assassinos) · [Euronews (português)](https://pt.euronews.com/2026/11/16/paises-na-onu-avaliam-inicio-de-negociacoes-sobre-robos-assassinos)  
+**3. Conselho da Nvidia descarta retorno de Jensen Huang ao comando**  
+notícia `91` · mundo · Brasil · 9 veículos · Folha de S.Paulo  
+O conselho de administração da Nvidia não considera reconduzir Jensen Huang ao cargo de presidente-executivo da empresa, segundo pessoas familiarizadas com o assunto, apesar de Donald Trump ter afirmado que estaria aberto à possibilidade após o executivo de te  
+*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/conselho-da-nvidia-descarta-retorno-de-jensen-huang-ao-comando.shtml)  
+Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/conselho-da-nvidia-descarta-retorno-de-jensen-huang-ao-comando.shtml) · [g1 (8)](https://g1.globo.com/tecnologia/noticia/2026/11/16/musk-e-nomes-de-peso-da-tecnologia-defendem-volta-de-ex-ceo-da-nvidia.ghtml) · [Valor Econômico (4)](https://valor.globo.com/empresas/noticia/2026/11/16/jensen-huang-transferiu-bilhes-de-dlares-em-aes-da-nvidia-para-herdeiros-meses-antes-da-queda.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cm4gn9ly3qq6o?at_medium=RSS&at_campaign=rss) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/nvidia-descarta-volta-de-huang-apos-campanha-para-retorno-dizem-fontes/) · [Euronews (português)](https://pt.euronews.com/2026/11/16/estados-unidos-trump-admite-regresso-de-jensen-huang-a-lideranca-da-nvidia)  
+
+**4. Senado vota pacote do governo de ajuste das contas; falta analisar 4 propostas para alterar o texto principal**  
+notícia `90` · politica · Brasil · 5 veículos · g1  
+Senado deve concluir na terça=feira (17) votação do pacote de ajuste fiscal O Senado deve concluir nesta terça-feira (17) a votação do pacote do governo de ajuste das contas. Uma das propostas é retirar do texto a restrição ao uso de créditos pelas empresas pa  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/jornal-nacional/noticia/2026/11/16/senado-vota-pacote-do-governo-de-ajuste-das-contas-falta-analisar-4-propostas-para-alterar-o-texto-principal.ghtml)  
+Cobertura: [g1 (5)](https://g1.globo.com/jornal-nacional/noticia/2026/11/16/senado-vota-pacote-do-governo-de-ajuste-das-contas-falta-analisar-4-propostas-para-alterar-o-texto-principal.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/projeto-de-ajuste-fiscal-vai-na-direcao-correta-e-deve-chegar-a-camara-nesta-semana-diz-alckmin.shtml) · [Valor Econômico (2)](https://valor.globo.com/politica/noticia/2026/11/16/governo-tem-votos-para-barrar-destaques-ao-projeto-de-ajuste-fiscal-diz-lider-no-senado.ghtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/economia/money/macroeconomia/alckmin-diz-nao-haver-motivo-para-oscilacoes-do-mercado-apos-ajuste-fiscal/) · [Poder360](https://www.poder360.com.br/poder-economia/alckmin-minimiza-reacao-negativa-do-mercado-com-pacote-fiscal/)  
+
+**5. Lula vs. esquerda radical**  
+notícia `90` · politica · Brasil · 7 veículos · Folha de S.Paulo  
+Há muito o que se criticar no plano Moretti : primeiro, o impacto. Os R$ 56 bilhões previstos pelo governo são um pouco maiores que os R$ 40 bilhões de gastos prometidos na campanha, e o superávit que sobra depende das previsões otimistas do governo quanto às   
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/joel-pinheiro-da-fonseca/2026/11/lula-vs-esquerda-radical.shtml)  
+Cobertura: [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/joel-pinheiro-da-fonseca/2026/11/lula-vs-esquerda-radical.shtml) · [g1 (3)](https://g1.globo.com/politica/noticia/2026/11/16/corte-de-gastos-regulacao-da-6x1-e-equipe-do-novo-governo-o-que-espera-lula-na-volta-de-giro-internacional.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c5n49ln0l4xeo?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/lula-quer-ampliar-relacoes-comerciais-com-paises-da-asean) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/lula-retoma-indicacao-ao-stf-e-sabatina-deve-acontecer-em-dezembro/) · [Exame](https://exame.com/invest/mercados/ibovespa-cai-18-com-desconfianca-sobre-ajuste-fiscal-de-lula-ny-recua-com-temor-sobre-ia/)  
+
+**6. Novo dia de greve nacional na França deve parar escolas, transportes e serviços públicos**  
+notícia `64` · mundo · Mundo · 2 veículos · RFI Brasil  
+Após as greves nacionais de 29 de setembro e 5 de novembro, a frente sindical formada pelas principais centrais trabalhistas da França convocou uma nova jornada nacional contra o alto custo de vida. A mobilização acontece nesta terça-feira (17). A CGT, a princ  
+*Por que entrou:* 2 veículos cobrindo; ainda fresca; fonte RFI Brasil  
+*Sinais:* corroboração ██████···· · recência ███████··· · calor █████·····  
+[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261116-novo-dia-de-greve-nacional-na-fran%C3%A7a-deve-parar-escolas-transportes-e-servi%C3%A7os-p%C3%BAblicos)  
+Cobertura: [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261116-novo-dia-de-greve-nacional-na-fran%C3%A7a-deve-parar-escolas-transportes-e-servi%C3%A7os-p%C3%BAblicos) · [Euronews (português)](https://pt.euronews.com/video/2026/11/16/franca-marinha-interceta-semissubmersivel-sem-nacionalidade-com-cocaina-no-atlantico)  
 
 ## Reserva (não entrou hoje)
 
-- `92` Warren Buffett doa quase US$ 5,5 bilhões em ações para quatro fundações — *ficou fora do corte*
-- `92` Dólar atinge R$ 5,78 e Bolsa recua com 'plano Moretti' de ajuste fiscal no radar — *ficou fora do corte*
-- `92` Musk e nomes de peso da tecnologia defendem volta de Jensen Huang ao comando da Nvidia — *ficou fora do corte*
-- `91` Lula se reúne com Sánchez em Madri a dias da eleição na Espanha — *ficou fora do corte*
-- `90` EUA incluem Brasil em lista de países com restrições para comprar chips para data centers — *ficou fora do corte*
-- `90` Fachin diz que reforma não pode ser 'contra o Judiciário' e defende diálogo entre Poderes — *ficou fora do corte*
-- `89` Trump diz que poderá se reunir com Kim Jong-un durante viagem à China nesta semana — *ficou fora do corte*
-- `89` Trump diz que 'não se importaria' que Jensen Huang voltasse a dirigir a Nvidia — *ficou fora do corte*
+- `90` Regulação concorrencial das big techs pode reduzir custos em até R$ 50 bi ao ano, projeta Fazen — *cota de politica cheia*
+- `88` Black Friday: comércio do Vale do Paraíba e Litoral Norte espera vender 4% a mais em 2026 — *ficou fora do corte*
+- `88` Governo Trump defende mais restrições para trabalhadores estrangeiros permanentes nos EUA; medi — *ficou fora do corte*
+- `87` Falha técnica afeta serviços de grandes bancos dos Estados Unidos — *ficou fora do corte*
+- `87` Califórnia processa OpenAI por ciberataques de modelos de IA contra Hugging Face e outras empre — *ficou fora do corte*
+- `87` Xi, Trump e Putin: China diz que líderes falarão sobre 'paz mundial' em reunião trilateral na q — *ficou fora do corte*
+- `86` PagBank aumenta atividade bancária e lucro sobe 7%, para R$ 611 milhões — *ficou fora do corte*
+- `82` Defesa de Vorcaro faz novo pedido para que Gilmar decida sobre relatoria do caso Master — *ficou fora do corte*
+
+## Já foi pauta nos últimos dias
+
+- Lotofácil 3831: onze apostas de MT acertam 14 números e ganham até R$ 2,6 mil — *ja foi pauta em 2026-11-13*
 
 ## Fontes que não responderam
 
-- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Estadão: `HTTP 404`
-- CNN Brasil Internacional: `HTTP 404`
+- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Nexo Jornal: `HTTP 404`
+- CNN Brasil Internacional: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
