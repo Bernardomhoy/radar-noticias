@@ -1,78 +1,72 @@
-# Radar de Notícias — 2026-11-16
-*Fechado às 22:02 (horário de Brasília) · 1051 matérias lidas · 626 pautas identificadas · 18 fontes ativas*
+# Radar de Notícias — 2026-11-17
+*Fechado às 06:05 (horário de Brasília) · 1053 matérias lidas · 666 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Resumão diário do JN: Incertezas sobre a política fiscal aumentam tensão no mercado financeiro; EUA restringem o acesso do Brasil a chips avançados de IA**  
-notícia `95` · tecnologia · Brasil · 14 veículos · g1  
-Você pode ouvir o Resumão Diário no g1, na playlist Caminho Diário, do Spotify, no Castbox, no Google Podcasts, no Apple Podcasts, no Deezer ou no aplicativo de sua preferência. Siga o Resumão Diário no seu agregador de áudio favorito para ser avisado sempre q  
-*Por que entrou:* 14 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/jornal-nacional/noticia/2026/11/16/resumao-diario-do-jn-incertezas-sobre-a-politica-fiscal-aumentam-tensao-no-mercado-financeiro-eua-restringem-o-acesso-do-brasil-a-chips-avancados-de-ia.ghtml)  
-Cobertura: [g1 (14)](https://g1.globo.com/jornal-nacional/noticia/2026/11/16/resumao-diario-do-jn-incertezas-sobre-a-politica-fiscal-aumentam-tensao-no-mercado-financeiro-eua-restringem-o-acesso-do-brasil-a-chips-avancados-de-ia.ghtml) · [Folha de S.Paulo (12)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/vera-iaconelli/2026/11/e-o-brasileiro-quem-e.shtml) · [Valor Econômico (5)](https://valor.globo.com/patrocinado/pressworks/noticia/2026/11/16/de-celular-que-vira-relogio-a-pagamentos-por-reconhecimento-da-iris-brasileiros-desenvolvem-tecnologias-nos-eua-1.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-alcanca-meta-de-turismo-internacional-de-2026) · [InfoMoney](https://www.infomoney.com.br/mercados/bbas3-governo-avalia-mudanca-no-comando-do-banco-do-brasil-apos-queda-nos-lucros/) · [RFI Brasil (4)](https://www.rfi.fr/br/podcasts/o-mundo-agora/20261116-voto-sobre-frango-brasileiro-na-ue-antecipa-pol%C3%ADtica-comercial-francesa-em-caso-de-vit%C3%B3ria-de-le-pen)  
+**1. Bilionários do Vale do Silício se mobilizam pela volta de Jensen Huang à Nvidia**  
+notícia `90` · mundo · Brasil · 10 veículos · Folha de S.Paulo  
+Bilionários do Vale do Silício se mobilizaram pedindo a volta de Jensen Huang à presidência da Nvidia . Investidores como David Sacks, ex-czar de IA da Casa Branca, e Brad Gerstner, que administra mais de US$ 20 bilhões em capital de risco, afirmaram que não h  
+*Por que entrou:* 10 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/bilionarios-do-vale-do-silicio-se-mobilizam-pela-volta-de-jensen-huang-a-nvidia.shtml)  
+Cobertura: [Folha de S.Paulo (6)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/bilionarios-do-vale-do-silicio-se-mobilizam-pela-volta-de-jensen-huang-a-nvidia.shtml) · [g1 (6)](https://g1.globo.com/tecnologia/noticia/2026/11/16/musk-e-nomes-de-peso-da-tecnologia-defendem-volta-de-ex-ceo-da-nvidia.ghtml) · [Valor Econômico](https://valor.globo.com/empresas/noticia/2026/11/17/trump-defende-huang-mas-nvidia-nao-quer-ceo-de-volta.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/nvidia-descarta-volta-de-huang-apos-campanha-para-retorno-dizem-fontes/) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/17/nvidia-afasta-regresso-de-jensen-huang-a-lideranca-apesar-do-apoio-de-trump) · [Poder360](https://www.poder360.com.br/poder-tech/nvidia-nega-retorno-de-jensen-huang-ao-cargo-de-ceo-diz-agencia/)  
 
-**2. Falha em sistema da United Airlines atrasa voos nos EUA três dias após pane no país**  
-notícia `93` · mundo · Brasil · 8 veículos · Folha de S.Paulo  
-A United Airlines informou nesta segunda-feira (16) que solucionou um problema tecnológico que afetou decolagens da empresa nos Estados Unidos . O caso surge poucos dias após uma falha no controle de tráfego aéreo em todo o país causar transtornos generalizado  
+**2. Política de Trump afasta alunos estrangeiros dos EUA e causa prejuízo de US$ 2,4 bilhões, diz associação**  
+notícia `90` · mundo · Brasil · 5 veículos · Folha de S.Paulo  
+Ataques e ameaças feitos por Donald Trump contra estudantes estrangeiros afastam alunos das universidades dos Estados Unidos e custam bilhões de dólares à economia do país, segundo a Nafsa, associação de profissionais americanos dedicados à educação internacio  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/politica-de-trump-afasta-alunos-estrangeiros-dos-eua-e-causa-prejuizo-de-us-24-bilhoes-diz-associacao.shtml)  
+Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/politica-de-trump-afasta-alunos-estrangeiros-dos-eua-e-causa-prejuizo-de-us-24-bilhoes-diz-associacao.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/16/numero-de-estudantes-estrangeiros-em-universidades-dos-eua-cai-9percent-em-meio-a-politicas-migratorias-de-trump.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/16/poltica-de-trump-afasta-alunos-estrangeiros-e-causa-prejuzo-de-us-24-bi-diz-associao-educacional.ghtml) · [InfoMoney](https://www.infomoney.com.br/mercados/estrangeiros-compram-dolar-apos-eleicao-r-6/) · [Poder360](https://www.poder360.com.br/poder-internacional/trump-propoe-regras-mais-rigidas-para-contratar-estrangeiros-nos-eua/)  
+
+**3. Big techs: Câmara deve votar nesta terça projeto que regulamenta mercados digitais; entenda**  
+notícia `90` · politica · Brasil · 6 veículos · g1  
+Depois de mais de um ano, a Câmara dos Deputados deve analisar nesta terça-feira (17) o projeto do governo Lula que cria um órgão dentro do Conselho Administrativo de Defesa Econômica (Cade) que terá a atribuição de regular mercados digitais. A atual versão da  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/17/big-techs-camara-deve-votar-nesta-terca-projeto-que-regulamenta-mercados-digitais-entenda.ghtml)  
+Cobertura: [g1 (5)](https://g1.globo.com/politica/noticia/2026/11/17/big-techs-camara-deve-votar-nesta-terca-projeto-que-regulamenta-mercados-digitais-entenda.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/projeto-de-ajuste-fiscal-vai-na-direcao-correta-e-deve-chegar-a-camara-nesta-semana-diz-alckmin.shtml) · [Valor Econômico (4)](https://valor.globo.com/politica/noticia/2026/11/17/senado-vota-destaques-ao-projeto-de-ajuste-fiscal.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/senado-deve-retomar-hoje-votacao-do-ajuste-fiscal-de-ate-r-56-bilhoes/) · [ge (Globo Esporte)](https://ge.globo.com/mt/futebol/times/cuiaba/noticia/2026/11/16/com-a-5a-melhor-defesa-da-serie-b-cuiaba-tem-kauan-cristtyan-joao-basso-raul-e-calebe-como-destaques.ghtml) · [Exame](https://exame.com/invest/mercados/ajuste-fiscal-no-senado-durigan-com-investidores-e-falas-do-fed-o-que-move-os-mercados/)  
+
+**4. Podcast discute projeto de lei que pode avançar na regulação de big techs no Brasil**  
+notícia `90` · politica · Brasil · 8 veículos · Folha de S.Paulo  
+A Câmara dos Deputados pode analisar nesta semana o PL (projeto de lei) 4.675/2025 , que aumenta o poder do Cade (Conselho Administrativo de Defesa Econômica) sobre as big techs. Nesta terça-feira (17), o deputado Aliel Machado (PV-PR) se reúne com bancadas de  
 *Por que entrou:* 8 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/falha-em-sistema-da-united-airlines-atrasa-voos-nos-eua-tres-dias-apos-pane-no-pais.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/falha-em-sistema-da-united-airlines-atrasa-voos-nos-eua-tres-dias-apos-pane-no-pais.shtml) · [g1 (3)](https://g1.globo.com/mundo/noticia/2026/11/16/united-airlines-enfrenta-falha-generalizada.ghtml) · [Valor Econômico (3)](https://valor.globo.com/empresas/noticia/2026/11/16/united-airlines-enfrenta-pane-tecnolgica-dias-aps-apago-no-controle-areo-dos-eua.ghtml) · [InfoMoney (2)](https://www.infomoney.com.br/mundo/united-airlines-afirma-que-falha-tecnica-que-atrasou-partidas-foi-resolvida/) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/united-airlines-diz-que-enfrenta-falha-sistemica-generalizada/) · [Poder360](https://www.poder360.com.br/poder-internacional/united-airlines-tem-falha-em-sistema-3-dias-apos-apagao-aereo-nos-eua/)  
-
-**3. Conselho da Nvidia descarta retorno de Jensen Huang ao comando**  
-notícia `91` · mundo · Brasil · 9 veículos · Folha de S.Paulo  
-O conselho de administração da Nvidia não considera reconduzir Jensen Huang ao cargo de presidente-executivo da empresa, segundo pessoas familiarizadas com o assunto, apesar de Donald Trump ter afirmado que estaria aberto à possibilidade após o executivo de te  
-*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/conselho-da-nvidia-descarta-retorno-de-jensen-huang-ao-comando.shtml)  
-Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/conselho-da-nvidia-descarta-retorno-de-jensen-huang-ao-comando.shtml) · [g1 (8)](https://g1.globo.com/tecnologia/noticia/2026/11/16/musk-e-nomes-de-peso-da-tecnologia-defendem-volta-de-ex-ceo-da-nvidia.ghtml) · [Valor Econômico (4)](https://valor.globo.com/empresas/noticia/2026/11/16/jensen-huang-transferiu-bilhes-de-dlares-em-aes-da-nvidia-para-herdeiros-meses-antes-da-queda.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cm4gn9ly3qq6o?at_medium=RSS&at_campaign=rss) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/nvidia-descarta-volta-de-huang-apos-campanha-para-retorno-dizem-fontes/) · [Euronews (português)](https://pt.euronews.com/2026/11/16/estados-unidos-trump-admite-regresso-de-jensen-huang-a-lideranca-da-nvidia)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/podcasts/2026/11/podcast-discute-projeto-de-lei-que-pode-avancar-na-regulacao-de-big-techs-no-brasil.shtml)  
+Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/podcasts/2026/11/podcast-discute-projeto-de-lei-que-pode-avancar-na-regulacao-de-big-techs-no-brasil.shtml) · [g1 (2)](https://g1.globo.com/tecnologia/noticia/2026/11/16/eua-vao-restringir-acesso-da-china-a-chips-de-ia-medida-inclui-brasil.ghtml) · [Valor Econômico](https://valor.globo.com/patrocinado/pressworks/noticia/2026/11/16/de-celular-que-vira-relogio-a-pagamentos-por-reconhecimento-da-iris-brasileiros-desenvolvem-tecnologias-nos-eua-1.ghtml) · [CNN Brasil (3)](https://www.cnnbrasil.com.br/politica/entenda-por-que-os-eua-monitoram-o-pl-que-regula-as-big-techs-no-brasil/) · [Euronews (português)](https://pt.euronews.com/2026/11/16/estados-unidos-apertam-regras-sobre-acesso-estrangeiro-a-chips-avancados-de-ia) · [Tecnoblog](https://tecnoblog.net/noticias/eua-impoem-restricoes-ao-brasil-para-compra-de-chips-de-ia/)  
 
-**4. Senado vota pacote do governo de ajuste das contas; falta analisar 4 propostas para alterar o texto principal**  
-notícia `90` · politica · Brasil · 5 veículos · g1  
-Senado deve concluir na terça=feira (17) votação do pacote de ajuste fiscal O Senado deve concluir nesta terça-feira (17) a votação do pacote do governo de ajuste das contas. Uma das propostas é retirar do texto a restrição ao uso de créditos pelas empresas pa  
+**5. O outro fim do mundo: antes de boato de 2026, Brasil teve até abrigo contra 'profecia maia' em 2012**  
+notícia `89` · esporte · Brasil · 5 veículos · g1  
+O boato do fim do mundo em forma de apagão mundial anunciado para esta terça-feira (17) não é o primeiro a assustar a população de diferentes países, incluindo o Brasil. Em 21 de dezembro de 2012, uma interpretação do calendário da civilização maia levou muita  
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/jornal-nacional/noticia/2026/11/16/senado-vota-pacote-do-governo-de-ajuste-das-contas-falta-analisar-4-propostas-para-alterar-o-texto-principal.ghtml)  
-Cobertura: [g1 (5)](https://g1.globo.com/jornal-nacional/noticia/2026/11/16/senado-vota-pacote-do-governo-de-ajuste-das-contas-falta-analisar-4-propostas-para-alterar-o-texto-principal.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/projeto-de-ajuste-fiscal-vai-na-direcao-correta-e-deve-chegar-a-camara-nesta-semana-diz-alckmin.shtml) · [Valor Econômico (2)](https://valor.globo.com/politica/noticia/2026/11/16/governo-tem-votos-para-barrar-destaques-ao-projeto-de-ajuste-fiscal-diz-lider-no-senado.ghtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/economia/money/macroeconomia/alckmin-diz-nao-haver-motivo-para-oscilacoes-do-mercado-apos-ajuste-fiscal/) · [Poder360](https://www.poder360.com.br/poder-economia/alckmin-minimiza-reacao-negativa-do-mercado-com-pacote-fiscal/)  
+*Sinais:* corroboração ██████████ · recência ████████·· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/17/o-outro-fim-do-mundo-antes-de-boato-de-2026-brasil-teve-ate-abrigo-contra-profecia-maia-em-2012.ghtml)  
+Cobertura: [g1 (5)](https://g1.globo.com/tecnologia/noticia/2026/11/17/o-outro-fim-do-mundo-antes-de-boato-de-2026-brasil-teve-ate-abrigo-contra-profecia-maia-em-2012.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/brasil-alcanca-meta-de-turismo-internacional-de-2026) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/giro-exterior-volta-lula-agenda-interna/) · [ge (Globo Esporte) (2)](https://ge.globo.com/pr/futebol/brasileirao-serie-a/jogo/18-11-2026/coritiba-santos.ghtml) · [Olhar Digital](https://olhardigital.com.br/2026/11/17/colunistas/analise-existe-um-brasil-antes-e-um-depois-do-pix-arthur-igreja/)  
 
-**5. Lula vs. esquerda radical**  
-notícia `90` · politica · Brasil · 7 veículos · Folha de S.Paulo  
-Há muito o que se criticar no plano Moretti : primeiro, o impacto. Os R$ 56 bilhões previstos pelo governo são um pouco maiores que os R$ 40 bilhões de gastos prometidos na campanha, e o superávit que sobra depende das previsões otimistas do governo quanto às   
-*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/joel-pinheiro-da-fonseca/2026/11/lula-vs-esquerda-radical.shtml)  
-Cobertura: [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/joel-pinheiro-da-fonseca/2026/11/lula-vs-esquerda-radical.shtml) · [g1 (3)](https://g1.globo.com/politica/noticia/2026/11/16/corte-de-gastos-regulacao-da-6x1-e-equipe-do-novo-governo-o-que-espera-lula-na-volta-de-giro-internacional.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c5n49ln0l4xeo?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/lula-quer-ampliar-relacoes-comerciais-com-paises-da-asean) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/lula-retoma-indicacao-ao-stf-e-sabatina-deve-acontecer-em-dezembro/) · [Exame](https://exame.com/invest/mercados/ibovespa-cai-18-com-desconfianca-sobre-ajuste-fiscal-de-lula-ny-recua-com-temor-sobre-ia/)  
-
-**6. Novo dia de greve nacional na França deve parar escolas, transportes e serviços públicos**  
-notícia `64` · mundo · Mundo · 2 veículos · RFI Brasil  
-Após as greves nacionais de 29 de setembro e 5 de novembro, a frente sindical formada pelas principais centrais trabalhistas da França convocou uma nova jornada nacional contra o alto custo de vida. A mobilização acontece nesta terça-feira (17). A CGT, a princ  
-*Por que entrou:* 2 veículos cobrindo; ainda fresca; fonte RFI Brasil  
-*Sinais:* corroboração ██████···· · recência ███████··· · calor █████·····  
-[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261116-novo-dia-de-greve-nacional-na-fran%C3%A7a-deve-parar-escolas-transportes-e-servi%C3%A7os-p%C3%BAblicos)  
-Cobertura: [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261116-novo-dia-de-greve-nacional-na-fran%C3%A7a-deve-parar-escolas-transportes-e-servi%C3%A7os-p%C3%BAblicos) · [Euronews (português)](https://pt.euronews.com/video/2026/11/16/franca-marinha-interceta-semissubmersivel-sem-nacionalidade-com-cocaina-no-atlantico)  
+**6. Dinamarca acolhe campeonato europeu de Tetris clássico vencido por holandesa**  
+notícia `63` · esporte · Mundo · 1 veículo · Euronews (português)  
+Mais de 40 jogadores disputam o Campeonato Europeu de Tetris na Dinamarca, onde a neerlandesa Eve Commandeur vence a britânica Sam Vaughn na final  
+*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
+*Sinais:* corroboração ████······ · recência ██████████ · calor ████······  
+[Ler na fonte](https://pt.euronews.com/video/2026/11/17/dinamarca-acolhe-campeonato-europeu-de-tetris-classico-vencido-por-holandesa)  
 
 ## Reserva (não entrou hoje)
 
-- `90` Regulação concorrencial das big techs pode reduzir custos em até R$ 50 bi ao ano, projeta Fazen — *cota de politica cheia*
-- `88` Black Friday: comércio do Vale do Paraíba e Litoral Norte espera vender 4% a mais em 2026 — *ficou fora do corte*
-- `88` Governo Trump defende mais restrições para trabalhadores estrangeiros permanentes nos EUA; medi — *ficou fora do corte*
-- `87` Falha técnica afeta serviços de grandes bancos dos Estados Unidos — *ficou fora do corte*
-- `87` Califórnia processa OpenAI por ciberataques de modelos de IA contra Hugging Face e outras empre — *ficou fora do corte*
-- `87` Xi, Trump e Putin: China diz que líderes falarão sobre 'paz mundial' em reunião trilateral na q — *ficou fora do corte*
-- `86` PagBank aumenta atividade bancária e lucro sobe 7%, para R$ 611 milhões — *ficou fora do corte*
-- `82` Defesa de Vorcaro faz novo pedido para que Gilmar decida sobre relatoria do caso Master — *ficou fora do corte*
-
-## Já foi pauta nos últimos dias
-
-- Lotofácil 3831: onze apostas de MT acertam 14 números e ganham até R$ 2,6 mil — *ja foi pauta em 2026-11-13*
+- `89` Grupo de países europeus acelera acordo para deportar imigrantes rejeitados para Ruanda — *cota de mundo cheia*
+- `88` EUA e China devem discutir restrição de exportação de chips no encontro entre Trump e Xi — *cota de mundo cheia*
+- `88` Regulação concorrencial de plataformas digitais não é censura — *cota de politica cheia*
+- `86` TV na Black Friday: entenda as diferenças tecnológicas antes de comprar um televisor novo — *ficou fora do corte*
+- `85` Rússia atinge duas pontes em Kiev, na Ucrânia; ataques causam cortes de água e energia — *ficou fora do corte*
+- `85` Caso Master completa um ano com Vorcaro preso, expectativa de denúncia e crise no STF — *ficou fora do corte*
+- `85` 'Meu nome é Pattinson, Robert Pattinson': como o astro de Crepúsculo virou o novo James Bond, o — *ficou fora do corte*
+- `84` São Paulo pode ter calor de 28°C e chuva passageira nesta terça (17) — *ficou fora do corte*
 
 ## Fontes que não responderam
 
-- Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
+- Estadão: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
 - CNN Brasil Internacional: `HTTP 404`
 
