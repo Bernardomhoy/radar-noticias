@@ -1,74 +1,74 @@
-# Radar de Notícias — 2026-11-17
-*Fechado às 22:15 (horário de Brasília) · 1157 matérias lidas · 695 pautas identificadas · 18 fontes ativas*
+# Radar de Notícias — 2026-11-18
+*Fechado às 06:03 (horário de Brasília) · 1166 matérias lidas · 696 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Senado reagenda para quarta-feira (18) a análise das propostas de mudança ao projeto de lei de ajuste das contas públicas**  
-notícia `94` · politica · Brasil · 6 veículos · g1  
-Senado remarca a análise de propostas de mudança ao pacote fiscal do governo O Senado reagendou para quarta-feira (18) a análise das propostas de mudança ao projeto de lei de ajuste das contas públicas. 📱Favorite o g1 no Google e acompanhe as principais notíci  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/jornal-nacional/noticia/2026/11/17/senado-reagenda-para-quarta-feira-18-a-analise-das-propostas-de-mudanca-ao-projeto-de-lei-de-ajuste-das-contas-publicas.ghtml)  
-Cobertura: [g1 (15)](https://g1.globo.com/jornal-nacional/noticia/2026/11/17/senado-reagenda-para-quarta-feira-18-a-analise-das-propostas-de-mudanca-ao-projeto-de-lei-de-ajuste-das-contas-publicas.ghtml) · [Folha de S.Paulo (9)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/senado-adia-votacao-de-destaques-do-plano-moretti-de-ajuste-nas-contas.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-adia-votacao-de-destaques-do-projeto-de-ajuste-fiscal) · [Valor Econômico (11)](https://valor.globo.com/politica/noticia/2026/11/17/motta-evita-fixar-data-para-votar-pacote-fiscal-apos-senado-adiar-analise-dos-destaques.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/c5n49ln0l4xeo?at_medium=RSS&at_campaign=rss) · [Exame (3)](https://exame.com/brasil/ajuste-fiscal-motta-evita-cravar-data-de-votacao-na-camara-apos-senado-adiar-analise-de-destaques/)  
-
-**2. Jensen Huang, ex-chefe da Nvidia, se pronuncia pela primeira vez após deixar o cargo: 'Cometi erros graves'**  
-notícia `92` · mundo · Brasil · 10 veículos · g1  
-Ex-chefe da Nvidia diz que gostaria de voltar ao comando da empresa O ex-chefe da Nvidia, a maior empresa de chips do mundo, se pronunciou pela primeira vez desde que deixou o cargo na semana passada. Jensen Huang afirmou que gostaria de voltar ao comando da c  
-*Por que entrou:* 10 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**1. Xi e Putin criticam políticas do Ocidente às vésperas de encontro com Trump**  
+notícia `92` · mundo · Brasil · 7 veículos · g1  
+Xi e Putin na Cúpula da Cooperação Econômica Ásia-Pacífico (APEC) 2026. Sputnik/Vyacheslav Prokofyev/Pool via REUTERS O presidente chinês, Xi Jinping, prometeu nesta quarta-feira (18) combater o protecionismo comercial, enquanto seu homólogo russo, Vladimir Pu  
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/jornal-nacional/noticia/2026/11/17/jensen-huang-ex-chefe-da-nvidia-se-pronuncia-pela-primeira-apos-deixar-o-cargo-cometi-erros-graves.ghtml)  
-Cobertura: [g1 (5)](https://g1.globo.com/jornal-nacional/noticia/2026/11/17/jensen-huang-ex-chefe-da-nvidia-se-pronuncia-pela-primeira-apos-deixar-o-cargo-cometi-erros-graves.ghtml) · [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/huang-diz-que-se-arrepende-profundamente-de-erros-e-que-aceitaria-volta-a-nvidia.shtml) · [Valor Econômico (4)](https://valor.globo.com/empresas/noticia/2026/11/17/nvidia-nao-vai-recontratar-jensen-huang-como-presidente-executivo-diz-chefe-do-conselho.ghtml) · [RFI Brasil](https://www.rfi.fr/br/economia/20261117-crise-na-nvidia-abala-mercado-de-tecnologia-%C3%A0s-v%C3%A9speras-de-balan%C3%A7o-e-poss%C3%ADvel-volta-de-jensen-huang) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/conselho-da-nvidia-descarta-retorno-de-jensen-huang-ao-cargo-de-ceo/) · [Euronews (português)](https://pt.euronews.com/2026/11/17/jensen-huang-diz-que-se-sentiria-honrado-por-regressar-como-ceo-da-nvidia)  
+[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/18/xi-e-putin-criticam-politicas-do-ocidente-as-vesperas-de-encontro-com-trump.ghtml)  
+Cobertura: [g1 (7)](https://g1.globo.com/mundo/noticia/2026/11/18/xi-e-putin-criticam-politicas-do-ocidente-as-vesperas-de-encontro-com-trump.ghtml) · [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/cupula-expoe-agendas-dispares-de-trump-xi-e-putin.shtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/18/dividir-o-mundo-esta-alem-do-poder-de-trump-xi-e-putin.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cmkgk37l1nv0o?at_medium=RSS&at_campaign=rss) · [RFI Brasil](https://www.rfi.fr/br/europa/20261117-ponte-da-crimeia-e-acessos-a-kiev-s%C3%A3o-atacados-antes-de-c%C3%BApula-entre-putin-trump-e-xi) · [CNN Brasil (5)](https://www.cnnbrasil.com.br/internacional/putin-diz-esperar-beneficios-de-reuniao-inedita-com-trump-e-xi-jinping/)  
 
-**3. Mega-Sena 3087: cidades do Norte de SC e Grande Florianópolis acertam 5 números e levam R$ 24 mil**  
-notícia `92` · geral · Brasil · 5 veículos · g1  
-Como funciona a Mega-Sena? Duas apostas simples de Santa Catarina acertaram cinco dos seis números sorteados na noite desta terça-feira (17) no concurso 3087 da Mega-Sena. Os apostadores são de Campo Alegre, no Norte do estado, e São João Batista, na Grande Fl  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/sc/santa-catarina/noticia/2026/11/17/mega-sena-3087-resultado-santa-catarina.ghtml)  
-Cobertura: [g1 (5)](https://g1.globo.com/sc/santa-catarina/noticia/2026/11/17/mega-sena-3087-resultado-santa-catarina.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/confira-a-partir-das-21h-desta-terca-17-o-resultado-do-concurso-3087-da-mega-sena.shtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/mega-sena-sorteia-premio-de-r-34-milhoes-nesta-terca-feira) · [InfoMoney](https://www.infomoney.com.br/consumo/mega-sena-hoje-concurso-3087-confira-o-resultado-sorteado-nesta-terca-17/) · [Olhar Digital (2)](https://olhardigital.com.br/2026/11/17/internet-e-redes-sociais/resultado-da-mega-sena-de-hoje-veja-numeros-e-ganhadores-do-concurso-3087-terca-17-11/)  
+**2. Ajuste fiscal: Senado deve discutir nesta quarta-feira (18) propostas de mudanças ao texto do governo**  
+notícia `92` · politica · Brasil · 8 veículos · g1  
+Ajuste fiscal: Senado deve discutir nesta quarta-feira (18) propostas de mudanças ao texto do governo Proposta promove corte de benefícios fiscais e altera cálculo do piso constitucional da saúde. Texto-base foi aprovado por 45 votos a 31 na última quinta-feir  
+*Por que entrou:* 8 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
+[Ler na fonte](https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml)  
+Cobertura: [g1 (13)](https://g1.globo.com/politica/ao-vivo/senado-pacote-medidas-fiscais.ghtml) · [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/senado-adia-votacao-de-destaques-do-plano-moretti-de-ajuste-nas-contas.shtml) · [Valor Econômico (6)](https://valor.globo.com/financas/noticia/2026/11/18/5ec6e974-destaques.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/senado-adia-votacao-de-destaques-do-projeto-de-ajuste-fiscal) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/politica/apos-falta-de-acordo-senado-tenta-concluir-hoje-votacao-do-ajuste-fiscal/) · [ge (Globo Esporte)](https://ge.globo.com/sp/mogi-das-cruzes-suzano/noticia/2026/11/17/veja-os-destaques-do-esporte-no-diario-tv-1a-edicao-desta-terca-feira-17-de-novembro.ghtml)  
 
-**4. Trump minimiza série de falhas tecnológicas nos EUA e diz que 'coisas assim acontecem'**  
-notícia `90` · mundo · Brasil · 5 veículos · Folha de S.Paulo  
-O presidente dos Estados Unidos , Donald Trump , minimizou nesta terça-feira (17) uma série de falhas tecnológicas que afetaram o transporte aéreo, o setor bancário e os sistemas de segurança nacional dos EUA nos últimos dias. Leia mais (11/17/2026 - 20h10)  
+**3. Governo Lula avalia impacto de restrição dos EUA à importação de chips de IA**  
+notícia `92` · mundo · Brasil · 5 veículos · Folha de S.Paulo  
+O governo Lula (PT) ainda avalia o impacto da restrição imposta pelos Estados Unidos ao Brasil e a outros quatro países às importações de chips desenvolvidos no território americano. Os efeitos econômicos devem ser analisados pelos ministros da Indústria, Márc  
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/tec/2026/11/trump-minimiza-serie-de-falhas-tecnologicas-nos-eua-e-diz-que-coisas-assim-acontecem.shtml)  
-Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/tec/2026/11/trump-minimiza-serie-de-falhas-tecnologicas-nos-eua-e-diz-que-coisas-assim-acontecem.shtml) · [g1 (2)](https://g1.globo.com/mundo/noticia/2026/11/17/trump-serie-falhas-tecnologias-estados-unidos.ghtml) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/17/quando-voce-e-grande-e-poderoso-coisas-assim-acontecem-afirma-trump-sobre-falhas-tecnologicas-nos-eua.ghtml) · [RFI Brasil](https://www.rfi.fr/br/podcasts/linha-direta/20261116-ap%C3%B3s-caos-nos-aeroportos-governo-trump-enfrenta-press%C3%A3o-para-modernizar-sistema-a%C3%A9reo-dos-eua) · [Olhar Digital](https://olhardigital.com.br/2026/11/17/pro/trump-minimiza-onda-de-apagoes-tecnologicos-que-atingiu-eua/)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/governo-lula-avalia-impacto-de-restricao-dos-eua-a-importacao-de-chips-de-ia.shtml)  
+Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/governo-lula-avalia-impacto-de-restricao-dos-eua-a-importacao-de-chips-de-ia.shtml) · [g1 (5)](https://g1.globo.com/tecnologia/noticia/2026/11/17/china-ameaca-retaliar-contra-eua-por-restricoes-a-chips-de-ia-que-tambem-afetam-o-brasil.ghtml) · [Poder360](https://www.poder360.com.br/poder-governo/governo-lula-quer-contratar-3-empresas-por-r-75-mi-para-comunicacao/) · [Tecnoblog](https://tecnoblog.net/noticias/eua-impoem-restricoes-ao-brasil-para-compra-de-chips-de-ia/) · [TecMundo](https://www.estadao.com.br/tecmundo/big-techs/nova-regra-dos-eua-para-exportacao-de-chips-de-ia-afeta-o-brasil-entenda/)  
 
-**5. Nvidia dobra lucro para US$ 65,3 bilhões em primeiro balanço após saída de Jensen Huang**  
-notícia `90` · economia · Brasil · 6 veículos · g1  
-Jensen Huang, durante conferência da Nvidia em 17 de março de 2026, e GPU H200, uma das mais avançadas da empresa Reuters/Carlos Barria; Divulgação A fabricante de chips Nvidia afirmou nesta terça-feira (17) que registrou lucro líquido de US$ 65,3 bilhões (R$   
+**4. GTA VI chega amanhã: veja tudo que você precisa saber sobre o jogo**  
+notícia `91` · ciencia · Brasil · 6 veículos · g1  
+Imagem de divulgação de GTA VI. Reprodução/Rockstar Games Após 13 anos de espera, o Grand Theft Auto VI (GTA 6) chega aos consoles nesta quinta-feira (19). O jogo da Rockstar Games passou por adiamentos e vazamentos, mas será lançado oficialmente à meia-noite.  
 *Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/17/balanco-nvidia.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/tecnologia/noticia/2026/11/17/balanco-nvidia.ghtml) · [Valor Econômico](https://valor.globo.com/empresas/noticia/2026/11/17/nvidia-lucra-us-653-bi-no-3o-trimestre-fiscal-alta-de-105percent.ghtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/economia/money/negocios/nvidia-projeta-receita-de-us-130-bilhoes-para-o-4o-trimestre/) · [Euronews (português)](https://pt.euronews.com/2026/11/17/eua-interrogam-jensen-huang-sobre-vendas-da-nvidia-a-china-a-1-de-dezembro) · [Exame](https://exame.com/invest/mercados/nvidia-fatura-us-1158-bilhoes-e-dobra-de-tamanho-no-1o-balanco-sem-jensen-huang/) · [Olhar Digital](https://olhardigital.com.br/2026/11/17/pro/nvidia-vira-alvo-de-investigacao-nos-eua-apos-saida-de-jensen-huang/)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://g1.globo.com/pop-arte/games/noticia/2026/11/18/gta-vi-chega-amanha-veja-tudo-que-voce-precisa-saber-sobre-o-jogo.ghtml)  
+Cobertura: [g1](https://g1.globo.com/pop-arte/games/noticia/2026/11/18/gta-vi-chega-amanha-veja-tudo-que-voce-precisa-saber-sobre-o-jogo.ghtml) · [InfoMoney (2)](https://www.infomoney.com.br/business/gta-6-e-uma-vitoria-para-fabricantes-de-videogames-pressionados-por-custos/) · [Poder360](https://www.poder360.com.br/poder-tech/gta-6-chega-na-5a-feira-com-recorde-de-15-mi-em-pre-venda/) · [Tecnoblog](https://tecnoblog.net/responde/onde-roda-gta-6-confira-os-requisitos-para-pc-e-consoles/) · [TecMundo (3)](https://www.estadao.com.br/tecmundo/voxel/atriz-de-lucia-caminos-em-gta-6-e-confirmada-pelo-the-game-awards/) · [Canaltech (3)](https://canaltech.com.br/games/gta-6-e-o-jogo-mais-indicado-no-the-game-awards-2026-veja-a-lista/)  
 
-**6. Novos protestos na França levam milhares de pessoas às ruas por melhores condições de vida**  
-notícia `55` · mundo · Mundo · 1 veículo · RFI Brasil  
-Mais de 140 mil pessoas voltaram a ocupar as ruas da França nesta terça-feira (17), em manifestações que reuniram estudantes do ensino médio, universitários, aposentados e trabalhadores. A mobilização foi convocada por sindicatos do funcionalismo público, que   
-*Por que entrou:* fonte RFI Brasil; ainda fresca; só RFI Brasil publicou  
-*Sinais:* corroboração ████······ · recência ██████···· · calor ████······  
-[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261117-novos-protestos-na-fran%C3%A7a-levam-milhares-de-pessoas-%C3%A0s-ruas-por-melhores-condi%C3%A7%C3%B5es-de-vida)  
+**5. Mary Peltola vence no Alasca e amplia maioria democrata no Senado dos EUA**  
+notícia `91` · politica · Brasil · 6 veículos · Folha de S.Paulo  
+A democrata Mary Peltola venceu nesta terça-feira (17) a disputa no Alasca pelo Senado dos Estados Unidos, segundo projeções da imprensa americana, derrotando o republicano Dan Sullivan, que tentava a reeleição, e garantindo ao partido sua nona virada nas elei  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/mary-peltola-vence-no-alasca-e-amplia-maioria-democrata-no-senado-dos-eua.shtml)  
+Cobertura: [Folha de S.Paulo (6)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/mary-peltola-vence-no-alasca-e-amplia-maioria-democrata-no-senado-dos-eua.shtml) · [g1 (3)](https://g1.globo.com/mundo/noticia/2026/11/18/democrata-vence-no-alasca-e-amplia-maioria-do-partido-no-senado-dos-eua.ghtml) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/18/eua-democratas-vencem-no-alasca-e-fecham-eleio-com-maioria-ampla-de-56-senadores.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/democratas-ampliam-maioria-no-senado-dos-eua-apos-vitoria-no-alasca/) · [Poder360](https://www.poder360.com.br/poder-internacional/apos-vitoria-no-alasca-democratas-ampliam-maioria-no-senado-dos-eua/) · [Euronews (português)](https://pt.euronews.com/2026/11/18/democrata-mary-peltola-conquista-lugar-no-senado-dos-eua-apos-disputa-renhida-no-alasca)  
+
+**6. Eslováquia: milhares manifestam-se contra governo de Fico e laços com a Rússia**  
+notícia `63` · mundo · Mundo · 1 veículo · Euronews (português)  
+Fico, que se opõe à ajuda militar à Ucrânia e mantém relações estreitas com o presidente russo Vladimir Putin, tem entrado repetidamente em choque com a União Europeia durante o atual mandato.  
+*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
+*Sinais:* corroboração ████······ · recência ██████████ · calor ████······  
+[Ler na fonte](https://pt.euronews.com/2026/11/18/eslovaquia-milhares-manifestam-se-contra-governo-de-fico-e-lacos-com-a-russia)  
 
 ## Reserva (não entrou hoje)
 
-- `89` Jeff Bezos diz que ajudou na escolha de Robert Pattinson para viver James Bond — *ficou fora do corte*
-- `88` Série A terá perda de ponto por atraso de salário a partir de 2028 — *ficou fora do corte*
-- `88` Enel pode ter longo caminho até perder concessão em SP; entenda os próximos passos — *ficou fora do corte*
-- `87` Fachin diz que STF julgará ainda neste ano lei que pode reduzir penas de Bolsonaro e aliados se — *ficou fora do corte*
-- `86` Senado aprova crédito de até R$ 13,5 bi para empresas afetadas por tarifaços dos EUA — *ficou fora do corte*
-- `86` No Rio, Polícia Federal descobre fábrica capaz de produzir cerca de 3 mil fuzis por ano — *ficou fora do corte*
-- `86` Lula fez ajustes e vai assinar decreto que regulamenta 6x1 na quinta-feira (19), diz ministro d — *ficou fora do corte*
-- `86` Tarcísio mantém dirigente do Republicanos na articulação política e confirma outros 4 secretári — *ficou fora do corte*
+- `90` Lula fez ajustes e vai assinar decreto que regulamenta 6x1 na quinta-feira (19), diz ministro d — *cota de politica cheia*
+- `88` Fachin recebe nesta quarta relatório da PF sobre ministros no caso Master e deve avaliar modelo — *cota de politica cheia*
+- `88` EUA ainda não sabem causa de falha que cancelou 18 mil voos, diz secretário de Trump — *cota de mundo cheia*
+- `86` Enel pode ter longo caminho até perder concessão em SP; entenda os próximos passos — *ficou fora do corte*
+- `86` Jensen Huang diz que aceitaria voltar à Nvidia, mas conselho descarta reconduzi-lo — *ficou fora do corte*
+- `85` Meta anuncia Direct, novo aplicativo de mensagens do Instagram — *ficou fora do corte*
+- `85` Democratas criticam chefe da Marinha dos EUA após punição a marinheiro que pulou de porta-aviõe — *ficou fora do corte*
+- `85` Cruzeiro x Palmeiras: horário e onde assistir ao jogo do Brasileirão — *ficou fora do corte*
 
 ## Fontes que não responderam
 
-- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Estadão: `HTTP 404`
-- CNN Brasil Internacional: `HTTP 404`
+- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Nexo Jornal: `HTTP 404`
+- CNN Brasil Internacional: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
