@@ -1,76 +1,78 @@
 # Radar de Notícias — 2026-11-19
-*Fechado às 14:17 (horário de Brasília) · 1201 matérias lidas · 666 pautas identificadas · 18 fontes ativas*
+*Fechado às 20:46 (horário de Brasília) · 1197 matérias lidas · 686 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Ações da Anthropic estreiam com alta de mais de 30% na Nasdaq**  
-notícia `96` · economia · Brasil · 10 veículos · Folha de S.Paulo  
-As ações da Anthropic abriram em forte alta nesta quinta-feira (19), em seu primeiro dia de negociações na Nasdaq , após a oferta pública inicial de ações (IPO, na sigla em inglês) que levantou US$ 81 bilhões (R$ 476,04 bilhões) na quarta-feira (18). Leia mais  
-*Por que entrou:* 10 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
-> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/acoes-da-anthropic-estreiam-com-alta-de-mais-de-30-na-nasdaq.shtml)  
-Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/acoes-da-anthropic-estreiam-com-alta-de-mais-de-30-na-nasdaq.shtml) · [g1 (25)](https://g1.globo.com/economia/noticia/2026/11/19/acoes-anthropic-nasdaq.ghtml) · [Valor Econômico (5)](https://valor.globo.com/financas/noticia/2026/11/19/bolsas-da-europa-fecham-em-queda-com-piora-no-humor-antes-da-estreia-da-anthropic.ghtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/cm782wyv0153o?at_medium=RSS&at_campaign=rss) · [InfoMoney (3)](https://www.infomoney.com.br/mercados/anth34-bdr-da-anthropic-estreia-na-b3-simultaneamente-a-estreia-na-nasdaq-por-cerca-de-r-60/) · [CNN Brasil (4)](https://www.cnnbrasil.com.br/economia/money/mercado/ceo-da-anthropic-destaca-promessas-e-riscos-da-ia-em-estreia-na-bolsa-de-ny/)  
-
-**2. VÍDEO: Trump fecha os olhos e aparenta 'cochilar' durante discurso de Xi Jinping na China**  
-notícia `94` · mundo · Brasil · 7 veículos · g1  
-Trump fecha os olhos e aparenta cochilar durante discurso de Xi Jinping na China O presidente dos Estados Unidos, Donald Trump, aparentou tirar um cochilo durante um discurso do presidente da China, Xi Jinping. ✅ Siga o canal de notícias internacionais do g1 n  
-*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**1. Ações da Anthropic estreiam com alta de 17% na Nasdaq**  
+notícia `94` · tecnologia · Brasil · 13 veículos · Folha de S.Paulo  
+A Anthropic estreou na Nasdaq nesta quinta-feira (19) com avaliação de cerca de US$ 2 trilhões, superando por pouco a listagem da SpaceX, em junho, e encerrando um período turbulento para o setor de inteligência artificial , que colocou à prova o apetite de Wa  
+*Por que entrou:* 13 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/mundo/noticia/2026/11/19/video-trump-fecha-os-olhos-e-aparenta-cochilar-durante-discurso-de-xi-jinping.ghtml)  
-Cobertura: [g1 (22)](https://g1.globo.com/mundo/noticia/2026/11/19/video-trump-fecha-os-olhos-e-aparenta-cochilar-durante-discurso-de-xi-jinping.ghtml) · [Folha de S.Paulo (9)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/trump-fecha-os-olhos-durante-fala-de-xi-em-cupula-na-china-veja-video.shtml) · [Valor Econômico (5)](https://valor.globo.com/mundo/noticia/2026/11/19/putin-prope-viagem-de-europeus-rssia-para-discutir-paz-na-ucrnia.ghtml) · [BBC News Brasil (5)](https://www.bbc.com/portuguese/articles/cjvg2922e50qo?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/trump-xi-e-putin-encerram-reuniao-historica-na-china) · [RFI Brasil (4)](https://www.rfi.fr/br/mundo/20261119-trump-putin-e-xi-prometem-estabilidade-e-di%C3%A1logo-pela-paz-mundial-em-encontro-in%C3%A9dito-na-china)  
+> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/acoes-da-anthropic-estreiam-com-alta-de-mais-de-30-na-nasdaq.shtml)  
+Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/acoes-da-anthropic-estreiam-com-alta-de-mais-de-30-na-nasdaq.shtml) · [g1 (20)](https://g1.globo.com/economia/noticia/2026/11/19/acoes-anthropic-nasdaq.ghtml) · [Valor Econômico (7)](https://valor.globo.com/empresas/noticia/2026/11/19/anthropic-dispara-17percent-em-seu-primeiro-dia-na-bolsa-de-ny-amd-perde-77percent.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cm782wyv0153o?at_medium=RSS&at_campaign=rss) · [InfoMoney (2)](https://www.infomoney.com.br/mercados/anthropic-bdr-movimenta-r-460-mi-em-estreia-na-b3-volume-3-vezes-maior-que-spacex/) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/anthropic-encerra-estreia-na-bolsa-com-avaliacao-de-us-176-trilhao/)  
 
-**3. Lula diz que parte de seus aliados não entendeu plano Moretti de ajuste nas contas**  
-notícia `93` · politica · Brasil · 9 veículos · Folha de S.Paulo  
-O presidente Luiz Inácio Lula da Silva (PT) disse nesta quinta-feira (19) que parte de seus aliados não entendeu o projeto do governo para conter o aumento de despesas públicas, pacote que ficou conhecido como plano Moretti ?em referência ao ministro do Planej  
-*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+**2. Fachin envia à PGR relatórios sobre Moraes, Kassio, Toffoli e Mendonça após citações no caso Master**  
+notícia `93` · politica · Brasil · 6 veículos · Folha de S.Paulo  
+O presidente do STF (Supremo Tribunal Federal), Edson Fachin , enviou para a análise da PGR (Procuradoria-Geral da República) , nesta quinta-feira (19), quatro relatórios produzidos pela Polícia Federal com citações aos ministros Alexandre de Moraes , Kassio N  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/lula-diz-que-parte-de-seus-aliados-nao-entendeu-plano-moretti-de-ajuste-nas-contas.shtml)  
-Cobertura: [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/lula-diz-que-parte-de-seus-aliados-nao-entendeu-plano-moretti-de-ajuste-nas-contas.shtml) · [g1 (8)](https://g1.globo.com/politica/blog/valdo-cruz/post/2026/11/19/depois-da-vitoria-no-senado-lideres-governistas-revelam-que-lula-fara-novo-ajuste-nas-contas-publicas.ghtml) · [Valor Econômico (3)](https://valor.globo.com/brasil/noticia/2026/11/19/lula-movimento-sindical-mte-e-justica-do-trabalho-tem-que-estar-preparados-para-escala-5x2.ghtml) · [Agência Brasil (EBC) (2)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-promete-manter-direitos-e-diz-que-controle-fiscal-e-prioridade) · [InfoMoney (2)](https://www.infomoney.com.br/politica/lula-prepara-novo-pacote-fiscal-com-travas-para-gastos-nos-proximos-4-anos-diz-tv/) · [RFI Brasil](https://www.rfi.fr/br/brasil/20261119-governo-cede-para-governadores-e-prefeitos-mas-aprova-ajuste-fiscal-de-r-50-bi-no-senado)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/fachin-envia-a-pgr-relatorios-sobre-moraes-kassio-toffoli-e-mendonca-apos-citacoes-no-caso-master.shtml)  
+Cobertura: [Folha de S.Paulo (6)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/fachin-envia-a-pgr-relatorios-sobre-moraes-kassio-toffoli-e-mendonca-apos-citacoes-no-caso-master.shtml) · [g1 (10)](https://g1.globo.com/politica/noticia/2026/11/19/fachin-autoriza-pf-a-acessar-documentos-de-empresa-de-servicos-de-luxo-sobre-viagens-pagas-por-vorcaro.ghtml) · [Valor Econômico (2)](https://valor.globo.com/politica/noticia/2026/11/19/fachin-arquiva-relatorios-sobre-seis-ministros-e-envia-a-pgr-documentos-sobre-moraes-toffoli-kassio-e-mendonca.ghtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/politica/fachin-envia-a-pgr-relatorios-sobre-moraes-kassio-toffoli-e-mendonca/) · [Poder360](https://www.poder360.com.br/poder-justica/apos-pedido-ministerio-vai-ouvir-delegados-afastados-do-caso-master/) · [Exame](https://exame.com/brasil/caso-master-fachin-envia-relatorios-da-pf-a-ministros-do-stf-citados-em-mensagens-de-vorcaro/)  
 
-**4. Evento gratuito de Direito sorteia GTA 6 para atrair universitários em Roraima: 'manter o público'**  
-notícia `93` · economia · Brasil · 11 veículos · g1  
-GTA 6 bate recorde de pré-venda e já fatura como grandes filmes de Hollywood O lançamento de GTA 6 movimenta jogadores em todo o mundo. No Brasil, o jogo chegou nesta quinta-feira (19), mesmo dia do encerramento da Semana Jurídica do curso de Direito da Univer  
-*Por que entrou:* 11 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/rr/roraima/noticia/2026/11/19/evento-gratuito-de-direito-sorteia-gta-6-para-atrair-universitarios-em-roraima-manter-o-publico.ghtml)  
-Cobertura: [g1 (4)](https://g1.globo.com/rr/roraima/noticia/2026/11/19/evento-gratuito-de-direito-sorteia-gta-6-para-atrair-universitarios-em-roraima-manter-o-publico.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://f5.folha.uol.com.br/voceviu/2026/11/por-que-gta-6-nao-e-recomendado-para-menores-de-18-anos-e-o-alerta-de-psiquiatras-e-psicologos.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/ckr5g3l3r540o?at_medium=RSS&at_campaign=rss) · [Valor Econômico](https://valor.globo.com/empresas/marketing/noticia/2026/11/19/kabum-registra-alta-de-567percent-nas-vendas-com-evento-de-gta-vi.ghtml) · [RFI Brasil](https://www.rfi.fr/br/geral/20261119-gta-vi-chega-ao-mercado-ap%C3%B3s-13-anos-de-espera-e-recebe-elogios-nas-primeiras-avalia%C3%A7%C3%B5es) · [ge (Globo Esporte)](https://ge.globo.com/futebol/futebol-internacional/futebol-alemao/noticia/2026/11/19/tecnico-do-borussia-diz-que-espera-que-atletas-nao-joguem-tanto-gta-vi-nao-troquem-dia-pela-noite.ghtml)  
+**3. Relator do ajuste fiscal na Câmara mantém texto do Senado; projeto deve ser votado na segunda-feira**  
+notícia `92` · politica · Brasil · 5 veículos · g1  
+Projeto de ajuste fiscal segue para Câmara dos Deputados O deputado Mauro Benevides (União Brasil-CE) apresentou nesta quinta-feira (19) seu parecer para o projeto de ajuste fiscal do governo Lula (PT). Benevides manteve o mesmo texto aprovado pelo Senado. Min  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/19/relator-do-ajuste-fiscal-na-camara-mantem-texto-do-senado-projeto-deve-ser-votado-segunda-feira.ghtml)  
+Cobertura: [g1 (4)](https://g1.globo.com/politica/noticia/2026/11/19/relator-do-ajuste-fiscal-na-camara-mantem-texto-do-senado-projeto-deve-ser-votado-segunda-feira.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/colunas/painelsa/2026/11/proposta-de-ajuste-fiscal-deve-passar-na-camara-sem-alteracoes-substanciais.shtml) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/19/relator-do-ajuste-fiscal-na-camara-defende-aprovacao-do-texto-do-senado.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/relator-do-ajuste-fiscal-na-camara-mantem-texto-aprovado-pelo-senado/) · [Poder360](https://www.poder360.com.br/poder-congresso/relator-apresenta-parecer-favoravel-a-ajuste-fiscal-na-camara/)  
 
-**5. Brasil quer pôr banheiro na agenda nacional até 2033**  
-notícia `93` · tecnologia · Brasil · 5 veículos · Folha de S.Paulo  
-Neste 19 de novembro, Dia Mundial do Banheiro, o Brasil tem diante de si uma contradição. O país vive o maior ciclo de investimento em saneamento da sua história e persegue a meta de universalização estabelecida pelo Novo Marco Legal do Saneamento para 2033: á  
+**4. Dólar sobe mais de 1% e fecha a R$ 5,93, maior valor desde abril de 2025, apesar de intervenção do BC; Bolsa recua**  
+notícia `91` · economia · Brasil · 5 veículos · Folha de S.Paulo  
+O dólar fechou em alta de 1,08%, a R$ 5,931, nesta quinta-feira (19), no maior valor desde 8 de abril de 2025, apesar de uma intervenção do Banco Central no mercado de câmbio . A moeda voltou a subir após a operação, em um pregão marcado também pela cautela do  
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-> ⚠️ Saúde: cite o órgão (Anvisa, Ministério da Saúde) e não dê recomendação médica.  
-> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/papo-de-responsa/2026/11/brasil-quer-por-banheiro-na-agenda-nacional-ate-2033.shtml)  
-Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/colunas/papo-de-responsa/2026/11/brasil-quer-por-banheiro-na-agenda-nacional-ate-2033.shtml) · [Valor Econômico](https://valor.globo.com/inovacao/noticia/2026/11/19/presidente-da-oracle-brasil-preve-perda-de-empregos-com-ia-mas-acredita-em-futuro-de-abundancia.ghtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/agro/cnn-vence-premio-sicredi-2026-com-reportagem-sobre-credito-no-agro/) · [ge (Globo Esporte) (18)](https://ge.globo.com/taekwondo/noticia/2026/11/19/maria-clara-pacheco-vence-o-premio-brasil-olimpico-e-e-eleita-a-melhor-do-taekwondo-em-2026.ghtml) · [Canaltech](https://canaltech.com.br/carros/rival-da-byd-confirma-fabrica-no-brasil-e-producao-nacional-de-suvs/)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+> ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-alta-e-supera-r-591-apos-aprovacao-de-pacote-fiscal-no-senado.shtml)  
+Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-alta-e-supera-r-591-apos-aprovacao-de-pacote-fiscal-no-senado.shtml) · [g1 (2)](https://g1.globo.com/economia/noticia/2026/11/19/dolar-ibovespa.ghtml) · [Valor Econômico (3)](https://valor.globo.com/financas/intraday/post/2026/11/estrangeiros-nao-poupam-criticas-a-intervencao-do-bc-e-veem-espaco-para-dolar-testar-r-650.ghtml) · [Agência Brasil (EBC) (2)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-supera-r-593-e-fecha-no-maior-valor-desde-abril-de-2025) · [Exame](https://exame.com/invest/mercados/dolar-sobe-115-na-6a-alta-seguida-e-se-aproxima-de-r-6-mesmo-com-intervencao-do-bc/)  
 
-**6. França debate projeto de regularização de trabalhadores estrangeiros em situação irregular**  
-notícia `71` · politica · Mundo · 2 veículos · RFI Brasil  
-A Assembleia Nacional francesa examina nesta quinta-feira (19) o projeto de lei apresentado pelo Partido Socialista, que visa regularizar imigrantes que trabalham sem visto no país. A medida poderia beneficiar centenas de milhares de pessoas, mas sua aprovação  
-*Por que entrou:* publicada nas últimas horas; 2 veículos cobrindo; fonte RFI Brasil  
-*Sinais:* corroboração ██████···· · recência ████████·· · calor ██████····  
-[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261119-fran%C3%A7a-debate-projeto-de-regulariza%C3%A7%C3%A3o-de-trabalhadores-estrangeiros-em-situa%C3%A7%C3%A3o-irregular)  
-Cobertura: [RFI Brasil (2)](https://www.rfi.fr/br/fran%C3%A7a/20261119-fran%C3%A7a-debate-projeto-de-regulariza%C3%A7%C3%A3o-de-trabalhadores-estrangeiros-em-situa%C3%A7%C3%A3o-irregular) · [Euronews (português)](https://pt.euronews.com/2026/11/19/franca-estrasburgo-lidera-mercados-de-natal-mais-acessiveis-da-europa)  
+**5. Entenda os 4 pontos da declaração conjunta de Trump, Xi e Putin**  
+notícia `91` · mundo · Brasil · 9 veículos · Folha de S.Paulo  
+Esta é a edição da newsletter Lá Fora. Quer recebê-la no seu email? Inscreva-se abaixo : Leia mais (11/19/2026 - 18h51)  
+*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/entenda-os-4-pontos-da-declaracao-conjunta-de-trump-xi-e-putin.shtml)  
+Cobertura: [Folha de S.Paulo (8)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/entenda-os-4-pontos-da-declaracao-conjunta-de-trump-xi-e-putin.shtml) · [g1 (22)](https://g1.globo.com/mundo/noticia/2026/11/19/aliados-da-ucrania-alertam-contra-partilha-ao-estilo-da-2a-guerra-mundial-enquanto-trump-se-reune-com-amigo-putin.ghtml) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/19/trump-diz-que-acordo-para-limitar-armas-nucleares-ser-difcil-aps-conversas-com-xi-e-putin.ghtml) · [BBC News Brasil (4)](https://www.bbc.com/portuguese/articles/cjvg2922e50qo?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional (2)](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/xi-trump-e-putin-sinalizam-disposicao-para-dialogo-entre-potencias) · [RFI Brasil (3)](https://www.rfi.fr/br/mundo/20261119-trump-putin-e-xi-prometem-estabilidade-e-di%C3%A1logo-pela-paz-mundial-em-encontro-in%C3%A9dito-na-china)  
+
+**6. Paquistão defende nova arquitetura de segurança regional que também beneficia a Europa**  
+notícia `59` · mundo · Mundo · 1 veículo · Euronews (português)  
+Numa entrevista exclusiva ao programa World Conversation da Euronews, o vice-primeiro-ministro do Paquistão revelou esforços discretos que levaram ao acordo EUA-Israel para pôr fim à guerra em junho e expôs a estratégia paquistanesa para uma nova arquitetura d  
+*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
+*Sinais:* corroboração ████······ · recência ████████·· · calor ████······  
+[Ler na fonte](https://pt.euronews.com/2026/11/19/paquistao-defende-nova-arquitetura-de-seguranca-regional-que-tambem-beneficia-a-europa)  
 
 ## Reserva (não entrou hoje)
 
-- `92` IPO da Anthropic coloca empresa entre as mais valiosas do mundo; veja ranking — *ficou fora do corte*
-- `91` Lula critica especulações sobre ministérios e diz que indicará nomes na hora que quiser — *ficou fora do corte*
-- `90` Com regulamentação da escala 5x2, hora extra ficará mais cara; entenda — *ficou fora do corte*
-- `90` ANPD rejeita recurso do Discord e mantém suspensão de transmissões ao vivo — *ficou fora do corte*
-- `90` Tribunal da ONU conclui que Mianmar cometeu genocídio contra minoria muçulmana; 10 mil foram as — *ficou fora do corte*
-- `90` Presidente do Paraguai demite diretor de Itaipu após polêmica sobre depósitos de quase R$ 1 bil — *ficou fora do corte*
-- `90` Dia da Consciência Negra: veja o que abre e o que fecha em Ribeirão Preto e Franca — *ficou fora do corte*
-- `89` Resumão diário #2238: Após encontro, China, EUA e Rússia dizem que 'guerra nuclear nunca deve s — *ficou fora do corte*
+- `89` Após quadro viral, Miss Brasil retorna à agenda do Miss Universo 2026 — *ficou fora do corte*
+- `89` Moraes marca para 4 de dezembro julgamento sobre dosimetria que pode beneficiar Bolsonaro — *ficou fora do corte*
+- `88` Governo Trump liberou quase 900 mil chips avançados de IA para empresas chinesas, diz comitê do — *ficou fora do corte*
+- `87` Justiça mantém em liberdade casal suspeito de queimar corpo de bebê em quintal no interior de S — *ficou fora do corte*
+- `87` Black Friday: por que comprar com desconto dá prazer, mesmo quando gastamos mais? — *ficou fora do corte*
+- `85` Tribunal da ONU conclui que Mianmar cometeu genocídio contra minoria muçulmana; 10 mil foram as — *ficou fora do corte*
+- `85` JPMorgan, Visa e Mastercard relatam ataques cibernéticos a fornecedores — *ficou fora do corte*
+- `85` iFood informa vazamento de dados de clientes, entregadores e restaurantes — *ficou fora do corte*
+
+## Já foi pauta nos últimos dias
+
+- Debate sobre plano Moretti é só o aperitivo da disputa da esquerda no Lula 4; veja vídeo — *ja foi pauta em 2026-11-16*
 
 ## Fontes que não responderam
 
-- Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
+- Estadão: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
 - CNN Brasil Internacional: `HTTP 404`
 
