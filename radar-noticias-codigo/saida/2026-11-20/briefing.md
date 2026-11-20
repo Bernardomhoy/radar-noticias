@@ -1,80 +1,79 @@
 # Radar de Notícias — 2026-11-20
-*Fechado às 04:00 (horário de Brasília) · 1191 matérias lidas · 632 pautas identificadas · 18 fontes ativas*
+*Fechado às 13:03 (horário de Brasília) · 1169 matérias lidas · 660 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Marina Silva, Fachin e Erika Hilton ampliam pressão sobre Lula por ministra negra no STF: 'Abismo social e estrutural'**  
-notícia `93` · politica · Brasil · 7 veículos · g1  
-As deputadas federais Erika Hilton (PSOL-SP), Marina Silva (Rede-SP) e o presidente do STF, Edson Fachin, pedem que Lula indique uma mulher negra para o STF. STF/Reprodução Marina Silva (Rede-SP), ex-ministra do Meio Ambiente e deputada federal, aderiu na últi  
-*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
-[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/20/marina-silva-fachin-e-erika-hilton-lula-ministra-negra-no-stf.ghtml)  
-Cobertura: [g1 (9)](https://g1.globo.com/politica/noticia/2026/11/20/marina-silva-fachin-e-erika-hilton-lula-ministra-negra-no-stf.ghtml) · [Folha de S.Paulo (8)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/pgr-tera-nucleo-com-gonet-para-avaliar-relatorios-sobre-ministros-do-stf-e-deve-superar-prazo-de-15-dias.shtml) · [Valor Econômico (2)](https://valor.globo.com/politica/noticia/2026/11/19/fachin-arquiva-relatorios-sobre-seis-ministros-e-envia-a-pgr-documentos-sobre-moraes-toffoli-kassio-e-mendonca.ghtml) · [InfoMoney](https://www.infomoney.com.br/politica/fachin-manda-arquivar-relatorios-da-pf-sobre-mencao-a-6-ministros-4-vao-a-pgr/) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/politica/pgr-analisara-so-4-dos-10-relatorios-da-pf-sobre-ministros-do-stf-entenda/) · [Poder360](https://www.poder360.com.br/poder-justica/fachin-envia-a-pgr-4-relatorios-da-pf-sobre-ministros-do-stf/)  
+**1. Três mortes são confirmadas pela Defesa Civil depois de tempestade que destruiu cidade no RS**  
+notícia `94` · meio-ambiente · Brasil · 5 veículos · g1  
+Novas imagens mostram destruição em cidade afetada por tempestade no RS Subiu para três o número de mortes confirmadas após a tempestade que devastou Tupanciretã, cidade de 20 mil habitantes na Região Central do Rio Grande do Sul, na madrugada desta sexta-feir  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+[Ler na fonte](https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/11/20/tres-mortes-defesa-civil-tempestade-tupancireta.ghtml)  
+Cobertura: [g1](https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/11/20/tres-mortes-defesa-civil-tempestade-tupancireta.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/tempestade-com-granizo-causa-destruicao-em-tupancireta-rs.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cqdr1xmyg3kzo?at_medium=RSS&at_campaign=rss) · [Valor Econômico (2)](https://valor.globo.com/brasil/noticia/2026/11/20/teve-tornado-em-tupancireta-veja-detalhes-da-destruicao-que-deixou-ao-menos-um-morto-em-cidade-do-rs.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/nacional/sul/rs/duas-mortes-sao-investigadas-apos-tempestade-que-destruiu-tupancireta-rs/)  
 
-**2. Lula diz que quer evitar erros do atual mandato com ministros e que busca equipe sólida**  
-notícia `93` · politica · Brasil · 5 veículos · Folha de S.Paulo  
-O presidente Lula (PT) tem dito a aliados que não tem pressa para definir os futuros ministros do governo porque quer evitar erros da atual gestão e manter indicados nos respectivos cargos por mais tempo. A referência é às trocas que o presidente precisou faze  
+**2. Fachin rejeita pedido da defesa e mantém prisão preventiva de Vorcaro**  
+notícia `94` · politica · Brasil · 5 veículos · Folha de S.Paulo  
+O presidente do STF , Edson Fachin , negou nesta sexta-feira (20) o pedido de revisão da prisão preventiva do ex-banqueiro Daniel Vorcaro , dono do Banco Master . Leia mais (11/20/2026 - 10h28)  
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/fachin-rejeita-pedido-da-defesa-e-mantem-prisao-preventiva-de-vorcaro.shtml)  
+Cobertura: [Folha de S.Paulo (12)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/fachin-rejeita-pedido-da-defesa-e-mantem-prisao-preventiva-de-vorcaro.shtml) · [g1 (14)](https://g1.globo.com/politica/noticia/2026/11/20/caso-master-fachin-mantem-prisao-do-ex-banqueiro-daniel-vorcaro.ghtml) · [Valor Econômico (5)](https://valor.globo.com/politica/noticia/2026/11/20/ao-pedir-fim-do-sigilo-de-relatorio-mendonca-tenta-se-antecipar-a-criticas-sobre-sua-relatoria-no-caso-master.ghtml) · [Poder360 (2)](https://www.poder360.com.br/poder-justica/fachin-nega-pedido-de-liberdade-e-mantem-daniel-vorcaro-preso/) · [Exame (2)](https://exame.com/brasil/caso-master-pf-nao-encontrou-troca-de-mensagens-entre-andre-mendonca-e-daniel-vorcaro/)  
+
+**3. Reino Unido e União Europeia iniciam reaproximação após brexit com acordos sobre alimentos e mobilidade**  
+notícia `93` · tecnologia · Brasil · 6 veículos · Folha de S.Paulo  
+O Reino Unido e a União Europeia fecharam acordos para facilitar o comércio de alimentos e ampliar a mobilidade de jovens em uma cúpula realizada nesta sexta-feira (20), reaproximando as partes e abrindo discussões mais amplas sobre seu relacionamento de longo  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/reino-unido-e-uniao-europeia-iniciam-reaproximacao-apos-brexit-com-acordos-sobre-alimentos-e-mobilidade.shtml)  
+Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/reino-unido-e-uniao-europeia-iniciam-reaproximacao-apos-brexit-com-acordos-sobre-alimentos-e-mobilidade.shtml) · [Valor Econômico (3)](https://valor.globo.com/mundo/noticia/2026/11/20/reino-unido-e-ue-fecham-acordos-sobre-alimentos-e-mobilidade-de-jovens.ghtml) · [InfoMoney](https://www.infomoney.com.br/mundo/reino-unido-e-ue-fecham-acordo-de-reaproximacao-uma-decada-apos-referendo-do-brexit/) · [RFI Brasil (2)](https://www.rfi.fr/br/europa/20261120-reino-unido-e-uni%C3%A3o-europeia-avan%C3%A7am-em-reaproxima%C3%A7%C3%A3o-dez-anos-ap%C3%B3s-o-brexit) · [Euronews (português) (4)](https://pt.euronews.com/2026/11/20/reino-unido-redefine-relacao-com-a-ue-em-cimeira-mas-futuro-continua-em-aberto) · [Exame (2)](https://exame.com/mundo/reino-unido-e-uniao-europeia-selam-pacote-de-acordos-para-retomar-lacos-pos-brexit/)  
+
+**4. Casa Branca demite diretor de Cibersegurança após falhas tecnológicas**  
+notícia `92` · mundo · Brasil · 6 veículos · Folha de S.Paulo  
+O diretor nacional de Cibersegurança da Casa Branca, Sean Cairncross, foi demitido, informou nesta quinta-feira (19) uma fonte próxima do governo americano, após falhas tecnológicas afetarem vários serviços e causarem preocupação. Leia mais (11/20/2026 - 08h05  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/lula-diz-que-quer-evitar-erros-do-atual-mandato-com-ministros-e-que-busca-equipe-solida.shtml)  
-Cobertura: [Folha de S.Paulo (11)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/lula-diz-que-quer-evitar-erros-do-atual-mandato-com-ministros-e-que-busca-equipe-solida.shtml) · [g1](https://g1.globo.com/politica/noticia/2026/11/19/pressionado-a-apresentar-nomes-da-equipe-economica-lula-diz-que-vai-indicar-ministerios-quando-quiser.ghtml) · [Valor Econômico (2)](https://valor.globo.com/politica/noticia/2026/11/19/cleitinho-diz-que-vai-se-reunir-com-lula-quantas-vezes-precisar-para-discutir-dvida-de-mg.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/macroeconomia/lula-4-precisa-de-plano-economico-estrutural-diz-especialista/) · [Intercept Brasil](https://www.intercept.com.br/2026/11/19/fantasmas-politicos-assombram-governabilidade-quarto-mandato-lula/)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/casa-branca-demite-diretor-de-ciberseguranca-apos-falhas-tecnologicas.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/casa-branca-demite-diretor-de-ciberseguranca-apos-falhas-tecnologicas.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/18/inteligencia-dos-eua-descarta-atividade-maliciosa-por-tras-de-falhas-tecnologicas.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/20/trump-demite-diretor-de-cibersegurana-da-casa-branca-aps-falhas-tecnolgicas.ghtml) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/estados-unidos-entram-em-alerta-apos-sucessivas-panes-tecnologicas) · [InfoMoney](https://www.infomoney.com.br/mundo/trump-demite-diretor-de-seguranca-cibernetica-apos-falhas-tecnologicas/) · [Euronews (português)](https://pt.euronews.com/2026/11/20/estados-unidos-demitem-diretor-nacional-de-ciberseguranca-apos-falhas-tecnologicas)  
 
-**3. Ar-condicionado na Black Friday: veja como escolher modelos econômicos**  
-notícia `89` · meio-ambiente · Brasil · 6 veículos · g1  
-Como fazer o ar-condicionado deixar de ser o vilão da sua conta de energia. Assessoria A tecnologia de compressores “inverter” trouxe mais eficiência energética às novas gerações de aparelhos de ar-condicionado de parede. Esse tipo de compressor funciona sem l  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://g1.globo.com/guia/guia-de-compras/casa/ar-condicionado-na-black-friday-veja-como-escolher-modelos-economicos.ghtml)  
-Cobertura: [g1 (2)](https://g1.globo.com/guia/guia-de-compras/casa/ar-condicionado-na-black-friday-veja-como-escolher-modelos-economicos.ghtml) · [Valor Econômico](https://valor.globo.com/patrocinado/pressworks/noticia/2026/11/19/black-friday-domvs-it-automatiza-100-dos-fluxos-de-integracao-entre-marketplace-e-erp-em-projeto-para-varejista-1.ghtml) · [Exame](https://exame.com/inteligencia-artificial/black-friday-varejo-maquinas/) · [Tecnoblog (3)](https://tecnoblog.net/achados/tv-tcl-c6k-de-55-fica-r-1-mil-mais-barata-em-oferta-antes-da-black-friday/) · [TecMundo (2)](https://www.estadao.com.br/tecmundo/guia-de-compras/o-que-comprar-na-black-friday-na-amazon/) · [Canaltech (2)](https://canaltech.com.br/smartphone/galaxy-a57-quanto-vale-a-pena-pagar-na-black-friday-2026/)  
+**5. Black Friday: por que comprar com desconto dá prazer, mesmo quando gastamos mais?**  
+notícia `91` · economia · Brasil · 5 veículos · g1  
+Black Friday: por que descontos dão prazer, mesmo gastando mais? Comprar um produto por um preço menor do que o esperado pode aumentar a satisfação do consumidor. O fenômeno é explicado pela “utilidade da transação”, conceito apresentado em 1985 pelo economist  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
+[Ler na fonte](https://g1.globo.com/g1-explica/noticia/2026/11/19/black-friday-por-que-comprar-com-desconto-da-prazer-mesmo-quando-gastamos-mais.ghtml)  
+Cobertura: [g1](https://g1.globo.com/g1-explica/noticia/2026/11/19/black-friday-por-que-comprar-com-desconto-da-prazer-mesmo-quando-gastamos-mais.ghtml) · [Valor Econômico (2)](https://valor.globo.com/patrocinado/dino/noticia/2026/11/20/pix-ou-pagamento-a-vista-e-decisivo-para-69-na-black-friday-1.ghtml) · [Tecnoblog (3)](https://tecnoblog.net/achados/kindle-colorsoft-tem-r-500-off-em-ate-10x-as-vesperas-da-black-friday/) · [TecMundo (5)](https://www.estadao.com.br/tecmundo/guia-de-compras/o-que-comprar-na-black-friday-do-mercado-livre/) · [Canaltech (4)](https://canaltech.com.br/notebook/black-friday-notebooks-bons-ate-6000-reais-para-comprar/)  
 
-**4. São Paulo perde em casa do Fluminense e fica mais distante da Libertadores**  
-notícia `87` · esporte · Brasil · 4 veículos · Folha de S.Paulo  
-Ficou mais difícil a luta do São Paulo para buscar uma vaga na próxima Libertadores. Nesta quinta-feira (19), o time paulista perdeu em casa do Fluminense , por 1 a 0, e chegou ao quarto jogo consecutivo sem vencer no Campeonato Brasileiro . Leia mais (11/19/2  
-*Por que entrou:* 4 veículos cobrindo; ainda fresca; 15 matérias em 5.16h  
-*Sinais:* corroboração █████████· · recência ████████·· · calor █████████·  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/sao-paulo-perde-em-casa-do-fluminense-e-fica-mais-distante-da-libertadores.shtml)  
-Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/sao-paulo-perde-em-casa-do-fluminense-e-fica-mais-distante-da-libertadores.shtml) · [InfoMoney](https://www.infomoney.com.br/esportes/sao-paulo-fluminense-onde-assistir-brasileirao/) · [CNN Brasil (5)](https://www.cnnbrasil.com.br/esportes/brasileirao/sao-paulo-0-x-1-fluminense-veja-os-melhores-momentos-pelo-brasileirao/) · [ge (Globo Esporte) (8)](https://ge.globo.com/sp/futebol/brasileirao-serie-a/jogo/19-11-2026/sao-paulo-fluminense.ghtml)  
-
-**5. Trump, Xi e Putin consagram uso da força na geopolítica**  
-notícia `87` · mundo · Brasil · 10 veículos · Folha de S.Paulo  
-Em 1945, as superpotências então em formação, Estados Unidos e União Soviética, mais um declinante Reino Unido, reuniram delegações encimadas por seus governantes por oito dias no balneário de Ialta, na Crimeia. Leia mais (11/19/2026 - 22h00)  
-*Por que entrou:* 10 veículos cobrindo; peso de fonte alto (Folha de S.Paulo); ainda fresca  
-*Sinais:* corroboração ██████████ · recência ███████··· · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/opiniao/2026/11/trump-xi-e-putin-consagram-uso-da-forca-na-geopolitica.shtml)  
-Cobertura: [Folha de S.Paulo (11)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/opiniao/2026/11/trump-xi-e-putin-consagram-uso-da-forca-na-geopolitica.shtml) · [g1 (23)](https://g1.globo.com/mundo/noticia/2026/11/19/aliados-da-ucrania-alertam-contra-partilha-ao-estilo-da-2a-guerra-mundial-enquanto-trump-se-reune-com-amigo-putin.ghtml) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/19/trump-diz-que-acordo-para-limitar-armas-nucleares-ser-difcil-aps-conversas-com-xi-e-putin.ghtml) · [BBC News Brasil (4)](https://www.bbc.com/portuguese/articles/cjvg2922e50qo?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional (2)](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/xi-trump-e-putin-sinalizam-disposicao-para-dialogo-entre-potencias) · [RFI Brasil (3)](https://www.rfi.fr/br/mundo/20261119-trump-putin-e-xi-prometem-estabilidade-e-di%C3%A1logo-pela-paz-mundial-em-encontro-in%C3%A9dito-na-china)  
-
-**6. Pelo menos um morto e dezenas de desaparecidos após naufrágio de barco de migrantes ao largo do Senegal**  
-notícia `63` · mundo · Mundo · 1 veículo · Euronews (português)  
-Barco rumava a Espanha, numa altura de forte aumento das partidas para as Canárias, com mais de 11.000 pessoas a chegarem ao arquipélago espanhol nas primeiras duas semanas de novembro.  
-*Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência ██████████ · calor ████······  
-[Ler na fonte](https://pt.euronews.com/2026/11/20/pelo-menos-um-morto-e-dezenas-de-desaparecidos-apos-naufragio-de-barco-de-migrantes-ao-lar)  
+**6. Seguradoras estimam em € 207 milhões prejuízos das manifestações de 17 de outubro na França**  
+notícia `64` · cotidiano · Mundo · 2 veículos · RFI Brasil  
+Os prejuízos causados pela violência urbana na França durante as manifestações de 17 e 18 de outubro contra o alto custo de vida devem chegar a € 207 milhões (R$ 1,3 bilhão), segundo a federação do setor de seguros France Assureurs. O valor é da mesma ordem de  
+*Por que entrou:* 2 veículos cobrindo; ainda fresca; fonte RFI Brasil  
+*Sinais:* corroboração ██████···· · recência ███████··· · calor ████······  
+[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261119-seguradoras-estimam-em-%E2%82%AC-207-milh%C3%B5es-preju%C3%ADzos-das-manifesta%C3%A7%C3%B5es-de-17-de-outubro-na-fran%C3%A7a)  
+Cobertura: [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261119-seguradoras-estimam-em-%E2%82%AC-207-milh%C3%B5es-preju%C3%ADzos-das-manifesta%C3%A7%C3%B5es-de-17-de-outubro-na-fran%C3%A7a) · [Euronews (português)](https://pt.euronews.com/2026/11/20/franca-custo-das-violencias-urbanas-de-17-e-18-de-outubro-pode-atingir-207-milhoes)  
 
 ## Reserva (não entrou hoje)
 
-- `85` Trama golpista: STF julgará aplicação da Lei da Dosimetria em dezembro; veja quem pode ter pena — *cota de politica cheia*
-- `84` Bukele tenta 3º mandato após El Salvador liberar reeleição indefinida — *cota de politica cheia*
-- `84` Reino Unido condena 4 homens por abusos a mulher drogada pelo marido em caso parecido com de Pe — *ficou fora do corte*
-- `83` Justiça manda seguir processo de Trump contra The New York Times — *ficou fora do corte*
-- `82` Trump comprou até US$ 265 mil em ações da Nvidia em setembro — *ficou fora do corte*
-- `81` Brasil é 3º entre países com maior exposição frequente a tentativas de golpe, aponta pesquisa — *ficou fora do corte*
-- `81` Rockstar deve quebrar recordes de vendas com lançamento de GTA 6 — *ficou fora do corte*
-- `81` Entidades criticam decreto de Lula que regulamenta fim da escala 6x1 e falam em falta de inform — *ficou fora do corte*
+- `89` 'Robôs assassinos' já são usados em guerras, mas países não chegam a acordo sobre limites na ON — *ficou fora do corte*
+- `89` Rockstar deve quebrar recordes de vendas com lançamento de GTA 6 — *ficou fora do corte*
+- `88` Moraes vota no STF para manter passaportes de Flávio Bolsonaro cancelados — *ficou fora do corte*
+- `88` Feriado da Consciência Negra: rodoviárias de Campos esperam aumento de 12% no número de passage — *ficou fora do corte*
+- `88` Google ameaça seu próprio negócio de buscas com investida em IA — *ficou fora do corte*
+- `88` JPMorgan, Visa e Mastercard relatam ataques cibernéticos a fornecedores — *ficou fora do corte*
+- `87` Rússia mata 8 em ataques à Ucrânia após Putin prometer retaliação por ponte da Crimeia — *ficou fora do corte*
+- `87` Destroços de drones russos atingem embaixada do Brasil na Ucrânia durante ataque que matou um e — *ficou fora do corte*
 
 ## Já foi pauta nos últimos dias
 
-- Relator do ajuste fiscal na Câmara mantém texto do Senado; projeto deve ser votado na segunda-f — *ja foi pauta em 2026-11-19*
-- Ações da Anthropic estreiam com alta de 17% na Nasdaq — *ja foi pauta em 2026-11-19*
+- Entenda os 4 pontos da declaração conjunta de Trump, Xi e Putin — *ja foi pauta em 2026-11-19*
 
 ## Fontes que não responderam
 
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Estadão: `HTTP 404`
-- CNN Brasil Internacional: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
+- CNN Brasil Internacional: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
