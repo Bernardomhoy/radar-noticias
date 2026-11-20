@@ -1,79 +1,81 @@
 # Radar de Notícias — 2026-11-20
-*Fechado às 13:03 (horário de Brasília) · 1169 matérias lidas · 660 pautas identificadas · 18 fontes ativas*
+*Fechado às 19:37 (horário de Brasília) · 1139 matérias lidas · 654 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Três mortes são confirmadas pela Defesa Civil depois de tempestade que destruiu cidade no RS**  
-notícia `94` · meio-ambiente · Brasil · 5 veículos · g1  
-Novas imagens mostram destruição em cidade afetada por tempestade no RS Subiu para três o número de mortes confirmadas após a tempestade que devastou Tupanciretã, cidade de 20 mil habitantes na Região Central do Rio Grande do Sul, na madrugada desta sexta-feir  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**1. Ações da Anthropic caem 8,5% um dia após estreia histórica na bolsa dos EUA**  
+notícia `94` · economia · Brasil · 7 veículos · g1  
+Placa da Anthropic , PBC (ANT) no One Times Square no dia em que a Anthropic realiza sua oferta pública inicial (IPO) na NASDAQ Market, em Nova York, EUA, em 19 de novembro de 2026 REUTERS/Shannon Stapleton As ações da Anthropic, criadora do chatbot de intelig  
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/11/20/tres-mortes-defesa-civil-tempestade-tupancireta.ghtml)  
-Cobertura: [g1](https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/11/20/tres-mortes-defesa-civil-tempestade-tupancireta.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/tempestade-com-granizo-causa-destruicao-em-tupancireta-rs.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cqdr1xmyg3kzo?at_medium=RSS&at_campaign=rss) · [Valor Econômico (2)](https://valor.globo.com/brasil/noticia/2026/11/20/teve-tornado-em-tupancireta-veja-detalhes-da-destruicao-que-deixou-ao-menos-um-morto-em-cidade-do-rs.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/nacional/sul/rs/duas-mortes-sao-investigadas-apos-tempestade-que-destruiu-tupancireta-rs/)  
+> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
+[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/20/acoes-anthropic.ghtml)  
+Cobertura: [g1 (15)](https://g1.globo.com/economia/noticia/2026/11/20/acoes-anthropic.ghtml) · [Folha de S.Paulo (7)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/executivo-faz-fortuna-com-ipo-da-anthropic-mas-ganho-poderia-ser-maior.shtml) · [Valor Econômico (7)](https://valor.globo.com/empresas/noticia/2026/11/20/aes-da-anthropic-recuam-850-pontos-percentuais-no-segundo-dia-de-negociaes-na-nasdaq.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/mercado/tombo-das-acoes-da-anthropic-apos-estreia-vira-alerta-para-mercado-de-ia/) · [Poder360 (2)](https://www.poder360.com.br/poder-economia/acoes-da-anthropic-caem-85-no-2o-dia-depois-de-ipo-recorde/) · [Tecnoblog](https://tecnoblog.net/noticias/anthropic-dona-do-claude-estreia-na-bolsa-valendo-us-15-trilhao/)  
 
-**2. Fachin rejeita pedido da defesa e mantém prisão preventiva de Vorcaro**  
-notícia `94` · politica · Brasil · 5 veículos · Folha de S.Paulo  
-O presidente do STF , Edson Fachin , negou nesta sexta-feira (20) o pedido de revisão da prisão preventiva do ex-banqueiro Daniel Vorcaro , dono do Banco Master . Leia mais (11/20/2026 - 10h28)  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/fachin-rejeita-pedido-da-defesa-e-mantem-prisao-preventiva-de-vorcaro.shtml)  
-Cobertura: [Folha de S.Paulo (12)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/fachin-rejeita-pedido-da-defesa-e-mantem-prisao-preventiva-de-vorcaro.shtml) · [g1 (14)](https://g1.globo.com/politica/noticia/2026/11/20/caso-master-fachin-mantem-prisao-do-ex-banqueiro-daniel-vorcaro.ghtml) · [Valor Econômico (5)](https://valor.globo.com/politica/noticia/2026/11/20/ao-pedir-fim-do-sigilo-de-relatorio-mendonca-tenta-se-antecipar-a-criticas-sobre-sua-relatoria-no-caso-master.ghtml) · [Poder360 (2)](https://www.poder360.com.br/poder-justica/fachin-nega-pedido-de-liberdade-e-mantem-daniel-vorcaro-preso/) · [Exame (2)](https://exame.com/brasil/caso-master-pf-nao-encontrou-troca-de-mensagens-entre-andre-mendonca-e-daniel-vorcaro/)  
-
-**3. Reino Unido e União Europeia iniciam reaproximação após brexit com acordos sobre alimentos e mobilidade**  
-notícia `93` · tecnologia · Brasil · 6 veículos · Folha de S.Paulo  
-O Reino Unido e a União Europeia fecharam acordos para facilitar o comércio de alimentos e ampliar a mobilidade de jovens em uma cúpula realizada nesta sexta-feira (20), reaproximando as partes e abrindo discussões mais amplas sobre seu relacionamento de longo  
+**2. Reino Unido e União Europeia querem interligar mercados de carbono a partir de 2028**  
+notícia `91` · mundo · Brasil · 6 veículos · Folha de S.Paulo  
+A União Europeia e o Reino Unido concluíram nesta sexta-feira (20) as negociações para interligar seus mercados de emissões , com o objetivo de colocar a conexão em funcionamento a partir de 2028, aumentar a liquidez e ajudar as empresas a evitar bilhões de eu  
 *Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/reino-unido-e-uniao-europeia-iniciam-reaproximacao-apos-brexit-com-acordos-sobre-alimentos-e-mobilidade.shtml)  
-Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/reino-unido-e-uniao-europeia-iniciam-reaproximacao-apos-brexit-com-acordos-sobre-alimentos-e-mobilidade.shtml) · [Valor Econômico (3)](https://valor.globo.com/mundo/noticia/2026/11/20/reino-unido-e-ue-fecham-acordos-sobre-alimentos-e-mobilidade-de-jovens.ghtml) · [InfoMoney](https://www.infomoney.com.br/mundo/reino-unido-e-ue-fecham-acordo-de-reaproximacao-uma-decada-apos-referendo-do-brexit/) · [RFI Brasil (2)](https://www.rfi.fr/br/europa/20261120-reino-unido-e-uni%C3%A3o-europeia-avan%C3%A7am-em-reaproxima%C3%A7%C3%A3o-dez-anos-ap%C3%B3s-o-brexit) · [Euronews (português) (4)](https://pt.euronews.com/2026/11/20/reino-unido-redefine-relacao-com-a-ue-em-cimeira-mas-futuro-continua-em-aberto) · [Exame (2)](https://exame.com/mundo/reino-unido-e-uniao-europeia-selam-pacote-de-acordos-para-retomar-lacos-pos-brexit/)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/economia-sustentavel/2026/11/reino-unido-e-uniao-europeia-querem-interligar-mercados-de-carbono-a-partir-de-2028.shtml)  
+Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/economia-sustentavel/2026/11/reino-unido-e-uniao-europeia-querem-interligar-mercados-de-carbono-a-partir-de-2028.shtml) · [g1 (2)](https://g1.globo.com/mundo/noticia/2026/11/20/reino-unido-ue-acordo-brexit.ghtml) · [Valor Econômico (3)](https://valor.globo.com/mundo/noticia/2026/11/20/burnham-comea-a-reverter-brexit-com-acordo-histrico-com-a-ue.ghtml) · [RFI Brasil (2)](https://www.rfi.fr/br/europa/20261120-reino-unido-e-uni%C3%A3o-europeia-avan%C3%A7am-em-reaproxima%C3%A7%C3%A3o-dez-anos-ap%C3%B3s-o-brexit) · [Euronews (português) (3)](https://pt.euronews.com/2026/11/20/reino-unido-redefine-relacao-com-a-ue-em-cimeira-mas-futuro-continua-em-aberto) · [Exame (2)](https://exame.com/mundo/reino-unido-e-uniao-europeia-fecham-acordos-para-reaproximacao-dez-anos-apos-brexit/)  
 
-**4. Casa Branca demite diretor de Cibersegurança após falhas tecnológicas**  
-notícia `92` · mundo · Brasil · 6 veículos · Folha de S.Paulo  
-O diretor nacional de Cibersegurança da Casa Branca, Sean Cairncross, foi demitido, informou nesta quinta-feira (19) uma fonte próxima do governo americano, após falhas tecnológicas afetarem vários serviços e causarem preocupação. Leia mais (11/20/2026 - 08h05  
+**3. Rockstar deve quebrar recordes de vendas com lançamento de GTA 6**  
+notícia `91` · mundo · Brasil · 7 veículos · Folha de S.Paulo  
+A aventura da dupla de criminosos Lucia e Jason por Vice City em " GTA 6 " deve ajudar a Take-Two Interactive a arrecadar cerca de US$ 2 bilhões (R$ 11,86 bilhões) em vendas estimadas no primeiro dia de lançamento do game. Leia mais (11/19/2026 - 17h12)  
+*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/rockstar-deve-quebrar-recordes-de-vendas-com-lancamento-de-gta-6.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/rockstar-deve-quebrar-recordes-de-vendas-com-lancamento-de-gta-6.shtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/ckr5g3l3r540o?at_medium=RSS&at_campaign=rss) · [Poder360](https://www.poder360.com.br/poder-tech/gta-6-movimenta-us-379-bilhoes-em-vendas-no-1o-dia/) · [Tecnoblog (3)](https://tecnoblog.net/noticias/desenvolvedores-de-gta-6-temem-demissoes-apos-lancamento/) · [TecMundo (9)](https://www.estadao.com.br/tecmundo/voxel/gta-6-vende-325-milhoes-de-copias-e-arrecada-us-379-bilhoes-em-um-dia/) · [Olhar Digital](https://olhardigital.com.br/2026/11/20/games-e-consoles/gta-6-supera-projecao-e-bate-recorde-de-vendas-no-lancamento/)  
+
+**4. Fachin retira sigilo de relatório da PF sobre Mendonça após pedido do ministro**  
+notícia `91` · politica · Brasil · 6 veículos · Folha de S.Paulo  
+O presidente do STF (Supremo Tribunal Federal), Edson Fachin , retirou nesta sexta-feira (20) o sigilo sobre o relatório da Polícia Federal que reúne informações sobre o ministro André Mendonça com o caso do Banco Master . A decisão de Fachin atende a pedido d  
 *Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/casa-branca-demite-diretor-de-ciberseguranca-apos-falhas-tecnologicas.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/casa-branca-demite-diretor-de-ciberseguranca-apos-falhas-tecnologicas.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/18/inteligencia-dos-eua-descarta-atividade-maliciosa-por-tras-de-falhas-tecnologicas.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/20/trump-demite-diretor-de-cibersegurana-da-casa-branca-aps-falhas-tecnolgicas.ghtml) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/estados-unidos-entram-em-alerta-apos-sucessivas-panes-tecnologicas) · [InfoMoney](https://www.infomoney.com.br/mundo/trump-demite-diretor-de-seguranca-cibernetica-apos-falhas-tecnologicas/) · [Euronews (português)](https://pt.euronews.com/2026/11/20/estados-unidos-demitem-diretor-nacional-de-ciberseguranca-apos-falhas-tecnologicas)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/fachin-retira-sigilo-de-relatorio-da-pf-sobre-mendonca-apos-pedido-do-ministro.shtml)  
+Cobertura: [Folha de S.Paulo (4)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/fachin-retira-sigilo-de-relatorio-da-pf-sobre-mendonca-apos-pedido-do-ministro.shtml) · [g1 (6)](https://g1.globo.com/economia/blog/ana-flor/post/2026/11/20/master-relatorio-da-pf-sobre-mendonca-cita-tentativas-de-aproximacao-de-vorcaro-ao-ministro-do-stf.ghtml) · [Valor Econômico (3)](https://valor.globo.com/politica/noticia/2026/11/20/ao-pedir-fim-do-sigilo-de-relatorio-mendonca-tenta-se-antecipar-a-criticas-sobre-sua-relatoria-no-caso-master.ghtml) · [InfoMoney](https://www.infomoney.com.br/politica/relatorio-da-pf-tem-dialogos-de-vorcaro-sobre-mendonca-mas-sem-conversa-direta/) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/caso-master-veja-o-que-mensagens-apreendidas-pela-pf-dizem-sobre-mendonca/) · [Exame](https://exame.com/brasil/caso-master-pf-nao-encontrou-troca-de-mensagens-entre-andre-mendonca-e-daniel-vorcaro/)  
 
-**5. Black Friday: por que comprar com desconto dá prazer, mesmo quando gastamos mais?**  
-notícia `91` · economia · Brasil · 5 veículos · g1  
-Black Friday: por que descontos dão prazer, mesmo gastando mais? Comprar um produto por um preço menor do que o esperado pode aumentar a satisfação do consumidor. O fenômeno é explicado pela “utilidade da transação”, conceito apresentado em 1985 pelo economist  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/g1-explica/noticia/2026/11/19/black-friday-por-que-comprar-com-desconto-da-prazer-mesmo-quando-gastamos-mais.ghtml)  
-Cobertura: [g1](https://g1.globo.com/g1-explica/noticia/2026/11/19/black-friday-por-que-comprar-com-desconto-da-prazer-mesmo-quando-gastamos-mais.ghtml) · [Valor Econômico (2)](https://valor.globo.com/patrocinado/dino/noticia/2026/11/20/pix-ou-pagamento-a-vista-e-decisivo-para-69-na-black-friday-1.ghtml) · [Tecnoblog (3)](https://tecnoblog.net/achados/kindle-colorsoft-tem-r-500-off-em-ate-10x-as-vesperas-da-black-friday/) · [TecMundo (5)](https://www.estadao.com.br/tecmundo/guia-de-compras/o-que-comprar-na-black-friday-do-mercado-livre/) · [Canaltech (4)](https://canaltech.com.br/notebook/black-friday-notebooks-bons-ate-6000-reais-para-comprar/)  
+**5. Bolsonaro é levado a hospital após sentir dor abdominal**  
+notícia `90` · politica · Brasil · 6 veículos · Folha de S.Paulo  
+O ex-presidente Jair Bolsonaro (PL) foi levado nesta sexta-feira (20) ao hospital DF Star, em Brasília (DF), após sentir dor abdominal. Leia mais (11/20/2026 - 17h56)  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/bolsonaro-e-levado-a-hospital-apos-sentir-dor-abdominal.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/bolsonaro-e-levado-a-hospital-apos-sentir-dor-abdominal.shtml) · [g1 (2)](https://g1.globo.com/politica/noticia/2026/11/20/bolsonaro-hospital-apos-sentir-dores-abdominais.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/bolsonaro-e-internado-com-quadro-de-dor-e-distens%C3%A3o-abdominal) · [Valor Econômico](https://valor.globo.com/politica/noticia/2026/11/20/bolsonaro-sente-forte-dores-abdominais-e-encaminhado-ao-hospital.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/bolsonaro-e-internado-com-quadro-de-dor-e-distensao-abdominal-diz-boletim/) · [Exame](https://exame.com/brasil/bolsonaro-e-levado-ao-hospital-com-fortes-dores-abdominais-e-deve-passar-a-noite-internado/)  
 
-**6. Seguradoras estimam em € 207 milhões prejuízos das manifestações de 17 de outubro na França**  
-notícia `64` · cotidiano · Mundo · 2 veículos · RFI Brasil  
-Os prejuízos causados pela violência urbana na França durante as manifestações de 17 e 18 de outubro contra o alto custo de vida devem chegar a € 207 milhões (R$ 1,3 bilhão), segundo a federação do setor de seguros France Assureurs. O valor é da mesma ordem de  
-*Por que entrou:* 2 veículos cobrindo; ainda fresca; fonte RFI Brasil  
-*Sinais:* corroboração ██████···· · recência ███████··· · calor ████······  
-[Ler na fonte](https://www.rfi.fr/br/fran%C3%A7a/20261119-seguradoras-estimam-em-%E2%82%AC-207-milh%C3%B5es-preju%C3%ADzos-das-manifesta%C3%A7%C3%B5es-de-17-de-outubro-na-fran%C3%A7a)  
-Cobertura: [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261119-seguradoras-estimam-em-%E2%82%AC-207-milh%C3%B5es-preju%C3%ADzos-das-manifesta%C3%A7%C3%B5es-de-17-de-outubro-na-fran%C3%A7a) · [Euronews (português)](https://pt.euronews.com/2026/11/20/franca-custo-das-violencias-urbanas-de-17-e-18-de-outubro-pode-atingir-207-milhoes)  
+**6. COP31 ameaça esvaziar impulso brasileiro sobre combustíveis fósseis e financiamento climático**  
+notícia `63` · economia · Mundo · 2 veículos · RFI Brasil  
+A poucas horas do fim da 31ª Conferência das Nações Unidas sobre Mudanças Climáticas (COP31), cujo encerramento está previsto para esta sexta-feira (20), as divergências entre os países permanecem grandes, em especial sobre os combustíveis fósseis e o financia  
+*Por que entrou:* 2 veículos cobrindo; fonte RFI Brasil; ainda fresca  
+*Sinais:* corroboração ██████···· · recência ██████···· · calor █████·····  
+> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
+[Ler na fonte](https://www.rfi.fr/br/ci%C3%AAncias/20261120-cop31-amea%C3%A7a-esvaziar-impulso-brasileiro-sobre-combust%C3%ADveis-f%C3%B3sseis-e-financiamento-clim%C3%A1tico)  
+Cobertura: [RFI Brasil](https://www.rfi.fr/br/ci%C3%AAncias/20261120-cop31-amea%C3%A7a-esvaziar-impulso-brasileiro-sobre-combust%C3%ADveis-f%C3%B3sseis-e-financiamento-clim%C3%A1tico) · [Euronews (português)](https://pt.euronews.com/2026/11/20/panama-ameaca-bloquear-acordo-final-da-cop31-por-limite-a-producao-de-petroleo)  
 
 ## Reserva (não entrou hoje)
 
-- `89` 'Robôs assassinos' já são usados em guerras, mas países não chegam a acordo sobre limites na ON — *ficou fora do corte*
-- `89` Rockstar deve quebrar recordes de vendas com lançamento de GTA 6 — *ficou fora do corte*
-- `88` Moraes vota no STF para manter passaportes de Flávio Bolsonaro cancelados — *ficou fora do corte*
-- `88` Feriado da Consciência Negra: rodoviárias de Campos esperam aumento de 12% no número de passage — *ficou fora do corte*
-- `88` Google ameaça seu próprio negócio de buscas com investida em IA — *ficou fora do corte*
-- `88` JPMorgan, Visa e Mastercard relatam ataques cibernéticos a fornecedores — *ficou fora do corte*
-- `87` Rússia mata 8 em ataques à Ucrânia após Putin prometer retaliação por ponte da Crimeia — *ficou fora do corte*
-- `87` Destroços de drones russos atingem embaixada do Brasil na Ucrânia durante ataque que matou um e — *ficou fora do corte*
+- `90` 'Cobiçadas' por Trump, Filipinas lideram compra de carne suína do Brasil, mas são 22º destino d — *cota de mundo cheia*
+- `90` Perigo global: conheça as armas nucleares mais poderosas de Estados Unidos, Rússia e China — *cota de mundo cheia*
+- `89` Dino vota para tornar Van Hattem réu por calúnia, mas julgamento é suspenso após pedido de Zani — *cota de politica cheia*
+- `86` Black Friday: por que comprar com desconto dá prazer, mesmo quando gastamos mais? — *ficou fora do corte*
+- `86` Google ameaça seu próprio negócio de buscas com investida em IA — *ficou fora do corte*
+- `85` Trump elogia conversas com Putin e diz que há chance 'muito boa' de acordo sobre guerra na Ucrâ — *ficou fora do corte*
+- `85` Trump elogia reunião com Putin e Xi Jinping e diz que tem "ótima" relação com os líderes — *ficou fora do corte*
+- `84` Michelle Bolsonaro disse ficar feliz por ter uma mulher candidata no Senado, afirma Tereza Cris — *ficou fora do corte*
 
 ## Já foi pauta nos últimos dias
 
-- Entenda os 4 pontos da declaração conjunta de Trump, Xi e Putin — *ja foi pauta em 2026-11-19*
+- Relator do ajuste fiscal na Câmara mantém texto do Senado; projeto deve ser votado na segunda-f — *ja foi pauta em 2026-11-19*
 
 ## Fontes que não responderam
 
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Estadão: `HTTP 404`
-- Nexo Jornal: `HTTP 404`
 - CNN Brasil Internacional: `HTTP 404`
+- Nexo Jornal: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
