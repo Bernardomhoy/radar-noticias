@@ -1,73 +1,72 @@
 # Radar de Notícias — 2026-11-21
-*Fechado às 09:30 (horário de Brasília) · 1109 matérias lidas · 641 pautas identificadas · 17 fontes ativas*
+*Fechado às 16:44 (horário de Brasília) · 1026 matérias lidas · 603 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Assista aos telejornais da TV Bahia**  
-notícia `91` · esporte · Brasil · 4 veículos · g1  
-Assista aos telejornais da TV Bahia  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração █████████· · recência ██████████ · calor █████████·  
-[Ler na fonte](https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml)  
-Cobertura: [g1](https://g1.globo.com/ba/bahia/ao-vivo/assista-aos-telejornais-da-tv-bahia.ghtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/esportes/brasileirao/chapecoense-x-cruzeiro-horario-e-onde-assistir-ao-jogo-do-brasileirao/) · [ge (Globo Esporte) (5)](https://ge.globo.com/ba/futebol/times/bahia/noticia/2026/11/21/fora-contra-o-coritiba-willian-jose-nao-joga-mais-pelo-bahia.ghtml) · [Olhar Digital](https://olhardigital.com.br/2026/11/21/internet-e-redes-sociais/jogos-de-hoje-21-11-26-onde-assistir-futebol-ao-vivo-e-horarios-das-partidas/)  
-
-**2. Protestos contra gastos militares e alta do custo de vida mobilizam jovens na Europa nesta sexta**  
-notícia `90` · geral · Brasil · 5 veículos · Folha de S.Paulo  
-Manifestantes de diversos países da Europa saíram às ruas nesta sexta-feira (20) contra o aumento do custo de vida e a militarização, em uma tentativa de aumentar a pressão sobre seus governos com uma demonstração de coordenação transfronteiriça. Leia mais (11  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+**1. Lula diz que projeto aprovado no Senado não é 'reforma fiscal', mas ajuste para Orçamento de 2027, e critica Faria Lima**  
+notícia `91` · politica · Brasil · 6 veículos · g1  
+Lula critica aliados que se opuseram ao ajuste O presidente Luiz Inácio Lula da Silva (PT) afirmou neste sábado (21) que o projeto fiscal aprovado pelo Senado nesta semana não é uma "reforma", mas um "ajuste" orçamentário para o ano de 2027. O petista deu as d  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
 *Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/protestos-contra-gastos-militares-e-alta-do-custo-de-vida-mobilizam-jovens-na-europa-nesta-sexta.shtml)  
-Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/protestos-contra-gastos-militares-e-alta-do-custo-de-vida-mobilizam-jovens-na-europa-nesta-sexta.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/20/protestos-jovens-europa.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/20/gerao-z-protagoniza-protestos-por-educao-e-justia-climtica-na-europa.ghtml) · [RFI Brasil (2)](https://www.rfi.fr/br/europa/20261121-milhares-protestam-na-europa-contra-a-militariza%C3%A7%C3%A3o-o-alto-custo-de-vida-e-a-crise-da-moradia) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/21/milhares-de-trabalhadores-esperados-em-lisboa-para-protestar-contra-o-aumento-do-custo-de-)  
+> ⚠️ Conteúdo eleitoral: cite a fonte do dado, separe fato de opinião e evite propaganda.  
+[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/21/lula-diz-que-projeto-aprovado-no-senado-nao-e-reforma-fiscal-mas-ajuste-para-orcamento-de-2027-e-critica-faria-lima.ghtml)  
+Cobertura: [g1 (3)](https://g1.globo.com/politica/noticia/2026/11/21/lula-diz-que-projeto-aprovado-no-senado-nao-e-reforma-fiscal-mas-ajuste-para-orcamento-de-2027-e-critica-faria-lima.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/debate-sobre-plano-moretti-e-so-o-aperitivo-da-disputa-da-esquerda-no-lula-4-veja-video.shtml) · [Valor Econômico (2)](https://valor.globo.com/politica/noticia/2026/11/21/lula-diz-que-avalia-ampliar-o-papel-do-ministrio-dos-povos-indgenas-no-prximo-mandato.ghtml) · [InfoMoney](https://www.infomoney.com.br/politica/exercito-do-lula-perde-14-milhao-de-seguidores-apos-disputa-sobre-ajuste-fiscal/) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/lula-rebate-criticas-de-companheiros-a-ajuste-fiscal-e-elogia-moretti/) · [Poder360](https://www.poder360.com.br/poder-governo/lula-diz-ficar-triste-com-criticas-da-esquerda-ao-ajuste-fiscal/)  
 
-**3. Black Friday nos EUA coloca gastos do consumidor no foco em mercado abalado pela IA**  
-notícia `90` · economia · Brasil · 6 veículos · Folha de S.Paulo  
-Os investidores voltarão sua atenção, na próxima semana, para a força dos gastos do consumidor, na esperança de que sinais de um cenário econômico amplamente sólido possam dar estabilidade ao mercado acionário dos Estados Unidos , abalado pelas apreensões em t  
+**2. UE propõe taxar serviços digitais e cortar em 10% orçamento do bloco**  
+notícia `91` · economia · Brasil · 6 veículos · Folha de S.Paulo  
+O presidente do Conselho Europeu, António Costa, propôs um imposto sobre serviços digitais em toda a União Europeia e reduziu a proposta para o próximo orçamento de sete anos do bloco, na tentativa de obter a concordância dos 27 Estados-membros até o fim deste  
 *Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/black-friday-nos-eua-coloca-gastos-do-consumidor-no-foco-em-mercado-abalado-pela-ia.shtml)  
-Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/black-friday-nos-eua-coloca-gastos-do-consumidor-no-foco-em-mercado-abalado-pela-ia.shtml) · [Valor Econômico](https://valor.globo.com/patrocinado/dino/noticia/2026/11/20/pix-ou-pagamento-a-vista-e-decisivo-para-69-na-black-friday-1.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/black-friday-e-primeiro-imovel-como-combinar-as-condicoes-especiais/) · [Tecnoblog (5)](https://tecnoblog.net/achados/kindle-colorsoft-tem-r-500-off-em-ate-10x-as-vesperas-da-black-friday/) · [TecMundo (4)](https://www.estadao.com.br/tecmundo/produto-e-review/perfis-e-anuncios-falsos-dominaram-ameacas-na-black-friday-2026-saiba-como-se-proteger/) · [Canaltech (5)](https://canaltech.com.br/eletro/ar-condicionado-elgin-inverter-de-9000-btus-cai-para-r-1568-na-black-friday/)  
+*Sinais:* corroboração ██████████ · recência ████████·· · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/ue-propoe-taxar-servicos-digitais-e-cortar-em-10-orcamento-do-bloco.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/ue-propoe-taxar-servicos-digitais-e-cortar-em-10-orcamento-do-bloco.shtml) · [g1 (3)](https://g1.globo.com/tecnologia/noticia/2026/11/21/uniao-europeia-propoe-taxar-big-techs-para-financiar-orcamento-ate-2034.ghtml) · [RFI Brasil](https://www.rfi.fr/br/europa/20261121-pa%C3%ADses-da-ue-criticam-proposta-de-or%C3%A7amento-do-bloco-que-prev%C3%AA-taxa-sobre-gigantes-da-tecnologia) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/macroeconomia/ue-propoe-imposto-de-3-sobre-faturamento-das-big-techs/) · [Euronews (português)](https://pt.euronews.com/2026/11/21/uniao-europeia-costa-propoe-novos-cortes-e-taxa-digital-para-desbloquear-orcamento) · [Olhar Digital](https://olhardigital.com.br/2026/11/21/pro/uniao-europeia-propoe-imposto-de-3-sobre-receitas-de-big-techs/)  
 
-**4. Atlético-MG chega à terceira final continental consecutiva; relembre**  
-notícia `89` · esporte · Brasil · 4 veículos · CNN Brasil  
-Galo enfrenta o Boca Juniors neste sábado (21) na decisão da Copa Sul-Americana em busca de título inédito; decisão acontece em Barranquilla, na Colômbia  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; 25 matérias em 13.13h  
-*Sinais:* corroboração █████████· · recência ██████████ · calor █████████·  
-[Ler na fonte](https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/sulamericana/atletico-mg-chega-a-terceira-final-continental-consecutiva-relembre/)  
-Cobertura: [CNN Brasil (4)](https://www.cnnbrasil.com.br/esportes/futebol/futebol-internacional/sulamericana/atletico-mg-chega-a-terceira-final-continental-consecutiva-relembre/) · [ge (Globo Esporte) (16)](https://ge.globo.com/motor/formula-1/noticia/2026/11/21/gp-de-las-vegas-de-f1-horarios-e-onde-assistir-ao-vivo.ghtml) · [Exame (3)](https://exame.com/esporte/atletico-mg-x-boca-juniors-onde-assistir-ao-vivo-horario-e-provaveis-escalacoes/) · [Olhar Digital (2)](https://olhardigital.com.br/2026/11/21/internet-e-redes-sociais/atletico-mineiro-x-boca-juniors-onde-assistir-a-final-da-sul-americana-2026/)  
+**3. 'Ainda não há compromisso' na COP31 do clima para um acordo, afirma União Europeia**  
+notícia `90` · mundo · Brasil · 5 veículos · g1  
+Voluntário passa em frente ao logotipo da COP31, conferência do clima da ONU, em Antalya, na Turquia, em 8 de novembro de 2026. Murad Sezer/Reuters O comissário europeu para o Clima afirmou neste sábado (21) que ainda não foi alcançado um compromisso para incl  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://g1.globo.com/meio-ambiente/noticia/2026/11/21/ainda-nao-ha-compromisso-na-cop31-do-clima-para-um-acordo-afirma-uniao-europeia.ghtml)  
+Cobertura: [g1](https://g1.globo.com/meio-ambiente/noticia/2026/11/21/ainda-nao-ha-compromisso-na-cop31-do-clima-para-um-acordo-afirma-uniao-europeia.ghtml) · [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/ambiente/2026/11/paises-correm-para-fechar-acordo-na-cop31-apos-impasse-sobre-combustiveis-fosseis.shtml) · [Valor Econômico (2)](https://valor.globo.com/mundo/noticia/2026/11/21/cop31-vive-impasse-e-corre-o-risco-de-no-terminar.ghtml) · [RFI Brasil](https://www.rfi.fr/br/ci%C3%AAncias/20261120-cop31-amea%C3%A7a-esvaziar-impulso-brasileiro-sobre-combust%C3%ADveis-f%C3%B3sseis-e-financiamento-clim%C3%A1tico) · [Euronews (português)](https://pt.euronews.com/2026/11/21/disputa-sobre-combustiveis-fosseis-prolonga-negociacoes-da-cop31)  
 
-**5. Executivo faz fortuna com IPO da Anthropic, mas ganho poderia ser maior**  
-notícia `88` · tecnologia · Brasil · 5 veículos · Folha de S.Paulo  
-A oferta pública inicial de ações (IPO) da Anthropic renderá fortunas a uma série de conhecidos investidores do Vale do Silício, investidores de capital de risco e primeiros funcionários que tiveram a sorte de identificar o potencial da startup de inteligência  
+**4. Banco de dados de informações criminais do FBI foi hackeado, diz CNN**  
+notícia `90` · mundo · Brasil · 6 veículos · Folha de S.Paulo  
+O FBI está investigando uma possível violação de um banco de dados nacional usado por agências policiais dos Estados Unidos para compartilhar informações sobre justiça criminal. As informações foram divulgadas pela CNN, nesta sexta-feira (20), citando duas pes  
+*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/banco-de-dados-de-informacoes-criminais-do-fbi-foi-hackeado-diz-cnn.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/banco-de-dados-de-informacoes-criminais-do-fbi-foi-hackeado-diz-cnn.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/21/fbi-investiga-invasao-a-banco-de-dados-nacional-de-informacoes-criminais-diz-tv.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/21/banco-de-dados-de-informaes-criminais-do-fbi-sofre-invaso-relata-a-cnn.ghtml) · [InfoMoney](https://www.infomoney.com.br/mundo/fbi-investiga-possivel-ataque-hacker-a-banco-de-dados-criminais-dos-eua/) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/trump-minimiza-suposto-ataque-hacker-contra-banco-de-dados-do-fbi/) · [Exame](https://exame.com/tecnologia/hackers-invadem-sistemas-do-fbi-e-do-departamento-de-agricultura-dos-eua-diz-imprensa-dos-eua/)  
+
+**5. Governo do DF quer aproveitar estrutura de festival da posse de Lula para festa de Réveillon**  
+notícia `89` · politica · Brasil · 5 veículos · Folha de S.Paulo  
+O governo do Distrito Federal planeja pedir ao governo federal a possibilidade de usar a estrutura que será montada para o festival com shows para a posse do presidente Lula (PT) para a festa de Réveillon na capital federal. Leia mais (11/21/2026 - 15h00)  
 *Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ████████·· · calor ███████···  
-> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/executivo-faz-fortuna-com-ipo-da-anthropic-mas-ganho-poderia-ser-maior.shtml)  
-Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/executivo-faz-fortuna-com-ipo-da-anthropic-mas-ganho-poderia-ser-maior.shtml) · [g1 (6)](https://g1.globo.com/economia/noticia/2026/11/19/acoes-anthropic-nasdaq.ghtml) · [Valor Econômico (5)](https://valor.globo.com/empresas/noticia/2026/11/20/aes-da-anthropic-recuam-850-pontos-percentuais-no-segundo-dia-de-negociaes-na-nasdaq.ghtml) · [InfoMoney](https://www.infomoney.com.br/onde-investir/ipo-historico-da-anthropic-nvidia-e-balancos-na-b3-veja-os-destaques-da-semana/) · [Canaltech](https://canaltech.com.br/mercado/anthropic-levanta-us-81-bi-no-maior-ipo-da-historia-e-supera-spacex/)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/governo-do-df-quer-aproveitar-estrutura-de-festival-da-posse-de-lula-para-festa-de-reveillon.shtml)  
+Cobertura: [Folha de S.Paulo (13)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/governo-do-df-quer-aproveitar-estrutura-de-festival-da-posse-de-lula-para-festa-de-reveillon.shtml) · [g1](https://g1.globo.com/politica/noticia/2026/11/20/briga-na-esquerda-e-governo-lula-4.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula) · [Poder360](https://www.poder360.com.br/poder-governo/lula-diz-que-mercado-financeiro-nao-vai-ensina-lo-a-governar/) · [Exame](https://exame.com/brasil/lula-defende-ajuste-fiscal-e-diz-que-nao-aceitara-pressao-do-mercado-financeiro/)  
 
-**6. Notícias do dia | 21 de novembro 2026 - Tarde**  
-notícia `64` · mundo · Mundo · 1 veículo · Euronews (português)  
-Fique a par das notícias mais importantes de toda a Europa e não só, a 21 de novembro de 2026 - últimas notícias, notícias de última hora, mundo, negócios, entretenimento, política, cultura, viagens.  
+**6. Itália: morre Paolo Bulgari, magnata da joalharia, aos 89 anos**  
+notícia `61` · mundo · Mundo · 1 veículo · Euronews (português)  
+Neto do fundador da Bulgari ajudou a transformar a joalharia familiar numa das mais prestigiadas marcas de luxo e presidiu à casa romana desde 1984, mantendo sempre uma profunda paixão pelo design de joias  
 *Por que entrou:* publicada nas últimas horas; fonte Euronews (português); só Euronews (português) publicou  
-*Sinais:* corroboração ████······ · recência █████████· · calor ██████····  
-[Ler na fonte](https://pt.euronews.com/video/2026/11/21/noticias-do-dia-21-de-novembro-2026-tarde)  
-Cobertura: [Euronews (português) (3)](https://pt.euronews.com/video/2026/11/21/noticias-do-dia-21-de-novembro-2026-tarde)  
+*Sinais:* corroboração ████······ · recência █████████· · calor ████······  
+[Ler na fonte](https://pt.euronews.com/2026/11/21/italia-morre-paolo-bulgari-magnata-da-joalharia-aos-89-anos)  
 
 ## Reserva (não entrou hoje)
 
-- `86` Fiona, hipopótamo famoso nas redes, morre após engolir gorro de tricô em zoológico nos EUA — *ficou fora do corte*
-- `86` Peru registra terremoto de magnitude 6,7; tremor foi sentido em Lima — *ficou fora do corte*
-- `86` Morre Phumzile Mlambo-Ngcuka ex-vice-presidente da África do Sul e ex-chefe da ONU Mulheres — *ficou fora do corte*
-- `85` Três mortes e 60 feridos no RS: quem são as vítimas da tempestade em Tupanciretã — *ficou fora do corte*
-- `84` Defesa de Bolsonaro pede a Moraes autorização para visitas diárias de filhos durante internação — *ficou fora do corte*
-- `83` 'GTA 6' arrecada US$ 3,79 bilhões no lançamento e quebra recorde de faturamento — *ficou fora do corte*
-- `82` Não posso falar pelos EUA, diz Trump ao responder se Putin é amigo do país — *ficou fora do corte*
-- `81` Ataques cibernéticos, IA ou atualizações pendentes: o que há por trás da onda de apagões dos úl — *ficou fora do corte*
+- `89` Bolsonaro tem obstrução intestinal, está na UTI, estável e sem previsão de alta, diz hospital — *cota de politica cheia*
+- `88` Não posso falar pelos EUA, diz Trump ao responder se Putin é amigo do país — *ficou fora do corte*
+- `87` Brasileira no Miss Universo 2026, Marcella Kozinski usa traje inspirado no guaraná: 'Compartilh — *ficou fora do corte*
+- `86` Terremoto de magnitude 6,7 deixou 15 feridos no Peru e danificou 127 casas — *ficou fora do corte*
+- `86` Drones atingem cargueiro russo no Golfo da Finlândia; país reforça segurança e suspeita de mate — *ficou fora do corte*
+- `85` União Europeia e Indonésia assinam acordo comercial após 10 anos de negociações — *ficou fora do corte*
+- `84` Ações da Anthropic caem 8,5% um dia após estreia histórica na bolsa dos EUA — *ficou fora do corte*
+- `84` Atlético-MG x Boca Juniors: Onde assistir à final da Copa Sul-Americana? — *ficou fora do corte*
 
 ## Já foi pauta nos últimos dias
 
-- Bolsonaro é levado a hospital após sentir dor abdominal — *ja foi pauta em 2026-11-20*
+- 'GTA 6' arrecada US$ 3,79 bilhões no lançamento e quebra recorde de faturamento — *ja foi pauta em 2026-11-20*
 
 ## Fontes que não responderam
 
