@@ -1,75 +1,81 @@
-# Radar de Notícias — 2026-11-25
-*Fechado às 19:25 (horário de Brasília) · 1185 matérias lidas · 719 pautas identificadas · 18 fontes ativas*
+# Radar de Notícias — 2026-11-26
+*Fechado às 01:19 (horário de Brasília) · 1173 matérias lidas · 660 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. FCC autoriza SpaceX a lançar 1 milhão de satélites para criar data centers no espaço**  
-notícia `96` · mundo · Brasil · 6 veículos · g1  
-Starship, nave da Space, em foto divulgada em 23 de setembro de 2026 Reprodução/SpaceX A Comissão Federal de Comunicações dos Estados Unidos (FCC, na sigla em inglês) autorizou nesta quarta-feira (25) a SpaceX, empresa de Elon Musk, a lançar até 1 milhão de sa  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
-[Ler na fonte](https://g1.globo.com/tecnologia/noticia/2026/11/25/fcc-autoriza-spacex-a-lancar-1-milhao-de-satelites-para-criar-data-centers-no-espaco.ghtml)  
-Cobertura: [g1 (3)](https://g1.globo.com/tecnologia/noticia/2026/11/25/fcc-autoriza-spacex-a-lancar-1-milhao-de-satelites-para-criar-data-centers-no-espaco.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/ia/2026/11/eua-autorizam-spacex-a-lancar-1-milhao-de-satelites-para-criar-data-centers-no-espaco.shtml) · [Valor Econômico](https://valor.globo.com/empresas/noticia/2026/11/25/eua-autorizam-spacex-a-lanar-1-milho-de-satlites-para-data-centers.ghtml) · [Poder360](https://www.poder360.com.br/poder-internacional/eua-autorizam-spacex-a-lancar-1-milhao-de-satelites-para-data-centers/) · [TecMundo](https://www.estadao.com.br/tecmundo/inteligencia-artificial/spacex-e-autorizada-a-lancar-1-milhao-de-satelites-para-data-centers-no-espaco/) · [Olhar Digital](https://olhardigital.com.br/2026/11/25/ciencia-e-espaco/spacex-recebe-autorizacao-para-lancar-um-milhao-de-satelites-de-ia/)  
+**1. Produtos que podem ser atingidos por novas tarifas representam 7% das exportações aos EUA**  
+notícia `95` · economia · Brasil · 14 veículos · Folha de S.Paulo  
+Os novos itens de comércio que podem ser taxados pelos Estados Unidos representam 7% do total das exportações do Brasil para os americanos, de acordo com dados da Comex, a base de dados sobre comércio exterior do Mdic (Ministério do Desenvolvimento, Indústria,  
+*Por que entrou:* 14 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência █████████· · calor █████████·  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/produtos-que-podem-ser-atingidos-por-novas-tarifas-representam-7-das-exportacoes-aos-eua.shtml)  
+Cobertura: [Folha de S.Paulo (25)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/produtos-que-podem-ser-atingidos-por-novas-tarifas-representam-7-das-exportacoes-aos-eua.shtml) · [g1 (29)](https://g1.globo.com/jornal-nacional/noticia/2026/11/25/novo-tarifaco-e-incerteza-sobre-inteligencia-artificial-derrubam-indices-das-bolsas-dos-eua.ghtml) · [Agência Brasil (EBC) (2)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/amcham-participara-de-consulta-dos-eua-sobre-tarifas-ao-brasil) · [Valor Econômico (7)](https://valor.globo.com/financas/noticia/2026/11/25/embraer-sente-ameaca-tarifaria-dos-eua-mas-mercado-avalia-que-forca-do-e175-pode-limitar-danos.ghtml) · [InfoMoney](https://www.infomoney.com.br/business/brasileira-no-brasil-e-americana-nos-eua-como-a-jbs-cresce-sendo-local-no-mundo/) · [RFI Brasil](https://www.rfi.fr/br/economia/20261125-tarifa%C3%A7o-avi%C3%B5es-e-a%C3%A7%C3%BAcar-brasileiros-s%C3%A3o-alvo-de-novas-tarifas-anunciadas-pelos-eua)  
 
-**2. Procon de Santos divulga lista de preços para a Black Friday com 300 produtos; veja**  
-notícia `94` · tecnologia · Brasil · 9 veículos · g1  
-Procon-Santos reúne preços de produtos e itens para ajudar consumidores na Black Friday Prefeitura de Santos O Programa de Proteção e Defesa do Consumidor (Procon) de Santos, no litoral de São Paulo, divulgou uma lista com os preços de 300 produtos para ajudar  
-*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://g1.globo.com/sp/santos-regiao/noticia/2026/11/25/black-friday-procon-santos-lista-precos-300-produtos.ghtml)  
-Cobertura: [g1 (3)](https://g1.globo.com/sp/santos-regiao/noticia/2026/11/25/black-friday-procon-santos-lista-precos-300-produtos.ghtml) · [Folha de S.Paulo (6)](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/blogs/cafe-na-prensa/2026/11/como-aproveitar-black-friday-para-comprar-cafes-online.shtml) · [Valor Econômico (2)](https://valor.globo.com/patrocinado/pulse-brand/noticia/2026/11/25/dados-indicam-que-1111-diversifica-e-nao-antecipa-vendas-da-black-friday-1.ghtml) · [InfoMoney (2)](https://www.infomoney.com.br/consumo/black-friday-como-identificar-sites-falsos-e-evitar-golpes-durante-as-compras-online/) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/black-friday-nos-eua-guia-de-outlets-em-orlando-e-miami-cupons-e-dicas/) · [Exame (9)](https://exame.com/tecnologia/examelab/batedeira-black-friday-2026-chatgpt/)  
-
-**3. Governo Lula diz que 'não cederá a ameaças' após tarifas dos EUA para aeronaves e açúcar**  
-notícia `93` · mundo · Brasil · 7 veículos · Folha de S.Paulo  
-O governo do presidente Luiz Inácio Lula da Silva (PT) criticou, por meio de nota divulgada nesta quarta-feira (25), a decisão dos Estados Unidos de propor a aplicação de novas tarifas sobre produtos importados do Brasil, incluindo açúcar, e uma alíquota de 10  
-*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/governo-lula-diz-que-nao-cedera-a-ameacas-apos-tarifas-dos-eua-para-aeronaves-e-acucar.shtml)  
-Cobertura: [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/governo-lula-diz-que-nao-cedera-a-ameacas-apos-tarifas-dos-eua-para-aeronaves-e-acucar.shtml) · [g1 (5)](https://g1.globo.com/economia/noticia/2026/11/25/governo-lula-diz-estar-indignado-com-nova-proposta-de-tarifa-dos-eua-contra-o-brasil-e-que-nao-cedera-a-esse-tipo-de-ameaca.ghtml) · [Valor Econômico (4)](https://valor.globo.com/brasil/noticia/2026/11/25/governo-expressa-indignacao-com-ameaca-de-tarifas-dos-eua-e-cita-pressao-sobre-o-pix.ghtml) · [InfoMoney](https://www.infomoney.com.br/mundo/governo-lula-reage-a-nova-tarifa-dos-eua-e-diz-que-brasil-nao-cedera-a-ameacas/) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/novas-tarifas-dos-eua-dao-forca-a-chanceler-com-perfil-tecnico-no-lula-4/) · [Poder360](https://www.poder360.com.br/poder-governo/governo-lula-critica-eua-e-diz-que-nao-cedera-a-ameaca-tarifaria/)  
-
-**4. Câmara aprova criação de marco nacional da educação em tempo integral**  
-notícia `92` · politica · Brasil · 7 veículos · g1  
-A Câmara dos Deputados aprovou nesta quarta-feira (25) projeto de lei que cria o Marco Nacional da educação em tempo integral, com, no mínimo, 7 horas diárias dos alunos nas escolas ou 35 horas semanais. 🏫A adoção do período integral deverá ser feita progressi  
-*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência ██████████ · calor ███████···  
-[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/25/camara-aprova-criacao-de-marco-nacional-da-educacao-em-tempo-integral.ghtml)  
-Cobertura: [g1 (15)](https://g1.globo.com/politica/noticia/2026/11/25/camara-aprova-criacao-de-marco-nacional-da-educacao-em-tempo-integral.ghtml) · [Folha de S.Paulo (5)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/alcolumbre-ameaca-anular-voto-do-senador-que-quebrar-sigilo-de-cedula-na-eleicao-do-senado.shtml) · [Valor Econômico (2)](https://valor.globo.com/brasil/noticia/2026/11/25/para-moretti-medidas-adicionais-de-ajuste-fiscal-devem-ser-encaminhadas-ao-congresso-neste-exercicio.ghtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/cqdr13l5e830o?at_medium=RSS&at_campaign=rss) · [Agência Brasil (EBC) (4)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-sanciona-ajuste-fiscal-aprovado-no-congresso) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/camara-aprova-alerta-sonoro-em-tornozeleiras-de-agressores-de-mulheres/)  
-
-**5. Lula reúne ex-ministros da Justiça para discutir estrutura de nova pasta da Segurança Pública**  
-notícia `92` · politica · Brasil · 6 veículos · g1  
-O presidente Luiz Inácio Lula da Silva (PT) reuniu, na manhã desta quarta-feira (25), três ex-ministros da Justiça e atuais membros do governo para discutir a criação do Ministério da Segurança Pública. A reunião, que ocorreu no Palácio da Alvorada, contou com  
-*Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+**2. Sem Haddad, Camilo Santana ganha força para assumir Casa Civil de Lula**  
+notícia `92` · politica · Brasil · 5 veículos · Folha de S.Paulo  
+O senador Camilo Santana ( PT -CE) ampliou o favoritismo para chefiar a Casa Civil, segundo aliados de Lula (PT), após o ex-ministro Fernando Haddad (PT) conversar com o presidente e apontar que não assumirá cargo no governo . Leia mais (11/25/2026 - 23h00)  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
 *Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
-[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/25/lula-reune-ex-ministros-da-justica-para-discutir-nova-pasta-da-seguranca-publica.ghtml)  
-Cobertura: [g1 (13)](https://g1.globo.com/politica/noticia/2026/11/25/lula-reune-ex-ministros-da-justica-para-discutir-nova-pasta-da-seguranca-publica.ghtml) · [Folha de S.Paulo (13)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/lula-quer-nova-governanca-para-articular-investimentos-de-forma-integrada-nos-ministerios.shtml) · [Valor Econômico (6)](https://valor.globo.com/financas/ao-vivo/2023/06/16/dolar-avanca-e-ibovespa-recua-em-dia-de-correcao-siga-os-mercados.ghtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/cqdj1d3yd4pzo?at_medium=RSS&at_campaign=rss) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/brasil-decide-que-embaixador-nao-deve-mais-voltar-argentina-de-milei) · [Poder360](https://www.poder360.com.br/poder-partidos-politicos/republicanos-quer-ministerios-da-industria-e-portos-e-aeroportos-no-lula-4/)  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/sem-haddad-camilo-santana-ganha-forca-para-assumir-casa-civil-de-lula.shtml)  
+Cobertura: [Folha de S.Paulo (30)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/sem-haddad-camilo-santana-ganha-forca-para-assumir-casa-civil-de-lula.shtml) · [g1 (3)](https://g1.globo.com/politica/blog/julia-duailibi/post/2026/11/25/lula-haddad-pasta-de-investimentos-trabuco-ganha-forca-para-fazenda.ghtml) · [Valor Econômico (9)](https://valor.globo.com/politica/noticia/2026/11/26/quem-sao-as-mulheres-cotadas-para-uma-indicacao-de-lula-ao-stf.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cqdj1d3yd4pzo?at_medium=RSS&at_campaign=rss) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/lula-sonda-trabuco-para-fazer-parte-de-novo-governo/)  
 
-**6. União Europeia anuncia fundo de € 50 bilhões para disputar corrida mundial da computação quântica**  
-notícia `64` · mundo · Mundo · 2 veículos · RFI Brasil  
-A União Europeia quer evitar que a próxima grande revolução tecnológica fique nas mãos dos Estados Unidos e da China. Para isso, a Comissão Europeia anunciou nesta quarta-feira (25) uma proposta de criação de um fundo soberano de € 50 bilhões (cerca de R$ 323   
-*Por que entrou:* 2 veículos cobrindo; fonte RFI Brasil; ainda fresca  
-*Sinais:* corroboração ██████···· · recência ██████···· · calor █████·····  
-[Ler na fonte](https://www.rfi.fr/br/ci%C3%AAncias/20261125-uni%C3%A3o-europeia-anuncia-fundo-de-%E2%82%AC-50-bilh%C3%B5es-para-disputar-corrida-mundial-da-computa%C3%A7%C3%A3o-qu%C3%A2ntica)  
-Cobertura: [RFI Brasil](https://www.rfi.fr/br/ci%C3%AAncias/20261125-uni%C3%A3o-europeia-anuncia-fundo-de-%E2%82%AC-50-bilh%C3%B5es-para-disputar-corrida-mundial-da-computa%C3%A7%C3%A3o-qu%C3%A2ntica) · [Euronews (português)](https://pt.euronews.com/2026/11/25/uniao-europeia-cria-fundo-de-50-mil-milhoes-para-tecnologias-quanticas-e-ia)  
+**3. Governo e BC anunciam medidas para reduzir endividamento, com regras para cartão de crédito e empréstimos**  
+notícia `90` · politica · Brasil · 5 veículos · Folha de S.Paulo  
+O Banco Central anunciou nesta quinta-feira (25) que aprovou, junto ao CMN (Conselho Monetário Nacional), um conjunto de medidas para aprimorar a concessão de crédito e frear o endividamento , especialmente de pessoas físicas. Leia mais (11/25/2026 - 19h19)  
+*Por que entrou:* 5 veículos cobrindo; 6 matérias em 1.44h; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ██████████ · recência ███████··· · calor ██████████  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/governo-e-bc-anunciam-medidas-para-reduzir-endividamento-com-regras-para-cartao-de-credito-e-emprestimos.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/governo-e-bc-anunciam-medidas-para-reduzir-endividamento-com-regras-para-cartao-de-credito-e-emprestimos.shtml) · [g1](https://g1.globo.com/economia/noticia/2026/11/25/cmn-anuncia-medidas-para-conter-o-endividamento-das-familias.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias) · [Valor Econômico](https://valor.globo.com/financas/noticia/2026/11/25/bc-determina-reduo-do-limite-do-carto-de-quem-usa-crdito-rotativo-com-frequncia.ghtml) · [InfoMoney](https://www.infomoney.com.br/economia/cmn-e-bc-aprovam-medidas-para-conter-riscos-do-endividamento/)  
+
+**4. Acidente com caminhão-tanque deixa pelo menos 30 mortos no Egito**  
+notícia `88` · cotidiano · Brasil · 4 veículos · Folha de S.Paulo  
+Pelo menos 30 pessoas morreram e outras 15 ficaram feridas em um acidente envolvendo um caminhão-tanque em uma importante rodovia do Egito nesta quarta-feira (25), informou o Ministério da Saúde do país africano em um comunicado. Leia mais (11/25/2026 - 16h46)  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
+> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/acidente-com-caminhao-tanque-deixa-pelo-menos-30-mortos-no-egito.shtml)  
+Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/acidente-com-caminhao-tanque-deixa-pelo-menos-30-mortos-no-egito.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/25/caminhao-tanque-pega-fogo-e-deixa-ao-emnos-21-mortos-no-egito.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/25/caminho-pega-fogo-e-deixa-ao-menos-30-mortos-no-egito.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/explosao-de-caminhao-tanque-provoca-incendio-e-deixa-mortos-no-egito/)  
+
+**5. Corinthians cede empate ao Atlético, mas deixa a zona de rebaixamento**  
+notícia `84` · esporte · Brasil · 3 veículos · Folha de S.Paulo  
+O Corinthians somou um importante ponto diante do Atlético-MG nesta quarta-feira (25), com um empate por 1 a 1, e terminou a 36ª rodada do Campeonato Brasileiro fora da zona de rebaixamento. Leia mais (11/25/2026 - 22h09)  
+*Por que entrou:* 3 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
+*Sinais:* corroboração ████████·· · recência █████████· · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/corinthians-cede-empate-ao-atletico-mas-deixa-a-zona-de-rebaixamento.shtml)  
+Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/corinthians-cede-empate-ao-atletico-mas-deixa-a-zona-de-rebaixamento.shtml) · [CNN Brasil (3)](https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-nao-aproveita-expulsao-do-atletico-mg-e-segue-ameacado-pelo-z4/) · [ge (Globo Esporte) (3)](https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/25-11-2026/atletico-mg-corinthians.ghtml)  
+
+**6. Gana é eleita na ONU Turismo e Brasil assume vice-presidência**  
+notícia `59` · mundo · Mundo · 1 veículo · Agência Brasil Internacional  
+Gana foi eleita para presidir o Conselho Executivo da ONU Turismo em 2027. A escolha ocorreu durante a 127ª reunião do colegiado nesta quarta-feira (25), nos Emirados Árabes Unidos. O país africano recebeu 19 votos, vencendo a Argentina, que teve 14 votos. O B  
+*Por que entrou:* ainda fresca; peso de fonte alto (Agência Brasil Internacional); só Agência Brasil Internacional publicou  
+*Sinais:* corroboração ████······ · recência ███████··· · calor ████······  
+[Ler na fonte](https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/gana-e-eleita-na-onu-turismo-e-brasil-assume-vice-presidencia)  
+Cobertura: [Agência Brasil Internacional (2)](https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/gana-e-eleita-na-onu-turismo-e-brasil-assume-vice-presidencia)  
 
 ## Reserva (não entrou hoje)
 
-- `92` Moraes rejeita pedido da PGR para pagar penduricalhos com crédito extra de R$ 324 milhões — *cota de politica cheia*
-- `91` Dólar volta a R$ 5,81 com especulações sobre Trabuco na Fazenda e expectativa fiscal; Bolsa sob — *ficou fora do corte*
-- `91` Justiça dos EUA condena Huawei por roubar segredos comerciais, fraude bancária e outros oito cr — *ficou fora do corte*
-- `87` Secretária de Agricultura de Trump defende novas tarifas e acusa Brasil de 'práticas desleais'  — *ficou fora do corte*
-- `86` Os riscos que Trump corre com a volta de Jensen Huang ao comando da Nvidia — *ficou fora do corte*
-- `84` Tarifaço: açúcar brasileiro pode ter nova taxa para entrar nos EUA; veja o que pode mudar — *ficou fora do corte*
-- `84` Aviso — *ficou fora do corte*
-- `83` Governo diz que bloqueou quase quatro mil celulares usados por presos em menos de 50 dias — *ficou fora do corte*
+- `86` Os muitos 'ses' para Trabuco e outros cotados para Fazenda — *cota de politica cheia*
+- `83` Lotofácil 3838: seis apostas de MT acertam 14 números e ganham R$ 1 mil — *ficou fora do corte*
+- `83` Como aproveitar Black Friday para comprar cafés online — *ficou fora do corte*
+- `83` Caso Master: defesa de Vorcaro pede que Nunes Marques deixe relatoria de ação no STF contra Fac — *ficou fora do corte*
+- `83` PGR denuncia Gustavo Gayer e mais 24 pessoas por suposto desvio de verba parlamentar — *ficou fora do corte*
+- `82` Apenas 26% dos municípios com serviço de drenagem têm protocolos para situações de desastre, mo — *ficou fora do corte*
+- `82` Justiça dos EUA condena Huawei por roubar segredos comerciais, fraude bancária e outros oito cr — *ficou fora do corte*
+- `81` Morre Andy Taylor, guitarrista da banda Duran Duran, aos 65 anos — *ficou fora do corte*
+
+## Já foi pauta nos últimos dias
+
+- Câmara aprova diretrizes para guiar expansão da educação em tempo integral; texto vai ao Senado — *ja foi pauta em 2026-11-25*
+- FCC autoriza SpaceX a lançar 1 milhão de satélites para criar data centers no espaço — *ja foi pauta em 2026-11-25*
 
 ## Fontes que não responderam
 
-- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - Estadão: `HTTP 404`
-- Nexo Jornal: `HTTP 404`
+- UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
 - CNN Brasil Internacional: `HTTP 404`
+- Nexo Jornal: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
