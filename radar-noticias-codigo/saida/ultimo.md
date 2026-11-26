@@ -1,81 +1,77 @@
 # Radar de Notícias — 2026-11-26
-*Fechado às 01:19 (horário de Brasília) · 1173 matérias lidas · 660 pautas identificadas · 18 fontes ativas*
+*Fechado às 11:20 (horário de Brasília) · 1164 matérias lidas · 667 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Produtos que podem ser atingidos por novas tarifas representam 7% das exportações aos EUA**  
-notícia `95` · economia · Brasil · 14 veículos · Folha de S.Paulo  
-Os novos itens de comércio que podem ser taxados pelos Estados Unidos representam 7% do total das exportações do Brasil para os americanos, de acordo com dados da Comex, a base de dados sobre comércio exterior do Mdic (Ministério do Desenvolvimento, Indústria,  
-*Por que entrou:* 14 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor █████████·  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/produtos-que-podem-ser-atingidos-por-novas-tarifas-representam-7-das-exportacoes-aos-eua.shtml)  
-Cobertura: [Folha de S.Paulo (25)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/produtos-que-podem-ser-atingidos-por-novas-tarifas-representam-7-das-exportacoes-aos-eua.shtml) · [g1 (29)](https://g1.globo.com/jornal-nacional/noticia/2026/11/25/novo-tarifaco-e-incerteza-sobre-inteligencia-artificial-derrubam-indices-das-bolsas-dos-eua.ghtml) · [Agência Brasil (EBC) (2)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/amcham-participara-de-consulta-dos-eua-sobre-tarifas-ao-brasil) · [Valor Econômico (7)](https://valor.globo.com/financas/noticia/2026/11/25/embraer-sente-ameaca-tarifaria-dos-eua-mas-mercado-avalia-que-forca-do-e175-pode-limitar-danos.ghtml) · [InfoMoney](https://www.infomoney.com.br/business/brasileira-no-brasil-e-americana-nos-eua-como-a-jbs-cresce-sendo-local-no-mundo/) · [RFI Brasil](https://www.rfi.fr/br/economia/20261125-tarifa%C3%A7o-avi%C3%B5es-e-a%C3%A7%C3%BAcar-brasileiros-s%C3%A3o-alvo-de-novas-tarifas-anunciadas-pelos-eua)  
+**1. Tarifa sobre aviões é descabida e 'não existe em lugar nenhum do mundo', diz Alckmin**  
+notícia `98` · politica · Brasil · 5 veículos · Folha de S.Paulo  
+O vice-presidente Geraldo Alckmin (PSB) classificou como "descabidas" as ameaças de novas tarifas sobre o setor aeronáutico feitas na última quarta-feira (25) pelo governo americano. Leia mais (11/26/2026 - 10h33)  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; 7 matérias em 0.74h  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ██████████  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/tarifa-sobre-avioes-e-descabida-e-nao-existe-em-lugar-nenhum-do-mundo-diz-alckmin.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/tarifa-sobre-avioes-e-descabida-e-nao-existe-em-lugar-nenhum-do-mundo-diz-alckmin.shtml) · [g1 (2)](https://g1.globo.com/economia/noticia/2026/11/26/alckimin-eua-tarias.ghtml) · [Valor Econômico](https://valor.globo.com/brasil/noticia/2026/11/26/alckmin-classifica-como-descabida-proposta-de-taxar-aeronaves-brasileiras-e-diz-que-brasil-tentar-reverter-medida.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/alckmin-diz-que-tarifa-ao-setor-aeronautico-e-totalmente-descabida/) · [Poder360](https://www.poder360.com.br/poder-governo/tarifa-dos-eua-sobre-aeronaves-sao-descabidas-diz-alckmin/)  
 
-**2. Sem Haddad, Camilo Santana ganha força para assumir Casa Civil de Lula**  
-notícia `92` · politica · Brasil · 5 veículos · Folha de S.Paulo  
-O senador Camilo Santana ( PT -CE) ampliou o favoritismo para chefiar a Casa Civil, segundo aliados de Lula (PT), após o ex-ministro Fernando Haddad (PT) conversar com o presidente e apontar que não assumirá cargo no governo . Leia mais (11/25/2026 - 23h00)  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/sem-haddad-camilo-santana-ganha-forca-para-assumir-casa-civil-de-lula.shtml)  
-Cobertura: [Folha de S.Paulo (30)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/poder/2026/11/sem-haddad-camilo-santana-ganha-forca-para-assumir-casa-civil-de-lula.shtml) · [g1 (3)](https://g1.globo.com/politica/blog/julia-duailibi/post/2026/11/25/lula-haddad-pasta-de-investimentos-trabuco-ganha-forca-para-fazenda.ghtml) · [Valor Econômico (9)](https://valor.globo.com/politica/noticia/2026/11/26/quem-sao-as-mulheres-cotadas-para-uma-indicacao-de-lula-ao-stf.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cqdj1d3yd4pzo?at_medium=RSS&at_campaign=rss) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/lula-sonda-trabuco-para-fazer-parte-de-novo-governo/)  
+**2. IPCA-15 desacelera a 0,22% em novembro, com alívio nas passagens aéreas e nos combustíveis**  
+notícia `97` · economia · Brasil · 5 veículos · Folha de S.Paulo  
+A prévia da inflação perdeu força em novembro e ficou abaixo das expectativas do mercado. O IPCA-15 (Índice Nacional de Preços ao Consumidor Amplo 15) desacelerou de 0,32% em outubro para 0,22% neste mês, puxado pelo recuo das passagens aéreas e dos combustíve  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; 10 matérias em 1.71h  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ██████████  
+[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/ipca-15-desacelera-a-022-em-novembro-com-alivio-nas-passagens-aereas-e-nos-combustiveis.shtml)  
+Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/ipca-15-desacelera-a-022-em-novembro-com-alivio-nas-passagens-aereas-e-nos-combustiveis.shtml) · [g1](https://g1.globo.com/economia/noticia/2026/11/26/ipca-15-previa-da-inflacao-novembro.ghtml) · [Valor Econômico (4)](https://valor.globo.com/brasil/noticia/2026/11/26/passagem-aerea-gasolina-e-energia-empurram-ipca-15-para-baixo-em-novembro.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/ipca-15-teve-alta-de-022-em-novembro) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/agro/tomate-fica-39-mais-caro-em-novembro-e-puxa-alta-de-alimentos-no-ipca-15/)  
 
-**3. Governo e BC anunciam medidas para reduzir endividamento, com regras para cartão de crédito e empréstimos**  
-notícia `90` · politica · Brasil · 5 veículos · Folha de S.Paulo  
-O Banco Central anunciou nesta quinta-feira (25) que aprovou, junto ao CMN (Conselho Monetário Nacional), um conjunto de medidas para aprimorar a concessão de crédito e frear o endividamento , especialmente de pessoas físicas. Leia mais (11/25/2026 - 19h19)  
-*Por que entrou:* 5 veículos cobrindo; 6 matérias em 1.44h; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ███████··· · calor ██████████  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/governo-e-bc-anunciam-medidas-para-reduzir-endividamento-com-regras-para-cartao-de-credito-e-emprestimos.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/governo-e-bc-anunciam-medidas-para-reduzir-endividamento-com-regras-para-cartao-de-credito-e-emprestimos.shtml) · [g1](https://g1.globo.com/economia/noticia/2026/11/25/cmn-anuncia-medidas-para-conter-o-endividamento-das-familias.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmn-e-bc-anunciam-novas-regras-para-conter-endividamento-das-familias) · [Valor Econômico](https://valor.globo.com/financas/noticia/2026/11/25/bc-determina-reduo-do-limite-do-carto-de-quem-usa-crdito-rotativo-com-frequncia.ghtml) · [InfoMoney](https://www.infomoney.com.br/economia/cmn-e-bc-aprovam-medidas-para-conter-riscos-do-endividamento/)  
+**3. Faturamento fictício, cartões corporativos e carros de luxo: como funcionava suposto esquema do Grupo Fictor**  
+notícia `97` · cotidiano · Brasil · 5 veículos · g1  
+Operação apreendeu bens do grupo Fictor Reprodução O Grupo Fictor, conglomerado empresarial que anunciou a intenção de comprar o Banco Master em novembro do ano passado, é suspeito de simular um faturamento bilionário por meio de transações com cartões de créd  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; 14 matérias em 3.65h  
+*Sinais:* corroboração ██████████ · recência █████████· · calor ██████████  
+> ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
+[Ler na fonte](https://g1.globo.com/sp/sao-paulo/noticia/2026/11/26/faturamento-ficticio-cartoes-corporativos-e-carros-de-luxo-como-funcionava-suposto-esquema-do-grupo-que-tentou-comprar-o-banco-master.ghtml)  
+Cobertura: [g1 (2)](https://g1.globo.com/sp/sao-paulo/noticia/2026/11/26/faturamento-ficticio-cartoes-corporativos-e-carros-de-luxo-como-funcionava-suposto-esquema-do-grupo-que-tentou-comprar-o-banco-master.ghtml) · [Folha de S.Paulo (6)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://c-level.folha.uol.com.br/financas/2026/11/quem-e-rafael-gois-ceo-e-fundador-da-fictor-e-investigado-em-operacao-em-sp.shtml) · [Valor Econômico (3)](https://valor.globo.com/financas/noticia/2026/11/26/fundador-do-grupo-fictor-j-foi-alvo-de-operao-da-pf-sobre-fraudes-bancrias-contra-a-caixa.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/pol%C3%ADcia-civil-de-S%C3%A3o-Paulo-faz-opera%C3%A7%C3%A3o-contra-Grupo-Fictorsa-que-movimentou-r-4-bi) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/economia/money/negocios/fictor-tentou-comprar-banco-master-relembre-negociacao-que-foi-suspensa/)  
 
-**4. Acidente com caminhão-tanque deixa pelo menos 30 mortos no Egito**  
-notícia `88` · cotidiano · Brasil · 4 veículos · Folha de S.Paulo  
-Pelo menos 30 pessoas morreram e outras 15 ficaram feridas em um acidente envolvendo um caminhão-tanque em uma importante rodovia do Egito nesta quarta-feira (25), informou o Ministério da Saúde do país africano em um comunicado. Leia mais (11/25/2026 - 16h46)  
-*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração █████████· · recência ██████████ · calor ███████···  
-> ⚠️ Pauta com vítimas: tom sóbrio, sem trilha animada e sem close em dor alheia.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/acidente-com-caminhao-tanque-deixa-pelo-menos-30-mortos-no-egito.shtml)  
-Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/acidente-com-caminhao-tanque-deixa-pelo-menos-30-mortos-no-egito.shtml) · [g1](https://g1.globo.com/mundo/noticia/2026/11/25/caminhao-tanque-pega-fogo-e-deixa-ao-emnos-21-mortos-no-egito.ghtml) · [Valor Econômico](https://valor.globo.com/mundo/noticia/2026/11/25/caminho-pega-fogo-e-deixa-ao-menos-30-mortos-no-egito.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/explosao-de-caminhao-tanque-provoca-incendio-e-deixa-mortos-no-egito/)  
+**4. Fifa diz ter sido alvo de ataque cibernético**  
+notícia `96` · tecnologia · Brasil · 5 veículos · Folha de S.Paulo  
+A Fifa (Federação Internacional de Futebol ) informou nesta quinta-feira (26) que foi vítima de um ataque cibernético criminoso que permitiu acesso não autorizado a informações pessoais e comerciais. Leia mais (11/26/2026 - 10h20)  
+*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; 5 matérias em 1.9h  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/fifa-diz-ter-sido-alvo-de-ataque-cibernetico.shtml)  
+Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/fifa-diz-ter-sido-alvo-de-ataque-cibernetico.shtml) · [g1](https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/11/26/fifa-diz-ter-sido-vitima-de-ataque-cibernetico-que-acessou-informacoes-pessoais-e-comerciais.ghtml) · [Poder360](https://www.poder360.com.br/poder-sportsmkt/fifa-e-alvo-de-ataque-hacker-e-confirma-acesso-indevido-a-dados/) · [ge (Globo Esporte)](https://ge.globo.com/futebol/futebol-internacional/noticia/2026/11/26/fifa-sofre-ataque-hacker.ghtml) · [Olhar Digital](https://olhardigital.com.br/2026/11/26/seguranca/fifa-confirma-ataque-cibernetico-com-acesso-a-dados-pessoais/)  
 
-**5. Corinthians cede empate ao Atlético, mas deixa a zona de rebaixamento**  
-notícia `84` · esporte · Brasil · 3 veículos · Folha de S.Paulo  
-O Corinthians somou um importante ponto diante do Atlético-MG nesta quarta-feira (25), com um empate por 1 a 1, e terminou a 36ª rodada do Campeonato Brasileiro fora da zona de rebaixamento. Leia mais (11/25/2026 - 22h09)  
-*Por que entrou:* 3 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ████████·· · recência █████████· · calor ████████··  
-[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/corinthians-cede-empate-ao-atletico-mas-deixa-a-zona-de-rebaixamento.shtml)  
-Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/esporte/2026/11/corinthians-cede-empate-ao-atletico-mas-deixa-a-zona-de-rebaixamento.shtml) · [CNN Brasil (3)](https://www.cnnbrasil.com.br/esportes/brasileirao/corinthians-nao-aproveita-expulsao-do-atletico-mg-e-segue-ameacado-pelo-z4/) · [ge (Globo Esporte) (3)](https://ge.globo.com/mg/futebol/brasileirao-serie-a/jogo/25-11-2026/atletico-mg-corinthians.ghtml)  
+**5. Caso David Corrêa: ligação com traficantes e organização criminosa no ES levou jogador do Vasco à prisão no RJ; entenda**  
+notícia `95` · cotidiano · Brasil · 4 veículos · g1  
+O jogador David Corrêa, atacante do Vasco da Gama Reprodução Após decisão da Justiça do Espírito Santo, o atacante do Vasco, David Corrêa, foi preso nesta quinta-feira (26). Ele é investigado no âmbito da Operação "A Tropa", por susposta ligação com traficante  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; 8 matérias em 0.66h  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ██████████  
+> ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
+[Ler na fonte](https://g1.globo.com/es/espirito-santo/noticia/2026/11/26/caso-david-correa-ligacao-com-traficantes-no-es-levou-jogador-do-vasco-a-prisao-no-rj-entenda.ghtml)  
+Cobertura: [g1 (5)](https://g1.globo.com/es/espirito-santo/noticia/2026/11/26/caso-david-correa-ligacao-com-traficantes-no-es-levou-jogador-do-vasco-a-prisao-no-rj-entenda.ghtml) · [InfoMoney](https://www.infomoney.com.br/brasil/david-correa-jogador-do-vasco-e-preso-no-rio-de-janeiro-em-operacao-contra-cv/) · [CNN Brasil](https://www.cnnbrasil.com.br/nacional/sudeste/rj/david-atacante-do-vasco-e-preso-em-investigacao-sobre-ligacao-com-o-cv/) · [ge (Globo Esporte)](https://ge.globo.com/futebol/times/vasco/noticia/2026/11/26/david-e-preso-dentro-do-ct-do-vasco.ghtml)  
 
-**6. Gana é eleita na ONU Turismo e Brasil assume vice-presidência**  
-notícia `59` · mundo · Mundo · 1 veículo · Agência Brasil Internacional  
-Gana foi eleita para presidir o Conselho Executivo da ONU Turismo em 2027. A escolha ocorreu durante a 127ª reunião do colegiado nesta quarta-feira (25), nos Emirados Árabes Unidos. O país africano recebeu 19 votos, vencendo a Argentina, que teve 14 votos. O B  
-*Por que entrou:* ainda fresca; peso de fonte alto (Agência Brasil Internacional); só Agência Brasil Internacional publicou  
-*Sinais:* corroboração ████······ · recência ███████··· · calor ████······  
-[Ler na fonte](https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/gana-e-eleita-na-onu-turismo-e-brasil-assume-vice-presidencia)  
-Cobertura: [Agência Brasil Internacional (2)](https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/gana-e-eleita-na-onu-turismo-e-brasil-assume-vice-presidencia)  
+**6. Orçamento e guerra na Ucrânia dividem líderes da UE em cúpula extraordinária**  
+notícia `69` · mundo · Mundo · 2 veículos · RFI Brasil  
+Chefes de Estado e de governo do bloco se reúnem para tentar destravar o plano orçamentário plurianual de 2028 a 2034, que depende de aprovação unânime. Também estão na mesa o novo empréstimo de € 45 bilhões à Ucrânia e a sucessão de Christine Lagarde na presi  
+*Por que entrou:* 2 veículos cobrindo; ainda fresca; fonte RFI Brasil  
+*Sinais:* corroboração ██████···· · recência ███████··· · calor ██████····  
+[Ler na fonte](https://www.rfi.fr/br/podcasts/linha-direta/20261126-or%C3%A7amento-e-guerra-na-ucr%C3%A2nia-dividem-l%C3%ADderes-da-ue-em-c%C3%BApula-extraordin%C3%A1ria)  
+Cobertura: [RFI Brasil](https://www.rfi.fr/br/podcasts/linha-direta/20261126-or%C3%A7amento-e-guerra-na-ucr%C3%A2nia-dividem-l%C3%ADderes-da-ue-em-c%C3%BApula-extraordin%C3%A1ria) · [Euronews (português)](https://pt.euronews.com/2026/11/26/uniao-europeia-debate-orcamento-e-apoio-a-ucrania-em-cimeira-tensa)  
 
 ## Reserva (não entrou hoje)
 
-- `86` Os muitos 'ses' para Trabuco e outros cotados para Fazenda — *cota de politica cheia*
-- `83` Lotofácil 3838: seis apostas de MT acertam 14 números e ganham R$ 1 mil — *ficou fora do corte*
-- `83` Como aproveitar Black Friday para comprar cafés online — *ficou fora do corte*
-- `83` Caso Master: defesa de Vorcaro pede que Nunes Marques deixe relatoria de ação no STF contra Fac — *ficou fora do corte*
-- `83` PGR denuncia Gustavo Gayer e mais 24 pessoas por suposto desvio de verba parlamentar — *ficou fora do corte*
-- `82` Apenas 26% dos municípios com serviço de drenagem têm protocolos para situações de desastre, mo — *ficou fora do corte*
-- `82` Justiça dos EUA condena Huawei por roubar segredos comerciais, fraude bancária e outros oito cr — *ficou fora do corte*
-- `81` Morre Andy Taylor, guitarrista da banda Duran Duran, aos 65 anos — *ficou fora do corte*
-
-## Já foi pauta nos últimos dias
-
-- Câmara aprova diretrizes para guiar expansão da educação em tempo integral; texto vai ao Senado — *ja foi pauta em 2026-11-25*
-- FCC autoriza SpaceX a lançar 1 milhão de satélites para criar data centers no espaço — *ja foi pauta em 2026-11-25*
+- `93` Na véspera da Black Friday, 60% dos produtos pesquisados pelo g1 já estão mais baratos; veja li — *ficou fora do corte*
+- `92` Bolsa dispara mais de 4% com possibilidade de Trabuco na Fazenda; dólar cai a R$ 5,72 — *ficou fora do corte*
+- `92` Nvidia orienta suspensão de envio de chips para quatro países do Sudeste Asiático — *ficou fora do corte*
+- `91` Brasil em busca de um lugar no mundo — *ficou fora do corte*
+- `91` Tarifaço: China, Brasil e União Europeia criticam nova rodada de tarifas proposta pelos EUA — *ficou fora do corte*
+- `90` Musk dobra a aposta e promete doar duas ações da SpaceX para cada criança dos EUA — *ficou fora do corte*
+- `88` Governo e BC anunciam medidas para reduzir endividamento, com regras para cartão de crédito e e — *ficou fora do corte*
+- `87` Homem é condenado a 31 anos por feminicídio e outro recebe 11 anos por tentar matar ex-esposa — *ficou fora do corte*
 
 ## Fontes que não responderam
 
-- Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
-- CNN Brasil Internacional: `HTTP 404`
+- Estadão: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
+- CNN Brasil Internacional: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
