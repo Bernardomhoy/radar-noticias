@@ -1,77 +1,76 @@
 # Radar de Notícias — 2026-11-27
-*Fechado às 02:18 (horário de Brasília) · 1162 matérias lidas · 630 pautas identificadas · 18 fontes ativas*
+*Fechado às 12:31 (horário de Brasília) · 1165 matérias lidas · 621 pautas identificadas · 18 fontes ativas*
 
 ## Pauta do dia
 
 *Ordenada por valor jornalístico.*
 
-**1. Fundo de ações brasileiras sobe mais de 9% nos EUA após confirmação de Trabuco na Fazenda**  
-notícia `96` · economia · Brasil · 9 veículos · g1  
-Trabuco é o primeiro nome confirmado da nova composição ministerial de Lula World Economic Forum/Benedikt von Loebell via BBC O EWZ, fundo de investimento negociado nos Estados Unidos que acompanha o desempenho de ações brasileiras, registrava alta de 9,45% na  
-*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; 111 matérias em 36.33h  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ██████████  
-> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
-[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/27/ewz-sobe-apos-confirmacao-de-trabuco-na-fazenda.ghtml)  
-Cobertura: [g1 (28)](https://g1.globo.com/economia/noticia/2026/11/27/ewz-sobe-apos-confirmacao-de-trabuco-na-fazenda.ghtml) · [Folha de S.Paulo (35)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/bradesco-bbi-eleva-recomendacao-para-acoes-brasileiras-apos-escolha-de-trabuco-para-fazenda.shtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/cv8e014e88xgo?at_medium=RSS&at_campaign=rss) · [Agência Brasil (EBC) (2)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/veja-repercussao-da-escolha-de-trabuco-para-o-ministerio-da-fazenda) · [Valor Econômico (13)](https://valor.globo.com/brasil/noticia/2026/11/26/nomeao-de-trabuco-mostra-que-governo-acordou-mas-desafio-ainda-lula-liderar-ajuste-diz-ibre.ghtml) · [InfoMoney (5)](https://www.infomoney.com.br/politica/alcolumbre-diz-receber-com-otimismo-escolha-de-trabuco-para-a-fazenda/)  
+**1. Sem CUT, centrais sindicais 'saúdam' nomeação de Trabuco para Fazenda**  
+notícia `98` · politica · Brasil · 11 veículos · Folha de S.Paulo  
+Sem a participação da CUT, centrais sindicais divulgaram uma nota em que "saúdam" a escolha de Luiz Carlos Trabuco como ministro da Fazenda e desejam sucesso a ele na função. Também se colocam à disposição para dialogar com o futuro chefe da equipe econômica d  
+*Por que entrou:* 11 veículos cobrindo; publicada nas últimas horas; 140 matérias em 47.44h  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
+[Ler na fonte](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/sem-cut-centrais-sindicais-saudam-nomeacao-de-trabuco-para-fazenda.shtml)  
+Cobertura: [Folha de S.Paulo (51)](https://redir.folha.com.br/redir/online/poder/rss091/*https://www1.folha.uol.com.br/colunas/painel/2026/11/sem-cut-centrais-sindicais-saudam-nomeacao-de-trabuco-para-fazenda.shtml) · [g1 (53)](https://g1.globo.com/economia/noticia/2026/11/27/trabuco-na-fazenda-veja-outros-banqueiros-que-estiveram-a-frente-do-ministerio-da-fazenda.ghtml) · [Valor Econômico (16)](https://valor.globo.com/financas/noticia/2026/11/27/trabuco-na-fazenda-pode-favorecer-aes-de-xp-b3-e-btg-no-curto-prazo-avalia-citi.ghtml) · [BBC News Brasil (2)](https://www.bbc.com/portuguese/articles/cv8e014e88xgo?at_medium=RSS&at_campaign=rss) · [Agência Brasil (EBC) (2)](https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/veja-repercussao-da-escolha-de-trabuco-para-o-ministerio-da-fazenda) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/brasil-decide-que-embaixador-nao-deve-mais-voltar-argentina-de-milei)  
 
-**2. Black Friday: eletrônicos e vestuário lideram procura em Ribeirão Preto; 70% vão antecipar presentes de Natal**  
-notícia `93` · economia · Brasil · 9 veículos · g1  
-Black Friday: dia de promoções movimenta comércio de rua em Ribeirão Preto A Black Friday nesta sexta-feira (27) movimenta o comércio de Ribeirão Preto (SP) para quem busca ofertas, com destaque para eletrodomésticos, eletrônicos, vestuário, calçados e itens d  
-*Por que entrou:* 9 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ████████··  
-[Ler na fonte](https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2026/11/27/black-friday-eletronicos-e-vestuario-lideram-procura-em-ribeirao-preto-70percent-vao-antecipar-presentes-de-natal.ghtml)  
-Cobertura: [g1 (6)](https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2026/11/27/black-friday-eletronicos-e-vestuario-lideram-procura-em-ribeirao-preto-70percent-vao-antecipar-presentes-de-natal.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/propaganda-enganosa-lidera-conflitos-judiciais-relacionados-a-black-friday-diz-estudo.shtml) · [Valor Econômico (5)](https://valor.globo.com/empresas/marketing/noticia/2026/11/27/ficou-com-culpa-depois-da-compra-na-black-friday-2026-entenda-o-que-e-a-oniomania.ghtml) · [CNN Brasil](https://www.cnnbrasil.com.br/economia/money/negocios/black-friday-2026-veja-o-que-vale-a-pena-comprar-e-onde-economizar/) · [Euronews (português)](https://pt.euronews.com/2026/11/26/black-friday-psp-deixa-alerta-para-possives-burlas-online) · [Tecnoblog (14)](https://tecnoblog.net/achados/galaxy-watch-9-tem-57-off-imbativel-a-poucas-horas-da-black-friday/)  
+**2. Black Friday: uso do PIX cresce 29% nas primeiras horas do dia em relação a 2025, aponta levantamento**  
+notícia `96` · tecnologia · Brasil · 13 veículos · g1  
+É Black Friday ou Black Fraude? Os pagamentos realizados via PIX nas primeiras horas da Black Friday cresceram 29% em relação ao mesmo período do ano passado. O dado é de um levantamento divulgado pelo Itaú Unibanco. A pesquisa considerou as transações efetuad  
+*Por que entrou:* 13 veículos cobrindo; publicada nas últimas horas; 92 matérias em 42.52h  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor █████████·  
+[Ler na fonte](https://g1.globo.com/guia/guia-de-compras/black-friday-uso-do-pix-cresce-29percent-nas-primeiras-horas-do-dia-em-relacao-a-2025-aponta-levantamento.ghtml)  
+Cobertura: [g1 (8)](https://g1.globo.com/guia/guia-de-compras/black-friday-uso-do-pix-cresce-29percent-nas-primeiras-horas-do-dia-em-relacao-a-2025-aponta-levantamento.ghtml) · [Folha de S.Paulo (9)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/os-caminhoneiros-que-se-arriscam-e-ganham-pouco-para-entregar-suas-compras-na-black-friday-querem-que-a-gente-trabalhe-sem-parar.shtml) · [Valor Econômico (8)](https://valor.globo.com/empresas/noticia/2026/11/27/com-black-friday-menos-agressiva-papel-higienico-e-console-sao-campeoes-de-venda.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cm4gnjx14j7lo?at_medium=RSS&at_campaign=rss) · [InfoMoney (2)](https://www.infomoney.com.br/consumo/black-friday-samsung-ofertas/) · [RFI Brasil](https://www.rfi.fr/br/fran%C3%A7a/20261127-an%C3%BAncios-com-canetas-emagrecedoras-falsas-se-multiplicam-na-internet-durante-black-friday)  
 
-**3. Trump se deleita na farsa e se exibe na ponta de um iceberg chamado Nvidia**  
-notícia `90` · politica · Brasil · 5 veículos · Folha de S.Paulo  
-A indulgência com Donald Trump traduz a predisposição de parte dos comentaristas políticos, que se anima ante o menor sinal do que possa sugerir a regeneração moral do presidente americano. Leia mais (11/26/2026 - 23h00)  
-*Por que entrou:* 5 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência █████████· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/colunas/laura-greenhalgh/2026/11/trump-se-deleita-na-farsa-e-se-exibe-na-ponta-de-um-iceberg-chamado-nvidia.shtml)  
-Cobertura: [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/colunas/laura-greenhalgh/2026/11/trump-se-deleita-na-farsa-e-se-exibe-na-ponta-de-um-iceberg-chamado-nvidia.shtml) · [g1 (6)](https://g1.globo.com/tecnologia/noticia/2026/11/26/por-que-trump-pressionou-pela-volta-de-jensen-huang-a-chefia-da-nvidia.ghtml) · [Valor Econômico](https://valor.globo.com/carreira/coluna/a-nvidia-o-ceo-acima-das-regras.ghtml) · [BBC News Brasil](https://www.bbc.com/portuguese/articles/cqdj1xz29jkdo?at_medium=RSS&at_campaign=rss) · [CNN Brasil](https://www.cnnbrasil.com.br/internacional/trump-diz-que-ceo-da-nvidia-fara-trabalho-melhor-apos-retorno-ao-cargo/)  
-
-**4. Brasileira campeã de futebol de areia, encarcerada em prisão russa, vira centro de impasse diplomático entre Brasil, Rússia e EUA**  
-notícia `88` · mundo · Brasil · 7 veículos · Folha de S.Paulo  
-A campeã de futebol de areia Letícia "Lelê" Villar, 33, está presa em uma colônia penal na Mordóvia, conhecida como uma das piores prisões da Rússia , e é pretexto de pressões do governo de Vladimir Putin para uma troca de prisioneiros com o russo Sergei Tcher  
-*Por que entrou:* 7 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ████████·· · calor ███████···  
-> ⚠️ Há investigação em curso: fale "suspeito de", "segundo a polícia" — nunca afirme culpa.  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/brasileira-campea-de-futebol-de-areia-encarcerada-em-prisao-russa-vira-centro-de-impasse-diplomatico-entre-brasil-russia-e-eua.shtml)  
-Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/brasileira-campea-de-futebol-de-areia-encarcerada-em-prisao-russa-vira-centro-de-impasse-diplomatico-entre-brasil-russia-e-eua.shtml) · [g1 (6)](https://g1.globo.com/economia/agronegocios/noticia/2026/11/25/secretaria-de-agricultura-de-trump-defende-novas-tarifas-e-acusa-brasil-de-praticas-desleais-contra-agricultores-dos-eua.ghtml) · [Valor Econômico](https://valor.globo.com/brasil/noticia/2026/11/26/governo-lula-deve-consultar-setores-e-buscar-alternativas-aps-novas-tarifas-propostas-pelos-eua.ghtml) · [RFI Brasil](https://www.rfi.fr/br/am%C3%A9ricas/20261126-guerra-tarif%C3%A1ria-eua-mant%C3%AAm-ofensiva-contra-brasil-e-abrem-consulta-p%C3%BAblica-planalto-fala-em-indigna%C3%A7%C3%A3o) · [Poder360](https://www.poder360.com.br/poder-internacional/flavio-diz-que-nao-pedira-intervencao-dos-eua-no-brasil/) · [ge (Globo Esporte)](https://ge.globo.com/basquete/ao-vivo/eliminatorias-para-a-copa-do-mundo-de-basquete-brasil-x-eua.ghtml)  
-
-**5. Lula pode convidar ex-presidentes da Argentina para a posse mesmo sem presença de Milei**  
-notícia `87` · politica · Brasil · 6 veículos · Folha de S.Paulo  
-Além dos convites oficiais a outros chefes de Estado para sua posse em 2027, o presidente Luiz Inácio Lula da Silva (PT) fará convites a nível pessoal, o que poderá incluir ex-presidentes de países que não serão oficialmente representados, como a Argentina . L  
+**3. Expectativa de vida no Brasil chega a 76,9 anos, diz IBGE**  
+notícia `95` · economia · Brasil · 6 veículos · Folha de S.Paulo  
+A expectativa de vida do brasileiro chegou a 76,9 anos em 2025, aponta a mais recente pesquisa do IBGE (Instituto Brasileiro de Geografia e Estatística) sobre o tema. Os resultados foram divulgados nesta sexta-feira (27). Leia mais (11/27/2026 - 10h07)  
 *Por que entrou:* 6 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (Folha de S.Paulo)  
-*Sinais:* corroboração ██████████ · recência ████████·· · calor ███████···  
-[Ler na fonte](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/lula-pode-convidar-ex-presidentes-da-argentina-para-a-posse-mesmo-sem-presenca-de-milei.shtml)  
-Cobertura: [Folha de S.Paulo (3)](https://redir.folha.com.br/redir/online/mundo/rss091/*https://www1.folha.uol.com.br/mundo/2026/11/lula-pode-convidar-ex-presidentes-da-argentina-para-a-posse-mesmo-sem-presenca-de-milei.shtml) · [g1](https://g1.globo.com/politica/noticia/2026/11/26/cleitinho-se-reune-com-lula-convida-petista-para-posse-e-defende-pacificacao-do-pais.ghtml) · [Agência Brasil (EBC)](https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-cleitinho-debatem-negociacao-de-divida-de-minas-gerais) · [Agência Brasil Internacional](https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/brasil-decide-que-embaixador-nao-deve-mais-voltar-argentina-de-milei) · [CNN Brasil](https://www.cnnbrasil.com.br/politica/de-itamar-a-cleitinho-lula-abre-nova-fase-na-relacao-de-mg-e-suas-dividas/) · [Euronews (português)](https://pt.euronews.com/2026/11/26/argentina-entra-em-recessao-tecnica-apesar-de-reformas-economicas-de-milei)  
+*Sinais:* corroboração ██████████ · recência ██████████ · calor ████████··  
+[Ler na fonte](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/expectativa-de-vida-no-brasil-chega-a-769-anos-diz-ibge.shtml)  
+Cobertura: [Folha de S.Paulo](https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/cotidiano/2026/11/expectativa-de-vida-no-brasil-chega-a-769-anos-diz-ibge.shtml) · [g1](https://g1.globo.com/economia/noticia/2026/11/27/expectativa-de-vida-no-brasil-sobe-para-769-anos-em-2025-diz-ibge.ghtml) · [Agência Brasil (EBC) (2)](https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/expectativa-de-vida-das-mulheres-no-brasil-supera-os-80-anos) · [Valor Econômico (2)](https://valor.globo.com/brasil/noticia/2026/11/27/expectativa-de-vida-no-brasil-subiu-para-o-recorde-de-769-anos-em-2025-diz-ibge.ghtml) · [InfoMoney](https://www.infomoney.com.br/brasil/expectativa-de-vida-no-brasil-sobe-para-769-anos-diz-ibge/) · [CNN Brasil](https://www.cnnbrasil.com.br/nacional/brasil/expectativa-de-vida-sobe-para-769-anos-no-brasil-mostra-ibge/)  
 
-**6. Orçamento e guerra na Ucrânia dividem líderes da UE em cúpula extraordinária**  
-notícia `60` · mundo · Mundo · 2 veículos · RFI Brasil  
-Chefes de Estado e de governo do bloco se reúnem para tentar destravar o plano orçamentário plurianual de 2028 a 2034, que depende de aprovação unânime. Também estão na mesa o novo empréstimo de € 45 bilhões à Ucrânia e a sucessão de Christine Lagarde na presi  
-*Por que entrou:* 2 veículos cobrindo; fonte RFI Brasil; 3 matérias em 7.2h  
-*Sinais:* corroboração ██████···· · recência ████······ · calor ██████····  
-[Ler na fonte](https://www.rfi.fr/br/podcasts/linha-direta/20261126-or%C3%A7amento-e-guerra-na-ucr%C3%A2nia-dividem-l%C3%ADderes-da-ue-em-c%C3%BApula-extraordin%C3%A1ria)  
-Cobertura: [RFI Brasil](https://www.rfi.fr/br/podcasts/linha-direta/20261126-or%C3%A7amento-e-guerra-na-ucr%C3%A2nia-dividem-l%C3%ADderes-da-ue-em-c%C3%BApula-extraordin%C3%A1ria) · [Euronews (português) (2)](https://pt.euronews.com/2026/11/26/ucrania-como-a-uniao-europeia-financia-o-novo-emprestimo-de-apoio)  
+**4. Fachin prorroga inquérito sobre 'Dark Horse' por 60 dias**  
+notícia `93` · politica · Brasil · 4 veículos · g1  
+Fachin prorroga inquérito sobre 'Dark Horse' por 60 dias O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, prorrogou por 60 dias o prazo para que a Polícia Federal conclua as investigações sobre o financiamento do filme "Dark Horse", cineb  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; 7 matérias em 2.18h  
+*Sinais:* corroboração █████████· · recência ██████████ · calor ██████████  
+[Ler na fonte](https://g1.globo.com/politica/noticia/2026/11/27/fachin-prorroga-inquerito-sobre-dark-horse-por-60-dias.ghtml)  
+Cobertura: [g1](https://g1.globo.com/politica/noticia/2026/11/27/fachin-prorroga-inquerito-sobre-dark-horse-por-60-dias.ghtml) · [Valor Econômico (2)](https://valor.globo.com/politica/noticia/2026/11/27/fachin-prorroga-por-60-dias-inqurito-sobre-relao-de-jaques-wagner-com-ex-scio-de-vorcaro.ghtml) · [CNN Brasil (2)](https://www.cnnbrasil.com.br/politica/caso-master-fachin-prorroga-inquerito-sobre-jaques-wagner-por-60-dias/) · [Poder360 (2)](https://www.poder360.com.br/poder-justica/fachin-prorroga-inquerito-sobre-jaques-wagner-e-vorcaro/)  
+
+**5. PIX: Banco Central vai desenvolver regras para coibir envio de mensagens intimidatórias**  
+notícia `92` · economia · Brasil · 4 veículos · g1  
+O Banco Central vai desenvolver regras para coibir o envio de mensagens intimidatórias, violentas ou ofensivas por meio do PIX. A medida, anunciada nesta sexta-feira (27), integra o conjunto de iniciativas sobre a ferramenta prevista para o próximo ano. A auto  
+*Por que entrou:* 4 veículos cobrindo; publicada nas últimas horas; peso de fonte alto (g1)  
+*Sinais:* corroboração █████████· · recência ██████████ · calor █████████·  
+> ⚠️ Financeiro: não é recomendação de investimento — diga isso na tela.  
+[Ler na fonte](https://g1.globo.com/economia/noticia/2026/11/27/pix-bc-vai-desenvolver-regras-para-coibir-envio-de-mensagens-intimidatorias.ghtml)  
+Cobertura: [g1 (2)](https://g1.globo.com/economia/noticia/2026/11/27/pix-bc-vai-desenvolver-regras-para-coibir-envio-de-mensagens-intimidatorias.ghtml) · [Folha de S.Paulo (2)](https://redir.folha.com.br/redir/online/mercado/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/pix-tera-novas-regras-de-seguranca-e-bc-busca-disponibilizar-devolucao-de-valor-enviado-por-engano.shtml) · [Tecnoblog](https://tecnoblog.net/noticias/pix-vai-filtrar-ofensas-e-facilitar-retorno-de-dinheiro-enviado-por-engano/) · [Olhar Digital](https://olhardigital.com.br/2026/11/27/seguranca/bc-prepara-novas-regras-de-seguranca-e-melhorias-no-pix-em-2027/)  
+
+**6. ONU diz estar ‘profundamente preocupada’ com veto da Costa Rica a relatora sobre palestinos**  
+notícia `75` · mundo · Mundo · 2 veículos · RFI Brasil  
+O Alto-Comissariado da ONU para os Direitos Humanos declarou nesta sexta-feira (27) estar "profundamente preocupado" com a recusa de entrada na Costa Rica da relatora especial das Nações Unidas sobre a situação dos direitos humanos nos territórios palestinos o  
+*Por que entrou:* publicada nas últimas horas; 2 veículos cobrindo; fonte RFI Brasil  
+*Sinais:* corroboração ██████···· · recência █████████· · calor ███████···  
+[Ler na fonte](https://www.rfi.fr/br/am%C3%A9ricas/20261127-onu-diz-estar-profundamente-preocupada-com-veto-da-costa-rica-a-relatora-sobre-palestinos)  
+Cobertura: [RFI Brasil](https://www.rfi.fr/br/am%C3%A9ricas/20261127-onu-diz-estar-profundamente-preocupada-com-veto-da-costa-rica-a-relatora-sobre-palestinos) · [Euronews (português)](https://pt.euronews.com/2026/11/27/costa-rica-nega-entrada-a-relatora-da-onu-por-alegados-vinculos-terroristas)  
 
 ## Reserva (não entrou hoje)
 
-- `92` No dia da Black Friday, 58% dos itens pesquisados têm descontos; 33% estão mais caros; veja lis — *cota de economia cheia*
-- `84` Espanhol Pablo Hernández de Cos é escolhido para presidir o Banco Central Europeu — *cota de economia cheia*
-- `81` Sob protesto da torcida, São Paulo vence Remo no Morumbi — *ficou fora do corte*
-- `81` Brasil rebate Macron após fala sobre carne 'dopada' e acusa França de protecionismo — *ficou fora do corte*
-- `80` Bolsonaro segue internado, tem melhora clínica e inicia dieta líquida, diz boletim — *ficou fora do corte*
-- `80` Ibovespa dispara 6% com convite a Trabuco para a Fazenda e tem segunda maior alta desde 2021 — *ficou fora do corte*
-- `79` IPCA-15 desacelera a 0,22% em novembro, com alívio nas passagens aéreas e nos combustíveis — *ficou fora do corte*
-- `78` Em Dia de Ação de Graças, Trump agradece a assassinos e estupradores que deportou — *ficou fora do corte*
+- `92` Haddad deseja 'sorte e serenidade' a Trabuco e diz que Fazenda deve mirar programa eleito nas r — *cota de politica cheia*
+- `90` Governo tem superávit de R$ 52,2 bilhões em outubro, segundo melhor resultado do mês na série h — *cota de politica cheia*
+- `90` Como a imigração transformou a Espanha na última década e passou a ser tema fundamental das ele — *cota de politica cheia*
+- `88` Ativos brasileiros disparam em NY após escolha de Trabuco; XP e Bradesco saltam 18% — *ficou fora do corte*
+- `88` Instabilidade afeta serviços do Poupatempo, Detran e delegacias de SP nesta sexta-feira (27) — *ficou fora do corte*
+- `88` 'INSS do Reino Unido' tem site retirado do ar após 'incidente cibernético' — *ficou fora do corte*
+- `87` Hackers invadem plataforma de dados da Força Aérea dos EUA, diz agência — *ficou fora do corte*
+- `86` Embraer diz que tarifa de Trump sobre aviões pode elevar preço das passagens e inflação nos EUA — *ficou fora do corte*
 
 ## Fontes que não responderam
 
-- Estadão: `HTTP 404`
 - UOL: `ParseError: not well-formed (invalid token): line 5, column 15`
-- CNN Brasil Internacional: `HTTP 404`
+- Estadão: `HTTP 404`
 - Nexo Jornal: `HTTP 404`
+- CNN Brasil Internacional: `HTTP 404`
 
 ---
 *Gerado pelo Radar de Notícias v1.0.0 · perfil: Radar · alvo de 45s por reels*
